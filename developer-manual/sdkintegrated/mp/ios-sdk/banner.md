@@ -23,6 +23,8 @@
 
   GrowingTouchCoreUI.bundle以及GrowingTouchBannerKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.1.0-1.3.0.zip](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.1.0-1.3.0.zip)
 
+![](../../../../.gitbook/assets/image%20%2891%29.png)
+
 ### 3. 初始化SDK
 
 在 AppDelegate 中导入 \#import &lt;GrowingTouchCoreKit/GrowingTouchCoreKit.h&gt; 并添加初始化方法，且保证在埋点 SDK 初始化代码\[Growing startWithAccountId:@"YOUR\_ACCOUNT\_ID" dataSourceId:@"YOUR\_DATASOURCE\_ID"\]后
