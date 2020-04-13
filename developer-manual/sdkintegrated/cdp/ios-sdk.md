@@ -203,6 +203,18 @@ return YES；
         <p>&#x5236;&#x5C0F;&#x7B49;&#x4E8E;200&#xFF0C;&#x503C;&#x4E0D;&#x80FD;&#x4E3A;&#x7A7A;&#x4E32;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&quot;&quot;&#x3002;</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">itemId</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x7269;&#x54C1;&#x6A21;&#x578B;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x5C5E;&#x6027;&#xFF0C;&#x5982;&#x201C;order_id&quot;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">itemKey</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x7269;&#x54C1;&#x6A21;&#x578B;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x5C5E;&#x6027;&#x503C;&#xFF0C;&#x5982;&#x201C;123456&#x201D;</td>
+    </tr>
   </tbody>
 </table>代码示例：
 
@@ -210,10 +222,16 @@ return YES；
 // track API原型
 + (void)track:(NSString *)eventId;
 + (void)track:(NSString *)eventId withVariable:(NSDictionary<NSString *, NSObject *> *)variable;
++ (void)track:(NSString *)eventId withVariable:(NSDictionary<NSString *, NSObject *> *)variable forItem:(NSString *)itemId itemKey:(NSString *)itemKey;
+
 // track API调用示例一
 [Growing track:@"registerSuccess"];
-// track API调用示例二
+
+// track API调用示例二 - 事件属性
 [Growing track:@"registerSuccess" withVariable:@{@"gender":@"male", @"age":@"21"}];
+
+// track API调用示例三 - 物品模型
+[Growing track:@"registerSuccess" withVariable:@{@"gender":@"male", @"age":@"21"} forItem:@"order_id" itemKey:@"123456"];
 ```
 
 ### **发送用户事件**

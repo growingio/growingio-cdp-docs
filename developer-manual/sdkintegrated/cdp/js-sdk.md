@@ -144,17 +144,24 @@ gdp('setUserAttributes', userAttributes);
 ```text
 // track API调用原型
 gdp(track, eventId);
+// 事件属性上传
 gdp('track', eventId, eventLevelVariables);
+// 物品模型上传
+gdp('track', eventId, eventLevelVariables, item);
 ```
 
 | 参数名称 | 类型 | 是否必填 | 说明 |
 | :--- | :--- | :--- | :--- |
 | eventId | string | 是 | 事件标识符。 |
 | eventLevelVariable | JSON Object | 否 | 事件变量。 |
+| item | JSON Object | 否 | 物品模型。 |
 
 ```text
-// track API调用示例
+// track API调用示例 - 事件属性
 gdp('track','order', {type: 'hjh'})
+// track API调用示例 - 物品模型
+gdp('track','testEvent',{},{key:'order_id',id:'123456'})
+// key为物品模型唯一标识属性
 ```
 
 ## **GDPR**

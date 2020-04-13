@@ -240,6 +240,18 @@ GrowingIO.getInstance().clearUserId();
         <p>&#x4E8E;&#x7B49;&#x4E8E;200&#xFF0C;&#x503C;&#x4E0D;&#x80FD;&#x4E3A;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x201C;&#x201D;&#x3002;</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">itemId</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x7269;&#x54C1;&#x6A21;&#x578B;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x5C5E;&#x6027;&#xFF0C;&#x5982;&quot;order_id&quot;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">itemKey</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x7269;&#x54C1;&#x6A21;&#x578B;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x5C5E;&#x6027;&#x7684;&#x503C;&#xFF0C;&#x5982;&quot;123456&quot;</td>
+    </tr>
   </tbody>
 </table>示例代码：
 
@@ -247,12 +259,23 @@ GrowingIO.getInstance().clearUserId();
 // track API调用示例一
 IGrowingIO gio = GrowingIO.getInstance();
 gio.track("registerSuccess");
-// track API调用示例二
+
+// track API调用示例二 - 事件属性
 IGrowingIO gio = GrowingIO.getInstance();
 JSONObject jsonObject = new JSONObject();
 jsonObject.put("gender", "male");
 jsonObject.put("age", "21");
 gio.track("registerSuccess", jsonObject);
+
+// track API调用示例三 - 物品模型
+IGrowingIO gio = GrowingIO.getInstance();
+JSONObject jsonObject = new JSONObject();
+String eventName = "payOrder";
+eventVar.put("k1","v1");
+eventVar.put("k2","v2");
+String itemKey = "order_id";
+String itemId = '123456';
+gio.track(eventName, eventVar, itemId, itemKey);
 ```
 
 ### **设置用户属性**
