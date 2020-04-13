@@ -263,15 +263,13 @@
 
 ### 5. 设置用户注册时间
 
-> 版本要求：1.2.0及以上
-
-您可以设置用户注册时间，这样就可以在做分群选择时使用注册至今来筛选用户。
+> 您可以设置用户注册时间，这样就可以在做分群选择时使用注册至今来筛选用户。
 
 使用上传登录用户变量接口上传用户注册时间，您需要将key设置为CreateAt。
 
 ```java
 [Growing setUserId:@"zhangsan"];
-// 登陆用户属性 注册至今 需设置CreateAt，值必须用YYYYMMDD 的方式上传，否则无法生效  要求SDK1.2.1及以上
+// 登陆用户属性 注册至今 需设置CreateAt，值必须用YYYYMMDD 的方式上传，否则无法生效
 [Growing setPeopleVariable:@{@"CreateAt":@"20191219"}];
 ```
 
@@ -352,7 +350,7 @@ class SFViewController: UIViewController {
   
 ****使用特殊登陆用户变量，**注册至今**  
 需要在代码设置一下登陆用户变量 注册日期 CreateAt，需要保证key 是 CreateAt , 值是YYYYMMDD  
-SDK 版本1.2.1以上
+
 
 ```
 // 参考
