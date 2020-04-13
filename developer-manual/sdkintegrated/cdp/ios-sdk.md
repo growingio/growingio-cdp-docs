@@ -20,7 +20,7 @@
 
 添加编译参数，并注意大小写。
 
-![](../../../.gitbook/assets/image%20%28134%29.png)
+![](../../../.gitbook/assets/image%20%28135%29.png)
 
 ### **添加URL Scheme**
 
