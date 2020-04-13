@@ -1,5 +1,16 @@
 # Android SDK
 
+## **添加依赖**
+
+在 module 级别的 build.gradle 文件中添加依赖
+
+```text
+dependencies {
+    //埋点CDP SDK
+    implementation 'com.growingio.android:vds-android-agent:cdp-1.1'
+}
+```
+
 ## **添加初始化代码**
 
 请将GrowingIO.starWithConfiguration 加在您的 Application 的onCreate方法中。
@@ -10,18 +21,18 @@ SDK的初始化时机必须在 Application的onCreate方法中进行。
 public class MyApplication extends Application {
 @Override
 public void onCreate() {
-super.onCreate();
-// GrowingIO 初始化代码
-GrowingIO.startWithConfiguration(this, new Configuration()
-.setProjectId("获取您的项目ID")
-.setDataSourceId("填写您的数据源ID")
-.setURLScheme("填写UrlScheme")
-.setTestMode(BuildConfig.DEBUG)
-.setDebugMode(BuildConfig.DEBUG)
-.setTrackerHost("这里设置为您的 HOST ")
-.setChannel("XXX应用商店")
-);
-}
+    super.onCreate();
+    // GrowingIO 初始化代码
+    GrowingIO.startWithConfiguration(this, new Configuration()
+        .setProjectId("获取您的项目ID")
+        .setDataSourceId("填写您的数据源ID")
+        .setURLScheme("填写UrlScheme")
+        .setTestMode(BuildConfig.DEBUG)
+        .setDebugMode(BuildConfig.DEBUG)
+        .setTrackerHost("这里设置为您的 HOST ")
+        .setChannel("XXX应用商店")
+        );
+    }
 }
 ```
 
@@ -39,7 +50,7 @@ package="com.example.cdpdemo">
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-<!-- GIO 需要的权限  -->
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 <application
 android:name=".MyApplication"
 ... />
@@ -323,9 +334,9 @@ gio.track(eventName, eventVar, itemId, itemKey);
 ```text
 //代码示例一
 try {
-GrowingIO.getInstance().setUserAttributes(new JSONObject().put("age", 54).put("gender", "male"));
+    GrowingIO.getInstance().setUserAttributes(new JSONObject().put("age", 54).put("gender", "male"));
 } catch (JSONException e) {
-e.printStackTrace();
+    e.printStackTrace();
 }
 //代码示例二
 HashMap<String,Object> userAttr = new HashMap<>();

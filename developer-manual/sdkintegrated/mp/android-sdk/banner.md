@@ -20,19 +20,13 @@
 
 ## 集成SDK
 
-### 1. 集成GrowingIO Android无埋点SDK
+### 1. 集成GrowingIO Android CDP SDK
 
-添加资源位 SDK前请确保您已经集成了我们公司的埋点 SDK，版本需要在 2.6.9 及以上，详细情况请移步[Android埋点SDK帮助文档](https://docs.growingio.com/docs/developer-manual/sdkintegrated/android-sdk/auto-android-sdk)。最低兼容的 Android 版本为 4.2 。
+添加弹窗SDK前请确保您已经集成了我们公司的CDP SDK，版本需要在 cdp-1.1 及以上，详细情况请移步[Android CDP SDK帮助文档](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/android-sdk)。最低兼容的 Android 版本为 4.2 。
 
 ### 2. 添加依赖
 
 #### 2.1 在app build.gradle添加SDK依赖
-
-
-
-{% hint style="info" %}
-v1.2.0之前的SDK升级到v1.2.0之后，若还想使用触达原生banner模板，必须集成以下相关依赖
-{% endhint %}
 
 ```java
 dependencies {
@@ -40,13 +34,11 @@ dependencies {
     //由于资源位底层网络库依赖OkHttp3网络库，请添加OkHttp3依赖
     implementation "com.squareup.okhttp3:okhttp:3.12.1"
     //资源位SDK依赖
-    implementation "com.growingio.android:gtouch:$gtouch_version"
+    implementation "com.growingio.android:gtouch:1.3.0-cdp"
     //触达原生banner模板依赖
-    implementation "com.growingio.android.widget:gtouch-banner:$gtouch_version"
+    implementation "com.growingio.android.widget:gtouch-banner:1.3.0-cdp"
 }
 ```
-
-> $gtouch\_version 为资源位SDK版本号，现最新的版本号为请参考[SDK更新日志]()。
 
 ###  3. 需要的权限列表
 
@@ -71,7 +63,11 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         GrowingIO.startWithConfiguration(this, new Configuration()
-            .trackAllFragments()
+            .setProjectId("获取您的项目ID")
+		    		.setDataSourceId("填写您的数据源ID")
+				    .setURLScheme("填写UrlScheme")
+            .setDebugMode(BuildConfig.DEBUG)
+            .setTrackerHost("这里设置为您的 HOST ")
             .setChannel("XXX应用商店")
             );
 

@@ -10,9 +10,9 @@
 
 ## 一、集成SDK
 
-### 1. 集成GrowingIO Android埋点SDK
+### 1. 集成GrowingIO Android CDP SDK
 
-添加弹窗SDK前请确保您已经集成了我们公司的埋点 SDK，版本需要在 2.6.9 及以上，详细情况请移步[Android埋点SDK帮助文档](https://docs.growingio.com/docs/developer-manual/sdkintegrated/android-sdk/manunl-android-sdk)。最低兼容的 Android 版本为 4.2 。
+添加弹窗SDK前请确保您已经集成了我们公司的CDP SDK，版本需要在 cdp-1.1 及以上，详细情况请移步[Android CDP SDK帮助文档](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/android-sdk)。最低兼容的 Android 版本为 4.2 。
 
 ### 2. 添加依赖
 
@@ -24,11 +24,9 @@ dependencies {
     //由于弹窗底层网络库依赖OkHttp3网络库，请添加OkHttp3依赖
     implementation "com.squareup.okhttp3:okhttp:3.12.1"
     //弹窗SDK依赖
-    implementation "com.growingio.android:gtouch:$gtouch_version"
+    implementation "com.growingio.android:gtouch:1.3.0-cdp"
 }
 ```
-
-> $gtouch\_version 为弹窗SDK版本号，现最新的版本号为请参考[SDK更新日志]()。
 
 ###  3. 需要的权限列表
 
@@ -40,6 +38,8 @@ dependencies {
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
 ```
 
 ### 4. 初始化SDK
@@ -53,16 +53,19 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         GrowingIO.startWithConfiguration(this, new Configuration()
-            .trackAllFragments()
+            .setProjectId("获取您的项目ID")
+		    		.setDataSourceId("填写您的数据源ID")
+				    .setURLScheme("填写UrlScheme")
             .setDebugMode(BuildConfig.DEBUG)
+            .setTrackerHost("这里设置为您的 HOST ")
             .setChannel("XXX应用商店")
             );
 
         GrowingTouch.startWithConfig(this, new GTouchConfig()
              .setEventPopupShowTimeout(5000)
              .setEventPopupEnable(true)
-             .setPushEnable(true)
              .setDebugEnable(BuildConfig.DEBUG)
+             .setMessageHost("获取您的服务器上发出的弹窗数据")
              .setEventPopupListener(new EventPopupListener() {
                      @Override
                      public void onLoadSuccess(String eventId, String eventType) {
@@ -310,54 +313,9 @@ GrowingTouch.startWithConfig(this, new GTouchConfig()
          );
 ```
 
-### 5 设置弹窗SDK异常上传开关
+## 三、运行时API介绍\( GrowingTouch.class \)
 
-弹窗SDK会收集SDK内部异常上报服务端，方便开发更好的追踪弹窗SDK的问题，和完善弹窗SDK的功能。如果您不想帮助我们弹窗产品完善功能，或者和您的crash收集框架有冲突，您可以选择关闭此功能。
-
-#### 5.1 setUploadExceptionEnable
-
-弹窗异常消息上报开关
-
-```java
-setUploadExceptionEnable(boolean uploadExceptionEnable)
-```
-
-#### 5.2 参数说明
-
-| **参数名** | **类型** | **必填** | **默认值** | **说明** |
-| :--- | :--- | :--- | :--- | :--- |
-| uploadExceptionEnable | boolean | 是 | true | 开关SDK异常上传功能，true开启，false关闭 |
-
-#### 5.3 代码示例
-
-```java
-GrowingTouch.startWithConfig(this, new GTouchConfig()
-                .setUploadExceptionEnable(true)
-                ...
-                );
-```
-
-### 6. 设置用户注册时间
-
-> 版本要求：1.2.0及以上
-
-您可以设置用户注册时间，这样就可以在做分群选择时使用注册至今来筛选用户。
-
-使用上传登录用户变量接口上传用户注册时间，您需要将key设置为CreateAt。
-
-```java
-GrowingIO.getInstance().setUserId("lisi");  
-// 登陆用户属性 注册至今 需设置CreateAt，值必须用YYYYMMDD 的方式上传，否则无法生效  要求SDK1.2.0及以上
-GrowingIO.getInstance().setPeopleVariable("CreateAt","20191219");
-```
-
-## 三、API介绍\( GrowingTouch.class \)
-
-### 1 void setEventPopupEnable\(boolean enable\)
-
-打开或关闭弹窗
-
-### 2 void enableEventPopupAndGenerateAppOpenEvent\(\)
+### 1 void enableEventPopupAndGenerateAppOpenEvent\(\)
 
 打开弹窗并触发AppOpen事件。
 
@@ -365,7 +323,7 @@ GrowingIO.getInstance().setPeopleVariable("CreateAt","20191219");
 
 如果只是单纯调用\`**GrowingTouch.setEventPopupEnable\(true\)**\`只会打开弹窗开关，并不会触发AppOpen的弹窗事件。调用该API则会打开弹窗的同时触发一个AppOpen的弹窗事件。（AppOpen 对应的是触发时机选择“打开App时”）
 
-### 3 boolean isEventPopupShowing\(\)
+### 2 boolean isEventPopupShowing\(\)
 
 弹窗是否正在显示
 
@@ -377,11 +335,13 @@ GrowingIO.getInstance().setPeopleVariable("CreateAt","20191219");
 
 对应的Web弹窗页面配置如下图所示：
 
-* **弹窗Web页面配置截图如下：**
+* **弹窗配置页面：**
+
+![](../../../../.gitbook/assets/image%20%28145%29.png)
 
 其中「自定义参数」意思是输入任何您自己的scheme（自定义协议），
 
-比如： myapp://productdetails/itemabc ，然后在onclick事件回调中解析出来就行了
+比如： myapp://productdetails/itemabc?key1=111&key2=222 ，然后在onclick事件回调中解析出来就行了
 
 ```java
 @Override
@@ -395,6 +355,8 @@ protected void onCreate(Bundle savedInstanceState) {
 ```
 
 ### 2. "打开APP时"事件触发的时机
+
+![](../../../../.gitbook/assets/image%20%2813%29.png)
 
 打开APP时，无论是冷启动还是热启动，第一个Activity的onStart生命周期的时候触发。
 

@@ -31,7 +31,7 @@ description: 对物品进行声明和管理
 | 名称 | 输入物品名称，如商品、保险产品、课程 etc.。 |
 | 描述 | 物品的描述。 |
 
-![Step 2: &#x8BBE;&#x7F6E;&#x552F;&#x4E00;&#x8BC6;&#x522B;&#x5C5E;&#x6027;](../../../.gitbook/assets/image%20%2817%29.png)
+![Step 2: &#x8BBE;&#x7F6E;&#x552F;&#x4E00;&#x8BC6;&#x522B;&#x5C5E;&#x6027;](../../../.gitbook/assets/image%20%2818%29.png)
 
 <table>
   <thead>
@@ -73,9 +73,9 @@ description: 对物品进行声明和管理
 
 一、在物品管理页面点击物品名称，进入物品详情页。
 
-![&#x7269;&#x54C1;&#x7BA1;&#x7406;&#x9875;&#x9762;](../../../.gitbook/assets/image%20%2841%29.png)
+![&#x7269;&#x54C1;&#x7BA1;&#x7406;&#x9875;&#x9762;](../../../.gitbook/assets/image%20%2842%29.png)
 
-![&#x7269;&#x54C1;&#x8BE6;&#x60C5;&#x9875;](../../../.gitbook/assets/image%20%28114%29.png)
+![&#x7269;&#x54C1;&#x8BE6;&#x60C5;&#x9875;](../../../.gitbook/assets/image%20%28115%29.png)
 
 二、单击右上角**添加物品属性**，进入**新建物品属性**页面。
 
@@ -124,13 +124,13 @@ description: 对物品进行声明和管理
 
 在事件管理页面新建事件时，可单击**关联物品属性**选择物品。
 
-![&#x65B0;&#x5EFA;&#x4E8B;&#x4EF6;&#x9875;&#x9762;](../../../.gitbook/assets/image%20%28102%29.png)
+![&#x65B0;&#x5EFA;&#x4E8B;&#x4EF6;&#x9875;&#x9762;](../../../.gitbook/assets/image%20%28103%29.png)
 
 二、已创建事件关联物品
 
 在事件管理页面单击事件进入QuickView页面，下拉到底部单击**关联物品属性**选择物品。
 
-![&#x4E8B;&#x4EF6; - QuickView&#x754C;&#x9762;](../../../.gitbook/assets/image%20%2832%29.png)
+![&#x4E8B;&#x4EF6; - QuickView&#x754C;&#x9762;](../../../.gitbook/assets/image%20%2833%29.png)
 
 {% hint style="success" %}
 在完成了以上配置，以及物品数据上传和正确的代码实施后。我们即可以在对应的事件中使用物品及相关的物品属性。
@@ -140,7 +140,7 @@ description: 对物品进行声明和管理
 
 在完成以上配置后，可在配置了物品的事件维度选择器中使用物品属性。
 
-![&#x7EF4;&#x5EA6;&#x9009;&#x62E9;&#x5668;](../../../.gitbook/assets/image%20%2895%29.png)
+![&#x7EF4;&#x5EA6;&#x9009;&#x62E9;&#x5668;](../../../.gitbook/assets/image%20%2896%29.png)
 
 ## 物品管理页面
 
