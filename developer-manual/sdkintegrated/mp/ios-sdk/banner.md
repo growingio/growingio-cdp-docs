@@ -11,40 +11,28 @@
 
 ## 集成SDK
 
-### 1. 集成GrowingIO iOS埋点SDK\(版本要求最低2.8.9\)
-
-详细集成步骤请参考[ iOS 埋点 SDK 帮助文档](https://docs.growingio.com/docs/developer-manual/sdkintegrated/ios-sdk/manunl-ios-sdk) 。
+### 1. 集成GrowingIO iOS CDP埋点SDK 
 
 ### 2. 选择集成方式
 
-（1）使用CocoaPods快速集成
-
-* 添加`pod 'GrowingTouch/GrowingTouchBannerKit'`到对应项目的Podfile 中
-
-```javascript
-target 'GIOEdemo' do
-   pod 'GrowingTouch/GrowingTouchBannerKit'
-end
-```
-
-* 执行`pod update`，不要用 `--no-repo-update`选项
-
-（2）手动集成SDK
+手动集成SDK
 
 * 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、
 
-  GrowingTouchCoreUI.bundle以及GrowingTouchBannerKit.framework 添加到iOS工程中。下载链接：[https://github.com/growingio/GrowingSDK-iOS-GrowingTouchCoreKit/archive/master.zip](https://github.com/growingio/GrowingSDK-iOS-GrowingTouchCoreKit/archive/master.zip)
+  GrowingTouchCoreUI.bundle以及GrowingTouchBannerKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.1.0-1.3.0.zip](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.1.0-1.3.0.zip)
 
 ### 3. 初始化SDK
 
-在 AppDelegate 中导入 \#import &lt;GrowingTouchCoreKit/GrowingTouchCoreKit.h&gt; 并添加初始化方法，且保证在埋点 SDK 初始化代码 \[Growing startWithAccountId:@"xxxxxxxxxxxxxxxx"\] 后
+在 AppDelegate 中导入 \#import &lt;GrowingTouchCoreKit/GrowingTouchCoreKit.h&gt; 并添加初始化方法，且保证在埋点 SDK 初始化代码\[Growing startWithAccountId:@"YOUR\_ACCOUNT\_ID" dataSourceId:@"YOUR\_DATASOURCE\_ID"\]后
 
 ```swift
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     ...
     // 启动GrowingIO
-    [Growing startWithAccountId:@"xxxxxxxxxxxxxxxx"]; //替换为您的项目ID
+    [Growing startWithAccountId:@"YOUR_ACCOUNT_ID"  dataSourceId:@"YOUR_DATASOURCE_ID"]; //替换为您的项目ID
     
+    // 设置弹窗和banner请求地址，一般与访问页面域名一致
+    [GrowingTouch setServerHost:@"http://test.xxx.com"];
     // 启动GrowingTouch
     [GrowingTouch start];
 }
@@ -165,8 +153,6 @@ Banner视图支持以下属性设置
 ```
 
 默认**Banner**视图上的点击跳转逻辑全部在**SDK**内部处理，如果用户想要自行处理该点击事件，可在上述代理回调方法获取对应的**openUrl**自行实现点击跳转逻辑，同时返回YES禁止SDK内部自动处理该事件。
-
-SDK内部处理的点击跳转逻辑可参考：[弹窗和推送SDK集成]()
 
 
 
