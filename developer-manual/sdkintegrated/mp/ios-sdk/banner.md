@@ -23,14 +23,16 @@
 
 ### 3. 初始化SDK
 
-在 AppDelegate 中导入 \#import &lt;GrowingTouchCoreKit/GrowingTouchCoreKit.h&gt; 并添加初始化方法，且保证在埋点 SDK 初始化代码 \[Growing startWithAccountId:@"xxxxxxxxxxxxxxxx"\] 后
+在 AppDelegate 中导入 \#import &lt;GrowingTouchCoreKit/GrowingTouchCoreKit.h&gt; 并添加初始化方法，且保证在埋点 SDK 初始化代码\[Growing startWithAccountId:@"YOUR\_ACCOUNT\_ID" dataSourceId:@"YOUR\_DATASOURCE\_ID"\]后
 
 ```swift
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     ...
     // 启动GrowingIO
-    [Growing startWithAccountId:@"xxxxxxxxxxxxxxxx"]; //替换为您的项目ID
+    [Growing startWithAccountId:@"YOUR_ACCOUNT_ID"  dataSourceId:@"YOUR_DATASOURCE_ID"]; //替换为您的项目ID
     
+    // 设置弹窗和banner请求地址，一般与访问页面域名一致
+    [GrowingTouch setServerHost:@"http://test.xxx.com"];
     // 启动GrowingTouch
     [GrowingTouch start];
 }
