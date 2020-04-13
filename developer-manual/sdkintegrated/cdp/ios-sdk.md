@@ -103,13 +103,13 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
   </tbody>
 </table>代码示例：
 
-```text
+```objectivec
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-// Override point for customization after application launch.
-[Growing startWithAccountId:@"YOUR_ACCOUNT_ID" dataSourceId:@"YOUR_DATASOURCE_ID"];
-//输出调试日志
-[Growing setEnableLog:YES];
-return YES；
+    // Override point for customization after application launch.
+    [Growing startWithAccountId:@"YOUR_ACCOUNT_ID" dataSourceId:@"YOUR_DATASOURCE_ID"];
+    //输出调试日志
+    [Growing setEnableLog:YES];
+    return YES；
 }
 ```
 
