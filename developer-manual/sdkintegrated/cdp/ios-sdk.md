@@ -191,12 +191,12 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
     </tr>
     <tr>
       <td style="text-align:left">variable</td>
-      <td style="text-align:left">JSON Object</td>
+      <td style="text-align:left">NSDictionary</td>
       <td style="text-align:left">&#x5426;</td>
       <td style="text-align:left">
         <p>&#x4E8B;&#x4EF6;&#x53D1;&#x751F;&#x65F6;&#x6240;&#x4F34;&#x968F;&#x7684;&#x7EF4;&#x5EA6;&#x4FE1;&#x606F;&#x3002;</p>
         <p>&#x9650;&#x5236;&#xFF1A;&#x975E;&#x7A7A;&#xFF1B;variable &#x5185;&#x90E8;&#x4E0D;&#x5141;&#x8BB8;&#x542B;&#x6709;</p>
-        <p>JSONObject&#x6216;&#x8005;JSONArray&#xFF1B;</p>
+        <p>NSDictionary&#x6216;&#x8005;NSArray&#xFF1B;</p>
         <p>key &#x957F;&#x5EA6;&#x9650;&#x5236;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;50&#xFF0C;value
           &#x957F;&#x5EA6;&#x9650;</p>
         <p>&#x5236;&#x5C0F;&#x7B49;&#x4E8E;200&#xFF0C;&#x503C;&#x4E0D;&#x80FD;&#x4E3A;&#x7A7A;&#x4E32;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&quot;&quot;&#x3002;</p>
