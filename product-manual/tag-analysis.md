@@ -6,7 +6,7 @@
 
 ## 标签和用户属性管理
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 您可以对用户标签和用户属性进行以下操作：
 

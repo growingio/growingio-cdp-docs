@@ -121,7 +121,7 @@ projectA.send(msg);
 
 在GrowingIO【数据】&gt;【数据管理】中创建自定义事件及事件属性/登录用户属性，如图所示。
 
-![](../../../.gitbook/assets/image%20%28105%29.png)
+![](../../../.gitbook/assets/image%20%28116%29.png)
 
 ### **测试程序配置**
 
@@ -132,7 +132,7 @@ projectA.send(msg);
 
 \[{"cs1":"10324","t":"cstm","var":{"product\_name":"苹果"},"tm":1575895053509,"n":"order"}\]
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](../../../.gitbook/assets/image%20%2825%29.png)
 
 
 

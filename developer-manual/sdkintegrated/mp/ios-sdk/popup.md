@@ -22,7 +22,7 @@
  手动集成SDK  
 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.1.0-1.3.0.zip](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.1.0-1.3.0.zip)
 
-![](../../../../.gitbook/assets/image%20%2893%29.png)
+![](../../../../.gitbook/assets/image%20%28104%29.png)
 
 ### 3. 初始化SDK
 
@@ -293,7 +293,7 @@
 
 * **弹窗Web页面配置如下：**
 
-![](../../../../.gitbook/assets/image%20%2842%29.png)
+![](../../../../.gitbook/assets/image%20%2846%29.png)
 
 其中「自定义参数」意思是输入任何您自己的scheme（自定义协议），比如： myapp://productdetails/itemabc ，然后在onclick事件回调中解析出来就行了，解析自定义协议地址的话，onClick\(\)方法需返回true。
 
@@ -325,17 +325,31 @@ class SFViewController: UIViewController {
 
 第1步：编译运行当前示例项目工程TestDemo（实际过程中应为对应的项目工程名称）
 
+![](../../../../.gitbook/assets/image%20%2867%29.png)
+
 第2步：运行成功之后，在Products文件夹下，选中 TestDemo.app 后 Show in Finder
+
+![](../../../../.gitbook/assets/image%20%2829%29.png)
 
 第3步：可以看到在Products文件夹同级补录下，有一个名为Intermediates.noindex 的文件夹，依次进入 TestDemo.build -&gt; Debug-iphoneos\(或Debug-iphonesimulator\) -&gt; TestDemo.build -&gt; DerivedSources 文件夹下
 
+![](../../../../.gitbook/assets/image%20%2892%29.png)
+
+![](../../../../.gitbook/assets/image%20%2834%29.png)
+
 第4步：当前文件下有一个名为 TestDemo-Swift.h 的文件，双击打开在该文件中查找 SFViewController，发现该类声明的上方有一句 SWIFT\_CLASS\("\_TtC8TestDemo16SFViewController"\)
+
+![](../../../../.gitbook/assets/image%20%2878%29.png)
 
 \_TtC8TestDemo16SFViewController 即为原生界面SFViewController.swift转换后的类名， Web 页面配置如下：
 
 **弹窗Web页面配置如下：**
 
+![](../../../../.gitbook/assets/image%20%2890%29.png)
+
 ### **2. “打开App时”事件触发的时机**
+
+![](../../../../.gitbook/assets/image%20%2899%29.png)
 
 当选择弹窗的触发时机为“打开App时”，触发场景如下：
 
@@ -358,6 +372,8 @@ class SFViewController: UIViewController {
 // 参考
 [Growing setPeopleVariable:@{@"CreateAt":@"20191219"}];
 ```
+
+![](../../../../.gitbook/assets/image%20%2826%29.png)
 
 
 
