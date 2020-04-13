@@ -3,7 +3,7 @@
 ## **添加依赖**
 
 1. 获取iOS SDK以下包并解压，由GrowingIO提供。
-2. 将Growing.h、GrowingCoreKit.framework 添加到iOS工程中；记得勾选“Copy item if needed“。
+2. 将Growing.h、GrowingCDPCoreKit.framework 添加到iOS工程中；记得勾选“Copy item if needed“。
 3. 在工程项目中添加以下库文件：
 
 > 添加库依赖的位置在项目设置 Target &gt; 选项卡General &gt; Linked Frameworks and Libraies。
