@@ -11,7 +11,4 @@
 ## iOS SDK 说明
 
 * 支持的 iOS 版本为 8.0 及以上版本
-* 推送支持 iOS 版本为 10.0 以上的版本时需知。
-  * Notification Service Extension 证书配置时需要注意 BundleID 不能与 Main Target 一致，证书需要单独额外配置
-  * 请将 Notification Service Extension 中的 Deployment Target 设置为 10.0
 
