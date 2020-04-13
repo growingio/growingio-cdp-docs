@@ -11,15 +11,12 @@
 | 库名称 | 说明 |
 | :--- | :--- |
 | Foundation.framework | 基础依赖库 |
-| Security.framework | 用户App连接圈选页面SSL连接 |
 | CoreTelephony.framework | 用于读取运营商 |
 | SystemConfiguration.framework | 用于判断网络状态 |
 | AdSupport.framework | 用于来源管理激活匹配 |
-| libicucore.tbd | 用户App连接圈选页面解析 |
+| libicucore.tbd | 保持App长连接 |
 | libsqlite3.tbd | 存储日志 |
 | CoreLocation.framework | 用于读取地理位置信息（如果您的App有权限） |
-| JavaScriptCore.framework | Web圈选App交互 |
-| WebKit.framework | Web圈选 |
 
 添加编译参数，并注意大小写。
 
