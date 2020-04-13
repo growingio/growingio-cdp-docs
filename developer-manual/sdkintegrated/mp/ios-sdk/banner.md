@@ -13,8 +13,6 @@
 
 ### 1. 集成GrowingIO iOS CDP埋点SDK 
 
-[https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk)
-
 ### 2. 选择集成方式
 
 手动集成SDK
