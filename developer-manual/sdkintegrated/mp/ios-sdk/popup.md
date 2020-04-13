@@ -4,9 +4,10 @@
 
 **参考代码：**[**https://github.com/growingio/GIOiOSDemo**](https://github.com/growingio/GIOiOSDemo)\*\*\*\*
 
-> **GrowingTouchCoreKit.framework触达基础库  
+> GrowingTouchCoreKit.framework 运营基础库  
 > GrowingTouchCoreUI.bundle UI页面图  
-> GrowingTouchKit.framework 触达弹窗库**
+> GrowingTouchKit.framework 运营弹窗库  
+> GrowingTouchBannerKit.framework 运营banner库
 
 ## 一. 集成SDK
 
