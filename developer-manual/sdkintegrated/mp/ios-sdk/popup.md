@@ -10,39 +10,27 @@
 
 ## 一. 集成SDK
 
-### 1. 集成GrowingIO iOS埋点SDK\(版本要求最低2.8.9\)
+### 1. 集成GrowingIO iOS CDP埋点SDK
 
-详细集成步骤请参考[ iOS 埋点 SDK 帮助文档](https://docs.growingio.com/docs/developer-manual/sdkintegrated/ios-sdk/manunl-ios-sdk) 。
+
 
 ### 2. 选择集成方式
 
-（1）使用CocoaPods快速集成
-
-* 添加`pod 'GrowingTouch/GrowingTouchKit'`到对应项目的Podfile 中
-
-```javascript
-target 'GIOEdemo' do
-   pod 'GrowingTouch/GrowingTouchKit'
-end
-```
-
-* 执行`pod update`，不要用 `--no-repo-update`选项
-
-（2）手动集成SDK
-
-* 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[https://github.com/growingio/GrowingSDK-iOS-GrowingTouchCoreKit/archive/master.zip](https://github.com/growingio/GrowingSDK-iOS-GrowingTouchCoreKit/archive/master.zip)
+ 手动集成SDK  
+下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.1.0-1.3.0.zip](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.1.0-1.3.0.zip)
 
 ### 3. 初始化SDK
 
-在 AppDelegate 中导入 \#import &lt;GrowingTouchCoreKit/GrowingTouchCoreKit.h&gt; 并添加初始化方法，且保证在埋点 SDK 初始化代码 \[Growing startWithAccountId:@"xxxxxxxxxxxxxxxx"\] 后
+在 AppDelegate 中导入 import &lt;GrowingTouchCoreKit/GrowingTouchCoreKit.h&gt; 并添加初始化方法，且保证在埋点 SDK 初始化代码 \[Growing startWithAccountId:@"YOUR\_ACCOUNT\_ID" dataSourceId:@"YOUR\_DATASOURCE\_ID"\]后
 
 ```swift
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     ...
     // 启动GrowingIO
-    [Growing startWithAccountId:@"xxxxxxxxxxxxxxxx"]; //替换为您的项目ID
+    [Growing startWithAccountId:@"YOUR_ACCOUNT_ID"  dataSourceId:@"YOUR_DATASOURCE_ID"]; //替换为您的项目ID
     
-    // 启动GrowingTouch
+    // 启动GrowingTouch，设置弹窗请求地址，一般与访问页面域名一致
+    [GrowingTouch setServerHost:@"http://test.xxx.com"];
     [GrowingTouch start];
 }
 
