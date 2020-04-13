@@ -32,16 +32,16 @@
 
 > 在AppDelegate 中引入\#import "Growing.h"并添加初始化方法。
 
-```text
+```objectivec
 #import "Growing.h"
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-// 启动GrowingIO
-[Growing startWithAccountId:@"您的项目ID" dataSourceId:@"您的数据源ID"];  // 替换为您的项目ID和数据源ID
-// 其他配置,设置埋点上报地址
-[Growing setTrackerHost:@"http://test.xxx.com"];
-
-// 开启Growing调试日志 可以开启日志 
-// [Growing setEnableLog:YES];
+    // 启动GrowingIO
+    [Growing startWithAccountId:@"您的项目ID" dataSourceId:@"您的数据源ID"];  // 替换为您的项目ID和数据源ID
+    // 其他配置,设置埋点上报地址
+    [Growing setTrackerHost:@"http://test.xxx.com"];
+    
+    // 开启Growing调试日志 可以开启日志 
+    // [Growing setEnableLog:YES];
 }
 ```
 
