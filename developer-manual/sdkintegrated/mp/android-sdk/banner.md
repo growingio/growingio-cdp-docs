@@ -118,10 +118,6 @@ public class MyApplication extends Application {
 
 ### 1. 参数说明
 
-{% hint style="info" %}
-v1.1.0之前使用了触达原生banner模板的SDK升级到v1.2.0之后必须修改布局文件里相关属性名，比如bannerKey改为gtouchBannerKey
-{% endhint %}
-
 | 配置字段 | 属性字段 | 是否必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- | :--- |
 | Bannerkey | gtouchBannerKey | 是 | string | 在服务端进行查看后配置到本地,一个bannerKey对应一个banner\(唯一标识\),不设置抛出IllegalArgumentException |
@@ -226,7 +222,7 @@ mGTouchBanner.loadData(new BannerStateChangedListener() {
 
 使用GrowingTouch\#loadBannerData\(@NonNull String bannerKey,@NonNull final BannerDataCallback callback\)
 
-v1.3.0版本新增了对灵活资源位的支持，注意灵活资源位可能发生没有banner的情况，需要特殊处理。
+v1.3.0-cdp 版本新增了对灵活资源位的支持，注意灵活资源位可能发生没有banner的情况，需要特殊处理。
 
 ```swift
 // bannerKey在服务端进行查看后配置到本地
