@@ -229,3 +229,18 @@ query {
 }
 ```
 
+**统计数据导出**
+
+```text
+submitAnalysisExportJob(id: HashId!, param: AnalysisExportJobParam!): AnalysisExportResult!
+
+示例：
+mutation SubmitAnalysisExportJob($id: HashId!, $param: AnalysisExportJobParam!){
+    submitAnalysisExportJob(id: $id, param: $param) {
+        id
+        status 
+        uri
+    }
+}
+```
+
