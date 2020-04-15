@@ -121,7 +121,7 @@ projectA.send(msg);
 
 在GrowingIO【数据】&gt;【数据管理】中创建自定义事件及事件属性/登录用户属性，如图所示。
 
-![](../../../.gitbook/assets/image%20%28117%29.png)
+![](../../../.gitbook/assets/image%20%28118%29.png)
 
 ### **测试程序配置**
 
