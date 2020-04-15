@@ -27,7 +27,7 @@
 
 ### 3. 初始化SDK
 
-在 AppDelegate 中导入 \#import &lt;GrowingTouchCoreKit/GrowingTouchCoreKit.h&gt; 并添加初始化方法，且保证在埋点 SDK 初始化代码\[Growing startWithAccountId:@"YOUR\_ACCOUNT\_ID" dataSourceId:@"YOUR\_DATASOURCE\_ID"\]后
+在 AppDelegate 中导入 `#import <GrowingTouchCoreKit/GrowingTouchCoreKit.h>` 并添加初始化方法，且保证在埋点 SDK 初始化代码`[Growing startWithAccountId:@"ACCOUNT_ID" dataSourceId:@"DATASOURCE_ID"]`后
 
 ```swift
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
