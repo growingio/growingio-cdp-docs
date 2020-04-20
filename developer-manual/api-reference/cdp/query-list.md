@@ -232,9 +232,11 @@ query {
 **统计数据导出**
 
 ```text
+# id: String [资源id]
+# param: {"analysisType": "CHARTS"} [资源类型，支持CHARTS|FUNNELS|RETENTIONS|FREQUENCIES]
 submitAnalysisExportJob(id: HashId!, param: AnalysisExportJobParam!): AnalysisExportResult!
 
-示例：
+式例
 mutation SubmitAnalysisExportJob($id: HashId!, $param: AnalysisExportJobParam!){
     submitAnalysisExportJob(id: $id, param: $param) {
         id
@@ -242,5 +244,20 @@ mutation SubmitAnalysisExportJob($id: HashId!, $param: AnalysisExportJobParam!){
         uri
     }
 }
+
+Curl 示例
+curl --location --request POST 'http://cdp.growingio.com/graphql' \
+--header 'Cache-Control: no-cache' \
+--header 'DNT: 1' \
+--header 'Host: 10.0.6.60:8086' \
+--header 'Postman-Token: 90603b24-c8b2-4a2c-9b42-15ec4880089d,316e4f2f-60bb-42d5-ac0a-3f2f3f4810d3' \
+--header 'Referer: http://localhost:8000/data/dataSources' \
+--header 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36' \
+--header 'accept: */*' \
+--header 'accept-encoding: gzip, deflate' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: NmUxMTAwYjctYjRmMS00NjcwLWI0MTItNjBhY2U0ZmNlMmNl' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query":"mutation SubmitAnalysisExportJob($id: HashId!, $param: AnalysisExportJobParam!){\n    submitAnalysisExportJob(id: $id, param: $param) {\n        resourceId\n        status \n        uri\n    }\n}","variables":{"id":"y9pm11pm","param":{"analysisType":"FUNNELS"}}}'
 ```
 
