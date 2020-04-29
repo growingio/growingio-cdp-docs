@@ -3,6 +3,7 @@
 * [快速入口](README.md)
 * [产品简介](introduction/README.md)
   * [视图介绍](introduction/view.md)
+  * [属性模型](introduction/shu-xing-mo-xing.md)
 * [产品使用文档](product-manual/README.md)
   * [分析](product-manual/product-analysis/README.md)
     * [KPI 分析](product-manual/product-analysis/kpi.md)
