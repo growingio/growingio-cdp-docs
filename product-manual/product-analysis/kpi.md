@@ -30,7 +30,7 @@ KPI看板可以帮助业务负责人在 GrowingIO 平台上监控 KPI 数据，�
 
 一、在顶部导航栏选择“**分析 &gt; 产品分析 &gt; KPI分析**"，进入KPI分析看板。
 
-![KPI&#x5206;&#x6790;&#x770B;&#x677F;](../../.gitbook/assets/image%20%28121%29.png)
+![KPI&#x5206;&#x6790;&#x770B;&#x677F;](../../.gitbook/assets/image%20%28122%29.png)
 
 二、单击左侧列表上方“**新建分析 &gt; KPI分析"**或单击KPI分析看板中“**+”**，进入**创建KPI分析**页面。
 
@@ -98,7 +98,7 @@ KPI看板可以帮助业务负责人在 GrowingIO 平台上监控 KPI 数据，�
 
 在KPI看板中，单击单个KPI指标框右上角的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LugKRBPNPab7MdZtndt-LugeasN0wzG5aPiGtgoKPIE79C8BE69DBFE782B9E782B9E782B9.png) 选择编辑，在编辑页面设置目标值。
 
-![&#x8BBE;&#x7F6E;KPI&#x76EE;&#x6807;](../../.gitbook/assets/image%20%28170%29.png)
+![&#x8BBE;&#x7F6E;KPI&#x76EE;&#x6807;](../../.gitbook/assets/image%20%28171%29.png)
 
 设置完成后即可在单个KPI框右下角查看目标完成度。
 
