@@ -23,7 +23,7 @@
 
   GrowingTouchCoreUI.bundle以及GrowingTouchBannerKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.1.0-1.3.0.zip](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.1.0-1.3.0.zip)
 
-![](../../../../.gitbook/assets/image%20%28105%29.png)
+![](../../../../.gitbook/assets/image%20%28107%29.png)
 
 ### 3. 初始化SDK
 
@@ -51,7 +51,7 @@
 
 生成**Banner**视图示例，并根据对应**bannerKey**填充**Banner**数据，视图的位置尺寸由用户定义。 bannerKey 来自GIO页面生成
 
-![](../../../../.gitbook/assets/image%20%28126%29.png)
+![](../../../../.gitbook/assets/image%20%28128%29.png)
 
 ### 1. 初始化
 

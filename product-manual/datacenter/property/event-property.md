@@ -8,11 +8,11 @@ description: 对事件属性进行声明和管理
 
 一、在顶部导航栏选择“数据 &gt; 属性 &gt; 事件属性”，进入事件属性管理页面。
 
-![&#x4E8B;&#x4EF6;&#x5C5E;&#x6027;&#x7BA1;&#x7406;&#x9875;&#x9762;](../../../.gitbook/assets/image%20%28134%29.png)
+![&#x4E8B;&#x4EF6;&#x5C5E;&#x6027;&#x7BA1;&#x7406;&#x9875;&#x9762;](../../../.gitbook/assets/image%20%28136%29.png)
 
 二、单击右上角**添加事件属性**，进入**新建事件属性**页面
 
-![&#x4E8B;&#x4EF6;&#x5C5E;&#x6027;&#x65B0;&#x5EFA;&#x9875;&#x9762;](../../../.gitbook/assets/image%20%2845%29.png)
+![&#x4E8B;&#x4EF6;&#x5C5E;&#x6027;&#x65B0;&#x5EFA;&#x9875;&#x9762;](../../../.gitbook/assets/image%20%2846%29.png)
 
 <table>
   <thead>
