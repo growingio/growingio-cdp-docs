@@ -10,7 +10,7 @@
 
 ## 解读用户细查
 
-![&#x7528;&#x6237;&#x7EC6;&#x67E5;](../../.gitbook/assets/image%20%28140%29.png)
+![&#x7528;&#x6237;&#x7EC6;&#x67E5;](../../.gitbook/assets/image%20%28141%29.png)
 
 <table>
   <thead>
