@@ -19,13 +19,13 @@
 
 添加编译参数，并注意大小写。
 
-![](../../../.gitbook/assets/image%20%28159%29.png)
+![](../../../.gitbook/assets/image%20%28160%29.png)
 
 ### **添加URL Scheme**
 
 添加URL Scheme到项目中，以便唤醒您的程序。
 
-![](../../../.gitbook/assets/image%20%2811%29.png)
+![](../../../.gitbook/assets/image%20%2812%29.png)
 
 ## **初始化配置**
 

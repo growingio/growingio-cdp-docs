@@ -17,20 +17,20 @@ KPI看板可以帮助业务负责人在 GrowingIO 平台上监控 KPI 数据，�
 
 比如，我们可以看到下图中**订单支付成功人数**这个KPI出现了问题。同比下降18%、环比下降53%。
 
-![KPI&#x770B;&#x677F;\(Demo&#x6570;&#x636E;\)](../../.gitbook/assets/image%20%2870%29.png)
+![KPI&#x770B;&#x677F;\(Demo&#x6570;&#x636E;\)](../../.gitbook/assets/image%20%2871%29.png)
 
 此时，我们可以点订单支付成功人数这一KPI看板，在KPI详情页了解不同维度下订单支付人数变化状况，迅速判断业务指标下降原因。KPI分析以下功能：
 
 * 自定义维度拆分
 * 自动业务分析
 
-![KPI&#x5206;&#x6790;&#x8BE6;&#x60C5;&#x9875;\(Demo&#x6570;&#x636E;\)](../../.gitbook/assets/image%20%2857%29.png)
+![KPI&#x5206;&#x6790;&#x8BE6;&#x60C5;&#x9875;\(Demo&#x6570;&#x636E;\)](../../.gitbook/assets/image%20%2858%29.png)
 
 ## 创建KPI分析
 
 一、在顶部导航栏选择“**分析 &gt; 产品分析 &gt; KPI分析**"，进入KPI分析看板。
 
-![KPI&#x5206;&#x6790;&#x770B;&#x677F;](../../.gitbook/assets/image%20%28122%29.png)
+![KPI&#x5206;&#x6790;&#x770B;&#x677F;](../../.gitbook/assets/image%20%28123%29.png)
 
 二、单击左侧列表上方“**新建分析 &gt; KPI分析"**或单击KPI分析看板中“**+”**，进入**创建KPI分析**页面。
 
@@ -98,11 +98,11 @@ KPI看板可以帮助业务负责人在 GrowingIO 平台上监控 KPI 数据，�
 
 在KPI看板中，单击单个KPI指标框右上角的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LugKRBPNPab7MdZtndt-LugeasN0wzG5aPiGtgoKPIE79C8BE69DBFE782B9E782B9E782B9.png) 选择编辑，在编辑页面设置目标值。
 
-![&#x8BBE;&#x7F6E;KPI&#x76EE;&#x6807;](../../.gitbook/assets/image%20%28171%29.png)
+![&#x8BBE;&#x7F6E;KPI&#x76EE;&#x6807;](../../.gitbook/assets/image%20%28172%29.png)
 
 设置完成后即可在单个KPI框右下角查看目标完成度。
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 <table>
   <thead>
@@ -159,7 +159,7 @@ KPI看板可以帮助业务负责人在 GrowingIO 平台上监控 KPI 数据，�
 
 KPI详情页构成：
 
-![KPI&#x8BE6;&#x60C5;&#x9875;](../../.gitbook/assets/image%20%2855%29.png)
+![KPI&#x8BE6;&#x60C5;&#x9875;](../../.gitbook/assets/image%20%2856%29.png)
 
 | 项 | 说明 |
 | :--- | :--- |
