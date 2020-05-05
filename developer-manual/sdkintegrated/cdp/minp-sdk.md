@@ -34,7 +34,7 @@ gio: gio
 2. 打开开发设置，到服务器域名配置部分。
 3. 在request合法域名中添加：同init中的host地址。
 
-![](../../../.gitbook/assets/image%20%2895%29.png)
+![](../../../.gitbook/assets/image%20%2896%29.png)
 
 ## **数据校验**
 
