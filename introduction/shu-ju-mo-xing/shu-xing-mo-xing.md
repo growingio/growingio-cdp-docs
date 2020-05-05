@@ -137,28 +137,58 @@
 
 ![&#x6574;&#x6570;&#x5C5E;&#x6027;](../../.gitbook/assets/image%20%28132%29.png)
 
-| 筛选条件 | 描述说明 |
-| :--- | :--- |
-| = 等于 | 只有属性数值等于输入数值时事件才会进入统计分析 |
-| != 不等于 | 只有属性数值不等于输入数值时事件才会进入统计分析 |
-| &lt; 小于 | 只有属性数值小于输入数值时事件才会进入统计分析 |
-| &lt;= 小于等于 | 只有属性数值小于等于输入数值时事件才会进入统计分析 |
-|  |  |
-|  |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x7B5B;&#x9009;&#x6761;&#x4EF6;</th>
+      <th style="text-align:left">&#x63CF;&#x8FF0;&#x8BF4;&#x660E;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">= &#x7B49;&#x4E8E;</td>
+      <td style="text-align:left">&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x6570;&#x503C;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x6570;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">!= &#x4E0D;&#x7B49;&#x4E8E;</td>
+      <td style="text-align:left">&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x6570;&#x503C;&#x4E0D;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x6570;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt; &#x5C0F;&#x4E8E;</td>
+      <td style="text-align:left">&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x6570;&#x503C;&#x5C0F;&#x4E8E;&#x8F93;&#x5165;&#x6570;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;= &#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;</td>
+      <td style="text-align:left">&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x6570;&#x503C;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x6570;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&gt; &#x5927;&#x4E8E;</td>
+      <td style="text-align:left">&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x6570;&#x503C;&#x5927;&#x4E8E;&#x8F93;&#x5165;&#x6570;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&gt;= &#x5927;&#x4E8E;&#x7B49;&#x4E8E;</td>
+      <td style="text-align:left">&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x6570;&#x503C;&#x5927;&#x4E8E;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x6570;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">between &#x533A;&#x95F4;</td>
+      <td style="text-align:left">
+        <p>&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x6570;&#x503C;&#x4ECB;&#x4E8E;&#x8F93;&#x5165;&#x6570;&#x503C;&#x533A;&#x95F4;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
+        <p>&#x5982;&#x8F93;&#x5165;&#x503C;&#x4E3A;10&#x5230;100&#x65F6;&#xFF0C;&#x7EDF;&#x8BA1;&#x533A;&#x95F4;&#x4E3A;[10,100]
+          (&#x5305;&#x542B;&#x8FB9;&#x754C;&#x503C;)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x6709;&#x503C;</td>
+      <td style="text-align:left">&#x5C5E;&#x6027;&#x503C;&#x4E0D;&#x4E3A;NULL&#x65F6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x6CA1;&#x503C;</td>
+      <td style="text-align:left">&#x5C5E;&#x6027;&#x503C;&#x4E3A;NULL&#x65F6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+    </tr>
+  </tbody>
+</table>> 除没值外，其他筛选条件默认在有值条件下筛选
 
 
-
-
-
-| 判断类型 | 类比表达式 | 描述说明 |
-| :--- | :--- | :--- |
-| 等于 | = | 类同于字符串类型 |
-| 不等于 | != | 类同于字符串类型 |
-| 小于 | &lt; | 所选属性值小于判断值的事件才会进入分析过程 |
-| 大于 | &gt; | 所选属性值大于判断值的事件才会进入分析过程 |
-| 区间 | between . and . | 所选属性值处于设置的判断值所形成的闭区间时，事件才会进入分析流程；如判断值设置为 10 和 100 时，所选属性值需要满足 \[10,100\] 区间 |
-| 有值 | IS NOT NULL | 类同于字符串类型 |
-| 没值 | IS NULL | 类同于字符串类型 |
 
 
 
