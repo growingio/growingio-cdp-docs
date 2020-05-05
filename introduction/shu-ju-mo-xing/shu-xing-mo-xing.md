@@ -244,22 +244,12 @@
     </tr>
     <tr>
       <td style="text-align:left">&#x6709;&#x503C;</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&#x5C5E;&#x6027;&#x503C;&#x4E0D;&#x4E3A;NULL&#x65F6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6CA1;&#x503C;</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&#x5C5E;&#x6027;&#x503C;&#x4E3A;NULL&#x65F6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
     </tr>
   </tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
+</table>> 除没值外，其他筛选条件默认在有值条件下筛选
 
