@@ -14,5 +14,5 @@
 
 数据采集和运营平台SDK
 
-![](../../../../.gitbook/assets/image%20%28129%29.png)
+![](../../../../.gitbook/assets/image%20%28131%29.png)
 

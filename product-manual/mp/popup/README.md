@@ -6,5 +6,5 @@
 
 下图均为用 GrowingIO 弹窗功能上线的移动应用内弹窗消息
 
-![](../../../.gitbook/assets/image%20%2885%29.png)
+![](../../../.gitbook/assets/image%20%2887%29.png)
 
