@@ -80,7 +80,7 @@
 
 ### 字符串
 
-![&#x5B57;&#x7B26;&#x4E32;&#x5C5E;&#x6027;](../../.gitbook/assets/image%20%2820%29.png)
+![&#x5B57;&#x7B26;&#x4E32;&#x5C5E;&#x6027;](../../.gitbook/assets/image%20%2821%29.png)
 
 <table>
   <thead>
@@ -135,7 +135,7 @@
 
 ### 整数、小数
 
-![&#x6574;&#x6570;&#x3001;&#x5C0F;&#x6570;&#x5C5E;&#x6027;](../../.gitbook/assets/image%20%28136%29.png)
+![&#x6574;&#x6570;&#x3001;&#x5C0F;&#x6570;&#x5C5E;&#x6027;](../../.gitbook/assets/image%20%28137%29.png)
 
 <table>
   <thead>
@@ -190,7 +190,7 @@
 
 ### 日期
 
-![&#x65E5;&#x671F;&#x5C5E;&#x6027;](../../.gitbook/assets/image%20%2845%29.png)
+![&#x65E5;&#x671F;&#x5C5E;&#x6027;](../../.gitbook/assets/image%20%2846%29.png)
 
 <table>
   <thead>
@@ -255,7 +255,7 @@
 
 **相对现在**
 
-![&#x76F8;&#x5BF9;&#x73B0;&#x5728;](../../.gitbook/assets/image%20%28133%29.png)
+![&#x76F8;&#x5BF9;&#x73B0;&#x5728;](../../.gitbook/assets/image%20%28134%29.png)
 
 相对现在在过去n天之前：表示无穷小时间点到当前日期减n天，即 \(无穷小时间 , 当前日期 - n\)
 
@@ -277,7 +277,7 @@
 
 **相对区间**
 
-![&#x76F8;&#x5BF9;&#x533A;&#x95F4;](../../.gitbook/assets/image%20%2813%29.png)
+![&#x76F8;&#x5BF9;&#x533A;&#x95F4;](../../.gitbook/assets/image%20%2814%29.png)
 
 相对区间在过去m天至过去n天之内：表示当前日期减m天到当前日期减n天之间，即 \[当前日期 - m , 当前日期 - n\]
 

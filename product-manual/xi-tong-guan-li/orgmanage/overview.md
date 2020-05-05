@@ -16,7 +16,7 @@ description: 查看和管理组织信息
 
 ## 组织概览
 
-![&#x7EC4;&#x7EC7;&#x6982;&#x89C8;](../../.gitbook/assets/image%20%28128%29.png)
+![&#x7EC4;&#x7EC7;&#x6982;&#x89C8;](../../../.gitbook/assets/image%20%28129%29.png)
 
 | 项 | 说明 |
 | :--- | :--- |
