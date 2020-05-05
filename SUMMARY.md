@@ -4,6 +4,7 @@
 * [产品简介](introduction/README.md)
   * [数据模型](introduction/shu-ju-mo-xing/README.md)
     * [属性模型](introduction/shu-ju-mo-xing/shu-xing-mo-xing.md)
+  * [术语解释](introduction/shu-yu-jie-shi.md)
   * [视图介绍](introduction/view.md)
 * [产品使用文档](product-manual/README.md)
   * [分析](product-manual/product-analysis/README.md)
