@@ -4,7 +4,7 @@
 * [产品简介](introduction/README.md)
   * [数据模型（未完成）](introduction/model/README.md)
     * [属性模型](introduction/model/property.md)
-  * [术语解释（未完成）](introduction/term.md)
+  * [术语解释](introduction/term.md)
   * [视图介绍](introduction/view.md)
 * [产品使用文档](product-manual/README.md)
   * [分析](product-manual/product-analysis/README.md)

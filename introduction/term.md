@@ -1,4 +1,4 @@
-# 术语解释（未完成）
+# 术语解释
 
 ## 全局指标
 
@@ -18,13 +18,18 @@
       style="text-align:left">&#x5305;&#x542B;SDK&#x6570;&#x636E;&#x548C;&#x4E0A;&#x4F20;&#x6570;&#x636E;</td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x2B50;&#xFE0F;&#x4EFB;&#x610F;&#x884C;&#x4E3A;</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">&#x5305;&#x542B;SDK&#x6570;&#x636E;&#x548C;&#x4E0A;&#x4F20;&#x6570;&#x636E;</td>
+      <td style="text-align:left">&#x4EFB;&#x610F;&#x884C;&#x4E3A;</td>
+      <td style="text-align:left">&#x6709;&#x8BBF;&#x95EE;&#x6216;&#x884C;&#x4E3A;&#x7684;&#x72EC;&#x7ACB;&#x7528;&#x6237;(GID)</td>
+      <td
+      style="text-align:left">&#x5305;&#x542B;SDK&#x6570;&#x636E;&#x548C;&#x4E0A;&#x4F20;&#x6570;&#x636E;</td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x2B50;&#xFE0F;&#x6D3B;&#x8DC3;&#x5929;&#x6570;</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&#x6D3B;&#x8DC3;&#x5929;&#x6570;</td>
+      <td style="text-align:left">
+        <p>&#x6D3B;&#x8DC3;&#x5929;&#x6570;&#x7D2F;&#x8BA1;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;</p>
+        <p>&#x5F53;&#x5929;&#x53D1;&#x751F;&#x4EFB;&#x610F;&#x884C;&#x4E3A;&#xFF0C;&#x7B97;&#x7528;&#x6237;&#x5F53;&#x5929;&#x4E3A;&#x6D3B;&#x8DC3;&#x5929;&#xFF0C;</p>
+        <p>&#x4E3A;&#x5176;&#x6D3B;&#x8DC3;&#x5929;&#x6570;&#x7D2F;&#x8BA1;1&#x5929;</p>
+      </td>
       <td style="text-align:left">&#x5305;&#x542B;SDK&#x6570;&#x636E;&#x548C;&#x4E0A;&#x4F20;&#x6570;&#x636E;</td>
     </tr>
     <tr>
