@@ -168,11 +168,11 @@ gdp('track','testEvent',{},{key:'order_id',id:'123456'})
 
 GrowingIO 全面支持欧盟《一般数据保护条例》。
 
-```text
+```javascript
 // 停止采集数据
 gdp('config',{"dataCollect": false}); 全局配置, 可以放到send之后
 // 采集数据 (默认)
-gdp('config',{"dataCollect": tr
+gdp('config',{"dataCollect": true});
 ```
 
 \*\*\*\*
