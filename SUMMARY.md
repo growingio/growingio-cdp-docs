@@ -2,7 +2,7 @@
 
 * [快速入口](README.md)
 * [产品简介](introduction/README.md)
-  * [数据模型（未完成）](introduction/model/README.md)
+  * [数据模型](introduction/model/README.md)
     * [属性模型](introduction/model/property.md)
   * [术语解释](introduction/term.md)
   * [视图介绍](introduction/view.md)
