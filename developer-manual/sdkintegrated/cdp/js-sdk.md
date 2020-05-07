@@ -10,7 +10,7 @@
 
 > 请注意使用具体的项目ID替换代码中的 your projectId、your DataSourceId 确保JS资源地址正确。
 
-```javascript
+```text
 <!-- GrowingIO Analytics code version 1.0 -->
 <!-- Copyright 2015-2020 GrowingIO, Inc. More info available at http://www.growingio.com -->
 <script type='text/javascript'>
@@ -38,7 +38,7 @@
 
 > IE 9以下不支持。
 
-```javascript
+```text
 gdp('init', 'your projectId', 'your dataSourceId', {debug: true});
 ```
 
@@ -46,7 +46,7 @@ gdp('init', 'your projectId', 'your dataSourceId', {debug: true});
 
 GrowingIO 默认不会把hashtag识别成页面URL的一部分。对于使用hashtag 进行页面转跳的单页面网站应用来说，可以启用hashtag 作为标识页面的一部分。
 
-```javascript
+```text
 gdp('init', 'your projectId', 'your dataSourceId', {hashtag: true});
 ```
 
@@ -56,7 +56,7 @@ gdp('init', 'your projectId', 'your dataSourceId', {hashtag: true});
 
 GrowingIO默认不配置发数的API，需要在初始化时设置host，否则会初始化失败。
 
-```javascript
+```text
 gdp('init', 'your projectId', 'your dataSourceId',{host: 'api.growingio.com'});
 ```
 
@@ -64,7 +64,7 @@ gdp('init', 'your projectId', 'your dataSourceId',{host: 'api.growingio.com'});
 
 GrowingIO默认发数请求协议是HTTPS，如果您的请求协议为HTTP，可以参考如下设置进行修改。
 
-```javascript
+```text
 gdp('init', 'your projectId','your dataSourceId', {scheme: 'http'});
 ```
 
@@ -74,7 +74,7 @@ gdp('init', 'your projectId','your dataSourceId', {scheme: 'http'});
 
 初始化参数，用来设置项目ID和一些商用的配置项。
 
-```javascript
+```text
 //init API原型
 gdp('init', projectId,dataSourceId,options);
 ```
@@ -87,7 +87,7 @@ gdp('init', projectId,dataSourceId,options);
 
 代码示例：
 
-```javascript
+```text
 //init API调用示例
 //配置发数api为 http://api.test.com
 gdp('init', '1234567890', 'test',{
@@ -100,7 +100,7 @@ gdp('init', '1234567890', 'test',{
 
 当用户登录之后调用setUserId，上传登录用户ID。
 
-```javascript
+```text
 //setUserId API原型
 gdp('setUserId', userId);
 ```
@@ -111,7 +111,7 @@ gdp('setUserId', userId);
 
 代码示例：
 
-```javascript
+```text
 //setuserId API调用示例
 gdp('setUserId', '1234567890');
 ```
@@ -120,28 +120,28 @@ gdp('setUserId', '1234567890');
 
 当用户退出登录后，调用clearUserId，清除已经设置的登录用户ID。
 
-```javascript
+```text
 //clearUserId API原型和调用示例
 gdp('clearUserId');
 ```
 
 ### **设置访问用户ID**
 
-```javascript
+```text
 // 获取访问用户ID 
 gdp('getVisitorId');
 ```
 
 ### **设置用户属性**
 
-```javascript
+```text
 // setUserAttributes API调用原型
 gdp('setUserAttributes', userAttributes);
 ```
 
 ### **自定义数据上传**
 
-```javascript
+```text
 // track API调用原型
 gdp(track, eventId);
 // 事件属性上传
@@ -156,7 +156,7 @@ gdp('track', eventId, eventLevelVariables, item);
 | eventLevelVariable | JSON Object | 否 | 事件变量。 |
 | item | JSON Object | 否 | 物品模型。 |
 
-```javascript
+```text
 // track API调用示例 - 事件属性
 gdp('track','order', {type: 'hjh'})
 // track API调用示例 - 物品模型
@@ -168,11 +168,11 @@ gdp('track','testEvent',{},{key:'order_id',id:'123456'})
 
 GrowingIO 全面支持欧盟《一般数据保护条例》。
 
-```javascript
+```text
 // 停止采集数据
 gdp('config',{"dataCollect": false}); 全局配置, 可以放到send之后
 // 采集数据 (默认)
-gdp('config',{"dataCollect": true});
+gdp('config',{"dataCollect": tr
 ```
 
 \*\*\*\*
