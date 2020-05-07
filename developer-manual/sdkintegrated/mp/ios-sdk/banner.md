@@ -29,7 +29,7 @@
 
 在 AppDelegate 中导入 `#import <GrowingTouchCoreKit/GrowingTouchCoreKit.h>` 并添加初始化方法，且保证在埋点 SDK 初始化代码`[Growing startWithAccountId:@"ACCOUNT_ID" dataSourceId:@"DATASOURCE_ID"]`后
 
-```swift
+```objectivec
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     ...
     // 启动GrowingIO
@@ -59,7 +59,7 @@
 
 在需要的位置调用Banner视图的初始化方法，对应的API为
 
-```swift
+```objectivec
 /**
  初始化方法
  
@@ -95,7 +95,7 @@ Banner视图支持以下属性设置
 
 生成**Banner**视图实例后，请求对应**Banner**视图数据**API**
 
-```swift
+```objectivec
 /**
  加载数据
 
@@ -108,7 +108,7 @@ Banner视图支持以下属性设置
 
 在数据请求中设置**Banner**数据请求代理后，可在代理中实现以下代理方法监听**Banner**数据请求状态与**Banner**的交互行为
 
-```swift
+```objectivec
 /**
  banner 加载成功
  
@@ -176,7 +176,7 @@ Banner视图支持以下属性设置
 
 根据**bannerKey**获取对应的**Banner**数据
 
-```swift
+```objectivec
 /**
  自渲染的初始化方法
  
