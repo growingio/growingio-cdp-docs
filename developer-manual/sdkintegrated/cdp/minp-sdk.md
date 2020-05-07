@@ -6,7 +6,7 @@
 
 将解压后的gio-minp目录放在小程序目录下（比如：/src/utils目录）
 
-```text
+```javascript
 var gio = require("./utils/gio-minp.js").default;
 ```
 
@@ -14,7 +14,7 @@ var gio = require("./utils/gio-minp.js").default;
 
 请将以下的页面代码放置到小程序App.js首部，即可完成小程序SDK 代码的安装。请注意使用具体的项目 ID 替换代码中的 your projectId ，your dataSourceId，使用具体的小程序Id代替代码中的your appId。
 
-```text
+```javascript
 var gio = require("./utils/gio-minp.js").default;
 gio('init', 'your projrctId','your datasourceID','your appId', {})；
 App({
@@ -40,7 +40,7 @@ gio: gio
 
 在初始化时打开 debug 为true，打开控制台，即可看到实时采集的数据。
 
-```text
+```javascript
 gio('init', 'your projectId', 'your dataSourceId', 'your appId',{debug: true});
 ```
 

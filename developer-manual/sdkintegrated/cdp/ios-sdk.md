@@ -146,7 +146,7 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
 
 当用户登录之后调用 setUserId ，设置登录用户ID。
 
-```objectivec
+```text
 // setUserId API原型
 + (void)setUserId:(NSString *)userId;
 ```
@@ -163,7 +163,7 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
 
 当用户登出之后调用clearUserId ，清除已经设置的登录用户ID。
 
-```objectivec
+```text
 // clearUserId API原型
 + (void)clearUserId;
 ```
@@ -216,7 +216,7 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
   </tbody>
 </table>代码示例：
 
-```objectivec
+```text
 // track API原型
 + (void)track:(NSString *)eventId;
 + (void)track:(NSString *)eventId withVariable:(NSDictionary<NSString *, NSObject *> *)variable;
@@ -240,7 +240,7 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
 | :--- | :--- | :--- | :--- |
 | attributes | NSDictionary&lt;NSString \*,id&gt;\* | 是 | 用户事件携带的其他信息。 |
 
-```objectivec
+```text
 // setUserAttributes API原型
 + (void)setUserAttributes:(NSDictionary<NSString *, id>*)attributes;
 //代码示例
