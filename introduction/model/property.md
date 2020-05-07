@@ -28,20 +28,17 @@
     <tr>
       <td style="text-align:left">&#x5B57;&#x7B26;&#x4E32;</td>
       <td style="text-align:left">&#x975E;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;</td>
-      <td style="text-align:left">&#x2018;GrowingIO&#x2019;</td>
+      <td style="text-align:left">&apos;GrowingIO&apos;</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6574;&#x6570;</td>
       <td style="text-align:left">&#x4EE5;&#x5B57;&#x7B26;&#x683C;&#x5F0F;&#x4F20;&#x5165;</td>
-      <td style="text-align:left">&#x2018;1234567&#x2019;</td>
+      <td style="text-align:left">&apos;1234567&apos;</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x5C0F;&#x6570;</td>
-      <td style="text-align:left">
-        <p>&#x4EE5;&#x5B57;&#x7B26;&#x683C;&#x5F0F;&#x4F20;&#x5165;&#xFF0C;</p>
-        <p>&#x56DB;&#x820D;&#x4E94;&#x5165;&#x540E;&#x5C0F;&#x6570;&#x70B9;&#x540E;&#x6700;&#x591A;&#x4FDD;&#x7559;4&#x4F4D;</p>
-      </td>
-      <td style="text-align:left">&apos;3.1416&apos;</td>
+      <td style="text-align:left">&#x4EE5;&#x5B57;&#x7B26;&#x683C;&#x5F0F;&#x4F20;&#x5165;</td>
+      <td style="text-align:left">&apos;3.1415926&apos;</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x65E5;&#x671F;</td>
@@ -55,9 +52,25 @@
       </td>
     </tr>
   </tbody>
-</table>## 数据转换
+</table>> 注：
+>
+> 小数型用户属性导入系统后，默认四舍五入保留4位小数后存储。
+>
+> 如：导入数值为'3.1415926'，存储数值为'3.1416'
+>
+> 小数型事件属性导入系统后，会按照数值范围计算保留位数
+>
+> 如：导入数值大部分为2位小数，存储时会四舍五入保留2位小数
+
+## 数据转换
 
 数据导入时，如数值格式与属性创建类型不符时，会尝试进行如下转换（如无法转换则数值不会录入GrowingIO系统）
+
+整数：
+
+
+
+
 
 | 数值类型 | 字符串 | 整数 | 小数 | 日期 |
 | :--- | :--- | :--- | :--- | :--- |
