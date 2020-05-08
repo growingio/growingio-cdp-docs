@@ -60,7 +60,7 @@
       * [JS SDK](developer-manual/sdkintegrated/cdp/js-sdk.md)
       * [JAVA SDK](developer-manual/sdkintegrated/cdp/java-sdk.md)
       * [小程序 SDK](developer-manual/sdkintegrated/cdp/minp-sdk.md)
-      * [H5内嵌页SDK](developer-manual/sdkintegrated/cdp/h5-nei-qian-ye-sdk.md)
+      * [H5内嵌页SDK](developer-manual/sdkintegrated/cdp/hybrid-sdk.md)
     * [运营平台 SDK](developer-manual/sdkintegrated/mp/README.md)
       * [iOS SDK](developer-manual/sdkintegrated/mp/ios-sdk/README.md)
         * [弹窗 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/popup.md)
