@@ -39,3 +39,10 @@ gio('track', eventName: string, properties: object);
 | eventName | string | 是 | 事件标识符。 |
 | properties | Object | 否 | 事件级变量，即事件发生时所伴随的维度信息参数。 |
 
+```javascript
+//代码示例
+gio('track','homepage');
+gio('track','homepage',{ key1: 'value1', key2: 'value2'});
+
+```
+
