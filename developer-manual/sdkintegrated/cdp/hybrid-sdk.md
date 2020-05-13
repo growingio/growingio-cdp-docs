@@ -22,6 +22,24 @@ description: H5 内嵌页提供数据采集 SDK。
 不要和其他的GIO的  JS SDK 共同使用
 {% endhint %}
 
+## 2. 高级配置 <a id="2-gao-ji-pei-zhi"></a>
+
+内嵌页 SDK 还有以下额外参数可以使用：
+
+| 参数 | 值 | 解释 |
+| :--- | :--- | :--- |
+| hashtag | true \| false | GrowingIO默认不会把 hashtag 识别成页面 URL 的一部分。对于使用 hashtag 进行页面跳转的单页面网站应用来说，可以启用 hashtag 作为标识页面的一部分，将hashtag设置为true，默认为false。 |
+| debug | true \| false | 开启debug可以进行数据的实时调试，默认为false，调试方式为打开开发者工具，在console中查看。 |
+
+### 启用hashtag识别 <a id="qi-yong-hashtag-shi-bie"></a>
+
+GrowingIO默认不会把 hashtag 识别成页面 URL 的一部分。对于使用 hashtag 进行页面跳转的单页面网站应用来说，可以启用 hashtag 作为标识页面的一部分，将hashtag设置为true
+
+```javascript
+gio('init', '你的项目ID', {debug: false, platform:'hybrid',hashtag:true});
+
+```
+
 ### 设置自定义事件及事件级变量（track） <a id="she-zhi-zi-ding-yi-shi-jian-ji-shi-jian-ji-bian-liang-track"></a>
 
 手动发送一个自定义事件。在添加所需要发送的事件代码之前，需要在平台里配置添加事件。
