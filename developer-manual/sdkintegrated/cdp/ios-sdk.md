@@ -300,7 +300,7 @@ NSDictionary *dict = @{@"age" : 18, @"name": @"growingIO"};
         }];
 ```
 
-### 加载了gio\_hybrid\_cdp.js的页面。自动采集H5**（采集SDK &gt;=1.2.0）**
+### 加载了H5内嵌页SDK gio\_hybrid\_cdp.js的页面。自动采集H5**（采集SDK &gt;=1.2.0）**
 
 | 参数名称 | 类型 | 是否必须 | 说明 |
 | :--- | :--- | :--- | :--- |
