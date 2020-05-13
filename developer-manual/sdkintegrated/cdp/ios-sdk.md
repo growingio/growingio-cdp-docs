@@ -293,9 +293,23 @@ NSDictionary *dict = @{@"age" : 18, @"name": @"growingIO"};
 
 //代码示例
    [Growing trackPage:@"TestPageEvent"];
-        [Growing trackPage:@"TestVarPageEvent" withVariable:@{
+   
+   [Growing trackPage:@"TestVarPageEvent" withVariable:@{
                 @"key1": @"value1",
                 @"key2": @"value2"
         }];
+```
+
+### 加载了gio\_hybrid\_cdp.js的页面。自动采集H5**（采集SDK &gt;=1.2.0）**
+
+| 参数名称 | 类型 | 是否必须 | 说明 |
+| :--- | :--- | :--- | :--- |
+| webView | WKWebView | 是 | WKWebView |
+
+```objectivec
++ (void)bridgeForWKWebView:(WKWebView *)webView;
+//代码示例
+    WKWebView *webView = [[WKWebView alloc] initWithFrame:self.view.frame];
+    [Growing bridgeForWKWebView:webView];
 ```
 
