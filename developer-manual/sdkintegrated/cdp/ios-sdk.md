@@ -313,3 +313,7 @@ NSDictionary *dict = @{@"age" : 18, @"name": @"growingIO"};
     [Growing bridgeForWKWebView:webView];
 ```
 
+{% hint style="info" %}
+需要在 webview 初始化后调用
+{% endhint %}
+
