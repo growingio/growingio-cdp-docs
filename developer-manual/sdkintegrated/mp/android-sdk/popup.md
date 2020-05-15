@@ -337,7 +337,7 @@ GrowingTouch.startWithConfig(this, new GTouchConfig()
 
 * **弹窗配置页面：**
 
-![](../../../../.gitbook/assets/image%20%28155%29.png)
+![](../../../../.gitbook/assets/image%20%28156%29.png)
 
 其中「自定义参数」意思是输入任何您自己的scheme（自定义协议），
 
