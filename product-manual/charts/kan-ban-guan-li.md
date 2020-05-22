@@ -6,8 +6,6 @@
 
 ![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-7.01.11.png)
 
-## 
-
 ## 界面介紹
 
 ![&#x770B;&#x677F;&#x7BA1;&#x7406;&#x9875;&#x9762;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.04.24.png)
@@ -33,7 +31,7 @@
 
 ### 进入看板详情
 
-操作流程：在看板列表单击某个看板&gt; 進入看板詳情。
+操作流程：在看板列表单击某个看板 &gt;  進入看板詳情。
 
 ![&#x770B;&#x677F;&#x8BE6;&#x60C5;&#x9875;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-5.59.06.png)
 
@@ -45,13 +43,13 @@
 
 ### 看板筛选
 
-操作流程：  点击下拉匡&gt; 选中分类。 
+操作流程：  点击下拉匡 &gt; 选中分类。 
 
 1. 看板分类筛选：所有看板、协作看板、我的看板 3 类。
 
 ![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.12.13.png)
 
-2.筛选协作者 :  透过协作者筛选，可以帮主管理者确定一位成员可见的看板范围。
+2.筛选协作者 :  透过协作者筛选，可以帮助管理者确定一位成员可见的看板范围。
 
 ![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.31.49.png)
 
@@ -63,9 +61,9 @@
 
 操作流程：点击新建看板&gt; 输入看板名称&gt;  添加图表
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.12.55.png)
+![&#x521B;&#x5EFA;&#x65B0;&#x770B;&#x677F;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.12.55.png)
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.39.39.png)
+![&#x6DFB;&#x52A0;&#x56FE;&#x8868;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.39.39.png)
 
 {% hint style="warning" %}
 权限控制：需要该成员具有看板权限。
@@ -75,9 +73,9 @@
 
 ### 批量设置共享
 
-操作流程： 勾选看板&gt; 点击共享设置 &gt; 设置共享模式与成员&gt; 点击保存 。
+操作流程： 勾选看板 &gt; 点击共享设置 &gt; 设置共享模式与成员&gt; 点击保存 。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.08.08.png)
+![&#x6279;&#x91CF;&#x8BBE;&#x7F6E;&#x5171;&#x4EAB;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.08.08.png)
 
 ![&#x770B;&#x677F;&#x5171;&#x4EAB;&#x8A2D;&#x7F6E;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.07.42.png)
 
@@ -87,7 +85,7 @@
 
 看板的协作者，代表该数据看板可见的成员是谁，可以通过查看共享的协作成员，确定该看板的数据安全性。
 
-操作流程：点击头像&gt; 展开协作者列表。
+操作流程：点击头像 &gt; 展开协作者列表。
 
 ![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.45.04.png)
 
