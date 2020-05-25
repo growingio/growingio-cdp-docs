@@ -2,7 +2,7 @@
 
 资源位SDK最低兼容iOS 8.0 系统。
 
-**参考代码：**[**https://github.com/growingio/GIOiOSDemo**](https://github.com/growingio/GIOiOSDemo)\*\*\*\*
+\*\*\*\*
 
 资源位SDK主要提供两种接入方式：
 
