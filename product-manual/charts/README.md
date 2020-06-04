@@ -57,7 +57,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 操作流程：点击看板名称 &gt; 进入编辑模式 &gt; 输入看板名称 &gt; 点击保存
 
-![](../../.gitbook/assets/image%20%28185%29.png)
+![](../../.gitbook/assets/image%20%28186%29.png)
 
 {% hint style="warning" %}
 权限控制：需要该成员具有看板权限，且同时是该看板的编辑者。
@@ -69,7 +69,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 操作流程：点击 添加单图 **&gt;** 勾选要添加至此看板的分析图表 &gt; 点击添加。 
 
-![](../../.gitbook/assets/image%20%28187%29.png)
+![](../../.gitbook/assets/image%20%28188%29.png)
 
 {% hint style="warning" %}
  权限控制：添加单图时，需要该成员具有看板权限，且同时是该看板的编辑者。
@@ -145,7 +145,7 @@ GIO 提供强大且方便的时间选择控件，可以帮助你快速查看不�
 
 操作流程：点击看版右侧  &gt;  选择刪除 &gt;  確定刪除。 
 
-![](../../.gitbook/assets/image%20%28186%29.png)
+![](../../.gitbook/assets/image%20%28187%29.png)
 
 ## 设置共享模式
 
