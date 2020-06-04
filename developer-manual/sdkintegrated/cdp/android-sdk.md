@@ -168,7 +168,9 @@ R.string.growingio*
       </td>
     </tr>
   </tbody>
-</table>### **运行时API**
+</table>
+
+### **运行时API**
 
 > **注意：**GrowingIO 所有API 都需要在主线程调用。
 
@@ -264,7 +266,9 @@ GrowingIO.getInstance().clearUserId();
       <td style="text-align:left">&#x7269;&#x54C1;&#x6A21;&#x578B;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x5C5E;&#x6027;&#x7684;&#x503C;&#xFF0C;&#x5982;&quot;123456&quot;</td>
     </tr>
   </tbody>
-</table>示例代码：
+</table>
+
+示例代码：
 
 ```text
 // track API调用示例一
@@ -329,7 +333,9 @@ gio.track(eventName, eventVar, itemId, itemKey);
       </td>
     </tr>
   </tbody>
-</table>代码示例：
+</table>
+
+代码示例：
 
 ```text
 //代码示例一

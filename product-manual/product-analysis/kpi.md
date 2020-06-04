@@ -90,7 +90,9 @@ KPI看板可以帮助业务负责人在 GrowingIO 平台上监控 KPI 数据，�
       </td>
     </tr>
   </tbody>
-</table>三、填写完成后单击**创建**，完成一个KPI分析的创建。
+</table>
+
+三、填写完成后单击**创建**，完成一个KPI分析的创建。
 
 ## 设置KPI目标
 
@@ -153,7 +155,9 @@ KPI看板可以帮助业务负责人在 GrowingIO 平台上监控 KPI 数据，�
       <td style="text-align:left">&#x5B9E;&#x9645;KPI&#x8868;&#x73B0;/&#x76EE;&#x6807;&#x503C;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x501F;&#x52A9;&#x76EE;&#x6807;&#x5B8C;&#x6210;&#x7387;&#x6765;&#x8FFD;&#x8E2A;&#x8FDB;&#x7A0B;&#x662F;&#x5426;&#x7B26;&#x5408;&#x9884;&#x671F;&#x3002;</td>
     </tr>
   </tbody>
-</table>## 解读KPI分析
+</table>
+
+## 解读KPI分析
 
 当你发现KPI不符合预期，点击KPI单图进入KPI详情页，详情页将帮助你快速找到数据波动的原因。
 

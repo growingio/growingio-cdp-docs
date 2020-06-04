@@ -100,7 +100,9 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
       </td>
     </tr>
   </tbody>
-</table>代码示例：
+</table>
+
+代码示例：
 
 ```objectivec
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -214,7 +216,9 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
       <td style="text-align:left">&#x7269;&#x54C1;&#x6A21;&#x578B;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x5C5E;&#x6027;&#x503C;&#xFF0C;&#x5982;&#x201C;123456&#x201D;</td>
     </tr>
   </tbody>
-</table>代码示例：
+</table>
+
+代码示例：
 
 ```text
 // track API原型
