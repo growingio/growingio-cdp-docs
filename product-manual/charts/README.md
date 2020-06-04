@@ -12,7 +12,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 看板模块分为两大区域，看板侧栏和看板数据消费区。
 
-![](../../.gitbook/assets/image%20%28176%29.png)
+![](../../.gitbook/assets/image%20%28177%29.png)
 
 ## 看板侧栏
 
@@ -57,7 +57,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 操作流程：点击看板名称 &gt; 进入编辑模式 &gt; 输入看板名称 &gt; 点击保存
 
-![](../../.gitbook/assets/image%20%28179%29.png)
+![](../../.gitbook/assets/image%20%28185%29.png)
 
 {% hint style="warning" %}
 权限控制：需要该成员具有看板权限，且同时是该看板的编辑者。
@@ -69,7 +69,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 操作流程：点击 添加单图 **&gt;** 勾选要添加至此看板的分析图表 &gt; 点击添加。 
 
-![](../../.gitbook/assets/image%20%28180%29.png)
+![](../../.gitbook/assets/image%20%28187%29.png)
 
 {% hint style="warning" %}
  权限控制：添加单图时，需要该成员具有看板权限，且同时是该看板的编辑者。
@@ -83,7 +83,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 ## 移单图
 
-![](../../.gitbook/assets/image%20%28177%29.png)
+![](../../.gitbook/assets/image%20%28179%29.png)
 
 {% hint style="warning" %}
 权限控制：移除单图时，需要该成员具有看板权限，且同时是该看板的编辑者。
@@ -93,7 +93,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 通过添加描述，可对看板添加描述说明。
 
-![](../../.gitbook/assets/image%20%28178%29.png)
+![](../../.gitbook/assets/image%20%28183%29.png)
 
 ## 过滤条件
 
@@ -102,11 +102,11 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 操作流程： 点击过滤条件 &gt; 选择过滤范围 &gt; 点击保存 。
 
-![&#x6DFB;&#x52A0;&#x8FC7;&#x6EE4;&#x6761;&#x4EF6;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-4.51.20.png)
+![](../../.gitbook/assets/image%20%28181%29.png)
 
 从看板中进入分析图表详情，该分析图表会继承看板的过滤条件， **点击 X** 可以移除过滤条件。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-5.32.01.png)
+![](../../.gitbook/assets/image%20%28178%29.png)
 
 {% hint style="info" %}
 最多支持添加 5 个过滤条件。
@@ -118,52 +118,44 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 权限控制：保存看板过滤条件时，需要该成员具有看板权限，且同时是该看板的编辑者。
 {% endhint %}
 
-### 
-
-### 筛选时间范围
+## 筛选时间范围
 
 我们可以通过时间范围的选择，决定所有分析图表展示的时间区间。  
 如：当我们想看 过去半年的访问量时，可将时间范围后则为过去180 天。
 
 操作流程：点击时间范围 &gt;  选择时间范围区间 &gt; 点击确定。
 
-![&#x65F6;&#x95F4;&#x9009;&#x62E9;&#x5668;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-4.59.06.png)
+![](../../.gitbook/assets/image%20%28184%29.png)
 
 GIO 提供强大且方便的时间选择控件，可以帮助你快速查看不同时间段的数据。
 
-![&#x65F6;&#x95F4;&#x8303;&#x56F4;&#x5C55;&#x793A;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-4.55.31.png)
+![](../../.gitbook/assets/image%20%28180%29.png)
 
-### 另存看板
+## 另存看板
 
 操作流程：点击看版右侧  &gt; 选择另存看板 &gt;  输入新看版名称。 
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-5.07.20.png)
+![](../../.gitbook/assets/image%20%28182%29.png)
 
 {% hint style="warning" %}
 权限控制： 另存看板时，需要该成员具有看板权限
 {% endhint %}
 
-### 
-
-### 删除看板
+## 删除看板
 
 操作流程：点击看版右侧  &gt;  选择刪除 &gt;  確定刪除。 
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-5.07.20%20%281%29.png)
+![](../../.gitbook/assets/image%20%28186%29.png)
 
-
-
-### 设置共享模式
+## 设置共享模式
 
 可设置看板共享的成员 ，共享方式分为 **阅读者、编辑者**两种，您可以通过灵活的设置，与同事进行数据的协作，使数据在企业内部进行流动，更好的发挥数据的价值。
 
+![](../../.gitbook/assets/image%20%28176%29.png)
+
 {% hint style="warning" %}
-共享設置可見 ： [看板共享設置鏈接](https://app.gitbook.com/@growingio/s/cdp/~/drafts/-M7f1KTwEG20PbWnheJR/v/v20200600/product-manual/charts/kan-ban-gong-xiang-she-zhi)
+共享设置可见 ： [看板共享設置鏈接](https://app.gitbook.com/@growingio/s/cdp/~/drafts/-M7f1KTwEG20PbWnheJR/v/v20200600/product-manual/charts/kan-ban-gong-xiang-she-zhi)
 {% endhint %}
-
-![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-5.44.56.png)
-
-
 
 ## 常见问题
 
@@ -175,9 +167,7 @@ GIO 提供强大且方便的时间选择控件，可以帮助你快速查看不�
 
 不会。移除某个图表只会影响当前的看板，您还可以把移除的图表重新添加到该看板中。被移除的图表在各分析模块的单图列表中可以找到。
 
-### 3. 為何我無法操作看板，提示我沒有權限？
+### 3. 为何我无法操作看板，提示我沒有权限？
 
 添加单图、编辑看板名称、移除单图、删除看板、共享设置、保存过滤条件时，需要该成员具有看板权限，且同时是该看板的编辑者。
-
-另存看板
 
