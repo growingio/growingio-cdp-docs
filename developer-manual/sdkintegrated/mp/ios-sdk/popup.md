@@ -81,7 +81,9 @@
       </td>
     </tr>
   </tbody>
-</table>**代码示例**
+</table>
+
+**代码示例**
 
 ```objectivec
 [GrowingTouch setEventPopupEnable:YES];
@@ -121,7 +123,9 @@
       </td>
     </tr>
   </tbody>
-</table>**代码示例**
+</table>
+
+**代码示例**
 
 ```swift
 [GrowingTouch setDebugEnable:YES];

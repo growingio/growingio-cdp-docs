@@ -399,7 +399,9 @@ description: 预置用户信息
       <td style="text-align:left">M</td>
     </tr>
   </tbody>
-</table>## 用户信息管理页面
+</table>
+
+## 用户信息管理页面
 
 在用户信息管理页面可以查看用户信息的名称、标识符、平台、描述、示例。
 
