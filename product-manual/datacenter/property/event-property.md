@@ -42,7 +42,9 @@ description: 对事件属性进行声明和管理
       <td style="text-align:left">&#x4E8B;&#x4EF6;&#x5C5E;&#x6027;&#x7684;&#x63CF;&#x8FF0;&#xFF0C;&#x53EF;&#x586B;&#x5199;&#x5BF9;&#x5E94;&#x89E6;&#x53D1;&#x65F6;&#x673A;&#x548C;&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF0C;&#x6216;&#x5BF9;&#x5C5E;&#x6027;&#x503C;&#x8FDB;&#x884C;&#x4E3E;&#x4F8B;&#x3002;</td>
     </tr>
   </tbody>
-</table>三、填写完成后单击**确定**，完成一个事件属性的创建。
+</table>
+
+三、填写完成后单击**确定**，完成一个事件属性的创建。
 
 {% hint style="success" %}
 在完成了事件属性配置，事件关联，以及正确的代码实施后。我们即可开始在GrowingIO使用事件属性。

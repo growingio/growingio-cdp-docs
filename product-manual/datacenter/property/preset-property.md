@@ -282,7 +282,9 @@ description: SDK默认采集信息
       style="text-align:left">&#x7AD6;&#x76F4;&#x3001;&#x6A2A;&#x5411;</td>
     </tr>
   </tbody>
-</table>## 预定义属性管理页面
+</table>
+
+## 预定义属性管理页面
 
 在预定义属性管理页面可以查看预定义属性名称、含义、示例。
 

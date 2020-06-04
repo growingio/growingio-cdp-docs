@@ -95,7 +95,9 @@ SDK支持采集的事件类型：
       <td style="text-align:left">&#x8BF7;&#x8BE6;&#x89C1;context&#x4E2D;&#x5305;&#x542B;&#x7684;&#x5B57;&#x6BB5;&#x3002;</td>
     </tr>
   </tbody>
-</table>| context中包含的字段 | 类型 | 说明 |
+</table>
+
+| context中包含的字段 | 类型 | 说明 |
 | :--- | :--- | :--- |
 | app | object | 请详见App中包含的字段解释。 |
 | device | object | 请详见device中包含的字段解释。 |
@@ -151,7 +153,9 @@ SDK支持采集的事件类型：
       </td>
     </tr>
   </tbody>
-</table>| screen中包含的字段 | 类型 | 说明 |
+</table>
+
+| screen中包含的字段 | 类型 | 说明 |
 | :--- | :--- | :--- |
 | width | int | 屏幕宽度。 |
 | height | int | 屏幕高度。 |
@@ -262,7 +266,9 @@ SDK支持采集的事件类型：
       <td style="text-align:left">&#x8BF7;&#x8BE6;&#x89C1;profile&#x4E2D;&#x5305;&#x542B;&#x7684;&#x5B57;&#x6BB5;&#x89E3;&#x91CA;&#x3002;</td>
     </tr>
   </tbody>
-</table>| profile中包含的字段 | 类型 | 说明 |
+</table>
+
+| profile中包含的字段 | 类型 | 说明 |
 | :--- | :--- | :--- |
 | basic | object | 请详见basic中包含的字段解释。 |
 | device | object | 请详见device中包含字段解释。 |
@@ -400,7 +406,9 @@ SDK支持采集的事件类型：
       <td style="text-align:left">&#x8BF7;&#x8BE6;&#x89C1;context&#x4E2D;&#x5305;&#x542B;&#x7684;&#x5B57;&#x6BB5;&#x89E3;&#x91CA;&#x3002;</td>
     </tr>
   </tbody>
-</table>| context中包含的字段 | 类型 | 说明 |
+</table>
+
+| context中包含的字段 | 类型 | 说明 |
 | :--- | :--- | :--- |
 | page | object | 请详见page中包含的字段解释。 |
 | referrer | object | 请详见referrer中包含的字段解释。 |

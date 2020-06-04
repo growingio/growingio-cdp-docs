@@ -52,7 +52,9 @@
       </td>
     </tr>
   </tbody>
-</table>### 数值转换
+</table>
+
+### 数值转换
 
 {% hint style="success" %}
 数据导入后，GrowingIO数值存储的转换规则
@@ -147,7 +149,9 @@
         &#x6216; &#x4EFB;&#x610F;&#x4E2A;&#x7A7A;&#x683C;(&apos; &apos;)&#x65F6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
     </tr>
   </tbody>
-</table>> 除没值外，其他筛选条件默认在有值条件下筛选
+</table>
+
+> 除没值外，其他筛选条件默认在有值条件下筛选
 
 ### 整数、小数
 
@@ -202,7 +206,9 @@
       <td style="text-align:left">&#x5C5E;&#x6027;&#x503C;&#x4E3A;NULL&#x65F6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
     </tr>
   </tbody>
-</table>> 除没值外，其他筛选条件默认在有值条件下筛选
+</table>
+
+> 除没值外，其他筛选条件默认在有值条件下筛选
 
 ### 日期
 
@@ -267,7 +273,9 @@
       <td style="text-align:left">&#x5C5E;&#x6027;&#x503C;&#x4E3A;NULL&#x65F6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
     </tr>
   </tbody>
-</table>> 除没值外，其他筛选条件默认在有值条件下筛选
+</table>
+
+> 除没值外，其他筛选条件默认在有值条件下筛选
 
 **相对现在**
 
