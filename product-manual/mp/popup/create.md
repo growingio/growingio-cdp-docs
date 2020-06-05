@@ -1,0 +1,141 @@
+# 创建弹窗
+
+进入**运营**模块，在顶部导航栏选择**运营**。
+
+{% tabs %}
+{% tab title="移动应用" %}
+{% hint style="info" %}
+本页内容不包含添加分群/控制组对比、添加素材对比、添加活动对比的配置，相关配置请参考 AB测试 部分
+{% endhint %}
+
+### 新建弹窗
+
+单击界面左上角的**新建**，选择**弹窗**，再选择**移动应用**。
+
+### 用户选择
+
+选择哪些用户可以看到这个弹窗。支持两种方式，选择已有分群或直接用标签筛选。
+
+#### 方式1：选择已有分群
+
+可使用创建好的**用户分群**来筛选用户。可以在分群的基础上添加用户属性，用户属性为 SDK 实时判断（注意是SDK上传的用户属性可以实时判断），并且属性条件支持且、或等复杂的逻辑连接
+
+{% hint style="success" %}
+**用户分群详细解释**
+
+* 直接选择之前创建过的分群（创建好的用户分群每天凌晨会按照条件跑一遍分群数据，这种方式会有T+1的延时）用户次日访问App时会判断该用户是否在某个分群中，满足条件弹出。
+* 但如果选择四种预定义分群：全部登录用户，全部访问用户，新登录用户，新访问用户，在弹窗 SDK 中是实时判断的。比如选择新登录用户，那么每个打开App的用户，弹窗 SDK 都会实时判断该用户是否为新登录的用户。
+{% endhint %}
+
+#### 方式2：通过标签自定义
+
+可以选择需要的标签来筛选人群。
+
+### **产品选择**
+
+您可以最多选择一个 Android 端和一个 iOS 端 App。
+
+### 触发&素材
+
+* **触发时机**
+
+就是用户会在什么时间看到这个弹窗？默认触发时机为「**打开App时**」，也可以选择其他事件作为触发时机。
+
+**并且**能够实现精准的控制某个事件发生第 N 次后再触发弹窗。如：支付成功 5 次以上、收藏商品超过 3 次等。
+
+{% hint style="info" %}
+如果运营人员选择了 「**打开App时**」 弹出。 需要注意：如果您的 App 包含闪屏页面，那么代码层面需要做特殊处理。因为 SDK 并不能判断闪屏什么时候结束。 为了避免在闪屏页面出现弹窗，有两种处理方法：
+
+处理方法1：
+
+* 在需要弹出的页面埋点，运营人员在下拉框中选择相应的埋点事件作为触发时机。这种方法可以精准的控制弹出时机。
+
+处理方法2：
+
+* 在 App onCreate 的时候设置关闭弹窗。使用 GrowingTouch.startWithConfig\(this, new GTouchConfig\(\) .setEventPopupEnable\(false\) 
+* 然后再在首页MainActivity中调用 enableEventPopupAndGenerateAppOpenEvent 或者setEventPopupEnable\(true\)
+{% endhint %}
+
+* **触发次数**
+
+弹窗的触发频率可以设置为只触发 1 次，或是多次。如果设置多次触发，需要定义触发次数上限，以及每次的间隔时间。
+
+{% hint style="info" %}
+**触发说明**
+
+只要用户没有点击查看弹窗或者关闭弹窗，且触发次数没有达到上限就会再次触发。
+{% endhint %}
+
+* **图片素材**
+
+上传不超过500KB大小的背景图片素材，如果有需要可以使用 [tinypng](https://tinypng.com/) 等在线网站进行压缩，或者让设计师直接做出这个大小的图片。
+
+{% hint style="success" %}
+素材建议大小：
+
+iPhone8 的屏幕宽度是375px。所以弹窗素材宽度在300px至330px左右，高度250px至600px左右，都是合适大小。GIO 弹窗不会拉伸用户上传的图片，会保证原始比例。为保证清晰度，请导出@2x或@3x的图片。
+{% endhint %}
+
+GIO 弹窗支持带有透明度的 PNG 格式图片，所以可以做任何形状，不一定要拘泥于矩形。
+
+* **转跳页面**
+
+用户点击弹窗后，跳转到哪个页面呢？支持四种形式的跳转，如下：
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x7C7B;&#x578B;</th>
+      <th style="text-align:left">&#x8BF4;&#x660E;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">App&#x539F;&#x751F;&#x9875;</td>
+      <td style="text-align:left">
+        <p></p>
+        <p>&#x539F;&#x751F;&#x9875;&#x9762;&#x8DF3;&#x8F6C;&#x94FE;&#x63A5;&#x662F;&#x7684;&#x683C;&#x5F0F;&#x4E3A; <code>classname?key1=value1&amp;key2=value2</code>&#xFF0C;&#x8BF7;&#x4E0E;&#x5F00;&#x53D1;&#x786E;&#x8BA4;&#xFF08;&#x524D;&#x9762;&#x4E0D;&#x9700;&#x8981;&#x52A0;&#x534F;&#x8BAE;&#x540D;&#xFF0C;GIO&#x4F1A;&#x9ED8;&#x8BA4;&#x52A0;&#x4E0A;&#x81EA;&#x5DF1;&#x7684;&#x534F;&#x8BAE;&#x5934;&#xFF09;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">H5&#x9875;&#x9762;</td>
+      <td style="text-align:left">&#x52A0;&#x4E0A; http:// &#x6216; https:// &#x5F00;&#x5934;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x81EA;&#x5B9A;&#x4E49;&#x534F;&#x8BAE;</td>
+      <td style="text-align:left">&#x4EFB;&#x4F55;&#x60A8;&#x81EA;&#x5DF1;&#x7684;&#x534F;&#x8BAE;&#x5934;&#x90FD;&#x53EF;&#x4EE5;&#xFF08;<b>&#x63A8;&#x8350;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#xFF0C;&#x66F4;&#x7075;&#x6D3B;</b>&#xFF09;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x63A8;&#x9001;&#x6743;&#x9650;&#x8BBE;&#x7F6E;&#x9875;</td>
+      <td style="text-align:left">&#x5F39;&#x7A97;&#x652F;&#x6301;&#x8DF3;&#x8F6C;&#x5230;&#x7CFB;&#x7EDF;&#x8BBE;&#x7F6E;&#x9875;,
+        &#x4F7F;&#x7528;&#x4E0A;&#x9009;&#x62E9;&#x8BBF;&#x95EE;&#x7528;&#x6237;&#x5206;&#x7FA4;&#xFF0C;&#x5C5E;&#x6027;&#x63A8;&#x9001;&#x8BBE;&#x7F6E;&#x5173;&#xFF0C;&#x5373;&#x53EF;&#x9ED8;&#x8BA4;&#x9009;&#x62E9;&#x63A8;&#x9001;&#x6743;&#x9650;&#x8BBE;&#x7F6E;&#x9875;&#xFF0C;&#xFF08;SDK&#x9700;&#x8981;&#x540C;&#x65F6;&#x96C6;&#x6210;&#x5F39;&#x7A97;&#x548C;&#x63A8;&#x9001;&#xFF09;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x4E0D;&#x586B;&#x5199;</td>
+      <td style="text-align:left">&#x5219;&#x9ED8;&#x8BA4;&#x4F5C;&#x4E3A;&#x5C55;&#x793A;&#x7528;&#xFF0C;&#x70B9;&#x51FB;&#x540E;&#x5173;&#x95ED;&#x5F39;&#x7A97;</td>
+    </tr>
+  </tbody>
+</table>
+
+### 
+
+### 测试和上线
+
+配置完上述步骤后，单击保存即可进行测试和上线。
+
+**扫码测试**：选择需要测试的 App ，使用包含有 **安装了弹窗 SDK 的 App** 的设备进行扫码唤醒 App ，进行测试。为了更方便的供测试者查看弹窗效果，不管扫码的设备是否在分群中，都会在相应的时机弹出弹窗。
+
+**上线时间配置：**您可以配置弹窗上下线时间。
+{% endtab %}
+
+{% tab title="H5应用" %}
+正在开发
+{% endtab %}
+
+{% tab title="小程序" %}
+正在开发
+{% endtab %}
+{% endtabs %}
+
+## 
+
