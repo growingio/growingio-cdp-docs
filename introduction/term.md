@@ -53,7 +53,7 @@
       </td>
       <td style="text-align:left">
         <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
-        <p>SDK&#x6570;&#x636E;</p>
+        <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
       </td>
     </tr>
     <tr>
@@ -67,7 +67,7 @@
         </td>
         <td style="text-align:left">
           <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
-          <p>SDK&#x6570;&#x636E;</p>
+          <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
         </td>
     </tr>
     <tr>
@@ -79,7 +79,7 @@
       </td>
       <td style="text-align:left">
         <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
-        <p>SDK&#x6570;&#x636E;</p>
+        <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
       </td>
     </tr>
     <tr>
@@ -88,7 +88,7 @@
       <td
       style="text-align:left">
         <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
-        <p>SDK&#x6570;&#x636E;</p>
+        <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
         </td>
     </tr>
     <tr>
@@ -101,7 +101,7 @@
         </td>
         <td style="text-align:left">
           <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
-          <p>SDK&#x6570;&#x636E;</p>
+          <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
         </td>
     </tr>
     <tr>
@@ -110,7 +110,7 @@
       <td
       style="text-align:left">
         <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
-        <p>SDK&#x6570;&#x636E;</p>
+        <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
         </td>
     </tr>
     <tr>
@@ -122,7 +122,7 @@
       </td>
       <td style="text-align:left">
         <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
-        <p>SDK&#x6570;&#x636E;</p>
+        <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
       </td>
     </tr>
   </tbody>
@@ -134,7 +134,7 @@
 
 ### 1. 以页面维度查看全局指标的定义是什么？
 
-  全局指标中，访问量、页面浏览量、人均访问次数、总访问时长\(分钟\)、跳出率和退出率支持以页面维度查看，其中页面浏览量和退出率为页面级别指标，其它全局指标为访问级别指指标。
+全局指标中，访问量、页面浏览量、人均访问次数、总访问时长\(分钟\)、跳出率和退出率支持以页面维度查看，其中页面浏览量和退出率为页面级别指标，其它全局指标为访问级别指指标。
 
 #### 页面级别指标
 
