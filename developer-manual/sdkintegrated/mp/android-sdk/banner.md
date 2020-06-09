@@ -122,7 +122,7 @@ public class MyApplication extends Application {
 | :--- | :--- | :--- | :--- | :--- |
 | Bannerkey | gtouchBannerKey | 是 | string | 在服务端进行查看后配置到本地,一个bannerKey对应一个banner\(唯一标识\),不设置抛出IllegalArgumentException |
 | 轮播间隔 | gtouchAutoPlayInterval | 否 | long | 不设置默认为3000ms,注意单位为ms |
-| 自动循环 | gtouchAutoPlayAble | 否 | boolean | 不设置默认为ture |
+| 自动循环 | gtouchAutoPlayAble | 否 | boolean | 不设置默认为true |
 | 轮播指示器样式 | gtouchPointDrawable | 否 | ResourceId | 不设置为SDK默认小圆点 |
 | 轮播指示器位置 | gtouchIndicatorGravity | 否 | int（Gravity） | 默认为Gravity.CENTER\_HORIZONTAL \| Gravity.BOTTOM |
 | 默认占位图 | gtouchPlaceholderDrawable | 否 | ResourceId | 用户设置,不设置默认为-1 |
