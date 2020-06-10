@@ -3,7 +3,7 @@
 ## **添加依赖**
 
 1. 获取iOS SDK以下包并解压，由GrowingIO提供。
-2. 将Growing.h、GrowingCDPCoreKit.framework 添加到iOS工程中；记得勾选“Copy item if needed“。
+2. 将[Growing.h](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-PublicHeader-1.2.0-CDP.zip)、[GrowingCDPCoreKit.framework](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDPCoreKit-1.2.0-CDP.zip) 添加到iOS工程中；记得勾选“Copy item if needed“。
 3. 在工程项目中添加以下库文件：
 
 > 添加库依赖的位置在项目设置 Target &gt; 选项卡General &gt; Linked Frameworks and Libraies。
@@ -256,37 +256,9 @@ NSDictionary *dict = @{@"age" : 18, @"name": @"growingIO"};
 
 ### **发送自定义Page 事件 （数据采集SDK &gt;=1.2.0）** <a id="page"></a>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
-      <th style="text-align:left">&#x7C7B;&#x578B;</th>
-      <th style="text-align:left">&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
-      <th style="text-align:left">&#x8BF4;&#x660E;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">pageName</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left"><b>page</b>&#x4E8B;&#x4EF6;&#x6807;&#x8BC6;&#x7B26;&#x3002;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">variable</td>
-      <td style="text-align:left">NSDictionary</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">
-        <p>page&#x4E8B;&#x4EF6;&#x53D1;&#x751F;&#x65F6;&#x6240;&#x4F34;&#x968F;&#x7684;&#x7EF4;&#x5EA6;&#x4FE1;&#x606F;&#x3002;</p>
-        <p>&#x9650;&#x5236;&#xFF1A;&#x975E;&#x7A7A;&#xFF1B;variable &#x5185;&#x90E8;&#x4E0D;&#x5141;&#x8BB8;&#x542B;&#x6709;</p>
-        <p>NSDictionary&#x6216;&#x8005;NSArray&#xFF1B;</p>
-        <p>key &#x957F;&#x5EA6;&#x9650;&#x5236;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;50&#xFF0C;value
-          &#x957F;&#x5EA6;&#x9650;</p>
-        <p>&#x5236;&#x5C0F;&#x7B49;&#x4E8E;200&#xFF0C;&#x503C;&#x4E0D;&#x80FD;&#x4E3A;&#x7A7A;&#x4E32;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&quot;&quot;&#x3002;</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| 参数名称 | 类型 | 是否必须 | 说明 |
+| :--- | :--- | :--- | :--- |
+| pageName | string | 是 | **page**事件标识符。 |
 
 ```objectivec
   /**
@@ -295,15 +267,11 @@ NSDictionary *dict = @{@"age" : 18, @"name": @"growingIO"};
  @param pageName : 页面名称, pageName为正常英文数字组合的字符串, 长度<=1000, 请不要含有 "'|\*&$@/', 等特殊字符
  @param variable : 页面变量, 变量不能为nil
  */
-+ (void)trackPage:(NSString *)pageName withVariable:(NSDictionary<NSString *, id> *)variable;
 
 //代码示例
    [Growing trackPage:@"TestPageEvent"];
    
-   [Growing trackPage:@"TestVarPageEvent" withVariable:@{
-                @"key1": @"value1",
-                @"key2": @"value2"
-        }];
+  
 ```
 
 ### 加载了H5内嵌页SDK gio\_hybrid\_cdp.js的页面。自动采集H5**（数据采集SDK &gt;=1.2.0）** <a id="bridgeforwebview"></a>
