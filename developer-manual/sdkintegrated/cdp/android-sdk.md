@@ -361,7 +361,7 @@ GrowingIO.getInstance().setUserAttributes(userAttr);
   /**
  发送自定义Page事件
 
- @param pageName : 页面名称, pageName为正常英文数字组合的字符串, 长度<=1000, 请不要含有 "'|\*&$@/', 等特殊字符
+ @param pageName : 页面名称, pageName为正常中英文数字组合的字符串, 长度<=1000, 请不要含有 "'|\*&$@/', 等特殊字符
  */
 IGrowingIO trackPage(String pageName);
 
