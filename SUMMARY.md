@@ -4,7 +4,6 @@
 * [产品简介](introduction/README.md)
   * [数据模型](introduction/model/README.md)
     * [属性模型](introduction/model/property.md)
-  * [视图介绍](introduction/view.md)
 * [产品使用文档](product-manual/README.md)
   * [看板](product-manual/charts/README.md)
     * [看板訂閱](product-manual/charts/kan-ban-ding-yue.md)
