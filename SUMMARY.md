@@ -6,7 +6,7 @@
     * [属性模型](introduction/model/property.md)
 * [产品使用文档](product-manual/README.md)
   * [看板](product-manual/charts/README.md)
-    * [看板訂閱](product-manual/charts/kan-ban-ding-yue.md)
+    * [看板订阅](product-manual/charts/kan-ban-ding-yue.md)
     * [看板管理](product-manual/charts/kan-ban-guan-li.md)
     * [看板共享设置](product-manual/charts/kan-ban-gong-xiang-she-zhi.md)
   * [分析](product-manual/product-analysis/README.md)
