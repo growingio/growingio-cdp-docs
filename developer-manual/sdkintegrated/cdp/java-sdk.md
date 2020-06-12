@@ -134,6 +134,8 @@ projectA.send(msg);
 
 ![](../../../.gitbook/assets/image%20%2829%29.png)
 
+
+
 完成以上测试步骤后： ‌
 
 1. 修改gio.properties文件并将run.mode定义为production，并触发埋点事件 。
