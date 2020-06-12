@@ -3,7 +3,7 @@
 * [快速入口](README.md)
 * [产品简介](introduction/README.md)
   * [属性模型](introduction/property.md)
-  * [属性筛选条件](introduction/property-selector.md)
+  * [属性筛选](introduction/property-selector.md)
 * [产品使用文档](product-manual/README.md)
   * [看板](product-manual/charts/README.md)
     * [看板订阅](product-manual/charts/kan-ban-ding-yue.md)
