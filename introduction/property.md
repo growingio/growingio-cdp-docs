@@ -41,6 +41,10 @@ GrowingIO系统中支持三种事物模型，分别为事件模型、物品模�
 
 > 事件属性仅支持非负整数和非负小数
 
+{% hint style="warning" %}
+创建属性时可选择属性类型，创建成功后属性类型不可更改
+{% endhint %}
+
 ## 属性说明
 
 | 属性名称 | 说明 |
@@ -59,19 +63,17 @@ GrowingIO系统支持对[事件属性](../product-manual/datacenter/property/eve
 
 ## 属性关联
 
+事件属性和物品属性创建成功后，需要主动关联事件，关联成功后才能在事件中使用相应的事件属性和物品属性。
 
+{% hint style="warning" %}
 
+{% endhint %}
 
+用户属性创建成功后无需额外配置即可在系统中使用。
 
-
-
-
-
-
+配置方法：[事件属性](../product-manual/datacenter/event/event-manage.md#chuang-jian-shi-jian)、[物品属性](../product-manual/datacenter/event/event-manage.md#chuang-jian-shi-jian)
 
 ## 数据格式
-
-属性的类型由创建属性时选择的类型决定，创建后属性类型不可更改。四种属性对应导入数值格式如下：
 
 <table>
   <thead>
@@ -110,6 +112,14 @@ GrowingIO系统支持对[事件属性](../product-manual/datacenter/property/eve
     </tr>
   </tbody>
 </table>
+
+### 
+
+### 
+
+### 
+
+### 
 
 ### 数值转换
 
