@@ -44,59 +44,9 @@ step 3: 在3处选择筛选维度值
 
 ## 筛选条件
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 筛选条件分类[![](https://manual.sensorsdata.cn/sa/_/7F000001017254FC8E5DF485619F34A0/1591948739794/images/common/link-solid.svg)](https://manual.sensorsdata.cn/sa/latest/guide_terms_attribute-7547310.html#id-.%E5%B1%9E%E6%80%A7%E7%AD%9B%E9%80%89%E6%9D%A1%E4%BB%B6%E8%AF%B4%E6%98%8Ev1.17-%E7%AD%9B%E9%80%89%E6%9D%A1%E4%BB%B6%E5%88%86%E7%B1%BB) <a id="id-.&#x5C5E;&#x6027;&#x7B5B;&#x9009;&#x6761;&#x4EF6;&#x8BF4;&#x660E;v1.17-&#x7B5B;&#x9009;&#x6761;&#x4EF6;&#x5206;&#x7C7B;"></a>
-
-### 按目标[![](https://manual.sensorsdata.cn/sa/_/7F000001017254FC8E5DF485619F34A0/1591948739794/images/common/link-solid.svg)](https://manual.sensorsdata.cn/sa/latest/guide_terms_attribute-7547310.html#id-.%E5%B1%9E%E6%80%A7%E7%AD%9B%E9%80%89%E6%9D%A1%E4%BB%B6%E8%AF%B4%E6%98%8Ev1.17-%E6%8C%89%E7%9B%AE%E6%A0%87) <a id="id-.&#x5C5E;&#x6027;&#x7B5B;&#x9009;&#x6761;&#x4EF6;&#x8BF4;&#x660E;v1.17-&#x6309;&#x76EE;&#x6807;"></a>
-
-筛选用户：筛选条件作用于用户表，只看符合筛选条件的那些用户；一般在用户属性上进行条件设置，或者选择用户分群获取符合分析条件的用户。
-
-筛选事件：筛选条件作用于事件，只看符合筛选条件的事件；一般在事件属性上进行条件设置。  
-  
-
-
-
-
-
-
-
-
-
-
-## 筛选条件
-
-筛选条件是指在GrowingIO中能对以上属性类型进行的筛选操作。
-
-> for example:
->
-> 用户属性中创建一个整数属性 - 年龄，我们希望在分群中筛选年龄小于18岁的用户分群
->
-> 筛选条件即为选择用户属性中年龄小于18的用户
-
 ### 字符串
 
-![&#x5B57;&#x7B26;&#x4E32;&#x5C5E;&#x6027;](../.gitbook/assets/image%20%2821%29.png)
+![&#x5B57;&#x7B26;&#x4E32;&#x7B5B;&#x9009;&#x6761;&#x4EF6;](../.gitbook/assets/image%20%28197%29.png)
 
 <table>
   <thead>
@@ -108,56 +58,70 @@ step 3: 在3处选择筛选维度值
   <tbody>
     <tr>
       <td style="text-align:left">= &#x7B49;&#x4E8E;</td>
-      <td style="text-align:left">&#x7CBE;&#x51C6;&#x5339;&#x914D;&#xFF0C;&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x5B8C;&#x5168;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+      <td style="text-align:left">
+        <p>&#x7CBE;&#x51C6;&#x5339;&#x914D;&#xFF0C;</p>
+        <p>&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x5B8C;&#x5168;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">!= &#x4E0D;&#x7B49;&#x4E8E;</td>
-      <td style="text-align:left">&#x7CBE;&#x51C6;&#x5339;&#x914D;&#xFF0C;&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x4E0D;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+      <td style="text-align:left">
+        <p>&#x7CBE;&#x51C6;&#x5339;&#x914D;&#xFF0C;</p>
+        <p>&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x4E0D;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">in &#x5728;...&#x8303;&#x56F4;&#x5185;</td>
       <td style="text-align:left">
-        <p>&#x7CBE;&#x51C6;&#x5339;&#x914D;&#xFF0C;&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x5B8C;&#x5168;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x7684;&#x67D0;&#x4E2A;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
-        <p>&#x5982;(&#x5C5E;&#x6027;)&#x516C;&#x53F8;&#x7C7B;&#x578B;&quot;toB&quot;
-          in [&quot;toC&quot;,&quot;toB&quot;]</p>
+        <p>&#x7CBE;&#x51C6;&#x5339;&#x914D;&#xFF0C;</p>
+        <p>&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x5B8C;&#x5168;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x7684;&#x67D0;&#x4E2A;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">not in &#x4E0D;&#x5728;&#x8303;&#x56F4;&#x5185;</td>
-      <td style="text-align:left">&#x7CBE;&#x51C6;&#x5339;&#x914D;&#xFF0C;&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x4E0D;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x7684;&#x4EFB;&#x610F;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+      <td style="text-align:left">
+        <p>&#x7CBE;&#x51C6;&#x5339;&#x914D;&#xFF0C;</p>
+        <p>&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x4E0D;&#x7B49;&#x4E8E;&#x8F93;&#x5165;&#x7684;&#x4EFB;&#x610F;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">like &#x5305;&#x542B;</td>
       <td style="text-align:left">
-        <p>&#x6A21;&#x7CCA;&#x5339;&#x914D;&#xFF0C;&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x5B57;&#x6BB5;&#x5305;&#x542B;&#x8F93;&#x5165;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
-        <p>&#x5982;(&#x5C5E;&#x6027;)&#x516C;&#x53F8;&#x540D;&#x79F0;&#x201C;GrowingIO&quot;&#x4E2D;&#x5305;&#x542B;&#x5B57;&#x7B26;&#x4E32;&#x201D;Growing&quot;</p>
+        <p>&#x6A21;&#x7CCA;&#x5339;&#x914D;&#xFF0C;</p>
+        <p>&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x5B57;&#x6BB5;&#x5305;&#x542B;&#x8F93;&#x5165;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">not like &#x4E0D;&#x5305;&#x542B;</td>
       <td style="text-align:left">
-        <p>&#x6A21;&#x7CCA;&#x5339;&#x914D;&#xFF0C;&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x5B57;&#x6BB5;&#x4E0D;&#x5305;&#x542B;&#x8F93;&#x5165;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
-        <p>&#x5982;(&#x5C5E;&#x6027;)&#x516C;&#x53F8;&#x540D;&#x79F0;&#x201C;GrowingIO&quot;&#x4E2D;&#x4E0D;&#x5305;&#x542B;&#x5B57;&#x7B26;&#x4E32;&#x201C;Growth&quot;</p>
+        <p>&#x6A21;&#x7CCA;&#x5339;&#x914D;&#xFF0C;</p>
+        <p>&#x53EA;&#x6709;&#x5C5E;&#x6027;&#x5B57;&#x6BB5;&#x4E0D;&#x5305;&#x542B;&#x8F93;&#x5165;&#x503C;&#x65F6;&#x4E8B;&#x4EF6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6709;&#x503C;</td>
-      <td style="text-align:left">&#x5C5E;&#x6027;&#x503C;&#x4E0D;&#x4E3A;NULL&#x3001;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;(&apos;&apos;)
-        &#x6216; &#x4EFB;&#x610F;&#x4E2A;&#x7A7A;&#x683C;(&apos; &apos;)&#x65F6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+      <td style="text-align:left">
+        <p>&#x5C5E;&#x6027;&#x503C;&#x4E0D;&#x4E3A;NULL&#x3001;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x4EFB;&#x610F;&#x4E2A;&#x7A7A;&#x683C;&#x65F6;</p>
+        <p>&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6CA1;&#x503C;</td>
-      <td style="text-align:left">&#x5C5E;&#x6027;&#x503C;&#x4E3A;NULL&#x3001;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;(&apos;&apos;)
-        &#x6216; &#x4EFB;&#x610F;&#x4E2A;&#x7A7A;&#x683C;(&apos; &apos;)&#x65F6;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</td>
+      <td style="text-align:left">
+        <p>&#x5C5E;&#x6027;&#x503C;&#x4E3A;NULL&#x3001;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x4EFB;&#x610F;&#x4E2A;&#x7A7A;&#x683C;&#x65F6;</p>
+        <p>&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x7EDF;&#x8BA1;&#x5206;&#x6790;</p>
+      </td>
     </tr>
   </tbody>
 </table>
 
-> 除没值外，其他筛选条件默认在有值条件下筛选
+{% hint style="warning" %}
+注意：除没值外，其它筛选条件均默认在有值条件下进行筛选，即值不为NULL、空字符串或仅包含任意多个空字符
+{% endhint %}
 
-### 整数、小数
+### 整数和小数
 
-![&#x6574;&#x6570;&#x3001;&#x5C0F;&#x6570;&#x5C5E;&#x6027;](../.gitbook/assets/image%20%28138%29.png)
+![&#x6574;&#x6570;&#x548C;&#x5C0F;&#x6570;&#x7B5B;&#x9009;&#x6761;&#x4EF6;](../.gitbook/assets/image%20%28195%29.png)
 
 <table>
   <thead>
@@ -210,11 +174,13 @@ step 3: 在3处选择筛选维度值
   </tbody>
 </table>
 
-> 除没值外，其他筛选条件默认在有值条件下筛选
+{% hint style="warning" %}
+注意：除没值外，其它筛选条件均默认在有值条件下进行筛选，即值不为NULL
+{% endhint %}
 
 ### 日期
 
-![&#x65E5;&#x671F;&#x5C5E;&#x6027;](../.gitbook/assets/image%20%2846%29.png)
+![&#x65E5;&#x671F;&#x7B5B;&#x9009;&#x6761;&#x4EF6;](../.gitbook/assets/image%20%28198%29.png)
 
 <table>
   <thead>
@@ -277,7 +243,19 @@ step 3: 在3处选择筛选维度值
   </tbody>
 </table>
 
-> 除没值外，其他筛选条件默认在有值条件下筛选
+{% hint style="warning" %}
+注意：除没值外，其它筛选条件均默认在有值条件下进行筛选，即值不为NULL
+{% endhint %}
+
+
+
+
+
+
+
+
+
+
 
 **相对现在**
 
