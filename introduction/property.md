@@ -1,5 +1,5 @@
 ---
-description: 事物的性质 和 人的特征
+description: 事物的性质和人的特征
 ---
 
 # 属性模型
