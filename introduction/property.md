@@ -41,7 +41,7 @@ GrowingIO系统中支持三种事物模型，分别为事件模型、物品模�
 
 > 事件属性仅支持非负整数和非负小数
 
-## 创建管理
+## 属性管理
 
 GrowingIO系统支持对[事件属性](../product-manual/datacenter/property/event-property.md)、[物品属性](../product-manual/datacenter/item/item-manage.md)和[用户属性](../product-manual/datacenter/property/user-property.md)的创建、编辑和查看功能，详情请点击对应文字链接。
 
