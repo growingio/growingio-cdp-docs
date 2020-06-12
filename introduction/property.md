@@ -96,7 +96,10 @@ GrowingIO系统支持对[事件属性](../product-manual/datacenter/property/eve
     </tr>
     <tr>
       <td style="text-align:left">&#x5C0F;&#x6570;</td>
-      <td style="text-align:left">&#x4EE5;&#x5B57;&#x7B26;&#x683C;&#x5F0F;&#x4F20;&#x5165;</td>
+      <td style="text-align:left">
+        <p>&#x4EE5;&#x5B57;&#x7B26;&#x683C;&#x5F0F;&#x4F20;&#x5165;&#xFF0C;</p>
+        <p>&#x5C0F;&#x6570;&#x70B9;&#x540E;</p>
+      </td>
       <td style="text-align:left">&apos;3.1415926&apos;</td>
     </tr>
     <tr>
