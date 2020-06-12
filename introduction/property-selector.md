@@ -1,5 +1,5 @@
 ---
-description: 对属性进行过滤操作
+description: 对属性进行过滤的操作
 ---
 
 # 属性筛选条件
