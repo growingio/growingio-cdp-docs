@@ -66,7 +66,7 @@ GrowingIO系统支持对[事件属性](../product-manual/datacenter/property/eve
 事件属性和物品属性创建成功后，需要主动关联事件，关联成功后才能在事件中使用相应的事件属性和物品属性。
 
 {% hint style="warning" %}
-
+注意：如果事件没有关联或取消关联事件属性或物品属性，即使数据正常上传也无法解析，且不支持计算对应属性的统计数据
 {% endhint %}
 
 用户属性创建成功后无需额外配置即可在系统中使用。
@@ -74,6 +74,8 @@ GrowingIO系统支持对[事件属性](../product-manual/datacenter/property/eve
 配置方法：[事件属性](../product-manual/datacenter/event/event-manage.md#chuang-jian-shi-jian)、[物品属性](../product-manual/datacenter/event/event-manage.md#chuang-jian-shi-jian)
 
 ## 数据格式
+
+GrowingIO支持多种语言的SDK，不同语言的SDK上报数据和导入数据都使用统一的数据格式。不同属性类型的数据格式说明如下：
 
 <table>
   <thead>
@@ -100,7 +102,7 @@ GrowingIO系统支持对[事件属性](../product-manual/datacenter/property/eve
         <p>&#x4EE5;&#x5B57;&#x7B26;&#x683C;&#x5F0F;&#x4F20;&#x5165;&#xFF0C;</p>
         <p>&#x5C0F;&#x6570;&#x70B9;&#x540E;&#x6700;&#x591A;&#x5305;&#x542B;&#x56DB;&#x4F4D;&#x6709;&#x6548;&#x6570;&#x5B57;</p>
       </td>
-      <td style="text-align:left">&apos;3.1415926&apos;</td>
+      <td style="text-align:left">&apos;3.1415&apos;</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x65E5;&#x671F;</td>
@@ -116,9 +118,13 @@ GrowingIO系统支持对[事件属性](../product-manual/datacenter/property/eve
   </tbody>
 </table>
 
-### 
+如上传数据不符合上述格式要求，GrowingIO系统会对部分数据类型上传的数据进行强制格式转换，具体说明如下：
 
-### 
+| 属性类型 | 转化规则 | 示例 |
+| :--- | :--- | :--- |
+|  |  |  |
+
+
 
 ### 
 
