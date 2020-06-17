@@ -12,7 +12,7 @@ description: H5 内嵌页提供数据采集 SDK。
 
 ```javascript
 <script type="text/javascript">
-      !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.giocdn.com/gio_hybrid_cdp.js","gio");
+      !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.giocdn.com/cdp/hybrid/gio_hybrid_cdp.js","gio");
       gio('init', '你的项目ID', {debug: false, platform:'hybrid'});
       gio('send');
 </script>
