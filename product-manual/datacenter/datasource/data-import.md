@@ -54,8 +54,8 @@ description: 新建和管理数据导入任务
 示例
 
 ```text
-{"userId": "156xxx", "attrs": {"sex": "男", "age": 16}}
-{"userId": "157xxx", "attrs": {"sex": "女", "age": 28}}
+{"userId": "156xxx", "attrs": {"sex": "男", "age": "16"}}
+{"userId": "157xxx", "attrs": {"sex": "女", "age": "28"}}
 ```
 
 ## 数据导入限制
