@@ -31,9 +31,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 {% hint style="warning" %}
 为了保障企业数据安全性，每位成员的协作看板分类中 ，只会展示与该成员共享的看板。  
   
-举例： 系统中 一共有 20 个看板， 与小花协作的看板有2个，小花创建的看板有5个，因此小花能看见的看板为 7 个。 
-
-共享設置可見 ： [看板共享設置鏈接](https://app.gitbook.com/@growingio/s/cdp/~/drafts/-M7f1KTwEG20PbWnheJR/v/v20200600/product-manual/charts/kan-ban-gong-xiang-she-zhi)
+举例： 系统中 一共有20个看板，与小花协作的看板有2个，小花创建的看板有5个，因此小花能看见的看板为 7 个。 
 {% endhint %}
 
 ## 看板的操作說明 
@@ -78,7 +76,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 1.若阿花是产品健康度看板的阅读者，则阿花无法对看板进行添加单图操作。
 
-2.若阿花是产品健康度看板的编辑者，但管理员并没有给阿花看板的权限，则阿花无法对看板进行 添加单图操作。
+2.若阿花是产品健康度看板的编辑者，但管理员并没有给阿花看板的权限，则阿花无法对看板进行添加单图操作。
 {% endhint %}
 
 ## 移除单图
@@ -127,7 +125,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 ![](../../.gitbook/assets/image%20%28184%29.png)
 
-GIO 提供强大且方便的时间选择控件，可以帮助你快速查看不同时间段的数据。
+GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查看不同时间段的数据。
 
 ![](../../.gitbook/assets/image%20%28180%29.png)
 
@@ -143,7 +141,7 @@ GIO 提供强大且方便的时间选择控件，可以帮助你快速查看不�
 
 ## 删除看板
 
-操作流程：点击看版右侧  &gt;  选择刪除 &gt;  確定刪除。 
+操作流程：点击看板右侧  &gt;  选择刪除 &gt;  确定删除。 
 
 ![](../../.gitbook/assets/image%20%28187%29.png)
 
@@ -156,10 +154,6 @@ GIO 提供强大且方便的时间选择控件，可以帮助你快速查看不�
 可设置看板共享的成员 ，共享方式分为 **阅读者、编辑者**两种，您可以通过灵活的设置，与同事进行数据的协作，使数据在企业内部进行流动，更好的发挥数据的价值。
 
 ![](../../.gitbook/assets/image%20%28176%29.png)
-
-{% hint style="warning" %}
-共享设置可见 ： [看板共享設置鏈接](https://app.gitbook.com/@growingio/s/cdp/~/drafts/-M7f1KTwEG20PbWnheJR/v/v20200600/product-manual/charts/kan-ban-gong-xiang-she-zhi)
-{% endhint %}
 
 ## 常见问题
 
