@@ -40,7 +40,7 @@ gio('init', '你的项目ID', {debug: false, platform:'hybrid',hashtag:true});
 
 ```
 
-### 设置自定义事件及事件级变量（track） <a id="she-zhi-zi-ding-yi-shi-jian-ji-shi-jian-ji-bian-liang-track"></a>
+### 设置自定义事件及事件级变量（track）、物品模型 <a id="she-zhi-zi-ding-yi-shi-jian-ji-shi-jian-ji-bian-liang-track"></a>
 
 手动发送一个自定义事件。在添加所需要发送的事件代码之前，需要在平台里配置添加事件。
 
