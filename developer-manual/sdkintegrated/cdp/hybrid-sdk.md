@@ -64,3 +64,13 @@ gio('track','homepage',{ key1: 'value1', key2: 'value2'});
 
 ```
 
+
+
+### **设置用户属性**
+
+```javascript
+//代码示例
+gio('setUserAttributes', {name: 'helloworld'})
+
+```
+
