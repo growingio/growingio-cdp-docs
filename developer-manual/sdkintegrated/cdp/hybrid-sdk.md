@@ -56,6 +56,7 @@ gio('track', eventName: string, properties: object);
 | :--- | :--- | :--- | :--- |
 | eventName | string | 是 | 事件标识符。 |
 | properties | Object | 否 | 事件级变量，即事件发生时所伴随的维度信息参数。 |
+| item | Object | 否 |  |
 
 ```javascript
 //代码示例
