@@ -2,7 +2,7 @@
 description: H5 内嵌页提供数据采集 SDK。
 ---
 
-# H5内嵌页SDK
+# H5内嵌页SDK\(仅支持app内的H5\)
 
 ## 1. 添加跟踪代码 <a id="1-tian-jia-gen-zong-dai-ma"></a>
 
