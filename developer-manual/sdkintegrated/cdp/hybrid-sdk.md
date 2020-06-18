@@ -62,6 +62,10 @@ gio('track', eventName: string, properties: object);
 gio('track','homepage');
 gio('track','homepage',{ key1: 'value1', key2: 'value2'});
 
+// track API调用示例 - 物品模型
+gio('track','testEvent',{},{key:'order_id',id:'123456'})
+// key为物品模型唯一标识属性
+
 ```
 
 
