@@ -101,9 +101,9 @@ description: 对标签进行定义和管理
 
 * [累计值/平均值占比](tag-basic.md)
 * [最大值/最小值的事件属性](tag-max-nd-min.md)
-* 最初/最终的事件属性
-* 列表类的事件属性
-* 分层标签
+* [最初/最终的事件属性](tag-first-nd-last.md)
+* [列表类的事件属性](tag-list.md)
+* [分层标签](tag-rule.md)
 {% endhint %}
 
 ## 标签管理页面
