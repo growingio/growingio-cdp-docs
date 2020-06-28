@@ -2,9 +2,13 @@
 
 ## **下载小程序SDK**
 
-下载微信小程序SDK，并解压，下载地址：[https://assets.giocdn.com/sdk/cdp/gio-minp.js](https://assets.giocdn.com/sdk/cdp/gio-minp.js)
+微信小程序SDK下载地址：[https://assets.giocdn.com/sdk/cdp/gio-minp.js](https://assets.giocdn.com/sdk/cdp/gio-minp.js)
 
-将解压后的gio-minp目录放在小程序目录下（比如：/src/utils目录）
+支付宝小程序SDK下载地址：[https://assets.giocdn.com/sdk/cdp/gio-alip.js](https://assets.giocdn.com/sdk/cdp/gio-alip.js)
+
+头条小程序SDK下载地址：[https://assets.giocdn.com/sdk/cdp/gio-bytedance-minp.js](https://assets.giocdn.com/sdk/cdp/gio-bytedance-minp.js)
+
+并将解压后的gio-minp/gio-alip/gio-bytedance-minp目录放在小程序目录下（比如：/src/utils目录）
 
 ```javascript
 var gio = require("./utils/gio-minp.js").default;
@@ -12,9 +16,10 @@ var gio = require("./utils/gio-minp.js").default;
 
 ## **添加数据追踪代码**
 
-请将以下的页面代码放置到小程序App.js首部，即可完成小程序SDK 代码的安装。请注意使用具体的项目 ID 替换代码中的 your projectId ，your dataSourceId，使用具体的小程序Id代替代码中的your appId。
+请将以下的页面代码放置到小程序App.js首部，即可完成 小程序SDK 代码的安装。请注意使用**具体的项目 ID**替换代码中的 **your projectId，使用具体的数据源 ID替换代码中的 your dataSourceId，使用具体的小程序Id代替代码中的your appId** 。
 
 ```javascript
+// 原生小程序
 var gio = require("./utils/gio-minp.js").default;
 gio('init', 'your projrctId','your datasourceID','your appId', {})；
 App({
@@ -24,6 +29,35 @@ globalData: {
 gio: gio
 }
 })
+```
+
+使用Taro，Mpvue，Chameleon，Uniapp等多端框架开发的小程序，需要在项目的App.js 中添加集成如下代码。
+
+```text
+// Taro框架
+import Taro from '@tarojs/taro';
+var gio = require("utils/gio-minp/index.js").default;
+gio('init', 'your projrctId', 'your datasourceID', 'your appId', { version: '小程序版本', taro: Taro });
+```
+
+```text
+// Wepy,Mpvue和Uniapp框架
+import Vue from 'vue';
+var gio = require("utils/gio-minp/index.js").default;
+gio('init','your projrctId', 'your datasourceID', 'your appId', { version: '小程序版本', vue: Vue });
+```
+
+```text
+// Chameleon 框架
+import Cml from 'chameleon-runtime';
+var gio = require("utils/gio-minp/index.js").default;
+gio('init', 'your projrctId', 'your datasourceID', 'your appId', { version: '小程序版本', cml: Cml });
+```
+
+数据校验：在初始化时打开 debug 为true，打开控制台，即可看到实时采集的数据
+
+```text
+gio('init', 'your projectId', 'your dataSourceId', 'your appId',{debug: true});
 ```
 
 ## **添加请求服务器域名**
