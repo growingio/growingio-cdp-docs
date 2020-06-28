@@ -54,12 +54,6 @@ var gio = require("utils/gio-minp/index.js").default;
 gio('init', 'your projrctId', 'your datasourceID', 'your appId', { version: '小程序版本', cml: Cml });
 ```
 
-数据校验：在初始化时打开 debug 为true，打开控制台，即可看到实时采集的数据
-
-```text
-gio('init', 'your projectId', 'your dataSourceId', 'your appId',{debug: true});
-```
-
 ## **添加请求服务器域名**
 
 要正常采集微信小程序的数据并发送，需要在微信小程序里事先设置一个通讯域名，允许跟 GrowingIO API 服务器进行网络通信。具体步骤如下：
@@ -82,7 +76,7 @@ gio('init', 'your projectId', 'your dataSourceId', 'your appId',{debug: true});
 
 ### **host**
 
-GrowingIO 默认不配置发数的api，需要在初始化时设置 host，否则会初始化失败。
+GrowingIO 默认不配置 发数的api，需要在初始化时设置 host，否则会初始化失败。然后需要在微信后台配置合法域名，与传入的参数的host一致：
 
 ```text
 gio('init', 'your projectId','your dataSourceId', 'your appId', {host: 'api.growingio.com'});
@@ -93,7 +87,7 @@ gio('init', 'your projectId','your dataSourceId', 'your appId', {host: 'api.grow
 GrowingIO 默认发数时是https，如果您的请求协议为http，可以参考如下设置：
 
 ```text
-gio('init', 'your projectId','your dataSourceId','your appId',{scheme: 'http'});
+gio('init', 'your projectId','your dataSourceId', 'your appId' , {scheme: 'http'});
 ```
 
 ### **getLocation**
@@ -115,20 +109,51 @@ type: 'wgs84'
 
 ## **常用API**
 
-### **初始化参数API**
+### **简介**
+
+init 方法建议在集成sdk之后马上调用，其他方法必须在app的onshow周期及之后的生命周期调用才生效
+
+```text
+// 初始化参数
+gio('init', projectId, dataSourceId, appId options);
+
+// 发送事件API
+gio('track', eventId);
+gio('track', eventId, eventLevelVariables);
+
+// 上传物品模型
+gdp('track', eventId, eventLevelVariables，item);
+
+// 发送用户变量API
+gio('setUserAttributes', userAttributes);
+
+// 设置登录用户ID
+gio('setUserId', userId); 
+
+// 清除登录用户ID
+gio('clearUserId');
+
+// 获取用户信息
+gio('setPlatformProfile')
+```
+
+### **初始化参数API（Init）**
 
 初始化参数，用来设置项目ID和一些常用的配置项。
 
 | 参数名称 | 类型 | 是否必填 | 说明 |
 | :--- | :--- | :--- | :--- |
-| projectId | string | 是 | 项目ID。 |
-| options | JSON Object | 否 | 系统变量配置。 |
-| dataSourceId | string | 是 | 数据源ID。 |
-| appId | string | 是 | 微信应用ID。 |
+| projectId | string | 是 | 项目ID |
+| dataSourceId | string | 是 | 数据源ID |
+| appId | string | 是 | 微信应用ID |
+| host | string | 是 | 发送到服务端的主机名 |
+| getLocation | JSON Object | 否 | 是否获取地理位置和坐标格式 |
+| options | JSON Object | 否 | 系统变量配置 |
 
 ```text
 //init API原型
 gio('init', projectId,dataSourceId,appId,options);
+
 //init API调用示例
 //配置发数api为 http://api.test.com
 gio('init', '1234567890', 'test','wx112222',{
@@ -137,23 +162,32 @@ host: 'api.test.com'
 });
 ```
 
-### **登录用户ID**
+### 设置登录用户 ID（setUserId）
 
-当用户登录之后调用setUserId设置登录用户ID；当用户退出登录后调用clearUserId清除已经设置的登录用户ID。
+当用户登录之后调用 setUserId API ，设置登录用户 ID 。
 
 | 参数名称 | 类型 | 是否必填 | 说明 |
 | :--- | :--- | :--- | :--- |
-| userId | string | 是 | 应用的登录用户ID。 |
+| userId | string | 是 | 应用的登录用户ID |
 
 ```text
-//setUserId API原型和调用示例
+//setUserId API原型
 gio('setUserId', userId);
-gio('setUserId', '1234567890');
+
+//setuserId API调用示例
+gio('setUserId', '0xffffff');
+```
+
+### 清除登录用户 ID（clearUserId）
+
+当用户登出之后调用 clearUserId ，清除已经设置的登录用户 ID 。
+
+```text
 //clearUserId API原型和调用示例
 gio('clearUserId');
 ```
 
-### **用户变量API**
+### 设置用户变量 （setUserAttributes）
 
 setPlatformProfile在取得用户授权后，可以获得微信用户的信息，需要在获取用户授权的回调函数中调用。
 
@@ -162,12 +196,27 @@ setPlatformProfile在取得用户授权后，可以获得微信用户的信息�
 | userAttributes | JSON Object | 是 | 包含用户变量的JSON对象。 |
 
 ```text
-// setUserAttributes API调用原型和调用示例
+// setUserAttributes API调用原型
 gio('setUserAttributes', userAttributes);
-gio('setUserAttributes', {name: 'hjh'})
-// setPlatformProfile API调用原型和调用示例
-gio('setPlatformProfile');
+
+// setUserAttributes API调用示例
+gio('setUserAttributes', {name: 'zc'})
 ```
+
+### 上传物品模型
+
+| **参数名称** | 参数类型 | 是否必填 | 说明 |
+| :--- | :--- | :--- | :--- |
+| eventId | string | 是 | 事件标识符 |
+| eventLevelVariables | JSON Object | 是，必填，如果没有可以填一个空对象 {} | 事件级变量 |
+| item | JSON Object | 是 | 物品模型参数 |
+
+物品模型参数说明：
+
+| 参数名称 | 参数类型 | 是否必填 | 说明 |
+| :--- | :--- | :--- | :--- |
+| id | string | 是 | 物品模型id |
+| Key | string | 是 | 物品模型唯一id标识 |
 
 ### **自定义事件API**
 
@@ -186,12 +235,21 @@ gio('track','order', {type: 'hjh'})
 
 ### **GDPR数据采集开关**
 
+注意这里和线上UBA WEB JS SDK有区别，uba true时停止采集。
+
 GrowingIO 全面支持欧盟《一般数据保护条例》。
 
 ```text
 // 停止采集数据
 gio('setConfig',{"dataCollect": false}); 全局配置, 可以放到send之后
 // 采集数据 (默认)
-gio('setConfig',{"dataCollect": true});
+gio('setConfig',{"dataCollect": true}); 
+// 获取访问用户ID
+```
+
+获取用户信息 \(setPlatformProfile\) 在取得用户授权后，可以获得用户的信息。需要在获取用户授权的毁掉函数中调用。
+
+```text
+gio('setPlatformProfile')
 ```
 
