@@ -56,7 +56,7 @@
   * [系统管理](product-manual/sysmanage/README.md)
     * [组织管理](product-manual/sysmanage/orgmanage/README.md)
       * [组织概览](product-manual/sysmanage/orgmanage/overview.md)
-      * [成员管理 （未完成）](product-manual/sysmanage/orgmanage/member-manage.md)
+      * [成员管理](product-manual/sysmanage/orgmanage/member-manage.md)
     * [项目配置](product-manual/sysmanage/projectmange/README.md)
       * [UTM映射](product-manual/sysmanage/projectmange/utm-map.md)
 * [开发者文档](developer-manual/README.md)
