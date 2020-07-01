@@ -11,14 +11,7 @@
 并将解压后的gio-minp/gio-alip/gio-bytedance-minp目录放在小程序目录下（比如：/src/utils目录）
 
 ```javascript
-// 微信小程序
 var gio = require("./utils/gio-minp.js").default;
-
-// 支付宝小程序
-var gio = require("./utils/gio-alip.js").default;
-
-// 头条小程序
-var gio = require("./utils/gio-bytedance-minp.js").default;
 ```
 
 ## **添加数据追踪代码**
