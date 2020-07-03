@@ -40,7 +40,7 @@
     * 新增独立数据监控模块，为企业成员提供便捷的数据监控场景
     * 看板支持订阅和取消订阅，可将当前关注的看板订阅至看板侧边栏，满足日常工作中固定数据报表监控场景使用需求
     * 看板侧边栏支持通过拖拉进行看板排序，可根据日常数据监控需求自定义看板排序
-  * 产品分析:  [看板共享设置](product-manual/charts/kan-ban-gong-xiang-she-zhi.md)
+  * 产品分析:  [看板共享设置](product-manual/charts/kanban-sharing-settings.md)
     * 支持看板共享设置，通过共享设置可与指定成员共享看板
     * 共享模式支持阅读者和编辑者两种模式
       * 阅读者: 仅可查看看板
@@ -62,7 +62,7 @@
     * 新增支持整数和日期类型用户属性
     * 字符串、整数和日期类型属性计算规则新增有值和没值
     * 日期类型属性计算规则新增相对时间和相对区间
-  * 数据平台: 新增[**utm映射功能**](product-manual/sysmanage/projectmange/utm-map.md)\*\*\*\*
+  * 数据平台: 新增[**utm映射功能**](product-manual/enterprise-manage/project-setting/utm-map.md)\*\*\*\*
     * 支持创建utm映射规则
     * 支持批量创建
   * 数据平台: 新增前端界面**下载功能**

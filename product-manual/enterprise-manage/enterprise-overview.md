@@ -12,7 +12,7 @@
 
 ## 界面介绍
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-1.56.26.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-1.56.26.png)
 
 ## 组织概览的操作說明 
 
@@ -31,7 +31,7 @@
 
 点击**企业名称**，进入名称修改模式。你可按需修改企业名称，点击**确认**即可保存。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-1.56.58.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-1.56.58.png)
 
 {% hint style="warning" %}
 仅负责人可以操作編辑企业名称
@@ -43,7 +43,7 @@
 
 点击**企业 Logo** ，即可**修改企业 Logo** ，在弹窗中选择图片以替换现有 Logo 图。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.00.24.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.00.24.png)
 
 {% hint style="warning" %}
 仅负责人可以操作上传企业 logo

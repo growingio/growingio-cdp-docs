@@ -12,7 +12,7 @@
 
 成员分别会展示在不同的部门之下 ，同时在全部成员下，可以查看所有的成员 。 
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.07.05.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.07.05.png)
 
 ## 成员的操作說明 
 
@@ -35,17 +35,17 @@
 
 操作流程： 点击成员名称 &gt;  打开成员详情。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.07.34.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.07.34.png)
 
 ### 新建帐号
 
 操作流程：点击新建帐号 &gt;  填写帐号信息 &gt;  选择角色 &gt;  创建成功 &gt; 一键复制帐号密码 。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.08.17.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.08.17.png)
 
 创建帐号成功后，点击一键复制 ，可将帐号密码 ，直接复制并发送给成员 。 
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.09.57.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.09.57.png)
 
 {% hint style="info" %}
 请提醒成员登入后，尽快跟换密码，以确保个人帐号安全 。
@@ -63,9 +63,9 @@
 
 操作流程：点击 更换部门 &gt;  选择部门 &gt;  点击确定  。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.10.34.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.10.34.png)
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.10.44.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.10.44.png)
 
 {% hint style="warning" %}
 权限控制： 仅负责人、管理员可进行更换部门操作 。
@@ -81,9 +81,9 @@
 
 操作流程：点击 更换角色 &gt;  选择角色 &gt;  点击确定。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.17.51%20%281%29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.17.51%20%281%29.png)
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.18.00.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.18.00.png)
 
 {% hint style="warning" %}
 权限控制： 仅负责人、管理员 可进行更换角色操作 。
@@ -97,9 +97,9 @@
 
 操作流程：点击 更换角色 &gt;  选择角色 &gt;  点击确定 &gt; 复制帐号密码。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.20.58.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.20.58.png)
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.32.40.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.32.40.png)
 
 {% hint style="warning" %}
 权限控制： 仅负责人、管理员 可进行更换角色操作 。
@@ -113,7 +113,7 @@
 
 操作流程：点击 注销帐号 &gt; 弹窗提示 &gt; 点击确认 。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.33.54.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.33.54.png)
 
 {% hint style="warning" %}
 权限控制： 仅负责人、管理员 可进行更换角色操作 。
