@@ -7,7 +7,7 @@
 ```text
 dependencies {
     //埋点CDP SDK
-    implementation 'com.growingio.android:vds-android-agent:cdp-1.2.1'
+    implementation 'com.growingio.android:vds-android-agent:cdp-1.2.2'
 }
 ```
 

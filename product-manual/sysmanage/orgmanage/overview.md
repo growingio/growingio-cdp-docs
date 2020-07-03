@@ -12,7 +12,7 @@
 
 ## 界面介绍
 
-![&#x7EC4;&#x7EC7;&#x6982;&#x89C8;](../../../.gitbook/assets/image%20%28130%29.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-1.56.26.png)
 
 ## 组织概览的操作說明 
 
@@ -20,37 +20,34 @@
 | :--- | :--- |
 | 编辑企业名称 |  |
 | 上传企业 logo |  |
-| 新建帐号 |  |
 
 {% hint style="warning" %}
 仅负责人和管理员拥有以上权限。
 {% endhint %}
 
+### 
+
 ### 编辑企业名称
 
 点击**企业名称**，进入名称修改模式。你可按需修改企业名称，点击**确认**即可保存。
 
-
-
-圖＠＠
-
-
+![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-1.56.58.png)
 
 {% hint style="warning" %}
 仅负责人可以操作編辑企业名称
 {% endhint %}
 
+### 
+
 ### 上传企业 logo
 
-点击**企业 Logo** ，即可查看 Logo 图片。随后你可点击底部**修改企业 Logo** 按钮，在弹窗中选择拍摄或从相册选择图片以替换现有 Logo 图。
+点击**企业 Logo** ，即可**修改企业 Logo** ，在弹窗中选择图片以替换现有 Logo 图。
 
-圖＠＠
-
-
+![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-2.00.24.png)
 
 {% hint style="warning" %}
 仅负责人可以操作上传企业 logo
 {% endhint %}
 
-### 新建帐号
+### 
 
