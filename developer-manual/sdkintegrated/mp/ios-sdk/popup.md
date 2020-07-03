@@ -19,7 +19,7 @@
 
 ### 2. 集成运营SDK
 
-手动集成SDK  
+ 手动集成SDK  
 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.2.0-1.3.0.zip](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.2.0-1.3.0.zip)
 
 ![](../../../../.gitbook/assets/image%20%28110%29.png)
@@ -33,11 +33,12 @@
     ...
     // 启动GrowingIO
     [Growing startWithAccountId:@"YOUR_ACCOUNT_ID"  dataSourceId:@"YOUR_DATASOURCE_ID"]; //替换为您的项目ID
-
+    
     // 启动GrowingTouch，设置弹窗请求地址，一般与访问页面域名一致
     [GrowingTouch setServerHost:@"http://test.xxx.com"];
     [GrowingTouch start];
 }
+
 ```
 
 {% hint style="info" %}
@@ -366,13 +367,17 @@ class SFViewController: UIViewController {
 
 ## **其他**
 
-**\*\*使用特殊登陆用户变量，**注册至今\*\*  
-需要在代码设置一下登陆用户变量 注册日期 CreateAt，需要保证key 是 CreateAt , 值是YYYYMMDD
+  
+****使用特殊登陆用户变量，**注册至今**  
+需要在代码设置一下登陆用户变量 注册日期 CreateAt，需要保证key 是 CreateAt , 值是YYYYMMDD  
 
-```text
+
+```
 // 参考
 [Growing setPeopleVariable:@{@"CreateAt":@"20191219"}];
 ```
 
 ![](../../../../.gitbook/assets/image%20%2830%29.png)
+
+
 

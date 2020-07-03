@@ -38,7 +38,7 @@
     [Growing startWithAccountId:@"您的项目ID" dataSourceId:@"您的数据源ID"];  // 替换为您的项目ID和数据源ID
     // 其他配置,设置埋点上报地址
     [Growing setTrackerHost:@"http://test.xxx.com"];
-
+    
     // 开启Growing调试日志 可以开启日志 
     // [Growing setEnableLog:YES];
 }
@@ -270,6 +270,8 @@ NSDictionary *dict = @{@"age" : 18, @"name": @"growingIO"};
 
 //代码示例
    [Growing trackPage:@"TestPageEvent"];
+   
+  
 ```
 
 ### 加载了H5内嵌页SDK gio\_hybrid\_cdp.js的页面。自动采集H5**（数据采集SDK &gt;=1.2.0）** <a id="bridgeforwebview"></a>
