@@ -13,14 +13,14 @@
 
 ## **数据结构**
 
-请求中涉及到的数据结构有：
-
+请求中涉及到的数据结构有：  
+  
 **Error:**
 
 ```text
 {
-    code: String // 内部错误码
-    message: String // 错误消息
+	code: String // 内部错误码
+	message: String // 错误消息
 }
 ```
 
@@ -28,13 +28,13 @@
 
 ```text
 {
-    // NONE 任务初始状态
-    // READY 任务准备执行
-    // RUNNING 任务正在执行
-    // DATA_READY 数据准备就绪
-    // FINISH 任务完成
-    // ERROR 任务失败
-    NONE, READY, RUNNING, DATA_READY, ERROR
+	// NONE 任务初始状态
+	// READY 任务准备执行
+	// RUNNING 任务正在执行
+	// DATA_READY 数据准备就绪
+	// FINISH 任务完成
+	// ERROR 任务失败
+	NONE, READY, RUNNING, DATA_READY, ERROR
 }
 ```
 
@@ -42,14 +42,14 @@
 
 ```text
 {
-    id: String
-    name: String
-    description: String
-    stage: JobStage
-    creatorId: String
-    updaterId: String
-    updatedAt: DateTime
-    error: Error
+	id: String
+	name: String
+	description: String
+	stage: JobStage
+	creatorId: String
+	updaterId: String
+	updatedAt: DateTime
+	error: Error
 }
 ```
 
@@ -57,15 +57,15 @@
 
 ```text
 {
-    id: String
-    name: String
-    description: String
-    stage: JobStage
-    creatorId: String
-    createdAt: DateTime
-    updaterId: String
-    updatedAt: DateTime
-    error: Error
+	id: String
+	name: String
+	description: String
+	stage: JobStage
+	creatorId: String
+	createdAt: DateTime
+	updaterId: String
+	updatedAt: DateTime
+	error: Error
 }
 ```
 
@@ -73,9 +73,9 @@
 
 ```text
 {
-    id: String
-    stage: JobStage
-    uris: [String] // 任务输出文件目录
+	id: String
+	stage: JobStage
+	uris: [String] // 任务输出文件目录
 }
 ```
 
@@ -83,9 +83,9 @@
 
 ```text
 {
-    key: String
-    name: String
-    value: String
+	key: String
+	name: String
+	value: String
 }
 ```
 
@@ -93,9 +93,9 @@
 
 ```text
 {
-    id: String
-    userId: String
-    properties: [Property]
+	id: String
+	userId: String
+	properties: [Property]
 }
 ```
 
@@ -103,16 +103,16 @@
 
 ```text
 {
-    id: String
-    name: String
-    type: String
-    description: String
-    creatorId: String
-    createdAt: DateTime
-    updaterId: String
-    updatedAt: DateTime
-    creator: String
-    updater: String
+	id: String
+	name: String
+	type: String
+	description: String
+	creatorId: String
+	createdAt: DateTime
+	updaterId: String
+	updatedAt: DateTime
+	creator: String
+	updater: String
 }
 ```
 
@@ -120,14 +120,14 @@
 
 ```text
 {
-    id: String
-    name: String
-    description: String
-    scheduler: String
-    creatorId: String
-    createdAt: DateTime
-    updaterId: String
-    updatedAt: DateTime
+	id: String
+	name: String
+	description: String
+	scheduler: String
+	creatorId: String
+	createdAt: DateTime
+	updaterId: String
+	updatedAt: DateTime
 }
 ```
 
