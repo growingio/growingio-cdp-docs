@@ -4,7 +4,7 @@
 
 操作流程： 看板模块- 位于看板侧栏下方，点击全部看板
 
-![](../../.gitbook/assets/image%20%28185%29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.10.53.png)
 
 ## 界面介绍
 
@@ -45,13 +45,15 @@
 
 操作流程：  点击下拉匡 &gt; 选中分类。 
 
-1. 看板分类筛选：所有看板、协作看板、我的看板 3 类。
+1. 看板分类筛选：所有看板、共享给我的看板、我的看板 3 类。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.12.13.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.15.11.png)
+
+
 
 2.筛选协作者 :  透过协作者筛选，可以帮助管理者确定一位成员可见的看板范围。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.31.49.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.14.40.png)
 
 ### 
 
@@ -61,7 +63,7 @@
 
 操作流程：点击新建看板&gt; 输入看板名称&gt;  添加图表
 
-![&#x521B;&#x5EFA;&#x65B0;&#x770B;&#x677F;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.12.55.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.14.22.png)
 
 ![&#x6DFB;&#x52A0;&#x56FE;&#x8868;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.39.39.png)
 
@@ -75,9 +77,7 @@
 
 操作流程： 勾选看板 &gt; 点击共享设置 &gt; 设置共享模式与成员&gt; 点击保存 。
 
-![&#x6279;&#x91CF;&#x8BBE;&#x7F6E;&#x5171;&#x4EAB;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.08.08.png)
-
-![&#x770B;&#x677F;&#x5171;&#x4EAB;&#x8A2D;&#x7F6E;](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.07.42.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.13.14.png)
 
 
 
@@ -87,5 +87,5 @@
 
 操作流程：点击头像 &gt; 展开协作者列表。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200519-xia-wu-6.45.04.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.12.24.png)
 

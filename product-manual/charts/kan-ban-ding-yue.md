@@ -36,11 +36,13 @@
 
 1.在看板管理中 找到需要订阅的看板 ，点击订阅看板 。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200610-xia-wu-1.08.42.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.03.41.png)
 
 2. 在看板詳情中，点击订阅看板
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200610-xia-wu-1.11.13.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.05.23.png)
+
+
 
 ### 取消订阅看板：
 
@@ -50,5 +52,5 @@
 取消看板订阅后，当前看板将不在侧边栏展示， 您可以在看板管理中重新订阅看板到侧边栏。
 {% endhint %}
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200610-xia-wu-1.13.06.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.08.58.png)
 
