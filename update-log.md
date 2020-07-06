@@ -17,7 +17,7 @@
 
 
   * 部门管理 ：
-    * 为了使企业管理更有层次和秩序，负责人、管理员，可依据组织架构创建部门。并将成员依据组织架构进行管理 
+    * 为了使企业管理更有层次和秩序，负责人、管理员，可依据组织架构创建部门。并将成员依据组织架构进行管理 。
     * [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/department-manage) 新功能详细内容。
 
 * 🐞 优化:
