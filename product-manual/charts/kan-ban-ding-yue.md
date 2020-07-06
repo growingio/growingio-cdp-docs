@@ -36,7 +36,7 @@
 
 1.在看板管理中 找到需要订阅的看板 ，点击订阅看板 。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.03.41.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.03.41%20%281%29.png)
 
 2. 在看板詳情中，点击订阅看板
 

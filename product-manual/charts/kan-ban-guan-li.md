@@ -4,7 +4,7 @@
 
 操作流程： 看板模块- 位于看板侧栏下方，点击全部看板
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.10.53.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.10.53%20%281%29.png)
 
 ## 界面介绍
 
@@ -53,7 +53,7 @@
 
 2.筛选协作者 :  透过协作者筛选，可以帮助管理者确定一位成员可见的看板范围。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.14.40.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.14.40%20%281%29.png)
 
 ### 
 
@@ -87,5 +87,5 @@
 
 操作流程：点击头像 &gt; 展开协作者列表。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.12.24.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.12.24%20%281%29.png)
 
