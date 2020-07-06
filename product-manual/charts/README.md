@@ -12,16 +12,18 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 看板模块分为两大区域，看板侧栏和看板数据消费区。
 
-![](../../.gitbook/assets/image%20%28177%29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.59.24%20%281%29.png)
 
-## 看板侧栏
+
+
+### 看板侧栏
 
 看板侧栏包含以下几个部分：
 
 * 订阅看板：展示你所订阅的看板，看板支持订阅， 具体订阅方式请查看 [看板订阅](https://app.gitbook.com/@growingio/s/cdp/~/drafts/-M9RXRh-4-P4hpPAq7ud/product-manual/charts/kan-ban-ding-yue/@drafts)。
 * 全部看板：点击全部看板，可进入看板管理模块 ，对看板进行更有效率的管理工作。
 
-## 看板数据展示区
+### 看板数据展示区
 
 看板展示区包含以下几个部分：
 
