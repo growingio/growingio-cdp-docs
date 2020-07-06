@@ -56,7 +56,7 @@
   * [组织管理](product-manual/enterprise-manage/README.md)
     * [组织概览](product-manual/enterprise-manage/enterprise-overview.md)
     * [成员管理](product-manual/enterprise-manage/member-manage.md)
-    * [部門管理](product-manual/enterprise-manage/department-manage.md)
+    * [部门管理](product-manual/enterprise-manage/department-manage.md)
     * [角色管理](product-manual/enterprise-manage/role-manage/README.md)
       * [典型角色应用场景](product-manual/enterprise-manage/role-manage/classic-scenario.md)
     * [项目配置](product-manual/enterprise-manage/project-setting/README.md)
