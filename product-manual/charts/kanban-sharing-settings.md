@@ -32,39 +32,41 @@
 
 **隐私模式** ：隐私状态下，该看板仅对【**看板拥有者】**自己可见 。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200520-xia-wu-1.40.59.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.25.23.png)
 
 **共享模式**： 可設置该看板的协作成员，并赋予 “阅读者”与“编辑者”的权限。
+
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.25.37.png)
 
 | 选项 | 作用 |
 | :--- | :--- |
 | 阅读者 | 只能阅读看板内容，无法编辑。 |
 | 编辑者 | 可编辑看板内容，无法删除看板、管理协作者。 |
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200520-xia-wu-1.43.38.png)
+## 
 
 ## 操作说明
 
 ### 设置看板的共享模式
 
-1.点击设置共享模式 
+1.点击设置共享模式    
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200520-xia-wu-2.05.14.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.26.20.png)
 
 2. 选择共享模式为 **隐私模式** 或 **共享模式。**
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200520-xia-wu-2.09.12.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.27.48.png)
 
 3.设置共享 编辑者、阅读者是哪些成员 。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200520-xia-wu-2.10.36.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.25.37%20%281%29.png)
 
 ### 批量共享設置
 
 1. 勾选需要设置的看板 
 2. 点击批量设置
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200520-xia-wu-2.06.46.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.13.14%20%282%29.png)
 
 3.设置共享 编辑者、阅读者是哪些成员 。
 
