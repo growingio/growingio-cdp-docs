@@ -3,6 +3,7 @@
 ## v2020.7.0：2020年7月发布
 
 * 新功能: 
+
   * 分群画像：“做过”行为筛选功能新增支持使用计算指标筛选用户
   * 标签：
 
@@ -11,10 +12,14 @@
 
   * 角色管理： 
     * 一个角色，就相当于一个功能权限包。角色将决定成员在该项目中的功能权限，即该成员可否使用某项功能。
-    *  [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/role-manage)  新功能詳細內容。
-  * 部門管理 ：
-    * 为了使企业管理更有层次和秩序，負責人、管理員，可依据组织架构创建部门。并将成员依据组织架构进行管理 
-    * [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/department-manage) 新功能詳細內容。
+    *  [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/role-manage)  新功能详细内容。
+
+
+
+  * 部门管理 ：
+    * 为了使企业管理更有层次和秩序，负责人、管理员，可依据组织架构创建部门。并将成员依据组织架构进行管理 
+    * [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/department-manage) 新功能详细内容。
+
 * 优化:
   * 企业功能
 
