@@ -2,7 +2,8 @@
 
 ## v2020.7.0：2020年7月发布
 
-* 新功能: 
+* 😀 新功能: 
+
   * 分群画像：“做过”行为筛选功能新增支持使用计算指标筛选用户
   * 标签：
 
@@ -11,11 +12,15 @@
 
   * 角色管理： 
     * 一个角色，就相当于一个功能权限包。角色将决定成员在该项目中的功能权限，即该成员可否使用某项功能。
-    *  [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/role-manage)  新功能詳細內容。
-  * 部門管理 ：
-    * 为了使企业管理更有层次和秩序，負責人、管理員，可依据组织架构创建部门。并将成员依据组织架构进行管理 
-    * [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/department-manage) 新功能詳細內容。
-* 优化:
+    *  [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/role-manage)  新功能详细内容。
+
+
+
+  * 部门管理 ：
+    * 为了使企业管理更有层次和秩序，负责人、管理员，可依据组织架构创建部门。并将成员依据组织架构进行管理 
+    * [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/department-manage) 新功能详细内容。
+
+* 🐞 优化:
   * 企业功能
 
     * 新建帐号 ：新建帐号不在需要，通过链接激活，管理员创建帐号后，成员可使用帐号密码直接登入。
@@ -56,9 +61,9 @@
 
 * 新功能:
   * 产品分析: [新增看板模块](product-manual/charts/)
-    * 新增独立数据监控模块，为企业成员提供便捷的数据监控场景
-    * 看板支持订阅和取消订阅，可将当前关注的看板订阅至看板侧边栏，满足日常工作中固定数据报表监控场景使用需求
-    * 看板侧边栏支持通过拖拉进行看板排序，可根据日常数据监控需求自定义看板排序
+    * 新增独立数据监控模块，为企业成员提供便捷的数据监控场景。
+    * 看板支持订阅和取消订阅，可将当前关注的看板订阅至看板侧边栏，满足日常工作中固定数据报表监控场景使用需求。
+    * 看板侧边栏支持通过拖拉进行看板排序，可根据日常数据监控需求自定义看板排序。
   * 产品分析:  [看板共享设置](product-manual/charts/kanban-sharing-settings.md)
     * 支持看板共享设置，通过共享设置可与指定成员共享看板
     * 共享模式支持阅读者和编辑者两种模式
