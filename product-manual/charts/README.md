@@ -55,7 +55,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 ## 修改看板名称
 
-操作流程：点击看板名称 &gt; 进入编辑模式 &gt; 输入看板名称 &gt; 点击保存
+操作流程：点击看板名称 &gt; 进入编辑模式 &gt; 输入看板名称 &gt; Enter 保存
 
 ![](../../.gitbook/assets/ying-mu-jie-tu-20200610-xia-wu-1.19.02.png)
 
