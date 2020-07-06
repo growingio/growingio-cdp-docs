@@ -12,16 +12,16 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 看板模块分为两大区域，看板侧栏和看板数据消费区。
 
-![](../../.gitbook/assets/image%20%28177%29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.59.24.png)
 
-## 看板侧栏
+### 看板侧栏
 
 看板侧栏包含以下几个部分：
 
 * 订阅看板：展示你所订阅的看板，看板支持订阅， 具体订阅方式请查看 [看板订阅](https://app.gitbook.com/@growingio/s/cdp/~/drafts/-M9RXRh-4-P4hpPAq7ud/product-manual/charts/kan-ban-ding-yue/@drafts)。
 * 全部看板：点击全部看板，可进入看板管理模块 ，对看板进行更有效率的管理工作。
 
-## 看板数据展示区
+### 看板数据展示区
 
 看板展示区包含以下几个部分：
 
@@ -53,23 +53,23 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 | 单图拖拽 | 调整当前的分析图表的布局 |
 | 设置共享模式 | 设置看板协作的成员 |
 
-## 修改看板名称
+### 修改看板名称
 
 操作流程：点击看板名称 &gt; 进入编辑模式 &gt; 输入看板名称 &gt; Enter 保存
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200610-xia-wu-1.19.02.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.40.12.png)
 
 {% hint style="warning" %}
 权限控制：需要该成员具有看板功能权限，且同时为该看板的**编辑者**。
 {% endhint %}
 
-## 添加单图
+### 添加单图
 
 通过添加单图，我们可以在看板中添加新的数据图表，将需要共同分析的图表放在一起构建数据報告，方便大家进行报告、监测、分析 。
 
 操作流程：点击 添加单图 **&gt;** 勾选要添加至此看板的分析图表 &gt; 点击添加。 
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200610-xia-wu-1.20.11%20%282%29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.46.19.png)
 
 {% hint style="warning" %}
  权限控制：添加单图时，需要该成员具有看板功能权限，且同时是该看板的编辑者。
@@ -81,23 +81,25 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 2.若阿花是Ａ看板的编辑者，但管理员并没有给阿花看板功能权限，则阿花无法对看板进行 添加单图操作。
 {% endhint %}
 
-## 移除单图
+### 
 
-![](../../.gitbook/assets/image%20%28179%29.png)
+### 移除单图
+
+可将需要的单图，添加至看板中，组成看版数据报告
+
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.47.18.png)
 
 {% hint style="warning" %}
 权限控制：移除单图时，需要该成员具有看板权限，且同时是该看板的编辑者。
 {% endhint %}
 
-## 
+### 
 
-
-
-## 添加描述
+### 添加描述
 
 通过添加描述，可对看板添加描述说明。
 
-![](../../.gitbook/assets/image%20%28189%29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.48.22.png)
 
 ## 过滤条件
 
@@ -108,13 +110,13 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 操作流程： 点击过滤条件 &gt; 选择过滤范围 &gt; 点击保存 。
 
-![](../../.gitbook/assets/image%20%28181%29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.48.54.png)
 
 
 
-从看板双击分析图表 ，將會进入分析图表详情，该分析图表会继承看板的过滤条件， **点击 X** 可以移除过滤条件。
+从看板双击分析图表 ，將會进入分析图表详情，该分析图表会_**继承看板的过滤条件**_， **点击 X** 可以移除过滤条件。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200619-xia-wu-9.34.48.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.50.36.png)
 
 
 
@@ -137,17 +139,19 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 操作流程：点击时间范围 &gt;  选择时间范围区间 &gt; 点击确定。
 
-![](../../.gitbook/assets/image%20%28184%29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.51.46.png)
 
 GIO 提供强大且方便的时间选择控件，可以帮助你快速查看不同时间段的数据。
 
-![](../../.gitbook/assets/image%20%28180%29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.52.56%20%281%29.png)
+
+
 
 ## 另存看板
 
 操作流程：点击看版右侧  &gt; 选择另存看板 &gt;  输入新看版名称。 
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200619-xia-wu-9.39.34.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.54.11.png)
 
 {% hint style="warning" %}
 权限控制： 另存看板时，需要该成员具有看板权限
@@ -157,7 +161,7 @@ GIO 提供强大且方便的时间选择控件，可以帮助你快速查看不�
 
 操作流程：点击看版右侧  &gt;  选择刪除 &gt;  確定刪除。 
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200619-xia-wu-9.38.48.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.54.56.png)
 
 {% hint style="warning" %}
 权限控制：只有看板的拥有者可以删除看板。
@@ -167,9 +171,9 @@ GIO 提供强大且方便的时间选择控件，可以帮助你快速查看不�
 
 可设置看板共享的成员 ，共享方式分为 **阅读者、编辑者**两种，您可以通过灵活的设置，与同事进行数据的协作，使数据在企业内部进行流动，更好的发挥数据的价值。
 
+![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-8.57.14.png)
 
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200619-xia-wu-9.38.12.png)
 
 {% hint style="warning" %}
 共享设置可见 ： [看板共享設置鏈接](https://app.gitbook.com/@growingio/s/cdp/~/drafts/-M7f1KTwEG20PbWnheJR/v/v20200600/product-manual/charts/kan-ban-gong-xiang-she-zhi)
