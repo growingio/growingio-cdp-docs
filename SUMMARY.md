@@ -81,5 +81,6 @@
       * [接口说明](developer-manual/api-reference/cdp/description.md)
       * [请求列表](developer-manual/api-reference/cdp/query-list.md)
 * [常见问题](product-faq.md)
-* [更新日志](update-log.md)
+* [更新日志](update-log/README.md)
+  * [SDK更新日志](update-log/sdk-geng-xin-ri-zhi.md)
 
