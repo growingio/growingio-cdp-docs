@@ -7,7 +7,7 @@
 
    打开开发设置，到服务器域名配置部分
 
-   在`request合法域名`中添加：https://XX.com \(你设置的gtouchhost地址\)
+   在`request合法域名`中添加：https://messages.growingio.com
 
 ## 二. 平台创建微信小程序SDK消息
 
