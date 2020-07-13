@@ -27,20 +27,20 @@ GrowingPushKit 和 GrowingPushExtensionKit 都需要集成
 
   * 请将 Notification Service Extension 中的 Deployment Target 设置为 **10.0**。
 
-![](../../../../.gitbook/assets/image%20%28243%29.png)
+![](../../../../.gitbook/assets/image%20%28244%29.png)
 
 * 将其中的**GrowingPushExtensionKit.framework**包将之添到扩展**Notification Service Extension**
 
-![](../../../../.gitbook/assets/image%20%28228%29.png)
+![](../../../../.gitbook/assets/image%20%28229%29.png)
 
 * 确保扩展GrowingPushExtensionKit引入成功，other link flags选项有添加`$(inherited)`  和`-ObjC` 添加编译参数，并注意大小写：
 
-![](../../../../.gitbook/assets/image%20%28226%29.png)
+![](../../../../.gitbook/assets/image%20%28227%29.png)
 
 请保证扩展的target  最低版本 iOS**10.0**  
 
 
-![](../../../../.gitbook/assets/image%20%28244%29.png)
+![](../../../../.gitbook/assets/image%20%28245%29.png)
 
 ## 二. 编写集成代码 重要配置
 
@@ -108,7 +108,7 @@ categories:nil];
 
 ### 3. 推送消息自定义协议的处理 clickMessageWithCompletionHandler:
 
-![](../../../../.gitbook/assets/image%20%28236%29.png)
+![](../../../../.gitbook/assets/image%20%28237%29.png)
 
 推送功能默认提供打开APP、打开网页、打开APP内部页面三种功能，如果该三种功能还是满足不了您的需求，您可以在SDK提供的以下方法回调中自定义自己的跳转逻辑。
 
@@ -149,7 +149,7 @@ categories:nil];
 
 在 File -&gt; New -&gt; Target 中选择箭头所指，即可建立
 
-![](../../../../.gitbook/assets/image%20%28238%29.png)
+![](../../../../.gitbook/assets/image%20%28239%29.png)
 
 
 
@@ -163,7 +163,7 @@ categories:nil];
 
 * **推送Web页面配置如下：**
 
-![](../../../../.gitbook/assets/image%20%28247%29.png)
+![](../../../../.gitbook/assets/image%20%28248%29.png)
 
 
 
@@ -195,27 +195,27 @@ class SFViewController: UIViewController {
 
 第1步：编译运行当前示例项目工程TestDemo（实际过程中应为对应的项目工程名称）
 
-![](../../../../.gitbook/assets/image%20%28242%29.png)
+![](../../../../.gitbook/assets/image%20%28243%29.png)
 
 第2步：运行成功之后，在Products文件夹下，选中 TestDemo.app 后 Show in Finder
 
-![](../../../../.gitbook/assets/image%20%28237%29.png)
+![](../../../../.gitbook/assets/image%20%28238%29.png)
 
 第3步：可以看到在Products文件夹同级补录下，有一个名为Intermediates.noindex 的文件夹，依次进入 TestDemo.build -&gt; Debug-iphoneos\(或Debug-iphonesimulator\) -&gt; TestDemo.build -&gt; DerivedSources 文件夹下
 
-![](../../../../.gitbook/assets/image%20%28231%29.png)
+![](../../../../.gitbook/assets/image%20%28232%29.png)
 
-![](../../../../.gitbook/assets/image%20%28234%29.png)
+![](../../../../.gitbook/assets/image%20%28235%29.png)
 
 第4步：当前文件下有一个名为 TestDemo-Swift.h 的文件，双击打开在该文件中查找 SFViewController，发现该类声明的上方有一句 SWIFT\_CLASS\("\_TtC8TestDemo16SFViewController"\)
 
-![](../../../../.gitbook/assets/image%20%28246%29.png)
+![](../../../../.gitbook/assets/image%20%28247%29.png)
 
 \_TtC8TestDemo16SFViewController 即为原生界面SFViewController.swift转换后的类名， Web 页面配置如下：
 
 **推送Web页面配置如下：**
 
-![](../../../../.gitbook/assets/image%20%28227%29.png)
+![](../../../../.gitbook/assets/image%20%28228%29.png)
 
 ## 五. 如何判断iOS push集成成功
 
@@ -228,12 +228,12 @@ class SFViewController: UIViewController {
 
 在项目工程中打开后台推送权限设置，如下图所示
 
-![](../../../../.gitbook/assets/image%20%28241%29.png)
+![](../../../../.gitbook/assets/image%20%28242%29.png)
 
 打开推送开关Push Notifications，如下图所示  
 ****
 
-![](../../../../.gitbook/assets/image%20%28229%29.png)
+![](../../../../.gitbook/assets/image%20%28230%29.png)
 
 ### 2. 创建App ID
 
@@ -241,38 +241,44 @@ class SFViewController: UIViewController {
 
 登录苹果开发者账号，点击如下图红色箭头区域，进入证书配置页面。
 
-![](../../../../.gitbook/assets/image%20%28249%29.png)
+![](../../../../.gitbook/assets/image%20%28250%29.png)
 
 选中“Identifiers”，并且对应的是“App IDs”  
 
 
-![](../../../../.gitbook/assets/image%20%28232%29.png)
+![](../../../../.gitbook/assets/image%20%28233%29.png)
 
 选中对应的平台（Platform），输入对应的描述（Description）、Bundle ID
 
-![](../../../../.gitbook/assets/image%20%28235%29.png)
+![](../../../../.gitbook/assets/image%20%28236%29.png)
 
 打开推送功能，选中如下图所示，点击右上角“continue”按钮，执行下一步
 
-![](../../../../.gitbook/assets/image%20%28240%29.png)
+![](../../../../.gitbook/assets/image%20%28241%29.png)
 
 确定信息无误后，点击右上角“Register”进行注册
 
-![](../../../../.gitbook/assets/image%20%28248%29.png)
+![](../../../../.gitbook/assets/image%20%28249%29.png)
 
 ### 3. 创建本地CRS证书
 
 打开MAC电脑上的钥匙串访问，点击窗口左上角的“钥匙串访问”中的“证书助理”，选择“从证书颁发机构请求证书…”
 
-![](../../../../.gitbook/assets/image%20%28233%29.png)
+![](../../../../.gitbook/assets/image%20%28234%29.png)
 
 将证书选择为“存储到磁盘”，输入任意合法的邮箱地址后即可将证书保存到本地目录路径下
 
-![](../../../../.gitbook/assets/image%20%28245%29.png)
+![](../../../../.gitbook/assets/image%20%28246%29.png)
 
 ### 4. 创建推送证书
 
 登录苹果开发者账号，点击下图红色箭头指示区域
 
-![](../../../../.gitbook/assets/image%20%28239%29.png)
+![](../../../../.gitbook/assets/image%20%28240%29.png)
+
+点击加号“+”，创建证书
+
+![](../../../../.gitbook/assets/image%20%28226%29.png)
+
+选择“Services”下创建推送证书，其中红色箭头指示的为创建开发调试环境下的推送证书，蓝色箭头指示的为创建生产环境以及开发调试下的推送证书，这里
 
