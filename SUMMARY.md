@@ -27,6 +27,7 @@
     * [推送](product-manual/mp/tui-song/README.md)
       * [概述](product-manual/mp/tui-song/gai-shu.md)
       * [推送准备](product-manual/mp/tui-song/tui-song-zhun-bei.md)
+      * [创建推送](product-manual/mp/tui-song/chuang-jian-tui-song.md)
   * [用户](product-manual/uesr-analysis/README.md)
     * [用户分群](product-manual/uesr-analysis/segmentations.md)
     * [分群画像](product-manual/uesr-analysis/segmentations-insights.md)
