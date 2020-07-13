@@ -80,6 +80,7 @@
         * [弹窗SDK（微信小程序）](developer-manual/sdkintegrated/mp/minp-sdk/tan-chuang-sdk-wei-xin-xiao-cheng-xu.md)
         * [小程序获取设备访问ID](developer-manual/sdkintegrated/mp/minp-sdk/getid.md)
         * [调试指南（小程序）](developer-manual/sdkintegrated/mp/minp-sdk/debug.md)
+        * [小程序集成常见问题](developer-manual/sdkintegrated/mp/minp-sdk/qa.md)
   * [API参考](developer-manual/api-reference/README.md)
     * [API接口](developer-manual/api-reference/cdp/README.md)
       * [接口认证](developer-manual/api-reference/cdp/authentication.md)
