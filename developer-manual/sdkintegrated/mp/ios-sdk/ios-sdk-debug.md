@@ -16,5 +16,5 @@
  推送图片 ，收到推送图片即可  
 
 
-![](../../../../.gitbook/assets/image%20%28265%29.png)
+![](../../../../.gitbook/assets/image%20%28266%29.png)
 
