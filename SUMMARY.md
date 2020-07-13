@@ -73,6 +73,7 @@
         * [弹窗 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/popup.md)
         * [资源位 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/banner.md)
         * [推送 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/push-component.md)
+        * [常见问题](developer-manual/sdkintegrated/mp/ios-sdk/qa.md)
       * [Android SDK](developer-manual/sdkintegrated/mp/android-sdk/README.md)
         * [弹窗 SDK （Android）](developer-manual/sdkintegrated/mp/android-sdk/popup.md)
         * [资源位 SDK（Android）](developer-manual/sdkintegrated/mp/android-sdk/banner.md)
