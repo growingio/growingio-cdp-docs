@@ -365,19 +365,5 @@ class SFViewController: UIViewController {
 + (void)enableEventPopupAndGenerateAppOpenEvent;
 ```
 
-## **其他**
-
-  
-****使用特殊登陆用户变量，**注册至今**  
-需要在代码设置一下登陆用户变量 注册日期 CreateAt，需要保证key 是 CreateAt , 值是YYYYMMDD  
-
-
-```
-// 参考
-[Growing setPeopleVariable:@{@"CreateAt":@"20191219"}];
-```
-
-![](../../../../.gitbook/assets/image%20%2830%29.png)
-
-
+\*\*\*\*
 
