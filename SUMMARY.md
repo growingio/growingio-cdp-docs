@@ -76,6 +76,7 @@
       * [Android SDK](developer-manual/sdkintegrated/mp/android-sdk/README.md)
         * [弹窗 SDK （Android）](developer-manual/sdkintegrated/mp/android-sdk/popup.md)
         * [资源位 SDK（Android）](developer-manual/sdkintegrated/mp/android-sdk/banner.md)
+      * [小程序SDK](developer-manual/sdkintegrated/mp/minp-sdk.md)
   * [API参考](developer-manual/api-reference/README.md)
     * [API接口](developer-manual/api-reference/cdp/README.md)
       * [接口认证](developer-manual/api-reference/cdp/authentication.md)
