@@ -45,7 +45,7 @@
       * [计算指标](product-manual/datacenter/complex/custom-event.md)
     * [标签](product-manual/datacenter/tag/README.md)
       * [标签管理](product-manual/datacenter/tag/tag-manage/README.md)
-        * [累计值/平均值/占比](product-manual/datacenter/tag/tag-manage/tag-basic.md)
+        * [基础指标值](product-manual/datacenter/tag/tag-manage/tag-basic.md)
         * [最大值/最小值的事件属性](product-manual/datacenter/tag/tag-manage/tag-max-nd-min.md)
         * [最初/最终的事件属性](product-manual/datacenter/tag/tag-manage/tag-first-nd-last.md)
         * [列表类的事件属性](product-manual/datacenter/tag/tag-manage/tag-list.md)

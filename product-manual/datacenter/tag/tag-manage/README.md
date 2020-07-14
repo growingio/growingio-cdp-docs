@@ -94,14 +94,14 @@ description: 对标签进行定义和管理
 
 二、单击右上角**添加标签**，进入**新建标签**页面。
 
-![&#x6807;&#x7B7E;&#x521B;&#x5EFA;&#x9875;&#x9762;](../../../../.gitbook/assets/image%20%28221%29.png)
+![&#x6807;&#x7B7E;&#x521B;&#x5EFA;&#x9875;&#x9762;](../../../../.gitbook/assets/image%20%28273%29.png)
 
 三、根据业务需求选择需要创建的标签类型，配置完成后，单击保存，完成一个标签的创建。
 
 {% hint style="success" %}
 目前支持5种标签类型，分别为：
 
-* [累计值/平均值占比](tag-basic.md)
+* [基础指标值](tag-basic.md)
 * [最大值/最小值的事件属性](tag-max-nd-min.md)
 * [最初/最终的事件属性](tag-first-nd-last.md)
 * [列表类的事件属性](tag-list.md)
