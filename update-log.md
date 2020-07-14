@@ -4,8 +4,8 @@
 
 * 新功能: 
   * 标签: 
-    * 累计值/平均值/占比 标签更名为 基础指标值 标签
-    * 基础指标值标签新增支持对字符串类型属性统计去重数
+    * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/datacenter/tag/tag-manage/tag-basic.md) 标签
+    * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/datacenter/tag/tag-manage/tag-basic.md#chang-yong-biao-qian-cao-zuo-zhi-nan)
 
 ## v2020.7.0：2020年7月发布
 
