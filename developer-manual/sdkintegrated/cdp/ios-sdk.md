@@ -99,6 +99,12 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
         <p>dataSourceId&#x4E3A;&#x6570;&#x636E;&#x6E90;ID&#xFF1B;sampling&#x4E3A;&#x91C7;&#x6837;&#x7387;&#x3002;</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">handleUrl</td>
+      <td style="text-align:left">&#x65E0;</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">URL Scheme&#x5904;&#x7406;&#x65B9;&#x6CD5;&#xFF0C;&#x901A;&#x8FC7;&#x53C2;&#x6570;&#x4E0D;&#x540C;&#x533A;&#x5206;&#x7528;&#x6237;&#x8FD0;&#x8425;&#x9884;&#x89C8;&#x5F39;&#x7A97;&#xFF0C;&#x7528;&#x6237;&#x626B;&#x7801;&#x6CE8;&#x518C;&#x63A8;&#x9001;&#x8BBE;&#x5907;</td>
+    </tr>
   </tbody>
 </table>
 
