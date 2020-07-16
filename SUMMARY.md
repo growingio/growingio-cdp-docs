@@ -79,6 +79,7 @@
     * [运营平台 SDK](developer-manual/sdkintegrated/mp/README.md)
       * [运营平台SDK更新日志](developer-manual/sdkintegrated/mp/gtouchsdk-releasenotes.md)
       * [iOS SDK](developer-manual/sdkintegrated/mp/ios-sdk/README.md)
+        * [推送 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/tui-song-sdkios.md)
         * [弹窗 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/popup.md)
         * [资源位 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/banner.md)
       * [Android SDK](developer-manual/sdkintegrated/mp/android-sdk/README.md)
