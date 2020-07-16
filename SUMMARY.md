@@ -79,6 +79,7 @@
     * [运营平台 SDK](developer-manual/sdkintegrated/mp/README.md)
       * [运营平台SDK更新日志](developer-manual/sdkintegrated/mp/gtouchsdk-releasenotes.md)
       * [iOS SDK](developer-manual/sdkintegrated/mp/ios-sdk/README.md)
+        * [常见问题](developer-manual/sdkintegrated/mp/ios-sdk/chang-jian-wen-ti.md)
         * [弹窗 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/popup.md)
         * [资源位 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/banner.md)
         * [推送 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/push-component.md)
