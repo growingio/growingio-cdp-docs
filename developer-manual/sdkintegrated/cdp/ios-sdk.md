@@ -3,7 +3,7 @@
 ## **添加依赖**
 
 1. 获取iOS SDK以下包并解压，由GrowingIO提供。
-2. 将[Growing.h](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-PublicHeader-1.2.0-CDP.zip)、[GrowingCDPCoreKit.framework](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDPCoreKit-1.2.0-CDP.zip) 添加到iOS工程中；记得勾选“Copy item if needed“。
+2. 将[Growing.h](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-PublicHeader-1.2.3.zip)、[GrowingCDPCoreKit.framework](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDPCoreKit-1.2.3.zip) 添加到iOS工程中；记得勾选“Copy item if needed“。
 3. 在工程项目中添加以下库文件：
 
 > 添加库依赖的位置在项目设置 Target &gt; 选项卡General &gt; Linked Frameworks and Libraies。
@@ -42,6 +42,43 @@
     // 开启Growing调试日志 可以开启日志 
     // [Growing setEnableLog:YES];
 }
+```
+
+## 添加支持用户运营扫码的代码
+
+> 在 AppDelegate 中添加
+
+{% hint style="warning" %}
+因为您代码的复杂程度以及iOS SDK的版本差异，有时候 \[Growing handleUrl:url\] 并没有被调用。请在各个平台上调试这段代码，确保当App被URL scheme唤醒之后，该函数能被调用到。
+{% endhint %}
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    ...
+ if ([Growing handleUrl:url]) // 请务必确保该函数被调用
+  {
+      return YES;
+  }
+  return NO;
+ ...
+}
+```
+
+常用示例：
+
+若您在 AppDelegate 中实现了以下一个或多个方法，请在已实现的函数中，调用`[Growing handleUrl:]`
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options
+```
+
+若以上所有方法均未实现，请实现以下方法并调用`[Growing handleUrl:]`
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotatio
 ```
 
 ## **重要配置**

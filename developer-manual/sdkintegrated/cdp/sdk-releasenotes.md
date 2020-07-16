@@ -14,15 +14,10 @@
     <tr>
       <td style="text-align:left">1.2.3</td>
       <td style="text-align:left">
-        <p>1.&#x589E;&#x52A0;handUrl &#x65B9;&#x6CD5;&#xFF0C;&#x652F;&#x6301;&#x7528;&#x6237;&#x8FD0;&#x8425;SDK&#x626B;&#x7801;</p>
+        <p>1.&#x589E;&#x52A0;handleUrl &#x65B9;&#x6CD5;&#xFF0C;&#x652F;&#x6301;&#x7528;&#x6237;&#x8FD0;&#x8425;SDK&#x626B;&#x7801;</p>
         <p>2.&#x91C7;&#x96C6;&#x4F18;&#x5316;</p>
       </td>
       <td style="text-align:left">2020-07-16</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>

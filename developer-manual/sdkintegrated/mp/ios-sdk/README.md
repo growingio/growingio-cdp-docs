@@ -22,7 +22,7 @@ GrowingPushKit 和 GrowingPushExtensionKit
   * Notification Service Extension 证书配置时需要注意 BundleID 不能与 Main Target 一致，证书需要单独额外配置
   * 请将 Notification Service Extension 中的 Deployment Target 设置为 10.0
 
-数据采集和运营平台SDK
+数据采集和运营平台SDK 如下
 
-![](../../../../.gitbook/assets/image%20%28137%29.png)
+![](../../../../.gitbook/assets/image%20%28279%29.png)
 
