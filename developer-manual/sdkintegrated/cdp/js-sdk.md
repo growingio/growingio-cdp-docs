@@ -14,8 +14,13 @@
 <!-- GrowingIO Analytics code version 1.0 -->
 <!-- Copyright 2015-2020 GrowingIO, Inc. More info available at http://www.growingio.com -->
 <script type='text/javascript'>
-!function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","JS 资源地址","gdp");
-  gdp('init', 'your projectId', 'your dataSourceId', {});
+!function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","JS SDK加载地址","gdp");
+  gdp('init', 'your projectId', 'your dataSourceId', {
+    debug: true,
+    hashtag: true,
+    host: '您的埋点数据上报地址',
+    scheme: 'http'
+  });
 ​
   //custom page code begin here
   //custom page code end here
