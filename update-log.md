@@ -8,11 +8,11 @@
     * [累计值/平均值/占比](product-manual/datacenter/tag/tag-manage/tag-basic.md)标签新增支持使用计算指标的累计值创建用户标签
     * 分层标签新增支持使用计算指标定义用户分层
   * 角色管理
-    * 新增创建和管理角色，一个角色就相当于一个功能权限包
+    * 新增支持创建和管理角色，一个角色就相当于一个功能权限包
     * 支持通过角色分配成员在项目中的功能权限
     *  [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/role-manage)  新功能详细内容
   * 部门管理
-    * 新增创建和管理部门
+    * 新增支持创建和管理部门
     * 支持设置成员所属部门，方便按照组织架构管理企业成员
     * [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/department-manage) 新功能详细内容
 * 优化:
