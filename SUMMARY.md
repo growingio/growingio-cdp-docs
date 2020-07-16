@@ -69,6 +69,7 @@
 * [开发者文档](developer-manual/README.md)
   * [SDK集成](developer-manual/sdkintegrated/README.md)
     * [数据采集 SDK](developer-manual/sdkintegrated/cdp/README.md)
+      * [数据采集SDK更新日志](developer-manual/sdkintegrated/cdp/shu-ju-cai-ji-sdk-geng-xin-ri-zhi.md)
       * [Android SDK](developer-manual/sdkintegrated/cdp/android-sdk.md)
       * [iOS SDK](developer-manual/sdkintegrated/cdp/ios-sdk.md)
       * [JS SDK](developer-manual/sdkintegrated/cdp/js-sdk.md)
