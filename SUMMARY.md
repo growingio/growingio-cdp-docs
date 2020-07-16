@@ -25,6 +25,7 @@
       * [创建资源位](product-manual/mp/banner/create.md)
       * [轮播图设置](product-manual/mp/banner/setting.md)
     * [推送](product-manual/mp/tui-song/README.md)
+      * [创建推送](product-manual/mp/tui-song/chuang-jian-tui-song.md)
       * [概述](product-manual/mp/tui-song/gai-shu.md)
       * [推送准备](product-manual/mp/tui-song/tui-song-zhun-bei.md)
   * [用户](product-manual/uesr-analysis/README.md)
