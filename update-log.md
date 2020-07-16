@@ -17,7 +17,7 @@
     * [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/department-manage) 新功能详细内容
 * 优化:
   * 企业功能
-    * 新建帐号 ：新建帐号不在需要，通过链接激活，管理员创建帐号后，成员可使用帐号密码直接登入
+    * 新建帐号 ：新建帐号不在需要通过链接激活，管理员创建帐号后，成员可使用帐号密码直接登入
     * 新建帐号：帐号不再限制邮箱格式
     * 重置密码：密码重置，不再需要发送链接
     * 成员管理权限提示优化：对于无权限操作的原因给于正确的提示、引导
