@@ -44,6 +44,43 @@
 }
 ```
 
+## 添加支持用户运营扫码的代码
+
+> 在 AppDelegate 中添加
+
+{% hint style="warning" %}
+因为您代码的复杂程度以及iOS SDK的版本差异，有时候 \[Growing handleUrl:url\] 并没有被调用。请在各个平台上调试这段代码，确保当App被URL scheme唤醒之后，该函数能被调用到。
+{% endhint %}
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    ...
+ if ([Growing handleUrl:url]) // 请务必确保该函数被调用
+  {
+      return YES;
+  }
+  return NO;
+ ...
+}
+```
+
+常用示例：
+
+若您在 AppDelegate 中实现了以下一个或多个方法，请在已实现的函数中，调用`[Growing handleUrl:]`
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options
+```
+
+若以上所有方法均未实现，请实现以下方法并调用`[Growing handleUrl:]`
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotatio
+```
+
 ## **重要配置**
 
 App Store 提交注意事项‌
