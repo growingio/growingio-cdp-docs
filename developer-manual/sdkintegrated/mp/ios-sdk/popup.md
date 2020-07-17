@@ -20,7 +20,8 @@
 ### 2. 集成运营SDK
 
  手动集成SDK  
-下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.2.0-1.3.0.zip](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.2.0-1.3.0.zip)
+下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：  
+[http://assets.giocdn.com/cdp/ios/CDP1.2.3\_Touch1.4.1.zip](http://assets.giocdn.com/cdp/ios/CDP1.2.3_Touch1.4.1.zip)
 
 ![](../../../../.gitbook/assets/image%20%28110%29.png)
 
