@@ -7,17 +7,22 @@
 **GrowingTouchCoreKit.framework触达基础依赖库  
 GrowingTouchCoreUI.bundle UI页面图  
 GrowingPushKit.framework 触达推送库  
-GrowingPushExtensionKit.framework  图片推送和iOS 10以上统计后台通知的到达率**
+GrowingCDPPushExtensionKit.framework  图片推送和iOS 10以上统计后台通知的到达率**
 
 ## 一. 集成SDK
 
 ### 1. 集成GrowingIO iOS **CDP** 埋点SDK  \(版本要求最低1.2.3\)
 
-    
+    详细步骤见[集成文档](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk)  
+    添加 handleUrl方法  [链接](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk#handleurl)
 
 ### 2. 集成用户运营SDK
 
-GrowingPushKit 和 GrowingPushExtensionKit 都需要集成 
+GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！   
+GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！   
+GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！！且不同target  
+下载地址  
+[http://assets.giocdn.com/cdp/ios/CDP1.2.3\_Touch1.4.1.zip](http://assets.giocdn.com/cdp/ios/CDP1.2.3_Touch1.4.1.zip)
 
 * 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingPushKit.framework 添加到iOS工程中
 
@@ -31,11 +36,11 @@ GrowingPushKit 和 GrowingPushExtensionKit 都需要集成
 
 ![](../../../../.gitbook/assets/image%20%28250%29.png)
 
-* 将其中的**GrowingPushExtensionKit.framework**包将之添到扩展**Notification Service Extension**
+* 将其中的**GrowingCDPPushExtensionKit.framework**包将之添到扩展**Notification Service Extension**
 
 ![](../../../../.gitbook/assets/image%20%28230%29.png)
 
-* 确保扩展GrowingPushExtensionKit引入成功，other link flags选项有添加`$(inherited)`  和`-ObjC` 添加编译参数，并注意大小写：
+* 确保扩展GrowingCDPPushExtensionKit引入成功，other link flags选项有添加`$(inherited)`  和`-ObjC` 添加编译参数，并注意大小写：
 
 ![](../../../../.gitbook/assets/image%20%28227%29.png)
 
@@ -88,16 +93,18 @@ categories:nil];
 
 在 iOS10 提供的扩展 Notification Extension Service 中通知接收方法中调用通知消息回执接口，代码示例如下：\(**注意不是写在AppDelegate中,是写在你新建的扩展里面**\)
 
-还要设置一下AccountId  dataSourceId  Trackhost
+还要设置一下AccountID  dataSourceID  Trackhost
 
 ```objectivec
-#import <GrowingPushExtensionKit/GrowingPushExtensionKit.h>
+#import <GrowingCDPPushExtensionKit/GrowingPushExtensionKit.h>
 
 - (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent * _Nonnull))contentHandler {
     self.contentHandler = contentHandler;
     self.bestAttemptContent = [request.content mutableCopy];
+    // 设置AccountID 和 dataSourceID
       [GrowingPushExtensionKit startWithAccountId:@"AccountId" dataSourceId:@"datasourceID "];
-      [GrowingPushExtensionKit setTrackerHost:@"your track host"];
+    // 设置Trackhost，埋点上报地址
+       [GrowingPushExtensionKit setTrackerHost:@"your track host"];
       [GrowingPushExtensionKit handleNotificationRequest:request
                                         withCompletion:^(NSArray<UNNotificationAttachment *> * _Nullable attachments, NSArray<NSError *> * _Nullable errors) {
         
