@@ -8,7 +8,11 @@
 
 请将以下的页面代码放置需要分析页面中的&lt;head&gt;和&lt;head&gt;标签之间，即可完成JS SDK页面代码的添加。
 
-> 请注意使用具体的项目ID替换代码中的 your projectId、your DataSourceId 确保JS资源地址正确。
+> 请注意使用具体的项目ID替换代码中的 your projectId、your DataSourceId 确保数据上报信息正确。
+
+SDK的下载地址为[https://assets.growingio.com/cdp/1.0/gio.js](https://assets.growingio.com/cdp/1.0/gio.js
+) 或[https://assets.giocdn.com/cdp/1.0/gio.js](https://assets.giocdn.com/cdp/1.0/gio.js
+) 下载后可以将文件上传到您的私部服务器上，并配置您自己的文件加载地址。
 
 ```javascript
 <!-- GrowingIO Analytics code version 1.0 -->
