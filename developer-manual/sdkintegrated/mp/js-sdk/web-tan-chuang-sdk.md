@@ -28,7 +28,7 @@ Web弹窗SDK依赖于Web数据采集SDK，请先根据 Web数据采集SDk
     // 弹窗SDK
     gdp('plugin', {
       id: 'gio_plugin_gtouch',
-      src: ('https:' == document.location.protocol ? 'https://' : 'http://') + "JS弹窗SDK加载地址",
+      src: ('https:' == document.location.protocol ? 'https://' : 'http://') + "JS弹窗SDK加载地址,后缀为xxx/gtouch.js",
       dataHost: '您的弹窗请求地址'
     })
     //custom page code begin here
@@ -46,7 +46,7 @@ Web弹窗SDK依赖于Web数据采集SDK，请先根据 Web数据采集SDk
 | 8、9、10、11 | 全部 | 全部 | 12 | 10.5 | 10 | 8.7 |
 
 {% hint style="info" %}
-目前还未正式支持移动端浏览器和WebView
+移动端浏览器弹窗需集成H5弹窗SDK
 {% endhint %}
 
 
