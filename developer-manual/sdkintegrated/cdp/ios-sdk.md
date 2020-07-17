@@ -44,7 +44,7 @@
 }
 ```
 
-## 添加支持用户运营扫码的代码 <a id="handleurl"></a>
+## 添加支持用户运营扫码的代码
 
 > 在 AppDelegate 中添加
 
@@ -171,9 +171,9 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
 | API | 默认值 | 说明 |
 | :--- | :--- | :--- |
 | setAspectMode | 无 | 设置数据采集模式，有GrowingAspectModeSubClass 和GrowingAspectModeDynamicSwizzling 两种。 |
-| setFlushInterval | 15s | 设置、获取发送数据的事件间隔，默认设置15s。 |
-| setDailyDataLimit | 10485KB | 设置每天使用数据网络（2G、3G、4G）上传的数据量的上限，默认值10485KB（10MB）。 |
-| getDailyDataLimit | 无 | 获取每天使用数据网络（2G、3G、4G）上传的数据量的上限，默认值10485KB（3MB）。 |
+| setFlushInterval | 30s | 设置、获取发送数据的事件间隔，默认设置30s。 |
+| setDailyDataLimit | 3027KB | 设置每天使用数据网络（2G、3G、4G）上传的数据量的上限，默认值3072KB（3MB）。 |
+| getDailyDataLimit | 无 | 获取每天使用数据网络（2G、3G、4G）上传的数据量的上限，默认值3072KB（3MB）。 |
 | disableDataCollect | 无 | 设置GDPR生效。 |
 | enableDataCollect | 无 | 设置GDPR失效。 |
 | setEnableLocationTrack | Yes | 设置是否采集地理位置的统计信息，默认采集。 |
