@@ -391,7 +391,7 @@ class SFViewController: UIViewController {
 ServiceExtension的NotificationService类，在接收到推送的方法中调用GIO的API
 
 ```objectivec
-#import <GrowingPushExtensionKit/GrowingPushExtensionKit.h>
+#import <GrowingCDPPushExtensionKit/GrowingPushExtensionKit.h>
 
 - (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent * _Nonnull))contentHandler {
     self.contentHandler = contentHandler;
