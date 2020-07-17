@@ -14,8 +14,7 @@
       <td style="text-align:left">1.4.1</td>
       <td style="text-align:left">
         <p>1.&#x652F;&#x6301;&#x5F39;&#x7A97;&#x626B;&#x7801;&#x6D4B;&#x8BD5;&#xFF0C;&#x652F;&#x6301;&#x5F39;&#x7A97;&#x53BB;&#x91CD;&#x8BBE;&#x7F6E;</p>
-        <p>2.&#x652F;&#x6301;&#x63A8;&#x9001;&#xFF0C;&#x652F;&#x6301;&#x56FE;&#x7247;&#x63A8;&#x9001;(&#x652F;&#x6301;&#x683C;&#x5F0F;jpg,jpeg,
-          gif ,png)&#xFF0C;&#x652F;&#x6301;&#x626B;&#x7801;&#x6CE8;&#x518C;&#x63A8;&#x9001;&#x8BBE;&#x5907;&#x6D4B;&#x8BD5;&#x63A8;&#x9001;</p>
+        <p>2.&#x652F;&#x6301;&#x63A8;&#x9001;&#xFF0C;&#x652F;&#x6301;&#x56FE;&#x7247;&#x63A8;&#x9001;&#xFF0C;&#x652F;&#x6301;&#x626B;&#x7801;&#x6CE8;&#x518C;&#x63A8;&#x9001;&#x8BBE;&#x5907;&#x6D4B;&#x8BD5;&#x63A8;&#x9001;</p>
         <p>&#x6CE8;&#x610F;&#xFF1A;&#x57CB;&#x70B9;&#x4F9D;&#x8D56;&#x7248;&#x672C;CDP
           1.2.3&#x53CA;&#x4EE5;&#x4E0A;</p>
       </td>

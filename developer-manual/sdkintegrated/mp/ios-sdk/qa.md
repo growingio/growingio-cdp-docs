@@ -16,7 +16,11 @@
 ### 1. 测试扫码打开app 没有预览弹窗或者没有上传推送设备信息 <a id="ios_1"></a>
 
  确认一下 依赖的埋点SDK是否是**1.2.3**以上  
-handleUrl  有没有调用到
+handleUrl  有没有调用到  
+  
+Xcode 的控制台打印可看 **集成SDK版本   
+GrowingIO version: 1.2.3 !!!   
+Thank you very much for using GrowingIO Touch. SDK version 1.4.1**
 
 ### 2. iOS 扫码测试推送收不到推送消息？
 
