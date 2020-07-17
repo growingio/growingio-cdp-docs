@@ -15,13 +15,12 @@
 
 ### 1. 集成GrowingIO iOS CDP埋点SDK\(如已集成跳过\)
 
-[https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk)  
-添加 handleUrl方法  [链接](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk#handleurl)
+[https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk)
 
 ### 2. 集成运营SDK
 
  手动集成SDK  
-下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDP1.2.3\_Touch1.4.1.zip](http://assets.giocdn.com/cdp/ios/CDP1.2.3_Touch1.4.1.zip)
+下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.2.0-1.3.0.zip](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.2.0-1.3.0.zip)
 
 ![](../../../../.gitbook/assets/image%20%28110%29.png)
 
@@ -266,7 +265,17 @@
 }
 ```
 
+### 5. 设置用户注册时间
 
+> 您可以设置用户注册时间，这样就可以在做分群选择时使用注册至今来筛选用户。
+
+使用上传登录用户变量接口上传用户注册时间，您需要将key设置为CreateAt。
+
+```java
+[Growing setUserId:@"zhangsan"];
+// 登陆用户属性 注册至今 需设置CreateAt，值必须用YYYYMMDD 的方式上传，否则无法生效
+[Growing setPeopleVariable:@{@"CreateAt":@"20191219"}];
+```
 
 ## 三.API介绍
 
