@@ -15,8 +15,7 @@ GrowingPushExtensionKit.framework  图片推送和iOS 10以上统计后台通知
 
 ### 2. 集成用户运营SDK
 
-GrowingPushKit 和 GrowingPushExtensionKit 都需要集成   
-[http://assets.giocdn.com/cdp/ios/CDP1.2.3\_Touch1.4.1.zip](http://assets.giocdn.com/cdp/ios/CDP1.2.3_Touch1.4.1.zip)
+GrowingPushKit 和 GrowingPushExtensionKit 都需要集成 
 
 * 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingPushKit.framework 添加到iOS工程中
 
