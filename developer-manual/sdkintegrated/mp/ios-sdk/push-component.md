@@ -13,7 +13,7 @@ GrowingPushExtensionKit.framework  图片推送和iOS 10以上统计后台通知
 
 ### 1. 集成GrowingIO iOS **CDP** 埋点SDK  \(版本要求最低1.2.3\)
 
-    
+    详细步骤见集成文档
 
 ### 2. 集成用户运营SDK
 
