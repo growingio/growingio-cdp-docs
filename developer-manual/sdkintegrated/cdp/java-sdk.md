@@ -141,5 +141,36 @@ projectA.send(msg);
 1. 修改gio.properties文件并将run.mode定义为production，并触发埋点事件 。
 2. 在线查询GrowingIO数据库，确认数据上传成功。
 
+
+
+## Debugger选项
+
+为了方便使用者调试代码和数据校验，我们提供Java日志接口类，可以通过继承GioLoggerInterface实现自己的日志输出类，可通过自己的日志工具定制日志保留时间和日志存储大小。
+
+配置说明：SDK log 输出级别
+
+1. debug: 输出 debug信息，建议连调阶段开启，可输出消息的发送报文
+2. error: 仅输出 错误日志，不会输出 debug 级别的信息 logger.level=debug 自定义 SDK log 输出 通过以下配置，可自定义日志输出实现类, 默认为 io.growing.sdk.java.logger.GioLoggerImpl 会将日志输出到 控制台
+
+```text
+logger.implementation=io.growing.sdk.java.demo.DemoLogger
+// 自定义日志输出实现类示例:
+// DemoLogger 类需要客户自己实现，客户可根据自己的系统内部的日志工具将 sdk 的日志输出，并制定适合自己业务的日志保存策略
+public class DemoLogger implements GioLoggerInterface {
+private final Logger logger = LoggerFactory.getLogger(DemoLogger.class);
+public void debug(String msg) {
+logger.debug(msg);
+}
+public void error(String msg) {
+logger.error(msg);
+}
+}
+// 比如以上 demo 中，采用的就是 SLF4J 和 Log4j2 的组合, 客户可通过自己的日志工具定制 日志保留时间，及日志存储大小。
+```
+
+{% hint style="success" %}
+该功能仅在 SDK 1.0.6及以上版本支持
+{% endhint %}
+
 \*\*\*\*
 
