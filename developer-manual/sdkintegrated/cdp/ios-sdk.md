@@ -55,14 +55,13 @@
 ```swift
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
-    
-// 如果没有触发handleUrl 扫码弹窗 和扫码注册推送不生效
+    ...
  if ([Growing handleUrl:url]) // 请务必确保该函数被调用
   {
       return YES;
   }
   return NO;
- 
+ ...
 }
 ```
 
