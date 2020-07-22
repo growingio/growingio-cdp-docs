@@ -18,6 +18,27 @@
 [https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk)  
 添加 handleUrl方法用于弹窗扫码和扫码注册推送设备  [链接](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk#handleurl)
 
+### 添加支持用户运营扫码的代码
+
+> 在 AppDelegate 中添加
+
+{% hint style="warning" %}
+因为您代码的复杂程度以及iOS SDK的版本差异，有时候 \[Growing handleUrl:url\] 并没有被调用。请在各个平台上调试这段代码，确保当App被URL scheme唤醒之后，该函数能被调用到。
+{% endhint %}
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    ...
+ if ([Growing handleUrl:url]) // 请务必确保该函数被调用
+  {
+      return YES;
+  }
+  return NO;
+ ...
+}
+```
+
 ### 2. 集成运营SDK
 
  手动集成SDK  
