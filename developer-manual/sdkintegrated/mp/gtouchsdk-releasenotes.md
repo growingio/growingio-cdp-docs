@@ -42,7 +42,7 @@
     <tr>
       <td style="text-align:left">0.5</td>
       <td style="text-align:left">
-        <p>&#x652F;&#x6301;&#x5C0F;&#x7A0B;&#x5E8F;&#x5F39;&#x7A97;</p>
+        <p>&#x652F;&#x6301;&#x5C0F;&#x7A0B;&#x5E8F;&#x666E;&#x901A;&#x5F39;&#x7A97;</p>
         <p>&#x652F;&#x6301;&#x5C0F;&#x7A0B;&#x5E8F;&#x5B9E;&#x9A8C;AB&#x5F39;&#x7A97;</p>
         <p>&#x652F;&#x6301;&#x5C0F;&#x7A0B;&#x5E8F;&#x8BBE;&#x5907;&#x9884;&#x89C8;&#x5F39;&#x7A97;</p>
       </td>
@@ -52,9 +52,24 @@
 {% endtab %}
 
 {% tab title="支付宝小程序" %}
-| SDK版本号 | 更新日志 |
-| :--- | :--- |
-|  |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">SDK&#x7248;&#x672C;&#x53F7;</th>
+      <th style="text-align:left">&#x66F4;&#x65B0;&#x65E5;&#x5FD7;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">0.5</td>
+      <td style="text-align:left">
+        <p>&#x652F;&#x6301;&#x5C0F;&#x7A0B;&#x5E8F;&#x5F39;&#x7A97;</p>
+        <p>&#x652F;&#x6301;&#x5C0F;&#x7A0B;&#x5E8F;&#x5B9E;&#x9A8C;AB&#x5F39;&#x7A97;</p>
+        <p>&#x652F;&#x6301;&#x5C0F;&#x7A0B;&#x5E8F;&#x8BBE;&#x5907;&#x9884;&#x89C8;&#x5F39;&#x7A97;</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 {% endtab %}
 
 {% tab title="web/js" %}
