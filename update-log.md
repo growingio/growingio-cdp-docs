@@ -7,6 +7,13 @@
     * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/datacenter/tag/tag-manage/tag-basic.md) 标签
     * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/datacenter/tag/tag-manage/tag-basic.md)
 
+
+
+* 优化: 
+  * 全局指标: [新增支持退出次数](product-manual/datacenter/complex/term.md)
+    * 含义：用来衡量用户退出网站/App/小程序的数量
+    * 支持应用：KPI分析、事件分析、分布分析、分群画像
+
 ## v2020.7.0：2020年7月发布
 
 * 新功能: 

@@ -118,6 +118,15 @@
         </td>
     </tr>
     <tr>
+      <td style="text-align:left">&#x9000;&#x51FA;&#x6B21;&#x6570;</td>
+      <td style="text-align:left">&#x7528;&#x6237;&#x9000;&#x51FA;&#x7F51;&#x7AD9;/App/&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x91CF;</td>
+      <td
+      style="text-align:left">
+        <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
+        <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
+        </td>
+    </tr>
+    <tr>
       <td style="text-align:left">&#x9000;&#x51FA;&#x7387;</td>
       <td style="text-align:left">
         <p>&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x4F5C;&#x4E3A;&#x4E00;&#x6B21;&#x8BBF;&#x95EE;&#x4E2D;&#x7684;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x9875;&#x9762;</p>
