@@ -2,7 +2,7 @@
 
 ## 一. 集成小程序弹窗SDK
 
-![](../../../../.gitbook/assets/image%20%28283%29.png)
+![](../../../../.gitbook/assets/image%20%28282%29.png)
 
 1. 首先支付宝小程序 无埋点SDK的集成。 数据源中设置url\_scheme与APPID 一致
 2. 登陆支付宝小程序后台，进入配置
