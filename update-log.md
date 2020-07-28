@@ -4,11 +4,9 @@
 
 * 新功能: 
   * 标签: 
-
     * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/datacenter/tag/tag-manage/tag-basic.md) 标签
     * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/datacenter/tag/tag-manage/tag-basic.md)
-
-    分析工具: 漏斗、留存、分布分析新增支持下钻分群和下载用户ID
+  * 分析工具：漏斗、留存、分布分析新增支持下钻分群和下载用户ID
 * 优化: 
   * 全局指标: [新增支持退出次数](product-manual/datacenter/complex/term.md)
     * 含义：用来衡量用户退出网站/App/小程序的数量
