@@ -6,6 +6,7 @@
   * 标签: 
     * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/datacenter/tag/tag-manage/tag-basic.md) 标签
     * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/datacenter/tag/tag-manage/tag-basic.md)
+    * 漏斗 留存 分布分析可以下钻分群和下载用户ID
 
 
 
