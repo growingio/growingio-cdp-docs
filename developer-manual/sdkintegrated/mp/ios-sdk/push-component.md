@@ -42,7 +42,7 @@ GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！！且不同
 
 * 确保扩展GrowingCDPPushExtensionKit引入成功，other link flags选项有添加`$(inherited)`  和`-ObjC` 添加编译参数，并注意大小写：
 
-![](../../../../.gitbook/assets/image%20%28227%29.png)
+![](../../../../.gitbook/assets/image%20%28286%29.png)
 
 请保证扩展的target  最低版本 iOS**10.0**  
 
