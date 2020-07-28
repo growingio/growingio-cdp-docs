@@ -114,6 +114,16 @@ type: 'wgs84'
 );
 ```
 
+
+
+### **gtouchHost** 
+
+请求弹窗地址，一般与您环境的host一致
+
+```text
+gio('init', 'your projectId','your dataSourceId', 'your appId', {host: 'api.growingio.com',gtouchHost:'popupwindow.test.com'});
+```
+
 ## **常用API**
 
 ### **简介**
