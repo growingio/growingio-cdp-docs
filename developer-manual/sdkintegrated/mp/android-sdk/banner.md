@@ -34,13 +34,15 @@ dependencies {
     //由于资源位底层网络库依赖OkHttp3网络库，请添加OkHttp3依赖
     implementation "com.squareup.okhttp3:okhttp:3.12.1"
     //资源位SDK依赖
-    implementation "com.growingio.android:gtouch:1.3.0-cdp"
+    implementation "com.growingio.android:gtouch:$gtouch_version"
     //触达原生banner模板依赖
-    implementation "com.growingio.android.widget:gtouch-banner:1.3.0-cdp"
+    implementation "com.growingio.android.widget:gtouch-banner:$gtouch_version"
 }
 ```
 
-###  3. 需要的权限列表
+> $gtouch\_version 为最新SDK版本号，现最新的版本号为请参考[SDK更新日志](https://growingio.gitbook.io/op/v/v20200701/developer-manual/sdkintegrated/mp/gtouchsdk-releasenotes)。
+
+### 3. 需要的权限列表
 
 所需权限同无埋点SDK
 

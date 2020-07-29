@@ -24,9 +24,11 @@ dependencies {
     //由于弹窗底层网络库依赖OkHttp3网络库，请添加OkHttp3依赖
     implementation "com.squareup.okhttp3:okhttp:3.12.1"
     //弹窗SDK依赖
-    implementation "com.growingio.android:gtouch:1.3.0-cdp"
+    implementation "com.growingio.android:gtouch:$gtouch_version"
 }
 ```
+
+> $gtouch\_version 为最新SDK版本号，现最新的版本号为请参考[SDK更新日志](https://growingio.gitbook.io/op/v/v20200701/developer-manual/sdkintegrated/mp/gtouchsdk-releasenotes)。
 
 ###  3. 需要的权限列表
 

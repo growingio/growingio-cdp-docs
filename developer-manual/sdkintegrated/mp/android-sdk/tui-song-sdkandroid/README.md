@@ -58,7 +58,7 @@ dependencies {
 }
 ```
 
-> $gtouch\_version 为推送SDK版本号，最新的版本号为1.4.1-cdp
+> $gtouch\_version 为最新SDK版本号，现最新的版本号为请参考[SDK更新日志](https://growingio.gitbook.io/op/v/v20200701/developer-manual/sdkintegrated/mp/gtouchsdk-releasenotes)。
 
 ### 3. 配置AppID和App**K**ey
 
