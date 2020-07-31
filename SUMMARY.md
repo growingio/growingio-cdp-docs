@@ -72,6 +72,7 @@
     * [项目配置](product-manual/enterprise-manage/project-setting/README.md)
       * [UTM映射](product-manual/enterprise-manage/project-setting/utm-map.md)
 * [开发者文档](developer-manual/README.md)
+  * [webhook技术对接文档](developer-manual/webhook-ji-shu-dui-jie-wen-dang.md)
   * [厂商通道](developer-manual/chang-shang-tong-dao/README.md)
     * [华为推送通道集成指南](developer-manual/chang-shang-tong-dao/hua-wei-tui-song-tong-dao-ji-cheng-zhi-nan.md)
     * [小米推送通道集成指南](developer-manual/chang-shang-tong-dao/xiao-mi-tui-song-tong-dao-ji-cheng-zhi-nan.md)

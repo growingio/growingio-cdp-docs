@@ -12,13 +12,13 @@
 
 运营平台支持第三方 PUSH 对接。只需通过配置请求地址即可实现对接第三方Push 平台功能。
 
-![](../../.gitbook/assets/image%20%28331%29.png)
+![](../../.gitbook/assets/image%20%28339%29.png)
 
 1.2 对接邮件/短信
 
 若用户希望针对不同分群用户发送不同的定制化短信/邮件时，可通过 webhook 配置功能实现分客群、自动触发的短信发送管理。在“webhook 配置-请求地址”位置设置短信/邮件接口地址，填写模板参数。最后在创建webhook活动中进行邮件内容文案的设置
 
-![](../../.gitbook/assets/image%20%28326%29.png)
+![](../../.gitbook/assets/image%20%28333%29.png)
 
 ![](../../.gitbook/assets/image%20%28321%29.png)
 
@@ -36,7 +36,7 @@
 
 同时，也支持针对不同群组创建对应的 webhook 活动
 
-![](../../.gitbook/assets/image%20%28328%29.png)
+![](../../.gitbook/assets/image%20%28336%29.png)
 
 
 
@@ -44,7 +44,7 @@
 
 2.1 配置新的webhook通道![](blob:https://growingio.atlassian.net/63d8d389-0d20-40de-bce5-1654a376143b#media-blob-url=true&id=399ebf1c-2aa0-44d8-852d-0e4285f39099&collection=contentId-1470825243&contextId=1470825243&mimeType=image%2Fpng&name=image-20200714-150310.png&size=248723&width=1275&height=577)
 
-![](../../.gitbook/assets/image%20%28332%29.png)
+![](../../.gitbook/assets/image%20%28341%29.png)
 
 \(1\)点击智能运营
 
@@ -76,7 +76,7 @@
 
 当webhook通道建立完成后，就可以进行相对应的运营活动配置
 
-![](../../.gitbook/assets/image%20%28324%29.png)
+![](../../.gitbook/assets/image%20%28326%29.png)
 
 （1）点击运营活动
 
@@ -92,7 +92,7 @@
 
 （6）选择触发类型![](blob:https://growingio.atlassian.net/ef874264-b69b-4f16-ac08-fbed535732b4#media-blob-url=true&id=a3f4c5c3-2909-4663-885d-56b82f13d0a7&collection=contentId-1470825243&contextId=1470825243&mimeType=image%2Fpng&name=image-20200715-030531.png&size=139016&width=834&height=549)
 
-![](../../.gitbook/assets/image%20%28325%29.png)
+![](../../.gitbook/assets/image%20%28328%29.png)
 
 （7）模板内容填写
 
@@ -110,7 +110,7 @@ _\*\*\*\*_
 
 **A. webhook通道参数配置如下**![](blob:https://growingio.atlassian.net/b94d1b70-84aa-4ffc-b076-bf59fc4402f5#media-blob-url=true&id=89418424-c5d6-460d-b6ce-87664d5ad93c&collection=contentId-1470825243&contextId=1470825243&mimeType=image%2Fpng&name=image-20200715-031151.png&size=185180&width=1279&height=633)
 
-![](../../.gitbook/assets/image%20%28333%29.png)
+![](../../.gitbook/assets/image%20%28342%29.png)
 
 * webhook通道名称：客户自己定，从客户视角，这个webhook通道是对接自建的优惠券系统，所以可以叫做“白鸽卡券中心”
 * 请求地址：客户自建的发券系统提供给gio的接口地址
@@ -132,7 +132,7 @@ _\*\*\*\*_
 
 **B. 创建对应的webhook活动**
 
-![](../../.gitbook/assets/image%20%28334%29.png)
+![](../../.gitbook/assets/image%20%28344%29.png)
 
 * 选择客群
 * 选择刚创建的“白鸽卡券中心”通道
@@ -144,7 +144,7 @@ _\*\*\*\*_
 * 设置发送时间
 * 上线/保存草稿
 
-![](../../.gitbook/assets/image%20%28327%29.png)
+![](../../.gitbook/assets/image%20%28334%29.png)
 
 * 上线后可见
 
@@ -186,5 +186,5 @@ _\*\*\*\*_
 
 在创建webhook活动时，短信文本可设置
 
-![](../../.gitbook/assets/image%20%28329%29.png)
+![](../../.gitbook/assets/image%20%28337%29.png)
 
