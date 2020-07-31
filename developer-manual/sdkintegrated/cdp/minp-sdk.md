@@ -264,7 +264,7 @@ gio('setConfig',{"dataCollect": true});
 // 获取访问用户ID
 ```
 
-获取用户信息 \(setPlatformProfile\) 在取得用户授权后，可以获得用户的信息。需要在获取用户授权的毁掉函数中调用。
+获取用户信息 \(setPlatformProfile\) 在取得用户授权后，可以获得用户的信息。需要在获取用户授权的回掉函数中调用。
 
 ```text
 gio('setPlatformProfile')
