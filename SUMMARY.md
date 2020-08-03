@@ -112,7 +112,7 @@
       * [小程序SDK](developer-manual/sdkintegrated/mp/minp-sdk/README.md)
         * [弹窗SDK（微信小程序）](developer-manual/sdkintegrated/mp/minp-sdk/minp-sdk-popupwindow.md)
         * [弹窗SDK（支付宝小程序）](developer-manual/sdkintegrated/mp/minp-sdk/alip-sdk-popupwindow.md)
-        * [小程序获取设备访问ID](developer-manual/sdkintegrated/mp/minp-sdk/getid.md)
+        * [设备预览弹窗，小程序获取设备访问ID](developer-manual/sdkintegrated/mp/minp-sdk/getid.md)
         * [调试指南（小程序）](developer-manual/sdkintegrated/mp/minp-sdk/debug.md)
         * [小程序集成常见问题](developer-manual/sdkintegrated/mp/minp-sdk/qa.md)
   * [API参考](developer-manual/api-reference/README.md)

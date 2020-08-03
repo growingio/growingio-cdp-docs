@@ -1,4 +1,4 @@
-# 小程序获取设备访问ID
+# 设备预览弹窗，小程序获取设备访问ID
 
 开发者在控制台中输入 `gioGlobal.__growing__.growingio.info.uid`  
 例:

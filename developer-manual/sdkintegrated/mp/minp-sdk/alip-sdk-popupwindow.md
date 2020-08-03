@@ -4,8 +4,8 @@
 
 ![](../../../../.gitbook/assets/image%20%28282%29.png)
 
-1. 首先微信小程序 数据采集SDK的集成。下载链接[https://assets.giocdn.com/sdk/cdp/gio-alip.zip](https://assets.giocdn.com/sdk/cdp/gio-alip.zip
-   )   弹窗依赖于数据采集SDK，数据采集SDK版本需要0.5及以上，index.js 是数据采集SDK，如果你之前集成过老版本，替换则是升级数据采集SDK，然后引入弹窗组件。
+1. 首先微信小程序 无埋点SDK的集成。下载链接[https://assets.giocdn.com/sdk/cdp/gio-alip.zip](https://assets.giocdn.com/sdk/cdp/gio-alip.zip
+   )   弹窗依赖于无埋点，无埋点版本需要0.5及以上，index.js 是无埋点，如果你之前集成过无埋点老版本，替换则是升级无埋点js，然后引入弹窗组件。
 2. **配置**gtouchHost, 请求弹窗地址，一般与您环境的host一致
 
    ```text
