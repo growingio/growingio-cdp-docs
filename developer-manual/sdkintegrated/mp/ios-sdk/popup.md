@@ -13,7 +13,7 @@
 
 ## 一. 集成SDK
 
-### 1. 集成GrowingIO iOS CDP埋点SDK\(版本要求最低1.2.3\)
+### 1. 集成GrowingIO iOS CDP数据采集SDK\(版本要求最低1.2.3\)
 
 [https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk)  
 添加 handleUrl方法用于弹窗扫码和扫码注册推送设备  [链接](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk#handleurl)
