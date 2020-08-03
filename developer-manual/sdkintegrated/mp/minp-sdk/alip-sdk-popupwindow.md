@@ -2,7 +2,7 @@
 
 ## 一. 集成小程序弹窗SDK\(最低版本0.5\)
 
-![](../../../../.gitbook/assets/image%20%28282%29.png)
+![](../../../../.gitbook/assets/image%20%28346%29.png)
 
 1. 首先微信小程序 数据采集SDK的集成。下载链接[https://assets.giocdn.com/sdk/cdp/gio-alip.zip](https://assets.giocdn.com/sdk/cdp/gio-alip.zip
    )   弹窗依赖于数据采集SDK，数据采集SDK版本需要0.5及以上，index.js 是数据采集SDK，如果你之前集成过老版本，替换则是升级数据采集SDK，然后引入弹窗组件。
