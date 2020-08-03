@@ -16,7 +16,7 @@
 
 ## 集成SDK
 
-### 1. 集成GrowingIO iOS CDP数据采集SDK \(如已集成跳过\)
+### 1. 集成GrowingIO iOS CDP埋点SDK \(如已集成跳过\)
 
 [https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk)
 
