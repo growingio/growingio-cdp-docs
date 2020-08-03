@@ -75,15 +75,6 @@
 
 莫慌，因为分群T+1 ，推送令牌等信息还没有写入分群，请在第二天测试推送分群‌
 
-### **分群推送推不到排查手段？** <a id="fen-qun-tui-song-tui-bu-dao-pai-cha-shou-duan"></a>
-
-如果是访问用户分群，可以先用户细查查看对应分群的包名和推送令牌有没有写入 如果是登录用户分群，可以事件分析查该登录用户昨天上报的包名和推送令牌有没有数据 因为分群是T+1，推送令牌要写入分群，请在安装app第二天测试分群推送‌
-
-注意：‌
-
-* App集成GIO的推送SDK，并发布到商店后，用户只有下载并打开了新版的App才可以上报推送令牌，这台设备才能够被送达。
-* 分群是每日凌晨计算，所以如果用户A今天是第一次打开新版的App，那么第二天才能进入分群被送达到。所以建议您第一次发送 Push 等待一天。
-
 ### **9.一**个登陆用户ID对应两个手机设备，是否两个设备会同时收到推送？一个设备对应两个用户，是否在同一设备上收到两个用户的推送？ <a id="9-yi-ge-deng-lu-yong-hu-id-dui-ying-liang-ge-shou-ji-she-bei-shi-fou-liang-ge-she-bei-hui-tong-shi-shou-dao-tui-song-yi-ge-she-bei-dui-ying-liang-ge-yong-hu-shi-fou-zai-tong-yi-she-bei-shang-shou-dao-liang-ge-yong-hu-de-tui-song"></a>
 
 * 只会推送该用户最近一次登陆的设备
