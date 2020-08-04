@@ -17,12 +17,13 @@
 如果出现依赖冲突的问题（例如运行时找不到类），可以使用standalone 版本。
 
 ```text
-<dependency>
-<groupId>io.growing.sdk.java</groupId>
-<artifactId>growingio-java-sdk</artifactId>
-<version>1.0.6-cdp-SNAPSHOT</version>
-<classifier>standalone</classifier>
-</dependency>
+<dependencies>
+    <dependency>
+        <groupId>io.growing.sdk.java</groupId>
+        <artifactId>growingio-java-sdk</artifactId>
+        <version>1.0.7-cdp</version>
+    </dependency>
+</dependencies>
 ```
 
 在项目的classpath 路径下，增加 gio.properties 文件，文件内容如下：
@@ -166,10 +167,6 @@ logger.error(msg);
 // 比如以上 demo 中，采用的就是 SLF4J 和 Log4j2 的组合, 客户可通过自己的日志工具定制 日志保留时间，及日志存储大小。
 ```
 
-{% hint style="success" %}
-该功能仅在 SDK 1.0.6-CDP及以上版本支持
-{% endhint %}
-
 ### 自定义配置文件路径
 
 程序运行时可以通过 GrowingAPI.initConfig 指定配置文件
@@ -178,6 +175,6 @@ logger.error(msg);
 * 如果需要指定配置文件路径，则需要在 GrowingAPI 初始化之前调用 initConfig, 进行配置初始化
 
 {% hint style="success" %}
-该功能仅在 SDK 1.0.7-CDP及以上版本支持
+该功能仅在1.0.7及以上版本支持
 {% endhint %}
 

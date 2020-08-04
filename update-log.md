@@ -12,6 +12,8 @@
   * 全局指标: [新增支持退出次数](product-manual/datacenter/complex/term.md)
     * 含义：用来衡量用户退出网站/App/小程序的数量
     * 支持应用：KPI分析、事件分析、分布分析、分群画像
+  * JAVA SDK: 
+    * 新增支持
 
 ## v2020.7.0：2020年7月发布
 
