@@ -167,7 +167,7 @@ logger.error(msg);
 ```
 
 {% hint style="success" %}
-该功能仅在 SDK 1.0.6及以上版本支持
+该功能仅在 SDK 1.0.6-CDP及以上版本支持
 {% endhint %}
 
 ### 自定义配置文件路径
@@ -178,6 +178,6 @@ logger.error(msg);
 * 如果需要指定配置文件路径，则需要在 GrowingAPI 初始化之前调用 initConfig, 进行配置初始化
 
 {% hint style="success" %}
-该功能仅在 SDK 1.0.7及以上版本支持
+该功能仅在 SDK 1.0.7-CDP及以上版本支持
 {% endhint %}
 
