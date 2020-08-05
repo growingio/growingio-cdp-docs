@@ -3,19 +3,28 @@
 ## v2020.7.1：2020年7月发布
 
 * 新功能: 
+  * 分析工具：新增支持下钻分群和下载用户ID
+    * 支持应用：[漏斗分析](product-manual/product-analysis/funnel.md#jie-du-lou-dou-fen-xi)、[留存分析](product-manual/product-analysis/retention.md#jie-du-liu-cun-fen-xi)、[分布分析](product-manual/product-analysis/frequency.md#sheng-cheng-yong-hu-fen-qun-huo-xia-zai-yong-hu-id)
   * 标签: 
     * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/datacenter/tag/tag-manage/tag-basic.md) 标签
     * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/datacenter/tag/tag-manage/tag-basic.md)
-  * 分析工具：新增支持下钻分群和下载用户ID
-    * 支持应用：漏斗分析、留存分析、分布分析
-* 优化: 
   * 全局指标: [新增支持退出次数](product-manual/datacenter/complex/term.md)
-    * 含义：用来衡量用户退出网站/App/小程序的数量
+    * 含义: 用来衡量用户退出网站/App/小程序的数量
     * 支持应用：KPI分析、事件分析、分布分析、分群画像
-  * JAVA SDK: 
+  * 时间控件: 选择器优化
+    * 分群新增支持选择本周、上周、本月、上月、过去N天
+    * 标签新增支持选择过去N天
+  * JAVA SDK: 优化[日志输出](developer-manual/sdkintegrated/cdp/java-sdk.md#debugger-xuan-xiang)
     * 1.0.7-CDP版本新增支持SDK log输出
     * 支持自定义日志输出实现类示例
     * 支持自定义配置文件路径
+  * 平台: 
+    * 新增支持查询当前版本号
+    * 账号退出流程优化
+* 优化: 
+  * 修复部分图表下载失败问题
+  * 增加 iphone/ipad 型号映射
+  * 修复分群更新后下载缓存未更新问题
 
 ## v2020.7.0：2020年7月发布
 
