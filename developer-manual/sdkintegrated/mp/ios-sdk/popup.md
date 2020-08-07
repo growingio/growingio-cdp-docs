@@ -13,14 +13,35 @@
 
 ## 一. 集成SDK
 
-### 1. 集成GrowingIO iOS CDP埋点SDK\(如已集成跳过\)
+### 1. 集成GrowingIO iOS CDP数据采集SDK\(版本要求最低1.2.3\)
 
-[https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk)
+[https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk)  
+添加 handleUrl方法用于弹窗扫码和扫码注册推送设备  [链接](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk#handleurl)
+
+### 添加支持用户运营扫码的代码
+
+> 在 AppDelegate 中添加
+
+{% hint style="warning" %}
+因为您代码的复杂程度以及iOS SDK的版本差异，有时候 \[Growing handleUrl:url\] 并没有被调用。请在各个平台上调试这段代码，确保当App被URL scheme唤醒之后，该函数能被调用到。
+{% endhint %}
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+  // 如果没有触发handleUrl 扫码弹窗 和扫码注册推送不生效
+ if ([Growing handleUrl:url]) // 请务必确保该函数被调用
+  {
+      return YES;
+  }
+  return NO;
+}
+```
 
 ### 2. 集成运营SDK
 
-手动集成SDK  
-下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.2.0-1.3.0.zip](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.2.0-1.3.0.zip)
+ 手动集成SDK  
+下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDP1.2.3\_Touch1.4.1.zip](http://assets.giocdn.com/cdp/ios/CDP1.2.3_Touch1.4.1.zip)
 
 ![](../../../../.gitbook/assets/image%20%28110%29.png)
 
@@ -33,11 +54,12 @@
     ...
     // 启动GrowingIO
     [Growing startWithAccountId:@"YOUR_ACCOUNT_ID"  dataSourceId:@"YOUR_DATASOURCE_ID"]; //替换为您的项目ID
-
+    
     // 启动GrowingTouch，设置弹窗请求地址，一般与访问页面域名一致
     [GrowingTouch setServerHost:@"http://test.xxx.com"];
     [GrowingTouch start];
 }
+
 ```
 
 {% hint style="info" %}
@@ -264,17 +286,7 @@
 }
 ```
 
-### 5. 设置用户注册时间
 
-> 您可以设置用户注册时间，这样就可以在做分群选择时使用注册至今来筛选用户。
-
-使用上传登录用户变量接口上传用户注册时间，您需要将key设置为CreateAt。
-
-```java
-[Growing setUserId:@"zhangsan"];
-// 登陆用户属性 注册至今 需设置CreateAt，值必须用YYYYMMDD 的方式上传，否则无法生效
-[Growing setPeopleVariable:@{@"CreateAt":@"20191219"}];
-```
 
 ## 三.API介绍
 
@@ -364,15 +376,6 @@ class SFViewController: UIViewController {
 + (void)enableEventPopupAndGenerateAppOpenEvent;
 ```
 
-## **其他**
+  
 
-**\*\*使用特殊登陆用户变量，**注册至今\*\*  
-需要在代码设置一下登陆用户变量 注册日期 CreateAt，需要保证key 是 CreateAt , 值是YYYYMMDD
-
-```text
-// 参考
-[Growing setPeopleVariable:@{@"CreateAt":@"20191219"}];
-```
-
-![](../../../../.gitbook/assets/image%20%2830%29.png)
 

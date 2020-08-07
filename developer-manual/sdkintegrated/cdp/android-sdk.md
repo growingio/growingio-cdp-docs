@@ -7,7 +7,7 @@
 ```text
 dependencies {
     //埋点CDP SDK
-    implementation 'com.growingio.android:vds-android-agent:cdp-1.2.1'
+    implementation 'com.growingio.android:vds-android-agent:cdp-1.2.2'
 }
 ```
 
@@ -376,6 +376,7 @@ GrowingIO.getInstance().trackPage("TrackTestPage");
 | webView | WebView | 是 | WebView实例化后立刻调用 |
 
 ```objectivec
+
 //代码示例
 private void initWebView() {
         mWebView = findViewById(R.id.web_view);

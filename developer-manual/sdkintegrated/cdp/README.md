@@ -430,3 +430,5 @@ SDK支持采集的事件类型：
 | type | string | 网络类型。 |
 | carrier | string | 网络载体。 |
 
+
+

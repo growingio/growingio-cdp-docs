@@ -1,5 +1,7 @@
 # 弹窗 SDK （Android）
 
+
+
 {% hint style="info" %}
 最低兼容Android版本4.2 API 17
 {% endhint %}
@@ -22,11 +24,13 @@ dependencies {
     //由于弹窗底层网络库依赖OkHttp3网络库，请添加OkHttp3依赖
     implementation "com.squareup.okhttp3:okhttp:3.12.1"
     //弹窗SDK依赖
-    implementation "com.growingio.android:gtouch:1.3.0-cdp"
+    implementation "com.growingio.android:gtouch:$gtouch_version"
 }
 ```
 
-### 3. 需要的权限列表
+> $gtouch\_version 为最新SDK版本号，现最新的版本号为请参考[SDK更新日志](https://growingio.gitbook.io/op/v/v20200701/developer-manual/sdkintegrated/mp/gtouchsdk-releasenotes)。
+
+###  3. 需要的权限列表
 
 所需权限同埋点SDK
 
@@ -37,6 +41,7 @@ dependencies {
 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
 ```
 
 ### 4. 初始化SDK
@@ -51,8 +56,8 @@ public class MyApplication extends Application {
         super.onCreate();
         GrowingIO.startWithConfiguration(this, new Configuration()
             .setProjectId("获取您的项目ID")
-                    .setDataSourceId("填写您的数据源ID")
-                    .setURLScheme("填写UrlScheme")
+		    		.setDataSourceId("填写您的数据源ID")
+				    .setURLScheme("填写UrlScheme")
             .setDebugMode(BuildConfig.DEBUG)
             .setTrackerHost("这里设置为您的 HOST ")
             .setChannel("XXX应用商店")
@@ -115,13 +120,13 @@ public class MyApplication extends Application {
     *;
 }
 -keep class android.support.v4.view.ViewPager$**{
-    *;
+	*;
 }
 -keep class androidx.viewpager.widget.ViewPager{
     *;
 }
 -keep class androidx.viewpager.widget.ViewPager$**{
-    *;
+	*;
 }
 
 #okhttp
@@ -270,6 +275,7 @@ public interface EventPopupListener {
      */
     void onTimeout(String eventId, String eventType);
 }
+
 ```
 
 #### 4.3 代码示例
@@ -359,4 +365,6 @@ protected void onCreate(Bundle savedInstanceState) {
 ### 3 okhttp 版本要求
 
 需要升级到3.12.1，弹窗使用了新版的方法，否则会报错。
+
+
 
