@@ -76,26 +76,11 @@
 {% endtab %}
 
 {% tab title="小程序" %}
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">SDK&#x7248;&#x672C;&#x53F7;</th>
-      <th style="text-align:left">&#x66F4;&#x65B0;&#x5185;&#x5BB9;</th>
-      <th style="text-align:left">&#x65F6;&#x95F4;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">0.4</td>
-      <td style="text-align:left">
-        <ul>
-          <li>&#x63D0;&#x5347;SDK&#x7A33;&#x5B9A;&#x6027;</li>
-        </ul>
-      </td>
-      <td style="text-align:left">2020-07-08</td>
-    </tr>
-  </tbody>
-</table>
+| SDK版本号 | 更新内容 | 时间 |
+| :--- | :--- | :--- |
+| 0.4 | 提升SDK稳定性 | 2020-07-08 |
+| 0.5 | 提示SDK稳定性 | 2020-07-22 |
+| 0.6 | 修复gioid可能不发生的问题 | 2020-08-11 |
 {% endtab %}
 
 {% tab title="H5内嵌页SDK（仅支持app内H5）" %}
