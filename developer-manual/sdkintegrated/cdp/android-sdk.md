@@ -168,7 +168,7 @@ R.string.growingio*
       <td style="text-align:left">&#x8BBE;&#x7F6E;App&#x4E0B;&#x8F7D;&#x6E20;&#x9053;&#x3002;</td>
     </tr>
     <tr>
-      <td style="text-align:left">setIMEIEnable</td>
+      <td style="text-align:left">setImeiEnable</td>
       <td style="text-align:left">true</td>
       <td style="text-align:left">&#x5426;</td>
       <td style="text-align:left">
@@ -177,7 +177,7 @@ R.string.growingio*
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">setAndroidEnable</td>
+      <td style="text-align:left">setAndroidIdEnable</td>
       <td style="text-align:left">true</td>
       <td style="text-align:left">&#x5426;</td>
       <td style="text-align:left">
