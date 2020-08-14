@@ -151,13 +151,18 @@ sendCdpUser();
 }
 public static void sendCdpUser() {
 Map<String, Object> map = new HashMap<String, Object>();
-GioCdpEventMessage msg = new GioCdpEventMessage.Builder()
-.time(System.currentTimeMillis())  // 默认为系统当前时间(选填)
-.loginUserId("test")  // 登录用户ID (必填)
-.addUserVariable("product_name", "cdp苹果")  // 用户变量 (选填)
-.addUserVariables(map)  // 用户变量集合 (选填)
+//事件行为消息体
+GioCdpUserMessage msg = new GioCdpUserMessage.Builder()
+.time(System.currentTimeMillis())      
+// 默认为系统当前时间,选填
+.loginUserId("417abcabcabcbac")        
+// 带用登陆用户ID的 (必填)
+.addUserVariable("user", "test")       
+// 用户变量 (选填)
+.addUserVariables(map)                 
+// 用户变量集合 (选填)
 .build();
-projectA.send(msg);
+projectB.send(msg);
 }
 ```
 
