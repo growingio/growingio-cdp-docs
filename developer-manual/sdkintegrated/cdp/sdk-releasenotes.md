@@ -34,7 +34,15 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1.2.3</td>
+      <td style="text-align:left">cdp-1.2.4</td>
+      <td style="text-align:left">
+        <p>1.&#x652F;&#x6301;&#x91C7;&#x96C6;oaid&#x4FE1;&#x606F;</p>
+        <p>2.&#x4FEE;&#x590D;&#x975E;&#x817E;&#x8BAF;X5WebView&#x5F15;&#x53D1;&#x7684;&#x5D29;&#x6E83;</p>
+      </td>
+      <td style="text-align:left">2020-08-19</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">cdp-1.2.3</td>
       <td style="text-align:left">
         <p>1.&#x589E;&#x52A0;handleUrl &#x65B9;&#x6CD5;&#xFF0C;&#x652F;&#x6301;&#x7528;&#x6237;&#x8FD0;&#x8425;SDK&#x626B;&#x7801;</p>
         <p>2.&#x91C7;&#x96C6;&#x4F18;&#x5316;</p>
