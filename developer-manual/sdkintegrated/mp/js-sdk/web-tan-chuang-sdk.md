@@ -4,9 +4,9 @@
 
 ### 1. CDP 埋点SDK
 
-Web弹窗SDK依赖于Web数据采集SDK，请先根据 Web数据采集SDk
+Web弹窗SDK依赖于JS埋点数据采集SDK，请先集成JS埋点数据采集SDK。
 
-> 注意：web sdk只能识别web弹窗，不识别H5弹窗，想要使用H5弹窗请集成H5 SDK.
+> 注意：web端只能识别web弹窗，不识别H5弹窗。请调试时不要发错弹窗。
 
 ### 2. 集成Web弹窗SDK
 
@@ -35,6 +35,37 @@ Web弹窗SDK依赖于Web数据采集SDK，请先根据 Web数据采集SDk
     //custom page code end here
     gdp('send');
   </script>
+```
+
+示例代码
+
+```javascript
+ <script type='text/javascript'>
+    !function (e, t, n, g, i) { e[i] = e[i] || function () { (e[i].q = e[i].q || []).push(arguments) }, n = t.createElement("script"), tag = t.getElementsByTagName("script")[0], n.async = 1, n.src = g, tag.parentNode.insertBefore(n, tag) }(window, document, "script", "https://assets.giocdn.com/cdp-release/1.0/gio-test.js", "gdp");
+    gdp('init', 'a500f222e29e3b0c', '9eda0bb1d74f86e4', {
+      // host: 'api.growingio.com',
+      host: '117.50.92.65:8080',
+      scheme: 'http'
+    });
+    gdp('plugin', {
+      id: 'gio_plugin_gtouch',
+      //本demo页面我将文件都发到统一服务器路径了，故使用本地路径，可以改成您服务器对应的IP。
+      src: ('https:' == document.location.protocol ? 'https://' : 'http://') + window.location.host + "/push/cdp/gtouch.latest.js",
+      dataHost: 'gdp-test.growingio.com'
+    })
+    //custom page code begin here
+    //custom page code end here
+    gdp('send');
+  </script>
+```
+
+### 3. 如何一次集成同时支持web端与h5端
+
+上一步示例代码里的src地址集成的是gtouch.latest.js，但是实际上web弹窗由access.latest.js控制，H5弹窗由h5.latest.js控制。我们的设计思路是把这三个js文件上传到服务器的同一路径下，再由gtouch.latest.js智能根据当前环境加载不同后缀的js文件。这样同一个页面既可以在web端弹窗，也可以在H5端弹窗。
+
+```javascript
+//m是sdk加载地址，g表示"是否H5环境",m最终会替换成对应环境的弹窗SDK JS
+m = g ? m.replace("gtouch", "h5") : m.replace("gtouch", "access");
 ```
 
 ## 浏览器兼容性
