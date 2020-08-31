@@ -64,6 +64,7 @@ H5弹窗SDK依赖于JS埋点数据采集SDK，请先集成JS埋点数据采集SD
 上一步示例代码里的src地址集成的是gtouch.latest.js，但是实际上web弹窗由access.latest.js控制，H5弹窗由h5.latest.js控制。我们的设计思路是把这三个js文件上传到服务器的同一路径下，再由gtouch.latest.js智能根据当前环境加载不同后缀的js文件。这样同一个页面既可以在web端弹窗，也可以在H5端弹窗。
 
 ```javascript
+//gtouch.latest.js源码分析
 //m是sdk加载地址，g表示"是否H5环境",m最终会替换成对应环境的弹窗SDK JS
 m = g ? m.replace("gtouch", "h5") : m.replace("gtouch", "access");
 ```
