@@ -185,8 +185,8 @@ SDK支持采集的事件类型：
 
 | network中包含的字段 | 类型 | 说明 |
 | :--- | :--- | :--- |
-| type | string | 网络类型。 |
-| carrier | string | 网络载体。 |
+| type | string | 网络类型，仅微信小程序采集 |
+| carrier | string | 网络载体，预留字段未采集 |
 
 | locale中包含的字段 | 类型 | 说明 |
 | :--- | :--- | :--- |
@@ -427,8 +427,8 @@ SDK支持采集的事件类型：
 
 | network中包含的字段 | 类型 | 说明 |
 | :--- | :--- | :--- |
-| type | string | 网络类型。 |
-| carrier | string | 网络载体。 |
+| type | string | 网络类型，仅微信小程序采集 |
+| carrier | string | 网络载体，预留字段未采集 |
 
 
 
