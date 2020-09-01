@@ -64,7 +64,54 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">0.5</td>
+      <td style="text-align:left">0.5.5</td>
+      <td style="text-align:left">
+        <ul>
+          <li>&#x517C;&#x5BB9; amd &#x6253;&#x5305;</li>
+          <li>&#x79FB;&#x9664;&#x65E0;&#x7528;&#x7684; Network &#x8282;&#x70B9;</li>
+        </ul>
+      </td>
+      <td style="text-align:left">2020-09-01</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">0.5.4</td>
+      <td style="text-align:left">
+        <ul>
+          <li>&#x4FEE;&#x590D; Session &#x5931;&#x6548;&#x65F6;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;
+            Id &#x88AB;&#x6E05;&#x7A7A;&#x7684; Bug</li>
+        </ul>
+      </td>
+      <td style="text-align:left">2020-08-11</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">0.5.3</td>
+      <td style="text-align:left">
+        <ul>
+          <li>&#x4E0A;&#x62A5;&#x6570;&#x636E;&#x4E2D;&#x589E;&#x52A0; appVer &#x5B57;&#x6BB5;</li>
+        </ul>
+      </td>
+      <td style="text-align:left">2020-07-21</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">0.5.2</td>
+      <td style="text-align:left">
+        <ul>
+          <li>&#x652F;&#x6301;&#x63D2;&#x4EF6;&#x6CE8;&#x518C;</li>
+        </ul>
+      </td>
+      <td style="text-align:left">2020-07-21</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">0.5.1</td>
+      <td style="text-align:left">
+        <ul>
+          <li>&#x4F18;&#x5316; iOS 12 &#x4EE5;&#x4E0B;&#x7CFB;&#x7EDF;&#x5173;&#x95ED;&#x9875;&#x9762;&#x65F6;&#x4E8B;&#x4EF6;&#x53D1;&#x9001;</li>
+        </ul>
+      </td>
+      <td style="text-align:left">2020-07-21</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">0.5.0</td>
       <td style="text-align:left">
         <ul>
           <li>&#x652F;&#x6301;&#x9875;&#x9762;&#x91C7;&#x96C6;</li>
