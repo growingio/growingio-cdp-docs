@@ -28,7 +28,7 @@ H5 弹窗 JS SDK：[https://assets.giocdn.com/sdk/cdp/marketing/h5.latest.js](ht
     // 弹窗 SDK
     gdp('plugin', {
       id: 'gio_plugin_gtouch',
-      src: document.location.protocol + "//assets.giocdn.com/sdk/cdp/marketing/h5.latest.js",
+      src: document.location.protocol + '//assets.giocdn.com/sdk/cdp/marketing/h5.latest.js',
       dataHost: '您的弹窗请求地址'
     })
     //custom page code begin here

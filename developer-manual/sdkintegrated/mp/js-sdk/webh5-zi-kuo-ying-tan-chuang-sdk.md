@@ -28,7 +28,7 @@ JS 弹窗 SDK 依赖于数据数据采集 SDK，如果还没有集成，请先�
     // 弹窗 SDK
     gdp('plugin', {
       id: 'gio_plugin_gtouch',
-      src: document.location.protocol + "//assets.giocdn.com/sdk/cdp/marketing/gtouch.latest.js",
+      src: document.location.protocol + '/assets.giocdn.com/sdk/cdp/marketing/gtouch.latest.js',
       dataHost: '您的弹窗请求地址'
     })
     //custom page code begin here

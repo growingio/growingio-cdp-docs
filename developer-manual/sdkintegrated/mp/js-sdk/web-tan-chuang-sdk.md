@@ -54,7 +54,7 @@ Web 弹窗 JS SDK： [https://assets.giocdn.com/sdk/cdp/marketing/access.latest.
     // 弹窗 SDK
     gdp('plugin', {
       id: 'gio_plugin_gtouch',
-      src: document.location.protocol + "//assets.giocdn.com/sdk/cdp/marketing/access.latest.js",
+      src: document.location.protocol + '//assets.giocdn.com/sdk/cdp/marketing/access.latest.js'",
       dataHost: 'gdp-test.growingio.com'
     });
 
