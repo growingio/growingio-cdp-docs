@@ -6,11 +6,11 @@
 
 JS 弹窗 SDK 依赖于数据数据采集 SDK，如果还没有集成，请先集成 [数据采集 SDK](../../cdp/js-sdk.md)。
 
+### 2. 集成弹窗 JS SDK
+
 {% hint style="danger" %}
 如果你的站点只在移动端使用，可以使用 [H5 弹窗 SDK ](h5-tan-chuang-sdk.md)，如果您的站点只在 PC 端使用，可以使用 [Web 弹窗 SDK](web-tan-chuang-sdk.md)。
 {% endhint %}
-
-### 2. 集成弹窗 JS SDK
 
 **JS 文件下载地址:**
 
