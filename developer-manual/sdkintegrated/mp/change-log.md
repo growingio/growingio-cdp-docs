@@ -5,7 +5,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">SDK&#x7248;&#x672C;&#x53F7;</th>
+      <th style="text-align:left">&#x7248;&#x672C;&#x53F7;</th>
       <th style="text-align:left">&#x66F4;&#x65B0;&#x65E5;&#x5FD7;</th>
     </tr>
   </thead>
@@ -27,7 +27,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">SDK&#x7248;&#x672C;&#x53F7;</th>
+      <th style="text-align:left">&#x7248;&#x672C;&#x53F7;</th>
       <th style="text-align:left">&#x66F4;&#x65B0;&#x65E5;&#x5FD7;</th>
     </tr>
   </thead>
@@ -49,7 +49,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">SDK&#x7248;&#x672C;&#x53F7;</th>
+      <th style="text-align:left">&#x7248;&#x672C;&#x53F7;</th>
       <th style="text-align:left">&#x66F4;&#x65B0;&#x65E5;&#x5FD7;</th>
     </tr>
   </thead>
@@ -70,7 +70,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">SDK&#x7248;&#x672C;&#x53F7;</th>
+      <th style="text-align:left">&#x7248;&#x672C;&#x53F7;</th>
       <th style="text-align:left">&#x66F4;&#x65B0;&#x65E5;&#x5FD7;</th>
     </tr>
   </thead>
