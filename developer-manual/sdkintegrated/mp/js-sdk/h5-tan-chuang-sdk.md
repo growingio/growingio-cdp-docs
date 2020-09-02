@@ -64,5 +64,5 @@ H5 弹窗 JS SDK：[https://assets.giocdn.com/sdk/cdp/marketing/h5.latest.js](ht
 
 ### 3. 测试弹窗
 
-集成 SDK 后请务必创建一个弹窗进行测试，以保证 SDK 正确集成，弹窗创建方法请参考[ 创建弹窗](../../../../product-manual/mp/popup/create.md)。
+集成 SDK 后请务必创建一个「 H5 应用」弹窗进行测试，以保证 SDK 正确集成，弹窗创建方法请参考[ 创建弹窗](../../../../product-manual/mp/popup/create.md)。
 
