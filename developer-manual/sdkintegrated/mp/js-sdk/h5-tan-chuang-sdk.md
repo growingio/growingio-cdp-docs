@@ -12,6 +12,14 @@ H5弹窗SDK依赖于JS埋点数据采集SDK，请先集成JS埋点数据采集SD
 
 将以下深色区内的弹窗SDK相关的JS代码复制到您所需分析页面中的`<head>`和`<head>`标签之间, 放置在数据采集SDK集成代码的下方即可。
 
+**JS文件下载地址:**
+
+web弹窗sdk [https://assets.giocdn.com/sdk/cdp/marketing/access.latest.js](https://assets.giocdn.com/sdk/marketing/access.latest.js) ,  
+
+H5弹窗sdk  [https://assets.giocdn.com/sdk/cdp/marketing/h5.latest.js](https://assets.giocdn.com/sdk/marketing/access.latest.js) ,  
+
+web/H5适配sdk  [https://assets.giocdn.com/sdk/cdp/marketing/gtouch.latest.js](https://assets.giocdn.com/sdk/marketing/access.latest.js) ,    详细用法见步骤三
+
 > **未压缩的代码（供参考）**
 
 ```javascript
