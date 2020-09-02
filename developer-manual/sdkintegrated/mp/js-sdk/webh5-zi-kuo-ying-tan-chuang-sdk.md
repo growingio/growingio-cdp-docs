@@ -76,7 +76,7 @@ JS 弹窗 SDK 依赖于数据数据采集 SDK，如果还没有集成，请先�
 m = g ? m.replace("gtouch", "h5") : m.replace("gtouch", "access");
 ```
 
-所以如果您选择了在自己的服务器或 CDN 托管弹窗 SDK 代码，请务必保证以下三个文件在同一个目录下。
+所以，如果您选择了在自己的服务器或 CDN 托管弹窗 SDK 代码，请务必保证以下三个文件在同一个目录下。
 
 * Web 弹窗 JS SDK： [https://assets.giocdn.com/sdk/cdp/marketing/access.latest.js](https://assets.giocdn.com/sdk/marketing/access.latest.js)
 * H5 弹窗 JS SDK：[https://assets.giocdn.com/sdk/cdp/marketing/h5.latest.js](https://assets.giocdn.com/sdk/cdp/marketing/h5.latest.js)
