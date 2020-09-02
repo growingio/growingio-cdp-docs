@@ -89,7 +89,7 @@
       * [小程序 SDK](developer-manual/sdkintegrated/cdp/minp-sdk.md)
       * [H5内嵌页SDK\(仅支持app内的H5\)](developer-manual/sdkintegrated/cdp/hybrid-sdk.md)
     * [运营平台 SDK](developer-manual/sdkintegrated/mp/README.md)
-      * [运营平台SDK更新日志](developer-manual/sdkintegrated/mp/gtouchsdk-releasenotes.md)
+      * [更新日志](developer-manual/sdkintegrated/mp/change-log.md)
       * [iOS SDK](developer-manual/sdkintegrated/mp/ios-sdk/README.md)
         * [弹窗 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/popup.md)
         * [资源位 SDK（iOS）](developer-manual/sdkintegrated/mp/ios-sdk/banner.md)

@@ -1,4 +1,4 @@
-# 运营平台SDK更新日志
+# 更新日志
 
 {% tabs %}
 {% tab title="iOS" %}
@@ -87,10 +87,10 @@
 </table>
 {% endtab %}
 
-{% tab title="web/js" %}
+{% tab title="网页/H5" %}
 | 版本号 | 更新日志 |
 | :--- | :--- |
-|  |  |
+| 1.1.11 | 支持自定义弹窗服务端地址 |
 {% endtab %}
 {% endtabs %}
 
