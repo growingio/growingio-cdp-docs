@@ -1,4 +1,4 @@
-# webhook技术对接文档
+# Webhook 技术对接文档
 
 * [简介](https://growingio.atlassian.net/wiki/spaces/MP/pages/1517159187/webhook#%E7%AE%80%E4%BB%8B)
 * [Webhook 请求](https://growingio.atlassian.net/wiki/spaces/MP/pages/1517159187/webhook#Webhook-%E8%AF%B7%E6%B1%82)
@@ -89,5 +89,5 @@ X-gio-signature:1e089260ba1bfde37f88eca8e665d8b1fb690ae763979d25dd10a831dedd52a8
 
 ![](../.gitbook/assets/image%20%28331%29.png)
 
- 赞成为首赞无标签写下评论…
+ 
 
