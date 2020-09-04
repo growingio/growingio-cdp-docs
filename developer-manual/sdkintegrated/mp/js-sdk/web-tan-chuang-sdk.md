@@ -27,7 +27,7 @@ Web 弹窗 JS SDK： [https://assets.giocdn.com/sdk/cdp/marketing/access.latest.
     
     // 弹窗 SDK
     gdp('plugin', {
-      id: 'gio_plugin_gtouch',
+      id: 'gio_plugin_gtouch-inject',
       src: document.location.protocol + "//assets.giocdn.com/sdk/cdp/marketing/access.latest.js",
       dataHost: '您的弹窗请求地址'
     })
@@ -53,7 +53,7 @@ Web 弹窗 JS SDK： [https://assets.giocdn.com/sdk/cdp/marketing/access.latest.
     });
     // 弹窗 SDK
     gdp('plugin', {
-      id: 'gio_plugin_gtouch',
+      id: 'gio_plugin_gtouch-inject',
       src: document.location.protocol + '//assets.giocdn.com/sdk/cdp/marketing/access.latest.js'",
       dataHost: 'gdp-test.growingio.com'
     });
