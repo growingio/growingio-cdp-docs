@@ -4,58 +4,28 @@
 
 ## **添加依赖**
 
-我们推荐使用Maven管理Java 项目，请在 pom.xml 文件中，添加一下依赖信息，Maven将自动获取 Java SDK 并更新项目配置**。**
-
-```text
-<dependencies>
-    <dependency>
-        <groupId>io.growing.sdk.java</groupId>
-        <artifactId>growingio-java-sdk</artifactId>
-        <version>1.0.7-cdp</version>
-    </dependency>
-</dependencies>
-```
-
-若出现依赖冲突的问题（例如运行时找不到类），可以选择使用 standalone
+在pom.xml文件中添加依赖，我们推荐使用Maven 管理Java项目，请在 pom.xml 文件中，添加以下依赖信息，Maven 将自动获取Java SDK并更新配置。
 
 ```text
 <dependency>
-    <groupId>io.growing.sdk.java</groupId>
-    <artifactId>growingio-java-sdk</artifactId>
-    <version>1.0.2</version>
-    <classifier>standalone</classifier>
-    <exclusions>
-        <exclusion>
-            <groupId>org.xerial.snappy</groupId>
-            <artifactId>snappy-java</artifactId>
-        </exclusion>
-        <exclusion>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-        </exclusion>
-    </exclusions>
-</dependency>   
+<groupId>io.growing.sdk.java</groupId>
+<artifactId>growingio-java-sdk</artifactId>
+<version>1.0.6-cdp-SNAPSHOT</version>
+</dependency>
 ```
 
-示例程序
+如果出现依赖冲突的问题（例如运行时找不到类），可以使用standalone 版本。
 
 ```text
-//事件行为消息体
-GIOEventMessage eventMessage = new GIOEventMessage.Builder()
-    .eventTime(System.currentTimeMillis())            // 默认为系统当前时间,选填
-    .eventKey("3")                                    // 事件标识 (必填)
-    .eventNumValue(1.0)                               // 打点事件数值 (选填)
-    .loginUserId("417abcabcabcbac")                   // 登陆用户ID (选填)
-    .addEventVariable("product_name", "苹果")          // 事件级变量 (选填)
-    .addEventVariable("product_classify", "水果")      // 事件级变量 (选填)
-    .addEventVariable("product_price", 14)            // 事件级变量 (选填)
-    .build();
-
-//上传事件行为消息到服务器
-GrowingAPI.send(eventMessage);
+<dependency>
+<groupId>io.growing.sdk.java</groupId>
+<artifactId>growingio-java-sdk</artifactId>
+<version>1.0.6-cdp-SNAPSHOT</version>
+<classifier>standalone</classifier>
+</dependency>
 ```
 
-配置文件信息
+在项目的classpath 路径下，增加 gio.properties 文件，文件内容如下：
 
 ```text
 #项目采集端地址
@@ -66,31 +36,13 @@ send.msg.interval=100
 send.msg.thread=3
 #消息队列大小 （默认 500）
 msg.store.queue.size=500
-#数据压缩 false:不压缩,true:压缩
-#不压缩可节省cpu，压缩可省带宽
-compress=true
 #日志级别输出 (debug | error)
 logger.level=debug
 #自定义日志输出实现类
 logger.implementation=io.growing.sdk.java.logger.GioLoggerImpl
 #运行模式，test:仅输出消息体，不发送消息，production: 发送消息
 run.mode=test
-# 设置代理, 如果不设置，默认为不使用代理
-proxy.host=127.0.0.1
-proxy.port=3128
-# 设置代理认证用户密码, 如果不设置，默认为不使用用户验证 [认证加密方式为 Basic base64]
-proxy.user=demo
-proxy.password=demo
-#http 连接超时时间,默认2秒
-#connection.timeout=2000
-#http 连接读取时间,默认2秒
-#read.timeout=2000
 ```
-
-#### 事件消息
-
-* 默认采用阻塞队列，队列大小为500.
-* 如果队列满了，新的消息会被丢弃（可通过 `msg.store.queue.size` 和 `send.msg.interval` 调节队列大小和消息发送间隔时间，避免丢消息）
 
 ## **API**
 
@@ -191,50 +143,30 @@ projectA.send(msg);
 
 ## Debugger选项
 
-### SDK log 输出级别
+为了方便使用者调试代码和数据校验，我们提供Java日志接口类，可以通过继承GioLoggerInterface实现自己的日志输出类，可通过自己的日志工具定制日志保留时间和日志存储大小。
 
-通过以下配置可以控制 sdk 的日志输出级别
+配置说明：SDK log 输出级别
 
-```text
-# debug: 输出 debug 信息，建议连调阶段开启，可输出消息的发送报文
-# error: 仅输出 错误日志，不会输出 debug 级别的信息
-logger.level=debug
-```
-
-### 自定义SDK log 输出
-
-通过以下配置，可自定义日志输出实现类, **默认为 `io.growing.sdk.java.logger.GioLoggerImpl` 会将日志输出到 控制台**
+1. debug: 输出 debug信息，建议连调阶段开启，可输出消息的发送报文
+2. error: 仅输出 错误日志，不会输出 debug 级别的信息 logger.level=debug 自定义 SDK log 输出 通过以下配置，可自定义日志输出实现类, 默认为 io.growing.sdk.java.logger.GioLoggerImpl 会将日志输出到 控制台
 
 ```text
 logger.implementation=io.growing.sdk.java.demo.DemoLogger
-```
-
-自定义日志输出实现类示例，DemoLogger 类需要客户自己实现，客户可根据自己的系统内部的日志工具将 sdk 的日志输出，并制定适合自己业务的日志保存策略
-
-```text
+// 自定义日志输出实现类示例:
+// DemoLogger 类需要客户自己实现，客户可根据自己的系统内部的日志工具将 sdk 的日志输出，并制定适合自己业务的日志保存策略
 public class DemoLogger implements GioLoggerInterface {
-	private final Logger logger = LoggerFactory.getLogger(DemoLogger.class);
-
-	public void debug(String msg) {
-		logger.debug(msg);
-	}
-
-	public void error(String msg) {
-		logger.error(msg);
-	}
+private final Logger logger = LoggerFactory.getLogger(DemoLogger.class);
+public void debug(String msg) {
+logger.debug(msg);
 }
+public void error(String msg) {
+logger.error(msg);
+}
+}
+// 比如以上 demo 中，采用的就是 SLF4J 和 Log4j2 的组合, 客户可通过自己的日志工具定制 日志保留时间，及日志存储大小。
 ```
-
-比如以上 demo 中，采用的就是 SLF4J 和 Log4j2 的组合, 客户可通过自己的日志工具定制 日志保留时间，及日志存储大小。
-
-### 自定义配置文件路径
-
-程序运行时可以通过 GrowingAPI.initConfig 指定配置文件
-
-* 如果不需要指定配置文件路径，则默认加载 gio.properties
-* 如果需要指定配置文件路径，则需要在 GrowingAPI 初始化之前调用 initConfig, 进行配置初始化
 
 {% hint style="success" %}
-该功能仅在1.0.7及以上版本支持
+该功能仅在 SDK 1.0.6及以上版本支持
 {% endhint %}
 
