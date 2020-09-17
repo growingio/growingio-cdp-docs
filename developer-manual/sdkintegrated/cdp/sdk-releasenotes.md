@@ -170,11 +170,6 @@
       <td style="text-align:left">&#x63D0;&#x5347; SDK &#x7A33;&#x5B9A;&#x6027;</td>
       <td style="text-align:left">2020-07-08</td>
     </tr>
-    <tr>
-      <td style="text-align:left">0.5</td>
-      <td style="text-align:left">&#x63D0;&#x793A; SDK &#x7A33;&#x5B9A;&#x6027;</td>
-      <td style="text-align:left">2020-07-28</td>
-    </tr>
   </tbody>
 </table>
 {% endtab %}
