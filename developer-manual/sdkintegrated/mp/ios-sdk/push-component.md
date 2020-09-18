@@ -22,7 +22,7 @@ GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！
 GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！   
 GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！！且不同target  
 下载地址  
-[http://assets.giocdn.com/cdp/ios/CDP1.2.4\_Touch1.4.1.zip](http://assets.giocdn.com/cdp/ios/CDP1.2.4_Touch1.4.1.zip)
+[http://assets.giocdn.com/cdp/ios/CDP1.2.3\_Touch1.4.1.zip](http://assets.giocdn.com/cdp/ios/CDP1.2.3_Touch1.4.1.zip)
 
 * 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingPushKit.framework 添加到iOS工程中
 
