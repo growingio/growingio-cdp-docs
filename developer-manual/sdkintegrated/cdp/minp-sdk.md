@@ -8,7 +8,7 @@
 
 头条小程序SDK下载地址：[https://assets.giocdn.com/sdk/cdp/gio-bytedance-minp.js](https://assets.giocdn.com/sdk/cdp/gio-bytedance-minp.js)
 
-将gio-minp.js / gio-alip.js / gio-bytedance-minp.js 放在小程序目录下（比如：/src/utils目录）
+并将解压后的gio-minp/gio-alip/gio-bytedance-minp目录放在小程序目录下（比如：/src/utils目录）
 
 ```javascript
 // 微信小程序
