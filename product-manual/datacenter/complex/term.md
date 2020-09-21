@@ -50,7 +50,7 @@
     <tr>
       <td style="text-align:left">&#x9875;&#x9762;&#x6D4F;&#x89C8;&#x91CF;</td>
       <td style="text-align:left">
-        <p>&#x8861;&#x91CF;&#x7F51;&#x7AD9;&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x7684;&#x7F51;&#x9875;&#x6570;&#x91CF;&#xFF1B;</p>
+        <p>&#x8861;&#x91CF;&#x7F51;&#x7AD9;/App/&#x5C0F;&#x7A0B;&#x5E8F;&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x7684;&#x9875;&#x9762;&#x6570;&#x91CF;&#xFF1B;</p>
         <p>&#x5728;&#x4E00;&#x5B9A;&#x7EDF;&#x8BA1;&#x5468;&#x671F;&#x5185;&#x7528;&#x6237;&#x6BCF;&#x6253;&#x5F00;&#x6216;</p>
         <p>&#x5237;&#x65B0;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x5C31;&#x8BB0;&#x5F55;1&#x6B21;&#xFF0C;&#x591A;&#x6B21;</p>
         <p>&#x6253;&#x5F00;&#x6216;&#x5237;&#x65B0;&#x540C;&#x4E00;&#x9875;&#x9762;&#x5219;&#x6D4F;&#x89C8;&#x91CF;&#x7D2F;&#x8BA1;&#x3002;</p>
@@ -64,7 +64,7 @@
       <td style="text-align:left">&#x6BCF;&#x6B21;&#x8BBF;&#x95EE;&#x9875;&#x9762;&#x6D4F;&#x89C8;&#x91CF;</td>
       <td
       style="text-align:left">
-        <p>&#x7528;&#x6237;&#x5E73;&#x5747;&#x6BCF;&#x6B21;&#x8FDB;&#x5165;&#x7F51;&#x7AD9;/&#x5C0F;&#x7A0B;&#x5E8F;</p>
+        <p>&#x7528;&#x6237;&#x5E73;&#x5747;&#x6BCF;&#x6B21;&#x8FDB;&#x5165;&#x7F51;&#x7AD9;/App/&#x5C0F;&#x7A0B;&#x5E8F;</p>
         <p>&#x6240;&#x5E26;&#x6765;&#x7684;&#x9875;&#x9762;&#x6D4F;&#x89C8;&#x7684;&#x6570;&#x91CF;</p>
         <p>&#x8BA1;&#x7B97;&#x65B9;&#x6CD5;&#xFF1A;&#x9875;&#x9762;&#x6D4F;&#x89C8;&#x91CF;
           / &#x8BBF;&#x95EE;&#x91CF;</p>
@@ -77,7 +77,7 @@
     <tr>
       <td style="text-align:left">&#x4EBA;&#x5747;&#x8BBF;&#x95EE;&#x6B21;&#x6570;</td>
       <td style="text-align:left">
-        <p>&#x5E73;&#x5747;&#x6BCF;&#x4E2A;&#x7528;&#x6237;&#x8FDB;&#x5165;&#x7F51;&#x7AD9;/&#x5C0F;&#x7A0B;&#x5E8F;</p>
+        <p>&#x5E73;&#x5747;&#x6BCF;&#x4E2A;&#x7528;&#x6237;&#x8FDB;&#x5165;&#x7F51;&#x7AD9;/App/&#x5C0F;&#x7A0B;&#x5E8F;</p>
         <p>&#x8FDB;&#x884C;&#x8BBF;&#x95EE;&#x7684;&#x6570;&#x91CF;</p>
         <p>&#x8BA1;&#x7B97;&#x65B9;&#x6CD5;&#xFF1A;&#x8BBF;&#x95EE;&#x91CF; / &#x7528;&#x6237;&#x91CF;</p>
       </td>
@@ -109,8 +109,28 @@
         </td>
     </tr>
     <tr>
+      <td style="text-align:left">&#x8DF3;&#x51FA;&#x6B21;&#x6570;</td>
+      <td style="text-align:left">
+        <p>&#x8BBF;&#x95EE;&#x2F00;&#x4E2A;&#x2EDA;&#x2FAF;&#x5C31;&#x79BB;&#x5F00;&#x7684;&#x6B21;&#x6570;&#x3002;</p>
+        <p>&#x5373;&#x2F00;&#x6B21;&#x8BBF;&#x95EE;&#x4E2D;&#x53EA;&#x8BBF;&#x95EE;&#x4E86;&#x2F00;&#x4E2A;&#x2EDA;&#x2FAF;</p>
+      </td>
+      <td style="text-align:left">
+        <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
+        <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">&#x8DF3;&#x51FA;&#x7387;</td>
       <td style="text-align:left">&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x6D4F;&#x89C8;&#x7684;&#x8BBF;&#x95EE;&#x5360;&#x6240;&#x6709;&#x8BBF;&#x95EE;&#x7684;&#x6BD4;&#x7387;</td>
+      <td
+      style="text-align:left">
+        <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
+        <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x9000;&#x51FA;&#x6B21;&#x6570;</td>
+      <td style="text-align:left">&#x7528;&#x6237;&#x9000;&#x51FA;&#x7F51;&#x7AD9;/App/&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x91CF;</td>
       <td
       style="text-align:left">
         <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
@@ -129,10 +149,32 @@
         <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">&#x603B;&#x9875;&#x9762;&#x505C;&#x7559;&#x65F6;&#x957F;(&#x5206;&#x949F;)</td>
+      <td
+      style="text-align:left">
+        <p>&#x7528;&#x6237;&#x5728;&#x6240;&#x6709;&#x9875;&#x9762;&#x505C;&#x7559;&#x7684;&#x65F6;&#x957F;&#x603B;&#x548C;&#xFF0C;</p>
+        <p>&#x4EE5;&#x5206;&#x949F;&#x4F5C;&#x4E3A;&#x5355;&#x4F4D;&#x5C55;&#x793A;</p>
+        </td>
+        <td style="text-align:left">
+          <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
+          <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x5E73;&#x5747;&#x9875;&#x9762;&#x505C;&#x7559;&#x65F6;&#x957F; (&#x5206;&#x949F;)</td>
+      <td
+      style="text-align:left">
+        <p>&#x5E73;&#x5747;&#x6BCF;&#x4E2A;&#x9875;&#x9762;&#x7684;&#x505C;&#x7559;&#x65F6;&#x2ED3;&#xFF0C;</p>
+        <p>&#x4EE5;&#x5206;&#x949F;&#x4F5C;&#x4E3A;&#x5355;&#x4F4D;&#x5C55;&#x793A;</p>
+        </td>
+        <td style="text-align:left">
+          <p>&#x4EC5;&#x5305;&#x542B;JS &#x548C; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;</p>
+          <p>&#x3001;iOS&#x548C;Android SDK&#x6570;&#x636E;</p>
+        </td>
+    </tr>
   </tbody>
 </table>
-
-> 注：页面浏览量、每次访问页面浏览量、人均访问次数、总访问时长\(分钟\)、平均访问时长\(分钟\)、跳出率、退出率仅支持网站和微信小程序使用。
 
 ## 预定义指标管理页面
 
