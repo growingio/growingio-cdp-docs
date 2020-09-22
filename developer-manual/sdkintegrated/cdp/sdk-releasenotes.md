@@ -12,12 +12,6 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1.2.4</td>
-      <td style="text-align:left">&#x652F;&#x6301;&#x91C7;&#x96C6;Hybrid&#x52A0;&#x8F7D;file&#x534F;&#x8BAE;&#x7684;&#x9875;&#x9762;</td>
-      <td
-      style="text-align:left">2020-09-18</td>
-    </tr>
-    <tr>
       <td style="text-align:left">1.2.3</td>
       <td style="text-align:left">
         <p>1.&#x589E;&#x52A0;handleUrl &#x65B9;&#x6CD5;&#xFF0C;&#x652F;&#x6301;&#x7528;&#x6237;&#x8FD0;&#x8425;SDK&#x626B;&#x7801;</p>
@@ -39,12 +33,6 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="text-align:left">cdp-1.2.5</td>
-      <td style="text-align:left">&#x652F;&#x6301;&#x91C7;&#x96C6;Hybrid&#x52A0;&#x8F7D;file&#x534F;&#x8BAE;&#x7684;&#x9875;&#x9762;</td>
-      <td
-      style="text-align:left">2020-09-21</td>
-    </tr>
     <tr>
       <td style="text-align:left">cdp-1.2.4</td>
       <td style="text-align:left">
@@ -143,49 +131,17 @@
 {% endtab %}
 
 {% tab title="小程序" %}
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">SDK&#x7248;&#x672C;&#x53F7;</th>
-      <th style="text-align:left">&#x66F4;&#x65B0;&#x5185;&#x5BB9;</th>
-      <th style="text-align:left">&#x65F6;&#x95F4;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">0.8</td>
-      <td style="text-align:left">&#x4FEE;&#x590D;&#x8BBF;&#x95EE;&#x4E8B;&#x4EF6;&#x4E2D;&#x65E0;&#x6CD5;&#x83B7;&#x53D6;
-        QueryString &#x7684;&#x95EE;&#x9898;</td>
-      <td style="text-align:left">2020-09-17</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">0.7</td>
-      <td style="text-align:left">&#x652F;&#x6301;&#x5708;&#x4E2D;&#x8FBE;&#x4EBA;</td>
-      <td style="text-align:left">2020-09-02</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">0.6</td>
-      <td style="text-align:left">&#x4FEE;&#x590D;&#x67D0;&#x4E9B;&#x6781;&#x7AEF;&#x60C5;&#x51B5;&#x4E0B;&#x8BBF;&#x95EE;&#x4E8B;&#x4EF6;&#x6CA1;&#x6709;
-        gioId &#x7684;&#x95EE;&#x9898;</td>
-      <td style="text-align:left">2020-08-11</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">0.5</td>
-      <td style="text-align:left">
-        <p>&#x63D0;&#x5347;SDK&#x7A33;&#x5B9A;&#x6027;</p>
-        <p>&#x517C;&#x5BB9; Taro 3.x &#x4E8B;&#x4EF6;&#x6A21;&#x578B;</p>
-        <p>&#x652F;&#x6301;&#x7528;&#x6237;&#x89E6;&#x8FBE;</p>
-      </td>
-      <td style="text-align:left">2020-07-28</td>
-    </tr>
-  </tbody>
-</table>
+| SDK版本号 | 更新内容 | 时间 |
+| :--- | :--- | :--- |
+| 0.4 | 提升SDK稳定性 | 2020-07-08 |
+| 0.5 | 提示SDK稳定性 | 2020-07-28 |
+| 0.6 | 修复gioid可能不发生的问题 | 2020-08-11 |
 {% endtab %}
 
 {% tab title="H5内嵌页SDK（仅支持app内H5）" %}
 | SDK版本号 | 更新内容 | 时间 |
 | :--- | :--- | :--- |
-|  |  |  |
+| 暂未发版 |  |  |
 {% endtab %}
 {% endtabs %}
 
