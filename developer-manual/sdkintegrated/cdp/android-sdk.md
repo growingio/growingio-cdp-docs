@@ -36,9 +36,9 @@ public void onCreate() {
 }
 ```
 
-## **添加应用权限**
+## **添加应用权限和**URL Scheme
 
-请将以下权限添加到您的 AndroidManifest.xml 中。
+将应用的 URLScheme 和应用权限添加到你的 AndroidManifest.xml 中。
 
 ```text
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,8 +52,18 @@ package="com.example.cdpdemo">
 <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 <application
-android:name=".MyApplication"
-... />
+        android:name=".MyApplication"
+        <activity android:name=".MainActivity">
+            <!--请添加这里的整个 intent-filter 区块，并确保其中只有一个 data 字段-->
+            <intent-filter>
+                <data android:scheme="growing.您的URL Scheme" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <!--请添加这里的整个 intent-filter 区块，并确保其中只有一个 data 字段-->
+        </activity>
+    </application>
 </manifest>
 ```
 
