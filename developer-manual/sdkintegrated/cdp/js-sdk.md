@@ -104,7 +104,7 @@ gdp('init', 'your projectId', 'your dataSourceId',{host: 'api.growingio.com'});
 
 ### **设置请求协议**
 
-GrowingIO默认发数请求协议是HTTPS，如果您的请求协议为HTTP，可以参考如下设置进行修改。
+GrowingIO 默认发数请求协议是 HTTPS，如果您的请求协议为 HTTP，可以参考如下设置进行修改。
 
 ```javascript
 gdp('init', 'your projectId','your dataSourceId', {scheme: 'http'});
@@ -118,13 +118,19 @@ gdp('init', 'your projectId','your dataSourceId', {appVer: 'v1.2.3'});
 
 ### 开启数据压缩
 
+GrowingIO Web SDK 默认发送数据是明文，可以通过这个开关将数据压缩，一方面保证数据不能被直接查看，增强了数据的安全性。另一方面可以节省用户的流量。可以通过下面方式开启数据压缩传输。
+
 ```javascript
 gdp('init', 'your projectId','your dataSourceId', {compress: true});
 ```
 
+{% hint style="danger" %}
+数据压缩是在 SDK 0.6.0 版本新增，需要同步升级数据收集服务，否则数据将无法正常采集。如果您不确定您的服务是否支持，请联技术支持。并且务必在修改配置后测试数据采集功能正常。
+{% endhint %}
+
 ### **设置登录用户ID**
 
-当用户登录之后调用setUserId，上传登录用户ID。
+当用户登录之后调用 setUserId，上传登录用户ID。
 
 ```javascript
 //setUserId API原型
