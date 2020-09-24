@@ -17,7 +17,7 @@
 <!-- Copyright 2015-2020 GrowingIO, Inc. More info available at http://www.growingio.com -->
 <script type='text/javascript'>
 !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","JS 资源地址","gdp");
-  gdp('init', 'your projectId', 'your dataSourceId', {});
+  gdp('init', 'your projectId', 'your dataSourceId', { host: 'your apiServerHost' });
 ​
   //custom page code begin here
   //custom page code end here
@@ -31,44 +31,6 @@
 > 1. 初始化需要设置host，不设置会失败。
 > 2. 初始化必须填写projectId、datasourceId，否则会失败。
 > 3. 不支持file协议、localhost、127.0.0.1
-
-## 重要配置
-
-### **开启debug模式**
-
-在初始化时设置debug模式为true，打开浏览器控制台，即可看到实时采集的数据。
-
-> IE 9以下不支持。
-
-```javascript
-gdp('init', 'your projectId', 'your dataSourceId', {debug: true});
-```
-
-### **开启识别hashtag**
-
-GrowingIO 默认不会把hashtag识别成页面URL的一部分。对于使用hashtag 进行页面转跳的单页面网站应用来说，可以启用hashtag 作为标识页面的一部分。
-
-```javascript
-gdp('init', 'your projectId', 'your dataSourceId', {hashtag: true});
-```
-
-### **设置host**
-
-设置上传当前应用埋点数据的接受服务器的域名。
-
-GrowingIO默认不配置发数的API，需要在初始化时设置host，否则会初始化失败。
-
-```javascript
-gdp('init', 'your projectId', 'your dataSourceId',{host: 'api.growingio.com'});
-```
-
-### **设置请求协议**
-
-GrowingIO默认发数请求协议是HTTPS，如果您的请求协议为HTTP，可以参考如下设置进行修改。
-
-```javascript
-gdp('init', 'your projectId','your dataSourceId', {scheme: 'http'});
-```
 
 ## **JS SDK API**
 
@@ -108,6 +70,56 @@ gdp('init', 'project-id', 'data-source-id',{
   scheme: 'http', // api 服务协议头
   host: 'api.test.com' // api 服务地址
 });
+```
+
+## 重要配置
+
+### **开启debug模式**
+
+在初始化时设置debug模式为true，打开浏览器控制台，即可看到实时采集的数据。
+
+> IE 9以下不支持。
+
+```javascript
+gdp('init', 'your projectId', 'your dataSourceId', {debug: true});
+```
+
+### **开启识别hashtag**
+
+GrowingIO 默认不会把hashtag识别成页面URL的一部分。对于使用hashtag 进行页面转跳的单页面网站应用来说，可以启用hashtag 作为标识页面的一部分。
+
+```javascript
+gdp('init', 'your projectId', 'your dataSourceId', {hashtag: true});
+```
+
+### **设置host**
+
+设置上传当前应用埋点数据的接受服务器的域名。
+
+GrowingIO默认不配置发数的API，需要在初始化时设置host，否则会初始化失败。
+
+```javascript
+gdp('init', 'your projectId', 'your dataSourceId',{host: 'api.growingio.com'});
+```
+
+### **设置请求协议**
+
+GrowingIO默认发数请求协议是HTTPS，如果您的请求协议为HTTP，可以参考如下设置进行修改。
+
+```javascript
+gdp('init', 'your projectId','your dataSourceId', {scheme: 'http'});
+```
+
+### 设置 appVer
+
+```javascript
+gdp('init', 'your projectId','your dataSourceId', {appVer: 'v1.2.3'});
+```
+
+### 开启数据压缩
+
+```javascript
+gdp('init', 'your projectId','your dataSourceId', {compress: true});
 ```
 
 ### **设置登录用户ID**
