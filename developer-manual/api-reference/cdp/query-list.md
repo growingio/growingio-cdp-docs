@@ -13,14 +13,14 @@
 
 ## **数据结构**
 
-请求中涉及到的数据结构有：
-
+请求中涉及到的数据结构有：  
+  
 **Error:**
 
 ```text
 {
-    code: String // 内部错误码
-    message: String // 错误消息
+	code: String // 内部错误码
+	message: String // 错误消息
 }
 ```
 
@@ -28,13 +28,13 @@
 
 ```text
 {
-    // NONE 任务初始状态
-    // READY 任务准备执行
-    // RUNNING 任务正在执行
-    // DATA_READY 数据准备就绪
-    // FINISH 任务完成
-    // ERROR 任务失败
-    NONE, READY, RUNNING, DATA_READY, ERROR
+	// NONE 任务初始状态
+	// READY 任务准备执行
+	// RUNNING 任务正在执行
+	// DATA_READY 数据准备就绪
+	// FINISH 任务完成
+	// ERROR 任务失败
+	NONE, READY, RUNNING, DATA_READY, ERROR
 }
 ```
 
@@ -42,14 +42,14 @@
 
 ```text
 {
-    id: String
-    name: String
-    description: String
-    stage: JobStage
-    creatorId: String
-    updaterId: String
-    updatedAt: DateTime
-    error: Error
+	id: String
+	name: String
+	description: String
+	stage: JobStage
+	creatorId: String
+	updaterId: String
+	updatedAt: DateTime
+	error: Error
 }
 ```
 
@@ -57,15 +57,15 @@
 
 ```text
 {
-    id: String
-    name: String
-    description: String
-    stage: JobStage
-    creatorId: String
-    createdAt: DateTime
-    updaterId: String
-    updatedAt: DateTime
-    error: Error
+	id: String
+	name: String
+	description: String
+	stage: JobStage
+	creatorId: String
+	createdAt: DateTime
+	updaterId: String
+	updatedAt: DateTime
+	error: Error
 }
 ```
 
@@ -73,9 +73,9 @@
 
 ```text
 {
-    id: String
-    stage: JobStage
-    uris: [String] // 任务输出文件目录
+	id: String
+	stage: JobStage
+	uris: [String] // 任务输出文件目录
 }
 ```
 
@@ -83,9 +83,9 @@
 
 ```text
 {
-    key: String
-    name: String
-    value: String
+	key: String
+	name: String
+	value: String
 }
 ```
 
@@ -93,9 +93,9 @@
 
 ```text
 {
-    id: String
-    userId: String
-    properties: [Property]
+	id: String
+	userId: String
+	properties: [Property]
 }
 ```
 
@@ -103,16 +103,16 @@
 
 ```text
 {
-    id: String
-    name: String
-    type: String
-    description: String
-    creatorId: String
-    createdAt: DateTime
-    updaterId: String
-    updatedAt: DateTime
-    creator: String
-    updater: String
+	id: String
+	name: String
+	type: String
+	description: String
+	creatorId: String
+	createdAt: DateTime
+	updaterId: String
+	updatedAt: DateTime
+	creator: String
+	updater: String
 }
 ```
 
@@ -120,14 +120,14 @@
 
 ```text
 {
-    id: String
-    name: String
-    description: String
-    scheduler: String
-    creatorId: String
-    createdAt: DateTime
-    updaterId: String
-    updatedAt: DateTime
+	id: String
+	name: String
+	description: String
+	scheduler: String
+	creatorId: String
+	createdAt: DateTime
+	updaterId: String
+	updatedAt: DateTime
 }
 ```
 
@@ -234,19 +234,23 @@ query {
 ```text
 # id: String [资源id]
 # param: {"analysisType": "CHARTS"} [资源类型，支持CHARTS|FUNNELS|RETENTIONS|FREQUENCIES]
-submitAnalysisExportJob(id: HashId!, param: AnalysisExportJobParam!): AnalysisExportResult!
+submitAnalysisExportJob(id: HashId!, param: AnalysisExportJobParam!): AnalysisExportJob!
+```
 
 式例
+
+```text
 mutation SubmitAnalysisExportJob($id: HashId!, $param: AnalysisExportJobParam!){
     submitAnalysisExportJob(id: $id, param: $param) {
         id
-        status 
-        uri
     }
 }
+```
 
 Curl 示例
-curl --location --request POST 'http://cdp.growingio.com/graphql' \
+
+```text
+curl --location --request POST 'http://gdp-dev.growingio.com/graphql' \
 --header 'Cache-Control: no-cache' \
 --header 'DNT: 1' \
 --header 'Host: 10.0.6.60:8086' \
@@ -256,8 +260,8 @@ curl --location --request POST 'http://cdp.growingio.com/graphql' \
 --header 'accept: */*' \
 --header 'accept-encoding: gzip, deflate' \
 --header 'Content-Type: application/json' \
---header 'Authorization: NmUxMTAwYjctYjRmMS00NjcwLWI0MTItNjBhY2U0ZmNlMmNl' \
+--header 'Authorization: ODI0NjczYzMtOTY5MS00MDBjLWJhZDYtZWZiYWVhMzI1Y2U5' \
 --header 'Content-Type: application/json' \
---data-raw '{"query":"mutation SubmitAnalysisExportJob($id: HashId!, $param: AnalysisExportJobParam!){\n    submitAnalysisExportJob(id: $id, param: $param) {\n        resourceId\n        status \n        uri\n    }\n}","variables":{"id":"y9pm11pm","param":{"analysisType":"FUNNELS"}}}'
+--data-raw '{"query":"mutation SubmitAnalysisExportJob($id: HashId!, $param: AnalysisExportJobParam!){\n    submitAnalysisExportJob(id: $id, param: $param) {\n        id\n    }\n}","variables":{"id":"9yGOXaDl","param":{"analysisType":"CHARTS"}}}'
 ```
 

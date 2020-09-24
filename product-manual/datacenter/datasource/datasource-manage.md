@@ -6,7 +6,8 @@ description: 对数据源进行配置和管理
 
 ## 简介
 
-数据源集成支持GrowingIO SaaS数据转发，支持iOS/Android/微信小程序/JS/JAVA SDK集成，支持历史数据导入。
+数据源集成支持GrowingIO SaaS数据转发，支持iOS/Android/微信小程序/JS/JAVA SDK集成，支持历史数据导入。  
+
 
 ## 创建数据源
 
