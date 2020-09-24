@@ -76,6 +76,15 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">0.6.0</td>
+      <td style="text-align:left">
+        <ul>
+          <li>&#x652F;&#x6301;&#x6570;&#x636E;&#x538B;&#x7F29;&#x4F20;&#x8F93;</li>
+        </ul>
+      </td>
+      <td style="text-align:left">2020-09-24</td>
+    </tr>
+    <tr>
       <td style="text-align:left">0.5.5</td>
       <td style="text-align:left">
         <ul>
