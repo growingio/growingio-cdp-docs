@@ -112,6 +112,8 @@ gdp('init', 'your projectId','your dataSourceId', {scheme: 'http'});
 
 ### 设置 appVer
 
+如果网站在不停升级版本，同时想了解不同版本的数据情况，可以参考如下代码设置应用版本。在实际使用中应用版本对移动端 app 更有价值。
+
 ```javascript
 gdp('init', 'your projectId','your dataSourceId', {appVer: 'v1.2.3'});
 ```
