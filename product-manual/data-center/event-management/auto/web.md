@@ -36,7 +36,7 @@ Step 2: 在检查模式中选择GIO Web Collection插件。
 
 Step 3: 输入服务器地址、账号、密码完成注册登陆
 
-![](../../../../.gitbook/assets/image%20%28371%29.png)
+![](../../../../.gitbook/assets/image%20%28372%29.png)
 
 {% hint style="success" %}
 请向工程师询问服务器地址；账号和密码为GrowingIO平台登陆账号和密码。
@@ -48,7 +48,7 @@ Step 4: 建议设置检查模式在右侧边栏展示。
 
 设置方法：Chrome检查模式右上角点击![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择展示形式。
 
-![](../../../../.gitbook/assets/image%20%28370%29.png)
+![](../../../../.gitbook/assets/image%20%28371%29.png)
 
 ### URL解读：
 
@@ -62,7 +62,9 @@ URL示意：www.xxx.com**/**12345/678/123**?**id=1&ig=2
 
 ## 圈选操作
 
-在顶部导航栏选择“**数据中心 &gt; 无埋点事件定义（圈选） &gt; 您的Web应用”**，进入Web圈选模式。
+在顶部导航栏选择”数据 &gt; 事件 &gt; 无埋点事件 &gt; 新建无埋点事件**”**，进入Web圈选说明页面。
+
+![](../../../../.gitbook/assets/image%20%28370%29.png)
 
 
 
