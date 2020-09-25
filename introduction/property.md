@@ -57,9 +57,9 @@ GrowingIO系统中支持三种事物模型，分别为事件模型、物品模�
 
 ## 属性管理
 
-GrowingIO系统支持对[事件属性](../product-manual/datacenter/property/event-property.md)、[物品属性](../product-manual/datacenter/item/item-manage.md)和[用户属性](../product-manual/datacenter/property/user-property.md)的创建、编辑和查看功能，详情请点击对应文字链接。
+GrowingIO系统支持对[事件属性](../product-manual/data-center/property/event-property.md)、[物品属性](../product-manual/data-center/item/item-manage.md)和[用户属性](../product-manual/data-center/property/user-property.md)的创建、编辑和查看功能，详情请点击对应文字链接。
 
-[预定义属性](../product-manual/datacenter/property/preset-property.md)和[用户信息](../product-manual/datacenter/property/user-info.md)为系统预置信息，仅支持查看，详情请点击对应文字链接。
+[预定义属性](../product-manual/data-center/property/preset-property.md)和[用户信息](../product-manual/data-center/property/user-info.md)为系统预置信息，仅支持查看，详情请点击对应文字链接。
 
 ## 属性关联
 
@@ -71,7 +71,7 @@ GrowingIO系统支持对[事件属性](../product-manual/datacenter/property/eve
 
 用户属性创建成功后无需额外配置即可在系统中使用。
 
-配置方法：[事件属性](../product-manual/datacenter/event/event-manage.md#chuang-jian-shi-jian)、[物品属性](../product-manual/datacenter/event/event-manage.md#chuang-jian-shi-jian)
+配置方法：[事件属性](../product-manual/data-center/event-management/manual.md#chuang-jian-shi-jian)、[物品属性](../product-manual/data-center/event-management/manual.md#chuang-jian-shi-jian)
 
 ## 数据格式
 
