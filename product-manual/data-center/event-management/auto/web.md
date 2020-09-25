@@ -20,7 +20,15 @@ URL示意：www.xxx.com**/**12345/678/123**?**id=1&ig=2
 
 ![](../../../../.gitbook/assets/image%20%28366%29.png)
 
-### Chrome下载和GIO Web Collection插件安装
+### 插件下载和安装：
+
+下载地址：GIO Web Collection
+
+安装步骤：
+
+
+
+
 
 
 
