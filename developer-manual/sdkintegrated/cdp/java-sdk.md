@@ -132,6 +132,31 @@ projectA.send(msg);
 }
 ```
 
+### **物品模型API**
+
+| **参数名称** | 类型 | 是否必填 | 说明 |
+| :--- | :--- | :--- | :--- |
+| id | string | 否 | 物品模型id |
+| key | string | 否 | 物品模型key |
+| addItemVariable | map&lt;string,object&gt; | 否 | 物品模型变量 |
+
+```text
+ /**
+     * send cdp item message
+     */
+    public static void sendCdpItem() {
+        //事件行为消息体
+        GioCdpItemMessage msg = new GioCdpItemMessage.Builder()
+                .id("item-test")                        // 物品模型id
+                .key("test")                            // 物品模型key
+                .addItemVariable("item_name", "cdp苹果") // 物品模型变量 (选填)
+                .build();
+
+        projectA.send(msg);
+
+    }
+```
+
 ### **用户变量API**
 
 | 参数名称 | 参数类型 | 是否必填 | 说明 |
@@ -234,12 +259,10 @@ public class DemoLogger implements GioLoggerInterface {
 
 ### 自定义配置文件路径
 
-程序运行时可以通过 GrowingAPI.initConfig 指定配置文件
+* 需要在 GrowingAPI 初始化之前调用 initConfig\(String configFilePath\)，进行配置初始化
 
-* 如果不需要指定配置文件路径，则默认加载 gio.properties
-* 如果需要指定配置文件路径，则需要在 GrowingAPI 初始化之前调用 initConfig, 进行配置初始化
+### 自定义配置
 
-{% hint style="success" %}
-该功能仅在1.0.7及以上版本支持
-{% endhint %}
+* 如果需要自定义 Properties 进行配置初始化，则需要在 GrowingAPI 初始化之前调用 initConfig\(Properties properties\)，进行配置初始化。
+* 自定义 properties key 参考 gio\_default.properties 文件
 
