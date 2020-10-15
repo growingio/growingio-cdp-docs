@@ -136,9 +136,9 @@ projectA.send(msg);
 
 | **参数名称** | 类型 | 是否必填 | 说明 |
 | :--- | :--- | :--- | :--- |
-| id | string | 否 | 物品模型id |
-| key | string | 否 | 物品模型key |
-| addItemVariable | map&lt;string,object&gt; | 否 | 物品模型变量 |
+| id | string | 是 | 物品模型id |
+| key | string | 是 | 物品模型key |
+| addItemVariable | map&lt;string,string&gt; | 否 | 物品模型变量 |
 
 ```text
  /**
