@@ -75,6 +75,7 @@ public class MyApplication extends Application {
 
         GrowingTouch.startWithConfig(this, new GTouchConfig()
              .setDebugEnable(BuildConfig.DEBUG)
+             .setMessageHost("获取您的服务器上发出的弹窗和banner数据")
              );
     }
 }
