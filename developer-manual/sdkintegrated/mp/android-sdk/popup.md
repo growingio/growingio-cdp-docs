@@ -67,7 +67,7 @@ public class MyApplication extends Application {
              .setEventPopupShowTimeout(5000)
              .setEventPopupEnable(true)
              .setDebugEnable(BuildConfig.DEBUG)
-             .setMessageHost("获取您的服务器上发出的弹窗和banner数据")
+             .setMessageHost("获取您的服务器上发出的弹窗数据")
              .setEventPopupListener(new EventPopupListener() {
                      @Override
                      public void onLoadSuccess(String eventId, String eventType) {
