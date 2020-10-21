@@ -4,7 +4,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
 
 # 看板
 
-## 功能介紹
+## 功能介绍
 
 看板是GrowingIO系统中，最重要的数据消费场景之一，是分析图表的集合。在看板中多个分析图表可以有效的组合成业务看板进行监控与分析。 
 
@@ -37,7 +37,7 @@ description: 登录GrowingIO增长平台后默认进入看板模块，您可以�
   
 举例： 系统中 一共有 20 个看板， 与小花协作的看板有2个，小花创建的看板有5个，因此小花能查看的看板一共为 7 个。 
 
-共享設置可見 ： [看板共享設置鏈接](https://app.gitbook.com/@growingio/s/cdp/~/drafts/-M7f1KTwEG20PbWnheJR/v/v20200600/product-manual/charts/kan-ban-gong-xiang-she-zhi)
+共享设置可见 ： [看板共享设置链接](kanban-sharing-settings.md)
 {% endhint %}
 
 ## 看板的操作說明 
