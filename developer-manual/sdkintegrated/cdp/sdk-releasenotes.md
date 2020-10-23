@@ -137,9 +137,25 @@
 {% endtab %}
 
 {% tab title="JAVA" %}
-|  |  |
-| :--- | :--- |
-|  |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">SDK&#x7248;&#x672C;&#x53F7;</th>
+      <th style="text-align:left">&#x66F4;&#x65B0;&#x5185;&#x5BB9;</th>
+      <th style="text-align:left">&#x65F6;&#x95F4;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1.0.8</td>
+      <td style="text-align:left">
+        <p>&#x652F;&#x6301;&#x7269;&#x54C1;&#x6A21;&#x578B; API</p>
+        <p>&#x652F;&#x6301;&#x901A;&#x8FC7;&#x4F20;&#x5165; Properties &#x8FDB;&#x884C;&#x914D;&#x7F6E;&#x521D;&#x59CB;&#x5316;</p>
+      </td>
+      <td style="text-align:left">2020-10-20</td>
+    </tr>
+  </tbody>
+</table>
 {% endtab %}
 
 {% tab title="小程序" %}
