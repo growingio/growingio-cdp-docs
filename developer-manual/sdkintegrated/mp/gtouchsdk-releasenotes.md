@@ -11,6 +11,17 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">1.4.4</td>
+      <td style="text-align:left">
+        <p>&#x8D44;&#x6E90;&#x4F4D;&#x652F;&#x6301;pageControl&#x56FE;&#x7247;&#x914D;&#x7F6E;
+          (&#x56FE;&#x7247;&#x9009;&#x4E2D;&#x548C;&#x672A;&#x9009;&#x4E2D;&#x5168;&#x90E8;&#x8BBE;&#x7F6E;&#x624D;&#x80FD;&#x6709;&#x6548;&#xFF0C;&#x5426;&#x5219;&#x4E3A;&#x9ED8;&#x8BA4;&#x6A21;&#x5F0F;)
+          <br
+          />&#x8D44;&#x6E90;&#x4F4D;&#x652F;&#x6301;pageControl&#x989C;&#x8272;&#x548C;&#x5927;&#x5C0F;&#x8BBE;&#x7F6E;</p>
+        <p>&#x8D44;&#x6E90;&#x4F4D;&#x6A21;&#x677F;&#x6E32;&#x67D3;&#x9002;&#x914D;iOS14</p>
+        <p>&#x65B0;&#x589E;api&#x4F9B;&#x7528;&#x6237;&#x83B7;&#x53D6;&#x5168;&#x90E8;&#x5F39;&#x7A97;&#x6570;&#x636E;</p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">1.4.1</td>
       <td style="text-align:left">
         <p>1.&#x652F;&#x6301;&#x5F39;&#x7A97;&#x626B;&#x7801;&#x6D4B;&#x8BD5;&#xFF0C;&#x652F;&#x6301;&#x5F39;&#x7A97;&#x53BB;&#x91CD;&#x8BBE;&#x7F6E;</p>
