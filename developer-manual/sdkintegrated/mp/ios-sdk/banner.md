@@ -26,7 +26,8 @@
 
 * 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、
 
-  GrowingTouchCoreUI.bundle以及GrowingTouchBannerKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDP1.2.4\_Touch1.4.1.zip](http://assets.giocdn.com/cdp/ios/CDP1.2.4_Touch1.4.1.zip)
+  GrowingTouchCoreUI.bundle以及GrowingTouchBannerKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDPTouch1.4.4.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.4.4.zip
+  )
 
 ![](../../../../.gitbook/assets/image%20%28110%29.png)
 
