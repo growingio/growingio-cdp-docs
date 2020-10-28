@@ -95,6 +95,25 @@ Banner视图支持以下属性设置
 | pageControl的位置 | pageControlAlignemnt |
 | 轮播视图为空的默认错误占位图 | bannerViewErrorImage |
 | 图片的填充模式，包括轮播图以及没有轮播图时的背景图 | imageViewContentMode |
+| pageControl 选中时的图片\(运营bannerSDK 1.4.4 及以上支持\) | currentPageIndicatorImage |
+| pageControl 未选中时的图片\(运营SDK 1.4.4 及以上支持\) | pageIndicatorImage |
+| 非图片模式pageControl 选中的颜色\(运营SDK 1.4.4 及以上支持\) | currentPageIndicatorTintColor |
+| 非图片模式pageControl 未选中的颜色\(运营SDK 1.4.4 及以上支持\) | pageIndicatorTintColor |
+| pageControl 选中的尺寸大小 CGSize | currentPageIndicatorSize |
+| pageControl 未选中的尺寸大小 CGSize | pageIndicatorSize |
+| pageControl 间距大小 CGFloat | pageIndicatorSpaing |
+
+```objectivec
+// 示例代码
+// 设置pageControl图片
+self.bannerView.currentPageIndicatorImage = [UIImage imageNamed:@"page_select"];
+self.bannerView.pageIndicatorImage = [UIImage imageNamed:@"page_unselect"];
+self.bannerView.currentPageIndicatorSize = CGSizeMake(10,10);
+self.bannerView.pageIndicatorSize = CGSizeMake(10,10);
+​
+//    self.bannerView.currentPageIndicatorTintColor = [UIColor redColor];
+//    self.bannerView.pageIndicatorTintColor = [UIColor yellowColor];
+```
 
 ### 3. 数据请求
 
