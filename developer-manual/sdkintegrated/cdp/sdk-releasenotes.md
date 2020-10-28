@@ -178,6 +178,11 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">0.10</td>
+      <td style="text-align:left">&#x652F;&#x6301; forceLogin &#x914D;&#x7F6E;</td>
+      <td style="text-align:left">2020-10-26</td>
+    </tr>
+    <tr>
       <td style="text-align:left">0.9</td>
       <td style="text-align:left">&#x8BBE;&#x7F6E;&#x767B;&#x5F55; ID &#x4EE5;&#x540E;&#x91CD;&#x542F;&#x5C0F;&#x7A0B;&#x5E8F;&#x4ECD;&#x7136;&#x751F;&#x6548;</td>
       <td

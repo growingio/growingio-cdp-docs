@@ -97,6 +97,25 @@ GrowingIO 默认发数时是https，如果您的请求协议为http，可以参�
 gio('init', 'your projectId','your dataSourceId', 'your appId' , {scheme: 'http'});
 ```
 
+### forceLogin
+
+小程序可以指定强制登录，设置 forceLogin 为 true 后未调用 identify 方法前，不会发送数据，调用 identify 会设置 anonymousId 为给定值（一般是小程序 openId），然后会开发发送数据，包括identify之前触发的事件。
+
+```text
+gio('identify', custom_user_id)
+```
+
+一般在
+
+> ```text
+> --wxml
+> <button open-type="getUserInfo" bindgetuserinfo="setPlatformProfile">获取用户信息</button>
+> --js
+> setPlatformProfile: (e) => {
+>     gio('setPlatformProfile', e.detail.userInfo);
+>   },
+> ```
+
 ### **getLocation**
 
 GrowingIO 默认不获取用户的地理位置信息，如果您的小程序在打开时就需要获取用户地理信息，需要在初始化时设置获取用户地理位置信息和位置格式**。**
@@ -164,18 +183,19 @@ gio('setPlatformProfile')
 | dataSourceId | string | 是 | 数据源ID |
 | appId | string | 是 | 微信应用ID |
 | host | string | 是 | 发送到服务端的主机名 |
+| scheme | string | 否 | api 请求协议 http/https |
+| forceLogin | boolean | 否 | 设置是否强制登录，默认值 false |
 | getLocation | JSON Object | 否 | 是否获取地理位置和坐标格式 |
 | options | JSON Object | 否 | 系统变量配置 |
 
 ```text
 //init API原型
-gio('init', projectId,dataSourceId,appId,options);
-
+gio('init', projectId, dataSourceId, appId, options);
 //init API调用示例
 //配置发数api为 http://api.test.com
-gio('init', '1234567890', 'test','wx112222',{
-scheme: 'http',
-host: 'api.test.com'
+gio('init', 'your-project-id', 'your-data-source-id', 'wx112222', {
+    scheme: 'http',
+    host: 'api.test.com'
 });
 ```
 
@@ -192,7 +212,7 @@ host: 'api.test.com'
 gio('setUserId', userId);
 
 //setuserId API调用示例
-gio('setUserId', '0xffffff');
+gio('setUserId', '88888');
 ```
 
 ### 清除登录用户 ID（clearUserId）
@@ -206,8 +226,6 @@ gio('clearUserId');
 
 ### 设置用户变量 （setUserAttributes）
 
-setPlatformProfile在取得用户授权后，可以获得微信用户的信息，需要在获取用户授权的回调函数中调用。
-
 | 参数名称 | 类型 | 是否必填 | 说明 |
 | :--- | :--- | :--- | :--- |
 | userAttributes | JSON Object | 是 | 包含用户变量的JSON对象。 |
@@ -218,6 +236,19 @@ gio('setUserAttributes', userAttributes);
 
 // setUserAttributes API调用示例
 gio('setUserAttributes', {name: 'zc'})
+```
+
+### 设置平台用户信息
+
+获取用户信息 \(setPlatformProfile\) 在取得用户授权后，可以获得用户的信息。需要在获取用户授权的回掉函数中调用。以微信小程序为例：
+
+```text
+--wxml
+<button open-type="getUserInfo" bindgetuserinfo="setPlatformProfile">获取用户信息</button>
+--js
+setPlatformProfile: (e) => {
+    gio('setPlatformProfile', e.detail.userInfo);
+ }
 ```
 
 ### 上传物品模型
@@ -244,29 +275,27 @@ gio('setUserAttributes', {name: 'zc'})
 
 ```text
 // track API调用原型
-gio(track, eventId);
-gio('track', eventId, eventLevelVariables);
+gio('track', 'eventId');
+gio('track', 'eventId', eventLevelVariables);
 // track API调用示例
-gio('track','order', {type: 'hjh'})
+gio('track','order', {'price': 100.0 })
 ```
 
 ### **GDPR数据采集开关**
 
-注意这里和线上UBA WEB JS SDK有区别，uba true时停止采集。
+注意这里和线上UBA WEB JS SDK有区别，UBA 中开关为 True 时停止采集。
 
 GrowingIO 全面支持欧盟《一般数据保护条例》。
 
 ```text
 // 停止采集数据
-gio('setConfig',{"dataCollect": false}); 全局配置, 可以放到send之后
+gio('setConfig',{'dataCollect': false}); 全局配置, 可以放到send之后
 // 采集数据 (默认)
-gio('setConfig',{"dataCollect": true}); 
+gio('setConfig',{'dataCollect': true}); 
 // 获取访问用户ID
 ```
 
-获取用户信息 \(setPlatformProfile\) 在取得用户授权后，可以获得用户的信息。需要在获取用户授权的回掉函数中调用。
 
-```text
-gio('setPlatformProfile')
-```
+
+
 
