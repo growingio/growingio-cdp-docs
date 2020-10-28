@@ -191,7 +191,7 @@ import org.apache.commons.codec.digest.HmacUtils;
 
 String sign(Map<String, String> payload, String secret) {
     String str = new Gson().toJson(payload);
-    return new HmacUtils(HmacAlgorithms.HMAC_SHA_256, secret).hmacHex(new Gson().toJson(str));
+    return new HmacUtils(HmacAlgorithms.HMAC_SHA_256, secret).hmacHex(str);
 }
 ```
 
