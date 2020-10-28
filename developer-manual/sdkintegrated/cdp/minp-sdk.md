@@ -278,7 +278,7 @@ setPlatformProfile: (e) => {
 gio('track', 'eventId');
 gio('track', 'eventId', eventLevelVariables);
 // track API调用示例
-gio('track','order', {'price': 100.0 })
+gio('track', 'order', {'price': 100.0 })
 ```
 
 ### **GDPR数据采集开关**
