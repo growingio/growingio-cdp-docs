@@ -199,6 +199,23 @@ gio('init', 'your-project-id', 'your-data-source-id', 'wx112222', {
 });
 ```
 
+### forceLogin 参数（仅支持微信小程序）
+
+设置forceLogin参数后，访问用户ID会被userid替换，但是风险是，如果小程序打开时并不要求立即授权上报userid，则在上报userid前的操作数据不会发送；如果在上报userid前，用户就退出了小程序，用户数据不会上报。
+
+forceLogin 是一个需要特别注意的参数。
+
+GrowingIO 默认会在小程序里面设置用户标识符，存储在 Storage 里面。这个用户标识符潜在可能会被 `clearStorage`清除掉，所以有可能不同的用户标识符对应同一个用户的 userid。如果你的小程序在用户打开后会去做登陆并且获取 `userid` ，可以设置 `forceLogin` 为 true。当 forceLogin 为 true 的时候，用户标识符会使用 userid，潜在风险是如果用户没有授权，数据不会发送。
+
+**所以请特别注意这个参数的设置**，具体集成示例：
+
+```text
+gio('init', '你的项目ID', '你的小程序AppID', { version: '1.0', forceLogin: true });
+// 当获取到 userid 后，调用以下方法gio("identify", userid);
+```
+
+### 
+
 ### 设置登录用户 ID（setUserId）
 
 当用户登录之后调用 setUserId API ，设置登录用户 ID 。
