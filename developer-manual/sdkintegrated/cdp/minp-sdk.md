@@ -102,19 +102,10 @@ gio('init', 'your projectId','your dataSourceId', 'your appId' , {scheme: 'http'
 小程序可以指定强制登录，设置 forceLogin 为 true 后未调用 identify 方法前，不会发送数据，调用 identify 会设置 anonymousId 为给定值（一般是小程序 openId），然后会开发发送数据，包括identify之前触发的事件。
 
 ```text
-gio('identify', custom_user_id)
+gio('init', 'your projectId','your dataSourceId', 'your appId' , {forceLogin: true});
+
+gio('identify', openId)
 ```
-
-一般在
-
-> ```text
-> --wxml
-> <button open-type="getUserInfo" bindgetuserinfo="setPlatformProfile">获取用户信息</button>
-> --js
-> setPlatformProfile: (e) => {
->     gio('setPlatformProfile', e.detail.userInfo);
->   },
-> ```
 
 ### **getLocation**
 
@@ -160,17 +151,21 @@ gio('track', eventId, eventLevelVariables);
 // 上传物品模型
 gdp('track', eventId, eventLevelVariables，item);
 
-// 发送用户变量API
+// 发送用户变量 API
 gio('setUserAttributes', userAttributes);
 
-// 设置登录用户ID
+// 设置登录用户 ID
 gio('setUserId', userId); 
 
-// 清除登录用户ID
+// 清除登录用户 ID
 gio('clearUserId');
+
+// 设置访问用户 ID
+gio('identify', openId)
 
 // 获取用户信息
 gio('setPlatformProfile')
+
 ```
 
 ### **初始化参数API（Init）**
