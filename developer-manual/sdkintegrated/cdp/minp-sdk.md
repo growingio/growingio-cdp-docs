@@ -105,17 +105,6 @@ gio('init', 'your projectId','your dataSourceId', 'your appId' , {scheme: 'http'
 gio('identify', custom_user_id)
 ```
 
-一般在
-
-> ```text
-> --wxml
-> <button open-type="getUserInfo" bindgetuserinfo="setPlatformProfile">获取用户信息</button>
-> --js
-> setPlatformProfile: (e) => {
->     gio('setPlatformProfile', e.detail.userInfo);
->   },
-> ```
-
 ### **getLocation**
 
 GrowingIO 默认不获取用户的地理位置信息，如果您的小程序在打开时就需要获取用户地理信息，需要在初始化时设置获取用户地理位置信息和位置格式**。**
