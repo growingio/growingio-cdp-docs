@@ -43,8 +43,6 @@
   * [数据](product-manual/data-center/README.md)
     * [事件](product-manual/data-center/event-management/README.md)
       * [埋点事件](product-manual/data-center/event-management/manual.md)
-      * [无埋点事件](product-manual/data-center/event-management/auto/README.md)
-        * [Web端数据定义](product-manual/data-center/event-management/auto/web.md)
     * [属性](product-manual/data-center/property/README.md)
       * [预定义属性](product-manual/data-center/property/preset-property.md)
       * [事件属性](product-manual/data-center/property/event-property.md)
