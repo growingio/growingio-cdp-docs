@@ -111,7 +111,7 @@ X-gio-signature:xxx
 }
 ```
 
-如果不查询用户属性，userAttr字段为空数组:
+如果查询不到用户属性，userAttr字段为空数组:
 
 ```text
 {
@@ -198,6 +198,8 @@ String sign(Map<String, String> payload, String secret) {
 生成的签名放置在http响应头X-gio-signature中，例如:
 
 X-gio-signature:1e089260ba1bfde37f88eca8e665d8b1fb690ae763979d25dd10a831dedd52a8
+
+可参考秘钥计算的代码：[https://github.com/growingio/growing-webhook-demo](https://github.com/growingio/growing-webhook-demo) 
 
 ### Webhook 配置 <a id="Webhook-&#x914D;&#x7F6E;"></a>
 
