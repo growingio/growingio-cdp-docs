@@ -199,8 +199,6 @@ String sign(Map<String, String> payload, String secret) {
 
 X-gio-signature:1e089260ba1bfde37f88eca8e665d8b1fb690ae763979d25dd10a831dedd52a8
 
-可参考秘钥计算的代码：[https://github.com/growingio/growing-webhook-demo](https://github.com/growingio/growing-webhook-demo) 
-
 ### Webhook 配置 <a id="Webhook-&#x914D;&#x7F6E;"></a>
 
 #### 模版参数支持类型 <a id="&#x6A21;&#x7248;&#x53C2;&#x6570;&#x652F;&#x6301;&#x7C7B;&#x578B;"></a>
