@@ -15,7 +15,35 @@ GrowingIO采集的原始行为数据分为四种不同类型，分别为访问\(
 
 最新的数据模型同时具备了提供实时数据的能力，行为数据从触点触发再到客户可以观察到，时间间隔可以缩小到5 ～ 10秒钟。
 
-## 事件模型\(Event\)
+## 客户操作手册
+
+GrowingIO CDP为客户安装了Zeppelin，客户可以通过Zeppelin SQL解释器查询数据平台中的数据库、数据表和表中数据。
+
+SQL语法：
+
+查询所有的数据库：show databases
+
+查询数据库中的数据表：show tables in {database\_name}
+
+查询数据表结构：desc {database\_name}.{table\_name}
+
+查询数据表分区： show partitions {database\_name}.{table\_name}
+
+查询数据表数据： select {field} from {database\_name}.{table\_name}
+
+数据表：
+
+行为模型：CARBON.EVENT\_LOG
+
+查询时请使用时间和类型分区加速查询速度。如需查询当前小时实时数据，可查询 HBASE 表，表名为 EVENT\_BUFFER\_SECOND\_{day}\_{hour} ，比如北京时间 2020.10.1 上午 8点，对应的是 EVENT\_BUFFER\_SECOND\_2020100100。
+
+用户属性模型：USER\_PROPS
+
+物品模型：CARBON.ITEM
+
+标签模型：TAG\_RULE\_RESULTS\(标签角度\)、USER\_TAG\_RULE\_VALUES（用户角度）
+
+## 行为模型\(Event\)
 
 <table>
   <thead>
@@ -294,7 +322,7 @@ GrowingIO平台采用独立的模型存储商品属性信息。在计算的过�
 
 > 经典电商场景：
 >
-> 一般情况下，企业内商品种类繁多。如果把商品特征\(如品牌、颜色 etc.\)作为事件维度进行存储，会造成维度值组合爆炸的问题。因此GrowingIO将物品属性与其他属性分割开。
+> 一般情况下，企业内商品种类繁多。如果把商品特征\(如品牌、颜色 etc.\)作为行为维度进行存储，会造成维度值组合爆炸的问题。因此GrowingIO将物品属性与其他属性分割开。
 
 {% hint style="success" %}
 物品模型需要与埋点事件进行绑定后才能使用
@@ -327,31 +355,25 @@ GrowingIO平台采用独立的模型存储商品属性信息。在计算的过�
 
 ## 标签模型\(Tag\)
 
-用户标签是人的画像描述信息，与用户属性的差别在于标签是基于GrowingIO
+用户标签是人的画像描述信息，与用户属性的差别在于标签是基于GrowingIO计算能力对人进行打标。
 
+| **字段** | **类型** | **备注** |
+| :--- | :--- | :--- |
+| tag\_id | varchar | 标签id |
+| tag\_value | varchar | 标签值 |
+| tag\_type | varchar | 标签类型 |
+| cnt | bigint | 标签人数 |
+| bitmap | varbinary | 标签人bitmap |
+| in\_time | bigint | 更新时间 |
+| tag\_id, tag\_value | map&lt;string, string&gt; | 联合主键 |
 
+从用户角度看，该用户在哪些标签人群中。
 
-
-
-
-
-
-
-用户标签可以作为用户的一个特殊的属性，该属性可能是一个简单的用户身份，比如客户会员等级，也可能是通过复杂计算出来的计算指标。
-
-GrowingIO指标模型从两个娇滴滴对标签数据进行保存。
-
-标签角度，保存了标签下的的全部人群。
-
-
-
-
-
-##  
-
-
-
-
-
-
+| **字段** | **类型** | **备注** |
+| :--- | :--- | :--- |
+| gid | varchar | 用户标识符 |
+| tag\_id | varchar | 标签id |
+| tag\_value | varchar | 标签值 |
+| in\_time | bigint | 更新时间 |
+| gid, tag\_id | map&lt;string, string&gt; | 联合主键 |
 
