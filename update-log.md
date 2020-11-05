@@ -15,7 +15,7 @@
 ## v2020.9.0：2020年9月30日发布
 
 * 新功能：
-  * 数据平台：[数据平台使用新模型](introduction/data-model.md)
+  * 数据平台：[数据平台使用新模型](introduction/data-model/)
 * 优化:
   * 编辑移动应用数据源，URLscheme 被更新
 

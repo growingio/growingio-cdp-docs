@@ -2,7 +2,8 @@
 
 * [快速入口](README.md)
 * [产品简介](introduction/README.md)
-  * [数据模型](introduction/data-model.md)
+  * [数据模型](introduction/data-model/README.md)
+    * [旧版本兼容指南](introduction/data-model/jiu-ban-ben-jian-rong-zhi-nan.md)
   * [属性模型](introduction/property-model.md)
   * [属性筛选](introduction/property-selector.md)
 * [产品使用文档](product-manual/README.md)
