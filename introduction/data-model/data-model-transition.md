@@ -10,9 +10,9 @@ event\_buffer\_second\_{time} 为实时数据，正常情况 5-10s 更新，time
 
 | **事件类型** | **旧版** | **新版** |
 | :--- | :--- | :--- |
-| 访问 | gio.visit | gio.event\_log / event\_buffer\_second\_{time} |
-| 页面 | gio.page | gio.event\_log / event\_buffer\_second\_{time} |
-| 打点 | gio.custom\_event | gio.event\_log / event\_buffer\_second\_{time} |
+| 访问 | gio.visit | carbon.event\_log / event\_buffer\_second\_{time} |
+| 页面 | gio.page | carbon.event\_log / event\_buffer\_second\_{time} |
+| 打点 | gio.custom\_event | carbon.event\_log / event\_buffer\_second\_{time} |
 
 ### 字段关系
 
