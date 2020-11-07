@@ -64,7 +64,7 @@ Web 弹窗 JS SDK： [https://assets.giocdn.com/sdk/cdp/marketing/access.latest.
 
 ### 3. 测试弹窗
 
-集成 SDK 后请务必创建一个「网页」弹窗进行测试，以保证 SDK 正确集成，弹窗创建方法请参考[ 创建弹窗](../../../../product-manual/mp/popup/create.md)。
+集成 SDK 后请务必创建一个「网页」弹窗进行测试，以保证 SDK 正确集成，弹窗创建方法请参考[ 创建弹窗](../../../../product-manual/mp/yong-hu-yun-ying/popup/create.md)。
 
 ## 浏览器兼容性
 
