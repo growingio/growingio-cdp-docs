@@ -124,25 +124,3 @@
 
 
 
-
-
-
-
-
-
-
-
-## 3. 常见场景[![](https://manual.sensorsdata.cn/sf/_/7F000001017303F18D42472C2716D172/1602572768146/images/common/link-solid.svg)](https://manual.sensorsdata.cn/sf/latest/canvas_creation-16286176.html#id-.%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%E7%94%BB%E5%B8%83v2.0-%E5%B8%B8%E8%A7%81%E5%9C%BA%E6%99%AF) <a id="id-.&#x521B;&#x5EFA;&#x6D41;&#x7A0B;&#x753B;&#x5E03;v2.0-&#x5E38;&#x89C1;&#x573A;&#x666F;"></a>
-
-### 3.1. 活动促销精准营销[![](https://manual.sensorsdata.cn/sf/_/7F000001017303F18D42472C2716D172/1602572768146/images/common/link-solid.svg)](https://manual.sensorsdata.cn/sf/latest/canvas_creation-16286176.html#id-.%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%E7%94%BB%E5%B8%83v2.0-%E6%B4%BB%E5%8A%A8%E4%BF%83%E9%94%80%E7%B2%BE%E5%87%86%E8%90%A5%E9%94%80) <a id="id-.&#x521B;&#x5EFA;&#x6D41;&#x7A0B;&#x753B;&#x5E03;v2.0-&#x6D3B;&#x52A8;&#x4FC3;&#x9500;&#x7CBE;&#x51C6;&#x8425;&#x9500;"></a>
-
-#### 3.1.1. 场景[![](https://manual.sensorsdata.cn/sf/_/7F000001017303F18D42472C2716D172/1602572768146/images/common/link-solid.svg)](https://manual.sensorsdata.cn/sf/latest/canvas_creation-16286176.html#id-.%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%E7%94%BB%E5%B8%83v2.0-%E5%9C%BA%E6%99%AF) <a id="id-.&#x521B;&#x5EFA;&#x6D41;&#x7A0B;&#x753B;&#x5E03;v2.0-&#x573A;&#x666F;"></a>
-
-**活动主题**：女神节定向营销
-
-**目标受众**：18－40 岁的女性用户
-
-**运营策略**：基于用户的消费品类偏好，女神节当天 10:00 定向发送对应品类的促销信息，并且在当天最后 1 个小时统一再来一波促销提醒。
-
-**活动效果评估**：活动上线后，追踪目标受众当日支付订单的完成率
-
