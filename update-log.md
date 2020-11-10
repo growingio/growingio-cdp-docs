@@ -6,7 +6,7 @@
   * 运营平台：[流程画布发布](product-manual/mp/process/)
   * 运营平台：Webhook支持实时触发
   * 水晶球：用户列表支持自定义展示信息和下载功能
-  * 数据平台：用户属性支持分类管理
+  * 数据平台：[用户属性支持分类管理](product-manual/data-center/property/user-property/)
   * 数据平台：offline 增加用户事件最后一次触发时间
 * 优化:
   * gio-flow优化，支持新旧模型
