@@ -169,6 +169,11 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">1.2</td>
+      <td style="text-align:left">&#x529F;&#x80FD;&#x4F18;&#x5316;</td>
+      <td style="text-align:left">2020-11-10</td>
+    </tr>
+    <tr>
       <td style="text-align:left">1.0</td>
       <td style="text-align:left">&#x652F;&#x6301; forceLogin &#x914D;&#x7F6E;</td>
       <td style="text-align:left">2020-10-26</td>
