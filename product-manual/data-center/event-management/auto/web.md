@@ -8,7 +8,7 @@ GrowingIO 全量采集用户行为数据，你可以通过「圈选」来定义�
 
 ### Hashtag使用说明
 
-如果您的Web页面URL使用了Hashtag，请在加载SDK进行预先配置，请参考[JS SDK](../../../../developer-manual/sdkintegrated/cdp/js-sdk.md#chu-shi-hua-can-shu-api)。
+如果您的Web页面URL使用了Hashtag，请在加载SDK进行预先配置，请参考[JS SDK](https://assets.giocdn.com/sdk/cdp/gio-0.7.1.js)。
 
 ### 插件下载和安装
 
