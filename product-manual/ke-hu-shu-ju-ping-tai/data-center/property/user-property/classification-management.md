@@ -13,7 +13,7 @@
 
 操作流程：点击左上角“+”新建用户属性分类。
 
-![](../../../../.gitbook/assets/image%20%28406%29.png)
+![](../../../../../.gitbook/assets/image%20%28406%29.png)
 
 {% hint style="success" %}
 如未选择上级分类，则在第一级最下方添加新的分类。
@@ -25,21 +25,21 @@
 
 操作流程：在自定义分类后点击 操作 &gt; 添加子分类
 
-![](../../../../.gitbook/assets/image%20%28400%29.png)
+![](../../../../../.gitbook/assets/image%20%28400%29.png)
 
 如不更改上级分类，则默认在该分类下级最下方添加新的分类。
 
-![](../../../../.gitbook/assets/image%20%28401%29.png)
+![](../../../../../.gitbook/assets/image%20%28401%29.png)
 
 ### 重命名
 
 操作流程：在自定义分类后点击 操作 &gt; 重命名
 
-![](../../../../.gitbook/assets/image%20%28399%29.png)
+![](../../../../../.gitbook/assets/image%20%28399%29.png)
 
 修改分类名称后，点击确定保存修改。
 
-![](../../../../.gitbook/assets/image%20%28402%29.png)
+![](../../../../../.gitbook/assets/image%20%28402%29.png)
 
 {% hint style="success" %}
 分类名称不能与已创建的分类名称重复；
@@ -51,11 +51,11 @@
 
 操作流程：在自定义分类后点击 操作 &gt; 删除
 
-![](../../../../.gitbook/assets/image%20%28404%29.png)
+![](../../../../../.gitbook/assets/image%20%28404%29.png)
 
 点击确认后，删除该分类。
 
-![](../../../../.gitbook/assets/image%20%28403%29.png)
+![](../../../../../.gitbook/assets/image%20%28403%29.png)
 
 {% hint style="success" %}
 您需要将分类中关联的子分类删除，并且移除分类下的所有用户属性才能删除此分类。

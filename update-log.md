@@ -6,7 +6,7 @@
   * 运营平台：[流程画布发布](product-manual/mp/process/)
   * 运营平台：Webhook支持实时触发
   * 水晶球：用户列表支持自定义展示信息和下载功能
-  * 数据平台：[用户属性支持分类管理](product-manual/data-center/property/user-property/)
+  * 数据平台：[用户属性支持分类管理](product-manual/ke-hu-shu-ju-ping-tai/data-center/property/user-property/)
   * 数据平台：offline 增加用户事件最后一次触发时间
 * 优化:
   * gio-flow优化，支持新旧模型
@@ -42,7 +42,7 @@
 * 新功能:
   * 标签：字符串类型标签支持在应用中进行维度拆解和全局过滤。
     * 常用场景：通过规则标签自定义用户分层，并在事件分析中监控不同分层用户核心指标变化。
-  * 全局指标：新增支持[总页面停留时长、平均页面停留时长、跳出次数](product-manual/data-center/complex/term.md#yu-ding-yi-zhi-biao)
+  * 全局指标：新增支持[总页面停留时长、平均页面停留时长、跳出次数](product-manual/ke-hu-shu-ju-ping-tai/data-center/complex/term.md#yu-ding-yi-zhi-biao)
     * 总页面停留时长：用户在所有页面停留的时长总和，以分钟作为单位展示
     * 平均页面停留时长：平均每个页面的停留时⻓，以分钟作为单位展示
     * 跳出次数：访问⼀个⻚⾯就离开的次数。即⼀次访问中只访问了⼀个⻚⾯
@@ -71,9 +71,9 @@
   * 分析工具：新增支持下钻分群和下载用户ID
     * 支持应用：[漏斗分析](product-manual/product-analysis/funnel.md#jie-du-lou-dou-fen-xi)、[留存分析](product-manual/product-analysis/retention.md#jie-du-liu-cun-fen-xi)、[分布分析](product-manual/product-analysis/frequency.md#sheng-cheng-yong-hu-fen-qun-huo-xia-zai-yong-hu-id)
   * 标签: 
-    * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/data-center/tag/tag-manage/tag-basic.md) 标签
-    * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/data-center/tag/tag-manage/tag-basic.md)
-  * 全局指标: [新增支持退出次数](product-manual/data-center/complex/term.md)
+    * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/ke-hu-shu-ju-ping-tai/tag/tag-manage/tag-basic.md) 标签
+    * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/ke-hu-shu-ju-ping-tai/tag/tag-manage/tag-basic.md)
+  * 全局指标: [新增支持退出次数](product-manual/ke-hu-shu-ju-ping-tai/data-center/complex/term.md)
     * 含义: 用来衡量用户退出网站/App/小程序的数量
     * 支持应用：KPI分析、事件分析、分布分析、分群画像
   * 时间控件: 选择器优化
@@ -96,7 +96,7 @@
 * 新功能: 
   * 分群画像：“做过”行为筛选功能新增支持使用计算指标筛选用户
   * 标签：
-    * [累计值/平均值/占比](product-manual/data-center/tag/tag-manage/tag-basic.md)标签新增支持使用计算指标的累计值创建用户标签
+    * [累计值/平均值/占比](product-manual/ke-hu-shu-ju-ping-tai/tag/tag-manage/tag-basic.md)标签新增支持使用计算指标的累计值创建用户标签
     * 分层标签新增支持使用计算指标定义用户分层
   * 角色管理
     * 新增支持创建和管理角色，一个角色就相当于一个功能权限包
@@ -133,7 +133,7 @@
   * 产品分析：看板增加”[添加描述](product-manual/charts/#tian-jia-miao-shu)“功能 
     * 支持添加描述功能，可在看板上增加对看板或图表的描述说明
     * 支持描述图表拖拽和移动功能，可根据描述区域拖拽描述图表到对应位置
-  * 全局指标：支持iOS 和 Android无埋点[全局指标](product-manual/data-center/complex/term.md#quan-ju-zhi-biao)采集
+  * 全局指标：支持iOS 和 Android无埋点[全局指标](product-manual/ke-hu-shu-ju-ping-tai/data-center/complex/term.md#quan-ju-zhi-biao)采集
 * 优化:
   * 用户画像: 分群规则选择属性时条件语句时去掉时间范围限制，您可以筛选出所有符合属性的用户
   * 标签: 分层标签选择属性时条件语句时去掉时间范围限制，您可以筛选出所有符合属性的用户
@@ -175,12 +175,12 @@
     * 新增支持整数和日期类型用户属性
     * 字符串、整数和日期类型属性计算规则新增有值和没值
     * 日期类型属性计算规则新增相对时间和相对区间
-  * 数据平台: 新增[**utm映射功能**](product-manual/project-setting/utm-map.md)\*\*\*\*
+  * 数据平台: 新增[**utm映射功能**](product-manual/ke-hu-shu-ju-ping-tai/data-center/utm-map.md)\*\*\*\*
     * 支持创建utm映射规则
     * 支持批量创建
   * 数据平台: 新增前端界面**下载功能**
     * 包括事件分析、漏斗分析、留存分析、分布分析、分群列表和标签csv文件下载
-  * SDK: 新增[**网站和微信小程序全局指标**](product-manual/data-center/complex/term.md)无埋点数据采集
+  * SDK: 新增[**网站和微信小程序全局指标**](product-manual/ke-hu-shu-ju-ping-tai/data-center/complex/term.md)无埋点数据采集
     * 包含访问量、页面浏览量、每次访问页面浏览量、人均访问次数、总访问时长\(分钟\)、平均访问时长\(分钟\)、跳出率和退出率
   * 体验优化: 平台启动定位模块优化，按顶导航模块顺序\(除运营外\)打开后默认定位第一个模块
 * 优化:

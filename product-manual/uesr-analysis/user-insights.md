@@ -23,7 +23,7 @@
     <tr>
       <td style="text-align:left">1-&#x7528;&#x6237;&#x4FE1;&#x606F;</td>
       <td style="text-align:left">&#x9884;&#x7F6E;&#x7528;&#x6237;&#x8EAB;&#x4EFD;&#x4FE1;&#x606F;&#xFF0C;&#x5BF9;&#x5E94;&quot;&#x6570;&#x636E;
-        &gt; <a href="../data-center/property/user-info.md">&#x7528;&#x6237;&#x4FE1;&#x606F;</a>&#x201C;&#x3002;</td>
+        &gt; <a href="../ke-hu-shu-ju-ping-tai/data-center/property/user-info.md">&#x7528;&#x6237;&#x4FE1;&#x606F;</a>&#x201C;&#x3002;</td>
     </tr>
     <tr>
       <td style="text-align:left">2-&#x7528;&#x6237;&#x5C5E;&#x6027;&#x6216;&#x6807;&#x7B7E;</td>

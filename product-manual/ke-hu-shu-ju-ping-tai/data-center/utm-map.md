@@ -29,5 +29,5 @@
 1. 在界面右上角单击 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-Lsu2CWi8CGylwC7jWSB-LsuPIbtjENP0zZy9KaU2019-10-10_18-59-32.png) 选择项目配置，打开项目配置界面。选择**UTM映射**页签。
 2. 单击**新建UTM映射**来创建映射关系。
 
-![UTM&#x6620;&#x5C04;](../../.gitbook/assets/image%20%283%29.png)
+![UTM&#x6620;&#x5C04;](../../../.gitbook/assets/image%20%283%29.png)
 
