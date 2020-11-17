@@ -186,12 +186,13 @@ Request Body
 /**
  * java生成签名示例
  */
-import com.google.gson.Gson;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.codec.digest.HmacUtils;
 
 String sign(Map<String, String> payload, String secret) {
-    String str = new Gson().toJson(payload);
-    return new HmacUtils(HmacAlgorithms.HMAC_SHA_256, secret).hmacHex(str);
+  ObjectMapper mapper = new ObjectMapper();
+  String str = mapper.writeValueAsString(payload);
+  return new HmacUtils(HmacAlgorithms.HMAC_SHA_256, secret).hmacHex(str);
 }
 ```
 
