@@ -77,6 +77,7 @@
       * [数据源管理](product-manual/ke-hu-shu-ju-ping-tai/datasource/datasource-manage.md)
       * [数据导入管理](product-manual/ke-hu-shu-ju-ping-tai/datasource/data-import.md)
   * [企业管理后台](product-manual/qi-ye-guan-li-hou-tai/README.md)
+    * [如何进入企业管理后台？](product-manual/qi-ye-guan-li-hou-tai/ru-he-jin-ru-qi-ye-guan-li-hou-tai.md)
     * [企业概览 doen](product-manual/qi-ye-guan-li-hou-tai/enterprise-overview.md)
     * [企业成员与部门](product-manual/qi-ye-guan-li-hou-tai/qi-ye-cheng-yuan-yu-bu-men/README.md)
       * [成员管理 doen](product-manual/qi-ye-guan-li-hou-tai/qi-ye-cheng-yuan-yu-bu-men/member-manage.md)
