@@ -51,6 +51,7 @@
     * [站點角色](product-manual/zhan-dian-guan-li/zhan-dian-jiao-se/README.md)
       * [典型角色应用场景](product-manual/zhan-dian-guan-li/zhan-dian-jiao-se/classic-scenario.md)
   * [客户数据平台](product-manual/ke-hu-shu-ju-ping-tai/README.md)
+    * [如何进入客户数据平台?](product-manual/ke-hu-shu-ju-ping-tai/ru-he-jin-ru-ke-hu-shu-ju-ping-tai.md)
     * [数据](product-manual/ke-hu-shu-ju-ping-tai/data-center/README.md)
       * [事件](product-manual/ke-hu-shu-ju-ping-tai/data-center/event-management/README.md)
         * [埋点事件](product-manual/ke-hu-shu-ju-ping-tai/data-center/event-management/manual.md)
