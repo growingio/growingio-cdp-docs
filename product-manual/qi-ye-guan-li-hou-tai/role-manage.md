@@ -71,63 +71,13 @@ GrowingIO 在项目中，帮助用户预置了 5 个系统角色：_**拥有者�
 
 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">
-        <p>&#x8D85;&#x7D1A;&#x7BA1;&#x7406;&#x5458;</p>
-        <p></p>
-      </th>
-      <th style="text-align:left">
-        <p>&#x6570;&#x636E;&#x7BA1;&#x7406;&#x5458;</p>
-        <p></p>
-      </th>
-      <th style="text-align:left">
-        <p>&#x4F01;&#x4E1A;&#x6210;&#x5458;</p>
-        <p></p>
-      </th>
-      <th style="text-align:left">&#x5916;&#x90E8;&#x6210;&#x5458;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">&#x4F01;&#x4E1A;&#x6982;&#x89C8;</td>
-      <td style="text-align:left">&#x6240;&#x6709;&#x6743;&#x9650;</td>
-      <td style="text-align:left">&#x53EA;&#x8BFB;</td>
-      <td style="text-align:left">&#x53EA;&#x8BFB;</td>
-      <td style="text-align:left">&#x65E0;&#x6743;&#x9650;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x90E8;&#x95E8;&#x4E0E;&#x6210;&#x5458;</td>
-      <td style="text-align:left">&#x6240;&#x6709;&#x6743;&#x9650;</td>
-      <td style="text-align:left">&#x53EA;&#x8BFB;</td>
-      <td style="text-align:left">&#x53EA;&#x8BFB;</td>
-      <td style="text-align:left">&#x65E0;&#x6743;&#x9650;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x4F01;&#x4E1A;&#x89D2;&#x8272;</td>
-      <td style="text-align:left">&#x6240;&#x6709;&#x6743;&#x9650;</td>
-      <td style="text-align:left">&#x53EA;&#x8BFB;</td>
-      <td style="text-align:left">&#x53EA;&#x8BFB;</td>
-      <td style="text-align:left">&#x65E0;&#x6743;&#x9650;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x7AD9;&#x70B9;&#x7BA1;&#x7406;</td>
-      <td style="text-align:left">&#x6240;&#x6709;&#x6743;&#x9650;</td>
-      <td style="text-align:left">&#x53EA;&#x8BFB;</td>
-      <td style="text-align:left">&#x53EA;&#x8BFB;</td>
-      <td style="text-align:left">&#x65E0;&#x6743;&#x9650;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x5BA2;&#x6237;&#x6570;&#x636E;&#x5E73;&#x53F0;</td>
-      <td style="text-align:left">&#x6240;&#x6709;&#x6743;&#x9650;</td>
-      <td style="text-align:left">&#x6240;&#x6709;&#x6743;&#x9650;</td>
-      <td style="text-align:left">&#x65E0;&#x6743;&#x9650;</td>
-      <td style="text-align:left">&#x65E0;&#x6743;&#x9650;</td>
-    </tr>
-  </tbody>
-</table>
+|  | 超級管理员 | 数据管理员 | 企业成员  | 外部成员 |
+| :--- | :--- | :--- | :--- | :--- |
+| 企业概览 | 所有权限 | 只读 | 只读 | 无权限 |
+| 部门与成员 | 所有权限 | 只读 | 只读 | 无权限 |
+| 企业角色 | 所有权限 | 只读 | 只读 | 无权限 |
+| 站点管理  | 所有权限 | 只读 | 只读 | 无权限 |
+| 客户数据平台 | 所有权限 | 所有权限 | 无权限 | 无权限 |
 
 
 
