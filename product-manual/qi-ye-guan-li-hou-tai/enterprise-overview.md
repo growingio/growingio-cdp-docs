@@ -1,4 +1,4 @@
-# 企业概览 doen
+# 企业概览.
 
 ## 功能介绍
 
@@ -8,13 +8,13 @@
 
 在系统首页点击，企业管理后台。
 
+![](../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.38.02.png)
+
 {% hint style="warning" %}
 企业管理后台的访问权限受到 【企业角色 】所控制。  
   
 企业角色为外部成员的使用者，无法访问。 
 {% endhint %}
-
-![](../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-1.57.53%20%281%29.png)
 
 ## 界面介绍
 

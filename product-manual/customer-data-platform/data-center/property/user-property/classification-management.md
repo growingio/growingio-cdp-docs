@@ -57,7 +57,7 @@
 
 ![](../../../../../.gitbook/assets/image%20%28403%29.png)
 
-{% hint style="success" %}
+{% hint style="warning" %}
 您需要将分类中关联的子分类删除，并且移除分类下的所有用户属性才能删除此分类。
 {% endhint %}
 

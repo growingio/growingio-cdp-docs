@@ -1,4 +1,4 @@
-# 企业角色 done
+# 企业角色 .
 
 ## 功能介绍
 
@@ -18,15 +18,13 @@
 
 可查看企业角色下相关的企业成员。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-2.53.00.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.30.00.png)
 
 **企业对应的权限**
 
 可查看企业角色对应的权限。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-3.12.53.png)
-
-\*\*\*\*
+![](../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.30.31.png)
 
 \*\*\*\*
 
@@ -61,8 +59,6 @@ GrowingIO 在**企业**中，帮助用户预置了 5 个系统角色：_**拥有
 
 * 无访问企业管理后台与客户数据平台。推荐给各企业外部人员设置此角色。
 
-
-
 |  | 超級管理员 | 数据管理员 | 企业成员  | 外部成员 |
 | :--- | :--- | :--- | :--- | :--- |
 | 企业概览 | 所有权限 | 只读 | 只读 | 无权限 |
@@ -70,8 +66,6 @@ GrowingIO 在**企业**中，帮助用户预置了 5 个系统角色：_**拥有
 | 企业角色 | 所有权限 | 只读 | 只读 | 无权限 |
 | 站点管理  | 所有权限 | 只读 | 只读 | 无权限 |
 | 客户数据平台 | 所有权限 | 所有权限 | 无权限 | 无权限 |
-
-
 
 
 
@@ -88,17 +82,21 @@ GrowingIO 在**企业**中，帮助用户预置了 5 个系统角色：_**拥有
 
 操作流程： 点击添加成员 &gt;  弹窗选择成员 &gt; 点击确定。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-3.16.41.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.32.12.png)
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-3.13.35.png)
-
-
+{% hint style="warning" %}
+权限控制：仅拥有者、超级管理员 拥有企业角色的权限
+{% endhint %}
 
 ### 修改企业角色
 
 操作流程： 点击修改企业角色 &gt;  弹窗选择企业角色&gt; 点击确定。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-3.30.20.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.33.18.png)
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-3.16.52.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.34.15.png)
+
+{% hint style="warning" %}
+权限控制：仅拥有者、超级管理员 拥有企业角色的权限
+{% endhint %}
 

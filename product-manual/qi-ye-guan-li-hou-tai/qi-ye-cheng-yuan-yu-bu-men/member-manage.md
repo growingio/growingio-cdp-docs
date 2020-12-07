@@ -1,16 +1,14 @@
-# 成员管理 doen
+# 成员管理 .
 
 ## 功能介绍
 
 在成员管理中，可以帮助系统的管理员完成管理系统成员的工作 ，
 
-如 成员信息、新建帐号、赋予成员角色、注销成员帐号等。
+如成员信息、新建帐号、赋予成员角色、注销成员帐号等。
 
 {% hint style="info" %}
 名称解释：成员，即为可访问在GrowingIO 系统的使用者。
 {% endhint %}
-
-
 
 ## 如何进入企业成员管理？
 
@@ -50,8 +48,6 @@
 权限控制： 仅拥有者、超级管理员拥有企业成员管理的权限 。
 {% endhint %}
 
-### 
-
 ### 查看成员详情
 
 操作流程： 点击成员名称 &gt;  打开成员详情。
@@ -68,7 +64,7 @@
 
 ![](../../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-2.29.10.png)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 请提醒成员登入后，尽快跟换密码，以确保个人帐号安全 。
 {% endhint %}
 
@@ -96,11 +92,11 @@
 
 操作流程：点击 修改部门 &gt;  选择部门 &gt;  点击确定  。
 
+
+
 ![](../../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.18.55.png)
 
-
-
-![](../../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-2.14.55.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.28.04.png)
 
 {% hint style="warning" %}
 权限控制： 仅拥有者、超级管理员 可进行修改部门操作 。
@@ -110,7 +106,7 @@
 
 ### 修改企业角色
 
-企业角色作为功能权限组 ，  通过更换角色可以将成员赋予不同的角色，给予不同的功能权限 。 
+企业角色作为功能权限组 ，通过更换角色可以将成员赋予不同的角色，给予不同的功能权限 。 
 
 企业角色功能权限 可查看 [企业角色管理 ](https://app.gitbook.com/@growingio/s/op/~/drafts/-MMJim2GVpuV58hGsbBE/v/v20201200/product-manual/qi-ye-guan-li-hou-tai/role-manage/@drafts)
 

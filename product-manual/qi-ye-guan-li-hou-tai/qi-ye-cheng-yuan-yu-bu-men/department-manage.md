@@ -1,4 +1,4 @@
-# 部门管理 done
+# 部门管理 .
 
 ## 功能介绍
 
@@ -12,7 +12,7 @@
 
 ## 界面介绍
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-2.40.08.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.22.29.png)
 
 * 查看全部成员  ： 可查看系统中的所有成员 。
 * 未分组成员 ：若成员为关联部门 ，可在"未分组"的分类下查看 。‌
@@ -39,7 +39,7 @@
 
 选择上级部门后 ， 新建的部门会成员该部门的子部门。 
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-2.41.36.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.22.55.png)
 
 {% hint style="warning" %}
 权限控制：仅拥有者、超级管理员 拥有部门管理的权限
@@ -51,7 +51,7 @@
 
 操作流程： 点击 更多按钮 &gt;  点击修改部门信息 &gt; 进入弹窗编辑 &gt; 点击确认 。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20200703-xia-wu-1.47.12.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.21.42.png)
 
 {% hint style="warning" %}
 权限控制：仅拥有者、超级管理员 拥有部門管理的权限
@@ -65,7 +65,7 @@
 
 操作流程： 点击 更多按钮 &gt;  点击添加子部门 &gt; 进入弹窗 &gt; 点击确认 。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-2.48.12.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.23.39.png)
 
 {% hint style="warning" %}
 权限控制： 仅拥有者、超级管理员 拥有部门管理的权限 。
@@ -77,7 +77,7 @@
 
 操作流程： 点击 更多按钮 &gt;  点击刪除子部门 &gt; 进入弹窗 &gt; 点击确认 。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-2.49.49.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.24.29.png)
 
 {% hint style="warning" %}
 权限控制：仅拥有者、超级管理员 拥有部门管理的权限。

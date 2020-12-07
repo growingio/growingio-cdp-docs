@@ -1,8 +1,8 @@
-# 如何进入企业管理后台？ done
+# 如何进入企业管理后台？
 
 操作流程： 在首页点击企业管理后台。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20201119-xia-wu-8.48.59.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.59.12.png)
 
 {% hint style="warning" %}
 权限说明：企业管理后台的权限受到企业角色控制。    
