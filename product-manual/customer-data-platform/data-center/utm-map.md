@@ -26,8 +26,8 @@
 
 ## 操作步骤
 
-1. 在界面右上角单击 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-Lsu2CWi8CGylwC7jWSB-LsuPIbtjENP0zZy9KaU2019-10-10_18-59-32.png) 选择项目配置，打开项目配置界面。选择**UTM映射**页签。
+1. 在客户数据平台 &gt; 数据 &gt;  UTM 配置 ，打开项目配置界面。
 2. 单击**新建UTM映射**来创建映射关系。
 
-![UTM&#x6620;&#x5C04;](../../../.gitbook/assets/image%20%283%29.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-5.53.15.png)
 
