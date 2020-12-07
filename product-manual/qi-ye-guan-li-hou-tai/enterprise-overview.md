@@ -18,7 +18,7 @@
 
 ## 界面介绍
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-1.56.45.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.13.04.png)
 
 | 字段 | 說明 |
 | :--- | :--- |
@@ -44,7 +44,7 @@
 
 点击企业名称，进入企业名称修改模式。你可按需修改企业名称，点击确认即可保存。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-1.48.29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.14.36.png)
 
 {% hint style="warning" %}
 仅企业拥有者、企业超级管理员 可以操作编辑企业名称
@@ -56,7 +56,7 @@
 
 点击企业 Logo ，即可修改企业 Logo ，在弹窗中选择图片以替换现有 Logo 图。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20201117-xia-wu-1.50.43.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.14.40.png)
 
 {% hint style="warning" %}
 仅企业拥有者、企业超级管理员 可以操作编辑企业名称
