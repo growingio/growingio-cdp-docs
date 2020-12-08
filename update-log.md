@@ -81,8 +81,8 @@
   * 分析工具：新增支持下钻分群和下载用户ID
     * 支持应用：[漏斗分析](product-manual/product-analysis/funnel.md#jie-du-lou-dou-fen-xi)、[留存分析](product-manual/product-analysis/retention.md#jie-du-liu-cun-fen-xi)、[分布分析](product-manual/product-analysis/frequency.md#sheng-cheng-yong-hu-fen-qun-huo-xia-zai-yong-hu-id)
   * 标签: 
-    * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/customer-data-platform/tag/tag-manage/tag-basic.md) 标签
-    * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/customer-data-platform/tag/tag-manage/tag-basic.md)
+    * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/customer-data-platform/tag/biao-qian-mo-xing/tag-basic.md) 标签
+    * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/customer-data-platform/tag/biao-qian-mo-xing/tag-basic.md)
   * 全局指标: [新增支持退出次数](product-manual/customer-data-platform/data-center/complex/term.md)
     * 含义: 用来衡量用户退出网站/App/小程序的数量
     * 支持应用：KPI分析、事件分析、分布分析、分群画像
@@ -106,7 +106,7 @@
 * 新功能: 
   * 分群画像：“做过”行为筛选功能新增支持使用计算指标筛选用户
   * 标签：
-    * [累计值/平均值/占比](product-manual/customer-data-platform/tag/tag-manage/tag-basic.md)标签新增支持使用计算指标的累计值创建用户标签
+    * [累计值/平均值/占比](product-manual/customer-data-platform/tag/biao-qian-mo-xing/tag-basic.md)标签新增支持使用计算指标的累计值创建用户标签
     * 分层标签新增支持使用计算指标定义用户分层
   * 角色管理
     * 新增支持创建和管理角色，一个角色就相当于一个功能权限包
