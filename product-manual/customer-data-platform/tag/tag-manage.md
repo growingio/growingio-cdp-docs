@@ -86,9 +86,17 @@ description: 对标签进行定义和管理
 
 目前GrowingIO提供了五种标签计算模型，分别为累计值/平均值/占比标签、最大值/最小值的事件属性标签、最初/最终的事件属性标签、列表类的事件属性标签、分层标签。这五种标签主要用于解决计算标签和规则标签的使用场景。
 
-## 创建标签
+{% hint style="danger" %}
+在客户数据平台中 创建的标签，需要通过 项目管理 &gt;  数据授权 ，江边谦分配到项目中使用。 [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MO-IZPJyPUe03vlfMC_/v/v20201200/product-manual/qi-ye-guan-li-hou-tai/project-manage/data-authorization)
+{% endhint %}
 
-一、在**客戶数据平台 &gt; 标签 &gt; 标签管理**“，进入标签管理页面。
+## 标签的操作说明
+
+### 创建标签
+
+一、在**客戶数据平台 &gt; 数据 &gt; 标签管理**“，进入标签管理页面。
+
+![](../../../.gitbook/assets/ying-mu-jie-tu-20201208-shang-wu-11.44.06.png)
 
 二、单击右上角**添加标签**，进入**新建标签**页面。
 
@@ -105,20 +113,4 @@ description: 对标签进行定义和管理
 * [列表类的事件属性](biao-qian-mo-xing/tag-list.md)
 * [分层标签](biao-qian-mo-xing/tag-rule.md)
 {% endhint %}
-
-## 标签管理页面
-
-在标签管理页面可以查看标签的名称、创建日期、创建人、最后编辑时间。
-
-您也可以对标签进行以下操作：
-
-**搜索：**您可以在页面中列表上方的搜索框按标签名称来搜索标签。
-
-**查看**：单击单条标签右侧的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择查看详情，可以查看标签的基本信息和统计信息。
-
-**编辑：**单击单条标签右侧的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择修改规则，可以修改标签计算规则。
-
-**删除：**单击单条标签右侧的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的标签。
-
-**批量操作**：在列表中使用复选框选择多个标签，可以进行批量删除。
 
