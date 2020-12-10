@@ -6,7 +6,7 @@
 然而，高效的数据消费方案，应该保持用户关注  _**需要他关注的**_ 与 _**他想关注的**_ ****看板。  
 因此，我们可以通过看板订阅，保证自己看板的整洁与专注。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200610-xia-wu-12.54.21.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201210-xia-wu-2.50.53.png)
 
 ## 可订阅的看板范围  ：
 
@@ -36,19 +36,19 @@
 
 1.在看板管理中 找到需要订阅的看板 ，点击订阅看板 。
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.03.41.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201210-xia-wu-2.54.22.png)
 
 2. 在看板詳情中，点击订阅看板
 
-![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.05.23%20%281%29.png)
+![](../../.gitbook/assets/ying-mu-jie-tu-20201210-xia-wu-2.54.13.png)
 
 ### 取消订阅看板：
 
 在侧栏中点击Ｘ ，确定取消看板订阅。
 
+![](../../.gitbook/assets/ying-mu-jie-tu-20201210-xia-wu-2.55.43.png)
+
 {% hint style="warning" %}
 取消看板订阅后，当前看板将不在侧边栏展示， 您可以在看板管理中重新订阅看板到侧边栏。
 {% endhint %}
-
-![](../../.gitbook/assets/ying-mu-jie-tu-20200706-xia-wu-9.08.58%20%281%29.png)
 
