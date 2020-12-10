@@ -54,7 +54,7 @@
     * [项目成员.](product-manual/zhan-dian-guan-li/xiang-mu-cheng-yuan.md)
     * [项目角色.](product-manual/zhan-dian-guan-li/zhan-dian-jiao-se/README.md)
       * [典型角色应用场景](product-manual/zhan-dian-guan-li/zhan-dian-jiao-se/classic-scenario.md)
-  * [客户数据平台 （未完）](product-manual/customer-data-platform/README.md)
+  * [客户数据平台](product-manual/customer-data-platform/README.md)
     * [如何进入客户数据平台?](product-manual/customer-data-platform/ru-he-jin-ru-ke-hu-shu-ju-ping-tai.md)
     * [标签](product-manual/customer-data-platform/tag/README.md)
       * [标签管理](product-manual/customer-data-platform/tag/tag-manage.md)
