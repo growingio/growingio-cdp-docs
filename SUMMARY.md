@@ -141,6 +141,7 @@
         * [Web/H5 自适应弹窗 SDK](developer-manual/sdkintegrated/mp/js-sdk/webh5-zi-kuo-ying-tan-chuang-sdk.md)
   * [API参考](developer-manual/api-reference/README.md)
     * [API接口](developer-manual/api-reference/cdp/README.md)
+      * [Java SDK for GraphQL](developer-manual/api-reference/cdp/java-sdk-for-graphql.md)
       * [接口认证](developer-manual/api-reference/cdp/authentication.md)
       * [接口说明](developer-manual/api-reference/cdp/description.md)
       * [请求列表](developer-manual/api-reference/cdp/query-list.md)
