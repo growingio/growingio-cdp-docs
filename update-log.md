@@ -1,5 +1,13 @@
 # 更新日志
 
+## v2020.12.0：2020年12月10日发布
+
+* 新增：
+  * 用戶：用户列表页面支持自定义列及下载
+    * 使用者可以在分群中自定义下载 ，分群中用户 相关的 标签、属性、用户信息 。
+  * 多項目管理 ：  
+    * 支撑大型集团、大型多部门客户建立多个项目，分别进行独立的数据分析与协作。[什么是项目](https://app.gitbook.com/@growingio/s/op/~/drafts/-MPlafSCRPxqYs7cULQ2/v/v20201200/product-manual/qi-ye-guan-li-hou-tai/project-manage)
+
 ## v2020.11.3：2020年11月24日发布
 
 * 优化:
