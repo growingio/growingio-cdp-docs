@@ -15,7 +15,7 @@
 ## v2020.9.0：2020年9月30日发布
 
 * 新功能：
-  * 数据：新增支持[Web无埋点页面定义功能](product-manual/data-center/event-management/auto/web.md)。支持可视化通过域名、路径和查询条件定义无埋点页面事件。
+  * 数据：新增支持[Web无埋点页面定义功能](product-manual/data-center/event-management/auto/web/)。支持可视化通过域名、路径和查询条件定义无埋点页面事件。
   * 数据平台：数据平台使用新模型
 * 优化:
   * 编辑移动应用数据源，URLscheme 被更新
