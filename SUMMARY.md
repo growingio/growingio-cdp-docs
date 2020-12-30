@@ -2,7 +2,6 @@
 
 * [快速入口](README.md)
 * [产品简介](introduction/README.md)
-  * [概要](introduction/gai-yao.md)
   * [数据模型](introduction/data-model/README.md)
     * [旧版本兼容指南](introduction/data-model/data-model-transition.md)
   * [属性模型](introduction/property-model.md)
