@@ -4,7 +4,7 @@
 
 在 “**数据 &gt; 事件 &gt; 无埋点事件**" 中点击 “**新建无埋点事件 &gt; 网页应用**“ 进入Web圈选说明页面。在页面中点击 “**下载插件**“ 下载 - GrowingIO Web Collection。
 
-![](../../../../../.gitbook/assets/image%20%28425%29.png)
+![](../../../../../.gitbook/assets/image%20%28426%29.png)
 
 ## 插件安装
 
@@ -12,7 +12,7 @@
 
 第二步: 点击 “**加载已解压的扩展程序**“，打开插件解压目录，选择解压文件夹并完成插件安装。
 
-![](../../../../../.gitbook/assets/image%20%28432%29.png)
+![](../../../../../.gitbook/assets/image%20%28436%29.png)
 
 第三步: 在Chrome地址栏右侧点击 "**扩展程序**" 图标，选择插件将插件固定在导航栏，方便后续使用。
 
@@ -24,7 +24,7 @@
 
 第二步: 在检查模式中选择GIO Web Collection插件。
 
-![](../../../../../.gitbook/assets/image%20%28426%29.png)
+![](../../../../../.gitbook/assets/image%20%28427%29.png)
 
 第三步: 输入服务器地址、账号、密码完成注册登陆
 
@@ -34,7 +34,7 @@ Step 4: 建议设置检查模式在右侧边栏展示。
 
 设置方法：Chrome检查模式右上角点击![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择展示形式。
 
-![](../../../../../.gitbook/assets/image%20%28431%29.png)
+![](../../../../../.gitbook/assets/image%20%28433%29.png)
 
 {% hint style="success" %}
 请向工程师询问服务器地址；账号和密码为GrowingIO平台登陆账号和密码。
