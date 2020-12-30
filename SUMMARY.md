@@ -48,6 +48,7 @@
       * [埋点事件](product-manual/data-center/event-management/manual.md)
       * [无埋点事件](product-manual/data-center/event-management/auto/README.md)
         * [Web端数据定义](product-manual/data-center/event-management/auto/web.md)
+        * [App端数据定义](product-manual/data-center/event-management/auto/app-duan-shu-ju-ding-yi.md)
     * [属性](product-manual/data-center/property/README.md)
       * [预定义属性](product-manual/data-center/property/preset-property.md)
       * [事件属性](product-manual/data-center/property/event-property.md)
