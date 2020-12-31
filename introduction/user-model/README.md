@@ -56,7 +56,7 @@ GrowingIO系统默认提供ID-Mapping逻辑，帮助您打通匿名用户和登�
     <tr>
       <td style="text-align:left">2</td>
       <td style="text-align:left">
-        <p><b>X</b> &#x5728;&#x5B98;&#x7F51;&#x767B;&#x5F55;&#x8D26;&#x6237;u1&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
+        <p>&#x7528;&#x6237; <b>X</b> &#x5728;&#x5B98;&#x7F51;&#x767B;&#x5F55;&#x8D26;&#x6237;u1&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
           cookie &#x548C; &#x767B;&#x5F55;ID u1&#x3002;</p>
         <p>&#x8BE5;&#x767B;&#x5F55;ID&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x751F;&#x6210;gid
           2&#xFF0C;&#x5E76;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid
@@ -68,7 +68,7 @@ GrowingIO系统默认提供ID-Mapping逻辑，帮助您打通匿名用户和登�
     <tr>
       <td style="text-align:left">3</td>
       <td style="text-align:left">
-        <p><b>X</b> &#x5728;&#x5B98;&#x7F51;&#x63A8;&#x51FA;&#x767B;&#x5F55;&#x8BBF;&#x95EE;&#x7F51;&#x7AD9;&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
+        <p>&#x7528;&#x6237; <b>X</b> &#x5728;&#x5B98;&#x7F51;&#x63A8;&#x51FA;&#x767B;&#x5F55;&#x8BBF;&#x95EE;&#x7F51;&#x7AD9;&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
           cookie&#xFF0C;&#x65E0;&#x767B;&#x5F55;ID&#x3002;</p>
         <p>&#x4F46;&#x7531;&#x4E8E;&#x8BE5;&#x8BBE;&#x5907;&#x6700;&#x540E;&#x767B;&#x5F55;ID&#x4E3A;u1&#xFF0C;&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x8BA4;&#x4E3A;&#x8BE5;&#x533F;&#x540D;&#x884C;&#x4E3A;&#x4ECD;&#x662F;u1&#x53D1;&#x751F;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid
           2&#x7684;&#x7528;&#x6237;&#x3002;</p>
@@ -88,24 +88,68 @@ GrowingIO系统默认提供ID-Mapping逻辑，帮助您打通匿名用户和登�
     </tr>
     <tr>
       <td style="text-align:left">5</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>&#x7528;&#x6237; <b>Y</b> &#x5728;&#x5B98;&#x7F51;&#x63A8;&#x51FA;&#x767B;&#x5F55;&#x8BBF;&#x95EE;&#x7F51;&#x7AD9;&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
+          cookie&#xFF0C;&#x65E0;&#x767B;&#x5F55;ID&#x3002;</p>
+        <p>&#x4F46;&#x7531;&#x4E8E;&#x8BE5;&#x8BBE;&#x5907;&#x6700;&#x540E;&#x767B;&#x5F55;ID&#x4E3A;u2&#xFF0C;&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x8BA4;&#x4E3A;&#x8BE5;&#x533F;&#x540D;&#x884C;&#x4E3A;&#x4ECD;&#x662F;u2&#x53D1;&#x751F;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid
+          3&#x7684;&#x7528;&#x6237;&#x3002;</p>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">6</td>
+      <td style="text-align:left">
+        <p>&#x7528;&#x6237; <b>X</b> &#x533F;&#x540D;&#x8BBF;&#x95EE;GrowingIO App&#xFF0C;SDK&#x751F;&#x6210;&#x533F;&#x540D;ID
+          IDFA&#x3002;</p>
+        <p>&#x6B64;&#x8BBE;&#x5907;&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x4E14;&#x65E0;&#x767B;&#x5F55;ID&#xFF0C;&#x6839;&#x636E;IDFA&#x751F;&#x6210;gid
+          4&#xFF0C;&#x5E76;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid
+          4&#x7684;&#x7528;&#x6237;&#x3002;</p>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">7</td>
+      <td style="text-align:left">
+        <p>&#x7528;&#x6237; <b>X</b> &#x5728;App&#x767B;&#x5F55;&#x8D26;&#x6237;u1&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
+          IDFA &#x548C; &#x767B;&#x5F55;ID u1&#x3002;</p>
+        <p>&#x56E0;&#x4E3A;&#x8BE5;&#x767B;&#x5F55;ID&#x4E3A;&#x5DF2;&#x8BC6;&#x522B;&#x7528;&#x6237;gid
+          2&#xFF0C;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid 2&#x7684;&#x7528;&#x6237;&#x3002;</p>
+        <p>&#x6B64;&#x65F6;&#x8BB0;&#x5F55;&#x65F6;&#x523B;7&#x533F;&#x540D;ID IDFA&#x548C;&#x767B;&#x5F55;ID
+          u1&#x7684;&#x7ED1;&#x5B9A;&#x5173;&#x7CFB;&#x3002;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">8</td>
+      <td style="text-align:left">
+        <p>&#x7528;&#x6237; <b>X</b> &#x4F7F;&#x7528;&#x8BBE;&#x5907;cookie&#x533F;&#x540D;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
+          cookie&#xFF0C;&#x65E0;&#x767B;&#x5F55;ID&#x3002;</p>
+        <p>&#x4F46;&#x7531;&#x4E8E;&#x8BE5;&#x8BBE;&#x5907;&#x6700;&#x540E;&#x767B;&#x5F55;ID&#x4E3A;u2&#xFF0C;&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x8BA4;&#x4E3A;&#x8BE5;&#x533F;&#x540D;&#x884C;&#x4E3A;&#x4ECD;&#x662F;u2&#x53D1;&#x751F;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid
+          3&#x7684;&#x7528;&#x6237;&#x3002;</p>
+        <p>( PS &#x6B64;&#x65F6;&#x8BB0;&#x5F55;&#x4F7F;&#x7528;&#x7528;&#x6237;&#x4E3A;gid
+          3 &#x5373;&#x7528;&#x6237; <b>Y</b> &#xFF0C;&#x4F46;&#x5B9E;&#x9645;&#x4F7F;&#x7528;&#x7528;&#x6237;&#x662F;gid
+          2 &#x5373;&#x7528;&#x6237; <b>X</b> )</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">9</td>
+      <td style="text-align:left">
+        <p>&#x7528;&#x6237; <b>X</b> &#x5728;&#x5B98;&#x7F51;&#x767B;&#x5F55;&#x8D26;&#x6237;u1&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
+          cookie &#x548C; &#x767B;&#x5F55;ID u1&#x3002;</p>
+        <p>&#x56E0;&#x4E3A;&#x8BE5;&#x767B;&#x5F55;ID&#x4E3A;&#x5DF2;&#x8BC6;&#x522B;&#x7528;&#x6237;gid
+          2&#xFF0C;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid 2&#x7684;&#x7528;&#x6237;&#x3002;</p>
+        <p>&#x6B64;&#x65F6;&#x8BB0;&#x5F55;&#x65F6;&#x523B;9&#x533F;&#x540D;ID cookie&#x548C;&#x767B;&#x5F55;ID
+          u1&#x7684;&#x7ED1;&#x5B9A;&#x5173;&#x7CFB;&#x3002;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10</td>
+      <td style="text-align:left">
+        <p>&#x7528;&#x6237; <b>X</b> &#x5728;&#x5B98;&#x7F51;&#x63A8;&#x51FA;&#x767B;&#x5F55;&#x8BBF;&#x95EE;&#x7F51;&#x7AD9;&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
+          cookie&#xFF0C;&#x65E0;&#x767B;&#x5F55;ID&#x3002;</p>
+        <p>&#x4F46;&#x7531;&#x4E8E;&#x8BE5;&#x8BBE;&#x5907;&#x6700;&#x540E;&#x767B;&#x5F55;ID&#x4E3A;u1&#xFF0C;&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x8BA4;&#x4E3A;&#x8BE5;&#x533F;&#x540D;&#x884C;&#x4E3A;&#x4ECD;&#x662F;u1&#x53D1;&#x751F;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid
+          2&#x7684;&#x7528;&#x6237;&#x3002;</p>
+      </td>
     </tr>
   </tbody>
 </table>
-
-
-
-1. 某用户匿名访问GrowingIO官网，SDK生成匿名ID cookie。此设备首次识别且无登录ID，根据匿名ID cookie生成gid 1，并记录该事件属于gid 1的用户。
-2. 该用户在GrowingIO官网登录账户u1，此时SDK记录匿名ID cookie，登录ID u1。该登录用户ID首次生成gid 2，记录该事件属于gid 2。同时在QS中记录2时刻该匿名ID cookie与登录ID u1绑定关系。
-3. 该用户退出登录访问网站，
 
 
 
