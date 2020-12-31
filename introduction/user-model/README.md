@@ -20,7 +20,7 @@ GrowingIO系统使用 **gid** 来对每个GrowingIO识别的用户进行唯一�
 
 ### GrowingIO识别用户\(gid\)
 
-GrowingIO系统默认提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户唯一识别一个真实的使用用户。
+~~GrowingIO系统默认提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户唯一识别一个真实的使用用户。~~
 
 #### 计算逻辑
 
@@ -267,32 +267,34 @@ GrowingIO系统默认提供ID-Mapping逻辑，帮助您打通匿名用户和登�
     <tr>
       <td style="text-align:left">1</td>
       <td style="text-align:left">
-        <p>&#x7528;&#x6237; <b>X</b> &#x533F;&#x540D;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#xFF0C;SDK&#x751F;&#x6210;&#x533F;&#x540D;ID
-          cookie&#x3002;</p>
-        <p>&#x6B64;&#x8BBE;&#x5907;&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x4E14;&#x65E0;&#x767B;&#x5F55;ID&#xFF0C;&#x6839;&#x636E;cookie&#x751F;&#x6210;gid
-          1&#xFF0C;&#x5E76;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid
-          1&#x7684;&#x7528;&#x6237;&#x3002;</p>
+        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x672A;&#x767B;&#x9646;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
+        <p>SDK&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x6D4F;&#x89C8;&#x5668;&#x751F;&#x6210;&#x533F;&#x540D;ID
+          cookie&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
+        <p>&#x6B64;&#x65F6;&#x6839;&#x636E;&#x533F;&#x540D;ID cookie&#x751F;&#x6210;gid
+          1&#xFF0C;&#x5E76;&#x5728;Event&#x8868;&#x4E2D;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;&#x7528;&#x6237;gid
+          1&#x3002;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">2</td>
       <td style="text-align:left">
-        <p>&#x7528;&#x6237; <b>X</b> &#x5728;&#x5B98;&#x7F51;&#x767B;&#x5F55;&#x8D26;&#x6237;u1&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
-          cookie &#x548C; &#x767B;&#x5F55;ID u1&#x3002;</p>
-        <p>&#x8BE5;&#x767B;&#x5F55;ID&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x751F;&#x6210;gid
-          2&#xFF0C;&#x5E76;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid
-          2&#x7684;&#x7528;&#x6237;&#x3002;</p>
-        <p>&#x6B64;&#x65F6;&#x8BB0;&#x5F55;&#x65F6;&#x523B;2&#x533F;&#x540D;ID cookie&#x548C;&#x767B;&#x5F55;ID
-          u1&#x7684;&#x7ED1;&#x5B9A;&#x5173;&#x7CFB;&#x3002;</p>
+        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x5728;GrowingIO&#x5B98;&#x7F51;&#x767B;&#x5F55;&#x8D26;&#x6237;u1&#x3002;</p>
+        <p>SDK&#x8BC6;&#x522B;&#x533F;&#x540D;ID cookie&#x548C;&#x767B;&#x5F55;ID
+          u1&#x3002;</p>
+        <p>&#x6B64;&#x65F6;&#x6839;&#x636E;&#x767B;&#x5F55;ID u1&#x751F;&#x6210;gid
+          2&#xFF0C;&#x5E76;&#x5728;Event&#x8868;&#x4E2D;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;&#x7528;&#x6237;gid
+          2&#x3002;</p>
+        <p>&#x540C;&#x65F6;&#x5728;&#x865A;&#x62DF;&#x8868;(ID-Mapping)&#x8BB0;&#x5F55;
+          &#x65F6;&#x523B;2 &#x533F;&#x540D;ID cookie&#x548C;&#x767B;&#x5F55;ID u1&#x7684;&#x7ED1;&#x5B9A;&#x5173;&#x7CFB;&#x3002;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">3</td>
       <td style="text-align:left">
-        <p>&#x7528;&#x6237; <b>X</b> &#x5728;&#x5B98;&#x7F51;&#x9000;&#x51FA;&#x767B;&#x5F55;&#x8BBF;&#x95EE;&#x7F51;&#x7AD9;&#xFF0C;&#x6B64;&#x65F6;SDK&#x8BB0;&#x5F55;&#x533F;&#x540D;ID
-          cookie&#xFF0C;&#x65E0;&#x767B;&#x5F55;ID&#x3002;</p>
-        <p>&#x4F46;&#x7531;&#x4E8E;&#x8BE5;&#x8BBE;&#x5907;&#x6700;&#x540E;&#x767B;&#x5F55;ID&#x4E3A;u1&#xFF0C;&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x8BA4;&#x4E3A;&#x8BE5;&#x533F;&#x540D;&#x884C;&#x4E3A;&#x4ECD;&#x662F;u1&#x53D1;&#x751F;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;gid
-          2&#x7684;&#x7528;&#x6237;&#x3002;</p>
+        <p><b>&#x5C0F;&#x660E;</b> &#x5728;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x4E0A;&#x9000;&#x51FA;&#x767B;&#x5F55;&#xFF0C;&#x7EE7;&#x7EED;&#x6D4F;&#x89C8;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
+        <p>SDK&#x8BC6;&#x522B;&#x533F;&#x540D;ID cookie&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
+        <p>&#x7531;&#x4E8E;&#x8BE5;&#x8BBE;&#x5907;&#x6700;&#x540E;&#x767B;&#x5F55;ID&#x4E3A;u1&#xFF0C;&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x8BA4;&#x4E3A;&#x8BE5;&#x533F;&#x540D;&#x884C;&#x4E3A;&#x4ECD;&#x662F;u1&#x53D1;&#x751F;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x5728;Event&#x8868;&#x4E2D;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;&#x7528;&#x6237;gid
+          2&#x3002;</p>
       </td>
     </tr>
     <tr>
