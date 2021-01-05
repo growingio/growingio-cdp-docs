@@ -11,11 +11,7 @@ Chrom插件安装：[请参考Chrome插件](plug-in.md)
 {% hint style="info" %}
 Hashtag使用说明：
 
-如果您的Web页面URL使用了Hashtag，请在加载SDK进行预先配置，请参考 SDK 帮助文档
-
-[JS SDK 0.7.1 ](https://assets.giocdn.com/sdk/cdp/gio-0.7.1.js)    支持网站应用无埋点数据采集和圈选
-
-[JS SDK 0.8](https://assets.giocdn.com/sdk/cdp/gio.js)        支持App Hybrid采集和圈选，支持SPACE
+如果您的Web页面URL使用了Hashtag，请在加载SDK进行预先配置，请参考[JS SDK](https://assets.giocdn.com/sdk/cdp/gio-0.7.1.js)。
 {% endhint %}
 
 {% hint style="success" %}
