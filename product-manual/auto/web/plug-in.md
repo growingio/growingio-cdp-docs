@@ -2,7 +2,7 @@
 
 ## 插件下载
 
-在 “**数据 &gt; 事件 &gt; 无埋点事件**" 中点击 “**新建无埋点事件 &gt; 网页应用**“ 进入Web圈选说明页面。在页面中点击 “**下载插件**“ 下载 - GrowingIO Web Collection。
+在 “**数据 &gt; 事件 &gt; 无埋点事件**" 中点击 “**新建无埋点事件 &gt; 网页应用**“ 进入Web圈选说明页面。在页面中点击 “[**下载插件**](https://assets.giocdn.com/cdp/extensions/gio-web-collection.zip)“ 下载 - GrowingIO Web Collection。
 
 ![](../../../.gitbook/assets/image%20%28426%29.png)
 
