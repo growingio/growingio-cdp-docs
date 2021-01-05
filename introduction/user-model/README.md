@@ -20,7 +20,11 @@ GrowingIO系统使用 **gid** 来对每个GrowingIO识别的用户进行唯一�
 
 ### GrowingIO识别用户\(gid\)
 
-~~GrowingIO系统默认提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户唯一识别一个真实的使用用户。~~
+GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户唯一识别一个真实的使用用户。
+
+{% hint style="success" %}
+ID-Mapping功能支持设置开启和关闭状态
+{% endhint %}
 
 #### 计算逻辑
 
