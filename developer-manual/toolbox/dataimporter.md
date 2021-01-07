@@ -161,6 +161,8 @@ attr中的列跟文件列需要按顺序匹配，不需要导入的列为空列�
 
 JSON格式的用户属性/行为导入，[格式说明](../../product-manual/data-center/datasource/data-import.md#shu-ju-dao-ru-ge-shi)
 
+[工具下载地址](./)
+
 ## 附录
 
 [前端创建数据源](../../product-manual/data-center/datasource/datasource-manage.md#chuang-jian-shu-ju-yuan)，进入数据源管理页面：
@@ -171,4 +173,6 @@ JSON格式的用户属性/行为导入，[格式说明](../../product-manual/dat
 创建后，在数据源管理列表页面查看相应的数据源ID：
 
 ![](../../.gitbook/assets/image%20%28466%29.png)
+
+
 
