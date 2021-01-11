@@ -37,6 +37,38 @@ group by 1
 
 ### 动态时间范围
 
+如果您的数据计算时间范围是动态变化的，如“过去7天订单支付次数“，每天计算标签时都会根据当天\(计算时间\)
+
+
+
+
+
+标签的每次计算都存在一个计算的“基准时间”。
+
+若您的数据范围是动态变化的，例如：每天标签更新时，都会使用相对时间是“昨日”的数据进行计算；这时就需要使用动态时间来表示数据的时间范围。
+
+示例：
+
+```text
+/* 需修改语句中的 event 为自己的业务字段 */
+
+SELECT DISTINCT user_id AS id, distinct_id AS distinct_id, '1' AS value
+FROM events
+WHERE date BETWEEN '[baseTime]' AND '[baseTime]'
+    AND event = 'login'
+
+/* 假设当前日期为 2019-06-20，那么标签规则的基准时间为 2019-06-19，于是 [baseTime] 代表昨日 2019-06-19， */
+/* 每次标签数据更新时，都会使用相对时间是昨日的数据进行计算 */
+```
+
+CopyCODE
+
+注意：SQL 创建标签时，暂时不支持使用当前日期作为 baseTime。
+
+'\[baseTime\]' 实际上表示的为“昨日”
+
+'\[baseTime\]' - INTERVAL '6' DAY 表示为“过去第 7 天”  
+  
 
 
 
