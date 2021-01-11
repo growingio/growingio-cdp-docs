@@ -25,21 +25,31 @@ GrowingIO支持通过SQL自定义用户标签，如需了解基础数据模型�
 示例: 
 
 ```text
-// 过去7天订单支付次数
+// 2021年1月1日订单支付次数
 select 
     user_id         as userId
     ,count(1)       as tagValue
 from carbon.event
-where time between daysAgo(7) and daysAgo(1)
+where time = '202012311600'
     and event_key = 'payOrderSuccess'
 group by 1
 ```
 
+{% hint style="success" %}
+event表中 time 字段为UTC时间分区，精确到天级别。
+
+即日期为 date 的数据对应的 time 时间分区为 \( date-1 \) + '1600'。
+
+查询event数据时，为提高查询效率建议优先使用时间分区 time 作为SQL查询条件。
+{% endhint %}
+
 ### 动态时间范围
 
-如果您的数据计算时间范围是动态变化的，如“过去7天订单支付次数“，每天计算标签时都会根据当天\(计算时间\)
+如果您的数据计算时间范围是动态变化的，如“过去7天订单支付次数“，这时就需要使用动态时间\(相对计算日期\)来表示数据的时间范围。
 
-
+| 参数 | 数值类型 | 说明 |
+| :--- | :--- | :--- |
+|  |  |  |
 
   
   
