@@ -10,4 +10,5 @@
   * [无埋点SDK](product-manual/sdk/README.md)
     * [iOS SDK](product-manual/sdk/ios.md)
     * [Android SDK](product-manual/sdk/android.md)
+  * [SQL标签](product-manual/sql-tag.md)
 
