@@ -159,9 +159,8 @@ attr中的列跟文件列需要按顺序匹配，不需要导入的列为空列�
 
 ## 其他说明
 
-JSON格式的用户属性/行为导入，[格式说明](../../product-manual/data-center/datasource/data-import.md#shu-ju-dao-ru-ge-shi)
-
-[工具下载地址](./)
+* JSON格式的用户属性/行为导入，[格式说明](../../product-manual/data-center/datasource/data-import.md#shu-ju-dao-ru-ge-shi)
+* [辅助工具下载](./)
 
 ## 附录
 
