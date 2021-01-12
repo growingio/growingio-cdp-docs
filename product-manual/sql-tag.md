@@ -534,16 +534,6 @@ select
 	,collect_set( act_time )			as tagValue
 from act_hour_max
 group by 1
-
-
-
-
-
-select
-	userId 				as userId 
-	,act_hour 			as tagValue
-from act_hour
-where rank_num = 1
 ```
 
 
