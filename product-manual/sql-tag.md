@@ -181,6 +181,27 @@ from pay_times pt
 	join pay_amount pa on pt.userId = pa.userId 
 ```
 
+### 5）过去7天订单支付成功事件实际支付金额中使用满减券的支付金额占比
+
+```text
+select 
+    user_id 						as userId
+    ,round( sum( if( attributes.couponName_var = '满减券',attributes.payAmount_var , 0 ) )
+    		/ sum( attributes.payAmount_var ) 
+    	, 4 ) 						as tagValue
+from carbon.event
+where time between daysAgo(7) and daysAgo(1)
+    and event_key = 'payOrderSuccess'
+    and attributes.payAmount_var is not null
+group by 1
+```
+
+{% hint style="warning" %}
+目标SQL标签仅支持整数类型，不支持小数类型，因此不支持金额占比等SQL标签。
+{% endhint %}
+
+
+
 
 
 
