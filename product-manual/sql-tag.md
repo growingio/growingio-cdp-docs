@@ -209,13 +209,14 @@ group by 1
 ```
 
 {% hint style="warning" %}
-目标SQL标签仅支持整数类型，不支持小数类型，因此不支持金额占比等SQL标签。
+SQL标签仅支持整数类型，不支持小数类型，因此不支持金额占比等SQL标签。
 {% endhint %}
 
 ### 6）过去7天商品详情页浏览最多的一级品类
 
 ```text
-with catalog_pv_sum as   					
+with catalog_pv_sum as  
+( 					
 select 
     user_id 											  as userId
     ,attributes.firstCat_var				as catalog
