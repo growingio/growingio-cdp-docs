@@ -4,6 +4,22 @@
 
 GrowingIO支持通过SQL自定义用户标签，如需了解基础数据模型请点击 “[数据模型](https://docs.growingio.com/op/introduction/data-model/)” 进行查看。
 
+## 创建SQL标签
+
+一、在 **客户数据平台** 选择 “**数据 &gt; 标签 &gt; 标签管理**" ，进入标签管理页面。
+
+二、单击右上角 **新建标签**、进入**新建标签**页面。
+
+三、切换到 **SQL标签** 选项，进入SQL标签创建页面。
+
+四、输入标签名称和SQL规则，点击保存创建SQL标签。
+
+{% hint style="success" %}
+在完成了配置，我们即可开始在GrowingIO使用该SQL标签。
+{% endhint %}
+
+![](../.gitbook/assets/image%20%28471%29.png)
+
 ## SQL语句和语法说明
 
 ### SQL输出结果
