@@ -408,9 +408,49 @@ from user_props_value u
 	left join tag_value t on u.userId = t.userId
 ```
 
-### 12）用户活跃时段
+### 12）分层标签：基于分位数构建用户分层
 
-定义规则：过去30天，用户在 8:00 - 22:00 之间活跃天数最多的时段\(小时\)。且活跃天数必须大于等于3天，如果存在多个活跃时段取最早的活跃时段。
+规则定义：过去30天，订单支付事件实际支付金额总和小于10元的用户为“羊毛”用户；头20%的用户为“高价值“用户；头80%至20%的用户为”中价值“用户；末尾20%的用户为”低价值“用户。
+
+```text
+with pay_amount as 
+(
+select 
+    user_id                                          as userId
+    ,round(sum( attributes.payAmount_var ),0)   	 as tagValue
+    ,1 												 as join_index 
+from carbon.event
+where time between daysAgo(7) and daysAgo(1)
+    and event_key = 'payOrderSuccess'
+    and attributes.payAmount_var is not null
+group by 1
+)
+,pay_percentile as 
+(
+select
+	percentile( tagValue , 0.2 )					 as pct_2
+	,percentile( tagValue , 0.8 )					 as pct_8
+	,1 												 as join_index 
+from pay_amount
+)
+
+select
+	pa.userId 										 as userId
+	,case when pa.tagValue < 10 then '羊毛'
+		when pa.tagValue > pp.pct_8 then '高价值'
+		when pa.tagValue > pp.pct_2 then '中价值'
+		else '低价值' end 							 as tagValue 
+from pay_amount pa 
+	join pay_percentile pp on pa.join_index = pp.join_index 
+```
+
+{% hint style="success" %}
+SQL关联时不支持使用 1 =  1，需要在pay\_amount和pay\_percentile中分别构建关联列join\_index，并使用该列进行两个表关联查询。
+{% endhint %}
+
+### 13）用户活跃时段
+
+规则定义：过去30天，用户在 8:00 - 22:00 之间活跃天数最多的时段\(小时\)。且活跃天数必须大于等于3天，如果存在多个活跃时段取最早的活跃时段。
 
 ```text
 with act_hour as 
