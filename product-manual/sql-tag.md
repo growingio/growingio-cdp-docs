@@ -408,3 +408,33 @@ from user_props_value u
 	left join tag_value t on u.userId = t.userId
 ```
 
+### 12）用户活跃时段
+
+定义规则：过去30天，用户在 8:00 - 22:00 之间活跃天数最多的时段\(小时\)。且活跃天数必须大于等于3天，如果存在多个活跃时段取最早的活跃时段。
+
+```text
+with act_hour as 
+(
+select 
+    user_id         															as userId
+    ,hour( from_unixtime( event_time/1000 + 8*3600 , 'YYYY-MM-DD HH:MM:SS') ) 	as act_hour 
+    ,count( distinct time )														as num
+	,row_number() over (partition by user_id 
+		order by count( distinct time ) desc 
+			,hour( from_unixtime( event_time/1000 + 8*3600 , 'YYYY-MM-DD HH:MM:SS') )  
+			)																	as rank_num 												
+from carbon.event
+where time between daysAgo( 30 ) and daysAgo( 1 )
+	and hour( from_unixtime( event_time/1000 + 8*3600 , 'YYYY-MM-DD HH:MM:SS') ) >= 8 
+	and hour( from_unixtime( event_time/1000 + 8*3600 , 'YYYY-MM-DD HH:MM:SS') ) <= 22
+group by 1,2
+having count( distinct time ) >= 3 
+)
+
+select
+	userId 				as userId 
+	,act_hour 			as tagValue
+from act_hour
+where rank_num = 1
+```
+

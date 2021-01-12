@@ -7,7 +7,7 @@
     * [Web端数据定义](product-manual/auto/web/README.md)
       * [Chrome插件](product-manual/auto/web/plug-in.md)
     * [App端数据定义](product-manual/auto/app.md)
-    * [小程序端数据定义](product-manual/auto/xiao-cheng-xu-duan-shu-ju-ding-yi.md)
+    * [小程序端数据定义](product-manual/auto/minp.md)
   * [无埋点SDK](product-manual/sdk/README.md)
     * [iOS SDK](product-manual/sdk/ios.md)
     * [Android SDK](product-manual/sdk/android.md)
