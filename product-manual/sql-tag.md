@@ -72,10 +72,6 @@ where time between daysAgo( 7 ) and daysAgo( 1 )
 group by 1
 ```
 
-### 常见问题
-
-
-
 ## 常用SQL标签
 
 ### 1）过去7天订单支付成功事件发生次数
@@ -334,7 +330,7 @@ user\_props中的gid做以下处理后，
 
     cast\( reverse\( gid \) as int \)
 
-对应event表中的user\_id。
+对应event表中的user\_id
 {% endhint %}
 
 您可以在zeppelin中通过以下命令查询标签的tag\_id
@@ -359,9 +355,15 @@ where id in
 	)
 ```
 
-并在USER\_TAG\_RULE\_VALUES中根据已获取的tag\_id查看每个用户标签值。
+并在 user\_tag\_rule\_values 中根据已获取的tag\_id查看每个用户标签值。
 
+{% hint style="success" %}
+user\_tag\_rule\_values中的gid做以下处理后，
 
+    cast\( reverse\( gid \) as int \)
+
+对应event表中的user\_id
+{% endhint %}
 
 ```text
 with user_props_value as 
@@ -377,7 +379,7 @@ where dim = 'usr_IfUserBuy_ppl'
 select
 	cast( reverse(gid) as int ) 	as userId
 	,tag_value 						as tag_value
-from USER_TAG_RULE_VALUES
+from user_tag_rule_values
 where tag_id = 'd6f6ef930082e703e8a1bc9e563dff4d'
 )
 
@@ -389,6 +391,4 @@ select
 from user_props_value u
 	left join tag_value t on u.userId = t.userId
 ```
-
-
 
