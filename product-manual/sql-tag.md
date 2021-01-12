@@ -308,9 +308,9 @@ from catalog_view
 group by 1
 ```
 
-### 10）分层标签
+### 10）分层标签1
 
-过去7天所有支付的用户中，支付金额大于200元的用户为‘高价值’用户；其余用户为‘低价值’用户。
+定义规则：过去7天所有支付的用户中，支付金额大于200元的用户为‘高价值’用户；其余用户为‘低价值’用户。
 
 ```text
 with payment as 
@@ -331,9 +331,11 @@ select
 from payment
 ```
 
-### 11）分层标签：基于用户属性和用户标签计算SQL标签
+### 11）分层标签2
 
-在所有“有过交易行为”（用户属性）的用户中，最近7天有订单交易的用户（用户标签）为‘近期有交易’用户；其余为‘有交易’用户。
+> 基于用户属性和用户标签计算SQL标签
+
+定义规则：在所有“有过交易行为”（用户属性）的用户中，最近7天有订单交易的用户（用户标签）为‘近期有交易’用户；其余为‘有交易’用户。
 
 您可以在 “**客户数据平台 &gt; 数据 &gt; 用户属性**" 中查看 “**用户是否购买**“ 用户属性的标识符，即IfUserBuy\_ppl，并在user\_props表中查看用户属性。
 
@@ -408,9 +410,11 @@ from user_props_value u
 	left join tag_value t on u.userId = t.userId
 ```
 
-### 12）分层标签：基于分位数构建用户分层
+### 12）分层标签3
 
-规则定义：过去30天，订单支付事件实际支付金额总和小于10元的用户为“羊毛”用户；头20%的用户为“高价值“用户；头80%至20%的用户为”中价值“用户；末尾20%的用户为”低价值“用户。
+> 基于分位数构建用户分层
+
+定义规则：过去30天，订单支付事件实际支付金额总和小于10元的用户为“羊毛”用户；头20%的用户为“高价值“用户；头80%至20%的用户为”中价值“用户；末尾20%的用户为”低价值“用户。
 
 ```text
 with pay_amount as 
@@ -448,9 +452,9 @@ from pay_amount pa
 SQL关联时不支持使用 1 =  1，需要在pay\_amount和pay\_percentile中分别构建关联列join\_index，并使用该列进行两个表关联查询。
 {% endhint %}
 
-### 13）用户活跃时段
+### 13）用户活跃时段1
 
-规则定义：过去30天，用户在 8:00 - 22:00 之间活跃天数最多的时段\(小时\)。且活跃天数必须大于等于3天，如果存在多个活跃时段取最早的活跃时段。
+定义规则：过去30天，用户在 8:00 - 22:00 之间活跃天数最多的时段\(小时\)。且活跃天数必须大于等于3天，如果存在多个活跃时段取最早的活跃时段。
 
 ```text
 with act_hour as 
@@ -477,4 +481,69 @@ select
 from act_hour
 where rank_num = 1
 ```
+
+### 14）用户活跃时段2
+
+定义规则:  过去30天，将活跃时段分为\[0,4\),\[4,8\),\[8,12\),\[12,16\),\[16,20\),\[20,24\)六个时段，每个时段从0开始对应,一直到5，返回用户最活跃的时段序号，如存在多个则同时返回多个活跃时段。
+
+```text
+with raw_data as 
+(
+select 
+    user_id         															as userId
+    ,hour( from_unixtime( event_time/1000 + 8*3600 , 'YYYY-MM-DD HH:MM:SS') ) 	as act_hour 
+    ,time 																		as act_date						
+from carbon.event
+where time between daysAgo( 30 ) and daysAgo( 1 )
+)
+,act_hour as 
+(
+select
+	userId 								as userId 
+	,case when act_hour < 4 then 0
+		when act_hour < 8 then 1
+		when act_hour < 12 then 2 
+		when act_hour < 16 then 3
+		when act_hour < 20 then 4
+		else 5 end 						as act_time 
+	,count( distinct act_date )			as num
+from raw_data 
+group by 1,2
+)
+,act_max as
+(
+select
+	userId 								as userId 
+	,max( num )							as num_max
+from act_hour
+group by 1
+)
+,act_hour_max as 
+(
+select
+	ah.userId 							as userId 
+	,ah.act_time 						as act_time 
+from act_hour ah 
+	join act_max am on ah.userId = am.userId 
+		and ah.num = am.num_max
+)
+
+select
+	userId 								as userId 
+	,collect_set( act_time )			as tagValue
+from act_hour_max
+group by 1
+
+
+
+
+
+select
+	userId 				as userId 
+	,act_hour 			as tagValue
+from act_hour
+where rank_num = 1
+```
+
+
 
