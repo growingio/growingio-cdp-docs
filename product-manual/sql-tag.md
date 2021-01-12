@@ -200,13 +200,195 @@ group by 1
 目标SQL标签仅支持整数类型，不支持小数类型，因此不支持金额占比等SQL标签。
 {% endhint %}
 
+### 6）过去7天商品详情页浏览最多的一级品类
+
+```text
+with catalog_pv_sum as   					
+select 
+    user_id 											  as userId
+    ,attributes.firstCat_var				as catalog
+    ,count(1)											  as pv
+from carbon.event
+where time between daysAgo(7) and daysAgo(1)
+    and event_key = 'goodsDetailPageView'
+group by 1,2
+)
+,catalog_pv_max as 							
+(
+select
+	userId 									as userId
+	,max(pv)								as pv_max
+from catalog_pv_sum
+group by 1
+)
+,catalog_max as 
+(
+select
+	cps.userId 								as userId
+	,cps.catalog 							as catalog
+from catalog_pv_sum cps 
+	join catalog_pv_max cpm on cps.userId = cpm.userId 
+		and cps.pv = cpm.pv_max
+)
+
+select
+	userId 								    			as userId
+	,collect_set( catalog )					as tagValue
+from catalog_max
+group by 1
+```
+
+{% hint style="success" %}
+由于一个用户可能存在多个品类浏览并列第一，因此输出结果为集合。
+{% endhint %}
+
+{% hint style="warning" %}
+目前对于SQL标签输出结果并未做唯一性校验，如果输出结果中一个用户存在多行\(多值\)情况，那么系统会默认选取排序靠前的结果值进行存储。
+{% endhint %}
+
+### 7）过去7天订单支付成功事件最近一次发生的具体日期\(‘YYYY-MM-DD'\)
+
+```text
+select 
+    user_id     			        as userId
+    ,max( event_time ) 		    as tagValue
+from carbon.event
+where time between daysAgo(7) and daysAgo(1)
+    and event_key = 'payOrderSuccess'
+group by 1
+```
+
+{% hint style="success" %}
+event\_time为GrowingIO服务器接收数据时间\(UTC时间，相比北京时间慢8个小时\)，数据格式为毫秒时间戳。您在做日期相关计算时仅需对原始event\_time进行加工计算，存储格式仍为毫秒时间戳，无需转化为天。GrowingIO前端在展示和计算时，会默认将数据转化为北京时间，并转化为'YYYY-MM-DD'格式进行前端展示。
+{% endhint %}
+
+### 8）过去7天订单支付成功事件最近一次发生距今的时间间隔
+
+```text
+select 
+    user_id                                     as userId
+    ,datediff( current_date() 
+        , max( event_time + 8*3600*1000 ))      as tagValue
+from carbon.event
+where time between daysAgo(7) and daysAgo(1)
+    and event_key = 'payOrderSuccess'
+group by 1
+```
+
+### 9）过去7天商品详情页浏览的全部一级分类
+
+```text
+with catalog_view as 
+(
+select 
+    user_id 								        as userId
+    ,attributes.firstCat_var				as tagValue
+from carbon.event
+where time between daysAgo(7) and daysAgo(1)
+    and event_key = 'goodsDetailPageView'
+group by 1,2
+)
+
+select
+	userId 									        as userId
+	,collect_set( tagValue )				as tagValue
+from catalog_view 
+group by 1
+```
+
+### 10）分层标签
+
+过去7天所有支付的用户中，支付金额大于200元的用户为‘高价值’用户；其余用户为‘低价值’用户。
+
+```text
+with payment as 
+(
+select 
+    user_id 								as userId
+    ,sum( attributes.payAmount_var ) 		as tagValue
+from carbon.event
+where time between daysAgo(7) and daysAgo(1)
+    and event_key = 'payOrderSuccess'
+    and cast( attributes.payAmount_var as double ) is not null
+group by 1
+)
+
+select
+	userId 											as userId 
+	,if( tagValue > 200 , '高价值' , '低价值' ) 		as tagValue
+from payment
+```
+
+### 11）分层标签：基于用户属性和用户标签计算SQL标签
+
+在所有“有过交易行为”（用户属性）的用户中，最近7天有订单交易的用户（用户标签）为‘近期有交易’用户；其余为‘有交易’用户。
+
+您可以在 “**客户数据平台 &gt; 数据 &gt; 用户属性**" 中查看 “**用户是否购买**“ 用户属性的标识符，即IfUserBuy\_ppl，并在user\_props表中查看用户属性。
+
+{% hint style="success" %}
+user\_props中dim为用户属性标识符，查询自定义用户属性时需要加上前缀 'usr\_'
+{% endhint %}
+
+{% hint style="success" %}
+user\_props中的gid做以下处理后，
+
+    cast\( reverse\( gid \) as int \)
+
+对应event表中的user\_id。
+{% endhint %}
+
+您可以在zeppelin中通过以下命令查询标签的tag\_id
+
+```text
+%insight
+select 
+	key
+from computes
+where id in
+	(
+	select 
+		compute_id
+	from tags_computes
+	where tag_id in
+		(
+		select 
+			id
+		from tags
+		where name = '{标签名称}'
+		)
+	)
+```
+
+并在USER\_TAG\_RULE\_VALUES中根据已获取的tag\_id查看每个用户标签值。
 
 
 
+```text
+with user_props_value as 
+(
+select
+	cast( reverse( gid ) as int ) 	as userId
+	,DVALUE													as user_props_value
+from user_props 
+where dim = 'usr_IfUserBuy_ppl'
+)
+,tag_value as 
+(
+select
+	cast( reverse(gid) as int ) 	as userId
+	,tag_value 						as tag_value
+from USER_TAG_RULE_VALUES
+where tag_id = 'd6f6ef930082e703e8a1bc9e563dff4d'
+)
 
-
-
-
+select
+	u.userId
+	,if( t.tag_value is not null , '近期有交易' , '有交易' ) as tagValue
+	,u.user_props_value 
+	,t.tag_value
+from user_props_value u
+	left join tag_value t on u.userId = t.userId
+```
 
 
 
