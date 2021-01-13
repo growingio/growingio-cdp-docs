@@ -453,7 +453,69 @@ from pay_amount pa
 SQL关联时不支持使用 1 =  1，需要在pay\_amount和pay\_percentile中分别构建关联列join\_index，并使用该列进行两个表关联查询。
 {% endhint %}
 
-### 13）用户活跃时段1
+### 13）分层标签4
+
+定义规则：将分层标签中“中价值”和”低价值“用户统称”低价值“，“高价值”用户分层保留。
+
+![](../.gitbook/assets/image%20%28480%29.png)
+
+分层标签存储结构：
+
+![](../.gitbook/assets/image%20%28479%29.png)
+
+```text
+%insight
+with tags_info as 
+(
+select 
+        compute_id
+        ,compute_name
+from tags_computes
+where tag_id in
+        (
+        select id
+        from tags
+        where name = '规则：分层标签4'
+        )
+)
+
+
+select 
+        c.key                           as tag_key 
+        ,t.compute_name                 as tag_value
+from computes c
+        join tags_info t on c.id = t.compute_id
+```
+
+Output:
+
+![](../.gitbook/assets/image%20%28481%29.png)
+
+```text
+with tags as      // 虚拟表
+(
+select 
+    tag_key
+    ,tag_value
+from ( values
+                ( '939ba107f55c0f23990ed977e177dfe8' , '高价值' )
+                ,( 'e1819181b5be6085dcbecdac8747af03' , '中价值' )
+                ,( '47c930018c16c75fc4da47c4c506662f' , '低价值' )
+        ) as t(tag_key,tag_value)
+)
+
+
+select
+        cast( reverse(u.gid) as int )                        as userId
+        ,case t.tag_value when '高价值' then '高价值'
+                when '中价值' then '低价值'
+                when '低价值' then '低价值'
+        end                                                                         as tagValue
+from USER_TAG_RULE_VALUES u 
+        join tags t on u.tag_value = t.tag_value 
+```
+
+### 14）用户活跃时段1
 
 定义规则：过去30天，用户在 8:00 - 22:00 之间活跃天数最多的时段\(小时\)。且活跃天数必须大于等于3天，如果存在多个活跃时段取最早的活跃时段。
 
@@ -483,7 +545,7 @@ from act_hour
 where rank_num = 1
 ```
 
-### 14）用户活跃时段2
+### 15）用户活跃时段2
 
 定义规则:  过去30天，将活跃时段分为\[0,4\),\[4,8\),\[8,12\),\[12,16\),\[16,20\),\[20,24\)六个时段，每个时段从0开始对应,一直到5，返回用户最活跃的时段序号，如存在多个则同时返回多个活跃时段。
 
