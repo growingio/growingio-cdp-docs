@@ -512,7 +512,7 @@ select
                 when '低价值' then '低价值'
         end                                                                         as tagValue
 from USER_TAG_RULE_VALUES u 
-        join tags t on u.tag_value = t.tag_value 
+        join tags t on u.tag_value = t.tag_key
 ```
 
 ### 14）用户活跃时段1
