@@ -16,6 +16,7 @@
   * [分析](product-manual/product-analysis/README.md)
     * [KPI 分析](product-manual/product-analysis/kpi.md)
     * [事件分析](product-manual/product-analysis/event-analysis.md)
+    * [新事件分析](product-manual/product-analysis/xin-shi-jian-fen-xi.md)
     * [漏斗分析](product-manual/product-analysis/funnel.md)
     * [留存分析](product-manual/product-analysis/retention.md)
     * [分布分析](product-manual/product-analysis/frequency.md)
