@@ -4,19 +4,16 @@
 
 **新增：**
 
-* 用户-360 单用户画像 ：
+* 用户-360 单用户画像 ：[ 点击查看](product-manual/uesr-analysis/360-dan-yong-hu-hua-xiang-new/#gong-neng-jie-shao)
 
   * 调整单用户画像展示逻辑。
   * 支持行为细查实时更新 。
   * 支持统计一段时间内 用户的行为占比与行为趋势。
 
 * 企业管理 - 企业设置 
-  * 帐号申请与审批：当成员忘记密码时，可通过邮件或短信等方式自助重置密码。
-  * 自助找回密码 ：成员可在登录页面进行帐号申请，管理员可根据通知进行帐号审批。
-  * webhook 配置：Webhook 方便企业将通知提醒发送至其它系统，如 IM工具、短信服务，邮件服务。
-
-  
-
+  * 帐号申请与审批：当成员忘记密码时，可通过邮件或短信等方式自助重置密码。 [点击查看](product-manual/qi-ye-guan-li-hou-tai/qi-ye-pei-zhi/account-application.md#gong-neng-jie-shao)
+  * 自助找回密码 ：成员可在登录页面进行帐号申请，管理员可根据通知进行帐号审批。 [点击查看](product-manual/qi-ye-guan-li-hou-tai/qi-ye-pei-zhi/resetcode.md)
+  * webhook 配置：Webhook 方便企业将通知提醒发送至其它系统，如 IM工具、短信服务，邮件服务。[点击查看](product-manual/qi-ye-guan-li-hou-tai/qi-ye-pei-zhi/webhook.md#gong-neng-jie-shao)
 
 优化: 
 
