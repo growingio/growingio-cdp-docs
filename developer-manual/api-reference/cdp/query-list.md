@@ -155,7 +155,7 @@ mutation {
 # segmentId: 用户分群 ID
 # tags: 需要导出的用户标签 ID 列表
 # properties: 需要导出的用户属性标示列表
-submitSegmentUserExportJob(segmentId: String!, tags: [String!], properties: [String!]): SegmentUserExportJob!
+submitSegmentUserExportJob(projectId: HashId!, segmentId: String!, tags: [String!], properties: [String!]): SegmentUserExportJob!
 
 示例：
 mutation {
@@ -218,11 +218,11 @@ query {
 **获取用户分群列表**
 
 ```text
-segments: [Segment]
+segments(projectId: HashId!): [Segment]
 
 示例：
 query {
-    segments {
+    segments(projectId: "Lj9yBRyD") {
         id
         name
     }
@@ -240,8 +240,8 @@ submitAnalysisExportJob(id: HashId!, param: AnalysisExportJobParam!): AnalysisEx
 式例
 
 ```text
-mutation SubmitAnalysisExportJob($id: HashId!, $param: AnalysisExportJobParam!){
-    submitAnalysisExportJob(id: $id, param: $param) {
+mutation SubmitAnalysisExportJob(projectId: HashId!, $id: HashId!, $param: AnalysisExportJobParam!){
+    submitAnalysisExportJob(projectId: $projectId, id: $id, param: $param) {
         id
     }
 }
@@ -262,6 +262,6 @@ curl --location --request POST 'http://gdp-dev.growingio.com/graphql' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: ODI0NjczYzMtOTY5MS00MDBjLWJhZDYtZWZiYWVhMzI1Y2U5' \
 --header 'Content-Type: application/json' \
---data-raw '{"query":"mutation SubmitAnalysisExportJob($id: HashId!, $param: AnalysisExportJobParam!){\n    submitAnalysisExportJob(id: $id, param: $param) {\n        id\n    }\n}","variables":{"id":"9yGOXaDl","param":{"analysisType":"CHARTS"}}}'
+--data-raw '{"query":"mutation SubmitAnalysisExportJob(projectId: HashId!, $id: HashId!, $param: AnalysisExportJobParam!){\n    submitAnalysisExportJob(projectId: $projectId, id: $id, param: $param) {\n        id\n    }\n}","variables":{"id":"9yGOXaDl","param":{"analysisType":"CHARTS"}}}'
 ```
 
