@@ -7,7 +7,7 @@
 ```text
 dependencies {
     //埋点CDP SDK
-    implementation 'com.growingio.android:vds-android-agent:cdp-1.2.1'
+    implementation 'com.growingio.android:vds-android-agent:cdp-1.2.4'
 }
 ```
 
@@ -36,9 +36,9 @@ public void onCreate() {
 }
 ```
 
-## **添加应用权限**
+## **添加应用权限和**URL Scheme
 
-请将以下权限添加到您的 AndroidManifest.xml 中。
+将应用的 URLScheme 和应用权限添加到你的 AndroidManifest.xml 中。
 
 ```text
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,8 +52,18 @@ package="com.example.cdpdemo">
 <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 <application
-android:name=".MyApplication"
-... />
+        android:name=".MyApplication"
+        <activity android:name=".MainActivity">
+            <!--请添加这里的整个 intent-filter 区块，并确保其中只有一个 data 字段-->
+            <intent-filter>
+                <data android:scheme="growing.您的URL Scheme" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <!--请添加这里的整个 intent-filter 区块，并确保其中只有一个 data 字段-->
+        </activity>
+    </application>
 </manifest>
 ```
 
@@ -113,6 +123,24 @@ R.string.growingio*
       <td style="text-align:left">&#x9879;&#x76EE;ID&#x3002;</td>
     </tr>
     <tr>
+      <td style="text-align:left">setFlushInterval</td>
+      <td style="text-align:left">15s</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x8BBE;&#x7F6E;&#x83B7;&#x53D6;&#x53D1;&#x9001;&#x6570;&#x636E;&#x7684;&#x4E8B;&#x4EF6;&#x95F4;&#x9694;&#xFF0C;&#x9ED8;&#x8BA4;15s</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">setCellularDataLimit</td>
+      <td style="text-align:left">10MB</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x8BBE;&#x7F6E;&#x6BCF;&#x5929;&#x4F7F;&#x7528;&#x6570;&#x636E;&#x7F51;&#x7EDC;&#xFF08;2G&#x3001;3G&#x3001;4G&#xFF09;&#x4E0A;&#x4F20;&#x7684;&#x6570;&#x636E;&#x91CF;&#x7684;&#x4E0A;&#x9650;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;10485KB&#xFF08;10MB&#xFF09;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">getCellularDataLimit</td>
+      <td style="text-align:left">&#x65E0;</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x8BBE;&#x7F6E;&#x6BCF;&#x5929;&#x4F7F;&#x7528;&#x6570;&#x636E;&#x7F51;&#x7EDC;&#xFF08;2G&#x3001;3G&#x3001;4G&#xFF09;&#x4E0A;&#x4F20;&#x7684;&#x6570;&#x636E;&#x91CF;&#x7684;&#x4E0A;&#x9650;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;10485KB&#xFF08;10MB&#xFF09;</td>
+    </tr>
+    <tr>
       <td style="text-align:left">setDataSourceId</td>
       <td style="text-align:left">&#x65E0;</td>
       <td style="text-align:left">&#x662F;</td>
@@ -150,7 +178,7 @@ R.string.growingio*
       <td style="text-align:left">&#x8BBE;&#x7F6E;App&#x4E0B;&#x8F7D;&#x6E20;&#x9053;&#x3002;</td>
     </tr>
     <tr>
-      <td style="text-align:left">setIMEIEnable</td>
+      <td style="text-align:left">setImeiEnable</td>
       <td style="text-align:left">true</td>
       <td style="text-align:left">&#x5426;</td>
       <td style="text-align:left">
@@ -159,13 +187,19 @@ R.string.growingio*
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">setAndroidEnable</td>
+      <td style="text-align:left">setAndroidIdEnable</td>
       <td style="text-align:left">true</td>
       <td style="text-align:left">&#x5426;</td>
       <td style="text-align:left">
         <p>&#x4E3A;&#x4E86;&#x6D77;&#x5916;&#x5E94;&#x7528;&#x5E02;&#x573A;&#x4E0A;&#x67B6;&#x5E94;&#x7528;&#xFF0C;&#x8BBE;&#x7F6E;&#x4E3A;</p>
         <p>false&#x5219;SDK&#x4E0D;&#x91C7;&#x96C6;Android ID&#x3002;</p>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">disableDataCollect</td>
+      <td style="text-align:left">&#x65E0;</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x8BBE;&#x7F6E;GDPR&#x751F;&#x6548;</td>
     </tr>
   </tbody>
 </table>
@@ -376,6 +410,7 @@ GrowingIO.getInstance().trackPage("TrackTestPage");
 | webView | WebView | 是 | WebView实例化后立刻调用 |
 
 ```objectivec
+
 //代码示例
 private void initWebView() {
         mWebView = findViewById(R.id.web_view);
