@@ -1,6 +1,6 @@
 # 更新日志
 
-## v2020.13.0：2021年X月X日发布
+## v2020.13.0：2021年01月22日发布
 
 **新增：**
 
@@ -15,14 +15,14 @@
   * 自助找回密码 ：成员可在登录页面进行帐号申请，管理员可根据通知进行帐号审批。 [点击查看](product-manual/qi-ye-guan-li-hou-tai/qi-ye-pei-zhi/resetcode.md)
   * webhook 配置：Webhook 方便企业将通知提醒发送至其它系统，如 IM工具、短信服务，邮件服务。[点击查看](product-manual/qi-ye-guan-li-hou-tai/qi-ye-pei-zhi/webhook.md#gong-neng-jie-shao)
 
-优化: 
+**优化:** 
 
 * webhook添加根据状态筛选
 * 帐号申请删除全部选项
 * 修改企业角色排序
 * 首页展示优化
 
-修复: 
+**修复:** 
 
 
 
