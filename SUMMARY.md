@@ -111,6 +111,7 @@
       * [iOS SDK](developer-manual/sdkintegrated/cdp/ios-sdk.md)
       * [JS SDK](developer-manual/sdkintegrated/cdp/js-sdk.md)
       * [JAVA SDK](developer-manual/sdkintegrated/cdp/java-sdk.md)
+      * [PHP SDK](developer-manual/sdkintegrated/cdp/php-sdk.md)
       * [小程序 SDK](developer-manual/sdkintegrated/cdp/minp-sdk.md)
       * [H5内嵌页SDK\(仅支持app内的H5\)](developer-manual/sdkintegrated/cdp/hybrid-sdk.md)
     * [运营平台 SDK](developer-manual/sdkintegrated/mp/README.md)
