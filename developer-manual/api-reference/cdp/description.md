@@ -278,6 +278,1219 @@ mutation SubmitSegmentUserExportJob {
 ]
 ```
 
+### submitAnalysisExportJob
+
+描述：提交统计数据导出任务
+
+请求类型：Mutation
+
+接口签名：submitAnalysisExportJob\(projectId: HashId!, id: HashId!, param: AnalysisExportJobParam!, charset: String\): AnalysisExportJob!
+
+参数说明：
+
+| **参数名称** | **参数类型** | **参数描述** |
+| :--- | :--- | :--- |
+| projectId | HashId! | 所属项目ID |
+| id | HashId! | 资源ID |
+| param | AnalysisExportJobParam! | 资源类型，支持：CHARTS\|FUNNELS\|RETENTIONS\|FREQUENCIES |
+| charset | String | 编码格式，如 “UTF-16LE” |
+
+返回值：GraphQL类型
+
+```graphql
+type AnalysisExportJob {
+    "任务id"
+    id: String! 
+    "任务状态"
+    stage: JobStage!
+    "错误类型"
+    error: Error
+}
+
+enum JobStage {
+    # NONE 任务的初始状态
+    # READY 任务准备执行
+    # RUNNING 任务正在执行
+    # DATA_READY 数据已经准备就绪
+    # FINISH 任务完成
+    # ERROR 任务执行失败
+    NONE, READY, RUNNING, DATA_READY, FINISH, ERROR
+}
+```
+
+请求示例：
+
+```graphql
+mutation SubmitAnalysisExportJob {
+    submitAnalysisExportJob(id: "kqQewGry", param: {analysisType: CHARTS}, charset: "UTF-16LE", projectId: "WlGk4Daj") {
+        id
+        stage
+        error {
+            code
+            __typename
+        }
+        __typename
+    }
+}
+```
+
+返回结果示例：JSON
+
+```graphql
+{
+    "data": {
+        "submitAnalysisExportJob": {
+            "id": "Q0hBUlRTOjI5Y2E0MWFiYzA2NTgzYmFjMjY1ZjJlZTIwNDM2ZWNk",
+            "stage": "FINISH",
+            "error": {
+                "code": "",
+                "__typename": "Error"
+            },
+            "__typename": "AnalysisExportJob"
+        }
+    }
+}
+```
+
+## Query类型接口
+
+### projects
+
+描述：获取项目信息
+
+请求类型: Query
+
+接口签名：projects: \[Project!\]
+
+返回值：GraphQL类型
+
+```graphql
+type Project {
+    "项目id"
+    id: HashId!
+    "项目名称"                            
+    name: String!
+    "项目描述信息"                          
+    description: String
+    "创建者"                    
+    creator: String
+    "创建者id"                        
+    creatorId: HashId!
+    "创建时间"                     
+    createdAt: DateTime!
+    "项目拥有者"                   
+    owner: String
+    "项目拥有者id"                          
+    ownerId: HashId!
+    "项目成员列表"                       
+    projectMembers: [ProjectMember!]
+    "项目角色列表"       
+    projectRoles: [ProjectRole!]   
+    "项目成员数量"
+    projectMemberCount: Int!        
+}
+
+type ProjectMember {
+    "成员信息"
+    member: Member
+    "该成员担任的角色"                         
+    role: ProjectRole
+    "加入项目的时间"
+    joinedAt: DateTime
+    "上次访问的时间" 
+    lastVisitAt: DateTime
+}
+
+type ProjectRole {
+    "角色id"
+    id: HashId
+    "角色名称"
+    name: String
+    "角色描述"
+    description: String
+    "具备该角色的成员列表"
+    members: [Member!] 
+    "角色权限列表"
+    permissions: [Permission!] 
+    "是否为系统资源"
+    isSystem: Boolean
+    "是否为root角色"
+    isRoot: Boolean
+    "是否为技术支持"
+    isTechSupport: Boolean
+}
+
+type Permission {
+    "权限id"
+    id: HashId
+    "权限的 key/标识/动作"
+    action: String
+    "权限名称"
+    name: String
+}
+
+type Member {
+    "成员id"
+    id: HashId!
+    "成员名称"
+    name: String 
+    "创建方式：ldap, origin, oauth2, cas"
+    source: String!
+    "头像"
+    avatar: String 
+    "email地址"
+    email: String 
+    "创建时间"
+    createdAt: DateTime!
+    "手机号码"
+    phoneNumber: String 
+    "直属部门"
+    directDepartment: Department 
+    "唯一标识"
+    identity: String
+    "可访问的项目列表"
+    enterableProjects: [Project!]
+    "数据中心角色"
+    dataCenterRole: DataCenterRole!
+    "上次访问时间"
+    lastVisitAt: DateTime
+    "创建人"
+    creator: String
+}
+
+type Department {
+    "部门id"
+    id: HashId!
+    "部门名称"
+    name: String!
+    "父部门 id"
+    parentId: String!
+    "子部门列表"
+    departments: [Department!] 
+    "部门成员列表"
+    members: [Member!]
+    "部门成员数量"
+    memberCount: Int!
+}
+
+type DataCenterRole {
+    "数据中心角色id"
+    id: HashId
+    "角色名称"
+    name: String
+    "角色描述"
+    description: String
+    "具备该角色的成员"
+    members: [Member!] 
+    "该角色具备的权限"
+    permissions: [Permission!] 
+    "是否为系统资源"
+    isSystem: Boolean
+    "是否为root角色"
+    isRoot: Boolean
+    "是否为技术支持"
+    isTechSupport: Boolean
+}
+```
+
+请求示例：
+
+```graphql
+query Projects {
+  projects {
+    id
+    name
+  }
+}
+```
+
+返回结果示例：JSON
+
+```graphql
+{
+    "data": {
+        "projects": [
+            {
+                "id": "xNQXmjpM",
+                "name": "project_update_40JCK168"
+            },
+            {
+                "id": "0wDaJYQ1",
+                "name": "project_update_IS4M195M"
+            },
+            {
+                "id": "qVDgnrGk",
+                "name": "project_update_HL3YUEKLdf"
+            },
+            {
+                "id": "y9pm1pme",
+                "name": "1214-1"
+            },
+            {
+                "id": "WlGk4Daj",
+                "name": "默认项目"
+            }
+        ]
+    }
+}
+```
+
+### jobResult
+
+描述：利用任务ID获取任务结果
+
+请求类型: Query
+
+接口签名：jobResult\(id: String!\): JobResult
+
+参数说明：
+
+| **参数名称** | **参数类型** | **参数描述** |
+| :--- | :--- | :--- |
+| id | String! | 任务ID |
+
+返回值：GraphQL类型
+
+```graphql
+type JobResult {
+    "任务结果id"
+    id: HashId!
+    "任务状态"
+    stage: JobStage!
+    "资源uri"
+    uris: [String!] 
+}
+
+enum JobStage {
+    # NONE 任务的初始状态
+    # READY 任务准备执行
+    # RUNNING 任务正在执行
+    # DATA_READY 数据已经准备就绪
+    # FINISH 任务完成
+    # ERROR 任务执行失败
+    NONE, READY, RUNNING, DATA_READY, FINISH, ERROR
+}
+```
+
+请求示例：
+
+```graphql
+query JobResult {
+  jobResult(id: "U2VnbWVudFVzZXJFeHBvcnRKb2JEdG86bWVROHduRG4") {
+    __typename
+    id
+    stage
+    uris
+  }
+}
+```
+
+返回结果示例：JSON
+
+```graphql
+{
+    "data": {
+        "jobResult": {
+            "__typename": "JobResult",
+            "id": "meQ8wnDn",
+            "stage": "FINISH",
+            "uris": [
+                "/jobs/results/DES-202101251109-40191580841000/下载用户列表.csv"
+            ]
+        }
+    }
+}
+```
+
+### userProfile
+
+描述：查询单个用户的标签值和属性
+
+请求类型: Query
+
+接口签名：userProfile\(projectId: HashId!, userId: String, tags: \[HashId!\], properties: \[String!\]\): UserProfile
+
+参数说明：（请求参数“tags”和“properties”中须至少填写一个）
+
+| **参数名称** | **参数类型** | **参数描述** |
+| :--- | :--- | :--- |
+| projectId | HashId! | 项目ID |
+| userId | String | 用户ID |
+| tags | \[HashId!\] | 用户标签ID列表 |
+| properties | \[String!\] | 用户属性标示列表 |
+
+返回值：GraphQL类型
+
+```graphql
+type UserProfile {
+    "用户详细信息id"
+    id: String!
+    "用户gid"
+    userId: String!
+    "属性列表"
+    properties: [InsensitiveProperty]
+}
+
+type InsensitiveProperty {
+    ""
+    key: String!
+    ""
+    name: String
+    ""
+    value: String
+}
+```
+
+请求示例：
+
+```graphql
+query UserProfile {
+    userProfile(projectId: "WlGk4Daj", userId: "40097", tags: ["mgGJj3GA", "zZDb1jG9","OqQjr1Qd"]) {
+        id
+        userId
+        properties {
+         key
+         name
+         value
+        }
+    }
+}
+```
+
+返回结果示例：JSON
+
+```graphql
+{
+    "data": {
+        "userProfile": {
+            "id": "40097",
+            "userId": "40097",
+            "properties": [
+                {
+                    "key": "OqQjr1Qd",
+                    "name": "0125-sql-1",
+                    "value": "1610085550900"
+                },
+                {
+                    "key": "mgGJj3GA",
+                    "name": "0112-分层",
+                    "value": "<=1"
+                },
+                {
+                    "key": "zZDb1jG9",
+                    "name": "0112-基础指标",
+                    "value": "127.0000"
+                }
+            ]
+        }
+    }
+}
+```
+
+### segments
+
+描述：获取用户分群列表
+
+请求类型: Query
+
+接口签名：segments\(projectId: HashId!\): \[Segment\]
+
+参数说明：
+
+| **参数名称** | **参数类型** | **参数描述** |
+| :--- | :--- | :--- |
+| projectId | HashId! | 项目ID |
+
+返回值：GraphQL类型
+
+```graphql
+type Segment {
+    "分群id"
+    id: HashId!
+    "分群名称"
+    name: String!
+    "分群描述信息"
+    description: String
+    "规则定义"
+    compute: ComputeDefinition!
+    "计算频率，可分为每周计算一次/每天计算一次等"
+    scheduler: String!
+    "创建者id"
+    creatorId: HashId!
+    "创建时间"
+    createdAt: DateTime!
+    "更新者id"
+    updaterId: HashId
+    "更新时间"
+    updatedAt: DateTime
+    "创建者"
+    creator: String 
+    "更新者"
+    updater: String 
+    "创建来源"
+    createdBy: String
+    ""
+    detector: Detector
+    "拥有者id"
+    ownerId: HashId! 
+}
+
+type Detector {
+    ""
+    stage: DetectedStage!
+    ""
+    description: String
+    ""
+    detectedAt: DateTime
+    ""
+    totalUsers: Int
+    ""
+    usersRatio: Float
+}
+
+enum DetectedStage {
+    NONE, READY, RUNNING, FINISH, ERROR
+}
+
+type ComputeDefinition {
+    ""
+    name: String 
+    ""
+    expression: String!
+    ""
+    directives: [ComputeDirective]! 
+    ""
+    drillDownAttrs: Object
+    ""
+    sql: String 
+    ""
+    dataUri: String 
+}
+
+type ComputeDirective {
+    ""
+    alias: String!
+    "用来表示指标"
+    measurement: Measurement!
+    "时间"
+    timeRange: String
+    "表示过滤条件"
+    filter: Filter
+    ""
+    op: String 
+    ""
+    attribute: String 
+    ""
+    aggregator: String 
+    ""
+    values: [String] 
+}
+
+type Measurement {
+    "指标id"
+    id: String!
+    "指标类型"
+    type: String!
+    "指标的过滤条件"
+    filter: Filter
+    "指标名"     
+    name: String
+    "权限的 key/标识/动作"        
+    action: String
+    "表示时间，比如 7天前 day:8,1, 30天前 day:31,1, 绝对时间  abs:1603631197000,1604631197000" 
+    timeRange: String
+    ""   
+    attribute: String
+    "聚合方式，如 sum" 
+    aggregator: String
+    "指标权重"  
+    weight: Float       
+}
+
+type Filter {
+    "维度的 key"
+    key: String
+    "过滤的操作，比如：in, not in, like, =, !="   
+    op: String
+    "维度名"    
+    name: String
+    "维度值"    
+    values: [String]
+    "过滤规则/表达式"    
+    exprs: [Filter]
+    "维度值类型"
+    valueType: String 
+}
+```
+
+请求示例：
+
+```graphql
+query Segment {
+    segment(id: "bVG24AQ6", projectId: "WlGk4Daj") {
+        id
+        name
+        description
+        scheduler
+        creatorId
+        createdAt
+        createdBy
+        updaterId
+        updatedAt
+        createdBy
+        creator
+        updater
+        detector {
+            description
+            detectedAt
+            stage
+            totalUsers
+            usersRatio
+            __typename
+        }
+        compute {
+            name
+            expression
+            directives {
+                alias
+                measurement {
+                    id
+                    name
+                    type         
+                    attribute
+                    aggregator
+                    __typename
+                }
+                op
+                values
+                attribute
+                aggregator
+                timeRange
+                filter {
+                    op
+                    exprs {
+                        key
+                        op
+                        name
+                        values
+                        valueType
+                        __typename
+                    }
+                    __typename
+                }
+                __typename
+            }
+            __typename
+        }
+        __typename
+    }
+}
+```
+
+返回结果示例：JSON
+
+```graphql
+{
+    "data": {
+        "segment": {
+            "id": "bVG24AQ6",
+            "name": "0125-999",
+            "description": "",
+            "scheduler": "DAILY",
+            "creatorId": "n1QVaDyR",
+            "createdAt": "2021-01-25T09:03:39.246183Z",
+            "createdBy": "DIRECT",
+            "updaterId": "n1QVaDyR",
+            "updatedAt": "2021-01-25T09:03:39.246184Z",
+            "creator": "zhangxiaomei",
+            "updater": "zhangxiaomei",
+            "detector": {
+                "description": null,
+                "detectedAt": "2021-01-25T09:03:49.072Z",
+                "stage": "ERROR",
+                "totalUsers": 0,
+                "usersRatio": 0.0,
+                "__typename": "Detector"
+            },
+            "compute": {
+                "name": "",
+                "expression": "A",
+                "directives": [
+                    {
+                        "alias": "A",
+                        "measurement": {
+                            "id": "vv",
+                            "name": null,
+                            "type": "prepared",
+                            "attribute": null,
+                            "aggregator": null,
+                            "__typename": "Measurement"
+                        },
+                        "op": ">=",
+                        "values": [
+                            "1"
+                        ],
+                        "attribute": "",
+                        "aggregator": "sum",
+                        "timeRange": "day:31,1",
+                        "filter": {
+                            "op": "and",
+                            "exprs": [
+                                {
+                                    "key": "usr_test_1117_int",
+                                    "op": "not between",
+                                    "name": "test_1117_int",
+                                    "values": [
+                                        "-999",
+                                        "9"
+                                    ],
+                                    "valueType": "int",
+                                    "__typename": "Filter"
+                                },
+                                {
+                                    "key": "d",
+                                    "op": "=",
+                                    "name": "域名",
+                                    "values": [
+                                        "www.growingio.com"
+                                    ],
+                                    "valueType": "",
+                                    "__typename": "Filter"
+                                },
+                                {
+                                    "key": "usr_isPayed_ppl",
+                                    "op": "=",
+                                    "name": "是否付费（用户变量）",
+                                    "values": [
+                                        "付费版"
+                                    ],
+                                    "valueType": "string",
+                                    "__typename": "Filter"
+                                }
+                            ],
+                            "__typename": "Filter"
+                        },
+                        "__typename": "ComputeDirective"
+                    }
+                ],
+                "__typename": "ComputeDefinition"
+            },
+            "__typename": "Segment"
+        }
+    }
+}
+```
+
+### tags
+
+描述：获取标签列表
+
+请求类型: Query
+
+接口签名：tags\(projectId: HashId!\): \[Tag\]
+
+参数说明：
+
+| **参数名称** | **参数类型** | **参数描述** |
+| :--- | :--- | :--- |
+| projectId | HashId! | 项目ID |
+
+返回值：GraphQL类型
+
+```graphql
+type Tag {
+    "标签id"
+    id: HashId!
+    "标签名称"
+    name: String!
+    "关键字"
+    key: String!
+    "标签类型"
+    type: String!
+    "tag描述信息"
+    description: String
+    "标签规则"
+    computes: [ComputeDefinition]! 
+    "业务类型"
+    businessType: String
+    "创建者id"
+    creatorId: HashId!
+    "创建时间"
+    createdAt: DateTime!
+    "更新者id"
+    updaterId: HashId
+    "更新时间"
+    updatedAt: DateTime
+    "创建者"
+    creator: String 
+    "更新者"
+    updater: String 
+    "值类型"
+    valueType: ValueType
+    ""
+    detector: Detector
+    "拥有者 id"
+    ownerId: HashId 
+}
+
+type ComputeDefinition {
+    ""
+    name: String
+    ""
+    expression: String!
+    ""
+    directives: [ComputeDirective]!
+    ""
+    drillDownAttrs: Object
+    ""
+    sql: String
+    ""
+    dataUri: String
+}
+
+type ComputeDirective {
+    ""
+    alias: String!
+    ""
+    measurement: Measurement!
+    ""
+    timeRange: String
+    ""
+    filter: Filter
+    ""
+    op: String 
+    ""
+    attribute: String 
+    ""
+    aggregator: String 
+    ""
+    values: [String] 
+}
+```
+
+请求示例：
+
+```graphql
+query Tags {
+    tags(projectId: "WlGk4Daj") {
+        id
+        name
+        type
+        creator
+        createdAt
+        updater
+        updatedAt
+        __typename
+    }
+}
+```
+
+返回结果示例：JSON
+
+```graphql
+{
+    "data": {
+        "tags": [
+            {
+                "id": "mgGJj3GA",
+                "name": "0112-分层",
+                "type": "HORIZONTAL",
+                "creator": "xujing",
+                "createdAt": "2021-01-12T02:27:54.550872Z",
+                "updater": null,
+                "updatedAt": "2021-01-12T02:27:54.550872Z",
+                "__typename": "Tag"
+            },
+            {
+                "id": "zZDb1jG9",
+                "name": "0112-基础指标",
+                "type": "AGGREGATED",
+                "creator": "xujing",
+                "createdAt": "2021-01-12T03:52:25.368Z",
+                "updater": null,
+                "updatedAt": "2021-01-12T03:52:25.368Z",
+                "__typename": "Tag"
+            },
+            ......
+            {
+                "id": "JnG4NBQz",
+                "name": "0112-基础指标(副本)",
+                "type": "AGGREGATED",
+                "creator": "xujing",
+                "createdAt": "2021-01-12T03:53:02.634829Z",
+                "updater": null,
+                "updatedAt": "2021-01-12T03:53:02.634829Z",
+                "__typename": "Tag"
+            }
+       ]
+    }
+}
+```
+
+### funnelAnalyses
+
+描述：获取漏斗分析列表
+
+请求类型: Query
+
+接口签名：funnelAnalyses\(projectId: HashId!\): \[FunnelAnalysis\]
+
+参数说明：
+
+| **参数名称** | **参数类型** | **参数描述** |
+| :--- | :--- | :--- |
+| projectId | HashId! | 项目ID |
+
+返回值：GraphQL类型
+
+```graphql
+type FunnelAnalysis {
+    "分析的id"
+    id: HashId!
+    "此条分析名称"
+    name: String!
+    "此分析描述信息"
+    description: String 
+    "指标列表"
+    measurements: [Measurement]!
+    "转化周期，天"
+    conversionWindow: Int
+    "时间"
+    timeRange: String
+    "目标用户"
+    targetUser: TargetUser
+    "过滤条件"
+    filter: Filter
+    "维度对比/用户对比"
+    splitter: Splitter
+    "是否为系统资源"
+    isSystem: Boolean
+    "业务类型"
+    businessType: String
+    "创建者id"
+    creatorId: HashId!,
+    "创建时间"
+    createdAt: DateTime!
+    "更新者id"
+    updaterId: HashId 
+    "更新时间"
+    updatedAt: DateTime 
+    "创建者"
+    creator: String
+    "更新者"
+    updater: String 
+    "拥有者"
+    ownerId: HashId
+}
+
+type TargetUser {
+    "目标用户id"
+    id: String!
+    "目标用户姓名"
+    name: String 
+}
+
+type Splitter {
+    ""
+    key: String!
+    ""
+    values: [String] 
+    ""
+    users: [TargetUser] 
+    ""
+    actions: [Action] 
+    ""
+    splitters: [Splitter] 
+    ""
+    selectedValues: [String] 
+    ""
+    selectedIndices: [Int] 
+    ""
+    valueType: String 
+    ""
+    name: String 
+}
+
+type Action {
+    ""
+    measurement: Measurement
+    ""
+    excluded: Boolean
+    ""
+    eventType: String
+}
+```
+
+请求示例：
+
+```graphql
+query FunnelAnalyses {
+  funnelAnalyses(projectId: "WlGk4Daj") {
+    id
+    name
+  }
+}
+```
+
+返回结果示例：JSON
+
+```graphql
+{
+  "data": {
+    "funnelAnalyses": [
+      {
+        "id": "zqQR3po3",
+        "name": "1224-漏斗-维度对比"
+      },
+      {
+        "id": "wWDrwQML",
+        "name": "1224-漏斗-过滤条件"
+      },
+      {
+        "id": "klGvyp7E",
+        "name": "1224-看板-无过滤条件"
+      },
+      {
+        "id": "y9pm1pme",
+        "name": "豆腐豆腐"
+      }
+    ]
+  }
+}
+```
+
+### eventAnalyses
+
+描述：获取事件分析列表
+
+请求类型: Query
+
+接口签名：eventAnalyses\(projectId: HashId!\): \[EventAnalysis\]
+
+参数说明：
+
+| **参数名称** | **参数类型** | **参数描述** |
+| :--- | :--- | :--- |
+| projectId | HashId! | 项目ID |
+
+返回值：GraphQL类型
+
+```graphql
+type EventAnalysis {
+    "事件分析id"
+    id: HashId!
+    "事件分析名称"
+    name: String!
+    "描述信息"
+    description: String @wrapper
+    "指标列表"
+    measurements: [Measurement]!  
+    "olap(新 chart-service) 服务的指标模型"
+    metrics: [OlapMetric]!  
+    "维度"
+    dimensions: [String]  
+    "粒度"
+    granularities: [Granularity] 
+    "时间"
+    timeRange: String!
+    "过滤条件"
+    filter: Filter
+    "目标用户"
+    targetUser: TargetUser
+    "数据最多条数"
+    limit: Int @wrapper,
+    "属性"
+    attrs: BytesJson
+    "排序方式"
+    orders: [Order] 
+    "维度对比/用户对比"
+    splitter: Splitter
+    "图表类型"
+    chartType: String
+    "是否为系统资源"
+    isSystem: Boolean
+    "业务类型"
+    businessType: String
+    "创建者id"
+    creatorId: HashId!,
+    "创建时间"
+    createdAt: DateTime!
+    "更新者id"
+    updaterId: HashId 
+    "更新时间"
+    updatedAt: DateTime 
+    "创建者"
+    creator: String 
+    "更新者"
+    updater: String 
+    "拥有者"
+    ownerId: HashId 
+}
+
+type OlapMetric {
+    "事件id。 e.g.: uc, xxxxx"
+    id: String!
+    "事件类型"
+    type: String!
+    "事件名称"
+    name: String 
+    "重命名"
+    alias: String
+    "是否是事件下边的事件级变量"
+    attribute: String
+    "基于哪种方式聚合. 目前只有按人聚合. 2021年01月11日13:21:04"
+    subgroupAggregation: SubgroupAggregation 
+    "指标的度量. e.g.: sum, total。 详见 olap 服务"
+    math: String
+}
+
+type Granularity {
+    ""
+    id: String,
+    ""
+    values: [String] 
+    ""
+    interval: Long 
+    ""
+    split: Float 
+    ""
+    statistics: [String] 
+    ""
+    ranges: [Float] 
+    ""
+    top: Int 
+    ""
+    period: String 
+    ""
+    trend: Boolean
+}
+```
+
+请求示例：
+
+```graphql
+query EventAnalyses {
+  eventAnalyses(projectId: "WlGk4Daj") {
+    id
+    name
+  }
+}
+```
+
+返回结果示例：JSON
+
+```graphql
+{
+  "data": {
+    "eventAnalyses": [
+      {
+        "id": "qyD6qGKJ",
+        "name": "fsafhasdui"
+      },
+      {
+        "id": "RqQwPpJw",
+        "name": "气泡图_MIGKOOWZ"
+      },
+      {
+        "id": "evp9kDOx",
+        "name": "表格_3TCZ6OWS"
+      },
+      #......
+      {
+        "id": "WlGk4Daj",
+        "name": "1112_1_sql标签应用"
+      }
+    ]
+  }
+}
+```
+
+### retentionAnalyses
+
+描述：获取留存分析列表
+
+请求类型: Query
+
+接口签名：retentionAnalyses\(projectId: HashId!\): \[RetentionAnalysis\]
+
+参数说明：
+
+| **参数名称** | **参数类型** | **参数描述** |
+| :--- | :--- | :--- |
+| projectId | HashId! | 项目ID |
+
+返回值：GraphQL类型
+
+```graphql
+type RetentionAnalysis {
+    "留存分析id"
+    id: HashId!
+    "此条分析名称"
+    name: String!
+    "此条分析描述信息"
+    description: String 
+    "指标列表"
+    measurements: [Measurement]! 
+    ""
+    range: String!
+    "事件类型"
+    eventType: String
+    "时间"
+    timeRange: String!
+    "目标用户"
+    targetUser: TargetUser
+    ""
+    currentTurn: Int
+    "维度对比/用户对比"
+    splitter: Splitter
+    "图表类型"
+    chartType: String!
+    "创建者id"
+    creatorId: HashId!
+    "创建时间"
+    createdAt: DateTime!
+    "更新者id"
+    updaterId: HashId 
+    "更新时间"
+    updatedAt: DateTime 
+    "创建者"
+    creator: String 
+    "更新者"
+    updater: String 
+    "拥有者"
+    ownerId: HashId 
+}
+```
+
+请求示例：
+
+```graphql
+query RetentionAnalyses {
+  retentionAnalyses(projectId: "WlGk4Daj") {
+    id
+    name
+  }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
