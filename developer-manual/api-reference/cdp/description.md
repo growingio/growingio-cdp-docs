@@ -512,23 +512,7 @@ query Projects {
         "projects": [
             {
                 "id": "xNQXmjpM",
-                "name": "project_update_40JCK168"
-            },
-            {
-                "id": "0wDaJYQ1",
-                "name": "project_update_IS4M195M"
-            },
-            {
-                "id": "qVDgnrGk",
-                "name": "project_update_HL3YUEKLdf"
-            },
-            {
-                "id": "y9pm1pme",
-                "name": "1214-1"
-            },
-            {
-                "id": "WlGk4Daj",
-                "name": "默认项目"
+                "name": "project_测试项目"
             }
         ]
     }
@@ -668,17 +652,17 @@ query UserProfile {
             "properties": [
                 {
                     "key": "OqQjr1Qd",
-                    "name": "0125-sql-1",
+                    "name": "测试_基础指标标签",
                     "value": "1610085550900"
                 },
                 {
                     "key": "mgGJj3GA",
-                    "name": "0112-分层",
+                    "name": "测试_分层标签",
                     "value": "<=1"
                 },
                 {
                     "key": "zZDb1jG9",
-                    "name": "0112-基础指标",
+                    "name": "测试_SQL标签",
                     "value": "127.0000"
                 }
             ]
@@ -902,8 +886,8 @@ query Segment {
             "createdBy": "DIRECT",
             "updaterId": "n1QVaDyR",
             "updatedAt": "2021-01-25T09:03:39.246184Z",
-            "creator": "zhangxiaomei",
-            "updater": "zhangxiaomei",
+            "creator": "admin",
+            "updater": "admin",
             "detector": {
                 "description": null,
                 "detectedAt": "2021-01-25T09:03:49.072Z",
@@ -1093,7 +1077,7 @@ query Tags {
         "tags": [
             {
                 "id": "mgGJj3GA",
-                "name": "0112-分层",
+                "name": "测试_分层",
                 "type": "HORIZONTAL",
                 "creator": "xujing",
                 "createdAt": "2021-01-12T02:27:54.550872Z",
@@ -1103,9 +1087,9 @@ query Tags {
             },
             {
                 "id": "zZDb1jG9",
-                "name": "0112-基础指标",
+                "name": "基础指标",
                 "type": "AGGREGATED",
-                "creator": "xujing",
+                "creator": "admin",
                 "createdAt": "2021-01-12T03:52:25.368Z",
                 "updater": null,
                 "updatedAt": "2021-01-12T03:52:25.368Z",
@@ -1114,9 +1098,9 @@ query Tags {
             ......
             {
                 "id": "JnG4NBQz",
-                "name": "0112-基础指标(副本)",
+                "name": "基础指标(副本)",
                 "type": "AGGREGATED",
-                "creator": "xujing",
+                "creator": "admin",
                 "createdAt": "2021-01-12T03:53:02.634829Z",
                 "updater": null,
                 "updatedAt": "2021-01-12T03:53:02.634829Z",
@@ -1240,15 +1224,15 @@ query FunnelAnalyses {
     "funnelAnalyses": [
       {
         "id": "zqQR3po3",
-        "name": "1224-漏斗-维度对比"
+        "name": "漏斗-维度对比"
       },
       {
         "id": "wWDrwQML",
-        "name": "1224-漏斗-过滤条件"
+        "name": "漏斗-过滤条件"
       },
       {
         "id": "klGvyp7E",
-        "name": "1224-看板-无过滤条件"
+        "name": "看板-无过滤条件"
       },
       {
         "id": "y9pm1pme",
@@ -1385,20 +1369,20 @@ query EventAnalyses {
     "eventAnalyses": [
       {
         "id": "qyD6qGKJ",
-        "name": "fsafhasdui"
+        "name": "事件分析"
       },
       {
         "id": "RqQwPpJw",
-        "name": "气泡图_MIGKOOWZ"
+        "name": "气泡图"
       },
       {
         "id": "evp9kDOx",
-        "name": "表格_3TCZ6OWS"
+        "name": "表格"
       },
       #......
       {
         "id": "WlGk4Daj",
-        "name": "1112_1_sql标签应用"
+        "name": "sql标签"
       }
     ]
   }
@@ -1481,20 +1465,20 @@ query RetentionAnalyses {
     "retentionAnalyses": [
       {
         "id": "zqQR3po3",
-        "name": "1224-留存-留存行为对比"
+        "name": "留存-留存行为对比"
       },
       {
         "id": "wWDrwQML",
-        "name": "1224-留存-维度对比"
+        "name": "留存-维度对比"
       },
       {
         "id": "rRGoYQml",
-        "name": "1224-留存-起始行为-过滤条件"
+        "name": "留存-起始行为-过滤条件"
       },
       #......
       {
         "id": "n1QVaDyR",
-        "name": "1224-留存-无过滤条件"
+        "name": "留存-无过滤条件"
       }
     ]
   }
@@ -1581,19 +1565,19 @@ query FrequencyAnalyses {
     "frequencyAnalyses": [
       {
         "id": "zqQR3po3",
-        "name": "frequency_APTH6SQI"
+        "name": "分布分析"
       },
       {
         "id": "n1QVaDyR",
-        "name": "1224-分布分析-维度对比"
+        "name": "分布分析-维度对比"
       },
       {
         "id": "AbQ3bDYe",
-        "name": "1224-分布分析-无过滤条件"
+        "name": "分布分析-无过滤条件"
       },
       {
         "id": "y9pm1pme",
-        "name": "1224-分布分析-过滤条件"
+        "name": "分布分析-过滤条件"
       }
     ]
   }

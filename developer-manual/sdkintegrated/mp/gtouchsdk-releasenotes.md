@@ -11,10 +11,6 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1.4.7</td>
-      <td style="text-align:left">&#x5F39;&#x7A97;&#x7F13;&#x5B58;&#x95EE;&#x9898;&#x4F18;&#x5316;</td>
-    </tr>
-    <tr>
       <td style="text-align:left">1.4.4</td>
       <td style="text-align:left">
         <p>&#x8D44;&#x6E90;&#x4F4D;&#x652F;&#x6301;pageControl&#x56FE;&#x7247;&#x914D;&#x7F6E;

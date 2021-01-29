@@ -152,7 +152,7 @@
       * [Java SDK for GraphQL](developer-manual/api-reference/cdp/java-sdk-for-graphql.md)
       * [接口认证](developer-manual/api-reference/cdp/authentication.md)
       * [接口说明](developer-manual/api-reference/cdp/description.md)
-      * [请求列表](developer-manual/api-reference/cdp/query-list.md)
+      * [操作指南](developer-manual/api-reference/cdp/query-list.md)
 * [常见问题](product-faq/README.md)
   * [术语解释](product-faq/shu-yu-jie-shi.md)
   * [弹窗 FAQ](product-faq/tan-chuang-faq.md)
