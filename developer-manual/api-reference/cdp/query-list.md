@@ -294,7 +294,7 @@ query FunnelAnalyses {
 }
 ```
 
-### 3.导出相应的id
+### 3.导出所需分析图表
 
 如果要导出某个漏斗，以ID为“klGvyp7E“的漏斗为例 \( 相关API为：**submitAnalysisExportJob** \)，通过接口提交一个导出特定漏斗的任务并返回一个任务对象\(GraphQL类型\)。
 
