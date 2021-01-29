@@ -1473,35 +1473,130 @@ query RetentionAnalyses {
 }
 ```
 
+返回结果示例：JSON
 
+```graphql
+{
+  "data": {
+    "retentionAnalyses": [
+      {
+        "id": "zqQR3po3",
+        "name": "1224-留存-留存行为对比"
+      },
+      {
+        "id": "wWDrwQML",
+        "name": "1224-留存-维度对比"
+      },
+      {
+        "id": "rRGoYQml",
+        "name": "1224-留存-起始行为-过滤条件"
+      },
+      #......
+      {
+        "id": "n1QVaDyR",
+        "name": "1224-留存-无过滤条件"
+      }
+    ]
+  }
+}
+```
 
-fag
+#### frequencyAnalyses <a id="frequencyAnalyses"></a>
 
+描述：获取分布分析列表
 
+请求类型: Query
 
+接口签名：frequencyAnalyses\(projectId: HashId!\): \[FrequencyAnalysis\]
 
+参数说明：
 
+| **参数名称** | **参数类型** | **参数描述** |
+| :--- | :--- | :--- |
+| projectId | HashId! | 项目ID |
 
+返回值：GraphQL类型
 
+```graphql
+type FrequencyAnalysis {
+    "此条分析的id"
+    id: HashId!
+    "此条分析的名称"
+    name: String!
+    "此条分析的描述信息"
+    description: String
+    "指标列表"
+    measurements: [Measurement]!  
+    "维度"
+    dimensions: [String] 
+    "粒度"
+    granularities: [Granularity]
+    "时间"
+    timeRange: String!
+    "过滤条件"
+    filter: Filter
+    "维度对比/用户对比"
+    splitter: Splitter
+    "目标用户"
+    targetUser: TargetUser
+    "图表类型"
+    chartType: String
+    "是否为系统资源"
+    isSystem: Boolean
+    "业务类型"
+    businessType: String
+    "创建者id"
+    creatorId: HashId!
+    "创建时间"
+    createdAt: DateTime!
+    "更新者id"
+    updaterId: HashId
+    "更新时间"
+    updatedAt: DateTime
+    "创建者"
+    creator: String
+    "更新者"
+    updater: String
+    "拥有者id"
+    ownerId: HashId @resourceOwnerId
+}
+```
 
+请求示例：
 
+```graphql
+query FrequencyAnalyses {
+  frequencyAnalyses(projectId: "WlGk4Daj") {
+    id
+    name
+  }
+}
+```
 
+返回结果示例：JSON
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```graphql
+{
+  "data": {
+    "frequencyAnalyses": [
+      {
+        "id": "zqQR3po3",
+        "name": "frequency_APTH6SQI"
+      },
+      {
+        "id": "n1QVaDyR",
+        "name": "1224-分布分析-维度对比"
+      },
+      {
+        "id": "AbQ3bDYe",
+        "name": "1224-分布分析-无过滤条件"
+      },
+      {
+        "id": "y9pm1pme",
+        "name": "1224-分布分析-过滤条件"
+      }
+    ]
+  }
+}
+```
 
