@@ -121,7 +121,7 @@ query JobResult {
       "id": "wWDr77QM",
       "stage": "FINISH",
       "uris": [
-        "/jobs/results/DET-202101270900-32426198185000/3eca1f1a-28d1-4f5c-946a-f0aa88084049.csv"
+        "/jobs/results/DET-202101270900-32426198185000/下载标签.csv"
       ]
     }
   }
@@ -132,7 +132,7 @@ uris 即为要导出资源的URI。如果需要下载该文件，则在该URI之
 
 {平台链接} + '/download?file=' + uris
 
-即 [https://xxx.growingio.cn/download?file=/jobs/results/DET-202101270900-32426198185000/3eca1f1a-28d1-4f5c-946a-f0aa88084049.csv](https://dev1.growingio.cn/download?file=/jobs/results/DET-202101270900-32426198185000/3eca1f1a-28d1-4f5c-946a-f0aa88084049.csv)
+即 https://xxx.growingio.cn/download?file=/jobs/results/DET-202101270900-32426198185000/下载标签.csv
 
 ## 用户分群导出
 
@@ -243,6 +243,8 @@ uris 即为要导出资源的URI。如果需要下载该文件，则在该URI之
 
 {平台链接} + '/download?file=' + uris
 
+即 https://xxx.growingio.cn/download?file=/jobs/results/DES-202101280344-13456258654000/下载用户列表.csv
+
 ## 导出分析结果
 
 目前可导出分析结果的产品分析有漏斗分析、事件分析、留存分析、分布分析，这里以导出漏斗分析结果举例说明，其余分析的导出流程相同。
@@ -339,7 +341,7 @@ query JobResult {
       "id": "J1GlEDjl",
       "stage": "FINISH",
       "uris": [
-        "/jobs-results/downloads/20201029-20210126_241336814_1224-看板-无过滤条件.csv"
+        "/jobs-results/downloads/下载漏斗.csv"
       ]
     }
   }
@@ -349,4 +351,6 @@ query JobResult {
 uris 即为要导出资源的URI。如果需要下载该文件，则在该URI之前拼接自有OP平台域名的下载路径即可，例如本文档的数据平台链接为“[xxx.growingio.cn](https://dev1.growingio.cn/download?file=/jobs/results/DES-202101280404-14677315748000/%E4%B8%8B%E8%BD%BD%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8.csv)”， 则下载链接为：
 
 {平台链接} + '/download?file=' + uris
+
+即 https://xxx.growingio.cn/download?file=/jobs-results/downloads/下载漏斗.csv
 
