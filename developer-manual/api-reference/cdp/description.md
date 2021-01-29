@@ -1501,7 +1501,7 @@ query RetentionAnalyses {
 }
 ```
 
-#### frequencyAnalyses <a id="frequencyAnalyses"></a>
+### frequencyAnalyses
 
 描述：获取分布分析列表
 
