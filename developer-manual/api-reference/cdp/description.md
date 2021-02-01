@@ -586,6 +586,14 @@ query JobResult {
 }
 ```
 
+{% hint style="success" %}
+下载地址为：{平台链接} + '/download?file=' + uris
+
+如数据平台链接为“[xxx.growingio.cn](https://dev1.growingio.cn/download?file=/jobs/results/DES-202101280404-14677315748000/%E4%B8%8B%E8%BD%BD%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8.csv)”，则下载地址为：
+
+xxx.growingio.cn/download?file=/jobs/results/DES-202101251109-40191580841000/下载用户列表.csv
+{% endhint %}
+
 ### userProfile
 
 描述：查询单个用户的标签值和属性
