@@ -4,10 +4,12 @@
 
 ### SDK版本: 
 
-将想要圈选的 小程序 升级到 xxxxxxxxxxxxx 及以上的 SDK版本。
+将想要圈选的 App 升级到 3.x 及以上的 SDK版本。
 
 {% hint style="success" %}
-目前不支持小程序Hybrid SDK
+如需下载微信小程序无埋点SDK，请点击[ 链接 ](https://assets.giocdn.com/sdk/cdp/3.0/gio-minp.js)下载。
+
+如需下载WePY框架无埋点SDK，请点击 [链接](https://assets.giocdn.com/sdk/cdp/3.0/gio-minp.esm.js) 下载。
 {% endhint %}
 
 ## 圈选操作
