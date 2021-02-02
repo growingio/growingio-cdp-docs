@@ -56,9 +56,27 @@ step2 :  填写，通道名称  、 请求地址 、密钥
 
 
 
-### Request Payload 
+### WebHook 推送数据格式说明
 
+#### Request Headers
 
+WebHook request headers 包含以下一些关键数据
+
+```text
+X-GIO-Token: "***" # 用户新建 WebHook 通道提供的密钥
+```
+
+#### Request Payload
+
+以下是推送的示范数据（仅供参考，请以实际收到的数据为准）。
+
+```text
+{
+    "title": "Test",
+    "content": "Test content",
+    "receivers": [] 
+}
+```
 
 
 
