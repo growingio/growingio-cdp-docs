@@ -1,5 +1,9 @@
 # Flutter SDK
 
+## 集成 SDK <a id="ji-cheng-php-sdk"></a>
+
+ 直接从 [GitHub](https://github.com/growingio/flutter-growingio-sdk-tracker-plugin) 获取 SDK 的源码并集成到项目中。
+
 ## **添加依赖** <a id="tian-jia-yi-lai"></a>
 
 以工程`flutter_app`为例，在`pubspec.yaml`文件中添加依赖

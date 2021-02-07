@@ -1,5 +1,9 @@
 # React Native SDK
 
+## 集成 SDK <a id="ji-cheng-php-sdk"></a>
+
+ 直接从 [GitHub](https://github.com/growingio/react-native-growingio-sdk-tracker-plugin) 获取 SDK 的源码并集成到项目中。
+
 ## 环境配置
 
 请确保已经添加埋点SDK，如果没有，请移步至原生端SDK集成文档
