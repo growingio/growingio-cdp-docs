@@ -153,6 +153,8 @@
   * [辅助工具](developer-manual/toolbox/README.md)
     * [元数据创建工具](developer-manual/toolbox/metadata.md)
     * [数据导入工具](developer-manual/toolbox/dataimporter.md)
+    * [数据导入工具-Mysql类型](developer-manual/toolbox/dataimporter-mysql.md)
+    * [数据导入工具-文本类型](developer-manual/toolbox/dataimporter-txt.md)
 * [常见问题](product-faq/README.md)
   * [术语解释](product-faq/shu-yu-jie-shi.md)
   * [弹窗 FAQ](product-faq/tan-chuang-faq.md)
