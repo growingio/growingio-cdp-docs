@@ -3,9 +3,10 @@
 ## v2020.12.1：2020年12月17日发布
 
 * 新增:
-  * 客户端Flutter SDK
-  * 客户端React Native SDK
-  * 服务端PHP SDK
+  * 客户端埋点Flutter SDK
+  * 客户端埋点React Native SDK
+  * 服务端埋点PHP SDK
+  * [数据导入工具-Mysql类型](developer-manual/toolbox/dataimporter/dataimporter-mysql.md)
 * 优化: 
   * 事件选择器: 支持按拼音排序
   * 数据导入: 
@@ -70,7 +71,7 @@
   * 数据平台：[用户属性支持分类管理](product-manual/customer-data-platform/data-center/property/user-property/)
   * 数据平台：offline 增加用户事件最后一次触发时间
   * 辅助工具：[元数据创建工具发布](developer-manual/toolbox/metadata.md)
-  * 辅助工具：[数据导入工具发布](developer-manual/toolbox/dataimporter-txt.md)
+  * 辅助工具：[数据导入工具发布](developer-manual/toolbox/dataimporter/dataimporter-txt.md)
 * 优化:
   * gio-flow优化，支持新旧模型
   * 水晶球用户细查代码逻辑优化
