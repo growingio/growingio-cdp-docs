@@ -3,7 +3,7 @@
 GrowingIO提供脚本辅助工具帮助您实现一些批处理功能：
 
 * [元数据创建工具](metadata.md)：用于创建事件、事件属性、用户属性等元数据
-* [数据导入工具](dataimporter/dataimporter-txt.md)：用于导入CSV等结构化数据
+* [数据导入工具](dataimporter/)：用于导入文本、数据库等类型的数据
 
 {% file src="../../.gitbook/assets/growingio-tools-python-importer-1.1.tar.gz" caption="辅助工具下载" %}
 
