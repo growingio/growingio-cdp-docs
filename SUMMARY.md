@@ -116,6 +116,7 @@
       * [H5内嵌页SDK\(仅支持app内的H5\)](developer-manual/sdkintegrated/cdp/hybrid-sdk.md)
       * [Flutter SDK](developer-manual/sdkintegrated/cdp/flutter-sdk.md)
       * [React Native SDK](developer-manual/sdkintegrated/cdp/react-native-sdk.md)
+      * [Unity SDK](developer-manual/sdkintegrated/cdp/unity-sdk.md)
     * [运营平台 SDK](developer-manual/sdkintegrated/mp/README.md)
       * [运营平台SDK更新日志](developer-manual/sdkintegrated/mp/gtouchsdk-releasenotes.md)
       * [iOS SDK](developer-manual/sdkintegrated/mp/ios-sdk/README.md)
