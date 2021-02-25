@@ -9,6 +9,7 @@
     * [App端数据定义](product-manual/auto/app.md)
     * [小程序端数据定义](product-manual/auto/minp.md)
   * [无埋点SDK](product-manual/sdk/README.md)
+    * [JS SDK](product-manual/sdk/js-sdk.md)
     * [iOS SDK](product-manual/sdk/ios.md)
     * [Android SDK](product-manual/sdk/android.md)
   * [SQL标签-beta\(仅内部\)](product-manual/sql-tag.md)
