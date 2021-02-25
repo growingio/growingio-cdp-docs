@@ -5,6 +5,7 @@
 * 新增:
   * 客户端埋点Flutter SDK
   * 客户端埋点React Native SDK
+  * 客户端埋点Unity SDK
   * 服务端埋点PHP SDK
   * [数据导入工具-Mysql类型](developer-manual/toolbox/dataimporter/dataimporter-mysql.md)
 * 优化: 
