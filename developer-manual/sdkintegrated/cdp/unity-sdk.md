@@ -31,7 +31,7 @@
 
 ## 集成步骤
 
-直接从 [GitHub](https://github.com/growingio/growingio-php-sdk/tree/op)  获取 SDK 的源码并集成到项目中。
+直接从 [GitHub](https://github.com/growingio/growingio-unity-demo)  获取 SDK 的源码并集成到项目中。
 
 * Android
   * 将最新版本的vds-android-agent-cdp以及对应依赖的protobuf-lite、gmonitor替换Assets/Plugins/Android目录下对应文件
