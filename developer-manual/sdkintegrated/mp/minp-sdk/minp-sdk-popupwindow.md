@@ -10,10 +10,10 @@
 
    ```text
    gio('init', 'your projectId','your dataSourceId', 'your appId', {host: 'api.growingio.com',gtouchHost:'popupwindow.test.com'});
+  
    ```
 
-3. APPID填写的与数据源的一致，不一致会导致获取不到弹窗   
-4. 登陆微信小程序后台，进入配置
+3. 登陆微信小程序后台，进入配置
 
    打开开发设置，到服务器域名配置部分
 
