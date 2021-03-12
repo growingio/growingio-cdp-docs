@@ -67,6 +67,7 @@
         * [预定义属性](product-manual/customer-data-platform/data-center/property/preset-property.md)
         * [事件属性](product-manual/customer-data-platform/data-center/property/event-property.md)
         * [用户属性](product-manual/customer-data-platform/data-center/property/user-property/README.md)
+          * [用户属性管理](product-manual/customer-data-platform/data-center/property/user-property/management.md)
           * [分类管理](product-manual/customer-data-platform/data-center/property/user-property/classification-management.md)
         * [用户信息](product-manual/customer-data-platform/data-center/property/user-info.md)
       * [物品](product-manual/customer-data-platform/data-center/item/README.md)
