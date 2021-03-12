@@ -30,7 +30,7 @@
 
 * 展示该项目中被授权查看的用户属性、用户信息 。
 * 用戶屬性  为在系统中定义上报。[点击查看](../../customer-data-platform/data-center/property/user-property/)
-* 用戶信息 为系统中上报。[点击查看](../../customer-data-platform/data-center/property/user-info.md)
+* 用戶信息 为系统中上报。[点击查看](../../customer-data-platform/data-center/property/user-identification.md)
 * 可勾選只展示有值的信息 。
 
 
