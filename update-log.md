@@ -1,12 +1,14 @@
 # 更新日志
 
-## v2021.13.2：2021年
+## v2021.13.2：2021年3月9日发布
 
 * 新增
   * 标签
-    * 标签支持分类管理
+    * [标签支持分类管理](product-manual/customer-data-platform/data-center/tag/classification-management.md)
   * 用戶
     * 使用gio分群查询腾讯画像
+    * 用户信息融合到预置[用户属性](product-manual/customer-data-platform/data-center/property/user-property/)，支持在分析等场景中使用
+    * 新增[用户ID](product-manual/customer-data-platform/data-center/property/user-identification.md)模块，支持查看GrowingIO用户识别配置方案
   * 新版事件分析
     * 埋点事件支持添加单事件过滤
     * 事件分析中支持直接创建计算指标
@@ -42,37 +44,6 @@
   * qs 计算指标加 order 查询报错
   * 【360单用户画像】今日活跃用户 三周连续活跃用户 上两周流失用户数据更新有误
   * 用户-分层标签作为过滤条件的转义逻辑失效
-
-
-
-## **V2021.13.1：2021年** <a id="&#x65B0;&#x529F;&#x80FD;&#xFF1A;"></a>
-
-
-
-* 新增
-  * 新事件分析支持日期类型用户变量进行维度拆解和过滤
-  * 新事件分析新增单事件过滤功能
-  * 新增运营微信模板消息：支持授权管理、一次性/循环/触发类型发送
-  * 新增流程画布事件触发组件：可实时触发
-  * 新增运营功能权限配置
-  * 企業配置- 支持全局水印
-* 优化
-  * 個人中心 - 支持修改手機、郵箱
-  * 個人中心- 可查看你所在不同項目的角色權限。
-  * 作为【用户】，【为了正确的编写sql标签】,希望【能在编辑器页面能够得到table schema的提示】
-
-
-
-* 修复:
-  * 用户细查数据显示错误（用户在当天没有访问数据，以及细查中显示的为另一个用户的数据）
-  * 历史数据导入的用户行为数据在zeppelin中可以查到，但是在平台上使用维度筛选无数据
-  * qs 计算指标加 order 查询报错
-  * 【360单用户画像】今日活跃用户 三周连续活跃用户 上两周流失用户数据更新有误
-  * 用户-分层标签作为过滤条件的转义逻辑失效
-
-
-
-
 
 ## v2021.13.0：2021年01月22日发布
 
@@ -223,8 +194,8 @@
   * 分析工具：新增支持下钻分群和下载用户ID
     * 支持应用：[漏斗分析](product-manual/product-analysis/funnel.md#jie-du-lou-dou-fen-xi)、[留存分析](product-manual/product-analysis/retention.md#jie-du-liu-cun-fen-xi)、[分布分析](product-manual/product-analysis/frequency.md#sheng-cheng-yong-hu-fen-qun-huo-xia-zai-yong-hu-id)
   * 标签: 
-    * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/customer-data-platform/data-center/tag/biao-qian-mo-xing/tag-basic.md) 标签
-    * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/customer-data-platform/data-center/tag/biao-qian-mo-xing/tag-basic.md)
+    * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/customer-data-platform/data-center/tag/model/basic.md) 标签
+    * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/customer-data-platform/data-center/tag/model/basic.md)
   * 全局指标: [新增支持退出次数](product-manual/customer-data-platform/data-center/complex/term.md)
     * 含义: 用来衡量用户退出网站/App/小程序的数量
     * 支持应用：KPI分析、事件分析、分布分析、分群画像
@@ -248,7 +219,7 @@
 * 新功能: 
   * 分群画像：“做过”行为筛选功能新增支持使用计算指标筛选用户
   * 标签：
-    * [累计值/平均值/占比](product-manual/customer-data-platform/data-center/tag/biao-qian-mo-xing/tag-basic.md)标签新增支持使用计算指标的累计值创建用户标签
+    * [累计值/平均值/占比](product-manual/customer-data-platform/data-center/tag/model/basic.md)标签新增支持使用计算指标的累计值创建用户标签
     * 分层标签新增支持使用计算指标定义用户分层
   * 角色管理
     * 新增支持创建和管理角色，一个角色就相当于一个功能权限包
