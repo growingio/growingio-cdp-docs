@@ -29,12 +29,6 @@
   public static void ClearUserId()
   ```
 
-* SetUserAttributes: 发送一个自定义的用户事件
-
-  ```text
-  public static void SetUserAttributes(Dictionary<string, object> var)
-  ```
-
 ## 集成步骤
 
 直接从 [GitHub  ](https://github.com/growingio/growingio-unity-sdk)获取 SDK 的源码并集成到项目中。
