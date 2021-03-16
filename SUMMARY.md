@@ -13,5 +13,5 @@
     * [iOS SDK](product-manual/sdk/ios.md)
     * [Android SDK](product-manual/sdk/android.md)
   * [SQL标签-beta\(仅内部\)](product-manual/sql-tag.md)
-  * [魔豆-beta\(仅内部\)](product-manual/mo-dou-beta-jin-nei-bu.md)
+  * [魔豆-beta](product-manual/mo-dou-beta-jin-nei-bu.md)
 
