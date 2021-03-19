@@ -1,6 +1,6 @@
 # 数据导入工具-Hive类型
 
-导入Mysql类型的数据，支持：
+导入Hive类型的数据，支持：
 
 * 用户属性数据导入
 * 用户行为数据导入
@@ -23,7 +23,7 @@ python3 format_importer.py -m user_variables \
 {% hint style="info" %}
 ds：必选参数，数据源ID在前端获得，操作详见[附录](dataimporter-mysql.md#fu-lu)
 
-f：必选参数，导入数据格式，填写：mysql
+f：必选参数，导入数据格式，填写：hive
 
 db\_host：必选参数，数据库连接地址
 
@@ -31,7 +31,7 @@ db\_user：必选参数，数据库连接用户名
 
 db\_password：必选参数，数据库连接密码
 
-db\_port：可选参数，数据库连接端口，默认3306
+db\_port：可选参数，数据库连接端口，默认10000
 
 sql：必选参数，查询语句，输出列须包含userId字段，其他字段须已在用户属性中定义
 {% endhint %}
@@ -73,7 +73,7 @@ python3 format_importer.py -m events \
 {% hint style="info" %}
 ds：必选参数，数据源ID在前端获得，操作详见[附录](dataimporter-mysql.md#fu-lu)
 
-f：必选参数，导入数据格式，填写：mysql
+f：必选参数，导入数据格式，填写：hive
 
 db\_host：必选参数，数据库连接地址
 
@@ -81,7 +81,7 @@ db\_user：必选参数，数据库连接用户名
 
 db\_password：必选参数，数据库连接密码
 
-db\_port：可选参数，数据库连接端口，默认3306
+db\_port：可选参数，数据库连接端口，默认10000
 
 sql：必选参数，查询语句。输出列须包含userId、event和timestamp字段，其中event为埋点事件名，timestamp为事件发生的时间戳，单位是毫秒。其他字段须已在用户属性中定义
 
