@@ -8,6 +8,7 @@
   * 客户端埋点Unity SDK
   * 服务端埋点PHP SDK
   * [数据导入工具-Mysql类型](developer-manual/toolbox/dataimporter/dataimporter-mysql.md)
+  * [数据导入工具-Hive类型](developer-manual/toolbox/dataimporter/dataimporter-hive.md)
 * 优化: 
   * 事件选择器: 支持按拼音排序
   * 数据导入: 
