@@ -24,6 +24,8 @@
     * [流程画布](product-manual/mp/process/README.md)
       * [创建流程画布](product-manual/mp/process/create-process.md)
     * [用户运营](product-manual/mp/mp/README.md)
+      * [微信触达](product-manual/mp/mp/wei-xin-chu-da/README.md)
+        * [服务号模板消息](product-manual/mp/mp/wei-xin-chu-da/fu-wu-hao-mo-ban-xiao-xi.md)
       * [webhook](product-manual/mp/mp/webhook.md)
       * [弹窗](product-manual/mp/mp/popup/README.md)
         * [创建弹窗](product-manual/mp/mp/popup/create.md)
