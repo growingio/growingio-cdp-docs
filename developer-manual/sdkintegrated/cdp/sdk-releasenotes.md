@@ -40,6 +40,11 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">cdp-1.2.6</td>
+      <td style="text-align:left">&#x652F;&#x6301;1.0.25&#x7248;&#x672C;oaid</td>
+      <td style="text-align:left">2021-03-16</td>
+    </tr>
+    <tr>
       <td style="text-align:left">cdp-1.2.5</td>
       <td style="text-align:left">&#x652F;&#x6301;&#x91C7;&#x96C6;Hybrid&#x52A0;&#x8F7D;file&#x534F;&#x8BAE;&#x7684;&#x9875;&#x9762;</td>
       <td
