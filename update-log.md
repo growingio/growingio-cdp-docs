@@ -7,7 +7,6 @@
     * [标签支持分类管理](product-manual/customer-data-platform/data-center/tag/classification-management.md)
   * 用戶
     * 腾讯画像，支持第三方腾讯 TGI 人群画像。[点击查看](product-manual/uesr-analysis/teng-xun-hua-xiang.md)
-    * 使用gio分群查询腾讯画像
     * 用户信息融合到预置[用户属性](product-manual/customer-data-platform/data-center/property/user-property/)，支持在分析等场景中使用
     * 新增[用户ID](product-manual/customer-data-platform/data-center/property/user-identification.md)模块，支持查看GrowingIO用户识别配置方案
   * 新版事件分析
@@ -24,7 +23,7 @@
     * 新增流程画布实时组件
     * 运营模块权限配置功能支持
   * 企业功能
-  * 企業配置- 支持全局水印。点击查看
+    * 企業配置- 支持全局水印。
 * 优化
   * 数据板块-添加埋点事件时无法搜索事件属性
   * 分群新建按钮移动到分群列表页
@@ -83,7 +82,7 @@
   * 用戶：用户列表页面支持自定义列及下载
     * 使用者可以在分群中自定义下载 ，分群中用户 相关的 标签、属性、用户信息 。
   * 多项目管理 ：  
-    * 支撑大型集团、大型多部门客户建立多个项目，分别进行独立的数据分析与协作。[什么是项目](https://app.gitbook.com/@growingio/s/op/~/drafts/-MPlafSCRPxqYs7cULQ2/v/v20201200/product-manual/qi-ye-guan-li-hou-tai/project-manage)
+    * 支撑大型集团、大型多部门客户建立多个项目，分别进行独立的数据分析与协作。[点击查看](product-manual/zhan-dian-guan-li/)
   * 用户: 用户细查新增显示埋点事件IP信息
   * 全局过滤: 支持使用页面维度值搜索
 * 优化: 
