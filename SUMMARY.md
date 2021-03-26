@@ -152,6 +152,7 @@
         * [Web 弹窗 SDK](developer-manual/sdkintegrated/mp/js-sdk/web-tan-chuang-sdk.md)
         * [H5 弹窗 SDK](developer-manual/sdkintegrated/mp/js-sdk/h5-tan-chuang-sdk.md)
         * [Web/H5 自适应弹窗 SDK](developer-manual/sdkintegrated/mp/js-sdk/webh5-zi-kuo-ying-tan-chuang-sdk.md)
+  * [辅助工具](developer-manual/toolbox.md)
   * [API参考](developer-manual/api-reference/README.md)
     * [API接口](developer-manual/api-reference/cdp/README.md)
       * [接口认证](developer-manual/api-reference/cdp/authentication.md)
