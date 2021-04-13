@@ -2,11 +2,52 @@
 
 ## 用户标签导出
 
-### 1.获取项目id
+### 1.获取标签标识符
 
-为了导出或下载需要的标签，我们需要先选择具体的项目，获取项目ID，相关API为 **projects** 。
+#### 方案一：
 
-请求项目信息：
+通过 平台级标签列表接口 [dataCenterTags](description/datacenter/#datacentertags) 查询用户标签列表，获取您需要下载的标签标识符。
+
+请求信息：
+
+```graphql
+query dataCenterTags {
+    dataCenterTags{
+        key
+        name
+    }
+}
+```
+
+返回结果：
+
+```graphql
+{
+  "data": {
+    "tags": [
+        ...
+        {
+          "key": "tag_payment_times",
+          "name": "订单交易笔数"
+        },
+        ...
+    }
+}
+```
+
+#### 方案二：
+
+在 客户数据平台 &gt; 用户管理 &gt; 标签管理 中 标签详情页获取标签标识符。
+
+![&#x6807;&#x7B7E;&#x8BE6;&#x60C5;&#x9875;](../../../.gitbook/assets/image%20%28538%29.png)
+
+#### 方案三：
+
+通过 项目级标签列表接口 [Tags](description/project.md#tags) 查询用户标签列表，获取您需要下载的标签标识符。
+
+为了导出或下载需要的标签，您需要先选择具体的项目，获取项目ID，相关API为 [projects](description/datacenter/#projects) 。
+
+请求信息：
 
 ```graphql
 query Projects {
@@ -32,79 +73,72 @@ query Projects {
 }
 ```
 
-### 2.获取标签列表
+选取默认项目，id为 "WlGk4Daj" ，查询用户标签列表，获取您需要下载的标签标识符。
 
-这里选取默认项目，id为 "WlGk4Daj" ，接下来获取标签列表：
+请求信息：
 
 ```graphql
 query Tags {
   tags(projectId: "WlGk4Daj") {
-    id
+    key
     name
   }
 }
 ```
 
-得到结果：
+返回结果：
 
 ```graphql
 {
   "data": {
     "tags": [
+        ...
         {
-          "id": "mgGJj3GA",
-          "name": "标签1"
+          "key": "tag_payment_times",
+          "name": "订单交易笔数"
         },
-        {
-          "id": "zZDb1jG9",
-          "name": "标签2"
-        },
-        {
-          "id": "JnG4NBQz",
-          "name": "标签3"
-        }
-        # 省略......
-        {
-          "id": "V0G5aXGA",
-          "name": "标签n"
-        }
+        ...
     }
 }
 ```
 
-### 3.导出所需标签
+### 2.导出所需标签
 
-如果要导出某条标签，以ID为“mgGJj3GA”的标签为例 \( 相关API为：**submitTagUserExportJob** \)，通过接口提交一个导出特定标签的任务并返回一个任务对象\(GraphQL类型\)。
+如果要导出某个标签，以key为 “**tag\_payment\_times**” 的标签为例，通过接口提交一个导出特定标签的任务并返回一个任务对象\(GraphQL类型\)。
 
-请求：
+相关API：[**submitTagUserExportJobByKey**](description/datacenter/#submittaguserexportjobbykey)\*\*\*\*
+
+请求信息：
 
 ```graphql
-mutation SubmitTagUserExportJob {
-  submitTagUserExportJob(tagId: "mgGJj3GA", charset: "UTF-16LE", detailExport: false) {
+mutation submitTagUserExportJobByKey {
+  submitTagUserExportJobByKey(parameter: {tagKey: "tag_payment_times"}) {
       id
       name
   }
-} 
-```
-
-返回：
-
-```graphql
-{
-    "data": {
-        "submitTagUserExportJob": {
-            "id": "VGFnVXNlckV4cG9ydEpvYkR0bzp3V0RyNzdRTQ",
-            "name": "DET-202101270900-32426198185000",
-        }
-    }
 }
 ```
 
-获取该任务的信息后，通过 **jobResult** 接口请求任务结果：
+返回结果：
+
+```graphql
+{
+  "data": {
+    "submitTagUserExportJobByKey": {
+      "id": "VGFnVXNlckV4cG9ydEpvYkR0bzpBYlEzWEFwWQ",
+      "name": "DET-202104131140-42035184000000"
+    }
+  }
+}
+```
+
+获取该任务的id后，通过 [**jobResult**](description/datacenter/#jobresult) 接口请求任务下载结果：
+
+请求信息：
 
 ```graphql
 query JobResult {
-  jobResult(id: "VGFnVXNlckV4cG9ydEpvYkR0bzp3V0RyNzdRTQ") {
+  jobResult(id: "VGFnVXNlckV4cG9ydEpvYkR0bzpBYlEzWEFwWQ") {
     id
     stage
     uris
@@ -112,16 +146,16 @@ query JobResult {
 }
 ```
 
-得到任务结果：
+返回结果：
 
 ```graphql
 {
   "data": {
     "jobResult": {
-      "id": "wWDr77QM",
+      "id": "AbQ3XApY",
       "stage": "FINISH",
       "uris": [
-        "/jobs/results/DET-202101270900-32426198185000/下载标签.csv"
+        "/jobs/results/DET-202104131140-42035184000000/c6be148a-4697-43f2-ae83-afe83cea93ab.csv"
       ]
     }
   }
@@ -132,7 +166,7 @@ uris 即为要导出资源的URI。如果需要下载该文件，则在该URI之
 
 {平台链接} + '/download?file=' + uris
 
-即 https://xxx.growingio.cn/download?file=/jobs/results/DET-202101270900-32426198185000/下载标签.csv
+即 https://xxx.growingio.cn/download?file=/jobs/results/DET-202104131140-42035184000000/c6be148a-4697-43f2-ae83-afe83cea93ab.csv
 
 ## 用户分群导出
 

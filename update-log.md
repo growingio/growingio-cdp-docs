@@ -5,6 +5,9 @@
 * 新增
   * API：
     * 新增 GraphQL 接口 [submitTagUserExportJobByKey](developer-manual/api-reference/cdp/description/datacenter/#submittaguserexportjobbykey)，支持根据自定义标识符\(tagKey\)导出用户标签
+    * 新增 GraphQL 接口 [dataCenterUserProfile](developer-manual/api-reference/cdp/description/datacenter/#datacenteruserprofile)，支持在数据中心通过自定义标识符查询用户属性和用户标签
+    * 新增 GraphQL 接口 [dataCenterTags](developer-manual/api-reference/cdp/description/datacenter/#datacentertags)，支持在数据中心查询用户标签列表
+    * 优化 GraphQL 接口 [UserProfile](developer-manual/api-reference/cdp/description/project.md#userprofile)，支持在项目中通过自定义标识符查询用户属性和用户标签
 
 ## v2021.13.3：2021年3月23日发布
 

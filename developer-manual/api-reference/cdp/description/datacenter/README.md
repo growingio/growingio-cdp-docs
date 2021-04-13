@@ -368,7 +368,7 @@ xxx.growingio.cn/download?file=/jobs/results/DES-202101251109-40191580841000/下
 
 请求类型: Query
 
-接口签名：dataCenterUserProfile\(userId: String!, tags: \[HashId!\], properties: \[String!\]\): UserProfile
+接口签名：dataCenterUserProfile\(userId: String!, properties: \[String!\]\): UserProfile
 
 参数说明：
 

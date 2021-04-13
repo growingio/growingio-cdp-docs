@@ -4,11 +4,8 @@
 
 | **请求类型** | **API** | **接口描述** |
 | :--- | :--- | :--- |
-| Mutation | submitTagUserExportJob | 提交导出标签用户任务 |
 | Mutation | submitSegmentUserExportJob | 提交导出用户分群任务 |
 | Mutation | submitAnalysisExportJob | 提交统计数据导出任务 |
-| Query | projects | 获取项目信息 |
-| Query | jobResult | 根据任务ID查询任务结果 |
 | Query | userProfile | 查询单个用户的标签值或属性 |
 | Query | segments | 获取用户分群列表 |
 | Query | tags | 获取标签列表 |
@@ -17,149 +14,7 @@
 | Query | retentionAnalyses | 获取留存分析列表 |
 | Query | frequencyAnalyses | 获取分布分析列表 |
 
-## 系统自定义GraphQL标量
-
-在数据导出相关的API中，使用了一些系统自定义的GraphQL标量，如下所示：
-
-**HashId**: OP平台中的对象 \(如项目、标签等\) 拥有的一个独特的ID，以长度为8个字符的字符串表示，包含大小写英文字母与阿拉伯数字。
-
-**DateTime**: 符合RFC 3339规范的日期时间表示形式。
-
-**BytesJson**: 返回一个JSON。
-
 ## Mutation类型接口
-
-### submitTagUserExportJob
-
-描述：提交导出标签用户任务
-
-请求类型：Mutation
-
-接口签名：submitTagUserExportJob\(tagId: HashId!, properties: \[String!\], charset: String, detailExport: Boolean\): TagUserExportJob!
-
-参数说明：
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>&#x53C2;&#x6570;&#x540D;&#x79F0;</b>
-      </th>
-      <th style="text-align:left"><b>&#x53C2;&#x6570;&#x7C7B;&#x578B;</b>
-      </th>
-      <th style="text-align:left"><b>&#x53C2;&#x6570;&#x63CF;&#x8FF0;</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">tagId</td>
-      <td style="text-align:left">HashId!</td>
-      <td style="text-align:left">&#x8981;&#x5BFC;&#x51FA;&#x7684;&#x7528;&#x6237;&#x6807;&#x7B7E;&#x7684;ID</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">properties</td>
-      <td style="text-align:left">[String!]</td>
-      <td style="text-align:left">&#x9700;&#x8981;&#x5BFC;&#x51FA;&#x7684;&#x7528;&#x6237;&#x5C5E;&#x6027;&#x6807;&#x793A;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">charset</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x7F16;&#x7801;&#x683C;&#x5F0F;&#xFF0C;&#x5982; &#x201C;UTF-16LE&#x201D;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">detailExport</td>
-      <td style="text-align:left">Boolean</td>
-      <td style="text-align:left">
-        <p>&#x5F53;detailExport&#x4E3A;True&#x65F6;&#xFF0C;&#x4E3A;&#x670D;&#x52A1;&#x7AEF;&#x63A5;&#x53E3;&#x8C03;&#x7528;&#x65F6;&#x9009;&#x7528;&#xFF0C;&#x5BFC;&#x51FA;&#x683C;&#x5F0F;&#x4E3A;&#x8BE6;&#x60C5;&#xFF0C;</p>
-        <p>False&#x4E3A;&#x524D;&#x7AEF;&#x63A5;&#x53E3;&#x8C03;&#x7528;&#x65F6;&#x9009;&#x7528;&#xFF0C;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x4E3A;&#x7B80;&#x6D01;&#x683C;&#x5F0F;&#x3002;</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-返回值：GraphQL类型
-
-```graphql
-type TagUserExportJob {
-    "导出操作任务的id"
-    id: String! 
-    "任务名"
-    name: String!
-    "任务描述"
-    description: String 
-    "任务状态"
-    stage: JobStage!
-    "创建者id"
-    creatorId: HashId!
-    "创建时间"
-    createdAt: DateTime!
-    "更新者id"
-    updaterId: HashId
-    "更新时间"
-    updatedAt: DateTime
-    "创建者"
-    creator: String 
-    "更新者"
-    updater: String
-    "错误类型"
-    error: Error
-}
-
-enum JobStage {
-    # NONE 任务的初始状态
-    # READY 任务准备执行
-    # RUNNING 任务正在执行
-    # DATA_READY 数据已经准备就绪
-    # FINISH 任务完成
-    # ERROR 任务执行失败
-    NONE, READY, RUNNING, DATA_READY, FINISH, ERROR
-}
-
-type Error {
-    "错误码"
-    code: String   
-    "错误信息" 
-    message: String   
-}
-```
-
-请求示例：
-
-```graphql
-mutation SubmitTagUserExportJob {
-  submitTagUserExportJob(tagId: "mgGJj3GA", charset: "UTF-16LE", detailExport: false) {
-      id
-      name
-      __typename
-      description
-      stage
-      creatorId
-      createdAt
-      updaterId
-      updatedAt   
-  }
-} 
-```
-
-返回结果示例：JSON
-
-```graphql
-{
-    "data": {
-        "submitTagUserExportJob": {
-            "id": "VGFnVXNlckV4cG9ydEpvYkR0bzp3ZURxOWVERQ",
-            "name": "DET-202101250901-32498440381000",
-            "__typename": "TagUserExportJob",
-            "description": null,
-            "stage": "NONE",
-            "creatorId": "zqQRq3Do",
-            "createdAt": "2021-01-25T09:01:38.440443Z",
-            "updaterId": "zqQRq3Do",
-            "updatedAt": "2021-01-25T09:01:38.440443Z"
-        }
-    }
-}
-```
 
 ### submitSegmentUserExportJob
 
@@ -350,16 +205,50 @@ mutation SubmitAnalysisExportJob {
 
 请求类型: Query
 
-接口签名：userProfile\(projectId: HashId!, userId: String, tags: \[HashId!\], properties: \[String!\]\): UserProfile
+接口签名：userProfile\(projectId: HashId!, userId: String, properties: \[String!\]\): UserProfile
 
 参数说明：（请求参数“tags”和“properties”中须至少填写一个）
 
-| **参数名称** | **参数类型** | **参数描述** |
-| :--- | :--- | :--- |
-| projectId | HashId! | 项目ID |
-| userId | String | 用户ID |
-| tags | \[HashId!\] | 用户标签ID列表 |
-| properties | \[String!\] | 用户属性标示列表 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>&#x53C2;&#x6570;&#x540D;&#x79F0;</b>
+      </th>
+      <th style="text-align:left"><b>&#x53C2;&#x6570;&#x7C7B;&#x578B;</b>
+      </th>
+      <th style="text-align:left"><b>&#x53C2;&#x6570;&#x63CF;&#x8FF0;</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">projectId</td>
+      <td style="text-align:left">HashId!</td>
+      <td style="text-align:left">&#x9879;&#x76EE;ID</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">userId</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">&#x7528;&#x6237;ID</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">properties</td>
+      <td style="text-align:left">[String!]</td>
+      <td style="text-align:left">
+        <p>&#x7528;&#x6237;&#x5C5E;&#x6027;&#x6807;&#x8BC6;&#x7B26;&#xFF0C;&#x5982;
+          usr_sex</p>
+        <p>&#x7528;&#x6237;&#x6807;&#x7B7E;&#x6807;&#x8BC6;&#x7B26;&#xFF0C;&#x5982;
+          tag_payment</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+{% hint style="success" %}
+用户属性标识符为 usr\_ + {自定义标识符}
+
+用户标签标识符为 {自定义标识符}，定义时强制以 tag\_ 开头
+{% endhint %}
 
 返回值：GraphQL类型
 
@@ -386,8 +275,10 @@ type InsensitiveProperty {
 请求示例：
 
 ```graphql
-query UserProfile {
-    userProfile(projectId: "WlGk4Daj", userId: "40097", tags: ["mgGJj3GA", "zZDb1jG9","OqQjr1Qd"]) {
+query userProfile {
+    userProfile(projectId: "WlGk4Daj"
+                , userId: "1001"
+                , properties:["usr_sex","tag_payment"]) {
         id
         userId
         properties {
@@ -405,23 +296,18 @@ query UserProfile {
 {
     "data": {
         "userProfile": {
-            "id": "40097",
-            "userId": "40097",
+            "id": "1001",
+            "userId": "1001",
             "properties": [
                 {
-                    "key": "OqQjr1Qd",
-                    "name": "测试_基础指标标签",
-                    "value": "1610085550900"
+                    "key": "usr_sex",
+                    "name": "用户属性-性别",
+                    "value": "男"
                 },
                 {
-                    "key": "mgGJj3GA",
-                    "name": "测试_分层标签",
-                    "value": "<=1"
-                },
-                {
-                    "key": "zZDb1jG9",
-                    "name": "测试_SQL标签",
-                    "value": "127.0000"
+                    "key": "tag_payment",
+                    "name": "用户标签-支付次数",
+                    "value": "300"
                 }
             ]
         }
@@ -813,11 +699,11 @@ type ComputeDirective {
 请求示例：
 
 ```graphql
-query Tags {
-    tags(projectId: "WlGk4Daj") {
+query dataCenterTags {
+    dataCenterTags{
         id
+        key
         name
-        type
         creator
         createdAt
         updater
@@ -835,30 +721,20 @@ query Tags {
         "tags": [
             {
                 "id": "mgGJj3GA",
-                "name": "测试_分层",
-                "type": "HORIZONTAL",
-                "creator": "xujing",
+                "key": "tag_payment",
+                "name": "用户标签-支付次数",
+                "creator": "gio_test",
                 "createdAt": "2021-01-12T02:27:54.550872Z",
                 "updater": null,
                 "updatedAt": "2021-01-12T02:27:54.550872Z",
                 "__typename": "Tag"
             },
-            {
-                "id": "zZDb1jG9",
-                "name": "基础指标",
-                "type": "AGGREGATED",
-                "creator": "admin",
-                "createdAt": "2021-01-12T03:52:25.368Z",
-                "updater": null,
-                "updatedAt": "2021-01-12T03:52:25.368Z",
-                "__typename": "Tag"
-            },
             ......
             {
                 "id": "JnG4NBQz",
-                "name": "基础指标(副本)",
-                "type": "AGGREGATED",
-                "creator": "admin",
+                "key": "tag_last_payment",
+                "name": "用户标签-最后一次支付距今日期",
+                "creator": "gio_test",
                 "createdAt": "2021-01-12T03:53:02.634829Z",
                 "updater": null,
                 "updatedAt": "2021-01-12T03:53:02.634829Z",
