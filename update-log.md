@@ -2,7 +2,10 @@
 
 ## v2021.13.4：2021年4月7日发布
 
-* 
+* 新增
+  * API：
+    * 新增 GraphQL 接口 [submitTagUserExportJobByKey](developer-manual/api-reference/cdp/description/datacenter/#submittaguserexportjobbykey)，支持根据自定义标识符\(tagKey\)导出用户标签
+
 ## v2021.13.3：2021年3月23日发布
 
 * 新增
