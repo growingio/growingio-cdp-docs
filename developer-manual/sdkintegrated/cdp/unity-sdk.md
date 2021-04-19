@@ -74,11 +74,11 @@ public static void SetUserAttributes(Dictionary<string, object> var)
 
 * Android
 
-![](../../../.gitbook/assets/tu-pian-%20%2811%29.png)
+![](../../../.gitbook/assets/tu-pian-%20%2813%29.png)
 
 * iOS
 
-![](../../../.gitbook/assets/tu-pian-%20%289%29.png)
+![](../../../.gitbook/assets/tu-pian-%20%2811%29.png)
 
-![](../../../.gitbook/assets/tu-pian-%20%2810%29.png)
+![](../../../.gitbook/assets/tu-pian-%20%2812%29.png)
 

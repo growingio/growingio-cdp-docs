@@ -3,11 +3,15 @@
 ## v2021.13.4：2021年4月7日发布
 
 * 新增
+
   * API：
     * 新增 GraphQL 接口 [submitTagUserExportJobByKey](developer-manual/api-reference/cdp/description/datacenter/#submittaguserexportjobbykey)，支持根据自定义标识符\(tagKey\)导出用户标签
     * 新增 GraphQL 接口 [dataCenterUserProfile](developer-manual/api-reference/cdp/description/datacenter/#datacenteruserprofile)，支持在数据中心通过自定义标识符查询用户属性和用户标签
     * 新增 GraphQL 接口 [dataCenterTags](developer-manual/api-reference/cdp/description/datacenter/#datacentertags)，支持在数据中心查询用户标签列表
     * 优化 GraphQL 接口 [UserProfile](developer-manual/api-reference/cdp/description/project.md#userprofile)，支持在项目中通过自定义标识符查询用户属性和用户标签
+  * 预警：可以在新事件分析里创建预警
+  * 数据
+    * [Mobile Debugger工具](developer-manual/sdk-tiao-shi/mobile-debugger.md)，方便埋点工程师查看移动端SDK上传的数据信息
 
 ## v2021.13.3：2021年3月23日发布
 
@@ -274,7 +278,7 @@
 ## v2020.6.1：2020年6月发布
 
 * 新功能:
-  * 产品分析：看板增加”[添加描述](product-manual/charts/#tian-jia-miao-shu)“功能 
+  * 产品分析：看板增加”[添加描述](product-manual/product-analysis/charts/#tian-jia-miao-shu)“功能 
     * 支持添加描述功能，可在看板上增加对看板或图表的描述说明
     * 支持描述图表拖拽和移动功能，可根据描述区域拖拽描述图表到对应位置
   * 全局指标：支持iOS 和 Android无埋点[全局指标](product-manual/customer-data-platform/data-center/complex/term.md#quan-ju-zhi-biao)采集
@@ -293,11 +297,11 @@
 ## v2020.5.4：2020年5月发布
 
 * 新功能:
-  * 产品分析: [新增看板模块](product-manual/charts/)
+  * 产品分析: [新增看板模块](product-manual/product-analysis/charts/)
     * 新增独立数据监控模块，为企业成员提供便捷的数据监控场景。
     * 看板支持订阅和取消订阅，可将当前关注的看板订阅至看板侧边栏，满足日常工作中固定数据报表监控场景使用需求。
     * 看板侧边栏支持通过拖拉进行看板排序，可根据日常数据监控需求自定义看板排序。
-  * 产品分析:  [看板共享设置](product-manual/charts/kanban-sharing-settings.md)
+  * 产品分析:  [看板共享设置](product-manual/product-analysis/charts/kanban-sharing-settings.md)
     * 支持看板共享设置，通过共享设置可与指定成员共享看板
     * 共享模式支持阅读者和编辑者两种模式
       * 阅读者: 仅可查看看板
