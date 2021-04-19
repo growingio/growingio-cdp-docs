@@ -31,54 +31,5 @@ description: 此功能可以方便查看移动端 SDK 上传的数据信息。
 
 ![](../../.gitbook/assets/tu-pian-%20%286%29.png)
 
-在此概览中可能出现的数据日志含义分别有：
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">&#x8BF7;&#x6C42;&#x7C7B;&#x578B;</th>
-      <th style="text-align:left">&#x8BF4;&#x660E;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">page</td>
-      <td style="text-align:left">&#x9875;&#x9762;&#x6D4F;&#x89C8;&#x6570;&#x636E;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">visit</td>
-      <td style="text-align:left">&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x6570;&#x636E;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">view_click</td>
-      <td style="text-align:left">&#x70B9;&#x51FB;&#x884C;&#x4E3A;&#x6570;&#x636E;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">chng</td>
-      <td style="text-align:left">&#x8F93;&#x5165;&#x6846;&#x884C;&#x4E3A;&#x6570;&#x636E;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">cstm</td>
-      <td style="text-align:left">&#x201C;&#x4E8B;&#x4EF6;&#x4EE5;&#x53CA;&#x5173;&#x8054;&#x7684;&#x4E8B;&#x4EF6;&#x7EA7;&#x53D8;&#x91CF;&#x201D;&#x6570;&#x636E;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">ppl</td>
-      <td style="text-align:left">&#x201C;&#x7528;&#x6237;&#x53D8;&#x91CF;&#x201D;&#x6570;&#x636E;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">imp</td>
-      <td style="text-align:left">
-        <p>&#x5143;&#x7D20;&#x6D4F;&#x89C8;&#x6570;&#x636E;</p>
-        <p>&#x6570;&#x636E;&#x91CF;&#x7EA7;&#x8FC7;&#x5927;&#xFF0C;&#x5F71;&#x54CD;Mobile
-          Debugger&#x6027;&#x80FD;&#xFF0C;Mobile Debugger&#x4E0D;&#x5C55;&#x793A;&#x8FD9;&#x90E8;&#x5206;&#x6570;&#x636E;</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-**通过“SDK 运行日志”页签查看SDK运行日志**
-
-![](../../.gitbook/assets/tu-pian-%20%288%29.png)
-
 
 
