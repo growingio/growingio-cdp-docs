@@ -5,6 +5,8 @@ description: 此功能可以方便查看移动端 SDK 上传的数据信息。
 # Mobile Debugger
 
 > 该工具要求iOS和Android SDK版本在3.1.0及以上
+>
+> 小米手机由于安全限制，该功能要求GrowingIO平台是https协议访问
 
 ## 启动Mobile Debugger <a id="qi-dong-mobile-debugger"></a>
 
@@ -27,5 +29,15 @@ description: 此功能可以方便查看移动端 SDK 上传的数据信息。
 
 **通过“事件流”页签查看请求数据**
 
-![](../../.gitbook/assets/tu-pian-%20%2810%29.png)
+如下图，可以查看上报某个物品属性的请求数据
+
+![](../../.gitbook/assets/tu-pian-%20%2815%29.png)
+
+**通过“SDK运行日志”查看SDK运行中的信息/警告/错误三种日志**
+
+如下图，可以点击日志发生的时间查看相应的日志
+
+![](../../.gitbook/assets/tu-pian-%20%2814%29.png)
+
+
 
