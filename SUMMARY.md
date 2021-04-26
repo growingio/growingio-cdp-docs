@@ -9,7 +9,6 @@
   * [属性模型](introduction/property-model.md)
   * [属性筛选](introduction/property-selector.md)
 * [产品使用文档](product-manual/README.md)
-  * [Untitled](product-manual/untitled.md)
   * [看板](product-manual/charts/README.md)
     * [看板订阅](product-manual/charts/subscribe-to-kanban.md)
     * [看板管理](product-manual/charts/kanban-manage.md)
