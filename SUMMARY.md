@@ -20,7 +20,7 @@
     * [漏斗分析](product-manual/product-analysis/funnel.md)
     * [留存分析](product-manual/product-analysis/retention.md)
     * [分布分析](product-manual/product-analysis/frequency.md)
-    * [预警](product-manual/product-analysis/yu-jing.md)
+    * [预警 \(beta\)](product-manual/product-analysis/yu-jing.md)
   * [运营](product-manual/mp/README.md)
     * [流程画布](product-manual/mp/process/README.md)
       * [创建流程画布](product-manual/mp/process/create-process.md)
