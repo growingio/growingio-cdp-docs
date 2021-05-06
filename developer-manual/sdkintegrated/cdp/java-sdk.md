@@ -107,7 +107,7 @@ proxy.password=demo
 | :--- | :--- | :--- | :--- |
 | eventKey | string | 是 | 埋点事件的Key。 |
 | loginUserId | string | 是 | 登录用户ID。 |
-| eventTine | long | 否 | 事件发生时间。 |
+| eventTime | long | 否 | 事件发生时间。 |
 | addEventVariable | \(string, string\|double\|Int\) | 否 | 事件级变量。 |
 | addEventVariables | map&lt;string,object&gt; | 否 | 事件级变量集合。 |
 
