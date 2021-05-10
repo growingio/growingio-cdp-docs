@@ -48,6 +48,14 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">1.5.0</td>
+      <td style="text-align:left">
+        <p>1.&#x5F39;&#x7A97;&#x5206;&#x5C4F;&#x81EA;&#x9002;&#x5E94;
+          <br />2.&#x9002;&#x914D;3.x&#x7684;&#x91C7;&#x96C6;SDK, &#x81EA;&#x9002;&#x5E94;2.x/3.x&#x7248;&#x672C;&#x91C7;&#x96C6;SDK</p>
+        <p>3.&#x4ED3;&#x5E93;&#x4ECE;JCenter&#x8FC1;&#x79FB;&#x5230;MavenCentral</p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">1.4.1-cdp</td>
       <td style="text-align:left">
         <p>1.&#x652F;&#x6301;&#x5F39;&#x7A97;&#x626B;&#x7801;&#x6D4B;&#x8BD5;&#xFF0C;&#x652F;&#x6301;&#x5F39;&#x7A97;&#x53BB;&#x91CD;&#x8BBE;&#x7F6E;</p>

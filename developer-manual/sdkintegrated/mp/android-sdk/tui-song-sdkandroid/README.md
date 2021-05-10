@@ -24,11 +24,17 @@
 如果没有开通华为推送通道可以不用添加该仓库，跳过该步骤。
 {% endhint %}
 
+{% hint style="info" %}
+1.5.0版本后仓库从JCenter迁移到了Maven Central, 请使用mavenCentral\(\)替换jcenter\(\)
+{% endhint %}
+
 ```swift
 allprojects {
     repositories {
         google()
         jcenter()
+        // sdk1.5.0版本开始迁移到了Maven Central
+        mavenCentral()
         mavenLocal()
         // 华为仓库
         maven { url 'http://developer.huawei.com/repo/' }

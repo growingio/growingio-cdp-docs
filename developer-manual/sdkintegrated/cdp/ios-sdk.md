@@ -3,7 +3,7 @@
 ## **添加依赖**
 
 1. 获取iOS SDK以下包并解压，由GrowingIO提供。
-2. 将[Growing.h](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-PublicHeader-1.2.4.zip)、[GrowingCDPCoreKit.framework](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDPCoreKit-1.2.4.zip) 添加到iOS工程中；记得勾选“Copy item if needed“。
+2. 将[Growing.h](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-PublicHeader-1.2.7.zip)、[GrowingCDPCoreKit.framework](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDPCoreKit-1.2.7.zip) 添加到iOS工程中；记得勾选“Copy item if needed“。
 3. 在工程项目中添加以下库文件：
 
 > 添加库依赖的位置在项目设置 Target &gt; 选项卡General &gt; Linked Frameworks and Libraies。

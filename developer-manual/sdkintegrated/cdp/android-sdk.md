@@ -2,6 +2,10 @@
 
 ## **添加依赖**
 
+{% hint style="info" %}
+cdp-1.2.7版本后仓库从JCenter迁移到了Maven Central, 请使用mavenCentral\(\)替换jcenter\(\)
+{% endhint %}
+
 在 module 级别的 build.gradle 文件中添加依赖
 
 ```text

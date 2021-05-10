@@ -16,6 +16,10 @@
 
 ### 2. 添加依赖
 
+{% hint style="info" %}
+1.5.0版本后仓库从JCenter迁移到了Maven Central, 请使用mavenCentral\(\)替换jcenter\(\)
+{% endhint %}
+
 #### 2.1 在app build.gradle添加SDK依赖
 
 ```java
