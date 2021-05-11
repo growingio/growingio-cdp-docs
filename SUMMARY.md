@@ -107,6 +107,7 @@
       * [申请帐号功能](product-manual/qi-ye-guan-li-hou-tai/qi-ye-pei-zhi/account-application.md)
       * [自主找回密码](product-manual/qi-ye-guan-li-hou-tai/qi-ye-pei-zhi/resetcode.md)
       * [Webhook通道](product-manual/qi-ye-guan-li-hou-tai/qi-ye-pei-zhi/webhook.md)
+    * [操作日志](product-manual/qi-ye-guan-li-hou-tai/cao-zuo-ri-zhi.md)
 * [开发者文档](developer-manual/README.md)
   * [Webhook 技术对接文档](developer-manual/webhook-ji-shu-dui-jie-wen-dang.md)
   * [厂商通道](developer-manual/chang-shang-tong-dao/README.md)
