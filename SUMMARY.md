@@ -51,7 +51,7 @@
       * [分群列表](product-manual/uesr-analysis/segmentations/segmentations-list.md)
     * [360°单用户画像](product-manual/uesr-analysis/customer-insights/README.md)
       * [应用场景](product-manual/uesr-analysis/customer-insights/application.md)
-    * [腾讯画像](product-manual/uesr-analysis/teng-xun-hua-xiang.md)
+    * [TGI画像](product-manual/uesr-analysis/teng-xun-hua-xiang.md)
     * [用户标签](product-manual/uesr-analysis/tag-analysis.md)
   * [数据](product-manual/shu-ju/README.md)
     * [埋点事件](product-manual/shu-ju/mai-dian-shi-jian.md)
