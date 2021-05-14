@@ -70,8 +70,6 @@
 
  2）埋点事件是否正确绑定事件属性
 
-![](https://lh6.googleusercontent.com/IC2B-ACGspMGMX-r-P--jEe7g0FfQBpVf-eNL7NMhc-OmRHic3k0TEDRSKUWFBOARVOeAb-BzRhN-wNav4whLl4agA4PG2_urpKNKxdRIOhfuv4p4o1eiY9EN3zARm37CUO4jZHT)
-
 
 
 ### Q:为什么轨迹细查中事件、事件属性会出现  “未知”的事件 ？ 
