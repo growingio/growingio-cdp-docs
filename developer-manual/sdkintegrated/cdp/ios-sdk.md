@@ -3,7 +3,7 @@
 ## **添加依赖**
 
 1. 获取iOS SDK以下包并解压，由GrowingIO提供。
-2. 将[Growing.h](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-PublicHeader-1.2.0-CDP.zip)、[GrowingCDPCoreKit.framework](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDPCoreKit-1.2.0-CDP.zip) 添加到iOS工程中；记得勾选“Copy item if needed“。
+2. 将[Growing.h](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-PublicHeader-1.2.7.zip)、[GrowingCDPCoreKit.framework](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDPCoreKit-1.2.7.zip) 添加到iOS工程中；记得勾选“Copy item if needed“。
 3. 在工程项目中添加以下库文件：
 
 > 添加库依赖的位置在项目设置 Target &gt; 选项卡General &gt; Linked Frameworks and Libraies。
@@ -38,10 +38,48 @@
     [Growing startWithAccountId:@"您的项目ID" dataSourceId:@"您的数据源ID"];  // 替换为您的项目ID和数据源ID
     // 其他配置,设置埋点上报地址
     [Growing setTrackerHost:@"http://test.xxx.com"];
-
+    
     // 开启Growing调试日志 可以开启日志 
     // [Growing setEnableLog:YES];
 }
+```
+
+## 添加支持用户运营扫码的代码 <a id="handleurl"></a>
+
+> 在 AppDelegate 中添加
+
+{% hint style="warning" %}
+因为您代码的复杂程度以及iOS SDK的版本差异，有时候 \[Growing handleUrl:url\] 并没有被调用。请在各个平台上调试这段代码，确保当App被URL scheme唤醒之后，该函数能被调用到。
+{% endhint %}
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    
+// 如果没有触发handleUrl 扫码弹窗 和扫码注册推送不生效
+ if ([Growing handleUrl:url]) // 请务必确保该函数被调用
+  {
+      return YES;
+  }
+  return NO;
+ 
+}
+```
+
+常用示例：
+
+若您在 AppDelegate 中实现了以下一个或多个方法，请在已实现的函数中，调用`[Growing handleUrl:]`
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options
+```
+
+若以上所有方法均未实现，请实现以下方法并调用`[Growing handleUrl:]`
+
+```swift
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotatio
 ```
 
 ## **重要配置**
@@ -57,6 +95,45 @@ App Store 提交注意事项‌
 > **为什么 GrowingIO 使用 IDFA?**
 >
 > GrowingIO 使用 IDFA 来做来源管理激活设备的精确匹配，让你更好的衡量广告效果。如您不希望启用IDFA，可以选择不引入 AdSupport.framework**。**
+
+#### 关于权限获取
+
+* 对于iOS 14之前，你无需主动获取 `广告标识IDFA` 的权限
+* 对于iOS 14之后，你需要使用如下方法来开启你的 `广告标识IDFA` 的权限
+
+1. Plist 文件中添加 `NSUserTrackingUsageDescription`
+
+   ```text
+   <key>NSUserTrackingUsageDescription</key>
+   <string>GrowingIO测试demo 需要使用你的广告标识信息以用于数据追踪分析</string> //描述内容请根据App修改
+   ```
+
+2. 导入框架 `#import <AppTrackingTransparency/AppTrackingTransparency.h>`
+3. 调用获取权限代码
+
+   ```text
+       if (@available(iOS 14, *)) {
+           // iOS14及以上版本需要先请求权限
+           [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+               switch (status) {
+                   case ATTrackingManagerAuthorizationStatusDenied:
+                       //用户拒绝向App授权
+                       break;
+                   case ATTrackingManagerAuthorizationStatusAuthorized:
+                       //用户同意向App授权
+                       break;
+                   case ATTrackingManagerAuthorizationStatusNotDetermined:
+                       //用户未做选择或未弹窗
+                       break;
+                   case ATTrackingManagerAuthorizationStatusRestricted:
+                       //用户在系统级别开启了限制广告追踪
+                       break;
+                   default:
+                       break;
+               }
+           }];
+       }
+   ```
 
 ## **API**
 
@@ -134,9 +211,9 @@ GrowingIO 初始化配置项均在 AppDelegate.m 文件中的 didFinishLaunching
 | API | 默认值 | 说明 |
 | :--- | :--- | :--- |
 | setAspectMode | 无 | 设置数据采集模式，有GrowingAspectModeSubClass 和GrowingAspectModeDynamicSwizzling 两种。 |
-| setFlushInterval | 30s | 设置、获取发送数据的事件间隔，默认设置30s。 |
-| setDailyDataLimit | 3027KB | 设置每天使用数据网络（2G、3G、4G）上传的数据量的上限，默认值3072KB（3MB）。 |
-| getDailyDataLimit | 无 | 获取每天使用数据网络（2G、3G、4G）上传的数据量的上限，默认值3072KB（3MB）。 |
+| setFlushInterval | 15s | 设置、获取发送数据的事件间隔，默认设置15s。 |
+| setDailyDataLimit | 10485KB | 设置每天使用数据网络（2G、3G、4G）上传的数据量的上限，默认值10485KB（10MB）。 |
+| getDailyDataLimit | 无 | 获取每天使用数据网络（2G、3G、4G）上传的数据量的上限，默认值10485KB（3MB）。 |
 | disableDataCollect | 无 | 设置GDPR生效。 |
 | enableDataCollect | 无 | 设置GDPR失效。 |
 | setEnableLocationTrack | Yes | 设置是否采集地理位置的统计信息，默认采集。 |
@@ -270,6 +347,8 @@ NSDictionary *dict = @{@"age" : 18, @"name": @"growingIO"};
 
 //代码示例
    [Growing trackPage:@"TestPageEvent"];
+   
+  
 ```
 
 ### 加载了H5内嵌页SDK gio\_hybrid\_cdp.js的页面。自动采集H5**（数据采集SDK &gt;=1.2.0）** <a id="bridgeforwebview"></a>
