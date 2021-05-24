@@ -1,46 +1,117 @@
 # 更新日志
 
-## v2021.14.0：2021年
+## v2021.13.6：2021年4月30日发布
 
 * 新增
-
-
-
-## 
-
-## **V2021.13.1：2021年** <a id="&#x65B0;&#x529F;&#x80FD;&#xFF1A;"></a>
-
-
-
-* 新增
-  * 新事件分析支持日期类型用户变量进行维度拆解和过滤
-  * 新事件分析新增单事件过滤功能
-  * 新增运营微信触点：支持授权管理、一次性/循环/触发类型发送触点。
-  * 新增流程画布实时组件。
-  * 运营模块权限配置功能支持。
-  * 企業配置- 支持全局水印
+  * 运营
+    * 文本内容支持插入用户标签、事件属性
+    * 运营角色权限支持read（只读）权限
+    * 流程画布用户判断器支持用户标签筛选
 * 优化
-  * 個人中心 - 支持修改手機、郵箱
-  * 個人中心- 可查看你所在不同項目的角色權限。
+  * 【看板单图操作规范】 提供可预期的交互操作，这样当用户做 进入单图详情页，移动单图位置等操作时，有可预期的操作提示。
+  * 【看板大小】单图尺寸类型调整，规定成了四类大小，这样有利于单图在看板内的排序。看板整体看起来清晰整洁。
+  * 【看板大小】小明希望看板中的单图可以修改大小（默认提供四种大小），这样对于任意类型的图表，都有适合的图标尺寸进行展示。
+  * 【看板创建入口新增】在看板列表直接创建新看板，方便用户快速创建看板
+  * 【看板编辑和保存逻辑】看板保存逻辑修改，而非每次做一个修改操作后，都自动保存。
+  * 企业管理后台 整体UI 优化。
+* 修复：
+  * 分析工具：修复KPI分析和事件分析同指标数据不一致问题
+  * 分析工具：修复事件分析选择时间维度QS查询超时问题
+  * 分析工具：修复事件分析选择单指标和大于等于两个维度的表格图下载失败问题
+  * 分析工具：修复事件分析列表页添加到看板失败问题
+  * 分析工具：修复事件分析保存到已删除看板报错问题
+  * 分析工具：修复事件分析与标签数据不一致问题
+  * 分析工具：修复分析工具详情用户列表和下钻分群用户列表不一致问题
+  * 分析工具：修复留存分析与下钻分群数据不一致问题
+  * 分析工具：修复漏斗分析下载数据与详情页数据不一致问题
+  * 分析工具：修复看板另存时描述修改内容重置问题
+  * 分析工具：修复看板另存后hover图表样式异常问题
+  * 分析工具：修复看板另存时描述修改内容重置问题
+  * 分析工具：修复看板更新后排序混乱问题
+  * 企业功能：修复关闭单点登录后，新建账号时仍提示单点登陆问题
+  * 企业功能：修复审批账号、新建账号时无法选择部门问题
+  * 企业功能：修复在企业成员中修改企业角色后，企业角色模块未更新问题
+  * 企业功能：修复没有编辑权限时，图标卡片不显示hover状态问题
+  * 导航：优化在分析工具中全局导航收起后白屏问题
+
+## v2021.13.5：2021年4月20日发布
+
+* 新增
+  * 新增操作日志，可在操作日志中查看使用者的操作记录。
+
+## v2021.13.4：2021年4月7日发布
+
+* 新增
+  * API：
+    * 新增 GraphQL 接口 [submitTagUserExportJobByKey](developer-manual/api-reference/cdp/description/datacenter/#submittaguserexportjobbykey)，支持根据自定义标识符\(tagKey\)导出用户标签
+    * 新增 GraphQL 接口 [dataCenterUserProfile](developer-manual/api-reference/cdp/description/datacenter/#datacenteruserprofile)，支持在数据中心通过自定义标识符查询用户属性和用户标签
+    * 新增 GraphQL 接口 [dataCenterTags](developer-manual/api-reference/cdp/description/datacenter/#datacentertags)，支持在数据中心查询用户标签列表
+    * 优化 GraphQL 接口 [UserProfile](developer-manual/api-reference/cdp/description/project.md#userprofile)，支持在项目中通过自定义标识符查询用户属性和用户标签
+  * 预警：可以在新事件分析里创建预警
+  * 数据
+    * [Mobile Debugger工具](developer-manual/sdk-tiao-shi/mobile-debugger.md)，方便埋点工程师查看移动端SDK上传的数据信息
+
+## v2021.13.3：2021年3月23日发布
+
+* 新增
+  * 标签
+    * 创建用户标签时，支持自定义标签标识符
+    * 项目中，支持独立控制角色标签下载权限
+  * 分群
+    * 项目中，支持独立控制角色分群下载权限
+* 优化
+  * 标签：下载文件名称优化为 {标签名称}\_{最后计算日期}\_用户标签
+  * 分群：下载文件名称优化为 {分群名称}\_{最后计算日期}\_用户分群
+
+## v2021.13.2：2021年3月9日发布
+
+* 新增
+  * 标签
+    * [标签支持分类管理](product-manual/customer-data-platform/data-center/customer-model-management/tag/classification-management.md)
+  * 用戶
+    * 腾讯画像，支持第三方腾讯 TGI 人群画像。[点击查看](product-manual/uesr-analysis/teng-xun-hua-xiang.md)
+    * 用户信息融合到预置[用户属性](product-manual/customer-data-platform/data-center/customer-model-management/customer-property/)，支持在分析等场景中使用
+    * 新增[用户ID](product-manual/customer-data-platform/data-center/customer-model-management/customer-identification.md)模块，支持查看GrowingIO用户识别配置方案
+  * 新版事件分析
+    * 埋点事件支持添加单事件过滤
+    * 事件分析中支持直接创建计算指标
+    * 计算指标新建时支持添加单事件过滤
+    * 事件分析支持新图表类型饼图，支持添加到看板
+    * 事件分析任意一天线图支持查看实时分钟粒度数据
+    * 事件分析支持使用日期类型用户变量进行拆解和过滤；支持使用数值型用户变量进行过滤
+    * 新事件分析支持日期类型用户变量进行维度拆解和过滤
+    * 新事件分析新增单事件过滤功能
+  * 运营
+    * 新增运营微信触点：支持授权管理、一次性/循环/触发类型发送触点
+    * 新增流程画布实时组件
+    * 运营模块权限配置功能支持
+  * 企业功能
+    * 企業配置- 支持全局水印。
+* 优化
+  * 数据板块-添加埋点事件时无法搜索事件属性
+  * 分群新建按钮移动到分群列表页
+  * 個人中心 - 支持修改手机、邮箱
+  * 個人中心- 可查看你所在不同項目的角色权限
   * 作为【用户】，【为了正确的编写sql标签】,希望【能在编辑器页面能够得到table schema的提示】
-
-
-
-* 修复:
+* 修复
+  * 新用户判断存在异常（一个用户为新注册用户，但未被判断为新用户，在new\_user中无该用户）
+  * 单图中计算指标，使用两个以上事件属性维度拆分就显示暂无数据
+  * 漏斗分析创建用户分群，下载用户列表用户数量有误
+  * 解決登入白屏問題
+  * 圈选 text 中包含特殊字符
+  * 項目管理 中所有的 下拉 select 樣式錯誤
+  * 标签-用户属性：中英文混合的用户属性搜索不到
+  * KPI 分析详情页，维度拆解超过8个后，无法取消选中已勾选项
   * 用户细查数据显示错误（用户在当天没有访问数据，以及细查中显示的为另一个用户的数据）
   * 历史数据导入的用户行为数据在zeppelin中可以查到，但是在平台上使用维度筛选无数据
   * qs 计算指标加 order 查询报错
   * 【360单用户画像】今日活跃用户 三周连续活跃用户 上两周流失用户数据更新有误
   * 用户-分层标签作为过滤条件的转义逻辑失效
 
-
-
-
-
 ## v2021.13.0：2021年01月22日发布
 
 * 新增
-  * 用户-360 单用户画像 ：[ 点击查看](product-manual/uesr-analysis/360-dan-yong-hu-hua-xiang-new/#gong-neng-jie-shao)
+  * 用户-360 单用户画像 ：[ 点击查看](product-manual/uesr-analysis/customer-insights/#gong-neng-jie-shao)
     * 调整单用户画像展示逻辑。
     * 支持行为细查实时更新 。
     * 支持统计一段时间内 用户的行为占比与行为趋势。
@@ -74,7 +145,7 @@
   * 用戶：用户列表页面支持自定义列及下载
     * 使用者可以在分群中自定义下载 ，分群中用户 相关的 标签、属性、用户信息 。
   * 多项目管理 ：  
-    * 支撑大型集团、大型多部门客户建立多个项目，分别进行独立的数据分析与协作。[什么是项目](https://app.gitbook.com/@growingio/s/op/~/drafts/-MPlafSCRPxqYs7cULQ2/v/v20201200/product-manual/qi-ye-guan-li-hou-tai/project-manage)
+    * 支撑大型集团、大型多部门客户建立多个项目，分别进行独立的数据分析与协作。[点击查看](product-manual/zhan-dian-guan-li/)
   * 用户: 用户细查新增显示埋点事件IP信息
   * 全局过滤: 支持使用页面维度值搜索
 * 优化: 
@@ -121,7 +192,7 @@
   * 运营平台：[流程画布发布](product-manual/mp/process/)
   * 运营平台：Webhook支持实时触发
   * 水晶球：用户列表支持自定义展示信息和下载功能
-  * 数据平台：[用户属性支持分类管理](product-manual/customer-data-platform/data-center/property/user-property/)
+  * 数据平台：[用户属性支持分类管理](product-manual/customer-data-platform/data-center/customer-model-management/customer-property/)
   * 数据平台：offline 增加用户事件最后一次触发时间
 * 优化:
   * gio-flow优化，支持新旧模型
@@ -186,8 +257,8 @@
   * 分析工具：新增支持下钻分群和下载用户ID
     * 支持应用：[漏斗分析](product-manual/product-analysis/funnel.md#jie-du-lou-dou-fen-xi)、[留存分析](product-manual/product-analysis/retention.md#jie-du-liu-cun-fen-xi)、[分布分析](product-manual/product-analysis/frequency.md#sheng-cheng-yong-hu-fen-qun-huo-xia-zai-yong-hu-id)
   * 标签: 
-    * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/customer-data-platform/data-center/tag/biao-qian-mo-xing/tag-basic.md) 标签
-    * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/customer-data-platform/data-center/tag/biao-qian-mo-xing/tag-basic.md)
+    * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/customer-data-platform/data-center/customer-model-management/tag/model/basic.md) 标签
+    * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/customer-data-platform/data-center/customer-model-management/tag/model/basic.md)
   * 全局指标: [新增支持退出次数](product-manual/customer-data-platform/data-center/complex/term.md)
     * 含义: 用来衡量用户退出网站/App/小程序的数量
     * 支持应用：KPI分析、事件分析、分布分析、分群画像
@@ -211,7 +282,7 @@
 * 新功能: 
   * 分群画像：“做过”行为筛选功能新增支持使用计算指标筛选用户
   * 标签：
-    * [累计值/平均值/占比](product-manual/customer-data-platform/data-center/tag/biao-qian-mo-xing/tag-basic.md)标签新增支持使用计算指标的累计值创建用户标签
+    * [累计值/平均值/占比](product-manual/customer-data-platform/data-center/customer-model-management/tag/model/basic.md)标签新增支持使用计算指标的累计值创建用户标签
     * 分层标签新增支持使用计算指标定义用户分层
   * 角色管理
     * 新增支持创建和管理角色，一个角色就相当于一个功能权限包
@@ -245,7 +316,7 @@
 ## v2020.6.1：2020年6月发布
 
 * 新功能:
-  * 产品分析：看板增加”[添加描述](product-manual/charts/#tian-jia-miao-shu)“功能 
+  * 产品分析：看板增加”[添加描述](product-manual/product-analysis/charts/#tian-jia-miao-shu)“功能 
     * 支持添加描述功能，可在看板上增加对看板或图表的描述说明
     * 支持描述图表拖拽和移动功能，可根据描述区域拖拽描述图表到对应位置
   * 全局指标：支持iOS 和 Android无埋点[全局指标](product-manual/customer-data-platform/data-center/complex/term.md#quan-ju-zhi-biao)采集
@@ -264,11 +335,11 @@
 ## v2020.5.4：2020年5月发布
 
 * 新功能:
-  * 产品分析: [新增看板模块](product-manual/charts/)
+  * 产品分析: [新增看板模块](product-manual/product-analysis/charts/)
     * 新增独立数据监控模块，为企业成员提供便捷的数据监控场景。
     * 看板支持订阅和取消订阅，可将当前关注的看板订阅至看板侧边栏，满足日常工作中固定数据报表监控场景使用需求。
     * 看板侧边栏支持通过拖拉进行看板排序，可根据日常数据监控需求自定义看板排序。
-  * 产品分析:  [看板共享设置](product-manual/charts/kanban-sharing-settings.md)
+  * 产品分析:  [看板共享设置](product-manual/product-analysis/charts/kanban-sharing-settings.md)
     * 支持看板共享设置，通过共享设置可与指定成员共享看板
     * 共享模式支持阅读者和编辑者两种模式
       * 阅读者: 仅可查看看板
