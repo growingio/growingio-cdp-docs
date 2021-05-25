@@ -3,7 +3,7 @@
 ## **添加依赖**
 
 1. 获取iOS SDK以下包并解压，由GrowingIO提供。
-2. 将[Growing.h](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-PublicHeader-1.2.4.zip)、[GrowingCDPCoreKit.framework](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDPCoreKit-1.2.4.zip) 添加到iOS工程中；记得勾选“Copy item if needed“。
+2. 将[Growing.h](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-PublicHeader-1.2.7.zip)、[GrowingCDPCoreKit.framework](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDPCoreKit-1.2.7.zip) 添加到iOS工程中；记得勾选“Copy item if needed“。
 3. 在工程项目中添加以下库文件：
 
 > 添加库依赖的位置在项目设置 Target &gt; 选项卡General &gt; Linked Frameworks and Libraies。
@@ -95,6 +95,45 @@ App Store 提交注意事项‌
 > **为什么 GrowingIO 使用 IDFA?**
 >
 > GrowingIO 使用 IDFA 来做来源管理激活设备的精确匹配，让你更好的衡量广告效果。如您不希望启用IDFA，可以选择不引入 AdSupport.framework**。**
+
+#### 关于权限获取
+
+* 对于iOS 14之前，你无需主动获取 `广告标识IDFA` 的权限
+* 对于iOS 14之后，你需要使用如下方法来开启你的 `广告标识IDFA` 的权限
+
+1. Plist 文件中添加 `NSUserTrackingUsageDescription`
+
+   ```text
+   <key>NSUserTrackingUsageDescription</key>
+   <string>GrowingIO测试demo 需要使用你的广告标识信息以用于数据追踪分析</string> //描述内容请根据App修改
+   ```
+
+2. 导入框架 `#import <AppTrackingTransparency/AppTrackingTransparency.h>`
+3. 调用获取权限代码
+
+   ```text
+       if (@available(iOS 14, *)) {
+           // iOS14及以上版本需要先请求权限
+           [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+               switch (status) {
+                   case ATTrackingManagerAuthorizationStatusDenied:
+                       //用户拒绝向App授权
+                       break;
+                   case ATTrackingManagerAuthorizationStatusAuthorized:
+                       //用户同意向App授权
+                       break;
+                   case ATTrackingManagerAuthorizationStatusNotDetermined:
+                       //用户未做选择或未弹窗
+                       break;
+                   case ATTrackingManagerAuthorizationStatusRestricted:
+                       //用户在系统级别开启了限制广告追踪
+                       break;
+                   default:
+                       break;
+               }
+           }];
+       }
+   ```
 
 ## **API**
 

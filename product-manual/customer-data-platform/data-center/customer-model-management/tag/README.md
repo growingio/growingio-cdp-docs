@@ -84,7 +84,7 @@ description: 对标签进行定义和管理
 
 标签可以帮助我们更加全面的描述一个用户，但这并不意味着标签需要越多越好。出于计算成本和管理成本考量，我们应结合业务场景和业务需求，考虑什么样的标签能在业务操作中帮助我们更好的完成业务目标，并依据此目标进行标签的创建。
 
-目前GrowingIO提供了五种规则标签模型和SQL标签，规则标签分别为
+目前GrowingIO提供了 **五种** **规则标签** 模型 和 **SQL标签**，规则标签分别为
 
 * 基础指标值：建用户完成事件的次数、人数、天数等指标作为标签值
 * 最大值/最小值的事件属性：将用户完成事件按某个属性分组排序后，使用最多或最少的事件属性作为标签值
@@ -96,17 +96,41 @@ description: 对标签进行定义和管理
 
 ## 界面说明
 
+在 **客户数据平台 &gt; 用户管理 &gt; 用户标签** 中可以看到 **用户标签详情页**。在 用户标签详情页 中支持
 
+* 按四级分类结构查看用户标签
+* 查看用户标签基本信息，包含名称、描述、定义规则、统计数据等
+* 新建、编辑、下载、删除用户标签
 
+{% hint style="warning" %}
+在客户数据平台中 创建的标签，需要通过 项目管理 &gt;  数据授权 ，将标签分配到项目中使用。 [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MO-IZPJyPUe03vlfMC_/v/v20201200/product-manual/qi-ye-guan-li-hou-tai/project-manage/data-authorization)
+{% endhint %}
 
+![&#x7528;&#x6237;&#x6807;&#x7B7E;&#x8BE6;&#x60C5;&#x9875;](../../../../../.gitbook/assets/image%20%28541%29.png)
 
+在 用户标签详情页 中点击 **查看全部标签** 后，可以看到 **用户标签列表页**。在 用户标签列表页 中支持
 
+* 新建、编辑用户标签分类
+* 按四级分类结构查看用户标签
+* \(批量\)删除、移动用户标签 和 新建、编辑用户标签
+
+{% hint style="warning" %}
+在客户数据平台中 创建的标签，需要通过 项目管理 &gt;  数据授权 ，将标签分配到项目中使用。 [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MO-IZPJyPUe03vlfMC_/v/v20201200/product-manual/qi-ye-guan-li-hou-tai/project-manage/data-authorization)
+{% endhint %}
+
+![&#x7528;&#x6237;&#x6807;&#x7B7E;&#x5217;&#x8868;&#x9875;](../../../../../.gitbook/assets/image%20%28556%29.png)
 
 ## 常见问题
 
+### 1. 用户标签 和 用户属性 的区别是什么？
 
+GrowingIO的模型中定义用户属性为通过客观身份\( 如 设备ID、手机号、邮箱号、APP登陆ID、CRM会员ID \)上传的用户画像信息\( 如 性别、年龄、会员等级、用户偏好 等 \)，用户属性上传后会通过ID-Mapping功能识别该客观身份对应的GrowingIO系统用户\(gio\_id\)，并将用户属性赋予该用户。
 
+对比用户属性，GrowingIO的模型中定义用户标签为通过GrowingIO识别打通\( gio\_id \)的用户行为和用户属性，根据GrowingIO提供的计算模型对用户打标，并将计算结果值赋予该用户。
 
+![](../../../../../.gitbook/assets/image%20%28557%29.png)
 
-
+{% hint style="success" %}
+GrowingIOID融合功能，详见 [用户模型](../../../../../introduction/user-model/)。
+{% endhint %}
 

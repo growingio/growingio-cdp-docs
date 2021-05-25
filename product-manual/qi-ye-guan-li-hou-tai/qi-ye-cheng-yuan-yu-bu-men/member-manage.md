@@ -30,7 +30,7 @@
 
 成员分别会展示在不同的部门之下 ，同时在全部成员下，可以查看所有的成员 。 
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.15.58.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20210511-xia-wu-3.51.45.png)
 
 ## 企业成员的操作说明
 
@@ -52,7 +52,7 @@
 
 操作流程： 点击成员名称 &gt;  打开成员详情。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20201207-xia-wu-3.16.30.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20210511-xia-wu-3.52.49.png)
 
 ### 新建帐号
 

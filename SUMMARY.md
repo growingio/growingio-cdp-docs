@@ -79,7 +79,7 @@
           * [用户标签模型](product-manual/customer-data-platform/data-center/customer-model-management/tag/model/README.md)
             * [基础指标值](product-manual/customer-data-platform/data-center/customer-model-management/tag/model/basic.md)
             * [最大值/最小值的事件属性](product-manual/customer-data-platform/data-center/customer-model-management/tag/model/max-nd-min.md)
-            * [最初/最终的事件属性](product-manual/customer-data-platform/data-center/customer-model-management/tag/model/first-nd-last.md)
+            * [首次/末次的事件属性](product-manual/customer-data-platform/data-center/customer-model-management/tag/model/first-nd-last.md)
             * [列表类的事件属性](product-manual/customer-data-platform/data-center/customer-model-management/tag/model/list.md)
             * [分层标签](product-manual/customer-data-platform/data-center/customer-model-management/tag/model/rule.md)
       * [物品](product-manual/customer-data-platform/data-center/item/README.md)

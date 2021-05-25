@@ -12,6 +12,12 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">1.2.7</td>
+      <td style="text-align:left">&#x4F18;&#x5316;:
+        <br />&#x5173;&#x95ED;app&#x7ACB;&#x523B;&#x91CD;&#x7F6E;session</td>
+      <td style="text-align:left">2021-05-10</td>
+    </tr>
+    <tr>
       <td style="text-align:left">1.2.4</td>
       <td style="text-align:left">&#x652F;&#x6301;&#x91C7;&#x96C6;Hybrid&#x52A0;&#x8F7D;file&#x534F;&#x8BAE;&#x7684;&#x9875;&#x9762;</td>
       <td
@@ -39,6 +45,17 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="text-align:left">cdp-1.2.7</td>
+      <td style="text-align:left">&#x9002;&#x914D;&#x5EF6;&#x8FDF;&#x521D;&#x59CB;&#x5316;&#x5BFC;&#x81F4;&#x5E73;&#x5747;&#x8BBF;&#x95EE;&#x65F6;&#x957F;&#x504F;&#x957F;&#x7684;&#x573A;&#x666F;</td>
+      <td
+      style="text-align:left">2021-05-10</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">cdp-1.2.6</td>
+      <td style="text-align:left">&#x652F;&#x6301;1.0.25&#x7248;&#x672C;oaid</td>
+      <td style="text-align:left">2021-03-16</td>
+    </tr>
     <tr>
       <td style="text-align:left">cdp-1.2.5</td>
       <td style="text-align:left">&#x652F;&#x6301;&#x91C7;&#x96C6;Hybrid&#x52A0;&#x8F7D;file&#x534F;&#x8BAE;&#x7684;&#x9875;&#x9762;</td>
