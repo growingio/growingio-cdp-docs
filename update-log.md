@@ -3,6 +3,12 @@
 ## v14.0.0 - alpha：2021年5月18日发布
 
 * 新增
+  * 归因分析：[点击查看](product-manual/product-analysis/attribution.md)
+    * 满足站内运营位等点击事件对促进订单转化的贡献分析需求
+    * 支持即筛即查操作，即时查看归因结果
+    * 支持首次、末次、线性、位置共4种归因模型
+    * 支持目标事件与触点事件用关联属性连接，提升归因准确性
+    * 支持归因结果在不同属性维度或分群用户下的对比
 * 优化
   * 客户数据平台[用户标签](product-manual/customer-data-platform/customer-model-management/tag/)模块界面升级：
     * 详情查看页面和列表管理操作页面统一
