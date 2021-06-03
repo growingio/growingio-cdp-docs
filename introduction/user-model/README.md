@@ -8,7 +8,7 @@ GrowingIO系统使用 **gid** 来对每个GrowingIO识别的用户进行唯一�
 
 匿名用户是GrowingIO对访问您的应用（包括网页、App、微信小程序等 ）用户的一种识别机制。每一个访问您应用的用户都会在对应的设备中生成并记录一个唯一的 ID，我们称之为访问用户 ID。
 
-对于不同平台类型的应用，GrowingIO 提供了多种识别方案，从而尽可能的实现对用户的唯一标识。
+对于不同平台类型的应用，GrowingIO 提供了多种识别方案，从而尽可能地实现对用户的唯一标识。
 
 参见 [匿名用户ID生成机制](anonymous.md)
 
@@ -20,7 +20,7 @@ GrowingIO系统使用 **gid** 来对每个GrowingIO识别的用户进行唯一�
 
 ### GrowingIO识别用户\(gid\)
 
-GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户唯一识别一个真实的使用用户。
+GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，唯一识别一个真实的使用用户。
 
 {% hint style="success" %}
 ID-Mapping功能支持设置开启和关闭状态
@@ -34,12 +34,12 @@ ID-Mapping功能支持设置开启和关闭状态
 
 * 匿名用户首次登录后，关联用户首次登录前后产生的行为
 * 用户在设备登录后，关联用户登录行为和匿名行为
-* 用户跨应用使用时，关联用户多应用使用行为
+* 用户多应用使用时，关联用户跨应用行为
 * 多用户使用同一应用时，区分不同用户使用行为
 
 ### 案例
 
-#### 案例一：关联用户匿名行为和登录行为
+#### 案例一：关联用户登录行为和匿名行为
 
 ![](../../.gitbook/assets/image%20%28451%29.png)
 
@@ -54,7 +54,7 @@ ID-Mapping功能支持设置开启和关闭状态
     <tr>
       <td style="text-align:left">1</td>
       <td style="text-align:left">
-        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x672A;&#x767B;&#x9646;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
+        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x672A;&#x767B;&#x5F55;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
         <p>SDK&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x6D4F;&#x89C8;&#x5668;&#x6839;&#x636E;cookie&#x751F;&#x6210;&#x533F;&#x540D;ID
           c1&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
         <p>&#x6B64;&#x65F6;&#x6839;&#x636E;&#x533F;&#x540D;ID c1&#x751F;&#x6210;gid
@@ -96,7 +96,7 @@ ID-Mapping功能支持设置开启和关闭状态
     <tr>
       <td style="text-align:left">5</td>
       <td style="text-align:left">
-        <p><b>&#x5C0F;&#x7EA2;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>Y</b> &#x672A;&#x767B;&#x9646;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
+        <p><b>&#x5C0F;&#x7EA2;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>Y</b> &#x672A;&#x767B;&#x5F55;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
         <p>SDK&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x6D4F;&#x89C8;&#x5668;&#x6839;&#x636E;cookie&#x751F;&#x6210;&#x533F;&#x540D;ID
           c2&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
         <p>&#x6B64;&#x65F6;&#x6839;&#x636E;&#x533F;&#x540D;ID c2&#x751F;&#x6210;gid
@@ -117,7 +117,7 @@ ID-Mapping功能支持设置开启和关闭状态
 
 * 匿名ID: c1 - 登录ID: u1 - gid: 2
 
-第二步：Event表中，时间1 - 时间5根据Mapping关系将匿名ID生成的gid进行映射，打通首次登陆前行为和首次登陆后行为。
+第二步：Event表中，时间1 - 时间5根据Mapping关系将匿名ID生成的gid进行映射，打通首次登录前行为和首次登录后行为。
 
 * gid: 1 -&gt; gid: 2
 
@@ -140,7 +140,7 @@ ID-Mapping功能支持设置开启和关闭状态
     <tr>
       <td style="text-align:left">1</td>
       <td style="text-align:left">
-        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x672A;&#x767B;&#x9646;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
+        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x672A;&#x767B;&#x5F55;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
         <p>SDK&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x6D4F;&#x89C8;&#x5668;&#x6839;&#x636E;cookie&#x751F;&#x6210;&#x533F;&#x540D;ID
           c1&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
         <p>&#x6B64;&#x65F6;&#x6839;&#x636E;&#x533F;&#x540D;ID c1&#x751F;&#x6210;gid
@@ -182,7 +182,7 @@ ID-Mapping功能支持设置开启和关闭状态
     <tr>
       <td style="text-align:left">5</td>
       <td style="text-align:left">
-        <p><b>&#x5C0F;&#x7EA2;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>Y</b> &#x672A;&#x767B;&#x9646;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
+        <p><b>&#x5C0F;&#x7EA2;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>Y</b> &#x672A;&#x767B;&#x5F55;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
         <p>SDK&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x6D4F;&#x89C8;&#x5668;&#x6839;&#x636E;cookie&#x751F;&#x6210;&#x533F;&#x540D;ID
           c2&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
         <p>&#x6B64;&#x65F6;&#x6839;&#x636E;&#x533F;&#x540D;ID c2&#x751F;&#x6210;gid
@@ -193,7 +193,7 @@ ID-Mapping功能支持设置开启和关闭状态
     <tr>
       <td style="text-align:left">6</td>
       <td style="text-align:left">
-        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x82F9;&#x679C;&#x624B;&#x673A;<b> A</b> &#x672A;&#x767B;&#x9646;&#x8BBF;&#x95EE;GrowingIO
+        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x82F9;&#x679C;&#x624B;&#x673A;<b> A</b> &#x672A;&#x767B;&#x5F55;&#x8BBF;&#x95EE;GrowingIO
           APP&#x3002;</p>
         <p>SDK&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x624B;&#x673A;&#x8BBE;&#x5907;&#x751F;&#x6210;&#x533F;&#x540D;ID
           IDFA&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
@@ -218,7 +218,7 @@ ID-Mapping功能支持设置开启和关闭状态
     <tr>
       <td style="text-align:left">8</td>
       <td style="text-align:left">
-        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x82F9;&#x679C;&#x624B;&#x673A;<b> A</b> &#x672A;&#x767B;&#x9646;&#x8BBF;&#x95EE;GrowingIO
+        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x82F9;&#x679C;&#x624B;&#x673A;<b> A</b> &#x672A;&#x767B;&#x5F55;&#x8BBF;&#x95EE;GrowingIO
           APP&#x3002;</p>
         <p>SDK&#x8BC6;&#x522B;&#x533F;&#x540D;ID IDFA&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
         <p>&#x7531;&#x4E8E;&#x8BE5;&#x8BBE;&#x5907;&#x6700;&#x540E;&#x767B;&#x5F55;ID&#x4E3A;u1&#xFF0C;&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x8BA4;&#x4E3A;&#x8BE5;&#x533F;&#x540D;&#x884C;&#x4E3A;&#x4ECD;&#x662F;u1&#x53D1;&#x751F;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x5728;Event&#x8868;&#x4E2D;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;&#x7528;&#x6237;gid
@@ -237,9 +237,9 @@ ID-Mapping功能支持设置开启和关闭状态
 第一步：虚拟表中，时间1 - 时间7根据ID-Mapping最终归因原则匹配匿名ID和登录ID的匹配关系。
 
 * 匿名ID: c1 - 登录ID: u1 - gid: 2
-* 匿名ID: IFDA - 登陆ID: u1 - gid: 2
+* 匿名ID: IFDA - 登录ID: u1 - gid: 2
 
-第二步：Event表中，时间1 - 时间7根据Mapping关系将匿名ID生成的gid进行映射，打通首次登陆前行为和首次登陆后行为。
+第二步：Event表中，时间1 - 时间7根据Mapping关系将匿名ID生成的gid进行映射，打通首次登录前行为和首次登录后行为。
 
 * gid: 1 -&gt; gid: 2
 * gid: 4 -&gt; gid: 2
@@ -250,11 +250,11 @@ ID-Mapping功能支持设置开启和关闭状态
 >
 > 实际访问设备数为3，包含浏览器设备c1、c2和App设备IDFA
 >
-> 实际登陆用户数为1，包含登陆用户ID u1
+> 实际登录用户数为1，包含登录用户ID u1
 
 
 
-#### 案例三：同一应用多用户使用时，区分不同用户使用行为
+#### 案例三：多用户使用同一应用时，区分不同用户使用行为
 
 ![](../../.gitbook/assets/image%20%28450%29.png)
 
@@ -271,7 +271,7 @@ ID-Mapping功能支持设置开启和关闭状态
     <tr>
       <td style="text-align:left">1</td>
       <td style="text-align:left">
-        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x672A;&#x767B;&#x9646;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
+        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x672A;&#x767B;&#x5F55;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
         <p>SDK&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x6D4F;&#x89C8;&#x5668;&#x751F;&#x6210;&#x533F;&#x540D;ID
           cookie&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
         <p>&#x6B64;&#x65F6;&#x6839;&#x636E;&#x533F;&#x540D;ID cookie&#x751F;&#x6210;gid
@@ -326,7 +326,7 @@ ID-Mapping功能支持设置开启和关闭状态
     <tr>
       <td style="text-align:left">6</td>
       <td style="text-align:left">
-        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x82F9;&#x679C;&#x624B;&#x673A;<b> A</b> &#x672A;&#x767B;&#x9646;&#x8BBF;&#x95EE;GrowingIO
+        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x82F9;&#x679C;&#x624B;&#x673A;<b> A</b> &#x672A;&#x767B;&#x5F55;&#x8BBF;&#x95EE;GrowingIO
           APP&#x3002;</p>
         <p>SDK&#x9996;&#x6B21;&#x8BC6;&#x522B;&#x624B;&#x673A;&#x8BBE;&#x5907;&#x751F;&#x6210;&#x533F;&#x540D;ID
           IDFA&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
@@ -351,7 +351,7 @@ ID-Mapping功能支持设置开启和关闭状态
     <tr>
       <td style="text-align:left">8</td>
       <td style="text-align:left">
-        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x672A;&#x767B;&#x9646;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
+        <p><b>&#x5C0F;&#x660E;</b> &#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668; <b>X</b> &#x672A;&#x767B;&#x5F55;&#x8BBF;&#x95EE;GrowingIO&#x5B98;&#x7F51;&#x3002;</p>
         <p>SDK&#x8BC6;&#x522B;&#x533F;&#x540D;ID cookie&#xFF0C;&#x672A;&#x8BC6;&#x522B;&#x5230;&#x767B;&#x5F55;ID&#x3002;</p>
         <p>&#x7531;&#x4E8E;&#x8BE5;&#x8BBE;&#x5907;&#x6700;&#x540E;&#x767B;&#x5F55;ID&#x4E3A;u2&#xFF0C;&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x8BA4;&#x4E3A;&#x8BE5;&#x533F;&#x540D;&#x884C;&#x4E3A;&#x4ECD;&#x662F;u2&#x53D1;&#x751F;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x5728;Event&#x8868;&#x4E2D;&#x8BB0;&#x5F55;&#x8BE5;&#x4E8B;&#x4EF6;&#x5C5E;&#x4E8E;&#x7528;&#x6237;gid
           3&#x3002;</p>
@@ -398,7 +398,7 @@ ID-Mapping功能支持设置开启和关闭状态
 * 匿名ID: cookie - 登录ID: u2 - gid: 3
 * 匿名ID: IDFA - 登录ID: u1 - gid: 2
 
-第二步：在Event表中，根据Mapping关系将匿名ID生成的gid进行映射，打通首次登陆前行为和首次登陆后行为。
+第二步：在Event表中，根据Mapping关系将匿名ID生成的gid进行映射，打通首次登录前行为和首次登录后行为。
 
 * gid: 1 -&gt; gid: 3
 * gid: 4 -&gt; gid: 2
@@ -409,5 +409,5 @@ ID-Mapping功能支持设置开启和关闭状态
 >
 > 实际访问设备数为2，包含浏览器设备cookie和App设备IDFA
 >
-> 实际登陆用户数为2，包含登陆用户ID u1、u2
+> 实际登录用户数为2，包含登录用户ID u1、u2
 
