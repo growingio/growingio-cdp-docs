@@ -20,6 +20,9 @@
 <!-- GrowingIO Analytics code version 3.0 -->
 <!-- Copyright 2015-2021 GrowingIO, Inc. More info available at http://www.growingio.com -->
 <script type='text/javascript'>
+//配置后file协议才能产生事件，默认值false。该配置在3.2.0版本起生效
+window._gr_ignore_local_rule = true
+
 !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","JS 资源地址","gdp");
   gdp('init', 'your projectId', 'your dataSourceId', { host: 'your apiServerHost' });
 ​
@@ -34,7 +37,7 @@
 >
 > 1. 初始化需要设置host，不设置会失败。
 > 2. 初始化必须填写projectId、datasourceId，否则会失败。
-> 3. 不支持file协议、localhost、127.0.0.1
+> 3. 不支持file协议（3.2.0版本起支持）、localhost、127.0.0.1
 
 ## **JS SDK API**
 
