@@ -4,11 +4,11 @@
 
 > 包括 Web 页面与 H5 页面
 
-GrowingIO会使用随机 UUID 的方法生成访问用户ID，并将之记录在浏览器的 cookie 中
+GrowingIO会使用随机 UUID 的方法生成访问用户ID，并将之记录在浏览器的 Cookie 中
 
 ## iOS SDK
 
-GrowingIO会按照如下顺序获取访问用户ID：
+GrowingIO会按照下面的顺序获取访问用户ID：
 
 1. IDFA
 2. IDFV
@@ -24,11 +24,11 @@ GrowingIO 会按照如下顺序获取访问用户ID：
 2. IMEI
 3. 随机UUID
 
-进行 MD5 加密后将之存储至本地文件系统。
+进行 MD5 加密后将之存储至设备本地文件系统。
 
 ## 小程序 SDK
 
-GrowingIO默认使用 UUID（随机 UUID 的方法生成访问用户 ID，并将之记录在浏览器的 cookie 中）来作为访问用户 ID，您也可以通过 API 设置使用 openID 作为访问用户ID。
+GrowingIO默认使用 UUID（随机 UUID 的方法生成访问用户 ID，并将之记录在浏览器的 Cookie 中）来作为访问用户 ID，您也可以通过 API 设置使用 openid 作为访问用户ID。
 
 访问用户ID 将保存到微信浏览器的 cookie 中。
 

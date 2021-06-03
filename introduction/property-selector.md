@@ -8,7 +8,7 @@ description: 对属性进行过滤的操作
 
 我们可以通过一个或多个属性筛选条件来找到想要分析的目标用户或核心关注的事件行为。比如我们希望筛选今天过生日的用户并对这群用户发送生日慰问礼物；或者筛选订单支付金额大于10元的订单，统计有效支付订单数量。
 
-在GrowingIO的分析功能中，我们当我们看到![](../.gitbook/assets/image%20%28193%29.png)全局过滤按钮和“属性为”选项时，点击该按钮或选择属性后可以对用户或事件添加过滤条件，具体操作流程如下：
+在GrowingIO的分析功能中，当我们看到![](../.gitbook/assets/image%20%28193%29.png)全局过滤按钮和“属性为”选项时，点击该按钮或选择属性后可以对用户或事件添加过滤条件，具体操作流程如下：
 
 ![](../.gitbook/assets/image%20%28193%29.png)全局过滤按钮
 
@@ -29,7 +29,7 @@ step 5: 点击保存
 
 1. 如需添加多个过滤条件可点击“添加过滤条件”按钮
 2. 最多支持添加5个过滤条件
-3. 过滤结果会按"且"逻辑处理多个过滤条件，即同时满足每条过滤条件
+3. 过滤结果会按"且"逻辑处理多个过滤条件，即同时满足每个过滤条件
 {% endhint %}
 
 属性为
@@ -116,7 +116,7 @@ step 3: 在3处选择筛选维度值
 </table>
 
 {% hint style="warning" %}
-注意：除没值外，其它筛选条件均默认在有值条件下进行筛选，即值不为NULL、空字符串或仅包含任意多个空字符
+注意：除没值外，其它筛选条件均默认在有值条件下进行筛选，即值不为NULL、空字符串或任意个空格
 {% endhint %}
 
 ### 整数和小数
@@ -226,11 +226,11 @@ step 3: 在3处选择筛选维度值
     </tr>
     <tr>
       <td style="text-align:left">&#x76F8;&#x5BF9;&#x73B0;&#x5728;</td>
-      <td style="text-align:left">(&#x89C1;&#x4E0B;&#x65B9;&#x8BF4;&#x660E;)</td>
+      <td style="text-align:left">&#xFF08;&#x89C1;&#x4E0B;&#x65B9;&#x8BF4;&#x660E;&#xFF09;</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x76F8;&#x5BF9;&#x533A;&#x95F4;</td>
-      <td style="text-align:left">(&#x89C1;&#x4E0B;&#x65B9;&#x8BF4;&#x660E;)</td>
+      <td style="text-align:left">&#xFF08;&#x89C1;&#x4E0B;&#x65B9;&#x8BF4;&#x660E;&#xFF09;</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6709;&#x503C;</td>
@@ -285,7 +285,7 @@ step 3: 在3处选择筛选维度值
 
 ![&#x8FC7;&#x53BB;5&#x5929;&#x4E4B;&#x5185; &amp; &#x672A;&#x6765;5&#x5929;&#x4E4B;&#x5185;](../.gitbook/assets/image%20%28209%29.png)
 
-![&#x672A;&#x6765;5&#x5929;&#x4E4B;&#x524D; &amp; &#x672A;&#x6765;5&#x5929;&#x4E4B;&#x540E;](../.gitbook/assets/image%20%28203%29.png)
+![&#x8FC7;&#x53BB;5&#x5929;&#x4E4B;&#x524D; &amp; &#x672A;&#x6765;5&#x5929;&#x4E4B;&#x540E;](../.gitbook/assets/image%20%28203%29.png)
 
 {% hint style="warning" %}
 注：N = 1, 2, 3, 4 ... \( 正整数 \)
