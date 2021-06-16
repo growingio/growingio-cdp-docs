@@ -16,7 +16,7 @@
 
 ## 集成SDK
 
-### 1. 集成GrowingIO iOS CDP埋点SDK \(如已集成跳过\)
+### 1. 集成GrowingIO iOS CDP数据采集SDK \(如已集成跳过\)
 
 [https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk)
 
@@ -26,7 +26,7 @@
 
 * 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、
 
-  GrowingTouchCoreUI.bundle以及GrowingTouchBannerKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.2.0-1.3.0.zip](http://assets.giocdn.com/cdp/ios/GrowingIO-iOS-CDP-1.2.0-1.3.0.zip)
+  GrowingTouchCoreUI.bundle以及GrowingTouchBannerKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip)
 
 ![](../../../../.gitbook/assets/image%20%28110%29.png)
 
@@ -39,12 +39,13 @@
     ...
     // 启动GrowingIO
     [Growing startWithAccountId:@"YOUR_ACCOUNT_ID"  dataSourceId:@"YOUR_DATASOURCE_ID"]; //替换为您的项目ID
-
+    
     // 设置弹窗和banner请求地址，一般与访问页面域名一致
     [GrowingTouch setServerHost:@"http://test.xxx.com"];
     // 启动GrowingTouch
     [GrowingTouch start];
 }
+
 ```
 
 {% hint style="info" %}
@@ -66,7 +67,7 @@
 ```objectivec
 /**
  初始化方法
-
+ 
  @param frame 尺寸位置
  @param placeholderImage 占位图
  @return 返回初始化的实例
@@ -94,6 +95,25 @@ Banner视图支持以下属性设置
 | pageControl的位置 | pageControlAlignemnt |
 | 轮播视图为空的默认错误占位图 | bannerViewErrorImage |
 | 图片的填充模式，包括轮播图以及没有轮播图时的背景图 | imageViewContentMode |
+| pageControl 选中时的图片\(运营bannerSDK 1.4.4 及以上支持\) | currentPageIndicatorImage |
+| pageControl 未选中时的图片\(运营SDK 1.4.4 及以上支持\) | pageIndicatorImage |
+| 非图片模式pageControl 选中的颜色\(运营SDK 1.4.4 及以上支持\) | currentPageIndicatorTintColor |
+| 非图片模式pageControl 未选中的颜色\(运营SDK 1.4.4 及以上支持\) | pageIndicatorTintColor |
+| pageControl 选中的尺寸大小 CGSize | currentPageIndicatorSize |
+| pageControl 未选中的尺寸大小 CGSize | pageIndicatorSize |
+| pageControl 间距大小 CGFloat | pageIndicatorSpaing |
+
+```objectivec
+// 示例代码
+// 设置pageControl图片
+self.bannerView.currentPageIndicatorImage = [UIImage imageNamed:@"page_select"];
+self.bannerView.pageIndicatorImage = [UIImage imageNamed:@"page_unselect"];
+self.bannerView.currentPageIndicatorSize = CGSizeMake(10,10);
+self.bannerView.pageIndicatorSize = CGSizeMake(10,10);
+​
+//    self.bannerView.currentPageIndicatorTintColor = [UIColor redColor];
+//    self.bannerView.pageIndicatorTintColor = [UIColor yellowColor];
+```
 
 ### 3. 数据请求
 
@@ -115,14 +135,14 @@ Banner视图支持以下属性设置
 ```objectivec
 /**
  banner 加载成功
-
+ 
  @param bannerView 对应的banner视图
  */
 - (void)growingTouchBannerLoadSuccess:(GrowingTouchBannerView*) bannerView;
 
 /**
  banner 加载失败
-
+ 
  @param bannerView 对应的banner视图
  @param error 失败error
  */
@@ -130,7 +150,7 @@ Banner视图支持以下属性设置
 
 /**
  点击选中某一个banner视图,是否消费此次点击事件
-
+ 
  @param bannerView 对应的banner视图
  @param index banner 位置
  @param openUrl 跳转的链接
@@ -140,7 +160,7 @@ Banner视图支持以下属性设置
 
 /**
  视图展示方法
-
+ 
  @param bannerView 对应的banner视图
  @param index banner 位置
  */
@@ -164,6 +184,8 @@ Banner视图支持以下属性设置
 
 默认**Banner**视图上的点击跳转逻辑全部在**SDK**内部处理，如果用户想要自行处理该点击事件，可在上述代理回调方法获取对应的**openUrl**自行实现点击跳转逻辑，同时返回YES禁止SDK内部自动处理该事件。
 
+
+
 ### 原生模板容错处理：
 
 假如服务器出错， 会先取缓存里banner的数据，如果没有缓存，会加载用户配置的错误占位图bannerViewErrorImage，如果没有设置错误占位图，会显示空白，所以建议设置好错误占位图。  
@@ -181,7 +203,7 @@ Banner视图支持以下属性设置
 ```objectivec
 /**
  自渲染的初始化方法
-
+ 
  @param bannerKey banner的唯一标识
  @param bannerData 请求成功回调数据
  @param failure 请求失败消息
@@ -226,6 +248,10 @@ item 绑定视图
 - (void)bindItemDataToClickView:(UIView *)itemView selectCompleted:(void(^)(NSString *openUrl, NSError *error)) completedBlock;
 ```
 
+#### 
+
+
+
 {% hint style="info" %}
 旧的API（建议用上述新的API进行替换）  
 bannerView为Banner中的单个视图
@@ -243,6 +269,8 @@ bannerView为Banner中的单个视图
 + (void)growingTouchBannerDataTaskBannerKey:(NSString*) bannerKey bannerView:(UIView *)bannerView bannerItem:(GrowingTouchBannerItem *)item selectCompleted:(void(^)(NSString *openUrl, NSError *error)) completedBlock;
 ```
 
+
+
 ## 异常错误码
 
 | 错误码 | 错误信息 | 错误原因 |
@@ -253,4 +281,6 @@ bannerView为Banner中的单个视图
 | -991 | The item is not the kind of GrowingTouchBannerItem! | 自渲染视图模型绑定时传入的模型不是GrowingTouchBannerItem类 |
 | -990 | The bannerItem is NULL! | 自渲染视图模型绑定时传入的模型Item传入为空 |
 | -989 | The bannerKey is NULL! | 传入的bannerKey为空 |
+
+
 
