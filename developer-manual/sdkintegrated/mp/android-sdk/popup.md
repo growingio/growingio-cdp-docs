@@ -274,6 +274,16 @@ public interface EventPopupListener {
      * @param eventType 事件类型，system(弹窗SDK内置的事件)或custom(用户自定义的埋点事件)
      */
     void onTimeout(String eventId, String eventType);
+    /**
+     * 触达弹窗消费时（待展示时）
+     * @param popup 待展示的弹窗数据
+     *
+     * @param action 弹窗绑定的操作行为
+     *
+     * @return true：自定义展示该弹窗，触达SDK不在处理；false：由触达来展示该弹窗，
+     * @discussion 在 popup.rule.target 数据中可以取出配置的 target 数据，比如一张图片的链接或其他参数，进行自定义的弹窗展示
+     */
+     boolean popupEventDecideShow(PopupWindowEvent popup, EventPopupDecisionAction decisionAction);
 }
 
 ```
@@ -313,6 +323,21 @@ GrowingTouch.startWithConfig(this, new GTouchConfig()
                  })
                  ...
          );
+```
+
+## 
+
+如果您的popupEventDecideShow方法返回true的话，您必须手动实现弹窗的样式，并调用相关api手动触发弹窗的展示，点击或关闭事件。
+
+```java
+ public class EventPopupDecisionAction {
+    /// 弹窗展示、会发送展示事件
+    public void appeared();
+    /// 弹窗点击、会发送点击事件
+    public void clicked();
+    /// 弹窗关闭、会发送关闭事件
+    public void closed()
+}
 ```
 
 ## 三、运行时API介绍\( GrowingTouch.class \)
