@@ -1,5 +1,7 @@
 # 资源位 SDK（Android）
 
+
+
 {% hint style="info" %}
 最低兼Android版本4.2 API 17
 {% endhint %}
@@ -32,11 +34,13 @@ dependencies {
     //由于资源位底层网络库依赖OkHttp3网络库，请添加OkHttp3依赖
     implementation "com.squareup.okhttp3:okhttp:3.12.1"
     //资源位SDK依赖
-    implementation "com.growingio.android:gtouch:1.3.0-cdp"
+    implementation "com.growingio.android:gtouch:$gtouch_version"
     //触达原生banner模板依赖
-    implementation "com.growingio.android.widget:gtouch-banner:1.3.0-cdp"
+    implementation "com.growingio.android.widget:gtouch-banner:$gtouch_version"
 }
 ```
+
+> $gtouch\_version 为最新SDK版本号，现最新的版本号为请参考[SDK更新日志](https://growingio.gitbook.io/op/v/v20200701/developer-manual/sdkintegrated/mp/gtouchsdk-releasenotes)。
 
 ### 3. 需要的权限列表
 
@@ -62,8 +66,8 @@ public class MyApplication extends Application {
         super.onCreate();
         GrowingIO.startWithConfiguration(this, new Configuration()
             .setProjectId("获取您的项目ID")
-                    .setDataSourceId("填写您的数据源ID")
-                    .setURLScheme("填写UrlScheme")
+		    		.setDataSourceId("填写您的数据源ID")
+				    .setURLScheme("填写UrlScheme")
             .setDebugMode(BuildConfig.DEBUG)
             .setTrackerHost("这里设置为您的 HOST ")
             .setChannel("XXX应用商店")
@@ -71,6 +75,7 @@ public class MyApplication extends Application {
 
         GrowingTouch.startWithConfig(this, new GTouchConfig()
              .setDebugEnable(BuildConfig.DEBUG)
+             .setMessageHost("获取您的服务器上发出的弹窗和banner数据")
              );
     }
 }
@@ -94,13 +99,13 @@ public class MyApplication extends Application {
     *;
 }
 -keep class android.support.v4.view.ViewPager$**{
-    *;
+	*;
 }
 -keep class androidx.viewpager.widget.ViewPager{
     *;
 }
 -keep class androidx.viewpager.widget.ViewPager$**{
-    *;
+	*;
 }
 
 #okhttp
@@ -135,9 +140,9 @@ public class MyApplication extends Application {
     android:layout_width="match_parent"
     android:layout_height="107dp"
     app:gtouchBannerKey="99299c5d32d6e14a"
-        app:gtouchErrorReplaceDrawable="@mipmap/load_error"
-        app:gtouchIndicatorGravity="bottom|right"
-        app:gtouchPlaceholderDrawable="@mipmap/loading" />
+		app:gtouchErrorReplaceDrawable="@mipmap/load_error"
+		app:gtouchIndicatorGravity="bottom|right"
+		app:gtouchPlaceholderDrawable="@mipmap/loading" />
 ```
 
 ### 3. GTouchBanner初始化代码如下
@@ -271,6 +276,7 @@ bannerItemData.bindItemDataToClickView(itemView, new BannerItemOnClickListener()
     public void onClick(View clickView, BannerItemData itemData, String targetUrl) {
     }
 });
+
 ```
 
 {% hint style="info" %}
