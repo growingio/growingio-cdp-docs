@@ -9,6 +9,7 @@
     * [旧版本兼容指南 - 9.0版本](introduction/data-model/data-model-transition-9.0.md)
   * [属性模型](introduction/property-model.md)
   * [属性筛选](introduction/property-selector.md)
+  * [计算引擎](introduction/engine.md)
 * [产品使用文档](product-manual/README.md)
   * [智能分析](product-manual/product-analysis/README.md)
     * [看板](product-manual/product-analysis/charts/README.md)
