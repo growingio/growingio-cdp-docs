@@ -4,6 +4,8 @@ description: 14.0版本起，引入Clickhouse开源软件作为存储计算的�
 
 # 计算引擎
 
+> 本文档仅提供Clickhouse引擎部分常用函数便于数据排查之用，更多函数请参阅Clickhouse官网。
+
 ## 常用函数
 
 ### 字符串函数
