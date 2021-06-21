@@ -96,6 +96,14 @@ public class MyApplication extends Application {
                      public void onTimeout(String eventId, String eventType) {
                          Log.d(TAG, "onTimeout: eventId = " + eventId + ", eventType = " + eventType);
                      }
+                     @Override
+                     public boolean popupEventDecideShow(PopupWindowEvent popup, EventPopupDecisionAction decisionAction) {
+ 
+                        String target = popup.getRule().getTarget();
+                        Log.d(TAG, "popupEventDecideShow message name = " + popup.getName() + "target = " + target);
+ 
+                        return false;
+                    }
                  })
              );
     }
@@ -320,12 +328,17 @@ GrowingTouch.startWithConfig(this, new GTouchConfig()
                      public void onTimeout(String eventId, String eventType) {
                          Log.d(TAG, "onTimeout: eventId = " + eventId + ", eventType = " + eventType);
                      }
+                     @Override
+                     public boolean popupEventDecideShow(PopupWindowEvent popup, EventPopupDecisionAction decisionAction) {
+                        String target = popup.getRule().getTarget();
+                        Log.d(TAG, "popupEventDecideShow message name = " + popup.getName() + "target = " + target);
+​
+                        return false;
+                    }
                  })
                  ...
          );
 ```
-
-## 
 
 如果您的popupEventDecideShow方法返回true的话，您必须手动实现弹窗的样式，并调用相关api手动触发弹窗的展示，点击或关闭事件。
 
