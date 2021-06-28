@@ -71,7 +71,7 @@ GrowingIO系统支持对[事件属性](../product-manual/customer-data-platform/
 
 用户属性创建成功后无需额外配置即可在系统中使用。
 
-配置方法：[事件属性](../product-manual/customer-data-platform/event-management/manual.md#chuang-jian-shi-jian)、[物品属性](../product-manual/customer-data-platform/event-management/manual.md#chuang-jian-shi-jian)
+配置方法：[事件属性](../product-manual/customer-data-platform/event-management/customevents.md#chuang-jian-shi-jian)、[物品属性](../product-manual/customer-data-platform/event-management/customevents.md#chuang-jian-shi-jian)
 
 ## 数据格式
 

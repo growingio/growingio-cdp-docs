@@ -78,7 +78,7 @@
 
 GIO是会对上传的埋点事件进行判断，是否在系统已经定义该事件，如已定义，对应的事件和属性是会显示对应定义的事件名称；
 
-对于未在系统平台进行申明定义的，则会显示上传的标识符以及未知，同时会影响后续在产品分析中查看数据 可在 客户数据平台-  埋点事件、事件属性中定义。[点击查看](../../customer-data-platform/event-management/manual.md#chuang-jian-shi-jian)
+对于未在系统平台进行申明定义的，则会显示上传的标识符以及未知，同时会影响后续在产品分析中查看数据 可在 客户数据平台-  埋点事件、事件属性中定义。[点击查看](../../customer-data-platform/event-management/customevents.md#chuang-jian-shi-jian)
 
 ![](../../../.gitbook/assets/ying-mu-jie-tu-20210119-xia-wu-12.23.55.png)
 
