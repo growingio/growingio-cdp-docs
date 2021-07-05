@@ -21,7 +21,7 @@ GrowingIO增长平台14.0版本以上支持无埋点应用
 
 见[小程序SDK](./)
 
-## 用户隐私字段屏蔽
+## 用户隐私字段的屏蔽
 
 从用户隐私安全考虑，SDK支持在初始化阶段设置需要屏蔽的用户隐私相关的字段，以便于不再采集和上报。
 
@@ -56,7 +56,27 @@ IP字段过滤
 SDK不采集用户的客户端IP信息，GrowingIO收到的IP数据是从http请求中获取的，屏蔽方法使用 0.0.0.0 覆盖 header中的X-G-Real-IP，此配置可添加在负载均衡侧。
 {% endhint %}
 
+## 页面元素级事件自动采集的屏蔽
 
+{% hint style="info" %}
+页面元素级事件是指按钮、超链接、文本等的点击事件，输入框/选择框等的值改变事件，表单的提交事件。
+{% endhint %}
+
+页面元素级事件默认自动采集，若需要关闭，需要在SDK初始化时设置。
+
+| 配置字段 | 类型 | 默认值 |
+| :--- | :--- | :--- |
+| autotrack | boolean | true |
+
+{% tabs %}
+{% tab title="微信小程序" %}
+```text
+gio('init', 'your projrctId','your datasourceID','your appId', {
+    autotrack:false
+})
+```
+{% endtab %}
+{% endtabs %}
 
 
 
