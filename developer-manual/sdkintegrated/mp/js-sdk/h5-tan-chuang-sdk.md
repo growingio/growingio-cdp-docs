@@ -4,7 +4,7 @@
 
 ### 1. 集成数据采集 SDK
 
-JS 弹窗 SDK 依赖于数据数据采集 SDK，如果还没有集成，请先集成 [数据采集 SDK](../../cdp/js-sdk.md)。
+JS 弹窗 SDK 依赖于数据数据采集 SDK，如果还没有集成，请先集成 [数据采集 SDK](../../cdp/js-sdk/)。
 
 {% hint style="danger" %}
 H5 弹窗 SDK 只能识别移动端 H5 弹窗，不识别 PC 端 Web 弹窗。如果您需要使用PC 端 Web 弹窗，请参考 [Web 弹窗 SDK](web-tan-chuang-sdk.md)。如果您的站点自适应 PC 和移动端，请您参考 [Web/H5 自适应弹窗 SDK](webh5-zi-kuo-ying-tan-chuang-sdk.md)。
