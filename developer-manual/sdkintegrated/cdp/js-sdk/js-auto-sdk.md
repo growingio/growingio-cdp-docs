@@ -205,6 +205,58 @@ gdp('track','testEvent',{},{key:'order_id',id:'123456'})
 // key为物品模型唯一标识属性
 ```
 
+## 用户隐私字段的屏蔽
+
+从用户隐私安全考虑，SDK支持在初始化阶段设置需要屏蔽的用户隐私相关的字段，以便于不再采集和上报。
+
+### 屏蔽范围
+
+| 字段 | 含义 | 备注 |
+| :--- | :--- | :--- |
+| screenHeight | 设备屏幕尺寸 - 高度 | 1920 |
+| screenWidth | 设备屏幕尺寸 - 宽度 | 1080 |
+| IP | 用户的客户端IP地址 |  |
+
+### 屏蔽方法
+
+SDK初始化时，设置ignoreFields参数包含屏蔽范围中的字段即可。
+
+```javascript
+// appId仅在小程序内嵌页内才需要填写
+gdp('init', 'your projectId', 'your dataSourceId' [, 'appId'], {
+  debug: true,
+  host: 'your apiServerHost',
+  ignoreFields: ['screenWidth', 'screenHeight']
+})
+```
+
+{% hint style="success" %}
+IP字段过滤
+
+SDK不采集用户的客户端IP信息，GrowingIO收到的IP数据是从http请求中获取的，屏蔽方法使用 0.0.0.0 覆盖 header中的X-G-Real-IP，此配置可添加在负载均衡侧。
+{% endhint %}
+
+## 页面元素级事件自动采集的屏蔽
+
+{% hint style="info" %}
+页面元素级事件是指按钮、超链接、文本等的点击事件，输入框/选择框等的值改变事件，表单的提交事件。
+{% endhint %}
+
+页面元素级事件默认自动采集，若需要关闭，需要在SDK初始化时设置。
+
+| 配置字段 | 类型 | 默认值 |
+| :--- | :--- | :--- |
+| autotrack | boolean | true |
+
+```javascript
+// appId仅在小程序内嵌页内才需要填写
+gdp('init', 'your projectId', 'your datasourceId' [, 'appId'], {
+  debug: true,
+  host: 'your apiServerHost',
+  autotrack: false  // 关闭无埋点action类事件采集
+})
+```
+
 ## **GDPR**
 
 GrowingIO 全面支持欧盟《一般数据保护条例》。
