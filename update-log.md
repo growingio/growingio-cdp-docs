@@ -302,7 +302,7 @@
 
 * 新功能: 
   * 分析工具：新增支持下钻分群和下载用户ID
-    * 支持应用：[漏斗分析](product-manual/product-analysis/funnel.md#jie-du-lou-dou-fen-xi)、[留存分析](product-manual/product-analysis/retention.md#jie-du-liu-cun-fen-xi)、[分布分析](product-manual/product-analysis/frequency.md#sheng-cheng-yong-hu-fen-qun-huo-xia-zai-yong-hu-id)
+    * 支持应用：[漏斗分析](product-manual/product-analysis/funnel/#jie-du-lou-dou-fen-xi)、[留存分析](product-manual/product-analysis/retention.md#jie-du-liu-cun-fen-xi)、[分布分析](product-manual/product-analysis/frequency.md#sheng-cheng-yong-hu-fen-qun-huo-xia-zai-yong-hu-id)
   * 标签: 
     * 累计值/平均值/占比 标签更名为 [基础指标值](product-manual/customer-data-platform/customer-model-management/tag/model/basic.md) 标签
     * 基础指标值标签新增支持对字符串类型属性统计[去重数](product-manual/customer-data-platform/customer-model-management/tag/model/basic.md)
