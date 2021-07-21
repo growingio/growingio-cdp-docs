@@ -37,7 +37,7 @@ printf($start."\n");
 // 参数：登录用户ID,事件标识符,事件属性数组
 $gio->track("testUserId","testEvent", array("eventKey2"=>"v1", "eventKey2"=>"v2"));
 
-// 上报事件 + 物品属性
+// 上报事件 + 物品模型
 // 参数：登录用户ID,事件标识符,事件属性数组,物品ID,物品唯一标识符
 $gio->track("testUserId","testEvent", array("eventKey1"=>"v1", "eventKey2"=>"v2"), "1", "product");
 
