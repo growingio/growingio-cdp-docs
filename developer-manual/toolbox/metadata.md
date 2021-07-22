@@ -127,48 +127,99 @@ python3 meta_importer.py -m export_meta \
 
 导出的样例格式如下：
 
+{% hint style="danger" %}
+请不要修改以下示例数据中任意key名称（如events、key、name、description等）
+{% endhint %}
+
 ```text
 {
-    "events": [
+    "events": 
+    [
         {
-            "key": "ViewProd", 
-            "name": "浏览商品", 
+            "key": "webhook",
+            "name": "webhook",
+            "description": ""
+        },
+        {
+            "key": "webhookb",
+            "name": "webhookb",
             "description": ""
         }
-    ], 
-    "event_variables": [
+    ],
+    "event_variables":
+    [
         {
-            "name": "Price", 
-            "cname": "价格", 
-            "data_type": "double", 
+            "key": "webhook_variable_test_string_1",
+            "name": "Webhook测试字符串变量1",
+            "valueType": "String",
             "description": ""
-        }, 
+        },
         {
-            "name": "Color", 
-            "cname": "颜色", 
-            "data_type": "string", 
-            "description": ""
-        }
-    ], 
-    "user_variables": [
-        {
-            "name": "PhoneNumber", 
-            "cname": "电话号码", 
-            "data_type": "string", 
+            "key": "queryTimeRange",
+            "name": "查询时间范围",
+            "valueType": "Int",
             "description": ""
         }
-    ], 
-    "bind_event_variables": [
+    ],
+    "user_variables":
+    [
         {
-            "event": "ViewProd", 
-            "properties": [
-                "Price", 
-                "Color"
+            "key": "ml02",
+            "name": "ml测试02",
+            "valueType": "String",
+            "description": "21111111111333312333333"
+        },
+        {
+            "key": "lyce",
+            "name": "ly测试",
+            "valueType": "String",
+            "description": ""
+        }
+    ],
+    "bind_event_variables":
+    [
+        {
+            "key": "webhook",
+            "attributes":
+            [
+                {
+                    "key": "webhook_variable_test_string"
+                }
+                
+            ]
+        },
+        {
+            "key": "webhookb",
+            "attributes":
+            [
+                {
+                    "key": "webhook_variable_test_string"
+                },
+                {
+                    "key": "webhook_variable_test_integer"
+                }
             ]
         }
+      
     ]
 }
 ```
+
+| 数据类型 | 含义 | 参数 | 含义 |
+| :--- | :--- | :--- | :--- |
+| events | 事件 | key | 标识符（允许大小写英文、数字、以及下划线，并且不能以数字开头） |
+|  |  | name | 展示名称 |
+|  |  | description | 描述 |
+| event\_variables | 事件属性 | key | 标识符（允许大小写英文、数字、以及下划线，并且不能以数字开头） |
+|  |  | name | 展示名称 |
+|  |  | valueType | 数据类型（Int、String、Double） |
+|  |  | description | 描述 |
+| user\_variables | 用户属性 | key | 标识符（允许大小写英文、数字、以及下划线，并且不能以数字开头） |
+|  |  | name | 展示名称 |
+|  |  | valueType | 数据类型（Int、String、Double） |
+|  |  | description | 描述 |
+| bind\_event\_variables | 事件与事件属性绑定 | key | 事件标识符 |
+|  |  | attributes | key为事件属性的标识符 |
 
 ## 导入元数据 <a id="dao-ru-yuan-shu-ju"></a>
 
