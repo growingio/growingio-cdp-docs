@@ -128,7 +128,7 @@ python3 meta_importer.py -m export_meta \
 导出的样例格式如下：
 
 {% hint style="danger" %}
-请不要修改以下示例数据中任意key名称（如events、key、name、description等）
+请不要修改以下示例数据中任意key名称（如events、key、name、description等），否则系统将无法识别，无法导入数据
 {% endhint %}
 
 ```text
