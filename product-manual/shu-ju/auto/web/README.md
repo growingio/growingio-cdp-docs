@@ -6,7 +6,7 @@ GrowingIO 全量采集用户行为数据，你可以通过「圈选」来定义�
 
 事件定义成功后，GrowingIO默认回溯过去7天的数据。
 
-Chrom插件安装：[请参考Chrome插件](plugin.md)
+Chrome插件安装：[请参考Chrome插件](plugin.md)
 
 {% hint style="info" %}
 Hashtag使用说明：
