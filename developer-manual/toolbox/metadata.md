@@ -129,43 +129,74 @@ python3 meta_importer.py -m export_meta \
 
 ```text
 {
-    "events": [
+    "events": 
+    [
         {
-            "key": "ViewProd", 
-            "name": "浏览商品", 
+            "key": "webhook",
+            "name": "webhook",
+            "description": ""
+        },
+        {
+            "key": "webhookb",
+            "name": "webhookb",
             "description": ""
         }
-    ], 
-    "event_variables": [
+    ],
+    "event_variables":
+    [
         {
-            "name": "Price", 
-            "cname": "价格", 
-            "data_type": "double", 
+            "key": "webhook_variable_test_string_1",
+            "name": "Webhook测试字符串变量1",
+            "valueType": "String",
             "description": ""
-        }, 
+        },
         {
-            "name": "Color", 
-            "cname": "颜色", 
-            "data_type": "string", 
-            "description": ""
-        }
-    ], 
-    "user_variables": [
-        {
-            "name": "PhoneNumber", 
-            "cname": "电话号码", 
-            "data_type": "string", 
+            "key": "queryTimeRange",
+            "name": "查询时间范围",
+            "valueType": "Int",
             "description": ""
         }
-    ], 
-    "bind_event_variables": [
+    ],
+    "user_variables":
+    [
         {
-            "event": "ViewProd", 
-            "properties": [
-                "Price", 
-                "Color"
+            "key": "ml02",
+            "name": "ml测试02",
+            "valueType": "String",
+            "description": "21111111111333312333333"
+        },
+        {
+            "key": "lyce",
+            "name": "ly测试",
+            "valueType": "String",
+            "description": ""
+        }
+    ],
+    "bind_event_variables":
+    [
+        {
+            "key": "webhook",
+            "attributes":
+            [
+                {
+                    "key": "webhook_variable_test_string"
+                }
+                
+            ]
+        },
+        {
+            "key": "webhookb",
+            "attributes":
+            [
+                {
+                    "key": "webhook_variable_test_string"
+                },
+                {
+                    "key": "webhook_variable_test_integer"
+                }
             ]
         }
+      
     ]
 }
 ```
