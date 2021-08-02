@@ -59,7 +59,11 @@ https://messages.growingio.com/v1/callback/meizu
 
 如果您的App已经集成了个推VIP或极光VIP版本的推送SDK，我们的Android SDK也能兼容。
 
-为了和个推兼容，我们将厂商通道独立打包。以魅族推送通道为例，我们打包两个SDK：gpush-meizu-sdk和gpush-meizu-adapter。
+为了和个推兼容，我们将厂商通道独立打包。以魅族推送通道为例，我们打包两个SDK：gpush-meizu-sdk和gpush-meizu-adapter。如果是从未接过个推、极光等VIP版本的用户可以直接添加魅族推送通道依赖
+
+```text
+implementation 'com.growingio.android.gpush:gpush-meizu-adapter:$gtouch_version'
+```
 
 如果是个推、极光等VIP版本的用户可以将魅族官方SDK包gpush-meizu-sdk 排除出去。
 
