@@ -40,13 +40,13 @@ Enter a caption for this image \(optional\)
 
 如果您想看页面流，您可以隐藏全部的元素点击事件，只保留页面浏览事件。
 
-![](../../.gitbook/assets/3%20%281%29.png)
+![](../../.gitbook/assets/3%20%282%29.png)
 
 Enter a caption for this image \(optional\)
 
 ‌节点和纽带数据说明
 
-![](../../.gitbook/assets/4%20%281%29.png)
+![](../../.gitbook/assets/4%20%282%29.png)
 
 Enter a caption for this image \(optional\)
 
@@ -56,7 +56,7 @@ Enter a caption for this image \(optional\)
 
 ‌退出统计：规定的转化窗口期内，未有下一步动作视为流失。我们提供了对应节点的统计人数和统计次数，以及统计流失人数占当前节点的占比和统计流失次数占当前节点的占比。
 
-![](../../.gitbook/assets/5%20%281%29.png)
+![](../../.gitbook/assets/5%20%282%29.png)
 
 Enter a caption for this image \(optional\)
 
