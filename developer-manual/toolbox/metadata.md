@@ -127,13 +127,6 @@ python3 meta_importer.py -m export_meta \
 
 导出的样例格式如下：
 
-<<<<<<< HEAD
-=======
-{% hint style="danger" %}
-请不要修改以下示例数据中任意key名称（如events、key、name、description等），否则系统将无法识别，无法导入数据
-{% endhint %}
-
->>>>>>> 14.3.0-beta
 ```text
 {
     "events": 
@@ -208,25 +201,6 @@ python3 meta_importer.py -m export_meta \
 }
 ```
 
-<<<<<<< HEAD
-=======
-| 数据类型 | 含义 | 参数 | 含义 |
-| :--- | :--- | :--- | :--- |
-| events | 事件 | key | 标识符（允许大小写英文、数字、以及下划线，并且不能以数字开头） |
-|  |  | name | 展示名称 |
-|  |  | description | 描述 |
-| event\_variables | 事件属性 | key | 标识符（允许大小写英文、数字、以及下划线，并且不能以数字开头） |
-|  |  | name | 展示名称 |
-|  |  | valueType | 数据类型（Int、String、Double） |
-|  |  | description | 描述 |
-| user\_variables | 用户属性 | key | 标识符（允许大小写英文、数字、以及下划线，并且不能以数字开头） |
-|  |  | name | 展示名称 |
-|  |  | valueType | 数据类型（Int、String、Double） |
-|  |  | description | 描述 |
-| bind\_event\_variables | 事件与事件属性绑定 | key | 事件标识符 |
-|  |  | attributes | key为事件属性的标识符 |
-
->>>>>>> 14.3.0-beta
 ## 导入元数据 <a id="dao-ru-yuan-shu-ju"></a>
 
 导入元数据的格式请见导出元数据中输出的JSON

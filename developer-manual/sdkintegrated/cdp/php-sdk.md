@@ -4,11 +4,7 @@
 
 直接从 [GitHub](https://github.com/growingio/growingio-php-sdk/tree/op) 获取 SDK 的源码并集成到项目中。
 
-<<<<<<< HEAD
 
-=======
-## 使用示例
->>>>>>> 14.3.0-beta
 
 参考如下Demo程序：
 
@@ -36,48 +32,20 @@ function currentMillisecond() {
 
 $start = currentMillisecond();
 printf($start."\n");
-<<<<<<< HEAD
 $gio->track("testUserId","testEvent", array("eventKey2"=>"v1", "eventKey2"=>"v2"));
 $gio->setUserAttributes("testUserId", array("userKey1"=>"v1", "userKey2"=>"v2"));
-=======
-
-// 上报事件
-// 参数：登录用户ID,事件标识符,事件属性数组
-$gio->track("testUserId","testEvent", array("eventKey2"=>"v1", "eventKey2"=>"v2"));
-
-// 上报事件 + 物品模型
-// 参数：登录用户ID,事件标识符,事件属性数组,物品ID,物品唯一标识符
-$gio->track("testUserId","testEvent", array("eventKey1"=>"v1", "eventKey2"=>"v2"), "1", "product");
-
-// 上报用户属性
-// 参数：登录用户ID,用户属性数组
-$gio->setUserAttributes("testUserId", array("userKey1"=>"v1", "userKey2"=>"v2"));
-
-// 上报物品属性
-// 参数：物品ID,物品唯一标识符,物品属性数组
-$gio->setItemAttributes("1", "product", array("name"=>"n1"));
-
->>>>>>> 14.3.0-beta
 $stop = currentMillisecond();
 printf($stop."\n");
 printf(($stop-$start)."\n");
 ?
 ```
 
-<<<<<<< HEAD
 ## 配置PHP SDK <a id="pei-zhi-php-sdk"></a>
-=======
-## 调试开关 <a id="pei-zhi-php-sdk"></a>
->>>>>>> 14.3.0-beta
 
 目前PHP SDK支持Debug模式，可以在标准输出中输出实际的自定义事件内容，如：
 
 ```text
-<<<<<<< HEAD
 $props = array("debug"=>false);
-=======
-$props = array("debug"=>true);// debug 模式，此模式仅打印日志，不发送数据
->>>>>>> 14.3.0-beta
 ```
 
 ## 程序调试 <a id="cheng-xu-tiao-shi"></a>
@@ -91,8 +59,5 @@ GrowingIO建议您按照如下步骤进行埋点数据的开发联调
 5. 执行对应修改部分的单元测试，或者编写一段测试程序运行修改部分的代码，确保触发埋点事件
 6. 在输出的日志中查找是否包含期望事件内容
 7. 去掉debug参数，再运行一次程序，确保能在后台数据中查到上传的事件，后台数据查看方式可联系技术支持
-<<<<<<< HEAD
 8. 在事件分析模块中，延迟1小时可以看到当天的统计结果
-=======
->>>>>>> 14.3.0-beta
 

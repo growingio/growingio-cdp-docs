@@ -18,11 +18,7 @@ GrowingIO系统中支持三种事物模型，分别为事件模型、物品模�
 
 根据描述的事物不同，事物的属性也千差万别。我们拿以下场景举例：
 
-<<<<<<< HEAD
 在电商业务中，我们经常会关注订单支付成功这一行为。为了更清晰的描述这一行为，谁在什么时间做什么什么事情，我们会用以下几个属性描述订单支付成功事件。
-=======
-在电商业务中，我们经常会关注订单支付成功这一行为。为了更清晰地描述这一行为，谁在什么时间做什么事情，我们会用以下几个属性描述订单支付成功事件。
->>>>>>> 14.3.0-beta
 
 | 属性 | 属性值 |
 | :--- | :--- |
@@ -61,15 +57,9 @@ GrowingIO系统中支持三种事物模型，分别为事件模型、物品模�
 
 ## 属性管理
 
-<<<<<<< HEAD
 GrowingIO系统支持对[事件属性](../product-manual/customer-data-platform/data-center/event-management/event-property.md)、[物品属性](../product-manual/customer-data-platform/data-center/item/item-manage.md)和[用户属性](../product-manual/customer-data-platform/data-center/customer-model-management/customer-property/)的创建、编辑和查看功能，详情请点击对应文字链接。
 
 [预定义属性](../product-manual/customer-data-platform/data-center/event-management/preset-property.md)和[用户信息](../product-manual/customer-data-platform/data-center/customer-model-management/customer-identification.md)为系统预置信息，仅支持查看，详情请点击对应文字链接。
-=======
-GrowingIO系统支持对[事件属性](../product-manual/customer-data-platform/event-management/event-property.md)、[物品属性](../product-manual/customer-data-platform/item/item-manage.md)和[用户属性](../product-manual/customer-data-platform/customer-model-management/customer-property/)的创建、编辑和查看功能，详情请点击对应文字链接。
-
-[预定义属性](../product-manual/customer-data-platform/event-management/preset-property.md)和[用户信息](../product-manual/customer-data-platform/customer-model-management/customer-identification.md)为系统预置信息，仅支持查看，详情请点击对应文字链接。
->>>>>>> 14.3.0-beta
 
 ## 属性关联
 
@@ -81,11 +71,7 @@ GrowingIO系统支持对[事件属性](../product-manual/customer-data-platform/
 
 用户属性创建成功后无需额外配置即可在系统中使用。
 
-<<<<<<< HEAD
 配置方法：[事件属性](../product-manual/customer-data-platform/data-center/event-management/manual.md#chuang-jian-shi-jian)、[物品属性](../product-manual/customer-data-platform/data-center/event-management/manual.md#chuang-jian-shi-jian)
-=======
-配置方法：[事件属性](../product-manual/customer-data-platform/event-management/customevents.md#chuang-jian-shi-jian)、[物品属性](../product-manual/customer-data-platform/event-management/customevents.md#chuang-jian-shi-jian)
->>>>>>> 14.3.0-beta
 
 ## 数据格式
 
@@ -174,10 +160,6 @@ GrowingIO支持多种语言的SDK，不同语言的SDK上报数据和导入数�
 </table>
 
 {% hint style="warning" %}
-<<<<<<< HEAD
 注意：日期属性如按时间戳格式上传时，需使用毫秒级时间戳\(13位\)；如上传秒级时间戳\(10位\)时存储时间会发生错误
-=======
-注意：日期属性如按时间戳格式上传时，需使用毫秒级时间戳（13位）；如上传秒级时间戳（10位）时存储时间会发生错误
->>>>>>> 14.3.0-beta
 {% endhint %}
 
