@@ -29,13 +29,8 @@
 帮助你了解此用户的基础用戶信息 
 
 * 展示该项目中被授权查看的用户属性、用户信息 。
-<<<<<<< HEAD
 * 用戶屬性  为在系统中定义上报。[点击查看](../../customer-data-platform/data-center/customer-model-management/customer-property/)
 * 用戶信息 为系统中上报。[点击查看](../../customer-data-platform/data-center/customer-model-management/customer-identification.md)
-=======
-* 用戶屬性  为在系统中定义上报。[点击查看](../../customer-data-platform/customer-model-management/customer-property/)
-* 用戶信息 为系统中上报。[点击查看](../../customer-data-platform/customer-model-management/customer-identification.md)
->>>>>>> 14.3.0-beta
 * 可勾選只展示有值的信息 。
 
 
@@ -83,11 +78,7 @@
 
 GIO是会对上传的埋点事件进行判断，是否在系统已经定义该事件，如已定义，对应的事件和属性是会显示对应定义的事件名称；
 
-<<<<<<< HEAD
 对于未在系统平台进行申明定义的，则会显示上传的标识符以及未知，同时会影响后续在产品分析中查看数据 可在 客户数据平台-  埋点事件、事件属性中定义。[点击查看](../../customer-data-platform/data-center/event-management/manual.md#chuang-jian-shi-jian)
-=======
-对于未在系统平台进行申明定义的，则会显示上传的标识符以及未知，同时会影响后续在产品分析中查看数据 可在 客户数据平台-  埋点事件、事件属性中定义。[点击查看](../../customer-data-platform/event-management/customevents.md#chuang-jian-shi-jian)
->>>>>>> 14.3.0-beta
 
 ![](../../../.gitbook/assets/ying-mu-jie-tu-20210119-xia-wu-12.23.55.png)
 
