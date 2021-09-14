@@ -82,6 +82,10 @@ implementation 'com.growingio.android.gpush:gpush-huawei-adapter:$gtouch_version
 如果是个推、极光等VIP版本的用户可以将华为官方SDK包gpush-hms-agent 排除出去。
 
 ```text
+<<<<<<< HEAD
 implementation ('com.growingio.android.gpush:gpush-huawei-adapter:$gtouch_version'){      exclude(group: 'com.growingio.android.gpush' , module: 'gpush-hms-agent')}
+=======
+implementation ('com.growingio.android.gpush:gpush-huawei-adapter:$gtouch_version'){      exclude(group: 'com.huawei.hms' , module: 'push')}
+>>>>>>> 14.3.0-beta
 ```
 

@@ -18,9 +18,18 @@ GrowingCDPPushExtensionKit.framework  图片推送和iOS 10以上统计后台通
 
 ### 2. 集成用户运营SDK
 
+<<<<<<< HEAD
 GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！   
 GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！   
 GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！！且不同target  
+=======
+{% hint style="info" %}
+GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！   
+GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！   
+GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！！且不同target
+{% endhint %}
+
+>>>>>>> 14.3.0-beta
 下载地址[http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip)
 
 * 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingPushKit.framework 添加到iOS工程中
