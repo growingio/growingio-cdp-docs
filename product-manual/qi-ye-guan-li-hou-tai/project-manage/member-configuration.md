@@ -10,7 +10,7 @@
 
 在项目成员的列表中，可查看项目中都有哪些成员，并可进行添加/移除 。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20201119-xia-wu-8.11.47%20%281%29.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20201119-xia-wu-8.11.47%20%282%29.png)
 
 ## 项目概览的操作说明
 
@@ -31,7 +31,7 @@
 项目角色为此用户在项目内的功能权限 。 可查看 项目[角色](https://app.gitbook.com/@growingio/s/op/~/drafts/-MMVAIcGiHwnMjXMi1gb/v/v20201200/product-manual/zhan-dian-guan-li/zhan-dian-jiao-se)。
 {% endhint %}
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20201119-xia-wu-8.16.26.png)
+![](../../../.gitbook/assets/ying-mu-jie-tu-20201119-xia-wu-8.16.26%20%281%29.png)
 
 {% hint style="warning" %}
 权限控制： 仅拥有者、超级管理员可更换项目负责人

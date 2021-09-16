@@ -30,7 +30,7 @@
 
 二、单击左侧列表上方"**新建分析 &gt; 事件分析"**或单击事件分析看板中“**+”**，进入**创建事件分析**页面。
 
-![](../../.gitbook/assets/shi-jian-fen-xi-6.png)
+![](../../.gitbook/assets/image%20%28495%29%20%282%29.png)
 
 你可以按照如下步骤创建事件分析。
 
@@ -154,11 +154,11 @@ GrowingIO在这个版本提供了更加丰富的度量方式，由次数，人�
 4. 选择完毕后会用指标前的符号（A B C D）代表参与四则运算，
 5. 展示百分比，两位小数，或者整数。默认展示百分比
 
-![](../../.gitbook/assets/shi-jian-fen-xi-4.png)
+![](../../.gitbook/assets/image%20%28489%29%20%282%29.png)
 
 选择完毕后的展示：
 
-![](../../.gitbook/assets/shi-jian-fen-xi-5.png)
+![](../../.gitbook/assets/image%20%28494%29%20%282%29.png)
 
 注意：在事件分析创建的计算指标暂时不支持保存，每次需要重新创建。
 
@@ -168,7 +168,7 @@ GrowingIO在这个版本提供了更加丰富的度量方式，由次数，人�
 
 在线图中，**当时间范围选择为一天时**，如今天，昨天，或者过去任意一天，支持分钟级颗粒度的数据展示：
 
-![](../../.gitbook/assets/shi-jian-fen-xi-2.png)
+![](../../.gitbook/assets/image%20%28488%29%20%282%29.png)
 
 
 
@@ -182,7 +182,7 @@ GrowingIO在这个版本提供了更加丰富的度量方式，由次数，人�
 
 
 
-![](../../.gitbook/assets/shi-jian-fen-xi-5.png)
+![](../../.gitbook/assets/image%20%28494%29%20%282%29.png)
 
 
 
