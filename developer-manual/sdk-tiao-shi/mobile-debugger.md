@@ -16,8 +16,6 @@ description: 此功能可以方便查看移动端 SDK 上传的数据信息。
 
 ![](../../.gitbook/assets/tu-pian-%20%289%29.png)
 
-
-
 **第二步、扫码唤起App**
 
 1. 选择项目中需要进行测试的应用，并保证手机中已经安装该APP，且该APP已经集成GrowingIO 3.1.0及以上的SDK。
@@ -38,6 +36,4 @@ description: 此功能可以方便查看移动端 SDK 上传的数据信息。
 如下图，可以点击日志发生的时间查看相应的日志
 
 ![](../../.gitbook/assets/tu-pian-%20%2814%29.png)
-
-
 

@@ -35,11 +35,9 @@ public static void ClearUserId()
 public static void SetUserAttributes(Dictionary<string, object> var)
 ```
 
-
-
 ## 集成步骤
 
-直接从 [GitHub  ](https://github.com/growingio/growingio-unity-sdk)获取 SDK 的源码并集成到项目中。
+直接从 [GitHub ](https://github.com/growingio/growingio-unity-sdk)获取 SDK 的源码并集成到项目中。
 
 * Android
   * 将最新版本的vds-android-agent-cdp以及对应依赖的protobuf-lite、gmonitor替换Assets/Plugins/Android目录下对应文件
@@ -61,7 +59,7 @@ public static void SetUserAttributes(Dictionary<string, object> var)
 
       - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
       {
-        	...
+            ...
           [Growing startWithAccountId:@"AccountId" dataSourceId:@"dataSourceId"];
           [Growing setTrackerHost:@"host"];
           [Growing setEnableLog:YES];

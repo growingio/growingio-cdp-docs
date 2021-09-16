@@ -37,7 +37,6 @@ description: 在用户运营界面，您可以通过后台向选择分群向用�
 ## 3. 运营人员使用GrowingIO发送短信 <a id="3-yun-ying-ren-yuan-shi-yong-growingio-fa-song-duan-xin"></a>
 
 1. 选择分群和厂商（目前支持阿里云，根据客户的实际需求可以对接客户正在使用的短信SSP，方便直接用户Gio给相应分群发送精细化运营短信）
-
 2. 选择短信签名，填写模版code获取状态码，判断是否可用
 
 **其他**

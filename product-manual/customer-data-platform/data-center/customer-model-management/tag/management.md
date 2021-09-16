@@ -87,7 +87,7 @@ description: 对标签进行定义和管理
 目前GrowingIO提供了五种标签计算模型，分别为累计值/平均值/占比标签、最大值/最小值的事件属性标签、最初/最终的事件属性标签、列表类的事件属性标签、分层标签。这五种标签主要用于解决计算标签和规则标签的使用场景。
 
 {% hint style="danger" %}
-在客户数据平台中 创建的标签，需要通过 项目管理 &gt;  数据授权 ，将标签分配到项目中使用。 [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MO-IZPJyPUe03vlfMC_/v/v20201200/product-manual/qi-ye-guan-li-hou-tai/project-manage/data-authorization)
+在客户数据平台中 创建的标签，需要通过 项目管理 &gt; 数据授权 ，将标签分配到项目中使用。 [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MO-IZPJyPUe03vlfMC_/v/v20201200/product-manual/qi-ye-guan-li-hou-tai/project-manage/data-authorization)
 {% endhint %}
 
 ## 标签的操作说明

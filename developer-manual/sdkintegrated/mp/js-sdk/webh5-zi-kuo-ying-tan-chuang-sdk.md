@@ -24,7 +24,7 @@ JS 弹窗 SDK 依赖于数据数据采集 SDK，如果还没有集成，请先�
 <script type='text/javascript'>
     // 弹窗 SDK 必须与数据采集 SDK 配合才能正常工作
     // 请参考帮助文档「开发者文档 > SDK 集成 > JS SDK」完成数据数据采集 SDK 集成
-    
+
     // 弹窗 SDK
     gdp('plugin', {
       id: 'gio_plugin_gtouch',
@@ -68,7 +68,7 @@ JS 弹窗 SDK 依赖于数据数据采集 SDK，如果还没有集成，请先�
 
 ### 4.  自适配 SDK 工作原理
 
-自动适应弹窗主要的工作原理如下，其会自动探测浏览器环境，判断是 PC 端还是移动端，根据当前环境加载移动端 H5 或 PC 端  Web  SDK。代码示例如下
+自动适应弹窗主要的工作原理如下，其会自动探测浏览器环境，判断是 PC 端还是移动端，根据当前环境加载移动端 H5 或 PC 端 Web SDK。代码示例如下
 
 ```javascript
 //gtouch.latest.js源码分析
@@ -81,6 +81,4 @@ m = g ? m.replace("gtouch", "h5") : m.replace("gtouch", "access");
 * Web 弹窗 JS SDK： [https://assets.giocdn.com/sdk/cdp/marketing/access.latest.js](https://assets.giocdn.com/sdk/marketing/access.latest.js)
 * H5 弹窗 JS SDK：[https://assets.giocdn.com/sdk/cdp/marketing/h5.latest.js](https://assets.giocdn.com/sdk/cdp/marketing/h5.latest.js)
 * 弹窗 JS SDK：[https://assets.giocdn.com/sdk/cdp/marketing/gtouch.latest.js](https://assets.giocdn.com/sdk/cdp/marketing/gtouch.latest.js)
-
-
 

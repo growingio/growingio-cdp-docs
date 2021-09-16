@@ -1,26 +1,26 @@
 # Webhook 技术对接文档
 
-### 简介 <a id="&#x7B80;&#x4ECB;"></a>
+## 简介 <a id="&#x7B80;&#x4ECB;"></a>
 
 客户可以使用webhook将分群信息\(用户属性\)发送到自己的内部系统，比如电商自有的发券系统，Push系统等，也可以将信息发送到自己的后台， 比如当用户发生了某些行为后若干次数后，客户可以在后台增加某个用户的会员积分等。应用场景是非常灵活的。
 
-### Webhook 请求 <a id="Webhook-&#x8BF7;&#x6C42;"></a>
+## Webhook 请求 <a id="Webhook-&#x8BF7;&#x6C42;"></a>
 
 Webhook请求是一个POST请求，会发送到某个客户提供的URL上，可以添加额外的参数，例
 
 ![](../.gitbook/assets/image%20%28332%29.png)
 
-#### Response Code <a id="Response-Code"></a>
+### Response Code <a id="Response-Code"></a>
 
 GIO 会遵循HTTP状态码，200代表post成功，其余的都是错误信息。
 
-#### Request Header <a id="Request-Header"></a>
+### Request Header <a id="Request-Header"></a>
 
 Content-Type:application/json
 
 X-gio-signature:xxx
 
-### Request Body
+## Request Body
 
 <table>
   <thead>
@@ -176,7 +176,7 @@ Request Body
 }
 ```
 
-#### Request 验证 <a id="Request-&#x9A8C;&#x8BC1;"></a>
+### Request 验证 <a id="Request-&#x9A8C;&#x8BC1;"></a>
 
 一些场景下，客户需要验证 Webhook 请求是来自GIO而不是第三方伪造，可为 Webhook 配置一个 Secret Key，该 Secret Key 在GIO运营服务端和 客户的服务器上共享。
 
@@ -200,11 +200,11 @@ String sign(Map<String, String> payload, String secret) {
 
 X-gio-signature:1e089260ba1bfde37f88eca8e665d8b1fb690ae763979d25dd10a831dedd52a8
 
-可参考秘钥计算的代码：[https://github.com/growingio/growing-webhook-demo](https://github.com/growingio/growing-webhook-demo) 
+可参考秘钥计算的代码：[https://github.com/growingio/growing-webhook-demo](https://github.com/growingio/growing-webhook-demo)
 
-### Webhook 配置 <a id="Webhook-&#x914D;&#x7F6E;"></a>
+## Webhook 配置 <a id="Webhook-&#x914D;&#x7F6E;"></a>
 
-#### 模版参数支持类型 <a id="&#x6A21;&#x7248;&#x53C2;&#x6570;&#x652F;&#x6301;&#x7C7B;&#x578B;"></a>
+### 模版参数支持类型 <a id="&#x6A21;&#x7248;&#x53C2;&#x6570;&#x652F;&#x6301;&#x7C7B;&#x578B;"></a>
 
 ![](../.gitbook/assets/image%20%28331%29.png)
 

@@ -35,7 +35,7 @@ channel的内容如下：请不要随意改动
 消息用途:标准推送消息
 ```
 
-![](../../../../../.gitbook/assets/image%20%28305%29.png)
+![](../../../../../.gitbook/assets/image%20%28305%29%20%281%29.png)
 
 ### 3. 在app build.gradle添加OPPO通道SDK依赖
 

@@ -16,7 +16,7 @@
 ### 1. 集成GrowingIO iOS CDP数据采集SDK\(版本要求最低1.2.3\)
 
 [https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk](https://growingio.gitbook.io/cdp/developer-manual/sdkintegrated/cdp/ios-sdk)  
-添加 handleUrl方法用于弹窗扫码和扫码注册推送设备  [链接](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk#handleurl)
+添加 handleUrl方法用于弹窗扫码和扫码注册推送设备 [链接](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk#handleurl)
 
 ### 添加支持用户运营扫码的代码
 
@@ -40,7 +40,7 @@
 
 ### 2. 集成运营SDK
 
- 手动集成SDK  
+手动集成SDK  
 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip)
 
 ![](../../../../.gitbook/assets/image%20%28110%29.png)
@@ -54,12 +54,11 @@
     ...
     // 启动GrowingIO
     [Growing startWithAccountId:@"YOUR_ACCOUNT_ID"  dataSourceId:@"YOUR_DATASOURCE_ID"]; //替换为您的项目ID
-    
+
     // 启动GrowingTouch，设置弹窗请求地址，一般与访问页面域名一致
     [GrowingTouch setServerHost:@"http://test.xxx.com"];
     [GrowingTouch start];
 }
-
 ```
 
 {% hint style="info" %}
@@ -286,8 +285,6 @@
 }
 ```
 
-
-
 ## 三.API介绍
 
 **+ \(void\)enableEventPopupAndGenerateAppOpenEvent;**
@@ -375,7 +372,4 @@ class SFViewController: UIViewController {
 ```swift
 + (void)enableEventPopupAndGenerateAppOpenEvent;
 ```
-
-  
-
 

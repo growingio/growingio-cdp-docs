@@ -34,7 +34,7 @@
             <artifactId>json</artifactId>
         </exclusion>
     </exclusions>
-</dependency>   
+</dependency>
 ```
 
 示例程序
@@ -212,8 +212,6 @@ projectB.send(msg);
 
 ![](../../../.gitbook/assets/image%20%2829%29.png)
 
-
-
 完成以上测试步骤后： ‌
 
 1. 修改gio.properties文件并将run.mode定义为production，并触发埋点事件 。
@@ -243,15 +241,15 @@ logger.implementation=io.growing.sdk.java.demo.DemoLogger
 
 ```text
 public class DemoLogger implements GioLoggerInterface {
-	private final Logger logger = LoggerFactory.getLogger(DemoLogger.class);
+    private final Logger logger = LoggerFactory.getLogger(DemoLogger.class);
 
-	public void debug(String msg) {
-		logger.debug(msg);
-	}
+    public void debug(String msg) {
+        logger.debug(msg);
+    }
 
-	public void error(String msg) {
-		logger.error(msg);
-	}
+    public void error(String msg) {
+        logger.error(msg);
+    }
 }
 ```
 

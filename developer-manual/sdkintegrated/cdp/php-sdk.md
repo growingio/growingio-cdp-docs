@@ -4,8 +4,6 @@
 
 直接从 [GitHub](https://github.com/growingio/growingio-php-sdk/tree/op) 获取 SDK 的源码并集成到项目中。
 
-
-
 参考如下Demo程序：
 
 ```text

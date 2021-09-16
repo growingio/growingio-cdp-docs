@@ -24,7 +24,7 @@ Web 弹窗 JS SDK： [https://assets.giocdn.com/sdk/cdp/marketing/access.latest.
 <script type='text/javascript'>
     // 弹窗 SDK 必须与数据采集 SDK 配合才能正常工作
     // 请参考帮助文档「开发者文档 > SDK 集成 > JS SDK」完成数据数据采集 SDK 集成
-    
+
     // 弹窗 SDK
     gdp('plugin', {
       id: 'gio_plugin_gtouch-inject',

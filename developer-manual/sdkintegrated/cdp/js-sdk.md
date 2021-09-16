@@ -56,7 +56,7 @@ gdp('init', projectId, dataSourceId, options);
 | host | string | 是 | 无 | SDK 上报数据的服务器地址，如 api.test.com，该值必须设置。 |
 | scheme | string | 否 | https | SDK 上报数据的服务器的协议类型，只能是 https 或 http。 |
 | debug | boolean | 否 | false | 是否开启 Debug 模式。开启后 SDK 上报的数据会在开发者工具 console 中打印。**仅测试时设置为 true**。 |
-| hashtag | boolean | 否 | false | 是否支持 hashtag。开启后 SDK 采集时 path 中将包含 hashtag，一些使用 hashtag 作为前端页面路由的单页应用，可以使用此开关，区分不同的页面。例如https://www.growingio.com/index.html\#hash-tag-name 页面，hashtag=true 时采集的 path 会是 /index.html\#hash-tag-name，hashtag=false 时，采集的 path 会是 /index.html。 |
+| hashtag | boolean | 否 | false | 是否支持 hashtag。开启后 SDK 采集时 path 中将包含 hashtag，一些使用 hashtag 作为前端页面路由的单页应用，可以使用此开关，区分不同的页面。例如[https://www.growingio.com/index.html\#hash-tag-name](https://www.growingio.com/index.html#hash-tag-name) 页面，hashtag=true 时采集的 path 会是 /index.html\#hash-tag-name，hashtag=false 时，采集的 path 会是 /index.html。 |
 | dataCollect | boolean | 否 | true | 是否采集数据。关闭后 SDK 将不再采集数据。 |
 | appVer | string | 否 | undefined | 设置网站应用的版本。 |
 | compress | boolean | 否 | fasle | 是否开启数据压缩。开启后 SDK 上报数据会经过压缩，无法通过抓包工具直接看到明文。v0.6.0 版本新增，**需要配合新版 collector 服务使用，如果您不确定您的服务是否支持，请联技术支持**。修改后请一定现在测试环境测试数据接收无问题。 |

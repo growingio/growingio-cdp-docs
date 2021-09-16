@@ -69,8 +69,6 @@ python3 meta_importer.py -m create_event_variables \
 
 ## 创建用户属性 <a id="chuang-jian-yong-hu-shu-xing"></a>
 
-##  <a id="chuang-jian-yong-hu-shu-xing"></a>
-
 ```text
 python3 meta_importer.py -m create_user_variables \
 --key <用户属性名> \
@@ -181,7 +179,7 @@ python3 meta_importer.py -m export_meta \
                 {
                     "key": "webhook_variable_test_string"
                 }
-                
+
             ]
         },
         {
@@ -196,7 +194,7 @@ python3 meta_importer.py -m export_meta \
                 }
             ]
         }
-      
+
     ]
 }
 ```

@@ -219,7 +219,7 @@
 ## v2020.9.0：2020年9月30日发布
 
 * 新功能：
-  * 数据平台：[数据平台使用新模型](introduction/data-model/)
+  * 数据平台：[数据平台使用新模型](https://github.com/growingio/growingio-cdp-docs/tree/4189247e398f09fdb26bde8d37ab423fc1bc3e3c/introduction/data-model/README.md)
 * 优化:
   * 编辑移动应用数据源，URLscheme 被更新
 
@@ -287,7 +287,7 @@
   * 角色管理
     * 新增支持创建和管理角色，一个角色就相当于一个功能权限包
     * 支持通过角色分配成员在项目中的功能权限
-    *  [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/role-manage)  新功能详细内容
+    * [点此查看](https://app.gitbook.com/@growingio/s/op/~/drafts/-MBIirz0Pa0FeXRFewFW/v/v20200700/product-manual/enterprise-manage/role-manage)  新功能详细内容
   * 部门管理
     * 新增支持创建和管理部门
     * 支持设置成员所属部门，方便按照组织架构管理企业成员
@@ -357,7 +357,7 @@
   * 产品分析: 漏斗趋势图坐标轴展示优化，支持根据转化率自动调整坐标轴数值范围，解决转化率较小时转化趋势波动较难观测问题
   * 产品分析: 大数据量查询加载超时展示优化，增加“刷新”操作
   * 用户画像: 360°单用户画像搜索结果展示优化，按用户ID搜索时展示重复问题修复
-  * 数据平台: [**用户属性类型扩展**](introduction/property-model.md)\*\*\*\*
+  * 数据平台: [**用户属性类型扩展**](https://github.com/growingio/growingio-cdp-docs/tree/4189247e398f09fdb26bde8d37ab423fc1bc3e3c/introduction/property-model.md)\*\*\*\*
     * 新增支持整数和日期类型用户属性
     * 字符串、整数和日期类型属性计算规则新增有值和没值
     * 日期类型属性计算规则新增相对时间和相对区间

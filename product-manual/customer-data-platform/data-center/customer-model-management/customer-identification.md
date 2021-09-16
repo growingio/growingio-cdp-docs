@@ -9,7 +9,7 @@ description: 在GrowingIO平台识别用户身份
 GrowingIO使用 gio\_id\( 即 event 表中的 gioid \)来对每一个识别的用户进行唯一标识，gio\_id 是基于 客观用户身份\( 如 登录用户ID、设备ID \)按照一定规则生成。
 
 {% hint style="success" %}
-推荐您阅读[用户模型](../../../../introduction/user-model/)文档，了解 GrowingIO 如何标记用户。
+推荐您阅读[用户模型](https://github.com/growingio/growingio-cdp-docs/tree/4189247e398f09fdb26bde8d37ab423fc1bc3e3c/introduction/user-model/README.md)文档，了解 GrowingIO 如何标记用户。
 {% endhint %}
 
 在 用户ID 模块，您可以查看GrowingIO支持识别的客观用户身份，如用户ID\( 登录用户ID\)、UUID\( 设备ID\)。

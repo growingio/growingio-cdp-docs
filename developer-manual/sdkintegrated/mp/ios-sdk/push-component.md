@@ -1,25 +1,25 @@
 # 推送 SDK（iOS）
 
-
-
 推送SDK最低兼容iOS 8.0 系统。
 
 **GrowingTouchCoreKit.framework触达基础依赖库  
 GrowingTouchCoreUI.bundle UI页面图  
 GrowingPushKit.framework 触达推送库  
-GrowingCDPPushExtensionKit.framework  图片推送和iOS 10以上统计后台通知的到达率**
+GrowingCDPPushExtensionKit.framework 图片推送和iOS 10以上统计后台通知的到达率**
 
 ## 一. 集成SDK
 
 ### 1. 集成GrowingIO iOS **CDP** 数据采集SDK  \(版本要求最低1.2.3\)
 
-    详细步骤见[集成文档](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk)  
-    添加 handleUrl方法  [链接](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk#handleurl)
+```text
+详细步骤见[集成文档](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk)  
+添加 handleUrl方法  [链接](https://docs.growingio.com/op/developer-manual/sdkintegrated/cdp/ios-sdk#handleurl)
+```
 
 ### 2. 集成用户运营SDK
 
-GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！   
-GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！   
+GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！  
+GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！  
 GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！！且不同target  
 下载地址[http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip)
 
@@ -27,10 +27,7 @@ GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！！且不同
 
 ![](../../../../.gitbook/assets/image%20%28225%29.png)
 
-
-
 * **添加扩展 Notification Service Extension** ，在 File -&gt; New -&gt; Target 中选择箭头所指，即可建立扩展GIOEdemoServiceExtension，
-
   * 请将 Notification Service Extension 中的 Deployment Target 设置为 **10.0**。
 
 ![](../../../../.gitbook/assets/image%20%28250%29.png)
@@ -43,8 +40,7 @@ GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！！且不同
 
 ![](../../../../.gitbook/assets/image%20%28286%29.png)
 
-请保证扩展的target  最低版本 iOS**10.0**  
-
+请保证扩展的target 最低版本 iOS**10.0**
 
 ![](../../../../.gitbook/assets/image%20%28251%29.png)
 
@@ -53,7 +49,7 @@ GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！！且不同
 ### **1.** AppDelegate 写入 **推送设备的deviceToken上传**
 
 用户自行实现通知注册请求授权后，在 AppDelegate 的 deviceToken 代理方法中调用API，传入获取到的 deviceToken，请确保能获取 deviceToken，否则无法接收通知消息。  
-  \#import &lt;UserNotifications/UserNotifications.h&gt;
+\#import &lt;UserNotifications/UserNotifications.h&gt;
 
 ```objectivec
 #import <UserNotifications/UserNotifications.h>
@@ -92,7 +88,7 @@ categories:nil];
 
 在 iOS10 提供的扩展 Notification Extension Service 中通知接收方法中调用通知消息回执接口，代码示例如下：\(**注意不是写在AppDelegate中,是写在你新建的扩展里面**\)
 
-还要设置一下AccountID  dataSourceID  Trackhost
+还要设置一下AccountID dataSourceID Trackhost
 
 ```objectivec
 #import <GrowingCDPPushExtensionKit/GrowingPushExtensionKit.h>
@@ -106,7 +102,7 @@ categories:nil];
        [GrowingPushExtensionKit setTrackerHost:@"your track host"];
       [GrowingPushExtensionKit handleNotificationRequest:request
                                         withCompletion:^(NSArray<UNNotificationAttachment *> * _Nullable attachments, NSArray<NSError *> * _Nullable errors) {
-        
+
         // Modify the notification content here...
         self.bestAttemptContent.attachments = attachments;   // 设置附件
         self.contentHandler(self.bestAttemptContent);
@@ -159,8 +155,6 @@ categories:nil];
 
 ![](../../../../.gitbook/assets/image%20%28244%29.png)
 
-
-
 ## 四. 常见问题
 
 ### 1. 推送跳转App原生界面
@@ -172,8 +166,6 @@ categories:nil];
 * **推送Web页面配置如下：**
 
 ![](../../../../.gitbook/assets/image%20%28254%29.png)
-
-
 
 此时生成的跳转链接为`InAppViewController?key1=value1&key2=value2` ，点击自动跳转到原生界面InAppViewController，并携带两个参数。
 
@@ -238,8 +230,7 @@ class SFViewController: UIViewController {
 
 ![](../../../../.gitbook/assets/image%20%28247%29.png)
 
-打开推送开关Push Notifications，如下图所示  
-****
+打开推送开关Push Notifications，如下图所示
 
 ![](../../../../.gitbook/assets/image%20%28231%29.png)
 
@@ -251,8 +242,7 @@ class SFViewController: UIViewController {
 
 ![](../../../../.gitbook/assets/image%20%28256%29.png)
 
-选中“Identifiers”，并且对应的是“App IDs”  
-
+选中“Identifiers”，并且对应的是“App IDs”
 
 ![](../../../../.gitbook/assets/image%20%28235%29.png)
 
@@ -325,7 +315,7 @@ class SFViewController: UIViewController {
 
 ```objectivec
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  
+
   //  通知授权注册请求方法，仅供参考
   [self registerRemoteNotification];
   return YES;
@@ -339,22 +329,22 @@ class SFViewController: UIViewController {
         [center requestAuthorizationWithOptions:(UNAuthorizationOptionAlert | UNAuthorizationOptionSound )
                               completionHandler:^(BOOL granted, NSError * _Nullable error) {
                                   if (granted) {
-                                      
+
                                       dispatch_async(dispatch_get_main_queue(), ^{
-                                          
+
                                           [[UIApplication sharedApplication] registerForRemoteNotifications];
                                       });
                                   }
                               }];
-        
+
     } else if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)]) {
-        
+
         UIUserNotificationType type =  UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound;
         UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:type
                                                                                  categories:nil];
         [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
         [[UIApplication sharedApplication] registerForRemoteNotifications];
-        
+
     }
 }
 ```
@@ -399,7 +389,7 @@ ServiceExtension的NotificationService类，在接收到推送的方法中调用
       [GrowingPushExtensionKit setTrackerHost:@"your track host"];
       [GrowingPushExtensionKit handleNotificationRequest:request
                                         withCompletion:^(NSArray<UNNotificationAttachment *> * _Nullable attachments, NSArray<NSError *> * _Nullable errors) {
-        
+
         // Modify the notification content here...
         self.bestAttemptContent.attachments = attachments;   // 设置附件
         self.contentHandler(self.bestAttemptContent);

@@ -4,7 +4,7 @@ description: 在用户运营界面，您可以通过选择分群向用户发送�
 
 # 云片短信
 
-### 1、配置云片账号 <a id="1-pei-zhi-yun-pian-zhang-hao"></a>
+## 1、配置云片账号 <a id="1-pei-zhi-yun-pian-zhang-hao"></a>
 
 前往官网[https://www.yunpian.com/](https://www.yunpian.com/)，登录/注册
 
@@ -18,7 +18,7 @@ description: 在用户运营界面，您可以通过选择分群向用户发送�
 
 ![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyWz3j1BYCn3hYO5y6x%2F-LyWzCpe4vh732BIXy0b%2F%E4%BA%91%E7%89%873.png?alt=media&token=c03b9128-3393-4e6f-9466-62d594eec0cb)
 
-### 2、在GIO触达平台配置 <a id="2-zai-gio-chu-da-ping-tai-pei-zhi"></a>
+## 2、在GIO触达平台配置 <a id="2-zai-gio-chu-da-ping-tai-pei-zhi"></a>
 
 在「触达→短信配置」中，先选择保存有手机号的用户属性名称。
 
@@ -38,7 +38,7 @@ _实例模板：【GrowingIO】你好{name}，恭喜你获得100元VIP优惠券�
 
 达成真实短信效果：_【GrowingIO】_你好王小明，恭喜你获得_100元VIP优惠券_，请于3天内在App使用。
 
-### 3、运营人员使用GIO发送短信流程 <a id="3-yun-ying-ren-yuan-shi-yong-gio-fa-song-duan-xin-liu-cheng"></a>
+## 3、运营人员使用GIO发送短信流程 <a id="3-yun-ying-ren-yuan-shi-yong-gio-fa-song-duan-xin-liu-cheng"></a>
 
 1.选择分群和厂商（目前支持阿里云,云片,创蓝，根据客户的实际需求可以对接客户正在使用的短信SSP，方便直接用户Gio给相应分群发送精细化运营短信）
 
@@ -46,13 +46,13 @@ _实例模板：【GrowingIO】你好{name}，恭喜你获得100元VIP优惠券�
 
 获取状态码，判断是否可用
 
-### 其他 <a id="qi-ta"></a>
+## 其他 <a id="qi-ta"></a>
 
 1.想查看对应分群里面手机号的显示。可以去用户分析-用户细查 里面查看
 
 ![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyWz3j1BYCn3hYO5y6x%2F-LyWzQyl3JHSLeXkX5NC%2F12.png?alt=media&token=4e115617-9b89-4ab7-99c4-6f930ef03632)
 
-### **4**、**发送短信后，未收到查看原因** <a id="4-fa-song-duan-xin-hou-wei-shou-dao-cha-kan-yuan-yin"></a>
+## **4**、**发送短信后，未收到查看原因** <a id="4-fa-song-duan-xin-hou-wei-shou-dao-cha-kan-yuan-yin"></a>
 
 **​**[1.查看云片短信发送状态](https://www.yunpian.com/console/#/domestic/record/send)
 
