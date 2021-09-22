@@ -23,6 +23,7 @@
       * [指标预警 (beta)](product-manual/product-analysis/event-analysis/yu-jing.md)
       * [计算指标](product-manual/product-analysis/event-analysis/custom-event.md)
     * [漏斗分析](product-manual/product-analysis/funnel.md)
+    * [事件流分析](product-manual/product-analysis/shi-jian-liu-fen-xi.md)
     * [留存分析](product-manual/product-analysis/retention.md)
     * [分布分析](product-manual/product-analysis/frequency.md)
     * [归因分析](product-manual/product-analysis/attribution.md)
