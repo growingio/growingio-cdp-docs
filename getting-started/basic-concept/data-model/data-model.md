@@ -138,7 +138,7 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | $ip | String | 客户端IP地址 |
 | $data\_source\_id | String | 数据源信息 |
 | $page_count | UInt32 | 访问深度，即一次访问的页面浏览量 |
-| $duration | UInt32 | 时长（秒）。page事件上是页面停留时长<br><br>，visit事件上是访问时长 |
+| $duration | UInt32 | 时长（秒）。page事件上是页面停留时长<br></br>，visit事件上是访问时长 |
 
 > $page_count和$duration是离线计算而非实时采集的信息，时效性是T+1天。
 
