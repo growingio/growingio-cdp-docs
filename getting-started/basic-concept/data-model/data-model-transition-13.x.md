@@ -4,12 +4,8 @@ sidebar_position: 2
 ---
 
 # 旧版本兼容指南 - 13.x版本
-=================
 
 ## 数据表[](#shu-ju-biao)
-
-
-============================
 
 行为模型：CARBON.EVENT_LOG
 
@@ -70,14 +66,11 @@ sidebar_position: 2
 | bot_id | string | 爬虫标识，如果大于-1说明为爬虫数据 |
 | ads_id | string | 广告 id，私有化版本未支持 |
 | data\_source\_id | string | 数据源ID |
-| attributes | map<string, string> |行为属性 : 多个字段 map json string。1.访问事件，页面事件：path，query，title，referrer，refferrer_path 2.埋点事件: itemKey，itemOriginalId，itemId，关联的事件级变量 3.点击事件：pageShowTimestamp，textValue，xpath，index，hyperlink 4.表单提交事件：pageShowTimestamp，xpath，index 5.输入元素内容改变事件 pageShowTimestamp，textValue，xpath，index |
+| attributes | map<string, string> |行为属性 : 多个字段 map json string。<br></br>1. 访问事件，页面事件：path，query，title，referrer，refferrer_path<br></br>2. 埋点事件: itemKey，itemOriginalId，itemId，关联的事件级变量<br></br>3. 点击事件：pageShowTimestamp，textValue，xpath，index，hyperlink<br></br>4. 表单提交事件：pageShowTimestamp，xpath，index<br></br>5. 输入元素内容改变事件 pageShowTimestamp，textValue，xpath，index |
 | time | string | 时间分区列，UTC 时区，精确到小时，如 202010010000 为北京时间 10月1日早上8点 |
 | type | string | 同 event_type，分区列 |
 
 ## 物品模型(Item)[](#wu-pin-mo-xing-item)
-
-
-======================================
 
 GrowingIO平台采用独立的模型存储商品属性信息。在计算的过程中，我们采用高效的mapping算法，完美解决了维度值组合过多的问题，加速对商品指标的计算速度。
 
@@ -98,9 +91,6 @@ GrowingIO平台采用独立的模型存储商品属性信息。在计算的过�
 
 ## 用户属性模型(UserProps)[](#yong-hu-shu-xing-mo-xing-userprops)
 
-
-============================================================
-
 用户属性是人的画像描述信息，可以作为维度对人群进行拆解。
 
 用户属性模型相比事件模型而言要简单的多，包含who（用户标识），dim（属性名称），dvalue（属性值）, in_time（更新时间）信息。
@@ -116,9 +106,6 @@ GrowingIO平台采用独立的模型存储商品属性信息。在计算的过�
 | in_time          | bigint   | 属性值最后更新时间，精确到秒          |
 
 ## 标签模型(Tag)[](#biao-qian-mo-xing-tag)
-
-
-=======================================
 
 用户标签是人的画像描述信息，与用户属性的差别在于标签是基于GrowingIO计算能力对人进行打标。
 
