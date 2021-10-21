@@ -3,7 +3,7 @@ id: data-model-transition-9.x
 sidebar_position: 3
 ---
 
-# 旧版本兼容指南 \- 9.x版本
+# 旧版本兼容指南 - 9.x版本
 
 ## 事件查询[](#shi-jian-cha-xun)
 
