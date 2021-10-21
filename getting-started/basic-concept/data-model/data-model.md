@@ -175,63 +175,39 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 ### 查询示例[](#cha-xun-shi-li)
 
 ```sql
-\-\- 查询2021-06-01的用户量
+-- 查询2021-06-01的用户量
 
-select count(distinct gio_id)
-
-from event 
-
-where dt='2021-06-01';
+select count(distinct gio_id) from event where dt='2021-06-01';
 
 ​
 
-\-\- 查询2021-06-01的页面浏览量
+-- 查询2021-06-01的页面浏览量
 
-select count(1)
-
-from event 
-
-where dt='2021-06-01' and event_key='$page';
+select count(1) from event where dt='2021-06-01' and event_key='$page';
 
 ​
 
-\-\- 查询2021-06-01的访问量
+-- 查询2021-06-01的访问量
 
-select count(distinct session)
-
-from event 
-
-where dt='2021-06-01' and event_key='$visit';
+select count(distinct session) from event where dt='2021-06-01' and event_key='$visit';
 
 ​
 
-\-\- 查询2021-06-01的总访问时长
+-- 查询2021-06-01的总访问时长
 
-select sum($duration) 
-
-from event 
-
-where dt='2021-06-01' and event_key='$visit';
+select sum($duration) from event where dt='2021-06-01' and event_key='$visit';
 
 ​
 
-\-\- 查询2021-06-01的跳出次数
+-- 查询2021-06-01的跳出次数
 
-select count(1) 
-
-from event 
-
-where dt='2021-06-01' and event_key='$bounce'
+select count(1) from event where dt='2021-06-01' and event_key='$bounce'
 
 ​
 
-\-\- 查询2021-06-01的退出次数
+-- 查询2021-06-01的退出次数
 
-select count(1) 
-
-from event 
-
-where dt='2021-06-01' and event_key='$exit'
+select count(1) from event where dt='2021-06-01' and event_key='$exit'
 ```
 
 ## 用户表( user )：[](#yong-hu-biao-user)
@@ -270,34 +246,34 @@ GrowingIO系统会对每一个识别的用户会进行唯一标识( 即gio_id )�
 
 > 包含系统预置用户属性，如
 > 
-> usr_$first\_day: gio\_id生成日期
-> usr_$basic_birthday: 出生年月日
-> usr_$basic_email: 电子邮箱
-> usr_$basic_address: 地址
-> usr_$wechat_subscribeList: 关注公众号
-> usr_$basic_mobile: 手机号
-> usr_$basic_createdAt: 注册时间
-> usr_$wechat_openId: 微信 openid
-> usr_$wechat_unionId: 微信 unionid
-> usr_$wechat_nickName: 微信昵称
-> usr_$wechat_avatarUrl: 微信头像
-> usr_$wechat_city: 微信用户所在城市
-> usr_$wechat_country: 微信用户所在国家
-> usr_$wechat_province: 微信用户所在省份
-> usr_$wechat_gender: 微信用户性别
-> usr_$wechat_language: 微信语言
-> usr_$basic_gender: 性别
-> usr_$basic_name: 姓名
-> usr_$alipay_isCertified: 支付宝实名认证
-> usr_$alipay_avatar: 支付宝头像
-> usr_$alipay_isStudentCertified: 支付宝学生认证
-> usr_$alipay_userId: 支付宝用户ID
-> usr_$alipay_userType: 支付宝用户类型
-> usr_$alipay_nickName: 支付宝用户昵称
-> usr_$alipay_city: 支付宝用户所在城市
-> usr_$alipay_province: 支付宝用户所在省份
-> usr_$alipay_gender: 支付宝用户性别
-> usr_$alipay_userStatus: 支付宝用户状态
+> * usr_$first\_day: gio\_id生成日期
+> * usr_$basic_birthday: 出生年月日
+> * usr_$basic_email: 电子邮箱
+> * usr_$basic_address: 地址
+> * usr_$wechat_subscribeList: 关注公众号
+> * usr_$basic_mobile: 手机号
+> * usr_$basic_createdAt: 注册时间
+> * usr_$wechat_openId: 微信 openid
+> * usr_$wechat_unionId: 微信 unionid
+> * usr_$wechat_nickName: 微信昵称
+> * usr_$wechat_avatarUrl: 微信头像
+> * usr_$wechat_city: 微信用户所在城市
+> * usr_$wechat_country: 微信用户所在国家
+> * usr_$wechat_province: 微信用户所在省份
+> * usr_$wechat_gender: 微信用户性别
+> * usr_$wechat_language: 微信语言
+> * usr_$basic_gender: 性别
+> * usr_$basic_name: 姓名
+> * usr_$alipay_isCertified: 支付宝实名认证
+> * usr_$alipay_avatar: 支付宝头像
+> * usr_$alipay_isStudentCertified: 支付宝学生认证
+> * usr_$alipay_userId: 支付宝用户ID
+> * usr_$alipay_userType: 支付宝用户类型
+> * usr_$alipay_nickName: 支付宝用户昵称
+> * usr_$alipay_city: 支付宝用户所在城市
+> * usr_$alipay_province: 支付宝用户所在省份
+> * usr_$alipay_gender: 支付宝用户性别
+> * usr_$alipay_userStatus: 支付宝用户状态
 
 ### 用户标签
 
