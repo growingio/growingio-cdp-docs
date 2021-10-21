@@ -50,11 +50,11 @@ GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，�
 
 | 时间  | 用户行为 |
 | --- | --- |
-| 1   | **小明** 使用浏览器 **X** 未登录访问GrowingIO官网。<br><br>SDK首次识别浏览器根据cookie生成匿名ID c1，未识别到登录ID。<br><br>此时根据匿名ID c1生成gid 1，并在Event表中记录该事件属于用户gid 1。 |
-| 2   | **小明** 使用浏览器 **X** 在GrowingIO官网登录账户u1。<br><br>SDK识别匿名ID(cookie) c1和登录ID u1。<br><br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br><br>同时在虚拟表(ID-Mapping)记录 时刻2 匿名ID c1和登录ID u1的绑定关系。 |
-| 3   | **小明** 在浏览器 **X** 上退出登录，继续浏览GrowingIO官网。<br><br>SDK识别匿名ID(cookie) c1，未识别到登录ID。<br><br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
-| 4   | **小明** 在浏览器 **X** 上未登录状态下继续浏览GrowingIO官网。<br><br>SDK识别匿名ID(cookie) c1，未识别到登录ID。<br><br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
-| 5   | **小红** 使用浏览器 **Y** 未登录访问GrowingIO官网。<br><br>SDK首次识别浏览器根据cookie生成匿名ID c2，未识别到登录ID。<br><br>此时根据匿名ID c2生成gid 3，并在Event表中记录该事件属于用户gid 3。 |
+| 1   | **小明** 使用浏览器 **X** 未登录访问GrowingIO官网。<br></br>SDK首次识别浏览器根据cookie生成匿名ID c1，未识别到登录ID。<br></br>此时根据匿名ID c1生成gid 1，并在Event表中记录该事件属于用户gid 1。 |
+| 2   | **小明** 使用浏览器 **X** 在GrowingIO官网登录账户u1。<br></br>SDK识别匿名ID(cookie) c1和登录ID u1。<br></br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br></br>同时在虚拟表(ID-Mapping)记录 时刻2 匿名ID c1和登录ID u1的绑定关系。 |
+| 3   | **小明** 在浏览器 **X** 上退出登录，继续浏览GrowingIO官网。<br></br>SDK识别匿名ID(cookie) c1，未识别到登录ID。<br></br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
+| 4   | **小明** 在浏览器 **X** 上未登录状态下继续浏览GrowingIO官网。<br></br>SDK识别匿名ID(cookie) c1，未识别到登录ID。<br></br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
+| 5   | **小红** 使用浏览器 **Y** 未登录访问GrowingIO官网。<br></br>SDK首次识别浏览器根据cookie生成匿名ID c2，未识别到登录ID。<br></br>此时根据匿名ID c2生成gid 3，并在Event表中记录该事件属于用户gid 3。 |
 
 查询时间：1 - 5
 
@@ -80,14 +80,14 @@ GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，�
 
 | 时间  | 用户行为 |
 | --- | --- |
-| 1   | **小明** 使用浏览器 **X** 未登录访问GrowingIO官网。<br><br>SDK首次识别浏览器根据cookie生成匿名ID c1，未识别到登录ID。<br><br>此时根据匿名ID c1生成gid 1，并在Event表中记录该事件属于用户gid 1。 |
-| 2   | **小明** 使用浏览器 **X** 在GrowingIO官网登录账户u1。<br><br>SDK识别匿名ID(cookie) c1和登录ID u1。<br><br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br><br>同时在虚拟表(ID-Mapping)记录 时刻2 匿名ID c1和登录ID u1的绑定关系。 |
-| 3   | **小明** 在浏览器 **X** 上退出登录，继续浏览GrowingIO官网。<br><br>SDK识别匿名ID(cookie) c1，未识别到登录ID。<br><br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
-| 4   | **小明** 在浏览器 **X** 上未登录状态下继续浏览GrowingIO官网。<br><br>SDK识别匿名ID(cookie) c1，未识别到登录ID。<br><br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
-| 5   | **小红** 使用浏览器 **Y** 未登录访问GrowingIO官网。<br><br>SDK首次识别浏览器根据cookie生成匿名ID c2，未识别到登录ID。<br><br>此时根据匿名ID c2生成gid 3，并在Event表中记录该事件属于用户gid 3。 |
-| 6   | **小明** 使用苹果手机 **A** 未登录访问GrowingIO APP。<br><br>SDK首次识别手机设备生成匿名ID IDFA，未识别到登录ID。<br><br>此时根据匿名ID IDFA生成gid 4，并在Event表中记录该事件属于用户gid 4。 |
-| 7   | **小明** 使用苹果手机 **A** 在GrowingIO APP登录账户u1。<br><br>SDK识别匿名ID IDFA和登录ID u1。<br><br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br><br>同时在虚拟表(ID-Mapping)记录 时刻7 匿名ID IDFA和登录ID u1的绑定关系。 |
-| 8   | **小明** 使用苹果手机 **A** 未登录访问GrowingIO APP。<br><br>SDK识别匿名ID IDFA，未识别到登录ID。<br><br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
+| 1   | **小明** 使用浏览器 **X** 未登录访问GrowingIO官网。<br></br>SDK首次识别浏览器根据cookie生成匿名ID c1，未识别到登录ID。<br></br>此时根据匿名ID c1生成gid 1，并在Event表中记录该事件属于用户gid 1。 |
+| 2   | **小明** 使用浏览器 **X** 在GrowingIO官网登录账户u1。<br></br>SDK识别匿名ID(cookie) c1和登录ID u1。<br></br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br></br>同时在虚拟表(ID-Mapping)记录 时刻2 匿名ID c1和登录ID u1的绑定关系。 |
+| 3   | **小明** 在浏览器 **X** 上退出登录，继续浏览GrowingIO官网。<br></br>SDK识别匿名ID(cookie) c1，未识别到登录ID。<br></br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
+| 4   | **小明** 在浏览器 **X** 上未登录状态下继续浏览GrowingIO官网。<br></br>SDK识别匿名ID(cookie) c1，未识别到登录ID。<br></br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
+| 5   | **小红** 使用浏览器 **Y** 未登录访问GrowingIO官网。<br></br>SDK首次识别浏览器根据cookie生成匿名ID c2，未识别到登录ID。<br></br>此时根据匿名ID c2生成gid 3，并在Event表中记录该事件属于用户gid 3。 |
+| 6   | **小明** 使用苹果手机 **A** 未登录访问GrowingIO APP。<br></br>SDK首次识别手机设备生成匿名ID IDFA，未识别到登录ID。<br></br>此时根据匿名ID IDFA生成gid 4，并在Event表中记录该事件属于用户gid 4。 |
+| 7   | **小明** 使用苹果手机 **A** 在GrowingIO APP登录账户u1。<br></br>SDK识别匿名ID IDFA和登录ID u1。<br></br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br></br>同时在虚拟表(ID-Mapping)记录 时刻7 匿名ID IDFA和登录ID u1的绑定关系。 |
+| 8   | **小明** 使用苹果手机 **A** 未登录访问GrowingIO APP。<br></br>SDK识别匿名ID IDFA，未识别到登录ID。<br></br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
 
 查询时间：1 - 7
 
@@ -125,16 +125,16 @@ GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，�
 
 | 时间  | 用户行为 |
 | --- | --- |
-| 1   | **小明** 使用浏览器 **X** 未登录访问GrowingIO官网。<br><br>SDK首次识别浏览器生成匿名ID cookie，未识别到登录ID。<br><br>此时根据匿名ID cookie生成gid 1，并在Event表中记录该事件属于用户gid 1。 |
-| 2   | **小明** 使用浏览器 **X** 在GrowingIO官网登录账户u1。<br><br>SDK识别匿名ID cookie和登录ID u1。<br><br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br><br>同时在虚拟表(ID-Mapping)记录 时刻2 匿名ID cookie和登录ID u1的绑定关系。 |
-| 3   | **小明** 在浏览器 **X** 上退出登录，继续浏览GrowingIO官网。<br><br>SDK识别匿名ID cookie，未识别到登录ID。<br><br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
-| 4   | **小红** 使用同一个浏览器 **X** ，并登录自己的账户u2浏览GrowingIO官网。<br><br>SDK识别匿名ID cookie和登录ID u2。<br><br>此时首次识别登录ID u2，并根据u2生成gid 3，Event表中记录该事件属于用户gid 3。<br><br>同时在虚拟表(ID-Mapping)记录 时刻4 匿名ID cookie和登录ID u2的绑定关系。 |
-| 5   | **小红** 在浏览器 **X** 上退出登录，继续浏览GrowingIO官网。<br><br>SDK识别匿名ID cookie，未识别到登录ID。<br><br>由于该设备最后登录ID为u2，此时我们认为该匿名行为仍是u2发生的，因此在Event表中记录该事件属于用户gid 3。 |
-| 6   | **小明** 使用苹果手机 **A** 未登录访问GrowingIO APP。<br><br>SDK首次识别手机设备生成匿名ID IDFA，未识别到登录ID。<br><br>此时根据匿名ID IDFA生成gid 4，并在Event表中记录该事件属于用户gid 4。 |
-| 7   | **小明** 使用苹果手机 **A** 在GrowingIO APP登录账户u1。<br><br>SDK识别匿名ID IDFA和登录ID u1。<br><br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br><br>同时在虚拟表(ID-Mapping)记录 时刻7 匿名ID IDFA和登录ID u1的绑定关系。 |
-| 8   | **小明** 使用浏览器 **X** 未登录访问GrowingIO官网。<br><br>SDK识别匿名ID cookie，未识别到登录ID。<br><br>由于该设备最后登录ID为u2，此时我们认为该匿名行为仍是u2发生的，因此在Event表中记录该事件属于用户gid 3。<br><br>( 此时记录使用用户为gid 3 即用户 **小红** ，但实际使用用户是gid 2 即用户 **小明** ) |
-| 9   | **小明** 使用浏览器 **X** 在GrowingIO官网登录账户u1。<br><br>SDK识别匿名ID cookie和登录ID u1。<br><br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br><br>同时在虚拟表(ID-Mapping)记录 时刻9 匿名ID cookie和登录ID u1的绑定关系。 |
-| 10  | **小明** 在浏览器 **X** 上退出登录，继续浏览GrowingIO官网。<br><br>SDK识别匿名ID cookie，未识别到登录ID。<br><br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。<br><br>( 此时虽然也是匿名访问，但由于最后操作的登录账户是u1，我们认为该行为属于gid 2 即用户 **小明** ) |
+| 1   | **小明** 使用浏览器 **X** 未登录访问GrowingIO官网。<br></br>SDK首次识别浏览器生成匿名ID cookie，未识别到登录ID。<br></br>此时根据匿名ID cookie生成gid 1，并在Event表中记录该事件属于用户gid 1。 |
+| 2   | **小明** 使用浏览器 **X** 在GrowingIO官网登录账户u1。<br></br>SDK识别匿名ID cookie和登录ID u1。<br></br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br></br>同时在虚拟表(ID-Mapping)记录 时刻2 匿名ID cookie和登录ID u1的绑定关系。 |
+| 3   | **小明** 在浏览器 **X** 上退出登录，继续浏览GrowingIO官网。<br></br>SDK识别匿名ID cookie，未识别到登录ID。<br></br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。 |
+| 4   | **小红** 使用同一个浏览器 **X** ，并登录自己的账户u2浏览GrowingIO官网。<br></br>SDK识别匿名ID cookie和登录ID u2。<br></br>此时首次识别登录ID u2，并根据u2生成gid 3，Event表中记录该事件属于用户gid 3。<br></br>同时在虚拟表(ID-Mapping)记录 时刻4 匿名ID cookie和登录ID u2的绑定关系。 |
+| 5   | **小红** 在浏览器 **X** 上退出登录，继续浏览GrowingIO官网。<br></br>SDK识别匿名ID cookie，未识别到登录ID。<br></br>由于该设备最后登录ID为u2，此时我们认为该匿名行为仍是u2发生的，因此在Event表中记录该事件属于用户gid 3。 |
+| 6   | **小明** 使用苹果手机 **A** 未登录访问GrowingIO APP。<br></br>SDK首次识别手机设备生成匿名ID IDFA，未识别到登录ID。<br></br>此时根据匿名ID IDFA生成gid 4，并在Event表中记录该事件属于用户gid 4。 |
+| 7   | **小明** 使用苹果手机 **A** 在GrowingIO APP登录账户u1。<br></br>SDK识别匿名ID IDFA和登录ID u1。<br></br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br></br>同时在虚拟表(ID-Mapping)记录 时刻7 匿名ID IDFA和登录ID u1的绑定关系。 |
+| 8   | **小明** 使用浏览器 **X** 未登录访问GrowingIO官网。<br></br>SDK识别匿名ID cookie，未识别到登录ID。<br></br>由于该设备最后登录ID为u2，此时我们认为该匿名行为仍是u2发生的，因此在Event表中记录该事件属于用户gid 3。<br></br>( 此时记录使用用户为gid 3 即用户 **小红** ，但实际使用用户是gid 2 即用户 **小明** ) |
+| 9   | **小明** 使用浏览器 **X** 在GrowingIO官网登录账户u1。<br></br>SDK识别匿名ID cookie和登录ID u1。<br></br>此时根据登录ID u1生成gid 2，并在Event表中记录该事件属于用户gid 2。<br></br>同时在虚拟表(ID-Mapping)记录 时刻9 匿名ID cookie和登录ID u1的绑定关系。 |
+| 10  | **小明** 在浏览器 **X** 上退出登录，继续浏览GrowingIO官网。<br></br>SDK识别匿名ID cookie，未识别到登录ID。<br></br>由于该设备最后登录ID为u1，此时我们认为该匿名行为仍是u1发生的，因此在Event表中记录该事件属于用户gid 2。<br></br>( 此时虽然也是匿名访问，但由于最后操作的登录账户是u1，我们认为该行为属于gid 2 即用户 **小明** ) |
 
 查询时间：1 - 8
 
