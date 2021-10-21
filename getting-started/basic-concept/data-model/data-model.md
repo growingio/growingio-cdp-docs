@@ -52,21 +52,21 @@ GrowingIO通过SDK实时采集或文件批量导入的行为数据，统一存�
 
 #### 基础信息
 
-| 字段名         | 字段类型 | 含义及示例                                                                       |   |
-|----------------|----------|----------------------------------------------------------------------------------|---|
-| event_key      | String   | 事件标识符。示例：visit事件=$visit、页面浏览事件=$page、自定义事件如paySuccess等 |   |
-| event_type     | String   | 事件类型。示例：visit、page、custom_event等                                      |   |
-| event_time     | DateTime | 事件上报时间，毫秒。示例：2021-06-01 23:59:20.912注：分析应用等场景的核心字段    |   |
-| client_time    | DateTime | 事件发生时间，毫秒。示例：2021-06-01 23:59:20.912注：仅用在访问时长和页面时长里  |   |
-| event_id       | String   | 事件ID                                                                           |   |
-| anonymous_user | String   | 访问用户ID                                                                       |   |
-| user           | String   | 登录用户ID                                                                       |   |
-| user_key       | String   | 用户身份类型。示例：$basic_userId                                                |   |
-| gio_id         | UInt     | id-service为用户生成的自增序号，是分析中统计用户量等指标的关键字段               |   |
-| session        | String   | 会话标识，标记一个访问                                                           |   |
-| account_id     | String   | 账户ID（GrowingIO产品部署时自动生成，默认唯一值）                                |   |
-| dt             | Date     | 事件上报的日期。示例：2021-06-01                                                 |   |
-| attributes     | Map      | "事件属性集。示例：{""city"":""beijing"", ""color"":""red""}"                    |   |
+| 字段名         | 字段类型 | 含义及示例                                                                       |
+|----------------|----------|----------------------------------------------------------------------------------|
+| event_key      | String   | 事件标识符。示例：visit事件=$visit、页面浏览事件=$page、自定义事件如paySuccess等 |
+| event_type     | String   | 事件类型。示例：visit、page、custom_event等                                      |
+| event_time     | DateTime | 事件上报时间，毫秒。示例：2021-06-01 23:59:20.912注：分析应用等场景的核心字段    |
+| client_time    | DateTime | 事件发生时间，毫秒。示例：2021-06-01 23:59:20.912注：仅用在访问时长和页面时长里  |
+| event_id       | String   | 事件ID                                                                           |
+| anonymous_user | String   | 访问用户ID                                                                       |
+| user           | String   | 登录用户ID                                                                       |
+| user_key       | String   | 用户身份类型。示例：$basic_userId                                                |
+| gio_id         | UInt     | id-service为用户生成的自增序号，是分析中统计用户量等指标的关键字段               |
+| session        | String   | 会话标识，标记一个访问                                                           |
+| account_id     | String   | 账户ID（GrowingIO产品部署时自动生成，默认唯一值）                                |
+| dt             | Date     | 事件上报的日期。示例：2021-06-01                                                 |
+| attributes     | Map      | "事件属性集。示例：{""city"":""beijing"", ""color"":""red""}"                    |
 
 > event_id是对重复数据去重处理的主要参数之一。它的生成机制随事件类型的不同而各异。
 > * 访问事件：通过session字段加密生成
@@ -253,11 +253,11 @@ GrowingIO系统会对每一个识别的用户会进行唯一标识( 即gio_id )�
 
 在 user 表中，系统会根据分群画像新建和删除自动增加和减少列，即每一个分群画像唯一对应user表中的某一个数据列。
 
-| 项       | 说明                 |   |
-|----------|----------------------|---|
-| 列名     | seg_{分群画像 key}   |   |
-| 数值类型 | "整数 ( 0 1 )"       |   |
-| 更新机制 | 依赖分群画像更新计算 |   |
+| 项       | 说明                 |
+|----------|----------------------|
+| 列名     | seg_{分群画像 key}   |
+| 数值类型 | "整数 ( 0 1 )"       |
+| 更新机制 | 依赖分群画像更新计算 |
 
 > 分群画像创建时不能指定标识符，系统默认自增创建标识符。
 
