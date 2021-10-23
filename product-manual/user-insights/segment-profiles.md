@@ -34,7 +34,7 @@ sidebar_position: 1
 | 分群人数 | 当前最新一次计算的分群人数 |
 | 分群类型 | 每天计算/一次性计算，分群类型在 [创建群体画像](/op/v/2.0/product-manual/user-insights/segment-profiles#chuang-jian-qun-ti-hua-xiang) 时可选择 |
 | 计算状态 | 计算未开始/计算中/计算成功/计算失败 |
-| 分群创建方式 | 1、规则创建 [点击查看](/op/v/2.0/product-manual/user-insights/segment-profiles#1-gui-ze-chuang-jian) 2、文件上传 [点击查看](/op/v/2.0/product-manual/user-insights/segment-profiles#2-shang-chuan-yong-hu-lie-biao) 3、漏斗创建 [点击查看](/op/v/2.0/product-manual/product-analysis/funnel#jie-du-lou-dou-fen-xi)​<br><br>4、留存创建 [点击查看](/op/v/2.0/product-manual/product-analysis/retention#jie-du-liu-cun-fen-xi)​<br><br>5、分布创建 [点击查看](/op/v/2.0/product-manual/product-analysis/frequency)​ |
+| 分群创建方式 | 1、规则创建 [点击查看](/op/v/2.0/product-manual/user-insights/segment-profiles#1-gui-ze-chuang-jian)<br></br>2、文件上传 [点击查看](/op/v/2.0/product-manual/user-insights/segment-profiles#2-shang-chuan-yong-hu-lie-biao)<br></br>3、漏斗创建 [点击查看](/op/v/2.0/product-manual/product-analysis/funnel#jie-du-lou-dou-fen-xi)​<br></br>4、留存创建 [点击查看](/op/v/2.0/product-manual/product-analysis/retention#jie-du-liu-cun-fen-xi)​<br></br>5、分布创建 [点击查看](/op/v/2.0/product-manual/product-analysis/frequency)​ |
 | 创建人 | 创建分群的用户名 |
 | 更新时间 | 分群创建或分群规则最近一次修改的时间 |
 | 最近计算 | 最近一次计算分群人数的时间 |
@@ -61,8 +61,8 @@ sidebar_position: 1
 | 参数  | 说明  |
 | --- | --- |
 | 请输入分群名称 | 命名当前用户分群。 |
-| 分群规则 | 您可以通过用户的行为、属性和标签来定位目标用户。您可以通过“**做过**”来筛选用户行为，通过“**属性为**”来筛选用户属性，通过“**标签为**”来筛选用户标签。<br><br>​<br><br>​📙 注意事项：<br><br>* 当您想设置用户未做过某个行为时，选择“做过”行为的次数N=0即可 |
-| 计算周期 | 计算周期可选每天计算一次和只计算一次。<br><br>* 每天计算一次：每天的固定时间计算一次分群用户<br>    <br>* 只计算一次：在保存分群后，立即计算分群用户，之后不再进行计算 |
+| 分群规则 | 您可以通过用户的行为、属性和标签来定位目标用户。您可以通过“**做过**”来筛选用户行为，通过“**属性为**”来筛选用户属性，通过“**标签为**”来筛选用户标签。<br></br>​<br></br>​📙 注意事项：<br></br>* 当您想设置用户未做过某个行为时，选择“做过”行为的次数N=0即可 |
+| 计算周期 | 计算周期可选每天计算一次和只计算一次。<br></br>* 每天计算一次：每天的固定时间计算一次分群用户<br>    <br>* 只计算一次：在保存分群后，立即计算分群用户，之后不再进行计算 |
 
 选择以上参数后，单击右上角保存，完成一个用户分群的创建。
 
@@ -94,7 +94,7 @@ GrowingIO支持根据手机号、邮箱、UserID、OpenID、UnionID共5种类型
 | 分群规则 | 创建分群时的规则，以且、或关系进行关联 |
 | 用户量 | 用户分群选定的目标用户群体数量，点击用户量可跳转到 [分群用户列表](/op/v/2.0/product-manual/user-insights/segment-profiles#fen-qun-yong-hu-lie-biao)。 |
 | 时间  | 群体画像的创建时间及最近一次计算时间 |
-| 自定义维度 | 页面底部点击“**+**”按钮，可添加更多分群展示维度，支持添加常用维度及用户属性维度。<br><br>支持筛选图表的日期范围，默认为最近30天。 |
+| 自定义维度 | 页面底部点击“**+**”按钮，可添加更多分群展示维度，支持添加常用维度及用户属性维度。<br></br>支持筛选图表的日期范围，默认为最近30天。 |
 | 编辑  | 修改当前分群的名称及分群规则，更新方式不可修改 |
 
 
