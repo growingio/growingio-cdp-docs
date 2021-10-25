@@ -3,7 +3,7 @@ id: term
 sidebar_position: 1
 ---
 
-## 预设指标
+# 预设指标
 
 ## 简介[](#jian-jie)
 
