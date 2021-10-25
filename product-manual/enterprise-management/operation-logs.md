@@ -1,6 +1,6 @@
 ---
 id: operation-logs
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 # 操作日志
