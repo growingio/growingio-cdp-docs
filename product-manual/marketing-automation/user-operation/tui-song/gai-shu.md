@@ -1,3 +1,8 @@
+---
+id: gai-shu
+sidebar_position: 1
+---
+
 # 概述
 
 ## 使用 GrowingIO 推送可以解决哪些问题？

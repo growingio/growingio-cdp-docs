@@ -1,3 +1,8 @@
+---
+id: shu-yu-jie-shi
+sidebar_position: 2
+---
+
 # 弹窗 FAQ
 
 ## **弹窗流程**
