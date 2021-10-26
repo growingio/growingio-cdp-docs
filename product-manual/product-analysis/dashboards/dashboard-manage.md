@@ -1,5 +1,5 @@
 ---
-id: dashboards
+id: dashboard-manage
 sidebar_position: 3
 ---
 
