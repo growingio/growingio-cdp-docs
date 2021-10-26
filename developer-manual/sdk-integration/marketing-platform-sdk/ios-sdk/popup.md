@@ -31,7 +31,7 @@ sidebar_position: 2
 
 > 在 AppDelegate 中添加
 
-因为您代码的复杂程度以及iOS SDK的版本差异，有时候 \[Growing handleUrl:url\] 并没有被调用。请在各个平台上调试这段代码，确保当App被URL scheme唤醒之后，该函数能被调用到。
+因为您代码的复杂程度以及iOS SDK的版本差异，有时候 [Growing handleUrl:url] 并没有被调用。请在各个平台上调试这段代码，确保当App被URL scheme唤醒之后，该函数能被调用到。
 
 ```swift
 -  (BOOL)application:(UIApplication  *)application openURL:(NSURL  *)url sourceApplication:(NSString  *)sourceApplication annotation:(id)annotation
@@ -40,7 +40,7 @@ sidebar_position: 2
 
  // 如果没有触发handleUrl 扫码弹窗 和扫码注册推送不生效
 
- if  (\[Growing handleUrl:url\])  // 请务必确保该函数被调用
+ if  ([Growing handleUrl:url])  // 请务必确保该函数被调用
 
  {
 
@@ -73,14 +73,14 @@ sidebar_position: 2
 
  // 启动GrowingTouch，该方法需放在采集SDK之后；设置弹窗请求地址，一般与访问页面域名一致
 
- \[GrowingTouch setServerHost:@"http://test.xxx.com"\];
+ [GrowingTouch setServerHost:@"http://test.xxx.com"];
 
- \[GrowingTouch start\];
+ [GrowingTouch start];
 
 }
 ```
 
-请注意调用顺序，需要在 GrowingIO 采集SDK 启动代码调用后，再调用 \[GrowingTouch start\] 函数。
+请注意调用顺序，需要在 GrowingIO 采集SDK 启动代码调用后，再调用 [GrowingTouch start] 函数。
 
 
 ## 重要配置[](#er-zhong-yao-pei-zhi)
@@ -95,12 +95,12 @@ sidebar_position: 2
 
 | 参数名 | 类型  | 必填  | 说明  |
 | --- | --- | --- | --- |
-| enable | bool | 是   | 开关弹窗SDK。<br></br>* 开启YES<br>    <br>* 关闭NO<br>    <br></br>默认值YES |
+| enable | bool | 是   | 开关弹窗SDK。<br></br>* 开启YES<br></br>* 关闭NO<br></br>默认值YES |
 
 **代码示例**
 
 ```swift
-\[GrowingTouch setEventPopupEnable:YES\];
+[GrowingTouch setEventPopupEnable:YES];
 ```
 
 
@@ -121,7 +121,7 @@ sidebar_position: 2
 **代码示例**
 
 ```swift
-\[GrowingTouch setDebugEnable:YES\];
+[GrowingTouch setDebugEnable:YES];
 ```
 
 
@@ -142,7 +142,7 @@ sidebar_position: 2
 **代码示例**
 
 ```swift
-\[GrowingTouch setEventPopupShowTimeout:8000\];
+[GrowingTouch setEventPopupShowTimeout:8000];
 ```
 
 
@@ -301,11 +301,11 @@ sidebar_position: 2
 
  // Override point for customization after application launch.
 
- \[Growing startWithAccountId:@"xxxxxxxxxxxxxxxx"\];
+ [Growing startWithAccountId:@"xxxxxxxxxxxxxxxx"];
 
- \[GrowingTouch setEventPopupDelegate:self\];
+ [GrowingTouch setEventPopupDelegate:self];
 
- \[GrowingTouch start\];
+ [GrowingTouch start];
 
  return YES;
 
@@ -315,7 +315,7 @@ sidebar_position: 2
 
  -  (void)onEventPopupLoadSuccess:(NSString *)trackEventId eventType:(NSString *)eventType {
 
- NSLog(@"%s trackEventId = %@, eventType = %@",  \_\_func\_\_, trackEventId, eventType);
+ NSLog(@"%s trackEventId = %@, eventType = %@",  __func__, trackEventId, eventType);
 
 }
 
@@ -323,7 +323,7 @@ sidebar_position: 2
 
  -  (void)onEventPopupLoadFailed:(NSString *)trackEventId eventType:(NSString *)eventType withError:(NSError *)error {
 
- NSLog(@"%s trackEventId = %@, eventType = %@",  \_\_func\_\_, trackEventId, eventType);
+ NSLog(@"%s trackEventId = %@, eventType = %@",  __func__, trackEventId, eventType);
 
 }
 
@@ -331,7 +331,7 @@ sidebar_position: 2
 
  -  (BOOL)onClickedEventPopup:(NSString *)trackEventId eventType:(NSString *)eventType openUrl:(NSString *)openUrl {
 
- NSLog(@"%s trackEventId = %@, eventType = %@",  \_\_func\_\_, trackEventId, eventType);
+ NSLog(@"%s trackEventId = %@, eventType = %@",  __func__, trackEventId, eventType);
 
  return NO;
 
@@ -341,7 +341,7 @@ sidebar_position: 2
 
  -  (void)onCancelEventPopup:(NSString *)trackEventId eventType:(NSString *)eventType {
 
- NSLog(@"%s trackEventId = %@, eventType = %@",  \_\_func\_\_, trackEventId, eventType);
+ NSLog(@"%s trackEventId = %@, eventType = %@",  __func__, trackEventId, eventType);
 
 }
 
@@ -349,7 +349,7 @@ sidebar_position: 2
 
  -  (void)onTrackEventTimeout:(NSString *)trackEventId eventType:(NSString *)eventType {
 
- NSLog(@"%s trackEventId = %@, eventType = %@",  \_\_func\_\_, trackEventId, eventType);
+ NSLog(@"%s trackEventId = %@, eventType = %@",  __func__, trackEventId, eventType);
 
 }
 ```
@@ -359,7 +359,7 @@ sidebar_position: 2
 
 **\+ (void)enableEventPopupAndGenerateAppOpenEvent;**
 
-打开弹窗 SDK 并触发 AppOpen 事件。如果担心弹窗 SDK 在 APP 启动页或者闪屏页显示弹窗，您可以选择在初始化关闭弹窗，然后在您 App的内容页打开时再打开弹窗开关。但是单纯调用 \[GrowingTouch setEventPopupEnable:YES\]; 只会打开弹窗 SDK 开关，并不会触发 AppOpen 事件。如果调用上述API 则会打开弹窗开关，同时触发一个 AppOpen 事件。
+打开弹窗 SDK 并触发 AppOpen 事件。如果担心弹窗 SDK 在 APP 启动页或者闪屏页显示弹窗，您可以选择在初始化关闭弹窗，然后在您 App的内容页打开时再打开弹窗开关。但是单纯调用 [GrowingTouch setEventPopupEnable:YES]; 只会打开弹窗 SDK 开关，并不会触发 AppOpen 事件。如果调用上述API 则会打开弹窗开关，同时触发一个 AppOpen 事件。
 
 **\+ (BOOL)isEventPopupShowing;**
 
@@ -427,7 +427,7 @@ class  SFViewController:  UIViewController  {
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4mbDh79lUKLBV35Vih%2Fimage.png?alt=media&token=c9b723da-fcfc-46c8-a249-2f17cb33961a)
 
-第4步：当前文件下有一个名为 TestDemo-Swift.h 的文件，双击打开在该文件中查找 SFViewController，发现该类声明的上方有一句 SWIFT\_CLASS("\_TtC8TestDemo16SFViewController")
+第4步：当前文件下有一个名为 TestDemo-Swift.h 的文件，双击打开在该文件中查找 SFViewController，发现该类声明的上方有一句 SWIFT_CLASS("_TtC8TestDemo16SFViewController")
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4mbAJ_UHKJTMWouRPP%2Fimage.png?alt=media&token=82916c47-7b0c-4b05-9a61-a8efe7f710b7)
 
