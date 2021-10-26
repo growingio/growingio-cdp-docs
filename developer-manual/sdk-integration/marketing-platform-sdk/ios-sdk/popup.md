@@ -95,7 +95,7 @@ sidebar_position: 2
 
 | 参数名 | 类型  | 必填  | 说明  |
 | --- | --- | --- | --- |
-| enable | bool | 是   | 开关弹窗SDK。<br><br>* 开启YES<br>    <br>* 关闭NO<br>    <br><br>默认值YES |
+| enable | bool | 是   | 开关弹窗SDK。<br></br>* 开启YES<br>    <br>* 关闭NO<br>    <br></br>默认值YES |
 
 **代码示例**
 
@@ -116,7 +116,7 @@ sidebar_position: 2
 
 | 参数名 | 类型  | 必填  | 说明  |
 | --- | --- | --- | --- |
-| enable | bool | 是   | 开启弹窗日志。<br><br>* 开启YES<br>    <br>* 关闭NO<br>    <br><br>默认值NO |
+| enable | bool | 是   | 开启弹窗日志。<br></br>* 开启YES<br></br>* 关闭NO<br></br>默认值NO |
 
 **代码示例**
 

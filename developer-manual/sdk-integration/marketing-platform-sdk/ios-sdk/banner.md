@@ -10,7 +10,10 @@ sidebar_position: 3
 
 库简介
 
-> **GrowingTouchCoreKit.framework 运营基础库 GrowingTouchCoreUI.bundle UI页面图 GrowingTouchKit.framework 运营弹窗库 GrowingTouchBannerKit.framework 运营banner库**
+> GrowingTouchCoreKit.framework 运营基础库
+> GrowingTouchCoreUI.bundle UI页面图
+> GrowingTouchKit.framework 运营弹窗库
+> GrowingTouchBannerKit.framework 运营banner库
 
 资源位SDK主要提供两种接入方式：
 
