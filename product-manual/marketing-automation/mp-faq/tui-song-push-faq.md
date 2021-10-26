@@ -46,7 +46,9 @@ sidebar_position: 3
 
 需要选一下iOS证书 **开发环境**：需要确定 App 已使用开发环境的签名证书打包，使用`Xcode`直接编译安装到设备。 **生产环境**：需要确定 App 已使用生产环境的签名证书打包，生产环境的 App 有以下3种打包方式：`Ad-Hoc`  `TestFlight`  `AppStore`。
 
-​![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LqygDO5T25ZXFW1XV74%2F-LqylKD4pErthxilPSzc%2Fimage.png?alt=media&token=830e1b9b-021b-4605-bff7-9e47aa1286ca)​![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LqygDO5T25ZXFW1XV74%2F-LqylPkEacVZRi8C76b4%2Fimage.png?alt=media&token=5e7060da-535f-4b62-8ed8-35ef033de5f7)‌
+​![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LqygDO5T25ZXFW1XV74%2F-LqylKD4pErthxilPSzc%2Fimage.png?alt=media&token=830e1b9b-021b-4605-bff7-9e47aa1286ca)
+
+​![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LqygDO5T25ZXFW1XV74%2F-LqylPkEacVZRi8C76b4%2Fimage.png?alt=media&token=5e7060da-535f-4b62-8ed8-35ef033de5f7)‌
 
 ## 7. 安卓推送测试机注册失败[](#7-an-zhuo-tui-song-ce-shi-ji-zhu-ce-shi-bai)
 
