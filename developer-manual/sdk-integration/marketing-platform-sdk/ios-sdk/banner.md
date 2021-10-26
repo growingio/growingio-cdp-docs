@@ -3,8 +3,7 @@ id: ios-banner-sdk
 sidebar_position: 3
 ---
 
-资源位 SDK（iOS）
-============
+# 资源位 SDK（iOS）
 
 资源位SDK最低兼容iOS 8.0 系统。
 
@@ -22,15 +21,9 @@ sidebar_position: 3
 * 自渲染（GIO 提供数据，由客户端自行渲染）
     
 
-集成SDK[](#ji-cheng-sdk)
+## 集成SDK[](#ji-cheng-sdk)
 
-
-==========================
-
-1\. 集成GrowingIO iOS CDP数据采集SDK[](#1-ji-cheng-growingio-ios-cdp-shu-ju-cai-ji-sdk)
-
-
--------------------------------------------------------------------------------------
+### 集成GrowingIO iOS CDP数据采集SDK[](#1-ji-cheng-growingio-ios-cdp-shu-ju-cai-ji-sdk)
 
 资源位 SDK 依赖于数据数据采集 SDK
 
@@ -38,10 +31,8 @@ sidebar_position: 3
 
 参考 [iOS SDK](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-3.0/ios-sdk)
 
-2\. 集成运营SDK[](#2-ji-cheng-yun-ying-sdk)
 
-
--------------------------------------------
+### 集成运营SDK[](#2-ji-cheng-yun-ying-sdk)
 
 手动集成SDK
 
@@ -52,13 +43,12 @@ sidebar_position: 3
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4mOetDAxVVM8YCSlJs%2F-M4mOmcb0LHDIZj_s540%2Fimage.png?alt=media&token=ba7ac106-deb9-444b-b087-3e5b7033fc4b)
 
-3\. 初始化SDK[](#3-chu-shi-hua-sdk)
 
-
-------------------------------------
+### 初始化SDK[](#3-chu-shi-hua-sdk)
 
 在 AppDelegate 中导入 `#import <GrowingTouchCoreKit/GrowingTouchCoreKit.h>` 并添加初始化方法，且保证在 GrowingIO 采集 SDK 启动代码后
 
+```swift
 -  (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
  ...
@@ -74,29 +64,26 @@ sidebar_position: 3
  \[GrowingTouch start\];
 
 }
-
+```
 ​
 
 请注意调用顺序，需要在 GrowingIO 采集SDK 启动代码调用后，再调用 \[GrowingTouch start\] 函数。
 
-原生模板[](#yuan-sheng-mo-ban)
 
-
-==============================
+## 原生模板[](#yuan-sheng-mo-ban)
 
 生成**Banner**视图示例，并根据对应**bannerKey**填充**Banner**数据，视图的位置尺寸由用户定义。 bannerKey 来自GIO页面生成
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4m_flROTOExvFFkcvz%2F-M4m_lgu_2PWAKMNPdfp%2Fimage.png?alt=media&token=e153302d-e6a1-4d3f-b2dc-fe5aaadc22be)
 
-1\. 初始化[](#1-chu-shi-hua)
 
-
------------------------------
+### 初始化[](#1-chu-shi-hua)
 
 导入对应的包#import "GrowingTouchCoreKit/GrowingTouchBannerView.h"
 
 在需要的位置调用Banner视图的初始化方法，对应的API为
 
+```swift
 /**
 
  初始化方法
@@ -110,6 +97,7 @@ sidebar_position: 3
  */
 
 +  (GrowingTouchBannerView *)bannerKey:(NSString*) bannerKey bannerFrame:(CGRect)frame placeholderImage:(UIImage *)placeholderImage;
+```
 
 其中：
 
@@ -119,16 +107,13 @@ sidebar_position: 3
 
 **placeholderImage**：**Banner**视图中单个**Item**视图的占位图
 
-2\. 属性设置[](#2-shu-xing-she-zhi)
 
-
------------------------------------
+### 属性设置[](#2-shu-xing-she-zhi)
 
 Banner视图支持以下属性设置
 
-|     |     |
-| --- | --- |
 | 属性含义 | 属性变量名称 |
+| --- | --- |
 | 轮播时间间隔，单位为秒（s），默认为3s | scrollTimeInterval |
 | 自动轮播，默认YES | autoScroll |
 | pageControl的样式，默认系统样式 | pageControlStyle |
@@ -143,6 +128,7 @@ Banner视图支持以下属性设置
 | pageControl 未选中的尺寸大小 CGSize | pageIndicatorSize |
 | pageControl 间距大小 CGFloat | pageIndicatorSpaing |
 
+```swift
 // 示例代码
 
 // 设置pageControl图片
@@ -160,14 +146,14 @@ self.bannerView.pageIndicatorSize =  CGSizeMake(10,10);
 //    self.bannerView.currentPageIndicatorTintColor = \[UIColor redColor\];
 
 //    self.bannerView.pageIndicatorTintColor = \[UIColor yellowColor\];
+```
 
-3\. 数据请求[](#3-shu-ju-qing-qiu)
 
-
-----------------------------------
+### 数据请求[](#3-shu-ju-qing-qiu)
 
 生成**Banner**视图实例后，请求对应**Banner**视图数据**API**
 
+```swift
 /**
 
  加载数据
@@ -179,14 +165,14 @@ self.bannerView.pageIndicatorSize =  CGSizeMake(10,10);
  */
 
 -  (void)loadBannerWithDelegate:(id <GrowingTouchBannerViewDelegate>)delegate;
+```
 
-4\. 方法回调[](#4-fang-fa-hui-tiao)
 
-
------------------------------------
+### 方法回调[](#4-fang-fa-hui-tiao)
 
 在数据请求中设置**Banner**数据请求代理后，可在代理中实现以下代理方法监听**Banner**数据请求状态与**Banner**的交互行为
 
+```swift
 /**
 
  banner 加载成功
@@ -256,41 +242,35 @@ self.bannerView.pageIndicatorSize =  CGSizeMake(10,10);
  */
 
 -  (void)growingTouchBannerErrorImageClick:(GrowingTouchBannerView*) bannerView;
+```
 
-5\. 点击跳转[](#5-dian-ji-tiao-zhuan)
 
-
--------------------------------------
+### 点击跳转[](#5-dian-ji-tiao-zhuan)
 
 **Banner**视图的代理方法中可决定指定位置的点击事件是否在SDK内部处理，对应的代理回调方法为
 
+```swift
 -  (BOOL)growingTouchBanner:(GrowingTouchBannerView*) bannerView didSelectAtIndex:(NSInteger)index openUrl:(NSString  *)openUrl;
+```
 
 默认**Banner**视图上的点击跳转逻辑全部在**SDK**内部处理，如果用户想要自行处理该点击事件，可在上述代理回调方法获取对应的**openUrl**自行实现点击跳转逻辑，同时返回YES禁止SDK内部自动处理该事件。
 
 ​
-
-原生模板容错处理：[](#yuan-sheng-mo-ban-rong-cuo-chu-li)
-
-
----------------------------------------------------
+### 原生模板容错处理：[](#yuan-sheng-mo-ban-rong-cuo-chu-li)
 
 假如服务器出错， 会先取缓存里banner的数据，如果没有缓存，会加载用户配置的错误占位图bannerViewErrorImage，如果没有设置错误占位图，会显示空白，所以建议设置好错误占位图。 如果请求图片加载慢的话，可以设置默认占位图placeholderImage，作为中间过程显示的图片。 支持灵活资源位，没有banner数据模版渲染自动隐藏，布局修改需要开发者自行处理。
 
-自渲染[](#zi-xuan-ran)
 
-
-=======================
+## 自渲染[](#zi-xuan-ran)
 
 仅提供Banner数据（调用API注意block的循环引用问题）
 
-1\. 数据请求[](#1-shu-ju-qing-qiu)
 
-
-----------------------------------
+### 数据请求[](#1-shu-ju-qing-qiu)
 
 根据**bannerKey**获取对应的**Banner**数据
 
+```swift
 /**
 
  自渲染的初始化方法
@@ -304,43 +284,37 @@ self.bannerView.pageIndicatorSize =  CGSizeMake(10,10);
  */
 
 +  (void)growingTouchBannerDataTaskBannerKey:(NSString*) bannerKey success:(void(^)(GrowingTouchBannerData *)) bannerData failure:(void(^)(NSError*))failure;
+```
 
-2\. Banner数据模型[](#2-banner-shu-ju-mo-xing)
 
-
-----------------------------------------------
+### Banner数据模型[](#2-banner-shu-ju-mo-xing)
 
 返回的Banner数据模型为
 
 * GrowingTouchBannerData：整个Banner数据模型
     
-
-|     |     |
-| --- | --- |
 | 属性名称 | 含义  |
+| --- | --- |
 | name | Banner名称 |
 | bannerKey | Banner唯一标识 |
 | Items | Banner包含的条目Item数组 |
 
 * GrowingTouchBannerItem：Banner中单个Item的模型
     
-
-|     |     |
-| --- | --- |
 | 属性名称 | 含义  |
+| --- | --- |
 | index | item的索引，从0开始 |
 | title | 当前item的名称 |
 | imageUrl | 图片地址 |
 
-3\. 视图绑定[](#3-shi-tu-bang-ding)
 
-
------------------------------------
+### 视图绑定[](#3-shi-tu-bang-ding)
 
 请在下面方法中进行自定义**Banner**单个视图与**Item**的绑定，单个视图的点击在**completedBlock**进行处理，**openUrl**为对应Item的跳转参数
 
 itemView为Banner中的单个视图
 
+```swift
 /**
 
 item 绑定视图
@@ -352,15 +326,11 @@ item 绑定视图
 */
 
 -  (void)bindItemDataToClickView:(UIView *)itemView selectCompleted:(void(^)(NSString *openUrl, NSError *error)) completedBlock;
-
-### 
-
-​[](#undefined)
-
-​
+```
 
 旧的API（建议用上述新的API进行替换） bannerView为Banner中的单个视图
 
+```swift
 /**
 
  自渲染视图与Item的绑定，以及点击回调
@@ -378,17 +348,13 @@ item 绑定视图
  */
 
 +  (void)growingTouchBannerDataTaskBannerKey:(NSString*) bannerKey bannerView:(UIView *)bannerView bannerItem:(GrowingTouchBannerItem *)item selectCompleted:(void(^)(NSString *openUrl, NSError *error)) completedBlock;
-
+```
 ​
 
-异常错误码[](#yi-chang-cuo-wu-ma)
+## 异常错误码[](#yi-chang-cuo-wu-ma)
 
-
-================================
-
-|     |     |     |
-| --- | --- | --- |
 | 错误码 | 错误信息 | 错误原因 |
+| --- | --- | --- |
 | -994 | Can not get banner data for key! | banner数据为空 |
 | -993 | There are no banner item! | banner数据中不存在对应的Item |
 | -992 | The bannerView is not the kind of UIView! | 自渲染视图模型绑定时传入的视图不是UIView类 |
