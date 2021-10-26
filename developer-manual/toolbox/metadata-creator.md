@@ -1,6 +1,6 @@
 ---
 id: metadata-creator
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # 元数据创建工具
