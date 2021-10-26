@@ -1,5 +1,5 @@
 ---
-id: ios-cer-guide
+id: mp-ios-cer-guide
 sidebar_position: 5
 ---
 

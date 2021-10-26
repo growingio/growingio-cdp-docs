@@ -1,5 +1,5 @@
 ---
-id: ios-banner-sdk
+id: mp-ios-banner-sdk
 sidebar_position: 3
 ---
 

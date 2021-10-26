@@ -1,5 +1,5 @@
 ---
-id: ios-popup-sdk
+id: mp-ios-popup-sdk
 sidebar_position: 2
 ---
 

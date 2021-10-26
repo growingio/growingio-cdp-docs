@@ -1,5 +1,5 @@
 ---
-id: ios-push-sdk
+id: mp-ios-push-sdk
 sidebar_position: 3
 ---
 

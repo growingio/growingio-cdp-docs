@@ -1,5 +1,5 @@
 ---
-id: ios-sdk-debug
+id: mp-ios-sdk-debug
 sidebar_position: 4
 ---
 
