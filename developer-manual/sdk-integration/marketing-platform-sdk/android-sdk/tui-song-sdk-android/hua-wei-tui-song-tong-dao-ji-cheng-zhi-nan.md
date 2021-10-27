@@ -1,5 +1,5 @@
 ---
-id: mp-push-sdk-huawei
+id: mp-push-sdk-android-huawei
 sidebar_position: 2
 ---
 
@@ -77,7 +77,7 @@ android {
 
  defaultConfig {
 
- manifestPlaceholders =  \[
+ manifestPlaceholders =  [
 
  PACKAGE_NAME :  "您的APP包名",
 
@@ -85,7 +85,7 @@ android {
 
  GPUSH\_HUAWEI\_APP_ID :  "华为推送的AppId(华为推送不需要AppKey)",
 
- \]
+ ]
 
  ......
 
