@@ -29,7 +29,7 @@ sidebar_position: 3
 
 版本要求最低1.2.3，如已集成请跳过
 
-参考 [iOS SDK](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-3.0/ios-sdk)
+参考 [iOS SDK](https://growingio.github.io/growingio-sdk-docs/docs/ios/base/Getting_Started)
 
 
 ### 集成运营SDK[](#2-ji-cheng-yun-ying-sdk)

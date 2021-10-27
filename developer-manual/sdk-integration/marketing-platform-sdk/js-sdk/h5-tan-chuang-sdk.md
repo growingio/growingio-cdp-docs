@@ -11,9 +11,9 @@ sidebar_position: 1
 
 JS 弹窗 SDK 依赖于数据数据采集 SDK，如已集成请跳过
 
-参考 [Web JS SDK](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-3.0/web-js-sdk)​
+参考 [Web JS SDK](https://growingio.github.io/growingio-sdk-docs/docs/webjs/base/getting_started)​
 
-H5 弹窗 SDK 只能识别移动端 H5 弹窗，不识别 PC 端 Web 弹窗。如果您需要使用PC 端 Web 弹窗，请参考 [Web 弹窗 SDK](/op/v/2.0/developer-manual/sdkintegrated/mp/js-sdk/web-tan-chuang-sdk)。如果您的站点自适应 PC 和移动端，请您参考 [Web/H5 自适应弹窗 SDK](/op/v/2.0/developer-manual/sdkintegrated/mp/js-sdk/webh5-zi-kuo-ying-tan-chuang-sdk)。
+H5 弹窗 SDK 只能识别移动端 H5 弹窗，不识别 PC 端 Web 弹窗。如果您需要使用PC 端 Web 弹窗，请参考 [Web 弹窗 SDK](/docs/developer-manual/sdk-integration/marketing-platform-sdk/js-sdk/mp-js-sdk-popup-web)。如果您的站点自适应 PC 和移动端，请您参考 [Web/H5 自适应弹窗 SDK](/docs/developer-manual/sdk-integration/marketing-platform-sdk/js-sdk/mp-js-sdk-popup-web-h5-autofix)。
 
 
 ### 集成 H5 弹窗 JS SDK[](#2-ji-cheng-h5-dan-chuang-js-sdk)
@@ -95,4 +95,4 @@ H5 弹窗 JS SDK：[https://assets.giocdn.com/sdk/cdp/marketing/h5.latest.js](ht
 
 ### 测试弹窗[](#3-ce-shi-dan-chuang)
 
-集成 SDK 后请务必创建一个「 H5 应用」弹窗进行测试，以保证 SDK 正确集成，弹窗创建方法请参考 [创建弹窗](/op/v/2.0/product-manual/mp/mp/popup/create)。
+集成 SDK 后请务必创建一个「 H5 应用」弹窗进行测试，以保证 SDK 正确集成，弹窗创建方法请参考 [创建弹窗](/docs/product-manual/marketing-platform/user-operation/popup/create-popup)。
