@@ -91,7 +91,7 @@ dependencies {
 }
 ```
 
-> $gtouch_version 为最新SDK版本号，现最新的版本号为请参考[SDK更新日志](/op/v/2.0/developer-manual/sdkintegrated/mp/gtouchsdk-releasenotes)。
+> $gtouch_version 为最新SDK版本号，现最新的版本号为请参考[SDK更新日志](#marketing-platform-sdk-changelogs)。
 
 
 ### 配置AppID和AppKey[](#3-pei-zhi-appid-he-appkey)
