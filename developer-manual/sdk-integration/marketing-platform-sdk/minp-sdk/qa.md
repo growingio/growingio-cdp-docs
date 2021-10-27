@@ -1,6 +1,6 @@
 ---
-id: mp-minip-sdk-debug
-sidebar_position: 4
+id: mp-minip-sdk-faq
+sidebar_position: 5
 ---
 
 # 小程序集成常见问题
