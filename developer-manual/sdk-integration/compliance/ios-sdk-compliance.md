@@ -11,14 +11,14 @@ sidebar_position: 2
 
 * 需要告知用户您集成了 GrowingIO SDK，并且 GrowingIO SDK 会尝试获取 IDFA、IDFV 信息用于渠道信息，并且采集用户信息进行行为分析
     
-* GrowingIO SDK 默认启用 IDFA，如您不希望启用 IDFA，参考：[App Store 提交应用注意事项​](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-3.0/ios-sdk/base/ru-he-ji-cheng#3-app-store-ti-jiao-ying-yong-zhu-yi-shi-xiang)​
+* GrowingIO SDK 默认启用 IDFA，如您不希望启用 IDFA，参考：[App Store 提交应用注意事项​](https://growingio.github.io/growingio-sdk-docs/docs/ios/base/Getting_Started#app-store%E6%8F%90%E4%BA%A4%E5%BA%94%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)​
     
 违反规定的 App 将可能面临无法上架的情况。
 
 
 ## 集成步骤[](#ji-cheng-bu-zhou)
 
-请参考[客户端采集 SDK 2.0](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-2.0) 或 [客户端采集 SDK 3.0](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-3.0) 中 iOS SDK ​
+请参考[客户端采集 SDK 3.0](https://growingio.github.io/growingio-sdk-docs/docs) 中 iOS SDK ​
 
 
 ### 隐私政策[](#yin-si-zheng-ce)

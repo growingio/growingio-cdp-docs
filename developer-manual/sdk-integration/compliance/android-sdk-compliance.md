@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ## 集成步骤[](#ji-cheng-bu-zhou)
 
-​请参考[客户端采集 SDK 2.0](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-2.0) 或 [客户端采集 SDK 3.0](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-3.0) 中 Android SDK
+​请参考[客户端采集 SDK 3.0](https://growingio.github.io/growingio-sdk-docs/docs) 中 Android SDK
 
 
 ## 隐私政策[](#yin-si-zheng-ce)

@@ -22,7 +22,7 @@ sidebar_position: 1
 版本要求最低1.2.3，如已集成请跳过
 :::
 
-参考 [Android SDK](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-3.0/android-sdk) ​
+参考 [Android SDK](https://growingio.github.io/growingio-sdk-docs/docs/android/base/Getting%20Started) ​
 
 
 ### 添加依赖[](#2-tian-jia-yi-lai)
