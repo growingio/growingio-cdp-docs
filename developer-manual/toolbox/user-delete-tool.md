@@ -7,9 +7,9 @@ sidebar_position: 2
 
 ## 简介[](#jian-jie)
 
-配合[用户删除管理](/op/v/2.0/product-manual/customer-data-platform/datasource/yong-hu-shan-chu-guan-li#step-2-bian-geng-shan-chu-zhuang-tai)，将待删除的用户记录进行物理删除。
+配合[用户删除管理](/docs/product-manual/customer-data-platform/data-integration/user-del-management#变更删除状态)，将待删除的用户记录进行物理删除。
 
-使用前，请先阅读[辅助工具](/op/v/2.0/developer-manual/toolbox#gong-neng-bian-jie-huo-yue-shu)的内容介绍。
+使用前，请先阅读[辅助工具](/docs/developer-manual/toolbox/dataimporter/data-importer#功能边界或约束)的内容介绍。
 
 
 ## 功能说明[](#gong-neng-shuo-ming)

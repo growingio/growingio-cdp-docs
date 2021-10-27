@@ -11,9 +11,9 @@ sidebar_position: 3
 
 JS 弹窗 SDK 依赖于数据数据采集 SDK，如已集成请跳过
 
-参考 [Web JS SDK](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-3.0/web-js-sdk)​
+参考 [Web JS SDK](https://growingio.github.io/growingio-sdk-docs/docs/webjs/base/getting_started)​
 
-如果你的站点只在移动端使用，可以使用 [H5 弹窗 SDK](/op/v/2.0/developer-manual/sdkintegrated/mp/js-sdk/h5-tan-chuang-sdk) ，如果您的站点只在 PC 端使用，可以使用 [Web 弹窗 SDK](/op/v/2.0/developer-manual/sdkintegrated/mp/js-sdk/web-tan-chuang-sdk)。
+如果你的站点只在移动端使用，可以使用 [H5 弹窗 SDK](/docs/developer-manual/sdk-integration/marketing-platform-sdk/js-sdk/mp-js-sdk-popup-h5) ，如果您的站点只在 PC 端使用，可以使用 [Web 弹窗 SDK](/docs/developer-manual/sdk-integration/marketing-platform-sdk/js-sdk/mp-js-sdk-popup-web)。
 
 
 ### 集成弹窗 JS SDK[](#2-ji-cheng-dan-chuang-js-sdk)
@@ -95,7 +95,7 @@ JS 弹窗 SDK 依赖于数据数据采集 SDK，如已集成请跳过
 
 ### 测试弹窗[](#3-ce-shi-dan-chuang)
 
-集成 SDK 后请务必创建分别创建一个 「 网页」弹窗和「 H5 应用」 弹窗进行测试，以保证 SDK 正确集成，弹窗创建方法请参考 [创建弹窗](/op/v/2.0/product-manual/mp/mp/popup/create)。
+集成 SDK 后请务必创建分别创建一个 「 网页」弹窗和「 H5 应用」 弹窗进行测试，以保证 SDK 正确集成，弹窗创建方法请参考 [创建弹窗](/docs/product-manual/marketing-platform/user-operation/popup/create-popup)。
 
 
 ### 自适配 SDK 工作原理[](#4-zi-shi-pei-sdk-gong-zuo-yuan-li)

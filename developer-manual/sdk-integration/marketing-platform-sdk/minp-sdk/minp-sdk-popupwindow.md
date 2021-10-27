@@ -12,7 +12,7 @@ sidebar_position: 1
 
 ### 首先微信小程序 数据采集SDK的集成[](#1-shou-xian-wei-xin-xiao-cheng-xu-shu-ju-cai-ji-sdk-de-ji-cheng)
 
-参考[小程序 SDK](/op/v/2.0/developer-manual/sdkintegrated/client-sdk-3.0/minp-sdk) 弹窗依赖于数据采集SDK,数据采集SDK版本需要0.5及以上，index.js 是数据采集SDK，如果你之前集成过数据采集SDK老版本，替换则是升级数据采集js，然后引入弹窗组件。
+参考[小程序 SDK](https://growingio.github.io/growingio-sdk-docs/docs/miniprogranm/base/gettingStarted) 弹窗依赖于数据采集SDK,数据采集SDK版本需要0.5及以上，index.js 是数据采集SDK，如果你之前集成过数据采集SDK老版本，替换则是升级数据采集js，然后引入弹窗组件。
 
 ### 配置gtouchHost, 请求弹窗地址，一般与您环境的host一致[](#2-pei-zhi-gtouchhost-qing-qiu-dan-chuang-di-zhi-yi-ban-yu-nin-huan-jing-de-host-yi-zhi)
 

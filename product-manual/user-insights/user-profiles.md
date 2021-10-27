@@ -114,10 +114,10 @@ sidebar_position: 2
 
 ### **Q:** 为什么轨迹细查中事件、事件属性会出现 “未知”的事件 ？[](#q-wei-shi-mo-gui-ji-xi-cha-zhong-shi-jian-shi-jian-shu-xing-hui-chu-xian-wei-zhi-de-shi-jian)
 
-“未知” 是由于GIO系统收到事件、事件属性的数据，但系统中并未对此进行申明定义 。 [点击查看：创建埋点事件](/op/v/2.0/product-manual/customer-data-platform/event-management/customevents)​
+“未知” 是由于GIO系统收到事件、事件属性的数据，但系统中并未对此进行申明定义 。 [点击查看：创建埋点事件](/docs/product-manual/customer-data-platform/event-management/customevents)​
 
 GIO是会对上传的埋点事件进行判断，是否在系统已经定义该事件，如已定义，对应的事件和属性是会显示对应定义的事件名称；
 
-对于未在系统平台进行申明定义的，则会显示上传的标识符以及未知，同时会影响后续在产品分析中查看数据 可在 客户数据平台\- 埋点事件、事件属性中定义。[点击查看](/op/v/2.0/product-manual/customer-data-platform/event-management/customevents#chuang-jian-shi-jian)​
+对于未在系统平台进行申明定义的，则会显示上传的标识符以及未知，同时会影响后续在产品分析中查看数据 可在 客户数据平台\- 埋点事件、事件属性中定义。[点击查看](/docs/product-manual/customer-data-platform/event-management/customevents#chuang-jian-shi-jian)​
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRNrqfzueyW6w2lCAXD%2F-MRNsejdhOMPfs9YjnFS%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-01-19%20%E4%B8%8B%E5%8D%8812.23.55.png?alt=media&token=d4d89e8e-2f13-4efd-b3e2-cbb03777e8de)
