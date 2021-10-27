@@ -368,7 +368,7 @@ setDebugEnable(boolean debugEnable)
 
 | **参数名** | 类型  | 必填  | 说明  |
 | --- | --- | --- | --- |
-| debugEnable | boolean | 是   | 开启推送日志<br></br>* true开启<br>    <br>* false关闭<br>    <br></br>默认false |
+| debugEnable | boolean | 是   | 开启推送日志<br></br>* true开启<br></br>* false关闭<br></br>默认false |
 
 **代码示例**
 
