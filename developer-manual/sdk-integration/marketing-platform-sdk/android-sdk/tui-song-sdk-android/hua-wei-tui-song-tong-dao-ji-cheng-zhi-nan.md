@@ -21,7 +21,7 @@ sidebar_position: 2
 3.  在华为推送平台中新建应用。注意：应用包名需跟您在GIO集成的包名保持一致
     
 
-## 在project build.gradle的allprojects->repositories添加华为推送SDK的maven仓库2-zai-project-buildgradle-de-allprojectsrepositories-tian-jia-hua-wei-tui-song-sdk-de-maven-cang-ku)
+## 在project build.gradle的allprojects->repositories添加华为推送SDK的maven仓库[](#2-zai-project-buildgradle-de-allprojectsrepositories-tian-jia-hua-wei-tui-song-sdk-de-maven-cang-ku)
 
 ```java
 allprojects {
