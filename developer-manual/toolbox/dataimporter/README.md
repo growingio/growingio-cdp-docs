@@ -55,9 +55,9 @@ sidebar_position: 1
 
 导入数据前，需要先指定所属的数据源ID。数据源的创建位置见：[数据源管理](/docs/product-manual/customer-data-platform/data-integration/datasource-manage)​
 
-* 创建"用户属性数据"的数据源，操作方式：新建数据源 > 历史数据导入 \> 用户属性数据
+* 创建"用户属性数据"的数据源，操作方式：新建数据源 > 历史数据导入 > 用户属性数据
     
-* 创建"用户行为数据"的数据源，操作方式：新建数据源 > 历史数据导入 \> 用户行为数据
+* 创建"用户行为数据"的数据源，操作方式：新建数据源 > 历史数据导入 > 用户行为数据
     
 创建后，在数据源管理列表页面查看相应的数据源ID：![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MQMBHo2WMWoLWAEcUix%2F-MQMD0b5FH58iKBUe3No%2Fimage.png?alt=media&token=6ffba948-5fbd-433c-b365-ac0facee1537)​
 

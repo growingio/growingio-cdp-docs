@@ -149,7 +149,7 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | var_{事件属性标识符} | 比如为提交订单事件定义了“订单金额”的属性，标识符为money ，它在事件表中的字段为：var_money |
 | ... | ...​   |
 
-> 自定义属性字段的生成机制：[客户数据平台](/docs/product-manual/customer-data-platform) 中定义了新的事件属性，系统会实时触发事件表增加相应的字段，相应地当删除了某事件属性时，系统也会实时删除事件表中的该属性字段。
+> 自定义属性字段的生成机制：[客户数据平台](/docs/product-manual/customer-data-platform/customer-data-platform) 中定义了新的事件属性，系统会实时触发事件表增加相应的字段，相应地当删除了某事件属性时，系统也会实时删除事件表中的该属性字段。
 
 ### 预置事件[](#yu-zhi-shi-jian)
 
@@ -214,11 +214,11 @@ select count(1) from event where dt='2021-06-01' and event_key='$exit'
 
 GrowingIO系统会对每一个识别的用户会进行唯一标识( 即gio_id )。在 user 表中，您可以查询全部GrowingIO识别的用户，以及用户的
 
-* ​[用户ID](/docs/product-manual/customer-data-platform/user/user-identifications)​
+* ​[用户ID](/docs/product-manual/customer-data-platform/user-management/user-identifications)​
     
-* ​[用户属性](/docs/product-manual/customer-data-platform/user/user-properties)​
+* ​[用户属性](/docs/product-manual/customer-data-platform/user-management/user-properties)​
     
-* ​[用户标签](/docs/product-manual/user-insights/user-tags)​
+* ​[用户标签](/docs/product-manual/customer-data-platform/user-management/user-tags/user-tags)​
     
 * ​分群画像​
     

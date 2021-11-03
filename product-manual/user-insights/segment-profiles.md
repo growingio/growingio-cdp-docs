@@ -32,9 +32,9 @@ sidebar_position: 1
 | --- | --- |
 | 分群名称 | 单击分群名称可进入 群体画像 详情页面 |
 | 分群人数 | 当前最新一次计算的分群人数 |
-| 分群类型 | 每天计算/一次性计算，分群类型在 [创建群体画像](/op/v/2.0/product-manual/user-insights/segment-profiles#chuang-jian-qun-ti-hua-xiang) 时可选择 |
+| 分群类型 | 每天计算/一次性计算，分群类型在 [创建群体画像](/docs/product-manual/user-insights/sagment-profiles#创建群体画像) 时可选择 |
 | 计算状态 | 计算未开始/计算中/计算成功/计算失败 |
-| 分群创建方式 | 1、规则创建 [点击查看](/op/v/2.0/product-manual/user-insights/segment-profiles#1-gui-ze-chuang-jian)<br></br>2、文件上传 [点击查看](/op/v/2.0/product-manual/user-insights/segment-profiles#2-shang-chuan-yong-hu-lie-biao)<br></br>3、漏斗创建 [点击查看](/op/v/2.0/product-manual/product-analysis/funnel#jie-du-lou-dou-fen-xi)​<br></br>4、留存创建 [点击查看](/op/v/2.0/product-manual/product-analysis/retention#jie-du-liu-cun-fen-xi)​<br></br>5、分布创建 [点击查看](/op/v/2.0/product-manual/product-analysis/frequency)​ |
+| 分群创建方式 | 1、规则创建 [点击查看](/docs/product-manual/user-insights/sagment-profiles#规则创建)<br></br>2、文件上传 [点击查看](/docs/product-manual/user-insights/sagment-profiles#上传用户列表)<br></br>3、漏斗创建 [点击查看](/docs/product-manual/product-analysis/funnel)​<br></br>4、留存创建 [点击查看](/docs/product-manual/product-analysis/retention-analysis)​<br></br>5、分布创建 [点击查看](/docs/product-manual/product-analysis/frequency)​ |
 | 创建人 | 创建分群的用户名 |
 | 更新时间 | 分群创建或分群规则最近一次修改的时间 |
 | 最近计算 | 最近一次计算分群人数的时间 |
@@ -92,7 +92,7 @@ GrowingIO支持根据手机号、邮箱、UserID、OpenID、UnionID共5种类型
 | 项   | 说明  |
 | --- | --- |
 | 分群规则 | 创建分群时的规则，以且、或关系进行关联 |
-| 用户量 | 用户分群选定的目标用户群体数量，点击用户量可跳转到 [分群用户列表](/op/v/2.0/product-manual/user-insights/segment-profiles#fen-qun-yong-hu-lie-biao)。 |
+| 用户量 | 用户分群选定的目标用户群体数量，点击用户量可跳转到 [分群用户列表](/docs/product-manual/user-insights/sagment-profiles#分群用户列表)。 |
 | 时间  | 群体画像的创建时间及最近一次计算时间 |
 | 自定义维度 | 页面底部点击“**+**”按钮，可添加更多分群展示维度，支持添加常用维度及用户属性维度。<br></br>支持筛选图表的日期范围，默认为最近30天。 |
 | 编辑  | 修改当前分群的名称及分群规则，更新方式不可修改 |
@@ -108,4 +108,4 @@ GrowingIO支持根据手机号、邮箱、UserID、OpenID、UnionID共5种类型
 | --- | --- |
 | 自定义列 | 可选择在列表中展示的其他用户属性，最多支持20列 |
 | 下载  | 下载全部的用户的属性列。 |
-| 用户ID | 固定展示不可删除，点击用户ID可查看该用户的 [单用户画像](/op/v/2.0/product-manual/user-insights/user-profiles) 。 |
+| 用户ID | 固定展示不可删除，点击用户ID可查看该用户的 [360 画像](/docs/product-manual/user-insights/user-profiles) 。 |

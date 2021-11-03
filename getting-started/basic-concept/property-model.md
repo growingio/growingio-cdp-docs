@@ -58,9 +58,9 @@ GrowingIO系统中支持三种事物模型，分别为事件模型、物品模�
 
 ## 属性管理[](#shu-xing-guan-li)
 
-GrowingIO系统支持对[事件属性](/docs/product-manual/customer-data-platform/event-management/event-property)、[物品属性](/op/v/2.0/product-manual/customer-data-platform/item/item-manage)和[用户属性](/docs/product-manual/customer-data-platform/user-management/user-properties)的创建、编辑和查看功能，详情请点击对应文字链接。
+GrowingIO系统支持对[事件属性](/docs/product-manual/customer-data-platform/event-management/event-property)、[物品属性](/docs/product-manual/customer-data-platform/item-management/item-management)和[用户属性](/docs/product-manual/customer-data-platform/user-management/user-properties)的创建、编辑和查看功能，详情请点击对应文字链接。
 
-​[预定义属性](/docs/product-manual/customer-data-platform/event-management/preset-property)和[用户信息](/docs/product-manual/customer-data-platform/user-management/user-identifications)为系统预置信息，仅支持查看，详情请点击对应文字链接。
+​[预定义属性](/docs/product-manual/customer-data-platform/event-management/present-property)和[用户信息](/docs/product-manual/customer-data-platform/user-management/user-identifications)为系统预置信息，仅支持查看，详情请点击对应文字链接。
 
 ## 属性关联[](#shu-xing-guan-lian)
 
@@ -70,7 +70,7 @@ GrowingIO系统支持对[事件属性](/docs/product-manual/customer-data-platfo
 
 用户属性创建成功后无需额外配置即可在系统中使用。
 
-配置方法：[事件属性](/docs/product-manual/customer-data-platform/event-management/customevents#chuang-jian-shi-jian)、[物品属性](/op/v/2.0/product-manual/customer-data-platform/event-management/customevents#chuang-jian-shi-jian)​
+配置方法：[事件属性](/docs/product-manual/customer-data-platform/event-management/event-property#创建事件属性)、[物品属性](/docs/product-manual/customer-data-platform/item-management/item-management#创建物品)​
 
 ## 数据格式[](#shu-ju-ge-shi)
 

@@ -7,13 +7,13 @@ sidebar_position: 2
 
 ## 插件下载[](#cha-jian-xia-zai)
 
-在页面中点击 “[**下载插件**](https://assets.giocdn.com/cdp/extensions/gio-web-collection.zip)“ 下载 \- GrowingIO Web Collection。
+在页面中点击 “[**下载插件**](https://assets.giocdn.com/cdp/extensions/gio-web-collection.zip)“ 下载 - GrowingIO Web Collection。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MdvvJRPPi5lkOjI824w%2F-MdvymbwkBS-QxsUYxnU%2Fimage.png?alt=media&token=5a283747-d69b-44f6-b825-a47bfbba1951)
 
 ## 插件安装[](#cha-jian-an-zhuang)
 
-第一步: 打开Chrome浏览器后，在导航栏点击 “**窗口 \> 扩展程序**“ 进入扩展程序管理页面。
+第一步: 打开Chrome浏览器后，在导航栏点击 “**窗口 > 扩展程序**“ 进入扩展程序管理页面。
 
 第二步: 点击 “**加载已解压的扩展程序**“，打开插件解压目录，选择解压文件夹并完成插件安装。
 
@@ -43,7 +43,7 @@ sidebar_position: 2
 
 14.6 及以上版本
 
-通过 [个人Token](/op/v/2.0/product-manual/personal#token-guan-li) 登录。
+通过 [个人Token](/docs/product-manual/personal#token管理) 登录。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPlfy8bFQnXE0XgBcOF%2F-MPm6ySuO1_8ifEhgwrf%2Fimage.png?alt=media&token=0293b1e9-b539-4a9d-94d3-fa80190a2d70)
 

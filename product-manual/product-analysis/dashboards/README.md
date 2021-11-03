@@ -52,7 +52,7 @@ sidebar_position: 1
 
 为了保障企业数据安全性，每位成员能查看的看板，是受到**共享权限**控制的。 举例：系统中一共有 20 个看板，与小花协作的看板有2个，小花创建的看板有5个，因此小花能查看的看板一共为 7 个。
 
-共享设置可见：[看板共享设置链接](/op/v/2.0/product-manual/product-analysis/charts/kanban-sharing-settings)​
+共享设置可见：[看板共享设置](/docs/product-manual/product-analysis/dashboards/dashboard-sharing-setting)​
 
 ### 看板的操作说明[](#kan-ban-de-cao-zuo-shuo-ming)
 

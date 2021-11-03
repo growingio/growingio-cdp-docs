@@ -18,7 +18,7 @@ sidebar_position: 2
 
 数据导入用户行为数据：预置事件（如$visit、$page等）、预置事件属性（$domain、$city、$ip等等）范围格式
 
-用户属性：[预置用户属性范围及格式详见用户管理](/docs/product-manual/customer-data-platform/user/user-properties#yu-zhi-yong-hu-shu-xing)​
+用户属性：[预置用户属性范围及格式详见用户管理](/docs/product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
 
 
 ## 功能说明[](#gong-neng-shuo-ming)
@@ -38,30 +38,26 @@ sidebar_position: 2
 数据导入类型选择
 
 
-### 选择数据导入类型，[用户行为数据](/docs/product-manual/customer-data-platform/data-integration/data-import#yong-hu-hang-wei-shu-ju)或[用户属性数据](/docs/product-manual/customer-data-platform/datasource/data-import#yong-hu-shu-xing-shu-ju)​[](#xuan-ze-shu-ju-dao-ru-lei-xing-yong-hu-hang-wei-shu-ju-huo-yong-hu-shu-xing-shu-ju)
+### 选择数据导入类型，[用户行为数据](/docs/product-manual/customer-data-platform/data-integration/data-import#用户行为数据)或[用户属性数据](/docs/product-manual/customer-data-platform/data-integration/data-import#用户属性数据)​
 
 #### **用户行为数据**[](#yong-hu-hang-wei-shu-ju)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiP4bnSGGXSvckGtuwF%2F-MiP5HN7DVMFDRDMiD3E%2Fimage.png?alt=media&token=d5d7d98e-c363-46e0-a312-13868377c9ee)
 
-用户行为数据
-
 选择数据源：选择在数据源管理中创建的数据源，如果是事件数据创建用户行为类的数据源，如是用户属性则选择用户属性类数据源。
 
 选择时间范围：数据所覆盖的所有时间，例如需要导入的数据涵盖2020年1月1日~2020年4月1日，则选择时间2020年1月1日至2020年4月1日即可。
 
-选择上传方式：[CSV](/docs/product-manual/customer-data-platform/data-integration/data-import#yong-hu-hang-wei-shu-ju-csv-ge-shi)、[JSON](/docs/product-manual/customer-data-platform/datasource/data-import#yong-hu-hang-wei-shu-ju)、FTP
+选择上传方式：[CSV](/docs/product-manual/customer-data-platform/data-integration/data-import#用户行为数据csv格式)、[JSON](/docs/product-manual/customer-data-platform/data-integration/data-import#用户行为数据json格式)、FTP
 
 
 #### **用户属性数据**[](#yong-hu-shu-xing-shu-ju)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPHrfX2odbRP0lbysX%2F-MiPIF4LVgd6KLqgaT79%2Fimage.png?alt=media&token=eb4c1245-3b77-44a0-b114-acd6113bdea4)
 
-用户属性数据
-
 选择数据源：选择用户属性类型的数据源
 
-选择上传方式：[CSV](/docs/product-manual/customer-data-platform/data-integration/data-import#yong-hu-shu-xing-csv-ge-shi)、[JSON](/docs/product-manual/customer-data-platform/datasource/data-import#yong-hu-shu-xing-json-ge-shi)、FTP
+选择上传方式：[CSV](/docs/product-manual/customer-data-platform/data-integration/data-import#用户属性csv格式)、[JSON](/docs/product-manual/customer-data-platform/data-integration/data-import#用户属性json格式)、FTP
 
 
 ### 确定创建任务[](#que-ding-chuang-jian-ren-wu)
@@ -251,7 +247,7 @@ FTP方式，导入失败状态
 
 ### 预置用户属性[](#yu-zhi-yong-hu-shu-xing)
 
-​[详见用户管理模块](/docs/product-manual/customer-data-platform/user/user-properties#yu-zhi-yong-hu-shu-xing)​
+​[详见用户管理模块](/docs/product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
 
 特殊用户属性说明
 

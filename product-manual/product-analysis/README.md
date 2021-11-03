@@ -3,6 +3,9 @@ id: product-analysis
 sidebar_position: 1
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # 智能分析
 
 ## 简介[](#jian-jie)
@@ -31,27 +34,12 @@ GrowingIO 智能分析帮助您研究用户的行为，以便您做出更好的�
 
 ## 视图介绍[](#shi-tu-jie-shao)
 
-线图
-
-纵向柱图
-
-横向柱图
-
-表格
-
-气泡图
-
-环形图
-
-大字图
-
-线图
+<Tabs>
+<TabItem value="line" label="线图" default>
 
 线图可以用于观察一个或多个数据指标连续变化的趋势，也可以根据需要与之前周期进行同比数据分析。线图的横轴是系统默认的时间，纵轴是指标。点击选择具体指标，该指标的数据会依次添加到右侧的线图中。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3e2agZWx8gCah9sm-L%2F-M3e39599Wb2pD-csCfh%2Fimage.png?alt=media&token=0540d84e-c897-40dc-865e-5cef6280111c)
-
-线图
+![线图](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3e2agZWx8gCah9sm-L%2F-M3e39599Wb2pD-csCfh%2Fimage.png?alt=media&token=0540d84e-c897-40dc-865e-5cef6280111c)
 
 您可以选择一个或多个指标，这些指标都会在同一个坐标轴中呈现，所以建议同张图表中的指标的数量级是类似的。
 
@@ -63,33 +51,30 @@ GrowingIO 智能分析帮助您研究用户的行为，以便您做出更好的�
 
 可能会有两种情况，一种是代表不完整周期，比如周期是月，但是这个月还没有满 30 天，这时给出的本月数据是虚线；另一种情况是当前时间粒度下没有数据。
 
-纵向柱图
+</TabItem>
+<TabItem value="vbar" label="纵向柱图">
 
 纵向柱图主要用于分析和对比各类别之间的数值大小 ，其中横轴表示需要对比的分类维度，纵轴表示相应的指标数值。
 
 您可以通过纵向柱图分析一个或多个指标在特定维度的分类表现。例如，产品经理和运营人员可以使用纵向柱图分析过去一段时间内不同访问来源过来的流量表现。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3e2agZWx8gCah9sm-L%2F-M3e3xu0s8TCna2UgGif%2Fimage.png?alt=media&token=6f32cd53-b7b7-4e32-a4e3-eb35bda34efd)
+![纵向柱图](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3e2agZWx8gCah9sm-L%2F-M3e3xu0s8TCna2UgGif%2Fimage.png?alt=media&token=6f32cd53-b7b7-4e32-a4e3-eb35bda34efd)
 
-纵向柱图
-
-横向柱图
+</TabItem>
+<TabItem value="hbar" label="横向柱图">
 
 横向柱图是一种频数图，主要用于观察某个指标在某个维度上的分布。根据业务需求对指标按照一定维度拆分，对比不同组别的频数，便于分清轻重缓急， 您可以选择指标以及维度，进行时间范围调整和维度过滤。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3e2agZWx8gCah9sm-L%2F-M3e4Q6aFn54qJqMhs0p%2Fimage.png?alt=media&token=24ede622-a751-48e3-98f2-7169c0e7c615)
-
-横向柱图
+![横向柱图](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3e2agZWx8gCah9sm-L%2F-M3e4Q6aFn54qJqMhs0p%2Fimage.png?alt=media&token=24ede622-a751-48e3-98f2-7169c0e7c615)
 
 横向柱图清晰展示了用户在不同类别上的频数，并且按照数量从大到小进行排序。在资源有限的情况下产品可以先适配 Chrome 浏览器以提升绝大部分用户的体验。 常用来细分的维度，如浏览器，操作系统，城市，App 版本，设备型号，广告来源等。
 
-表格
+</TabItem>
+<TabItem value="table" label="表格">
 
 表格是信息最密集的呈现方式，可以同时分析多指标和多维度的数据，您可以选择指标和维度，然后设置时间范围和展示粒度，可以进行维度过滤。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3e2agZWx8gCah9sm-L%2F-M3e5ASC1Cd-gYlxBz17%2Fimage.png?alt=media&token=0cdc9ec5-0960-4544-a31e-12d1cb6d082a)
-
-表格
+![表格](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3e2agZWx8gCah9sm-L%2F-M3e5ASC1Cd-gYlxBz17%2Fimage.png?alt=media&token=0cdc9ec5-0960-4544-a31e-12d1cb6d082a)
 
 相较其他图表形式，表格不那么容易看出变化趋势，但是能更快地得到具体数值。对于核心 KPI 或您关心的指标，快速进行多维度拆解，灵活性高。图表中最多展示 100 条信息。
 
@@ -97,24 +82,28 @@ GrowingIO 智能分析帮助您研究用户的行为，以便您做出更好的�
 
 如未勾选时间维度，则按第一个目标用户群的第一个指标进行排序；如勾选时间维度，则默认按时间维度进行排序。
 
-气泡图
+</TabItem>
+<TabItem value="bubble" label="气泡图">
 
 气泡图主要用于分析多个事件在一个维度上的关系，比如油耗、速度、价格和不同的车型之间的关系。您可以分别设置 X 轴、Y 轴和大小的具体事件。
 
-环形图
+</TabItem>
+<TabItem value="pie" label="环形图">
 
 当维度值的个数比较少的时候，您可以选择环形图进行占比分析。我们默认为您标识出 Top5 维度值的占比，以便您查看重要的维度值。
 
 如果您要分析的维度值较多、或是数值之间差异较小，建议使用横向柱图来呈现，原因是环形图不容易区分出来细小的差异。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVQkwJRs6eFaHkG2bNA%2F-MVQlvRAPwrj6AjvUTad%2Fimage.png?alt=media&token=105f41c1-abb8-4d19-a4b3-71871144690d)
-
-​
+![环形图](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVQkwJRs6eFaHkG2bNA%2F-MVQlvRAPwrj6AjvUTad%2Fimage.png?alt=media&token=105f41c1-abb8-4d19-a4b3-71871144690d)
 
 注意：总计指当前维度条数（前20）下的维度值的算数之和。暂不支持展示多个目标用户。
 
-大字图
+</TabItem>
+<TabItem value="kpi" label="大字图">
 
-大字图用于展示单个指标的数值，追踪同环比变化情况。您可以通过“KPI 分析“ 制作大字图，并添加到看板进行监控。如果您监测的指标具有目标值，可设置后追踪目标的完成率。![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjXLGqr2pfIe_SXnHUY%2F-MjXLz-9DyMSeZ6CZJ1Z%2Fimage.png?alt=media&token=dbf4602b-fec6-4fc5-9ad3-e3cca4375577)​
+大字图用于展示单个指标的数值，追踪同环比变化情况。您可以通过“KPI 分析“ 制作大字图，并添加到看板进行监控。如果您监测的指标具有目标值，可设置后追踪目标的完成率。
 
-​
+![大字图](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjXLGqr2pfIe_SXnHUY%2F-MjXLz-9DyMSeZ6CZJ1Z%2Fimage.png?alt=media&token=dbf4602b-fec6-4fc5-9ad3-e3cca4375577)​
+
+</TabItem>
+</Tabs>

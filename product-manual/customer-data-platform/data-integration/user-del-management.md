@@ -60,7 +60,7 @@ sidebar_position: 3
 
 ### 变更删除状态[](#step-2-bian-geng-shan-chu-zhuang-tai)
 
-通过脚本运行模式下的辅助工具，执行[clear_users](/op/v/2.0/developer-manual/toolbox/user_delete)命令，将状态为待删除的所有用户记录，变更为删除中。
+通过脚本运行模式下的辅助工具，执行[clear_users](/docs/developer-manual/toolbox/user-delete-tool)命令，将状态为待删除的所有用户记录，变更为删除中。
 
 
 ### 执行删除操作[](#step-3-zhi-hang-shan-chu-cao-zuo)
