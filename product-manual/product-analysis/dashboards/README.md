@@ -167,6 +167,10 @@ GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查�
 
 共享设置可见 ： [看板共享设置链接](https://growingio.gitbook.io/op/v/14.7/product-manual/product-analysis/charts/kanban-sharing-settings)​
 
+### 看板全屏
+
+点击看板右上角“...“，选择“进入全屏”，可以进入全屏模式。
+
 ## 常见问题[](#chang-jian-wen-ti)
 
 ### **为什么我 hover 到图表上时没有出现角标？**[](#1-wei-shi-mo-wo-hover-dao-tu-biao-shang-shi-mei-you-chu-xian-jiao-biao)
