@@ -121,7 +121,7 @@ GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，�
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqm-da5IXRJAiqxarI%2Fimage.png?alt=media&token=94d30bd8-01ed-4c45-a26e-4a820abe381d)
 
-操作步骤如下：d
+操作步骤如下：dd
 
 | 时间  | 用户行为 |
 | --- | --- |
