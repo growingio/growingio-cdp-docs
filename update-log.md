@@ -320,7 +320,7 @@ GrowingIO 增长平台团队
             
         * 用户信息融合到预置[用户属性](/docs/product-manual/customer-data-platform/user-management/user-properties)，支持在分析等场景中使用
             
-        * 新增[用户身份](/docs/product-manual/customer-data-platform/user-management/user-identifications)模块，支持查看GrowingIO用户识别配置方案
+        * 新增[用户身份](/docs/product-manual/customer-data-platform/user-management/user-identifications)模块，支持查看GrowingIO用户识别配置方案 
         
     * 新版事件分析
         
