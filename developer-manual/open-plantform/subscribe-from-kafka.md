@@ -45,11 +45,13 @@ GrowingIO提供了集成 kafka 里面的protobuf二进制数据转换成数据�
 
 pom中引入依赖后，刷新Maven拉取jar包到本地
 
-::: caution
+:::caution
+
 刷新Maven获取jar包时，若报错：
 Failed to read artifact descriptor for io.growing.data.utils.connector:gio-data-connector:jar:standalone:1.0.1
 
 解决方案：在Maven缺省的本地仓库路径.m2下修改settings.xml文件，增加中央仓库地址的配置，内容参加如下：
+
 :::
 
 ``` xml
