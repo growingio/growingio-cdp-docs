@@ -56,6 +56,6 @@ sidebar_position: 3
 
 **编辑：**在QuickView界面单击事件属性的参数进行修改，修改后单击保存。
 
-**删除：**单击单条事件属性右侧的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的事件属性。
+**删除：**单击单条事件属性右侧的 ![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的事件属性。
 
 **批量操作**：在列表中使用复选框选择多个事件属性，可以进行批量删除。

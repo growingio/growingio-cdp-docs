@@ -321,9 +321,9 @@ sidebar_position: 1
 
 **下载：**单击页面右上方的下载按钮后，下载标签统计分布数据。
 
-**删除：**单击页面右上方的![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的用户标签。
+**删除：**单击页面右上方的![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的用户标签。
 
-**另存：**单击页面右上方的![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择另存，可对该标签规则进行另存操作。
+**另存：**单击页面右上方的![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择另存，可对该标签规则进行另存操作。
 
 **批量管理**：单击左下角的管理全部用户标签，进入用户标签管理列表页。
 
@@ -338,9 +338,9 @@ sidebar_position: 1
 
 **搜索：**您可以在页面中列表上方的搜索框按用户标签名称和标识符来搜索用户标签。
 
-**编辑：**单击单条用户标签右侧的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择编辑，进入标签编辑弹窗修改后单击保存。
+**编辑：**单击单条用户标签右侧的 ![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择编辑，进入标签编辑弹窗修改后单击保存。
 
-**删除：**单击单条用户标签右侧的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的用户标签。
+**删除：**单击单条用户标签右侧的 ![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的用户标签。
 
 **批量删除**：在列表中使用复选框选择多个用户标签，可以进行批量删除。
 
