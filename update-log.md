@@ -283,7 +283,7 @@ GrowingIO 增长平台团队
         
     * 数据
         
-        * ​[Mobile Debugger工具](/docs/developer-manual/sdk-tiao-shi/mobile-debugger)，方便埋点工程师查看移动端SDK上传的数据信息
+        * ​[Mobile Debugger工具](https://growingio.github.io/growingio-sdk-docs/docs/debug#mobile-debugger)，方便埋点工程师查看移动端SDK上传的数据信息
     
 
 ## v2021.13.3：2021年3月23日发布[](#v-2021-13-3-2021-nian-3-yue-23-ri-fa-bu)
@@ -660,7 +660,7 @@ GrowingIO 增长平台团队
             
         * 标签新增支持选择过去N天
         
-    * JAVA SDK: 优化[日志输出](/docs/developer-manual/sdk-integration/server-sdk/java-sdk#debugger-选项)​
+    * JAVA SDK: 优化[日志输出](https://growingio.github.io/growingio-sdk-docs/docs/server/Java%20SDK#debugger%E9%80%89%E9%A1%B9)​
         
         * 1.0.7-CDP版本新增支持SDK log输出
             
