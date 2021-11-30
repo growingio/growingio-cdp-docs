@@ -49,7 +49,7 @@ sidebar_position: 2
 
 第四步: 建议设置检查模式在右侧边栏展示。
 
-设置方法：Chrome检查模式右上角点击![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择展示形式。
+设置方法：Chrome检查模式右上角点击![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择展示形式。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPlfy8bFQnXE0XgBcOF%2F-MPm72ip_gys2n7s-F4O%2Fimage.png?alt=media&token=58401ea5-b99c-4c38-90d3-a909c227716c)
 
