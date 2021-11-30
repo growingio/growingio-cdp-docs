@@ -58,6 +58,6 @@ sidebar_position: 2
 
 **编辑：**在QuickView界面单击 **编辑** 修改虚拟事件参数，修改后单击 **完成** 保存修改。
 
-**删除：**单击单条事件右侧的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的虚拟事件。
+**删除：**单击单条事件右侧的 ![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的虚拟事件。
 
 **批量操作**：在列表中使用复选框选择多个虚拟事件，可以进行批量删除。

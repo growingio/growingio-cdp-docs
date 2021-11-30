@@ -137,7 +137,7 @@ Step 2: 设置唯一识别属性
 
 **编辑：**在QuickView界面单击物品的参数进行修改，修改后单击保存。
 
-**删除：**单击单条物品右侧的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的物品。
+**删除：**单击单条物品右侧的 ![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的物品。
 
 **批量操作**：在列表中使用复选框选择多个物品，可以进行批量删除。
 
@@ -156,7 +156,7 @@ Step 2: 设置唯一识别属性
 
 **编辑：**在QuickView界面单击物品属性的参数进行修改，修改后单击保存。
 
-**删除：**单击单条物品属性右侧的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的物品属性。
+**删除：**单击单条物品属性右侧的 ![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的物品属性。
 
 **批量操作**：在列表中使用复选框选择多个物品属性，可以进行批量删除。
 

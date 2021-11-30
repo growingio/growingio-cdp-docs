@@ -56,7 +56,7 @@ KPI 分析入口
 
 您可以对 KPI 设置目标，以便观察目标进度是否符合预期。
 
-在 KPI 分析列表中，点击单个KPI指标右侧“操作“列的 “![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LugKRBPNPab7MdZtndt-LugeasN0wzG5aPiGtgoKPIE79C8BE69DBFE782B9E782B9E782B9.png)“ 选择编辑，在编辑页面设置目标值。
+在 KPI 分析列表中，点击单个KPI指标右侧“操作“列的 “![](/img/-Lo08UtW7H58ehFKeZ4g-LugKRBPNPab7MdZtndt-LugeasN0wzG5aPiGtgoKPIE79C8BE69DBFE782B9E782B9E782B9.png)“ 选择编辑，在编辑页面设置目标值。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4CQhjZUnYgHzj2uXc%2Fimage.png?alt=media&token=816f3896-8315-4c17-b68e-617377dbef92)
 

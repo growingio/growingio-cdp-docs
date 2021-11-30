@@ -196,7 +196,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
     
 * **编辑：**单击页面右上方的编辑按钮后进入编辑弹窗，修改后单击保存。
     
-* **删除：**单击页面右上方的![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的用户属性。
+* **删除：**单击页面右上方的![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的用户属性。
     
 * **批量管理**：单击左下角的管理全部用户属性，进入用户属性管理列表页。
     
@@ -215,7 +215,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
     
 * **编辑：**在QuickView界面单击用户属性的参数进行修改，修改后单击保存。
     
-* **删除：**单击单条用户属性右侧的 ![](https://docs.growingio.com/.gitbook/assets/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的用户属性。
+* **删除：**单击单条用户属性右侧的 ![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的用户属性。
     
 * **批量删除**：在列表中使用复选框选择多个用户属性，可以进行批量删除。
     

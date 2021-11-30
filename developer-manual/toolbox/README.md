@@ -18,7 +18,7 @@ GrowingIO提供脚本辅助工具帮助您实现一些批处理功能：‌
 
 ## 功能边界或约束[](#gong-neng-bian-jie-huo-yue-shu)
 
-[辅助工具 growingio-tools-python-2.0.tar.gz](https://docs.growingio.com/.gitbook/assets/-M2qbZInaXgdm8kkNosp-MkVre90RrVHoeQ1PucH-MkVtL9rrDUvAg3av8ndgrowingio-tools-python-2.0.tar.gz)
+[辅助工具 growingio-tools-python-2.0.tar.gz](/img/-M2qbZInaXgdm8kkNosp-MkVre90RrVHoeQ1PucH-MkVtL9rrDUvAg3av8ndgrowingio-tools-python-2.0.tar.gz)
 
 下载后是一个压缩包，解压后需要安装和配置后方可使用
 

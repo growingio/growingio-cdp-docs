@@ -24,7 +24,7 @@ Webhook 方便企业将通知提醒发送至其它系统，如 IM工具、短信
 
 点击，进入 企业配置-  webhook通道 。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20210118-xia-wu-7.56.01.png)
+![](/img/ying-mu-jie-tu-20210118-xia-wu-7.56.01.png)
 
 ### 新建 Ｗebhook 
 
@@ -40,19 +40,19 @@ step2 :  填写，通道名称  、 请求地址 、密钥
 3.确定鉴权 密钥 \(若没有可不填
 {% endhint %}
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20210118-xia-wu-7.56.28.png)
+![](/img/ying-mu-jie-tu-20210118-xia-wu-7.56.28.png)
 
 ### 禁用/啟用 Webhook  
 
 点击，操作    
 点击，启用/禁用
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20210118-xia-wu-8.16.42.png)
+![](/img/ying-mu-jie-tu-20210118-xia-wu-8.16.42.png)
 
 禁用时，当此webhook 被使用在 相关连的通知任务时，会给予提示 。   
 若确定禁用webhook ，关联的通知任务将失效 。
 
-![](../../../.gitbook/assets/ying-mu-jie-tu-20210118-xia-wu-8.16.30.png)
+![](/img/ying-mu-jie-tu-20210118-xia-wu-8.16.30.png)
 
 
 

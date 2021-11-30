@@ -21,9 +21,9 @@ sidebar_position: 4
 
 ## 功能说明[](#gong-neng-shuo-ming)
 
-在GrowingIO的分析功能中，当我们看到![](https://docs.growingio.com/.gitbook/assets/-M2qbZInaXgdm8kkNosp-M9c2ZZ4iwg4xey1Pm5s-M9c4OtusPzzDdQjyYQJimage.png)全局过滤按钮和“属性为”选项时，点击该按钮或选择属性后可以对用户或事件添加过滤条件，具体操作流程如下：
+在GrowingIO的分析功能中，当我们看到![](/img/-M2qbZInaXgdm8kkNosp-M9c2ZZ4iwg4xey1Pm5s-M9c4OtusPzzDdQjyYQJimage.png)全局过滤按钮和“属性为”选项时，点击该按钮或选择属性后可以对用户或事件添加过滤条件，具体操作流程如下：
 
-​![](https://docs.growingio.com/.gitbook/assets/-M2qbZInaXgdm8kkNosp-M9c2ZZ4iwg4xey1Pm5s-M9c4OtusPzzDdQjyYQJimage.png)全局过滤按钮
+​![](/img/-M2qbZInaXgdm8kkNosp-M9c2ZZ4iwg4xey1Pm5s-M9c4OtusPzzDdQjyYQJimage.png)全局过滤按钮
 
 step 1: 点击按钮后弹出全局过滤弹窗
 
