@@ -27,7 +27,7 @@ sidebar_position: 1
 
 ### 维度表模型架构简图
 
-![维度表模型架构简图](/static/img/e09d2601ed1d481aacea695e02bf897f8194537492a55edddd54300eb6e9b000_pic_1638262281649_2021-11-30.png)  
+![维度表模型架构简图](/static/img/e09d2601ed1d481aacea695e02bf897f8194537492a55edddd54300eb6e9b000_pic_1638264809601_2021-11-30.png)  
 
 ## 功能边界与约束
 
