@@ -11,10 +11,13 @@ sidebar_position: 5
 
 * 用户属性数据导入
     
-* 用户行为数据导入
+* 用户行为数据导入   
     
 使用前，请先阅读[数据导入工具](/docs/developer-manual/toolbox/dataimporter/data-importer)的内容介绍。
 
+
+
+aaaaaaa
 
 ## 功能说明[](#yong-hu-shu-xing-shu-ju-dao-ru)
 
@@ -60,7 +63,6 @@ select userid as userId,gender as gender,age as age,viplevel as viplevel
 
 from db.user​
 ```
-
 
 ### 用户行为数据导入[](#yong-hu-hang-wei-shu-ju-dao-ru)
 
