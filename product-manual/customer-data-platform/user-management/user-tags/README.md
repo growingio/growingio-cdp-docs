@@ -29,7 +29,7 @@ sidebar_position: 1
 
 目前GrowingIO提供了五种标签计算模型，分别为累计值/平均值/占比标签、最大值/最小值的事件属性标签、最初/最终的事件属性标签、列表类的事件属性标签、分层标签。这五种标签主要用于解决计算标签和规则标签的使用场景。
 
-在客户数据平台中 创建的标签，需要通过 项目管理 > 数据授权 ，将标签分配到项目中使用。 [点此查看](/docs/product-manual/enterprise-management/project-manage/data-authorization)​
+在客户数据平台中 创建的标签，需要通过 项目管理 > 数据授权 ，将标签分配到项目中使用。 [点此查看](../../../product-manual/enterprise-management/project-manage/data-authorization)​
 
 目前GrowingIO提供了 **五种**  **规则标签** 和 **SQL标签** ，五种规则标签分别为：
 
@@ -135,7 +135,7 @@ sidebar_position: 1
 
 ### SQL标签[](#sql-biao-qian)
 
-支持SQL语句根据GrowingIO开放[数据模型](/docs/getting-started/basic-concept/data-model/data-model)自定义用户标签。
+支持SQL语句根据GrowingIO开放[数据模型](../../../getting-started/basic-concept/data-model/data-model)自定义用户标签。
 
 目前支持5种数值类型的SQL标签，分别为字符串、整数、小数、日期和集合。
 

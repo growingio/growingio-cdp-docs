@@ -11,7 +11,7 @@ GrowingIO 全量采集用户行为数据，你可以通过「圈选」来定义�
 
 事件定义成功后，GrowingIO默认回溯过去7天的数据。
 
-Chrome插件安装：[请参考Chrome插件](/docs/product-manual/data-management/auto-track/web/auto-track-web-chrome-plugin)​
+Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-management/auto-track/web/auto-track-web-chrome-plugin)​
 
 > Hashtag使用说明：
 > 

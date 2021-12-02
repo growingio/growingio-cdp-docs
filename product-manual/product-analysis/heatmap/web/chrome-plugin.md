@@ -43,7 +43,7 @@ sidebar_position: 2
 
 14.6 及以上版本
 
-通过 [个人Token](/docs/product-manual/personal#token管理) 登录。
+通过 [个人Token](../../../../product-manual/personal#token管理) 登录。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPlfy8bFQnXE0XgBcOF%2F-MPm6ySuO1_8ifEhgwrf%2Fimage.png?alt=media&token=0293b1e9-b539-4a9d-94d3-fa80190a2d70)
 

@@ -9,11 +9,11 @@ sidebar_position: 1
 
 GrowingIO提供脚本辅助工具帮助您实现一些批处理功能：‌
 
-* ​[元数据创建工具](/docs/developer-manual/toolbox/metadata-creator)：用于创建事件、事件属性、用户属性等元数据
+* ​[元数据创建工具](../../developer-manual/toolbox/metadata-creator)：用于创建事件、事件属性、用户属性等元数据
     
-* ​[数据导入工具](/docs/developer-manual/toolbox/dataimporter/data-importer)：用于导入文本、数据库等类型的用户行为和属性数据
+* ​[数据导入工具](../../developer-manual/toolbox/dataimporter/data-importer)：用于导入文本、数据库等类型的用户行为和属性数据
     
-* ​[用户删除工具](/docs/developer-manual/toolbox/user-delete-tool)：用户对[用户删除管理](/docs/product-manual/customer-data-platform/data-integration/user-del-management)中发起的待删除用户记录进行删除
+* ​[用户删除工具](../../developer-manual/toolbox/user-delete-tool)：用户对[用户删除管理](../../product-manual/customer-data-platform/data-integration/user-del-management)中发起的待删除用户记录进行删除
     
 
 ## 功能边界或约束[](#gong-neng-bian-jie-huo-yue-shu)
