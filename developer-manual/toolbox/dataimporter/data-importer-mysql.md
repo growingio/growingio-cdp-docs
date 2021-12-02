@@ -13,7 +13,7 @@ sidebar_position: 4
     
 * 用户行为数据导入
     
-使用前，请先阅读[数据导入工具](/docs/developer-manual/toolbox/dataimporter/data-importer)的内容介绍。
+使用前，请先阅读[数据导入工具](../../../developer-manual/toolbox/dataimporter/data-importer)的内容介绍。
 
 
 ## 功能说明[](#yong-hu-shu-xing-shu-ju-dao-ru)

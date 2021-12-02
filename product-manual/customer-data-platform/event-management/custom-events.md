@@ -84,7 +84,7 @@ sidebar_position: 1
     
 * 轮播图的图片类型，这样可以统计不同类型的点击率，常用于流量实验场景
 
-其次，在[事件属性](/docs/product-manual/customer-data-platform/event-management/event-property)中，先定义出如上两个属性
+其次，在[事件属性](../../../product-manual/customer-data-platform/event-management/event-property)中，先定义出如上两个属性
 
 | 名称  | 标识符 | 类型  |
 | --- | --- | --- |
@@ -100,4 +100,4 @@ sidebar_position: 1
 
 Q1：要定义的事件太多，支持批量定义吗？
 
-在[批量工具](/docs/developer-manual/toolbox/metadata-creator)中，支持上传模板文件，将事件及其属性的CSV文件上传进行批量创建。
+在[批量工具](../../../developer-manual/toolbox/metadata-creator)中，支持上传模板文件，将事件及其属性的CSV文件上传进行批量创建。
