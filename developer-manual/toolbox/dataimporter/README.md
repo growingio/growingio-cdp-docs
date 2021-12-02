@@ -22,9 +22,9 @@ sidebar_position: 1
 
 ## 功能边界或约束[](#gong-neng-bian-jie-huo-yue-shu)
 
-* 多事件的历史数据导入，推荐使用[Json数据导入](/docs/developer-manual/toolbox/dataimporter/data-importer-json)​
+* 多事件的历史数据导入，推荐使用[Json数据导入](../../../developer-manual/toolbox/dataimporter/data-importer-json)​
     
-* 导入性能更强的方式，推荐使用[Json数据导入](/docs/developer-manual/toolbox/dataimporter/data-importer-json)​
+* 导入性能更强的方式，推荐使用[Json数据导入](../../../developer-manual/toolbox/dataimporter/data-importer-json)​
     
 * 支持导入用户行为和用户属性数据，不支持导入物品数据
     
@@ -35,25 +35,25 @@ sidebar_position: 1
 
 ### 下载辅助工具[](#xia-zai-fu-zhu-gong-ju)
 
-​[辅助工具的安装和配置](/docs/developer-manual/toolbox/dataimporter/data-importer#功能边界或约束)​
+​[辅助工具的安装和配置](../../../developer-manual/toolbox/dataimporter/data-importer#功能边界或约束)​
 
 
 ### 选择合适的导入方式[](#xuan-ze-he-shi-de-dao-ru-fang-shi)
 
-历史数据导入工具支持导入用户行为数据和用户属性数据，[固定数据格式](/docs/product-manual/customer-data-platform/data-integration/data-import#数据导入格式)，可选择的工具类型如下
+历史数据导入工具支持导入用户行为数据和用户属性数据，[固定数据格式](../../../product-manual/customer-data-platform/data-integration/data-import#数据导入格式)，可选择的工具类型如下
 
-* ​[Json数据导入](/docs/developer-manual/toolbox/dataimporter/data-importer-json)​
+* ​[Json数据导入](../../../developer-manual/toolbox/dataimporter/data-importer-json)​
     
-* ​[文本数据导入](/docs/developer-manual/toolbox/dataimporter/data-importer-txt)​
+* ​[文本数据导入](../../../developer-manual/toolbox/dataimporter/data-importer-txt)​
     
-* ​[Mysql数据导入](/docs/developer-manual/toolbox/dataimporter/data-importer-mysql)​
+* ​[Mysql数据导入](../../../developer-manual/toolbox/dataimporter/data-importer-mysql)​
     
-* ​[Hive数据导入](/docs/developer-manual/toolbox/dataimporter/data-importer-hive)​
+* ​[Hive数据导入](../../../developer-manual/toolbox/dataimporter/data-importer-hive)​
     
 
 ### 指定数据源[](#zhi-ding-shu-ju-yuan)
 
-导入数据前，需要先指定所属的数据源ID。数据源的创建位置见：[数据源管理](/docs/product-manual/customer-data-platform/data-integration/datasource-manage)​
+导入数据前，需要先指定所属的数据源ID。数据源的创建位置见：[数据源管理](../../../product-manual/customer-data-platform/data-integration/datasource-manage)​
 
 * 创建"用户属性数据"的数据源，操作方式：新建数据源 > 历史数据导入 > 用户属性数据
     
@@ -64,6 +64,6 @@ sidebar_position: 1
 
 ### 任务查看[](#ren-wu-cha-kan)
 
-历史数据导入工具的命令执行成功后，系统为其生成一个调度任务。任务执行的进度见：[数据导入管理](/docs/product-manual/customer-data-platform/data-integration/data-import)​
+历史数据导入工具的命令执行成功后，系统为其生成一个调度任务。任务执行的进度见：[数据导入管理](../../../product-manual/customer-data-platform/data-integration/data-import)​
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkW6V7nyui6VOb3sD6-%2F-MkW7w-vSJlkhumeTU5V%2Fimage.png?alt=media&token=c928995e-73a7-4260-b669-955715fe0982)

@@ -15,4 +15,4 @@ sidebar_position: 4
 
 **搜索：**您可以在页面中分类上方的搜索框按用户属性名称搜索用户属性。
 
-> 项目内仅支持查看和使用数据授权的用户属性，详情请参见[数据授权](/docs/product-manual/enterprise-management/project-manage/data-authorization)。
+> 项目内仅支持查看和使用数据授权的用户属性，详情请参见[数据授权](../../product-manual/enterprise-management/project-manage/data-authorization)。

@@ -17,4 +17,4 @@ sidebar_position: 5
 
 **下载：**单击页面右上方的下载按钮后，下载标签统计分布数据。
 
-> 项目内仅支持查看和使用数据授权的用户属性，详情请参见[数据授权](/docs/product-manual/enterprise-management/project-manage/data-authorization)。
+> 项目内仅支持查看和使用数据授权的用户属性，详情请参见[数据授权](../../product-manual/enterprise-management/project-manage/data-authorization)。
