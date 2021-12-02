@@ -29,4 +29,4 @@ sidebar_position: 1
     
 热图提供了一种清晰直观的方式来帮助您解答这些问题。
 
-GrowingIO目前支持Web热图，[查看使用详情](/docs/product-manual/product-analysis/heatmap/web/heatmap-for-web)。
+GrowingIO目前支持Web热图，[查看使用详情](../../../product-manual/product-analysis/heatmap/web/heatmap-for-web)。

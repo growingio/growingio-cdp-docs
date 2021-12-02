@@ -7,7 +7,7 @@ sidebar_position: 1
 
 ## 简介[](#jian-jie)
 
-热图通过Chrome浏览器的插件绘制，因此需要下载安装Chrome插件，[下载安装](/docs/product-manual/product-analysis/heatmap/web/chrome-plugin#插件下载)。
+热图通过Chrome浏览器的插件绘制，因此需要下载安装Chrome插件，[下载安装](../../../../product-manual/product-analysis/heatmap/web/chrome-plugin#插件下载)。
 
 
 ## 功能说明[](#gong-neng-shuo-ming)

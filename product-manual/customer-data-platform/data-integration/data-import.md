@@ -12,13 +12,13 @@ sidebar_position: 2
 
 ## 功能边界或约束[](#gong-neng-bian-jie-huo-yue-shu)
 
-创建相应类型的数据源，使用说明请参考[数据源管理](/docs/product-manual/customer-data-platform/data-integration/datasource-manage)​
+创建相应类型的数据源，使用说明请参考[数据源管理](../../../product-manual/customer-data-platform/data-integration/datasource-manage)​
 
 需要有该模块的权限，如无权限请找**管理员**开通
 
 数据导入用户行为数据：预置事件（如$visit、$page等）、预置事件属性（$domain、$city、$ip等等）范围格式
 
-用户属性：[预置用户属性范围及格式详见用户管理](/docs/product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
+用户属性：[预置用户属性范围及格式详见用户管理](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
 
 
 ## 功能说明[](#gong-neng-shuo-ming)
@@ -38,7 +38,7 @@ sidebar_position: 2
 数据导入类型选择
 
 
-### 选择数据导入类型，[用户行为数据](/docs/product-manual/customer-data-platform/data-integration/data-import#用户行为数据)或[用户属性数据](/docs/product-manual/customer-data-platform/data-integration/data-import#用户属性数据)​
+### 选择数据导入类型，[用户行为数据](../../../product-manual/customer-data-platform/data-integration/data-import#用户行为数据)或[用户属性数据](../../../product-manual/customer-data-platform/data-integration/data-import#用户属性数据)​
 
 #### **用户行为数据**[](#yong-hu-hang-wei-shu-ju)
 
@@ -48,7 +48,7 @@ sidebar_position: 2
 
 选择时间范围：数据所覆盖的所有时间，例如需要导入的数据涵盖2020年1月1日~2020年4月1日，则选择时间2020年1月1日至2020年4月1日即可。
 
-选择上传方式：[CSV](/docs/product-manual/customer-data-platform/data-integration/data-import#用户行为数据csv格式)、[JSON](/docs/product-manual/customer-data-platform/data-integration/data-import#用户行为数据json格式)、FTP
+选择上传方式：[CSV](../../../product-manual/customer-data-platform/data-integration/data-import#用户行为数据csv格式)、[JSON](../../../product-manual/customer-data-platform/data-integration/data-import#用户行为数据json格式)、FTP
 
 
 #### **用户属性数据**[](#yong-hu-shu-xing-shu-ju)
@@ -57,12 +57,12 @@ sidebar_position: 2
 
 选择数据源：选择用户属性类型的数据源
 
-选择上传方式：[CSV](/docs/product-manual/customer-data-platform/data-integration/data-import#用户属性csv格式)、[JSON](/docs/product-manual/customer-data-platform/data-integration/data-import#用户属性json格式)、FTP
+选择上传方式：[CSV](../../../product-manual/customer-data-platform/data-integration/data-import#用户属性csv格式)、[JSON](../../../product-manual/customer-data-platform/data-integration/data-import#用户属性json格式)、FTP
 
 
 ### 确定创建任务[](#que-ding-chuang-jian-ren-wu)
 
-### 上传数据，将按照固定[数据格式](/docs/product-manual/customer-data-platform/data-integration/data-import#数据导入格式)导入CDP[](#shang-chuan-shu-ju-jiang-an-zhao-gu-ding-shu-ju-ge-shi-dao-ru-cdp)
+### 上传数据，将按照固定[数据格式](../../../product-manual/customer-data-platform/data-integration/data-import#数据导入格式)导入CDP[](#shang-chuan-shu-ju-jiang-an-zhao-gu-ding-shu-ju-ge-shi-dao-ru-cdp)
 
 选择CSV进入页面
 
@@ -76,7 +76,7 @@ sidebar_position: 2
 
 上传JSON页面
 
-选择FTP：提供任务目录地址，将JSON文件放入FTP目录中，格式参考[数据格式JSON](/docs/product-manual/customer-data-platform/data-integration/data-import#yong-hu-hang-wei-shu-ju-json-ge-shi)。将数据放入指定FTP目录，点击“操作”，查看文件上传，勾选注意事项，进行下一步
+选择FTP：提供任务目录地址，将JSON文件放入FTP目录中，格式参考[数据格式JSON](../../../product-manual/customer-data-platform/data-integration/data-import#yong-hu-hang-wei-shu-ju-json-ge-shi)。将数据放入指定FTP目录，点击“操作”，查看文件上传，勾选注意事项，进行下一步
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjTvs4LLbAI_eTi1HGa%2F-MjTx3uJcFB36TNkmuek%2Fimage.png?alt=media&token=60d9c432-9e76-43c8-bae5-a0f1757dc86e)
 
@@ -247,7 +247,7 @@ FTP方式，导入失败状态
 
 ### 预置用户属性[](#yu-zhi-yong-hu-shu-xing)
 
-​[详见用户管理模块](/docs/product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
+​[详见用户管理模块](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
 
 特殊用户属性说明
 
