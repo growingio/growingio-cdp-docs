@@ -233,14 +233,8 @@ select count(1) from event where dt='2021-06-01' and event_key='$exit'
 时效性：准实时\
 数据延时：2分钟以内
 
-系统用户身份配置为
-
-| 名称 | 标识符 | 识别方式 | 优先级 |
-| -- | -- | -- | -- |
-| 用户 ID | $basic_userId | 唯一身份 ID | 1 |
-| 设备 ID | $anonymous_user | 弱身份 ID | 2 |
-
 > 举例：\
+> 系统默认用户身份配置为：用户 ID 和 设备 ID\
 > 一个用户先使用设备X注册并登陆账号u1，后在设备Y上登陆账号u1，此时 user 表中用户身份存储为
 > | gio_id | id_$basic_userId | ids_$basic_userId | id_$anonymous_user | ids_$anonymous_user |
 > | -- | -- | -- | -- | -- |
