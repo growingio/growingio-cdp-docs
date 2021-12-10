@@ -3,61 +3,159 @@ id: virtual-property
 sidebar_position: 5
 ---
 
-# 虚拟属性
+## 简介
 
-## 简介[](#jian-jie)
+虚拟属性，是指在数据入库之后通过 SQL 表达式对已定义的属性进行二次加工，产生一个新的属性值。
 
-虚拟事件支持合并、拆分预置事件和埋点事件，满足多项目数据划分的使用场景。
+虚拟属性作为GrowingIO推出的高级能力，涉及到较多技术细节，适用于SQL经验较强的用户参考。若对文档有疑问或使用上遇到问题，请及时联系GrowingIO的技术支持。
 
+## 功能边界或约束
 
-## 功能说明[](#gong-neng-shuo-ming)
+- 支持创建事件的虚拟属性，暂不支持创建用户和维度表的虚拟属性
+- 支持引用事件属性来创建事件的虚拟属性，暂不支持引用用户属性和维度表字段
+- 支持创建字符串类型的虚拟属性，暂不支持其他类型的虚拟属性
+- 虚拟属性暂不支持关联维度表
+- 考虑到性能等因素的影响，虚拟属性开放了常规的函数供使用，支持的函数范围见附录
 
-### 创建虚拟事件[](#chuang-jian-xu-ni-shi-jian)
+## 功能说明
 
-一、在 客户数据平台 选择 “**事件管理 > 虚拟事件**" ，进入虚拟事件管理页面。
+虚拟属性管理的入口：【客户数据平台】 - 【事件管理】 - 【虚拟属性】
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MdGhZcKgFVqs99_pO5G%2F-MdGy1_31o_FicAJo4EY%2Fimage.png?alt=media&token=1032be68-3741-43d6-9aad-de9c786afc2c)
+![picture 1](/img/d8353d20ee5866e890fe2d13f56848164a5cdb690815711fc47f2bd4284b357f__2021-12-09.png)  
 
-二、单击右上角 **新建虚拟事件**、进入 **新建虚拟事件** 弹窗。
+### 创建虚拟属性
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MdGhZcKgFVqs99_pO5G%2F-MdGyKdlPwLXuKkP1wIP%2Fimage.png?alt=media&token=430764ca-edbb-4637-9ada-1c955fb33c90)
+创建一个虚拟属性，分两个步骤。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MdGhZcKgFVqs99_pO5G%2F-MdGyXoYmhaI00texTxl%2Fimage.png?alt=media&token=2a6ad012-22df-405b-ae36-9e24a2c918e4)
+**步骤 一：设置虚拟属性基本信息** 
 
-| 参数  | 说明  |
-| --- | --- |
-| 名称  | GrowingIO平台上虚拟事件的名称。 |
-| 标识符 | 用于API接口使用虚拟事件。 |
-| 描述  | 虚拟事件的描述，可填写虚拟事件的触发时机和应用场景。 |
-| 虚拟事规则 | 虚拟事件触发规则。 |
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/25447572/1639040808538-f75ffad6-9736-4cde-ab2c-98ec51e3a066.png#clientId=u2ce59489-dde9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=435&id=uea3019c1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=869&originWidth=1463&originalType=binary&ratio=1&rotation=0&showTitle=false&size=35912&status=done&style=none&taskId=u7c9fcb43-ec40-47a5-a456-de5182a8383&title=&width=731.5)
 
-> * 虚拟事件 名称 和 标识符 与埋点事件去重
-> 
-> * 虚拟事件支持使用 预置事件、埋点事件 以及 预置事件属性、事件属性、物品属性。
-> 
-> * 虚拟事件触发规则中最多支持配置20个事件以及每个事件做多配置5个触发条件。
-> 
-> * 虚拟事件定义规则全局唯一，即每一个定义规则仅支持定义一次。
+**步骤 二：定义规则（虚拟属性的SQL表达式）**
 
-三、填写完成后单击 **完成**，完成一个虚拟事件的创建。
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/25447572/1639040912313-7ac2a823-1187-4382-ba5a-1624ee0af5a2.png#clientId=u2ce59489-dde9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=432&id=ud50df21e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=863&originWidth=1454&originalType=binary&ratio=1&rotation=0&showTitle=false&size=29328&status=done&style=none&taskId=ua91961df-8c2b-432f-b47c-d078b650cd5&title=&width=727)
 
-> 虚拟事件创建成功后，需要在 企业管理后台 进行数据授权，授权后的事件支持在项目内使用。
+SQL表达式细则：
 
+- 引用的属性为事件属性的标识符
+- 支持的函数范围及示例见附录
 
-### 虚拟事件管理页面[](#xu-ni-shi-jian-guan-li-ye-mian)
+### 修改虚拟属性
 
-在虚拟事件管理页面可以查看虚拟事件的名称、标识符、创建日期、创建人、最后编辑日期、最后编辑人。
+对于已创建的虚拟属性，支持您再次编辑。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkW5rUsvP-VWF51ulfh%2F-MkW7JE9U_7jkrWFl-8a%2Fimage.png?alt=media&token=f4e48543-4922-42d1-b37b-c055849ff341)
+具体操作是点击某行虚拟属性，在详情页中点击“编辑”按钮，即可进入编辑弹窗。
 
-您也可以对虚拟事件进行以下操作：
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/25447572/1639041141533-e6a344d0-1531-49e8-b279-3c77cd53dc7f.png#clientId=u2ce59489-dde9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=292&id=ue32c0352&margin=%5Bobject%20Object%5D&name=image.png&originHeight=584&originWidth=663&originalType=binary&ratio=1&rotation=0&showTitle=false&size=23328&status=done&style=none&taskId=u7bf4ffed-d28c-40d6-a6d7-3be63fa9fc2&title=&width=331.5)
+​
+### 删除虚拟属性
 
-**搜索：**您可以在页面中列表上方的搜索框按虚拟事件名称和标识符来搜索虚拟事件。
+对于已创建的虚拟属性，如果没有用或没有用到，您可以将其删除。
 
-**QuickView：**单击任一虚拟事件，您可以在右侧弹出的虚拟事件详情中，查看虚拟事件的基本信息。
+具体操作是点击某虚拟属性行的操作列，弹窗的删除按钮点击后即可删除该虚拟属性。
 
-**编辑：**在QuickView界面单击 **编辑** 修改虚拟事件参数，修改后单击 **完成** 保存修改。
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/25447572/1639041233050-499099e7-fa6c-4455-80aa-9a086f91e170.png#clientId=u2ce59489-dde9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=183&id=u6cd39b70&margin=%5Bobject%20Object%5D&name=image.png&originHeight=365&originWidth=1790&originalType=binary&ratio=1&rotation=0&showTitle=false&size=42565&status=done&style=none&taskId=u027ad535-2106-45f4-b020-d18722dca82&title=&width=895)
 
-**删除：**单击单条事件右侧的 ![](/img/-Lo08UtW7H58ehFKeZ4g-LsycTyZaItbL8_Wigcx-LsyfkaafJ-8X2utJ9BbE782B9E782B9E782B9.png) 选择删除，可删除不需要的虚拟事件。
+提示：删除虚拟属性将影响到使用它的单图等应用。
+​
+### 虚拟属性绑定到事件上
 
-**批量操作**：在列表中使用复选框选择多个虚拟事件，可以进行批量删除。
+对于已创建的虚拟属性，要想在分析工具中使用它，需将其绑定到需要分析的事件上。
+
+绑定操作在【客户数据平台】 - 【事件管理】 - 【埋点事件】中。
+
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/25447572/1639041495712-6dafc81f-dd4f-4fe9-a2f3-82ad3d9d37c5.png#clientId=u2ce59489-dde9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=396&id=uf6733aeb&margin=%5Bobject%20Object%5D&name=image.png&originHeight=791&originWidth=653&originalType=binary&ratio=1&rotation=0&showTitle=false&size=38239&status=done&style=none&taskId=u8e1bb303-82cd-47a8-b723-ecd51e55db7&title=&width=326.5)
+
+## 应用案例
+
+### 案例 1：属性数据类型转换
+
+假设某埋点属性为订单价格（price_1，数值类型），希望精度保留到百位（向下取整）且转为字符串类型，以便于用它来做下钻分析。
+
+SQL表达式： to_string(floor(price_1/100)*100)
+​
+### 案例 2：属性大小写转换
+
+假设某埋点属性（name）上报值中有大小写混合的字符串，比如GrowingIO和growingio，在下钻分析时希望统计为一条growingio，这时可以创建一个新的虚拟属性来表达。
+
+SQL表达式： lower(name)
+​
+### 案例 3：属性内容提取
+
+假设我们埋点了一个事件属性url，希望从url中提取出参数arg的值用来做下钻分析，那么可以创建一个新的虚拟属性来表达。
+​
+比如：url的值为 http://test.com/test?arg=渠道1
+​
+SQL表达式： parse_url_query(url,'arg')
+​
+返回值为：渠道1
+​
+### 案例 4：属性内容拼接
+
+假设分析时，需要将多个字符串属性的值拼接在一起，合并成一个属性在分析图表中做下钻分析或筛选过滤，这时您可以创建一个新的虚拟属性来表达。
+​
+比如有属性A（var_1，字符串类型）、B（var_2，字符串类型）和（var_3，字符串类型），需要用分隔符“-”拼在一起
+​
+SQL表达式：concat(var_1 , '-' , var_2 , '-' , var_3)
+
+### 案例 5：属性计算
+
+假设订单事件在埋点时埋了两个属性：商品的进货价（price_1，数值类型）和出货价（price_2，数值类型），当我们想计算每个商品的进货价和出货价的差值，可以创建一个新的虚拟属性为利润（income）来表达。
+​
+SQL表达式：price_2 - price_1
+
+### 案例 6：属性字典翻译
+假设埋点时，某属性（var_1，字符串类型）上报时值为英文，属性值为可枚举。希望它在看板分析重展示时映射为中文，可以创建一个新的虚拟属性来表达。
+
+| 属性值 | 翻译值 |
+|--------|--------|
+| level1 | 初级   |
+| level2 | 中级   |
+| level3 | 高级   |
+
+SQL表达式：
+
+case 
+when var_1 = 'level1' then '初级' 
+when var_1 = 'level2' then '中级'  
+when var_1 = 'level3' then '高级' 
+else '其他等级' end
+​
+## 常见问题
+
+- Q：虚拟属性可以在用户属性中创建吗？
+- A：目前不支持基于用户属性的虚拟属性创建，如果相关场景，您可以考虑通过新建用户属性+数据导入的方式获得所需属性值。
+​
+- Q：虚拟属性可以跨域引用属性吗？比如事件虚拟属性引用用户属性
+- A：考虑性能影响，目前虚拟属性的SQL表达式，不支持引用跨域的属性。
+​
+- Q：虚拟属性对查询性能的影响大吗？
+- A：虚拟属性由于不支持跨域引用属性，很大程度上规避了给统计图表带来性能降低的问题。大部分的虚拟属性对性能的影响几乎可以忽略，比如属性的计算、类型转换等；少量函数比如正则匹配，对使用它的单图的查询性能下降30%左右。
+
+- Q：虚拟属性引用的属性被删除，虚拟属性还能正常使用吗？
+- A：当引用的属性被删除时，虚拟属性立即变为异常状态。对于使用了异常的虚拟属性的单图将受到影响。
+
+## 附录
+
+### 虚拟属性支持的函数范围
+| 函数            | 含义            | 示例                                                                                                                                                               |
+|-----------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| like            | 模糊查询        | 假设属性var_1值为GrowingIO，需要提取出包含Growing的值<br/>SQL表达式：var_1 like '%Growing%'                                                                        |
+| regexp          | 正则匹配        | 假设属性var_1值为GrowingIO，需要提取出包含G开头的值<br/>SQL表达式：var_1 regexp '^G'                                                                               |
+| round           | 四舍五入        | 假设属性var_1为数值类型<br/>SQL表达式：round(var_1)                                                                                                                |
+| floor           | 向下取整        | 假设属性var_1为数值类型<br/>SQL表达式：floor(var_1)                                                                                                                |
+| ceill           | 向上取整        | 假设属性var_1为数值类型<br/>SQL表达式：ceil(var_1)                                                                                                                 |
+| if              | 条件判断        | 假设var_1为数值类型<br/>SQL表达式：if(var_1>=100, 'VIP', '普通会员')                                                                                               |
+| if_null         | 判断空判断      | 假设var_1为字符串类型，值域范围为：NULL, 男，希望NULL值转化为“女”<br/>SQL表达式：if_null(var_1, '女')                                                              |
+| coalesce        | 非空查找        | 查找多个属性中的非空首个值<br/>SQL表达式： coalesce(var_1, var_2, var_3)                                                                                           |
+| case when       | Case函数        | 假设var_1为数值类型<br/>SQL表达式：<br/>case<br/>when var_1>=1000 then 'A级'<br/>when var_1>=100 then 'B级' <br/>when var_1>=10 then 'C级'<br/>else '其他'<br/>end |
+| length          | 字符串/列表长度 | 假设var_1为字符串类型<br/>SQL表达式：length(var_1)                                                                                                                 |
+| concat          | 字符串拼接      | 假设var_1, var_2为字符串类型<br/>SQL表达式：concat(var_1, var_2)<br/>备注：支持两个及以上的字符串拼接                                                              |
+| replace         | 字符串替换      | 假设var_1为字符串类型，值为GrowingIO，需要把IO替换为Hello<br/>SQL表达式：replace(var_1, 'IO' , 'Hello')                                                            |
+| substring       | 字符串提取      | 假设var_1为字符串类型，值为GrowingIO，需要提取前3个字符<br/>SQL表达式：substring(var_1, 1, 3)                                                                      |
+| upper           | 字符串转大写    | upper(var_1)                                                                                                                                                       |
+| lower           | 字符串转小写    | lower(var_1)                                                                                                                                                       |
+| parse_url_query | URL参数提取     | 假设var_1为URL链接的字符串，需要提取链接中参数为arg的值<br/>SQL表达式：parse_url_query(var_1, 'arg')                                                               |
+| to_string       | 转字符串类型    | 假设var_1为数值型<br/>SQL表达式：to_string(var_1)                                                                                                                  |
+| to_int          | 转整型          | 假设var_1为字符串类型的数值<br/>SQL表达式：to_int(var_1)                                                                                                           |
+| to_float        | 转小数          | 假设var_1为字符串类型的数值<br/>SQL表达式：to_float(var_1)                                                                                                         |
