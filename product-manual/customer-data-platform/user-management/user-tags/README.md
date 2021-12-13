@@ -127,11 +127,11 @@ sidebar_position: 1
 支持计算规则如下：‌
 
 * 用户做过
-    
-* 用户属性是
-    
-* 用户标签是
-    
+
+* 用户未做过
+
+* 用户是：可选用户标签和用户属性
+
 
 ### SQL标签[](#sql-biao-qian)
 
@@ -144,7 +144,9 @@ sidebar_position: 1
 
 ### 分类管理[](#fen-lei-guan-li)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVZUxA3mSF2F9Qx3nTC%2F-MVZVycGdXt-AlxPa8i4%2Fimage.png?alt=media&token=a36448a9-0fb4-4618-9ba2-a0da27490457)
+![图 2](/img/30fade413818e0ab541aeea16eead714535497584041324b708f101fa65c575e_tag_type_manager_2021-12-13.png)  
+
+
 
 | 操作  | 说明  |
 | --- | --- |
@@ -152,6 +154,8 @@ sidebar_position: 1
 | 2 - 添加子分类 | 在目标分类下添加子分类，以满足多层级分类管理场景。 |
 | 3 - 重命名 | 修改分类名称。 |
 | 4 - 删除 | 删除不需要的分类。 |
+
+> 说明：删除分类时，需要将分类中关联的子分类删除，并且移除分类下的所有用户标签才能删除此分类
 
 
 #### 新建分类[](#xin-jian-fen-lei)
