@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## 简介[](#jian-jie)
 
-在360单用户画像中您可以通过用户ID、UUID、姓名、手机号、邮箱、OpenID或UnionID查找用户并查看用户画像详情；也可以通过 [群体画像](../../product-manual/user-insights/sagment-profiles) 中的用户列表细查进入指定用户的360单用户画像页面 。
+在360单用户画像中您可以通过用户ID、UUID、姓名、手机号、邮箱、OpenID或UnionID查找用户并查看用户画像详情；也可以通过 [群体画像](./segment-profiles) 中的用户列表细查进入指定用户的360单用户画像页面 。
 
 找到用户后，您可以在用户细查页面查看用户详细属性、用户行为明细和用户特征。
 

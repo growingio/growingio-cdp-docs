@@ -23,7 +23,7 @@ GrowingIO 增长平台团队
         * 支持根据多用户身份唯一识别系统用户
             
         
-    * ​[用户分群列表](product-manual/user-insights/sagment-profiles#用户分群列表)：支持固定列设置，支持选择固定首、固定前2列、固定前3列
+    * ​[用户分群列表](product-manual/user-insights/segment-profiles#用户分群列表)：支持固定列设置，支持选择固定首、固定前2列、固定前3列
         
     * 用户标签：支持 [SQL 标签](product-manual/customer-data-platform/user-management/user-tags/user-tags#sql标签)​
         
