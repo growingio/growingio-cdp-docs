@@ -96,11 +96,15 @@ FTP方式，未上传数据时状态
 
 还未导入：任务还未开始
 
+排队中：系统压力过大时，任务会按照提交顺序进行排队，正在等待执行
+
 正在导入：任务正在队列中等待进行或任务已经启动
 
 导入成功：数据已进入系统中
 
 导入失败：点击“操作”列查看错误详情
+
+
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiP-vXPkE-uA5KtzgH1%2F-MiP2i-sTHYQhEcNzPKX%2Fimage.png?alt=media&token=5cca6ea6-4e4d-4171-bf33-53cf6e5d1daa)
 
