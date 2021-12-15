@@ -105,8 +105,7 @@ FTP方式，未上传数据时状态
 导入失败：点击“操作”列查看错误详情
 
 
-
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiP-vXPkE-uA5KtzgH1%2F-MiP2i-sTHYQhEcNzPKX%2Fimage.png?alt=media&token=5cca6ea6-4e4d-4171-bf33-53cf6e5d1daa)
+![](https://github.dev/growingio/growingio-cdp-docs/blob/fb4a0855aa947dfe6aef793a051639ffa7d9cc28/img/%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E7%AE%A1%E7%90%86%E7%8A%B6%E6%80%81%E9%A1%B5.jpg)
 
 数据导入管理页面
 
