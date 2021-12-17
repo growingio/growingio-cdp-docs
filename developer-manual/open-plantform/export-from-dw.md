@@ -137,8 +137,7 @@ A：每个压缩文件生成完毕后，都会在同级路径下生成名称为 
 | 31 | $channel | 客户端渠道来源 |  |
 | 32 | $device_brand | 设备品牌名称 |  |
 | 33 | $device_model | 设备型号 |  |
-| 34 | $device_type | 设备类型 | 0：平板
-1：手机 |
+| 34 | $device_type | 设备类型 | 0：平板 1：手机 |
 | 35 | $device_orientation | 设备方向 |  |
 | 36 | $resolution | 屏幕尺寸 |  |
 | 37 | $language | 语言 | 示例：zh-cn |
