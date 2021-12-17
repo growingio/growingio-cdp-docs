@@ -147,6 +147,8 @@ FTP方式，导入失败状态
 | userId | String | 必填，登录用户 id |
 | event | String | 必填，事件标识，​需提前在数据管理中创建，预定义属性请在事件管理-预定义属性中查看相应属性的key标识 |
 | timestamp | Long | 必填，事件发生 unix 毫秒时间戳 |
+| eventId | String | 选填，可自定义生成事件ID，默认将由系统生成，用于事件去重条件之一 |
+| userKey | String | 选填，默认登录用户id，如需导入多身份，请填写用户身份配置的key，例如配置手机为用户身份key为“phone” |
 | attrs | Map&lt;String, String&gt; | 可不填，事件属性，其中属性的 key ​需要提前在数据管理中创建​并关联 |
 
 **数据样例：**
@@ -158,6 +160,12 @@ FTP方式，导入失败状态
 {​"event"​:​ ​"paySuccess"​,​ ​"userId"​:​ "​157xxx"​,​ ​"timestamp"​:​ ​1577246696001​,​ ​"attrs"​:​ ​{​"type"​: "Wechat"​}}
 
 {​"event"​:​ ​"paySuccess2"​,​ ​"userId"​:​ ​"158xxx"​,​ ​"timestamp"​:​ ​1577246696003​,​ ​"attrs"​:​ ​{​"type"​: "Wechat"​}}
+
+{"userId":"aaaa","eventId":"bbbb``","event":"paySuccess_event","timestamp":1637337600000, "attrs":{"payAmount_var":"66.66"}}
+
+{"userId":"123","timestamp":"11111","event":"test","userKey":"$basic_userId",{"var_test":"123"}}
+
+{"userId":"1880001111","timestamp":"11111","event":"test","userKey":"phone",{"var_test":"123"}}
 
 
 ### 用户属性（CSV格式）[](#yong-hu-shu-xing-csv-ge-shi)
