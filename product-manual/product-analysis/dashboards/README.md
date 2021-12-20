@@ -45,7 +45,7 @@ sidebar_position: 1
 
 看板数据展示区包含以下几个部分：
 
-* 操作部分：添加单图、过滤条件、筛选时间范围、设置协作模式、另存看板、删除看板。 
+* 操作部分：添加单图、过滤条件、筛选时间范围、设置协作模式、另存看板、删除看板。
     
 * 数据展示：不同数据图表。
     
@@ -73,7 +73,7 @@ sidebar_position: 1
 
 #### 修改看板名称[](#xiu-gai-kan-ban-ming-cheng)
 
-操作流程：点击看板名称 > 进入编辑模式 > 输入看板名称 \> 点击保存
+操作流程：点击看板名称 > 进入编辑模式 > 输入看板名称 > 点击保存
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLlS7IkFPGTlzwOAeB%2Fimage.png?alt=media&token=43241f37-b92c-48ad-987d-1d87dde8b92e)
 
@@ -83,7 +83,7 @@ sidebar_position: 1
 
 通过添加单图，我们可以在看板中添加新的分析图表，将需要共同分析的图表放在一起构建数据报告，方便大家进行报告、监测和分析 。
 
-操作流程：点击添加单图 > 勾选要添加至此看板的分析图表 \> 点击添加。
+操作流程：点击添加单图 > 勾选要添加至此看板的分析图表 > 点击添加。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLlFDG888MrZ46wjoO%2Fimage.png?alt=media&token=afe4dd4f-de35-49ac-851d-71d8a3520292)
 
@@ -115,7 +115,7 @@ sidebar_position: 1
 
 设置成功后，看板中的分析图表将会拥有相同的过滤条件。
 
-操作流程： 点击过滤条件 > 选择过滤范围 \> 点击保存 。
+操作流程： 点击过滤条件 > 选择过滤范围 > 点击保存 。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmAIkU80mpnys1y4f%2Fimage.png?alt=media&token=eaadfcdc-01e7-48d7-acf9-1f26a48e2d50)
 
@@ -135,7 +135,7 @@ sidebar_position: 1
 
 设置成功后，看板中的分析图表将会拥有相同的时间范围。
 
-操作流程：点击时间范围 > 选择时间范围区间 \> 点击确定。
+操作流程：点击时间范围 > 选择时间范围区间 > 点击确定。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmZCaGvWdVVtGjPEi%2Fimage.png?alt=media&token=417c72b9-e482-4e23-91a0-8401b7da86e5)
 
@@ -145,7 +145,7 @@ GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查�
 
 #### 另存看板[](#ling-cun-kan-ban)
 
-操作流程：点击看版右侧 > 选择另存看板 \> 输入新看版名称。
+操作流程：点击看版右侧 > 选择另存看板 > 输入新看版名称。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmmWY-V8ceh31J2yi%2Fimage.png?alt=media&token=78a3f3da-5e56-4826-9651-62861f7a51c8)
 
@@ -153,7 +153,7 @@ GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查�
 
 #### 删除看板[](#shan-chu-kan-ban)
 
-操作流程：点击看版右侧 > 选择删除\> 確定删除。
+操作流程：点击看版右侧 > 选择删除 > 確定删除。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmsKLjaeQd5yxl0_K%2Fimage.png?alt=media&token=a059238e-0fcd-4340-a40e-5484484d5b40)
 
@@ -170,6 +170,22 @@ GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查�
 ### 看板全屏
 
 点击看板右上角“...“，选择“进入全屏”，可以进入全屏模式。
+
+![进入全屏](/img/0a056a74f4a17713c27c85f20e9a307cc61f19500c3379f62b6aa34cf02d61ef_pic_1639991936259_2021-12-20.png)  
+
+在全屏模式下，你可以做如下操作：
+
+![全屏模式操作选项](/img/cdcc7e838fe700afee182abc54b85fa160e73647ef6011cba2751c11a57fd4d6_pic_1639992029681_2021-12-20.png)  
+
+1. 切换到深色模式：可展示深色背景的图表配色，更适合大屏幕的展示。
+
+![深色模式](/img/3151c1729c71da004b63a69cc502cb6646ff453e09c48f316d0d44ff5fc30910_pic_1639992163426_2021-12-20.png)  
+
+2. 设置定时刷新：可选择对看板中的图表做分钟级的定时刷新，适合实时数据的监控场景，注意：出于看板性能考量，目前仅支持对7天内数据在KPI分析、事件分析、分布分析的图表刷新
+
+![设置定时刷新](/img/596cb87f17fc9bf91557864726bd813456d25acf5fd08881fd8c23fd181eb397_pic_1639992237286_2021-12-20.png)  
+
+3. 退出全屏：点击后恢复到正常浏览模式
 
 ## 常见问题[](#chang-jian-wen-ti)
 
