@@ -1,6 +1,6 @@
 ---
 id: user-model
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 用户模型

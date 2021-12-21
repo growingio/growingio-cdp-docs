@@ -106,7 +106,7 @@ GrowingIO 增长平台团队
 
 * 新增
     
-    * 用户模型：为满足多渠道营销用户识别的使用需求，对[用户模型](getting-started/basic-concept/user-model/user-model)进行升级
+    * 用户模型：为满足多渠道营销用户识别的使用需求，对[用户模型](./getting-started/basic-concept/user-model)进行升级
         
         * 支持唯一身份ID和弱身份ID
             

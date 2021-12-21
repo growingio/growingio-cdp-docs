@@ -146,7 +146,7 @@ sidebar_position: 1
 
 ### SQL标签[](#sql-biao-qian)
 
-支持SQL语句根据GrowingIO开放[数据模型](../../../../getting-started/basic-concept/data-model/data-model)自定义用户标签。
+支持SQL语句根据GrowingIO开放[数据模型](../../../../getting-started/basic-concept/data-model)自定义用户标签。
 
 目前支持5种数值类型的SQL标签，分别为字符串、整数、小数、日期和集合。
 
