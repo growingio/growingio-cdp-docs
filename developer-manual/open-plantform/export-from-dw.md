@@ -1,6 +1,6 @@
 ---
 id: export-from-dw
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # 离线数据导出

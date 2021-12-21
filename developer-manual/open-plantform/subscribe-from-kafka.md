@@ -1,6 +1,6 @@
 ---
 id: subscribe-from-kafka
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Kafka 实时数据订阅
