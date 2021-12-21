@@ -26,7 +26,7 @@ sidebar_position: 1
     
 * 导入性能更强的方式，推荐使用[Json数据导入](../../../developer-manual/toolbox/dataimporter/data-importer-json)​
     
-* 支持导入用户行为和用户属性数据，不支持导入物品数据
+* 支持导入用户行为和用户属性数据，不支持导入维度表数据
     
 文本、Mysql和Hive等类型数据，辅助工具需要做本地转换，对导入性能会有损耗。建议您提前转成Json格式，使用Json数据导入的方式高效完成导入任务。
 

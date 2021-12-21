@@ -13,7 +13,7 @@ sidebar_position: 4
 
 ## 名词解释[](#ming-ci-jie-shi)
 
-属性：GrowingIO系统包含事件模型、物品模型、用户模型三类事物模型，属性是描述一个事物与性质的关系。
+属性：GrowingIO系统包含事件模型、维度表模型、用户模型三类事物模型，属性是描述一个事物与性质的关系。
 
 ## 功能边界或约束[](#gong-neng-bian-jie-huo-yue-shu)
 
