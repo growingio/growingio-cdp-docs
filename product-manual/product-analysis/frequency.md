@@ -1,6 +1,6 @@
 ---
 id: frequency
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # 分布分析
