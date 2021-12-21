@@ -1,6 +1,6 @@
 --- 
 id: funnel 
-sidebar_position: 5 
+sidebar_position:  6
 ---
 
 # 漏斗分析
