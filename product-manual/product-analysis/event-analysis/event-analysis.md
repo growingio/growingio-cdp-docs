@@ -1,6 +1,6 @@
 ---
 id: event-analysis
-sidebaar_position: 1
+sidebar_position: 1
 ---
 
 # 事件分析
