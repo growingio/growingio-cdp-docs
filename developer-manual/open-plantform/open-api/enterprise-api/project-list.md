@@ -25,8 +25,36 @@ GET
 
 ## 返回数据
 
+| 名称 | 类型 | 描述 |
+| --- | --- | --- |
+| id | string | 项目ID |
+| name | string | 项目名称 |
 
 ## 返回示例
+```
+[
+    {
+        "id": "WlGk4Daj",
+        "name": "默认项目"
+    },
+    {
+        "id": "y9pm1pme",
+        "name": "wyl测试项目-勿动"
+    },
+    {
+        "id": "AbQ3bDYe",
+        "name": "测试删除项目"
+    },
+    {
+        "id": "rRGoYQml",
+        "name": "wyltest01"
+    },
+    {
+        "id": "n1QVaDyR",
+        "name": "dzf_test1"
+    }
+]
+```
 
 ## 错误码
 
