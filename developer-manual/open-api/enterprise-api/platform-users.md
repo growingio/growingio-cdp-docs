@@ -14,8 +14,8 @@ http://{api-host}/v1/api/user/{成员ID}?scopeId={企业ID}&scopeType=DataCenter
 | --- | --- | --- | --- | --- |
 | scopeId | string | 是 | 企业ID | WlGk4Daj |
 | scopeType | string | 是 | 数据范围 | DataCenter |
-| offset | int | 偏移量 |是  | 0 |
-| limit | int | 每页数量 | 是 | 10 |
+| offset | int | 是 | 偏移量 | 0 |
+| limit | int | 是 | 每页数量 | 10 |
 
 提示：企业ID在前端的获取路径是【企业管理后台】 - 【企业概览】
 
