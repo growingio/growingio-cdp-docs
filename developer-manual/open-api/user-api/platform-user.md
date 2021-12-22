@@ -20,14 +20,14 @@ GET
 ## 请求参数
 | 名称 | 类型 | 必填 | 描述 | 示例值 |
 | --- | --- | --- | --- | --- |
-| user_key | String | 是 | 搜索的用户身份标识符 | $basic_userId |
-| search_ID | String | 是 | 搜索的用户身份值 | U3803180317 |
+| user_key | String | 是 | 目标用户身份标识符 | $basic_userId |
+| search_ID | String | 是 | 目标用户身份值 | U3803180317 |
 
 ## 返回数据
 
 | 名称 | 类型 | 描述 |
 | --- | --- | --- |
-| gioId | Int | GrowingIO系统生成的用户标示 |
+| gioId | Int | 系统用户标识符 |
 | identifications | Objective| 系统用户的全部用户身份值 |
 | properties | Objective | 系统用户的全部用户属性和用户标签 |
 
