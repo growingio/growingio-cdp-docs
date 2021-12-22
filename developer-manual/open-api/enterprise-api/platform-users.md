@@ -9,12 +9,12 @@ sidebar_position: 1
 查询平台成员列表
 
 ## 接口地址
-http://{api-host}/v1/api/user/{成员ID}?scopeId={企业ID}&scopeType=DataCenter&offset={页数}&limit={每页数量}
+http://{api-host}/v1/api/user/{成员ID}?scopeId={企业ID}&scopeType=DataCenter&offset={偏移量}&limit={每页数量}
 | 名称 | 类型 | 必填 | 描述 | 示例值 |
 | --- | --- | --- | --- | --- |
 | scopeId | string | 是 | 企业ID | WlGk4Daj |
 | scopeType | string | 是 | 数据范围 | DataCenter |
-| offset | int | 页数 |是  | 1 |
+| offset | int | 偏移量 |是  | 0 |
 | limit | int | 每页数量 | 是 | 10 |
 
 提示：企业ID在前端的获取路径是【企业管理后台】 - 【企业概览】
@@ -34,7 +34,7 @@ GET
 ## 返回数据
 | 名称 | 类型 | 描述 |
 | --- | --- | --- |
-| offset | int | 页数 |
+| offset | int | 偏移量 |
 | limit | int | 每页数量 |
 | totalCount | int | 总数 |
 | hasNextPage | string | 是否有下一页 |
@@ -51,7 +51,7 @@ GET
 ## 返回示例
 ```
 {
-    "offset": 1,
+    "offset": 0,
     "limit": 10,
     "totalCount": 102,
     "hasNextPage": true,
