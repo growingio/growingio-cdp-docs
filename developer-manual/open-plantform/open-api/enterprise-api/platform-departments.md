@@ -1,15 +1,15 @@
 ---
-id: project-list
-sidebar_position: 1
+id: platform-departments
+sidebar_position: 3
 ---
 
-# 项目列表
+# 平台部门列表
 
 ## 接口说明
-查询项目列表
+查询平台部门列表
 
 ## 接口地址
-http://{api-host}/v1/api/projects
+http://{api-host}/v1/api/departments
 
 ## 请求方式
 GET
