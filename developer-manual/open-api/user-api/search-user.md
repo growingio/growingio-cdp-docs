@@ -1,5 +1,5 @@
 ---
-id: platform-user
+id: search-user
 sidebar_position: 1
 ---
 
