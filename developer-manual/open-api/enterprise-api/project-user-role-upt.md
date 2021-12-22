@@ -6,7 +6,7 @@ sidebar_position: 22
 # 修改项目成员角色
 
 ## 接口说明
-修改项目成员所属的角色
+修改项目成员所属的项目角色
 
 ## 接口地址
 http://{api-host}/v1/api/projects/{项目ID}/users/{成员ID}

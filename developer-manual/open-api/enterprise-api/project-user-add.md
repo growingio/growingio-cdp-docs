@@ -6,7 +6,7 @@ sidebar_position: 21
 # 添加项目成员
 
 ## 接口说明
-添加项目成员
+添加平台成员到指定项目
 
 ## 接口地址
 http://{api-host}/v1/api/projects/{项目ID}/users

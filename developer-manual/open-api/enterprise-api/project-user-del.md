@@ -6,7 +6,7 @@ sidebar_position: 23
 # 删除项目成员
 
 ## 接口说明
-删除项目成员
+删除项目中的某成员
 
 ## 接口地址
 http://{api-host}/v1/api/projects/{项目ID}/users
