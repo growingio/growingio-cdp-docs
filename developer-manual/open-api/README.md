@@ -21,3 +21,8 @@ sidebar_position: 1
 | 添加项目成员 | 添加平台成员到某项目 | [查看文档](./enterprise-api/project-user-add) |
 | 修改项目成员角色 | 修改项目某成员的角色信息 | [查看文档](./enterprise-api/project-user-role-upt) |
 | 删除项目成员 | 删除项目中的某成员 | [查看文档](./enterprise-api/project-user-del) |
+
+## 用户查询接口
+| OpenAPI名称 | 描述 | 操作 |
+| -- | -- | -- |
+| 单用户查询 | 查询客户数据平台制定用户特征 | [查看文档] |
