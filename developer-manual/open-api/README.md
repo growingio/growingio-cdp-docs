@@ -11,7 +11,7 @@ sidebar_position: 1
 
 | 参数          | 类型   | 说明                                                                                                                           |
 | ------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| Authorization | string | 接口请求所需的认证码，即 Token，您可以在 GrowingIO 平台的[个人设置](../../product-manual/personal)中获取一个长期有效的 Token。 请求时在header中增加“<br>Authorization:Bearer {Token}”|
+| Authorization | string | 接口请求所需的认证码，即 Token，您可以在 GrowingIO 平台的[个人设置](../../product-manual/personal)中获取一个长期有效的 Token。 <br>请求时在header中增加“Authorization:Bearer {Token}”|
 | language      | string | 语言，默认 CH。可选：CH - 中文，US - 英文。                                                                                    |
 
 ## 企业功能接口
