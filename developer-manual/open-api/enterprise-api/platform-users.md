@@ -10,6 +10,7 @@ sidebar_position: 1
 
 ## 接口地址
 http://{api-host}/v1/api/user/{成员ID}?scopeId={企业ID}&scopeType=DataCenter&offset={偏移量}&limit={每页数量}
+
 | 名称 | 类型 | 必填 | 描述 | 示例值 |
 | --- | --- | --- | --- | --- |
 | scopeId | string | 是 | 企业ID | WlGk4Daj |
