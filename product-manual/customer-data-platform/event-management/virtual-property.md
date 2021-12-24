@@ -31,11 +31,13 @@ sidebar_position: 5
 
 **步骤 一：设置虚拟属性基本信息** 
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/25447572/1639040808538-f75ffad6-9736-4cde-ab2c-98ec51e3a066.png#clientId=u2ce59489-dde9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=435&id=uea3019c1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=869&originWidth=1463&originalType=binary&ratio=1&rotation=0&showTitle=false&size=35912&status=done&style=none&taskId=u7c9fcb43-ec40-47a5-a456-de5182a8383&title=&width=731.5)
+![设置虚拟属性基本信息](/img/cdb2f390a3d8f927d172f861f867f974d1f6ee53ab393a23e09caf260c666c1f_pic_1640332296990_2021-12-24.png)  
+
 
 **步骤 二：定义规则（虚拟属性的SQL表达式）**
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/25447572/1639040912313-7ac2a823-1187-4382-ba5a-1624ee0af5a2.png#clientId=u2ce59489-dde9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=432&id=ud50df21e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=863&originWidth=1454&originalType=binary&ratio=1&rotation=0&showTitle=false&size=29328&status=done&style=none&taskId=ua91961df-8c2b-432f-b47c-d078b650cd5&title=&width=727)
+![定义规则](/img/2d251305c588d2bf7cdb582d6f60d1ce2c192565ce179473d7b0ee8c32c09c81_pic_1640332353311_2021-12-24.png)  
+
 
 SQL表达式细则：
 
@@ -48,25 +50,25 @@ SQL表达式细则：
 
 具体操作是点击某行虚拟属性，在详情页中点击“编辑”按钮，即可进入编辑弹窗。
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/25447572/1639041141533-e6a344d0-1531-49e8-b279-3c77cd53dc7f.png#clientId=u2ce59489-dde9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=292&id=ue32c0352&margin=%5Bobject%20Object%5D&name=image.png&originHeight=584&originWidth=663&originalType=binary&ratio=1&rotation=0&showTitle=false&size=23328&status=done&style=none&taskId=u7bf4ffed-d28c-40d6-a6d7-3be63fa9fc2&title=&width=331.5)
-​
+![修改虚拟属性](/img/041fa820f2391eb608b782d40980fde535cbec217a3710272309c6be8428b57d_pic_1640332394567_2021-12-24.png)  
+
 ### 删除虚拟属性
 
 对于已创建的虚拟属性，如果没有用或没有用到，您可以将其删除。
 
 具体操作是点击某虚拟属性行的操作列，弹窗的删除按钮点击后即可删除该虚拟属性。
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/25447572/1639041233050-499099e7-fa6c-4455-80aa-9a086f91e170.png#clientId=u2ce59489-dde9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=183&id=u6cd39b70&margin=%5Bobject%20Object%5D&name=image.png&originHeight=365&originWidth=1790&originalType=binary&ratio=1&rotation=0&showTitle=false&size=42565&status=done&style=none&taskId=u027ad535-2106-45f4-b020-d18722dca82&title=&width=895)
+![删除虚拟属性](/img/e38d6a450744d578c7d1a47de984119223122fbc2d3c9aed7989849843876c82_pic_1640332452224_2021-12-24.png)  
 
 提示：删除虚拟属性将影响到使用它的单图等应用。
-​
+
 ### 虚拟属性绑定到事件上
 
 对于已创建的虚拟属性，要想在分析工具中使用它，需将其绑定到需要分析的事件上。
 
 绑定操作在【客户数据平台】 - 【事件管理】 - 【埋点事件】中。
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/25447572/1639041495712-6dafc81f-dd4f-4fe9-a2f3-82ad3d9d37c5.png#clientId=u2ce59489-dde9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=396&id=uf6733aeb&margin=%5Bobject%20Object%5D&name=image.png&originHeight=791&originWidth=653&originalType=binary&ratio=1&rotation=0&showTitle=false&size=38239&status=done&style=none&taskId=u8e1bb303-82cd-47a8-b723-ecd51e55db7&title=&width=326.5)
+![绑定虚拟属性到事件](/img/cfd7de745bec4104a79830a22a2a0617f486442fc63a08c3e70d9b5e901f4c79_pic_1640332502006_2021-12-24.png)  
 
 ## 应用案例
 
