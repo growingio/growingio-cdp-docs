@@ -46,9 +46,17 @@ https://{growing产品的host}/oauth/authorize?client_id={给应用颁发client_
 
 ```
 https://{growing产品的host}/oauth/token?grant_type=authorization_code&code={code值}&client_id={给应用颁发的client_id}&client_secret={给应用颁发的secret}
+```
 
 返回值样例：
-{"access_token":"94a51e08-232d-4352-a52b-3a548a6e18d1","token_type":"bearer","refresh_token":"ad95ec5a-bf65-4007-a941-7ba3aca80473","scope":"admin"}
+
+```json
+{
+  "access_token": "94a51e08-232d-4352-a52b-3a548a6e18d1",
+  "token_type": "bearer",
+  "refresh_token": "ad95ec5a-bf65-4007-a941-7ba3aca80473",
+  "scope": "admin"
+}
 ```
 
 ##### step 3：获取用户信息
@@ -57,9 +65,20 @@ https://{growing产品的host}/oauth/token?grant_type=authorization_code&code={c
 
 ```
 https://{growing产品的host}/userinfo?access_token={access_token值}
+```
 
 返回值样例：
-{"id":"7RDYaeDA","name":"xxx@growingio.com","source":"ldap","identity":"xxx@growingio.com","createdAt":"2021-09-16T08:01:39.322","disabled":false,"lastVisitAt":"2021-12-24T08:37:54.57729"}
+
+```json
+{
+  "id": "7RDYaeDA",
+  "name": "xxx@growingio.com",
+  "source": "ldap",
+  "identity": "xxx@growingio.com",
+  "createdAt": "2021-09-16T08:01:39.322",
+  "disabled": false,
+  "lastVisitAt": "2021-12-24T08:37:54.57729"
+}
 ```
 
 ### 应用预览
