@@ -35,7 +35,7 @@ GET
 | 名称            | 类型      | 描述                             |
 | --------------- | --------- | -------------------------------- |
 | gioId           | Int       | GrowingIO 系统生成的用户标示     |
-| identifications | Objective | 系统用户的全部用户身份值         |
+| identifications | < String , List > | 系统用户的全部用户身份值         |
 | properties      | Objective | 系统用户的全部用户属性和用户标签 |
 
 ## 示例 1
