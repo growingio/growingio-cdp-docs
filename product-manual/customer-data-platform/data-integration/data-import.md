@@ -12,13 +12,15 @@ sidebar_position: 2
 
 ## 功能边界或约束[](#gong-neng-bian-jie-huo-yue-shu)
 
-创建相应类型的数据源，使用说明请参考[数据源管理](../../../product-manual/customer-data-platform/data-integration/datasource-manage)​
+* 创建相应类型的数据源，使用说明请参考[数据源管理](../../../product-manual/customer-data-platform/data-integration/datasource-manage)​
 
-需要有该模块的权限，如无权限请找**管理员**开通
+* 需要有该模块的权限，如无权限请找**管理员**开通
 
-数据导入用户行为数据：预置事件（如$visit、$page等）、预置事件属性（$domain、$city、$ip等等）范围格式
+* 数据导入用户行为数据：预置事件（如$visit、$page等）、预置事件属性（$domain、$city、$ip等等）范围格式
 
-用户属性：[预置用户属性范围及格式详见用户管理](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
+* 匿名用户行为数据导入，需要严格按照时序导入，这样能确保新户计算逻辑准确
+
+* 用户属性：[预置用户属性范围及格式详见用户管理](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
 
 
 ## 功能说明[](#gong-neng-shuo-ming)
@@ -152,21 +154,32 @@ FTP方式，导入失败状态
 | attrs | Map&lt;String, String&gt; | 可不填，事件属性，其中属性的 key ​需要提前在数据管理中创建​并关联 |
 
 **数据样例：**
-
+```
 {​"event"​:​ ​"paySuccess"​,​ ​"userId"​:​ "​156xxx"​,​ ​"timestamp"​:​ ​1577246696001​,​ ​"attrs"​:​ ​{​"type"​: "Wechat"​}}
-
 {​"event"​:​ ​"paySuccess"​,​ ​"userId"​:​ "​156xxx"​,​ ​"timestamp"​:​ ​1577246696002​,​ ​"attrs"​:​ ​{​"type"​: "Wechat"​}}
-
 {​"event"​:​ ​"paySuccess"​,​ ​"userId"​:​ "​157xxx"​,​ ​"timestamp"​:​ ​1577246696001​,​ ​"attrs"​:​ ​{​"type"​: "Wechat"​}}
-
 {​"event"​:​ ​"paySuccess2"​,​ ​"userId"​:​ ​"158xxx"​,​ ​"timestamp"​:​ ​1577246696003​,​ ​"attrs"​:​ ​{​"type"​: "Wechat"​}}
-
 {"userId":"aaaa","eventId":"bbbb``","event":"paySuccess_event","timestamp":1637337600000, "attrs":{"payAmount_var":"66.66"}}
-
 {"userId":"123","timestamp":"11111","event":"test","userKey":"$basic_userId",{"var_test":"123"}}
-
 {"userId":"1880001111","timestamp":"11111","event":"test","userKey":"phone",{"var_test":"123"}}
+```
+### 用户行为数据（JSON格式，匿名用户）[](#yong-hu-hang-wei-shu-ju-json-ge-shi-anonymous)
 
+| 字段名 | 类型  | 描述  |
+| --- | --- | --- |
+| anonymousId | String | 必填，匿名用户 id |
+| event | String | 必填，事件标识，需提前在数据管理中创建，预定义属性请在事件管理-预定义属性中查看相应属性的key标识 |
+| timestamp | Long | 必填，事件发生 unix 毫秒时间戳 |
+| eventId | String | 选填，可自定义生成事件ID，默认将由系统生成，用于事件去重条件之一 |
+| attrs | Map&lt;String, String&gt; | 可不填，事件属性，其中属性的 key 需要提前在数据管理中创建并关联 |
+
+**数据样例：**
+```
+{"event": "paySuccess", "anonymousId": "ahjdgdgfdgd", "timestamp": 1577246696001, "attrs": {"type": "Wechat"}}
+{"event": "paySuccess", "anonymousId": "ahjdgdgfdgd", "timestamp": 1577246696002, "attrs": {"type": "Wechat"}}
+{"event": "paySuccess", "anonymousId": "ahjdgdgfdgd", "timestamp": 1577246696001, "attrs": {"type": "Wechat"}}
+{"event": "paySuccess2", "anonymousId": "ahjdgdgfdgd", "timestamp": 1577246696003, "attrs": {"type": "Wechat"}}
+```
 
 ### 用户属性（CSV格式）[](#yong-hu-shu-xing-csv-ge-shi)
 
@@ -193,11 +206,10 @@ FTP方式，导入失败状态
 | attrs | Map&lt;String, String&gt; | 必填，用户属性，其中属性的 key ​需要提前在 “数据管理 -> 用户属性“ 中创建​并关联 |
 
 **数据样例：**
-
+```
 {"userId": "156xxx", "attrs": {"sex": "男", "age": "16"}}
-
 {"userId": "157xxx", "attrs": {"sex": "女", "age": "28"}}
-
+```
 
 ## 支持导入预置事件、属性、用户属性明细表[](#zhi-chi-dao-ru-yu-zhi-shi-jian-shu-xing-yong-hu-shu-xing-ming-xi-biao)
 
