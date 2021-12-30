@@ -5,11 +5,11 @@ sidebar_position: 2
 
 # 数据导入管理
 
-## 简介[](#jian-jie)
+## 简介
 
 通过 SDK 或者其他方式产生的用户相关历史数据，进行处理加工成固定的格式后，通过创建数据导入任务的方式将历史用户产生的数据导入 CDP 系统中，数据上传成功即可在其他分析模块进行用户行为的分析
 
-## 功能边界或约束[](#gong-neng-bian-jie-huo-yue-shu)
+## 功能边界或约束
 
 - 创建相应类型的数据源，使用说明请参考[数据源管理](../../../product-manual/customer-data-platform/data-integration/datasource-manage)​
 
@@ -21,9 +21,9 @@ sidebar_position: 2
 
 - 用户属性：[预置用户属性范围及格式详见用户管理](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
 
-## 功能说明[](#gong-neng-shuo-ming)
+## 功能说明
 
-### 创建数据导入任务[](#chuang-jian-shu-ju-dao-ru-ren-wu)
+### 创建数据导入任务
 
 在导航栏选择“ **数据集成 > 数据导入管理**“，进入数据导入管理页面
 
@@ -39,7 +39,7 @@ sidebar_position: 2
 
 ### 选择数据导入类型，[用户行为数据](../../../product-manual/customer-data-platform/data-integration/data-import#用户行为数据)或[用户属性数据](../../../product-manual/customer-data-platform/data-integration/data-import#用户属性数据)​
 
-#### **用户行为数据**[](#yong-hu-hang-wei-shu-ju)
+#### 用户行为数据
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiP4bnSGGXSvckGtuwF%2F-MiP5HN7DVMFDRDMiD3E%2Fimage.png?alt=media&token=d5d7d98e-c363-46e0-a312-13868377c9ee)
 
@@ -49,7 +49,7 @@ sidebar_position: 2
 
 选择上传方式：[CSV](../../../product-manual/customer-data-platform/data-integration/data-import#用户行为数据csv格式)、[JSON](../../../product-manual/customer-data-platform/data-integration/data-import#用户行为数据json格式)、FTP
 
-#### **用户属性数据**[](#yong-hu-shu-xing-shu-ju)
+#### 用户属性数据
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPHrfX2odbRP0lbysX%2F-MiPIF4LVgd6KLqgaT79%2Fimage.png?alt=media&token=eb4c1245-3b77-44a0-b114-acd6113bdea4)
 
@@ -57,7 +57,7 @@ sidebar_position: 2
 
 选择上传方式：[CSV](../../../product-manual/customer-data-platform/data-integration/data-import#用户属性csv格式)、[JSON](../../../product-manual/customer-data-platform/data-integration/data-import#用户属性json格式)、FTP
 
-### 确定创建任务[](#que-ding-chuang-jian-ren-wu)
+### 确定创建任务
 
 ### 上传数据，将按照固定[数据格式](../../../product-manual/customer-data-platform/data-integration/data-import#数据导入格式)导入 CDP[](#shang-chuan-shu-ju-jiang-an-zhao-gu-ding-shu-ju-ge-shi-dao-ru-cdp)
 
@@ -79,9 +79,9 @@ sidebar_position: 2
 
 FTP 方式，未上传数据时状态
 
-### 上传数据成功后，开始导入[](#shang-chuan-shu-ju-cheng-gong-hou-kai-shi-dao-ru)
+### 上传数据成功后，开始导入
 
-### 查看任务详情[](#cha-kan-ren-wu-xiang-qing)
+### 查看任务详情
 
 主页点击某一任务，弹出任务详情信息栏，还未导入的任务可通过右上角的“上传文件”按钮，进入导入页面
 
@@ -89,7 +89,7 @@ FTP 方式，未上传数据时状态
 
 任务详情
 
-### 查看导入状态[](#cha-kan-dao-ru-zhuang-tai)
+### 查看导入状态
 
 还未导入：任务还未开始
 
@@ -109,9 +109,9 @@ FTP 方式，未上传数据时状态
 
 FTP 方式，导入失败状态
 
-## 数据导入格式[](#shu-ju-dao-ru-ge-shi)
+## 数据导入格式
 
-### 用户行为数据（CSV 格式）[](#yong-hu-hang-wei-shu-ju-csv-ge-shi)
+### 用户行为数据（CSV 格式）
 
 | ​      | 固定列名  | 数据类型 | 描述                                                                                                                                                                                       |
 | ------ | --------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -136,7 +136,7 @@ FTP 方式，导入失败状态
 | 123321 | batchi0810 | 2021-07-03 | ​          | 绑定 0810  | 绑定 0810  |
 | 123321 | batchi0811 | 2021-07-04 | ​          | ​          | 绑定 0811  |
 
-### 用户行为数据（JSON 格式）[](#yong-hu-hang-wei-shu-ju-json-ge-shi)
+### 用户行为数据（JSON 格式）
 
 | 字段名    | 类型                      | 描述                                                                                                  |
 | --------- | ------------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -159,7 +159,7 @@ FTP 方式，导入失败状态
 {"userId":"1880001111","timestamp":"11111","event":"test","userKey":"phone",{"var_test":"123"}}
 ```
 
-### 用户行为数据（JSON 格式，匿名用户）[](#yong-hu-hang-wei-shu-ju-json-ge-shi-anonymous)
+### 用户行为数据（JSON 格式，匿名用户）
 
 | 字段名      | 类型                      | 描述                                                                                               |
 | ----------- | ------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -178,7 +178,7 @@ FTP 方式，导入失败状态
 {"event": "paySuccess2", "anonymousId": "ahjdgdgfdgd", "timestamp": 1577246696003, "attrs": {"type": "Wechat"}}
 ```
 
-### 用户属性（CSV 格式）[](#yong-hu-shu-xing-csv-ge-shi)
+### 用户属性（CSV 格式）
 
 | ​      | 固定列名    | 描述                 |
 | ------ | ----------- | -------------------- |
@@ -194,7 +194,7 @@ FTP 方式，导入失败状态
 | 234    | 女  | 38  | 中级  |
 | 345    | 男  | 22  | 高级  |
 
-### 用户属性（JSON 格式）[](#yong-hu-shu-xing-json-ge-shi)
+### 用户属性（JSON 格式）
 
 | 字段名 | 类型                      | 描述                                                                               |
 | ------ | ------------------------- | ---------------------------------------------------------------------------------- |
@@ -208,16 +208,16 @@ FTP 方式，导入失败状态
 {"userId": "157xxx", "attrs": {"sex": "女", "age": "28"}}
 ```
 
-## 支持导入预置事件、属性、用户属性明细表[](#zhi-chi-dao-ru-yu-zhi-shi-jian-shu-xing-yong-hu-shu-xing-ming-xi-biao)
+## 支持导入预置事件、属性、用户属性明细表
 
-### 预置事件[](#yu-zhi-shi-jian)
+### 预置事件
 
 | 预置事件标识符 | 描述             |
 | -------------- | ---------------- |
 | $visit         | 用户访问一次页面 |
 | $page          | 页面浏览         |
 
-### 预置事件属性[](#yu-zhi-shi-jian-shu-xing)
+### 预置事件属性
 
 | 预置事件属性        | 类型    | 描述               |
 | ------------------- | ------- | ------------------ |
@@ -263,7 +263,7 @@ FTP 方式，导入失败状态
 | $xpath              | String  | 元素路径           |
 | $hyperlink          | String  | 元素链接           |
 
-### 预置用户属性[](#yu-zhi-yong-hu-shu-xing)
+### 预置用户属性
 
 ​[详见用户管理模块](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
 
@@ -279,7 +279,7 @@ FTP 方式，导入失败状态
 | 支付宝学生认证 | $alipay_isStudentCertified | boolean 类型（true 或 false），默认值 false       |
 | 支付宝实名认证 | $alipay_isCertified        | boolean 类型（true 或 false），默认值 false       |
 
-## 数据导入限制[](#shu-ju-dao-ru-xian-zhi)
+## 数据导入限制
 
 1.  数据格式为 json，每条记录单独一行，用换行符分割
 2.  **建议**单个数据文件为 256MB 以内较为合适，同一任务可以支持多个文件的上传
