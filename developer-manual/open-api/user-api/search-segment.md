@@ -66,7 +66,7 @@ GET
 
 ```bash
 curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segment_profiles/seg_undefine/users?limit=100&offset=0&properties[]=ids_$basic_userId'
---header 'Authorization: c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
+--header 'Authorization: Bearer c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
 ```
 
 ### 返回示例
@@ -83,7 +83,7 @@ Internal Server Error
 
 ```bash
 curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segment_profiles/seg_51activity/users?limit=100&offset=0'
---header 'Authorization: c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
+--header 'Authorization: Bearer c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
 ```
 
 ### 返回示例
@@ -119,7 +119,7 @@ curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segmen
 
 ```bash
 curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segment_profiles/seg_51activity/users?limit=100&offset=100&properties[]=ids_$basic_userId&properties[]=usr_gender&properties[]=tag_rfm'
---header 'Authorization: c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
+--header 'Authorization: Bearer c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
 ```
 
 ### 返回示例

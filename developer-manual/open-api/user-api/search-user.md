@@ -46,7 +46,7 @@ GET
 
 ```bash
 curl --location --request GET 'http://{api-host}/v1/api/users/$basic_userId/U3803180317'
---header 'Authorization: c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
+--header 'Authorization: Bearer c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
 ```
 
 ### 返回示例
@@ -79,7 +79,7 @@ curl --location --request GET 'http://{api-host}/v1/api/users/$basic_userId/U380
 
 ```bash
 curl --location --request GET 'http://{api-host}/v1/api/users/$anonymous_user/X'
---header 'Authorization: c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
+--header 'Authorization: Bearer c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
 ```
 
 ### 返回示例
@@ -112,7 +112,7 @@ curl --location --request GET 'http://{api-host}/v1/api/users/$anonymous_user/X'
 
 ```bash
 curl --location --request GET 'http://{api-host}/v1/api/users/$anonymous_user/Z'
---header 'Authorization: c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
+--header 'Authorization: Bearer c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
 ```
 
 ### 返回示例
