@@ -471,7 +471,7 @@ select
 
  gio_id 
 
- ,sum( var\_payAmount\_var ) as tag_value
+ ,sum( var_payAmount_var ) as tag_value
 
 from olap.event
 
@@ -499,7 +499,7 @@ select
 
  gio_id
 
- ,groupArray(3)(var\_goodsName\_var) as tag_value
+ ,groupArray(3)(var_goodsName_var) as tag_value
 
 from 
 
@@ -509,7 +509,7 @@ select
 
  gio_id 
 
- ,var\_goodsName\_var
+ ,var_goodsName_var
 
  ,count(1) as pv
 
@@ -521,13 +521,13 @@ where event_key = 'goodsDetailPageView'
 
 group by gio_id
 
- ,var\_goodsName\_var
+ ,var_goodsName_var
 
 order by gio_id
 
  ,count(1) desc 
 
- ,var\_goodsName\_var
+ ,var_goodsName_var
 
 )
 
@@ -539,7 +539,7 @@ group by gio_id
 
  gio_id
 
- ,groupUniqArray(var\_goodsName\_var) as tag_value
+ ,groupUniqArray(var_goodsName_var) as tag_value
 
 from 
 
@@ -549,11 +549,11 @@ select
 
  gio_id 
 
- ,var\_goodsName\_var
+ ,var_goodsName_var
 
  ,count(1) as pv
 
- ,row\_number() over ( partition by gio\_id order by count(1) desc, var\_goodsName\_var ) as num
+ ,row_number() over ( partition by gio_id order by count(1) desc, var_goodsName_var ) as num
 
 from olap.event
 
@@ -563,7 +563,7 @@ where event_key = 'goodsDetailPageView'
 
 group by gio_id
 
- ,var\_goodsName\_var
+ ,var_goodsName_var
 
 )
 
@@ -605,7 +605,7 @@ select
 
  gio_id
 
- ,groupArray(1)(dt)\[1\] as tag_value
+ ,groupArray(1)(dt)[1] as tag_value
 
 from 
 
@@ -664,7 +664,7 @@ select
 
  gio_id
 
- ,dateDiff( 'day' , groupArray(1)(dt)\[1\] , today() ) as tag_value
+ ,dateDiff( 'day' , groupArray(1)(dt)[1] , today() ) as tag_value
 
 from 
 
