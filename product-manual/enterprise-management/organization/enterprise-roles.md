@@ -19,15 +19,13 @@ sidebar_position: 2
 
 可查看企业角色下相关的企业成员。
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/25447572/1641454827747-f64d0f53-7b65-4083-9c1f-05bdd0a9106c.png#clientId=u0b852a38-7d3c-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=372&id=u00f201b3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=743&originWidth=1823&originalType=binary&ratio=1&rotation=0&showTitle=false&size=92554&status=done&style=none&taskId=uf36fd29a-51cc-40c9-8c3f-e5d427d03be&title=&width=911.5)
-
+![查看企业角色下相关的企业成员](/img/573900e40166b092a93ff99b2e0841d981a8539dd74622528a95369cdca91951_pic_1641461428050_2022-01-06.png)  
 
 **企业对应的权限**
 
 可查看企业角色对应的权限。
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/25447572/1641454863598-fe7b1c8d-65c0-4f23-9e58-8ba5701ac28b.png#clientId=u0b852a38-7d3c-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=486&id=ud8498b87&margin=%5Bobject%20Object%5D&name=image.png&originHeight=972&originWidth=1313&originalType=binary&ratio=1&rotation=0&showTitle=false&size=78722&status=done&style=none&taskId=u0cb0751c-9fdd-4f0a-95b0-5aed12cf75d&title=&width=656.5)
-
+![查看企业角色对应的权限](/img/be4b09649f8c26e186672a2b27eb0e1a22a2b415699d89386e9bab43829899bd_pic_1641461469885_2022-01-06.png)  
 
 ### 系统预置企业角色介绍
 
@@ -58,8 +56,6 @@ GrowingIO 在**企业**中，帮助用户预置了 5 个系统角色：拥有者
 
 - 无访问企业管理后台与客户数据平台。推荐给各企业外部人员设置此角色。
 
-
-
 ### 企业角色的操作说明
 
 | 操作 | 作用 |
@@ -71,20 +67,16 @@ GrowingIO 在**企业**中，帮助用户预置了 5 个系统角色：拥有者
 
 操作流程： 点击添加成员 > 弹窗选择成员 > 点击确定。
 
-
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/25447572/1641455054647-9ea07d26-4c3f-42a0-8f94-3a1793120c0b.png#clientId=ub1725114-a0dd-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=460&id=uadd44988&margin=%5Bobject%20Object%5D&name=image.png&originHeight=920&originWidth=1785&originalType=binary&ratio=1&rotation=0&showTitle=false&size=166554&status=done&style=none&taskId=u2638ce75-6743-493c-bd14-0c489428123&title=&width=892.5)
+![添加成员至角色](/img/78738d5a8e94e1b31dee99729ed253dfc0909cf2da6cad648e07e16b4c346b26_pic_1641461513514_2022-01-06.png)  
 
 权限控制：仅拥有者、超级管理员 拥有企业角色的权限
-​
 
 #### 修改企业角色
 
 操作流程： 点击修改企业角色 > 弹窗选择企业角色> 点击确定。
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/25447572/1641455166758-a26e4bf1-0d5a-4a0f-8634-c993d593ecb3.png#clientId=ub1725114-a0dd-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=477&id=ufa7e40c0&margin=%5Bobject%20Object%5D&name=image.png&originHeight=953&originWidth=1349&originalType=binary&ratio=1&rotation=0&showTitle=false&size=113041&status=done&style=none&taskId=u10da1306-b553-457f-b09d-99a6c5f58c5&title=&width=674.5)
-
-
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/25447572/1641455123554-a102b0d6-c165-4e5c-b54d-e7646bd99928.png#clientId=ub1725114-a0dd-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=435&id=udc7dad8d&margin=%5Bobject%20Object%5D&name=image.png&originHeight=869&originWidth=1436&originalType=binary&ratio=1&rotation=0&showTitle=false&size=119656&status=done&style=none&taskId=u3f94d119-10a6-4b2c-9724-fe6c1186334&title=&width=718)
-
+![修改企业角色](/img/addd189dd36bb55462bef4fd4384e2a532e272b2a0d7c5bba429caf62c22c75c_pic_1641461551280_2022-01-06.png)  
+​
+![选择企业角色](/img/c4e8a42d997e8acb2f9a9f5607eeba8bed3f4a297ee0f31658a0e410ec453614_pic_1641461581701_2022-01-06.png)  
 
 权限控制：仅拥有者、超级管理员 拥有企业角色的权限
