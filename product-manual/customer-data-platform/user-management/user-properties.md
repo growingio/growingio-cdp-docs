@@ -10,9 +10,7 @@ sidebar_position: 2
 
 ## 简介[](#jian-jie)
 
-在开始用户属性配置与定义之前，推荐您阅读[用户模型](https://growingio.gitbook.io/op/v/14.7/getting-started/basic-concept/user-identifications)文档，了解 GrowingIO 如何标记用户。
-
-用户属性用来保存跟用户本身相关的信息，不建议在用户属性中保存跟交互行为相关的信息。
+在开始配置用户属性之前，推荐您阅读[用户模型](/getting-started/basic-concept/user-model)文档，了解 GrowingIO 如何标记用户。
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOaLdgbw_FKXD4e4sr%2F-MiObBIsVVGicCdPnu_F%2Fimage.png?alt=media&token=15593e09-4d01-4904-ad3e-b4ff3498f998)
 
