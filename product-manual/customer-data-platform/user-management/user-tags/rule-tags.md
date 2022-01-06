@@ -5,6 +5,22 @@ sidebar_position: 3
 
 # 创建规则标签
 
+## 创建规则标签[](#chuang-jian-gui-ze-biao-qian)
+
+一、在 **客戶数据平台 > 用户管理 > 用户标签** 中点击 **新建用户标签** 进入用户标签创建弹窗。
+
+![](/img/用户标签-选择标签类型.png)
+
+二、选择 **标签类型** 并填写标签基本信息
+
+| 项 | 是否必填 | 说明 | 限制条件 |
+| -- | -- | -- | -- |
+| 名称 | 是 |用户标签名称 | 名称唯一，不可重复<br/>最大输入30个字符 |
+| 标识符 | 是 | 用户标签标识符<br/>可用于数据库和API查询 | 名称唯一，不可重复<br/>最大输入100个字符<br/>仅允许大小写英文、数字、以及下划线，并且不能以数字开头 |
+| 描述 | 否 | 用户标签的业务意义描述 | 最大输入150个字符 |
+| 所属分类 | 否 | 选择自定义的用户标签分类 | 如不选择则为未分类 |
+
+![](/img/用户标签-基本信息.png)
 
 
 
@@ -13,19 +29,10 @@ sidebar_position: 3
 
 
 
-
-
-### 创建用户标签[](#chuang-jian-yong-hu-biao-qian)
-
-一、在**客戶数据平台 > 数据 > 标签管理**“，进入标签管理页面。
-
-二、单击右上角**添加标签**，进入**新建标签**弹窗。
-
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaXKLTn1rbjJDdF9USQ%2F-MaXjQj81hnrY5iiT4UX%2Fimage.png?alt=media&token=a55135e4-b227-43e0-97e8-6ebdbd930038)
 
 选择标签类型后，第一步需要定义标签的名称、标识符、描述 等信息。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaXKLTn1rbjJDdF9USQ%2F-MaXkkU6-BQpn4xllWFZ%2Fimage.png?alt=media&token=52fb390f-5717-4f1a-a3e3-535133c41225)
+
 
 第二步需要定义标签计算规则，详情请参考五种规则标签说明。
 
