@@ -304,7 +304,7 @@ GrowingIO 增长平台团队
     - ​[标签支持分类管理](product-manual/customer-data-platform/user-management/user-tags/user-tags#分类管理)​
   - 用戶
     - 腾讯画像，支持第三方腾讯 TGI 人群画像。[点击查看](product-manual/user-insights/tgi-profiles)​
-    - 用户信息融合到预置[用户属性](product-manual/customer-data-platform/user-management/user-properties)，支持在分析等场景中使用
+    - 用户信息融合到预置[用户属性](product-manual/customer-data-platform/user-management/user-properties/user-properties)，支持在分析等场景中使用
     - 新增[用户身份](product-manual/customer-data-platform/user-management/user-identifications)模块，支持查看 GrowingIO 用户识别配置方案
   - 新版事件分析
     - 埋点事件支持添加单事件过滤
@@ -418,7 +418,7 @@ GrowingIO 增长平台团队
   - 运营平台：[流程画布发布](product-manual/marketing-platform/process/create-process)​
   - 运营平台：Webhook 支持实时触发
   - 水晶球：用户列表支持自定义展示信息和下载功能
-  - 数据平台：[用户属性支持分类管理](product-manual/customer-data-platform/user-management/user-properties#分类管理)​
+  - 数据平台：[用户属性支持分类管理](product-manual/customer-data-platform/user-management/user-properties/category-management)​
   - 数据平台：offline 增加用户事件最后一次触发时间
 - 优化:
   - gio-flow 优化，支持新旧模型

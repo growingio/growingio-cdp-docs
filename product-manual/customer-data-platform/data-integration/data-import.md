@@ -19,7 +19,7 @@ sidebar_position: 2
 
 - 匿名用户行为数据导入，需要严格按照时序导入，这样能确保新户计算逻辑准确
 
-- 用户属性：[预置用户属性范围及格式详见用户管理](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
+- 用户属性：[详见预置用户属性](../../../product-manual/customer-data-platform/user-management/user-properties/user-properties#预置用户属性)​
 
 ## 功能说明
 
@@ -265,7 +265,7 @@ FTP 方式，导入失败状态
 
 ### 预置用户属性
 
-​[详见用户管理模块](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
+​[详见预置用户属性](../../../product-manual/customer-data-platform/user-management/user-properties/user-properties#预置用户属性)​
 
 特殊用户属性说明
 
