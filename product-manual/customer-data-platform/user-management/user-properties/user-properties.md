@@ -12,18 +12,9 @@ sidebar_position: 1
 
 在开始配置用户属性之前，推荐您阅读[用户模型](/getting-started/basic-concept/user-model)文档，了解 GrowingIO 如何标记用户。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOaLdgbw_FKXD4e4sr%2F-MiObBIsVVGicCdPnu_F%2Fimage.png?alt=media&token=15593e09-4d01-4904-ad3e-b4ff3498f998)
+![](/img/用户属性-用户属性详情页.png)
 
-| 项   | 说明  |
-| --- | --- |
-| 1   | 分类管理列表 |
-| 2   | 用户属性详情页 |
-| 3   | 用户属性管理列表页 |
-
-
-## 名词解释[](#ming-ci-jie-shi)
-
-### 用户属性归因模型[](#yong-hu-shu-xing-gui-yin-mo-xing)
+### 归因模型[](#yong-hu-shu-xing-gui-yin-mo-xing)
 
 GrowingIO 的用户属性采用最终归因的计算模型，即如果一个用户同一个用户属性上传过多个不同数值，按时间排序后距今最近一次上传的用户属性值会保留下来。
 
