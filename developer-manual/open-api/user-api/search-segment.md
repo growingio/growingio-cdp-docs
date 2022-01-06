@@ -58,9 +58,9 @@ GET
 | properties | Objective | 查询的用户属性和用户标签值 |
 
 
-## 示例 1
+## 示例 1：群体画像标识符不存在
 
-搜索 **未定义** 的群体画像 **seg_undefine** 的用户ID，单次查询返回数据上限为100，标识位为0。
+场景：搜索 **未定义** 的群体画像 **seg_undefine** 的用户ID，单次查询返回数据上限为100，标识位为0。
 
 ### 请求示例
 
@@ -75,9 +75,9 @@ curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segmen
 Internal Server Error
 ```
 
-## 示例 2
+## 示例 2：搜索条件未输入用户身份、用户属性、用户标签
 
-搜索 群体画像 **seg_51activity** ,单次查询返回数据上限为100，标识位为0。
+场景：搜索 群体画像 **seg_51activity** ,单次查询返回数据上限为100，标识位为0。
 
 ### 请求示例
 
@@ -111,9 +111,9 @@ curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segmen
 }
 ```
 
-## 示例 3
+## 示例 3：搜索群体画像用户列表，并输入用户身份、用户属性、用户标签
 
-搜索 群体画像 **seg_51activity** 的用户ID、性别、RFM标签,单次查询返回数据上限为100，标识位为100。
+场景：搜索 群体画像 **seg_51activity** 的用户ID、性别、RFM标签,单次查询返回数据上限为100，标识位为100。
 
 ### 请求示例
 

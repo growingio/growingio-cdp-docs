@@ -38,9 +38,9 @@ GET
 | identifications | < String , List > | 系统用户的全部用户身份值         |
 | properties      | Objective | 系统用户的全部用户属性和用户标签 |
 
-## 示例 1
+## 示例 1：根据用户ID搜索用户
 
-搜索 **用户 ID** 为 **U3803180317** 用户的全部用户身份、用户属性和用户标签
+场景：搜索 **用户 ID** 为 **U3803180317** 用户的全部用户身份、用户属性和用户标签
 
 ### 请求示例
 
@@ -71,9 +71,9 @@ curl --location --request GET 'http://{api-host}/v1/api/users/$basic_userId/U380
 }
 ```
 
-## 示例 2
+## 示例 2：根据设备ID搜索用户
 
-搜索 **设备 ID** 为 **X** 用户的全部用户身份、用户属性和用户标签
+场景：搜索 **设备 ID** 为 **X** 用户的全部用户身份、用户属性和用户标签
 
 ### 请求示例
 
@@ -104,9 +104,9 @@ curl --location --request GET 'http://{api-host}/v1/api/users/$anonymous_user/X'
 }
 ```
 
-## 示例 3
+## 示例 3：搜索用户不存在
 
-搜索用户不存在
+场景：搜索用户不存在
 
 ### 请求示例
 
