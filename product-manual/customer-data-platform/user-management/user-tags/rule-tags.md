@@ -296,10 +296,12 @@ group by gio_id
 
 #### 例3：过去30天，首次使用的优惠券类型
 
-业务含义：使用过去30天，每个发生订单支付时，首次使用的优惠券类型作为标签值，对用户进行打标
+业务含义：使用过去30天，每个用户发生订单支付时，首次使用的优惠券类型作为标签值，对用户进行打标
 
 > 注1：仅从优惠券类型非空值中进行排序打标，即有使用优惠券的用户
 > 注2：以天粒度排序，如果一天内用户使用多个优惠券，随机返回其中某个优惠券名称
+
+![](/img/用户标签-首次末次-例3.png)
 
 ```sql
 select
@@ -323,9 +325,48 @@ group by gio_id
 
 ## 列表类的事件属性[](#lie-biao-lei-de-shi-jian-shu-xing)
 
+> 将事件的全部事件属性列表作为标签值，对用户打标。[点击查看说明](./user-tags#lie-biao-lei-de-shi-jian-shu-xing)
+
 ### 控件说明
 
+| 项   | 说明  | 限制条件 |
+| -- | -- | -- |
+| 时间选择器 | 选择打标事件发生时间 | 无 |
+| 事件选择器 | 选择打标事件 | 支持埋点事件和虚拟事件 |
+| 维度选择器 | 选择打标维度 | 支持字符串事件属性 |
+| 过滤选择器 | 选择事件过滤条件 | 支持选择事件属性和用户属性 |
+
+![](/img/用户标签-列表.png)
+
 ### 统计逻辑
+
+#### 例1：过去30天，使用的全部优惠券类型
+
+业务含义：使用过去30天，每个用户使用的全部优惠券类型(去重)作为标签值，对用户进行打标
+
+> 注1：仅筛选使用优惠券的订单
+> 注2：优惠券类型去重
+
+![](/img/用户标签-列表-例1.png)
+
+```sql
+select
+	gio_id 									as gio_id
+	,groupArray(target_atttribute)	        as tag_value
+from 
+(
+	select
+	    gio_id                          	as gio_id
+	    ,var_conpon_type	                as target_atttribute
+	from olap.event
+	where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+	    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+	    and event_key = 'payment'                               -- 事件标识符 
+        and var_conpon_type is not null
+	order by gio_id,var_conpon_type
+)
+group by gio_id
+```
 
 ## 分层标签[](#fen-ceng-biao-qian)
 
@@ -335,59 +376,3 @@ group by gio_id
 
 
 
-
-
-
-
-
-
-#### 首次/末次的事件属性[](#shou-ci-mo-ci-de-shi-jian-shu-xing-1)
-
-控件说明：
-
-
-| 项   | 说明  |
-| --- | --- |
-| 1.选择时间 | 如过去7天、过去30天、过去90天等 |
-| 2.选择计算模型 | 如最初、最终 |
-| 3.选择事件 | 如全局指标(访问、活跃)和埋点事件 |
-| 4.选择属性 | 如距今天数、日期和埋点事件的字符串类型事件属性 |
-| 5.选择事件过滤 | 选择事件过滤条件 |
-
-
-#### 列表类的事件属性[](#lie-biao-lei-de-shi-jian-shu-xing-1)
-
-控件说明：
-
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaXAPPPHyRVJTXO1Z3e%2F-MaXAllgogkiDLxjhel7%2Fimage.png?alt=media&token=55832063-b163-4e10-9543-6a4bce4ac464)
-
-| 项   | 说明  |
-| --- | --- |
-| 1.选择时间 | 如过去7天、过去30天、过去90天等 |
-| 2.选择事件 | 如全局指标(访问、活跃)和埋点事件 |
-| 3.选择属性 | 如埋点事件的字符串类型事件属性 |
-| 4.选择事件过滤 | 选择事件过滤条件 |
-
-
-#### 分层标签[](#fen-ceng-biao-qian-1)
-
-控件说明:
-* 用户行为
-    * 做过
-    * 未做过
-* 用户属性
-    * 用户是
-
-
-![图 1](/img/9a3fa2b94ae53b6f3c33f6ae3090d485e8e318b2ec6fc83369305adf19bdb903_pic_1639999256652_2021-12-20.png)  
-
-
-**SQL标签**
-
-控件说明：‌
-
-* 支持选择数值类型
-    
-* 支持写入SQL规则
-    
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiQNGh3wdzlC8uur13S%2F-MiQObm0w2zbwDsZsT_e%2Fimage.png?alt=media&token=37910440-3c54-4a19-b1a8-192d882e4eb5)
