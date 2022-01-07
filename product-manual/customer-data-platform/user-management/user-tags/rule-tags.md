@@ -177,60 +177,174 @@ group by gio_id
 | -- | -- | -- |
 | 时间选择器 | 选择打标事件发生时间 | 无 |
 | 事件选择器 | 选择打标事件 | 支持埋点事件和虚拟事件 |
-| 分组维度选择器 | 选择事件分组属性 | 支持字符串类型事件属性 |
-| 计算逻辑 | 选择标签计算逻辑 | 支持最多、最少 |
-| 打标维度选择器 | 选择打标为度 | 支持整数、小数类型事件属性 |
+| 排序维度选择器 | 选择计算维度和排序逻辑 | 支持整数、小数类型事件属性<br/>支持最多和最少排序逻辑 |
+| 分组维度选择器 | 选择分组维度 | 支持字符串类型事件属性 |
 | 过滤选择器 | 选择事件过滤条件 | 支持选择事件属性和用户属性 |
 
 ![](/img/用户标签-最大值最小值.png)
 
-### 限制条件
+### 统计逻辑
 
+#### 例1：过去30天，购买金额最多的一级品类
 
+业务含义：将过去30天每个用户订单支付金额总和按商品一级品类分组，使用支付金额最多的分组品类名称作为标签值，对用户进行打标
+
+> 注1：仅从商品一级品类名称(分组维度)非空值中进行排序打标
+> 注2：当多种一级品类(分组维度)支付总额并列最多时，随机返回其中某个一级品类名称
+
+![](/img/用户标签-最大值最小值-例1.png)
+
+```sql
+select
+	gio_id 								as gio_id
+	,groupArray(1)(group_attribute)[1]	as tag_value
+from 
+(
+	select
+	    gio_id                          as gio_id
+	    ,var_product_layer1 			as group_attribute  	-- 分组维度
+	    ,sum( var_payamount )      		as order_attribute    	-- 排序维度
+	from olap.event
+	where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+	    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+	    and event_key = 'payment'                               -- 事件标识符 
+        and var_product_layer1 is not null
+	group by gio_id
+		,var_product_layer1
+	order by gio_id,order_attribute desc
+)
+group by gio_id
+```
+
+## 首次/末次的事件属性[](#shou-ci-mo-ci-de-shi-jian-shu-xing)
+
+> 将事件第一次或最后一次发生的字符串类型事件属性作为标签值，对用户打标。[点击查看说明](./user-tags#shou-ci-mo-ci-de-shi-jian-shu-xing)
+
+### 控件说明
+
+| 项   | 说明  | 限制条件 |
+| -- | -- | -- |
+| 时间选择器 | 选择打标事件发生时间 | 无 |
+| 事件选择器 | 选择打标事件 | 支持埋点事件和虚拟事件 |
+| 逻辑选择器 | 选择计算逻辑 | 支持首次发生和末次发生 |
+| 维度选择器 | 选择打标维度 | 支持距今天数、日期和字符串事件属性 |
+| 过滤选择器 | 选择事件过滤条件 | 支持选择事件属性和用户属性 |
+
+![](/img/用户标签-最初最终.png)
+
+### 编辑限制
+
+**首次/末次的事件属性** 支持将某个事件的发生时距今天数(小数)、发生时的具体日期(日期)和发生时的事件属性(字符串)作为标签值，对用户打标。且已保存标签支持在分析工具、群体画像等应用中作为维度过滤和维度拆解使用。为保证标签在应用中平稳使用，标签编辑时禁止修改标签的数值类型。因此编辑标签时具有以下限制：
+
+| 当前选择 | 修改-距今天数 | 修改-日期 | 修改-事件属性 |
+| -- | -- | -- | -- |
+| 距今天数 | ✓ | - | - |
+| 日期 | - | ✓ | - |
+| 事件属性 | - | - | ✓ |
+
+### 统计逻辑
+
+#### 例1：过去30天，首次订单支付距今天数
+
+业务含义：使用过去30天，每个用户首次发生订单支付距今天数作为标签值，对用户进行打标
+
+![](/img/用户标签-首次末次-例1.png)
+
+```sql
+select
+	gio_id 									as gio_id
+	,groupArray(1)(target_atttribute)[1]	as tag_value
+from 
+(
+	select
+	    gio_id                          	as gio_id
+	    ,dt 								as order_attribute
+	    ,dateDiff( 'day' , dt , today())	as target_atttribute
+	from olap.event
+	where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+	    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+	    and event_key = 'payment'                               -- 事件标识符 
+	order by gio_id,dt
+)
+group by gio_id
+```
+
+#### 例2：过去30天，末次订单支付日期
+
+业务含义：使用过去30天，每个用户末次发生订单支付的具体日期作为标签值，对用户进行打标
+
+![](/img/用户标签-首次末次-例2.png)
+
+```sql
+select
+	gio_id 									as gio_id
+	,groupArray(1)(target_atttribute)[1]	as tag_value
+from 
+(
+	select
+	    gio_id                          	as gio_id
+	    ,dt 								as order_attribute
+	    ,dt	                                as target_atttribute
+	from olap.event
+	where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+	    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+	    and event_key = 'payment'                               -- 事件标识符 
+	order by gio_id,dt desc
+)
+group by gio_id
+```
+
+#### 例3：过去30天，首次使用的优惠券类型
+
+业务含义：使用过去30天，每个发生订单支付时，首次使用的优惠券类型作为标签值，对用户进行打标
+
+> 注1：仅从优惠券类型非空值中进行排序打标，即有使用优惠券的用户
+> 注2：以天粒度排序，如果一天内用户使用多个优惠券，随机返回其中某个优惠券名称
+
+```sql
+select
+	gio_id 									as gio_id
+	,groupArray(1)(target_atttribute)[1]	as tag_value
+from 
+(
+	select
+	    gio_id                          	as gio_id
+	    ,dt 								as order_attribute
+	    ,var_conpon_type	                as target_atttribute
+	from olap.event
+	where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+	    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+	    and event_key = 'payment'                               -- 事件标识符 
+        and var_conpon_type is not null
+	order by gio_id,dt
+)
+group by gio_id
+```
+
+## 列表类的事件属性[](#lie-biao-lei-de-shi-jian-shu-xing)
+
+### 控件说明
+
+### 统计逻辑
+
+## 分层标签[](#fen-ceng-biao-qian)
+
+### 控件说明
 
 ### 统计逻辑
 
 
 
-## 首次/末次的事件属性[](#shou-ci-mo-ci-de-shi-jian-shu-xing)
-
-
-## 列表类的事件属性[](#lie-biao-lei-de-shi-jian-shu-xing)
-
-
-## 分层标签[](#fen-ceng-biao-qian)
 
 
 
 
-
-
-
-
-
-
-
-#### 最大值/最小值的事件属性[](#zui-da-zhi-zui-xiao-zhi-de-shi-jian-shu-xing-1)
-
-控件说明：
-
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaX8gmlITGn2zTUPjta%2F-MaX955wpjSxFGygI76a%2Fimage.png?alt=media&token=8fbc6d27-1014-4ca2-8649-3cd9daeaa64e)
-
-| 项   | 说明  |
-| --- | --- |
-| 1.选择时间 | 如过去7天、过去30天、过去90天等 |
-| 2.选择事件 | 如全局指标(访问、活跃)和埋点事件 |
-| 3.选择分组属性 | 如次数和埋点事件的整数、小数类型事件属性 |
-| 4.选择计算模型 | 如最多、最少 |
-| 5.选择打标属性 | 如埋点事件的字符串类型事件属性 |
-| 6.选择事件过滤 | 选择事件过滤条件 |
 
 
 #### 首次/末次的事件属性[](#shou-ci-mo-ci-de-shi-jian-shu-xing-1)
 
 控件说明：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaX9FEkMV4TtU-ccU95%2F-MaX9iiMNQsxpX2ETO5e%2Fimage.png?alt=media&token=291e868d-4faa-4109-b910-f6711c2a890c)
 
 | 项   | 说明  |
 | --- | --- |
