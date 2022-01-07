@@ -37,7 +37,7 @@ sidebar_position: 3
 
 ![](/img/用户标签-基础指标值.png)
 
-### 维度+度量选择器
+#### 维度+度量选择器
 
 系统根据不同数值类型的事件属性，支持以下度量方式：
 
@@ -86,11 +86,66 @@ group by gio_id
 
 #### 例3: 过去30天，订单支付金额总和
 
+业务含义：使用过去30天，每个用户订单支付总金额作为标签值，对用户进行打标
+
+![](/img/用户标签-基础指标值-例3.png)
+
+``` sql
+select
+    gio_id                      as gio_id
+    ,sum( var_payamount )       as tag_value                -- 订单支付总金额
+from olap.event
+where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+    and event_key = 'payment'                               -- 事件标识符 
+    and var_payamount is not null
+group by gio_id
+```
+
 #### 例4: 过去30天，订单支付金额平均值
+
+业务含义：使用过去30天，每个用户订单支付金额的平均值作为标签值，对用户进行打标
+
+> 注1: 仅统计有效订单(金额有值)的订单金额平均值
+> 注2: 计算结果保留小数点后2位有效数字
+
+![](/img/用户标签-基础指标值-例4.png)
+
+``` sql
+select
+    gio_id                                  as gio_id
+    ,round( avg( var_payamount ) , 2 )      as tag_value    -- 金额平均值
+from olap.event
+where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+    and event_key = 'payment'                               -- 事件标识符 
+    and var_payamount is not null
+group by gio_id
+```
 
 #### 例5: 过去30天，订单支付金额累计占比
 
-#### 例6: 过去30天，订单支付订单ID去重数
+业务含义：使用过去30天，每个用户3c类产品支付金额占总支付金额的占比作为标签值，对用户进行打标
+
+> 注1: 仅统计有效订单(金额有值)
+> 注2: 计算结果保留小数点后2位有效数字
+
+![](/img/用户标签-基础指标值-例5.png)
+
+``` sql
+select
+    gio_id                                  as gio_id
+    ,round( sum( if( var_product_layer1 = '3c' , var_payamount , 0 ) ) / 
+            sum( var_payamount ) , 2 )      as tag_value    -- 金额累计占比
+from olap.event
+where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+    and event_key = 'payment'                               -- 事件标识符 
+    and var_payamount is not null
+group by gio_id
+```
+
+#### 例6: 过去30天，订单支付优惠券类型去重数
 
 
 ## 最大值/最小值的事件属性[](#zui-da-zhi-zui-xiao-zhi-de-shi-jian-shu-xing)
