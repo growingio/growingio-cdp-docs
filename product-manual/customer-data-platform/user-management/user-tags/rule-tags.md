@@ -24,14 +24,74 @@ sidebar_position: 3
 
 ## 基础指标值[](#ji-chu-zhi-biao-zhi)
 
+> 把事件的统计结果作为标签值，对用户打标。[点击查看说明](./user-tags#ji-chu-zhi-biao-zhi)
+
+### 控件说明
+
 | 项   | 说明  | 限制条件 |
 | -- | -- | -- |
-| 时间选择器 |  |  |
-| 事件选择器 | | |
-| 维度+度量选择器 | ||
-| 过滤选择器 | | |
+| 时间选择器 | 选择打标事件发生时间 | 无 |
+| 事件选择器 | 选择打标事件 | 无 |
+| 维度+度量选择器 | 选择打标事件计算逻辑 | 支持选择字符串、整数、小数类型事件属性 |
+| 过滤选择器 | 选择事件过滤条件 | 支持选择事件属性和用户属性 |
 
 ![](/img/用户标签-基础指标值.png)
+
+### 维度+度量选择器
+
+系统根据不同数值类型的事件属性，支持以下度量方式：
+
+| 维度 | 总和(度量) | 平均值(度量) | 累计占比(度量) | 去重数(度量) |
+| -- | -- | -- | -- | -- |
+| 次数 | ✓ |- | ✓ | - |
+| 总天数 | - | - | - | - |
+| 整数、小数事件属性 | ✓ | ✓ | ✓ | - |
+| 字符串事件属性 | - | - | - | ✓ |
+
+### 统计逻辑
+
+#### 例1: 过去30天，直接访问次数总和
+
+业务含义：使用过去30天，每个用户直接访问的次数作为标签值，对用户进行打标
+
+![](/img/用户标签-基础指标值-例1.png)
+
+``` sql
+select
+    gio_id          as gio_id
+    ,count(1)       as tag_value                            -- 事件次数
+from olap.event
+where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+    and event_key = '$visit'                                -- 事件标识符 
+    and $referrer_type is null                              -- 事件过滤
+group by gio_id
+```
+#### 例2: 过去30天，总访问天数
+
+业务含义：使用过去30天，每个用户访问的总天数作为标签值，对用户进行打标
+
+![](/img/用户标签-基础指标值-例2.png)
+
+``` sql
+select
+    gio_id                      as gio_id
+    ,count( distinct dt )       as tag_value                -- 事件总天数
+from olap.event
+where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+    and event_key = '$visit'                                -- 事件标识符 
+group by gio_id
+```
+
+#### 例3: 过去30天，订单支付金额总和
+
+#### 例4: 过去30天，订单支付金额平均值
+
+#### 例5: 过去30天，订单支付金额累计占比
+
+#### 例6: 过去30天，订单支付订单ID去重数
+
 
 ## 最大值/最小值的事件属性[](#zui-da-zhi-zui-xiao-zhi-de-shi-jian-shu-xing)
 
