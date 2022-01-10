@@ -1,5 +1,5 @@
 ---
-id: rule-tags
+id: create-rule-tags
 sidebar_position: 3
 ---
 

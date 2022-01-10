@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## 简介[](#jian-jie)
 
-在360单用户画像中您可以通过用户ID、UUID、姓名、手机号、邮箱、OpenID或UnionID查找用户并查看用户画像详情；也可以通过 [群体画像](./segment-profiles) 中的用户列表细查进入指定用户的360单用户画像页面 。
+在360单用户画像中您可以通过用户ID、设备ID、姓名、手机号、邮箱、OpenID或UnionID查找用户并查看用户画像详情；也可以通过 [群体画像](./segment-profiles) 中的用户列表细查进入指定用户的360单用户画像页面 。
 
 找到用户后，您可以在用户细查页面查看用户详细属性、用户行为明细和用户特征。
 
@@ -16,28 +16,22 @@ sidebar_position: 2
 
 ### 用户搜索页[](#yong-hu-sou-suo-ye)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj7bPc9-j8u8IJ3TG39%2F-Mj7eah6e5rV0G_vIGtr%2F360%E7%94%BB%E5%83%8F-%E6%90%9C%E7%B4%A2%E9%A1%B5%E9%9D%A2.png?alt=media&token=447c169d-cacc-4de8-ace6-f9ef3c30a5a7)
+![](/img/用户洞察-用户搜索.png)
 
-**用户搜索** ：支持 用户ID、UUID等用户身份查询用户( 见客户数据平台 用户身份 配置)；支持 姓名、手机号、邮箱、微信UnionID、微信OpenID等用户属性查询用户。
+**用户搜索** ：支持 用户ID、设备ID等用户身份查询用户( 见客户数据平台 用户身份 配置)；支持 姓名、手机号、邮箱、微信UnionID、微信OpenID等用户属性查询用户。
 
 
 ### 单用户画像详情页[](#dan-yong-hu-hua-xiang-xiang-qing-ye)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj7ikVwIPCUrDkFkz8d%2F-Mj7jCwaDmPBV2BOwAGw%2F360%E7%94%BB%E5%83%8F-%E8%AF%A6%E6%83%85%E9%A1%B5%E9%9D%A2.png?alt=media&token=093901f7-1ea0-42a4-b3e4-684b4021402f)
-
+![](/img/用户洞察-用户详情.png)
 
 #### 用户基础信息[](#yong-hu-ji-chu-xin-xi)
 
 帮助你了解此用户的基础用户信息
 
-* 仅展示该项目中被授权查看的用户身份和用户属性 。
+* 仅展示该项目中被授权查看的用户属性 。
     
 * 可勾选展示有值的用户身份和用户属性。
-    
-* 仅展示该项目中被授权查看的用户身份和用户属性 。
-    
-* 可勾选展示有值的用户身份和用户属性。
-    
 
 #### 轨迹概览[](#gui-ji-gai-lan)
 

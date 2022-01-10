@@ -13,10 +13,7 @@ sidebar_position: 1
     
 * 有某些特定属性的人群：比如年龄在 25 岁以下的男性
     
-* 在转化过程中流失的人群：比如提交了订单但没有付款
-    
 您可以根据自己要解决的业务问题，来定义关注的用户群体，还可以在 GrowingIO 平台中通过将分群套用在漏斗分析与留存分析等分析工具中进一步分析；或者通过运营手段对这部分人群进行运营。
-
 
 ## 功能说明[](#gong-neng-shuo-ming)
 
@@ -24,7 +21,7 @@ sidebar_position: 1
 
 从导航栏选择“**群体画像**”，进入群体画像列表页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjTJ7Zw-AgRjr4TXqvg%2F-MjTJyN6Q0wgboKvFwJt%2F%E7%BE%A4%E4%BD%93%E7%94%BB%E5%83%8F-%E7%BE%A4%E7%94%BB%E5%83%8F%E5%88%97%E8%A1%A8.png?alt=media&token=166149b6-c00a-40b3-bf1e-3e510bbbe75b)
+![](/img/用户洞察-群体画像.png)
 
 在群体画像列表页面中，可以查看项目内所有人创建的群体画像，支持按照分群名称进行搜索、下载分群的用户ID列表，以及新建分群。
 

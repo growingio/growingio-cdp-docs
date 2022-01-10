@@ -1,5 +1,5 @@
 ---
-id: sql-calculated-value
+id: create-sql-calculated-value
 sidebar_position: 4
 ---
 
