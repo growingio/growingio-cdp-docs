@@ -11,6 +11,8 @@ sidebar_position: 2
 
 ## 规则创建
 
+在 **新建群体画像** 弹窗中选择 **规则创建** 后进入规则创建弹窗。
+
 ### 控件说明
 
 * 基础信息
@@ -71,20 +73,86 @@ sidebar_position: 2
 
 ![](/img/用户洞察-群体画像-规则创建-例1.png)
 
+```sql
+select
+	u.gio_id 								as gio_id
+from 
+(
+	select
+		gio_id 								as gio_id
+	from olap.user
+	where usr_$first_day is not null
+) u  															-- 全量用户
+join 
+(
+	select
+	    gio_id                          	as gio_id
+	    ,sum( var_payamount )				as payamount
+	from olap.event
+	where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+	    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+	    and event_key = 'payment'                             	-- 事件标识符 
+	group by gio_id
+	having payamount > 10000
+) e on u.gio_id = e.gio_id 
+```
 
 #### 例2：未做过使用优惠券的订单支付事件
 
+![](/img/用户洞察-群体画像-规则创建-例2.png)
+
+以上规则计算结果包含以下用户群体：
+
+* 过去30天未活跃(未发生任意行为)的用户
+
+* 过去30天活跃但未发生订单支付的用户
+
+* 过去30天活跃且发生订单支付，但未使用优惠券的用户
+
+> 当使用未做过时，计算结果可能会包含大量“沉睡用户”，建议先进行人群预估再进行保存
+
+```sql
+select
+	u.gio_id 								as gio_id
+from 
+(
+	select
+		gio_id 								as gio_id
+	from olap.user
+	where usr_$first_day is not null
+) u  															-- 全量用户
+left join 
+(
+	select
+	    gio_id                          	as gio_id
+	    ,count(1)                           as num
+	from olap.event
+	where account_id = 'bc675c65b3b0290e'                       -- 项目ID
+	    and dateDiff( 'day' , dt , today()) between 1 and 30    -- 时间筛选
+	    and event_key = 'payment'                             	-- 事件标识符 
+        and var_E_ifCounpon = '是'
+	group by gio_id
+) e on u.gio_id = e.gio_id 
+where e.num is null or e.num = 0
+```
 
 #### 例3：用户属性性别为男
 
+![](/img/用户洞察-群体画像-规则创建-例3.png)
 
-#### 例4：高价值用户
-
-
+```sql
+select
+	gio_id 								    as gio_id
+from olap.user
+where usr_gender = '男'
+```
 
 ## 文件上传创建
 
+在 **新建群体画像** 弹窗中选择 **文件上传创建** 后进入文件上传创建弹窗。
+
 ### 控件说明
+
 
 
 ### 统计逻辑
