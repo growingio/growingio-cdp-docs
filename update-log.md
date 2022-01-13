@@ -138,7 +138,7 @@ GrowingIO 增长平台团队
     - 支持唯一身份 ID 和弱身份 ID
     - 支持自定义用户身份和置信度
     - 支持根据多用户身份唯一识别系统用户
-  - ​[用户分群列表](product-manual/user-insights/segment-profiles#用户分群列表)：支持固定列设置，支持选择固定首、固定前 2 列、固定前 3 列
+  - ​[用户分群列表](product-manual/user-insights/segment-profiles/segment-profiles#群体画像列表页)：支持固定列设置，支持选择固定首、固定前 2 列、固定前 3 列
   - 用户标签：支持 [SQL 标签](product-manual/customer-data-platform/user-management/user-tags/user-tags#sql标签)​
   - 项目数据授权：支持按照集成数据源授权和用户属性范围授权
   - ​[用户删除管理](product-manual/customer-data-platform/data-integration/user-del-management)：遵循 GDPR 欧盟规范，支持指定用户删除底层数据

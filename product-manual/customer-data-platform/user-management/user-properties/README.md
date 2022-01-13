@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## 简介
 
-在开始配置用户属性之前，推荐您阅读[用户模型](/getting-started/basic-concept/user-model)文档，了解 GrowingIO 如何标记用户。
+在开始配置用户属性之前，推荐您阅读[用户模型](../../../../getting-started/basic-concept/user-model)文档，了解 GrowingIO 如何标记用户。
 
 ![](/img/用户属性-用户属性详情页.png)
 
@@ -80,7 +80,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
 
 ### 首次识别日期
 
-首次识别日期( $first_day )为系统首次识别用户，生成 gio_id 的具体日期，用户生成规则详见 [用户模型](../../../getting-started/basic-concept/user-model)。
+首次识别日期( $first_day )为系统首次识别用户，生成 gio_id 的具体日期，用户生成规则详见 [用户模型](../../../../getting-started/basic-concept/user-model)。
 
 ## 功能说明
 
