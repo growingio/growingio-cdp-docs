@@ -44,7 +44,7 @@ GET
 | --------------- | --------- | -------------------------------- |
 | limit | Int | 单次查询返回数据上限  |
 | offset | Int | 查询标识位  |
-| totalCount | Int | 本次查询总计返回数据量 |
+| totalCount | Int | 群体画像总用户量 |
 | hasNextPage | Bool | 是否有下一页<br></br>false：否<br></br>true：是 |
 | hasPreviousPage | Bool | 是否有上一页<br></br>false：否<br></br>true：是 |
 | values | Objective | 群体画像查询数据 |
