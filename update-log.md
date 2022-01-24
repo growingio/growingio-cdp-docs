@@ -12,12 +12,29 @@
 
   - 全部报表
     - 新增全部报表页面，汇总各个分析模型的报表，统一保存、管理、查询。
+  - 群体画像
+    - 功能：计算逻辑优化
+      - 支持基于全量用户计算用户分群
+      - 支持用户未做过
+    - 说明：解决查询用户做过次数等于0、小于、小于等于时数据口径不一致问题
+    - [帮助文档](/product-manual/user-insights/segment-profiles/create-segment-profiles)
+  - 群体画像
+    - 功能：群体画像画像分析优化
+      - 支持基于用户属性和用户标签维度拆解分析
+      - 支持条形图和柱状图
+      - 支持按照人数和按照维度名称排序
+      - 支持图标拖拽排序
+      - 图片添加上限从6个扩充为20个
+    - [帮助文档](/product-manual/user-insights/segment-profiles/analysis-segment-profiles)
   - 指标管理
     - 创建可复用的计算指标，在分析工具中使用
   - 虚拟属性
     - 支持基于预定义和自定义的事件属性，编写 SQL 片段加工成新的属性值，以便在属性拆解、条件过滤中使用
   - Open API
     - 提供一套 RESTful 风格的开放接口，方便客户调用进行二次开发。
+    - 用户洞察
+      - 支持查询客户数据平台指定用户的全部用户特征 [查看链接](/developer-manual/open-api/user-api/search-dc-user)
+      - 支持查询项目指定群体画像的指定用户特征 [查看链接](/developer-manual/open-api/user-api/search-project-segment)
   - 帮助文档
     - 新增帮助文档跳转链接，点击可跳转到对应版本帮助文档首页。
 
