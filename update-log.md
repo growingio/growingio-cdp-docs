@@ -27,8 +27,8 @@
   - Open API
     - 提供一套 RESTful 风格的开放接口，方便客户调用进行二次开发。
     - 用户洞察
-      - 支持查询客户数据平台指定用户的全部用户特征 [查看链接](/developer-manual/open-api/user-api/search-project-user)
-      - 支持查询项目指定群体画像的指定用户特征 [查看链接](/developer-manual/open-api/user-api/search-dc-segment)
+      - 支持查询客户数据平台指定用户的全部用户特征 [查看链接](/developer-manual/open-api/user-api/search-dc-user)
+      - 支持查询项目指定群体画像的指定用户特征 [查看链接](/developer-manual/open-api/user-api/search-project-segment)
   - 帮助文档
     - 新增帮助文档跳转链接，点击可跳转到对应版本帮助文档首页。
 
