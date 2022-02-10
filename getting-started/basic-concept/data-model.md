@@ -111,7 +111,7 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | $xpath              | String   | 元素在页面中的位置                                                   |
 | $text_value         | String   | 元素对应的文本名                                                     |
 | $href               | String   | 元素对应的链接                                                       |
-| $index              | String   | 元素在列表中的位置，0开始                                            |
+| $index              | String   | 元素在列表中的位置，1开始                                            |
 | $url_scheme         | String   | 集成应用标识                                                         |
 | $browser            | String   | 浏览器名称                                                           |
 | $browser_version    | String   | 浏览器版本                                                           |
