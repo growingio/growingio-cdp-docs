@@ -220,6 +220,7 @@ public class OutputEventView implements OutputMessage<EventViewDto>{
 | String platform; | $platform | 平台标识，示例：Web |
 | String referrerDomain; | $referrer_domain | 来源域名或包名 |
 | String path; | $path | 页面路径 |
+| String title; | $title | 页面标题 |
 | String query; | $query | 页面query参数 |
 | String keyWord; | $key_word | 访问来源广告关键字 |
 | String accountId; | account_id | 系统账户ID，由SDK集成时设置 |
@@ -228,6 +229,15 @@ public class OutputEventView implements OutputMessage<EventViewDto>{
 | String userAgent; | $user_agent | 浏览器 agent 详细信息 |
 | String sdkVersion; | $sdk_version | SDK版本号 |
 | String dataSourceId; | $data_source_id | 数据源信息 |
+
+如上attributes字段中预定义属性如下
+| 字段 | 含义 |
+| --- | --- |
+| $xpath | 元素在页面中的位置 |
+| $text_value | 元素对应的文本名 |
+| $href | 元素对应的链接 |
+| $index | 元素在列表中的位置，0开始 |
+
 
 用户属性数据字典
 

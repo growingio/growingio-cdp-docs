@@ -104,6 +104,7 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | $platform           | String   | 平台标识，示例：Web                                                  |
 | $domain             | String   | 域名或包名                                                           |
 | $path               | String   | 页面路径                                                             |
+| $title               | String   | 页面标题                                                             |
 | $referrer_domain    | String   | 来源域名或包名                                                       |
 | $referrer_path      | String   | 上一个页面路径                                                       |
 | $query              | String   | 页面query参数                                                        |
