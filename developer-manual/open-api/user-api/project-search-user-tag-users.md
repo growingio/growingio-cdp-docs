@@ -1,18 +1,18 @@
 ---
-id: project-search-segment
-sidebar_position: 8
+id: project-search-user-tag-users
+sidebar_position: 6
 ---
 
-# 项目-群体画像用户列表查询
+# 项目-用户标签用户列表查询
 
 ## 接口说明
 
-查询项目指定群体画像的用户特征
+查询项目指定用户标签覆盖用户的用户特征
 
 ## 接口地址
 
 ```
-http://{api-host}/v1/api/projects/{project_ID}/segment_profiles/{segment_key}/users
+http://{api-host}/v1/api/projects/{project_ID}/user_tags/{tag_key}/users
 ```
 
 ## 请求方式
@@ -28,7 +28,7 @@ GET
 | 名称      | 类型   | 必填 | 描述                 | 示例值        |
 | --------- | ------ | ---- | -------------------- | ------------- |
 | project_ID  | String | 是   | 群体画像所在项目ID | WlGk4Daj |
-| segment_key | String | 是   | 群体画像标识符 | seg_51activity |
+| tag_key | String | 是   | 用户标签标识符 | tag_rfm |
 
 ## 查询参数
 
@@ -57,15 +57,14 @@ GET
 | identifications | < String , List > | 查询的用户身份值 |
 | properties | Objective | 查询的用户属性和用户标签值 |
 
+## 示例 1：用户标签标识符不存在或未授权该项目
 
-## 示例 1：群体画像标识符不存在
-
-场景：搜索 **未定义** 的群体画像 **seg_undefine** 的用户ID，单次查询返回数据上限为100，标识位为0。
+场景：根据项目ID WlGk4Daj 搜索 **未定义** 或 **未授权** 的用户标签 **tag_rfm** 的用户ID，单次查询返回数据上限为100，标识位为0。
 
 ### 请求示例
 
 ```bash
-curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segment_profiles/seg_undefine/users?limit=100&offset=0&properties[]=ids_$basic_userId'
+curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/user_tags/tag_rfm/users?limit=100&offset=0&properties[]=ids_$basic_userId'
 --header 'Authorization: Bearer c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
 ```
 
@@ -77,12 +76,12 @@ Internal Server Error
 
 ## 示例 2：搜索条件未输入用户身份、用户属性、用户标签
 
-场景：搜索 群体画像 **seg_51activity** ,单次查询返回数据上限为100，标识位为0。
+场景：根据项目ID WlGk4Daj 搜索 群体画像 **tag_rfm** ,单次查询返回数据上限为100，标识位为0。
 
 ### 请求示例
 
 ```bash
-curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segment_profiles/seg_51activity/users?limit=100&offset=0'
+curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/user_tags/tag_rfm/users?limit=100&offset=0'
 --header 'Authorization: Bearer c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
 ```
 
@@ -113,12 +112,12 @@ curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segmen
 
 ## 示例 3：搜索群体画像用户列表，并输入用户身份、用户属性、用户标签
 
-场景：搜索 群体画像 **seg_51activity** 的用户ID、性别、RFM标签,单次查询返回数据上限为100，标识位为100。
+场景：根据项目ID WlGk4Daj 搜索 群体画像 **tag_rfm** 的用户ID、性别、RFM标签,单次查询返回数据上限为100，标识位为100。
 
 ### 请求示例
 
 ```bash
-curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segment_profiles/seg_51activity/users?limit=100&offset=100&properties[]=ids_$basic_userId&properties[]=usr_gender&properties[]=tag_rfm'
+curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/user_tags/tag_rfm/users?limit=100&offset=100&properties[]=ids_$basic_userId&properties[]=usr_gender&properties[]=tag_rfm'
 --header 'Authorization: Bearer c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
 ```
 

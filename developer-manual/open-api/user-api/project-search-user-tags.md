@@ -1,5 +1,5 @@
 ---
-id: project-tag-list
+id: project-search-user-tags
 sidebar_position: 5
 ---
 

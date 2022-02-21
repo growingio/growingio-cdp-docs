@@ -1,5 +1,17 @@
 # 更新日志
 
+## v2.5-beta：2022 年 02 月 15 日发布
+
+- 新增
+  - [Open API](/developer-manual/open-api/README.md)
+    - 用户洞察
+      - 支持 [客户数据平台-用户标签列表查询](/developer-manual/open-api/user-api/dc-search-user-tags)
+      - 支持 [客户数据平台-用户标签用户列表查询](/developer-manual/open-api/user-api/dc-search-user-tag-users)
+      - 支持 [项目-单用户查询](/developer-manual/open-api/user-api/project-search-user)
+      - 支持 [项目-用户标签列表查询](/developer-manual/open-api/user-api/project-search-user-tags)
+      - 支持 [项目-用户标签用户列表查询](/developer-manual/open-api/user-api/project-search-user-tag-users)
+      - 支持 [项目-群体画像列表查询](/developer-manual/open-api/user-api/project-search-segment-profiles)
+
 ## v2.4-beta：2022 年 01 月 24 日发布
 
 - 优化
@@ -16,8 +28,10 @@
     - 创建可复用的计算指标，在分析工具中使用
   - 虚拟属性
     - 支持基于预定义和自定义的事件属性，编写 SQL 片段加工成新的属性值，以便在属性拆解、条件过滤中使用
-  - Open API
-    - 提供一套 RESTful 风格的开放接口，方便客户调用进行二次开发。
+  - Open API：提供一套 RESTful 风格的开放接口，方便客户调用进行二次开发。
+    - 用户洞察：
+      - 支持 [客户数据平台-单用户查询](/developer-manual/open-api/user-api/dc-search-user)
+      - 支持 [项目-群体画像用户列表查询](/developer-manual/open-api/user-api/project-search-segment-profile-users)
   - 帮助文档
     - 新增帮助文档跳转链接，点击可跳转到对应版本帮助文档首页。
 
