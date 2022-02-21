@@ -40,7 +40,7 @@ sidebar_position: 1
 | - | - | - |
 | - | - | - |
 | 项目-单用户查询   | 查询项目指定用户的全部特征 | [查看文档](./user-api/project-search-user) |
-| - | - | - |
-| - | - | - |
-| 项目-群体画像画像列表查询 | 查询项目中已定义的全部群体画像信息 | [查看文档](./user-api/project-segment-list) |
+| 项目-用户标签列表查询 | 查询项目中已授权的全部用户标签信息 | [查看文档](./user-api/project-tag-list) |
+| 项目-用户标签用户列表查询 | 查询项目指定用户标签覆盖用户的用户特征 | [查看文档] |
+| 项目-群体画像列表查询 | 查询项目中已定义的全部群体画像信息 | [查看文档](./user-api/project-segment-list) |
 | 项目-群体画像用户列表查询 | 查询项目指定群体画像的用户特征 | [查看文档](./user-api/project-search-segment) |

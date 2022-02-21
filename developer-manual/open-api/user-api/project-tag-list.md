@@ -1,18 +1,18 @@
 ---
-id: project-segment-list
-sidebar_position: 7
+id: project-tag-list
+sidebar_position: 5
 ---
 
-# 项目-群体画像列表查询
+# 项目-用户标签列表查询
 
 ## 接口说明
 
-查询项目中已定义的全部群体画像信息
+查询项目中已授权的全部用户标签信息
 
 ## 接口地址
 
 ```
-http://{api-host}/v1/api/projects/{project_ID}/segment_profiles
+http://{api-host}/v1/api/projects/{project_ID}/user_tags
 ```
 
 ## 请求方式
@@ -54,9 +54,9 @@ GET
 | id | String | 哈希ID，ID自增 |
 | name | String | 名称 |
 | key | String | 标识符 |
-| createdBy | String | 分群类型<br></br>DIRECT：规则创建<br></br>FROM_FUNNEL：漏斗创建<br></br>FROM_RETENTION：留存创建<br></br>FROM_FREQUENCY：分布分析创建<br></br>FROM_FILES：文件上传 |
+| type | String | 标签类型<br></br>AGGREGATED：基础指标值<br></br>TOP_N_ATTRIBUTE：最大值/最小值的事件属性<br></br>ATTRIBUTION_ATTRIBUTE：首次/末次的事件属性<br></br>DATA_SET_ATTRIBUTE：列表类的事件属性<br></br>HORIZONTAL：分层标签<br></br>SQL：SQL标签 |
 | description | String | 描述 |
-| scheduler | String | 更新频次<br></br>DAILY：每日更新<br></br>ONCE：手动 |
+| valueType | Objective | 数值类型 |
 | detector | Objective | 更新状态信息 |
 | creatorId | String | 创建人ID |
 | creator | String | 创建人 |
@@ -65,6 +65,13 @@ GET
 | updater | String | 最近修改人 |
 | updatedAt | Datetime | 最近修改时间 |
 
+#### valueType数据
+
+| 名称            | 类型      | 描述                             |
+| --------------- | --------- | -------------------------------- |
+| type | String | 数值类型<br></br>STRING：字符串<br></br>INT：整数<br></br>DOUBLE：小数<br></br>DATE：日期 |
+| isArray | Bool | 是否为列表型<br></br>true：是<br></br>false：否 |
+
 #### detector数据
 
 | 名称            | 类型      | 描述                             |
@@ -72,15 +79,15 @@ GET
 | stage | String | 计算状态<br></br>NONE：计算未开始<br></br>RUNNING：计算中<br></br>FINISH：计算成功<br></br>ERROR：计算失败 |
 | detectedAt | Datetime | 更新时间 |
 
-## 示例：根据项目ID查询群体画像列表
+## 示例：根据项目ID查询用户标签列表
 
-场景：在项目 WlGk4Daj 中查询已定义的全部群体画像信息
+场景：在项目 WlGk4Daj 中查询已授权的全部用户标签信息
 
 
 ### 请求示例
 
 ```bash
-curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segment_profiles?offset=0&limit=1000'
+curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/user_tags?offset=0&limit=1000'
 --header 'Authorization: Bearer c2ff9aa1-1824-4cc7-a01f-4094293a6af9'
 ```
 
@@ -97,10 +104,13 @@ curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segmen
         {
             "id": "WlGk4Daj",
             "name": "GrowingIO",
-            "key": "seg_example_api",
-            "createdBy": "DIRECT",
+            "key": "tag_example_api",
+            "type": "AGGREGATED",
             "description": "API示例",
-            "scheduler": "DAILY",
+            "valueType": {
+                "type": "DOUBLE",
+                "isArray": false
+            },
             "detector": {
                 "stage": "FINISH",
                 "detectedAt": "2022-01-01T01:01:00.000Z"
