@@ -1,9 +1,9 @@
 ---
-id: search-user
+id: dc-search-user
 sidebar_position: 1
 ---
 
-# 单用户查询
+# 客户数据平台-单用户查询
 
 ## 接口说明
 
