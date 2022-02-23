@@ -15,7 +15,7 @@ http://{api-host}/v1/api/projects/{项目ID}/users/{成员ID}
 PUT
 
 ## 公共请求参数
-[公共请求参数](../open-api-overview#公共请求参数)
+[公共请求参数](../../open-api#公共请求参数)
 
 ## 请求参数
 Body中放置请求参数，参数详情如下：
