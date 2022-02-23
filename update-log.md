@@ -10,16 +10,16 @@
     - 功能：计算逻辑优化
       - 支持基于全量用户计算用户分群
       - 支持用户未做过
-    - 说明：解决查询用户做过次数等于0、小于、小于等于时数据口径不一致问题
-    - [帮助文档](/product-manual/user-insights/segment-profiles/create-segment-profiles)
+    - 说明：解决查询用户做过次数等于 0、小于、小于等于时数据口径不一致问题
+    - [帮助文档](./product-manual/user-insights/segment-profiles/create-segment-profiles)
   - 群体画像
     - 功能：群体画像画像分析优化
       - 支持基于用户属性和用户标签维度拆解分析
       - 支持条形图和柱状图
       - 支持按照人数和按照维度名称排序
       - 支持图标拖拽排序
-      - 图片添加上限从6个扩充为20个
-    - [帮助文档](/product-manual/user-insights/segment-profiles/analysis-segment-profiles)
+      - 图片添加上限从 6 个扩充为 20 个
+    - [帮助文档](./product-manual/user-insights/segment-profiles/analysis-segment-profiles)
   - 指标管理
     - 创建可复用的计算指标，在分析工具中使用
   - 虚拟属性
@@ -27,8 +27,8 @@
   - Open API
     - 提供一套 RESTful 风格的开放接口，方便客户调用进行二次开发。
     - 用户洞察
-      - 支持查询客户数据平台指定用户的全部用户特征 [查看链接](/developer-manual/open-api/user-api/search-dc-user)
-      - 支持查询项目指定群体画像的指定用户特征 [查看链接](/developer-manual/open-api/user-api/search-project-segment)
+      - 支持查询客户数据平台指定用户的全部用户特征 [查看链接](./developer-manual/open-api/user-api/search-dc-user)
+      - 支持查询项目指定群体画像的指定用户特征 [查看链接](./developer-manual/open-api/user-api/search-project-segment)
   - 帮助文档
     - 新增帮助文档跳转链接，点击可跳转到对应版本帮助文档首页。
 
@@ -155,8 +155,8 @@ GrowingIO 增长平台团队
     - 支持唯一身份 ID 和弱身份 ID
     - 支持自定义用户身份和置信度
     - 支持根据多用户身份唯一识别系统用户
-  - ​[用户分群列表](product-manual/user-insights/segment-profiles/segment-profiles#群体画像列表页)：支持固定列设置，支持选择固定首、固定前 2 列、固定前 3 列
-  - 用户标签：支持 [SQL 标签](product-manual/customer-data-platform/user-management/user-tags/user-tags#sql标签)​
+  - ​[用户分群列表](product-manual/user-insights/segment-profiles#群体画像列表页)：支持固定列设置，支持选择固定首、固定前 2 列、固定前 3 列
+  - 用户标签：支持 [SQL 标签](product-manual/customer-data-platform/user-management/user-tags#sql标签)​
   - 项目数据授权：支持按照集成数据源授权和用户属性范围授权
   - ​[用户删除管理](product-manual/customer-data-platform/data-integration/user-del-management)：遵循 GDPR 欧盟规范，支持指定用户删除底层数据
   - 用户身份类型：事件表增加 user_key 字段，支持采集上报时指定登录用户的身份类型
@@ -242,7 +242,7 @@ GrowingIO 增长平台团队
     - 支持目标事件与触点事件用关联属性连接，提升归因准确性
     - 支持归因结果在不同属性维度或分群用户下的对比
 - 优化
-  - 客户数据平台[用户标签](product-manual/customer-data-platform/user-management/user-tags/user-tags)模块界面升级：
+  - 客户数据平台[用户标签](product-manual/customer-data-platform/user-management/user-tags)模块界面升级：
     - 详情查看页面和列表管理操作页面统一
     - UI 适配卡片组件
 - 修复
@@ -318,10 +318,10 @@ GrowingIO 增长平台团队
 
 - 新增
   - 标签
-    - ​[标签支持分类管理](product-manual/customer-data-platform/user-management/user-tags/user-tags#分类管理)​
+    - ​[标签支持分类管理](product-manual/customer-data-platform/user-management/user-tags#分类管理)​
   - 用戶
     - 腾讯画像，支持第三方腾讯 TGI 人群画像。[点击查看](product-manual/user-insights/tgi-profiles)​
-    - 用户信息融合到预置[用户属性](product-manual/customer-data-platform/user-management/user-properties/user-properties)，支持在分析等场景中使用
+    - 用户信息融合到预置[用户属性](product-manual/customer-data-platform/user-management/user-properties)，支持在分析等场景中使用
     - 新增[用户身份](product-manual/customer-data-platform/user-management/user-identifications)模块，支持查看 GrowingIO 用户识别配置方案
   - 新版事件分析
     - 埋点事件支持添加单事件过滤
@@ -396,7 +396,7 @@ GrowingIO 增长平台团队
   - 用戶：用户列表页面支持自定义列及下载
     - 使用者可以在分群中自定义下载 ，分群中用户 相关的 标签、属性、用户信息 。
   - 多项目管理 ：
-    - 支撑大型集团、大型多部门客户建立多个项目，分别进行独立的数据分析与协作。[点击查看](product-manual/project-management/project-management)​
+    - 支撑大型集团、大型多部门客户建立多个项目，分别进行独立的数据分析与协作。[点击查看](product-manual/project-management)​
   - 用户: 用户细查新增显示埋点事件 IP 信息
   - 全局过滤: 支持使用页面维度值搜索
 - 优化:
@@ -559,7 +559,7 @@ GrowingIO 增长平台团队
 ## v2020.6.1：2020 年 6 月发布[](#v-2020-6-1-2020-nian-6-yue-fa-bu)
 
 - 新功能:
-  - 产品分析：看板增加”[添加描述](product-manual/product-analysis/dashboards/dashboards#添加描述)“功能
+  - 产品分析：看板增加”[添加描述](product-manual/product-analysis/dashboards#添加描述)“功能
     - 支持添加描述功能，可在看板上增加对看板或图表的描述说明
     - 支持描述图表拖拽和移动功能，可根据描述区域拖拽描述图表到对应位置
   - 全局指标：支持 iOS 和 Android 无埋点[全局指标](product-manual/customer-data-platform/complex/term#quan-ju-zhi-biao)采集
@@ -578,7 +578,7 @@ GrowingIO 增长平台团队
 ## v2020.5.4：2020 年 5 月发布[](#v-2020-5-4-2020-nian-5-yue-fa-bu)
 
 - 新功能:
-  - 产品分析: [新增看板模块](product-manual/product-analysis/dashboards/dashboards)​
+  - 产品分析: [新增看板模块](product-manual/product-analysis/dashboards)​
     - 新增独立数据监控模块，为企业成员提供便捷的数据监控场景。
     - 看板支持订阅和取消订阅，可将当前关注的看板订阅至看板侧边栏，满足日常工作中固定数据报表监控场景使用需求。
     - 看板侧边栏支持通过拖拉进行看板排序，可根据日常数据监控需求自定义看板排序。

@@ -1,5 +1,5 @@
 ---
-id: search-user
+id: search-dc-user
 sidebar_position: 1
 ---
 
@@ -32,13 +32,13 @@ GET
 
 ## 返回数据
 
-| 名称            | 类型      | 描述                             |
-| --------------- | --------- | -------------------------------- |
-| gioId           | Int       | GrowingIO 系统生成的用户标示     |
+| 名称            | 类型              | 描述                             |
+| --------------- | ----------------- | -------------------------------- |
+| gioId           | Int               | GrowingIO 系统生成的用户标示     |
 | identifications | < String , List > | 系统用户的全部用户身份值         |
-| properties      | Objective | 系统用户的全部用户属性和用户标签 |
+| properties      | Objective         | 系统用户的全部用户属性和用户标签 |
 
-## 示例 1：根据用户ID搜索用户
+## 示例 1：根据用户 ID 搜索用户
 
 场景：搜索 **用户 ID** 为 **U3803180317** 用户的全部用户身份、用户属性和用户标签
 
@@ -71,7 +71,7 @@ curl --location --request GET 'http://{api-host}/v1/api/users/$basic_userId/U380
 }
 ```
 
-## 示例 2：根据设备ID搜索用户
+## 示例 2：根据设备 ID 搜索用户
 
 场景：搜索 **设备 ID** 为 **X** 用户的全部用户身份、用户属性和用户标签
 
