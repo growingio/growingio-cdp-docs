@@ -58,7 +58,7 @@ GrowingIO 系统中支持三种事物模型，分别为事件模型、用户模�
 
 ## 属性管理[](#shu-xing-guan-li)
 
-GrowingIO 系统支持对[事件属性](../../product-manual/customer-data-platform/event-management/event-property)、[维度表](../../product-manual/customer-data-platform/dimension-table-management/dimension-table-management)和[用户属性](../../product-manual/customer-data-platform/user-management/user-properties/user-properties)的创建、编辑和查看功能，详情请点击对应文字链接。
+GrowingIO 系统支持对[事件属性](../../product-manual/customer-data-platform/event-management/event-property)、[维度表](../../product-manual/customer-data-platform/dimension-table-management)和[用户属性](../../product-manual/customer-data-platform/user-management/user-properties)的创建、编辑和查看功能，详情请点击对应文字链接。
 
 ​[预定义属性](../../product-manual/customer-data-platform/event-management/present-property)和[用户信息](../../product-manual/customer-data-platform/user-management/user-identifications)为系统预置信息，仅支持查看，详情请点击对应文字链接。
 
@@ -71,7 +71,7 @@ GrowingIO 系统支持对[事件属性](../../product-manual/customer-data-platf
 
 用户属性创建成功后无需额外配置即可在系统中使用。
 
-配置方法：[事件属性](../../product-manual/customer-data-platform/event-management/event-property#创建事件属性)、[维度表](../../product-manual/customer-data-platform/dimension-table-management/dimension-table-management#创建维度表)​
+配置方法：[事件属性](../../product-manual/customer-data-platform/event-management/event-property#创建事件属性)、[维度表](../../product-manual/customer-data-platform/dimension-table-management#创建维度表)​
 
 ## 数据格式[](#shu-ju-ge-shi)
 
