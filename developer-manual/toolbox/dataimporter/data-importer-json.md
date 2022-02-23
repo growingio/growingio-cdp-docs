@@ -12,7 +12,7 @@ sidebar_position: 2
 - 用户属性数据导入
 - 用户行为数据导入
 
-使用前，请先阅读[数据导入工具](../../../developer-manual/toolbox/dataimporter/data-importer)的内容介绍。
+使用前，请先阅读[数据导入工具](../../../developer-manual/toolbox/dataimporter)的内容介绍。
 
 ## 功能说明
 
