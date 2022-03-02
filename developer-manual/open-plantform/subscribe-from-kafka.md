@@ -39,7 +39,7 @@ GrowingIO提供了集成 kafka 里面的protobuf二进制数据转换成数据�
 <dependency>
     <groupId>io.growing.data.utils.connector</groupId>
     <artifactId>gio-data-connector</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.4</version>
 </dependency>
 ```
 
