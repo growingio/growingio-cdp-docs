@@ -32,7 +32,7 @@ sidebar_position: 1
 
 支持UTM映射参数配置和管理
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2Fd6473de59725fa1cab6446a435381bbe23b18c0b.png?alt=media)
+![picture 0](/img/高级配置-UTM映射.png)  
 
 ### UTM 参数使用
 
