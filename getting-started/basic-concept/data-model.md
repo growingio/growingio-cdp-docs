@@ -84,7 +84,6 @@ GrowingIO通过SDK实时采集或文件批量导入的行为数据，统一存�
 | user           | String   | 登录用户ID                                                                               |
 | user_key       | String   | 用户身份类型。示例：$basic_userId                                                        |
 | gio_id         | UInt     | id-service为用户生成的自增序号，是分析中统计用户量等指标的关键字段                       |
-| session        | String   | 会话标识，标记一个访问                                                                   |
 | account_id     | String   | 账户ID（GrowingIO产品部署时自动生成，默认唯一值）                                        |
 | dt             | Date     | 事件上报的日期。示例：2021-06-01                                                         |
 | attributes     | Map      | 事件属性集。示例：{"city":"beijing","color":"red"}                                       |
@@ -101,6 +100,7 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 
 | 字段名              | 字段类型 | 含义及示例                                                           |
 |---------------------|----------|----------------------------------------------------------------------|
+| $session        | String   | 会话标识，标记一个访问                                                                   |
 | $platform           | String   | 平台标识，示例：Web                                                  |
 | $domain             | String   | 域名或包名                                                           |
 | $path               | String   | 页面路径                                                             |
