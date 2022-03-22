@@ -33,7 +33,7 @@ sidebar_position: 1
 
 ### 下载辅助工具[](#xia-zai-fu-zhu-gong-ju)
 
-​[辅助工具的安装和配置](../../../developer-manual/toolbox/dataimporter/#功能边界或约束)​
+​[辅助工具的安装和配置](../../../developer-manual/toolbox#功能边界或约束)​
 
 ### 选择合适的导入方式[](#xuan-ze-he-shi-de-dao-ru-fang-shi)
 

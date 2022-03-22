@@ -20,7 +20,7 @@ GrowingIO 数据模型的元数据主要包括事件、事件属性、用户属�
 
 > 该工具不提供删除功能。若需删除已创建但无用的元数据，需在 GrowingIO 前端功能里操作。
 
-使用前，请先阅读[辅助工具](../../developer-manual/toolbox/dataimporter#功能边界或约束)的内容介绍。
+使用前，请先阅读[辅助工具](../../developer-manual/toolbox#功能边界或约束)的内容介绍。
 
 ## 功能说明[](#chuang-jian-shi-jian)
 
