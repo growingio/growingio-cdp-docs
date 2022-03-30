@@ -2,21 +2,22 @@
 id: query-retention-analysis
 sidebar_position: 3
 ---
+# 项目-留存分析查询
 
-# 接口说明 
+## 接口说明 
 获取指定留存分析的统计结果 
-# 接口地址 
+## 接口地址 
 http://${api-host}/v1/api/projects/${projectId}/analysis/retention/${id}/chartdata 
-# 请求方式 
+## 请求方式 
 GET 
-# 公共请求参数 
+## 公共请求参数 
 [公共请求参数](https://docs.growingio.com/op-help/docs/2.6/developer-manual/open-api#%E5%85%AC%E5%85%B1%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0)
-# 查询参数 
+## 查询参数 
 | 名称  | 类型  | 必填  | 描述  | 示例值  |
 | --- | --- | --- | --- | --- |
 | forceRefresh  | boolean  | 否  | 忽略缓存  | false  |
 
-# 返回数据 
+## 返回数据 
 analysisInfo单图信息数据 
 
 | **名称** | **类型** | **描述** |
@@ -29,14 +30,14 @@ analysisInfo单图信息数据
 
 resultHeader 列名 
 resultRows 行数据 
-# 示例 
+## 示例 
 查询任意行为到任意行为的的留存信息 
-## 请求示例
+### 请求示例
 ```bash
 curl --location --request GET 'http://${api-host}/v1/api/projects/${projectId}/analysis/retention/${id}/chartdata?forceRefresh=false' \ --header 'Authorization: Bearer bbe40b12-96a5-459d-819d-feea0d9f85b5' 
 ```
 
-## 返回示例
+### 返回示例
 ```json
 { 
  "analysisInfo": { 
