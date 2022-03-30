@@ -63,11 +63,7 @@ sidebar_position: 1
 
 ### 批量新建帐号
 
-:::tip
-
-2.3.11 版本新增
-
-:::
+<span class="theme-doc-version-badge badge badge--secondary">2.3.11 ~</span>
 
 操作流程：点击批量新建帐号 > 下载成员导入模板文件 > 上传完成后的表格文件 > 批量导入 。
 
