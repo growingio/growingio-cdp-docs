@@ -2,16 +2,16 @@
 id: query-event-analysis
 sidebar_position: 1
 ---
-
-# 接口说明 
+# 项目-事件分析查询
+## 接口说明 
 获取指定事件分析的统计结果 
-# 接口地址 
+## 接口地址 
 `http://${api-host}/v1/api/projects/${projectId}/analysis/olap_event/${id}/chartdata` 
-# 请求方式 
+## 请求方式 
 GET 
-# 公共请求参数 
+## 公共请求参数 
 [公共请求参数](https://docs.growingio.com/op-help/docs/2.6/developer-manual/open-api#%E5%85%AC%E5%85%B1%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0)
-# 查询参数 
+## 查询参数 
 | **名称** | **类型** | **必填** | **描述** | **示例值** |
 | --- | --- | --- | --- | --- |
 | forceRefresh  | boolean  | 否  | 忽略缓存  | false  |
@@ -21,7 +21,7 @@ GET
 | offset  | int  | 否  | 查询标示位 
 默认0  | 0  |
 
-# 返回数据 
+## 返回数据 
 paginationInfo 分页信息数据 
 
 | **名称** | **类型** | **描述** |
@@ -48,16 +48,16 @@ analysisInfo单图信息数据
 
 resultHeader 列名 
 resultRows 行数据 
-# 示例 
+## 示例 
 查询任意事件的图表信息 
 
-## 请求示例
+### 请求示例
 ```bash
 curl --location --request GET 'http://${api-host}/v1/api/projects/${projectId}/analysis/olap_event/${id}/chartdata?forceRefresh=false&offset=0&limit=1000' \ 
 --header 'Authorization: Bearer bbe40b12-96a5-459d-819d-feea0d9f85b5'
 ```
 
-## 返回示例
+### 返回示例
 ```json
 { 
  "paginationInfo": { 
