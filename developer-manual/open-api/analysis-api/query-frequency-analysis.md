@@ -3,7 +3,7 @@ id: query-frequency-analysis
 sidebar_position: 4
 ---
 
-#项目-分布分析查询
+# 项目-分布分析查询
 ##  接口说明 
 获取指定分布分析的统计结果 
 ## 接口地址 
