@@ -1,3 +1,8 @@
+---
+id: query-event-analysis
+sidebar_position: 1
+---
+
 # 接口说明 
 获取指定事件分析的统计结果 
 # 接口地址 
@@ -47,16 +52,20 @@ resultRows 行数据
 查询任意事件的图表信息 
 
 ## 请求示例
+```bash
 curl --location --request GET 'http://${api-host}/v1/api/projects/${projectId}/analysis/olap_event/${id}/chartdata?forceRefresh=false&offset=0&limit=1000' \ 
 --header 'Authorization: Bearer bbe40b12-96a5-459d-819d-feea0d9f85b5'
+```
+
 ## 返回示例
+```json
 { 
  "paginationInfo": { 
  "offset": 0.0, 
  "limit": 1000.0, 
  "totalCount": 1.0, 
- "hasNextPage": **false**, 
- "hasPreviousPage": **false**
+ "hasNextPage": false, 
+ "hasPreviousPage": false
  }, 
  "analysisInfo": { 
  "name": "事件分析API示例", 
@@ -77,3 +86,4 @@ curl --location --request GET 'http://${api-host}/v1/api/projects/${projectId}/a
  "10" 
  ] 
  ] 
+ ```
