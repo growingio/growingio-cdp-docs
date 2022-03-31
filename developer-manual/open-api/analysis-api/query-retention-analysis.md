@@ -25,13 +25,22 @@ GET
 
 ## 请求参数
 
-| 名称      | 类型   | 必填 | 描述                 | 示例值        |
-| --------- | ------ | ---- | -------------------- | ------------- |
-| projectId  | String | 是   | 所在项目ID | WlGk4Daj |
-| id | String | 是   | 分析标识符 | zqQR5MDo |
+| 名称      | 类型   | 必填 | 描述        | 示例值   |
+| --------- | ------ | ---- | ----------- | -------- |
+| projectId | String | 是   | 所在项目 ID | WlGk4Daj |
+| id        | String | 是   | 分析标识符  | zqQR5MDo |
 
-注：您可以通过浏览器打开已保存的分析详情页，从URL中获取到项目ID和分析标识符，例如：分析详情页的URL为 https://xx.xxx.com/projects/nxGK0Da6/analysis/retention/wWDrYwGM
-其中项目ID为“nxGK0Da6“，分析标识符为”wWDrYwGM“
+:::tip 小贴士
+
+注：您可以通过浏览器打开已保存的分析详情页，从 URL 中获取到项目 ID 和分析标识符，例如：分析详情页的 URL 为
+
+```
+https://xx.xxx.com/projects/nxGK0Da6/analysis/retention/wWDrYwGM
+```
+
+其中项目 ID 为“nxGK0Da6“，分析标识符为”wWDrYwGM“
+
+:::
 
 ## 查询参数
 
