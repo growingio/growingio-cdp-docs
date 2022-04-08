@@ -26,7 +26,8 @@ sidebar_position: 6
 
 ## 测试扫码打开app 没有预览弹窗或者没有上传推送设备信息[](#ios_1-1)
 
-确认一下 依赖的数据采集SDK是否是**1.2.3**以上 handleUrl 有没有调用到 Xcode 的控制台打印可看 **集成SDK版本 GrowingIO version: 1.2.3 !!! Thank you very much for using GrowingIO Touch. SDK version 1.4.1**
+确认一下 依赖的数据采集SDK是否是**3.x** handleUrl 有没有调用到 Xcode 的控制台打印可看 **集成SDK版本 Thank you very much for using GrowingIO. We will do our best to provide you with the best service. GrowingIO version: 3.3.4**
+**Thank you very much for using GrowingIO Touch. SDK version 1.5.0**
 
 
 ## iOS 扫码测试推送收不到推送消息？[](#2-ios-sao-ma-ce-shi-tui-song-shou-bu-dao-tui-song-xiao-xi)

@@ -1,6 +1,6 @@
 ---
 id: mp-minip-sdk-getid
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # 设备预览弹窗，小程序获取设备访问ID

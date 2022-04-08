@@ -49,7 +49,7 @@ X-gio-signature:xxx
 
 在后台配置 webhook 通道
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MKXnoWLAupD3nID9JsQ%2F-MKXx2jkcc21mDm4ZqY2%2FJietu20201026-112916.jpg?alt=media&token=0078f989-3c2f-499e-92f6-d97448701ebe)
+![后台配置 webhook 通道](./../../img/marketsdk/create_webhook.png)
 
 后台配置 Webhook 通道
 

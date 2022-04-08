@@ -1,6 +1,6 @@
 ---
 id: mp-minip-sdk-debug
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # 调试指南（小程序）

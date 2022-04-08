@@ -11,7 +11,7 @@ sidebar_position: 1
 
 JS 弹窗 SDK 依赖于数据数据采集 SDK，如已集成请跳过
 
-参考 [Web JS SDK](https://growingio.github.io/growingio-sdk-docs/docs/webjs/base/getting_started)​
+参考 [Web JS SDK](https://growingio.github.io/growingio-sdk-docs/docs/webjs/base)​
 
 H5 弹窗 SDK 只能识别移动端 H5 弹窗，不识别 PC 端 Web 弹窗。如果您需要使用PC 端 Web 弹窗，请参考 [Web 弹窗 SDK](../../../developer-manual/marketing-platform-sdk/js-sdk/mp-js-sdk-popup-web)。如果您的站点自适应 PC 和移动端，请您参考 [Web/H5 自适应弹窗 SDK](../../../developer-manual/marketing-platform-sdk/js-sdk/mp-js-sdk-popup-web-h5-autofix)。
 

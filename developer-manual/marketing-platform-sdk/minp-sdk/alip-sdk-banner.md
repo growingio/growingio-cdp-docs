@@ -1,23 +1,23 @@
 ---
-id: mp-alip-sdk-popup
-sidebar_position: 2
+id: mp-alip-sdk-banner
+sidebar_position: 4
 ---
 
-# 弹窗SDK（支付宝小程序）
+# 资源位SDK（支付宝小程序）
 
-## 集成小程序弹窗SDK[](#yi-ji-cheng-xiao-cheng-xu-dan-chuang-sdk-zui-di-ban-ben-0-5)
+## 集成小程序资源位SDK[](#yi-ji-cheng-xiao-cheng-xu-banner-sdk-zui-di-ban-ben-0-5)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDnXWvc4f7SzaPFC9YJ%2F-MDnYoooSLtN7F3hqRLC%2Fimage.png?alt=media&token=b705c91e-b8f0-4521-b403-a38537243406)
 
 
 ### 首先支付宝小程序 数据采集SDK的集成。下载链接[](#1-shou-xian-zhi-fu-bao-xiao-cheng-xu-shu-ju-cai-ji-sdk-de-ji-cheng-xia-zai-lian-jie)
 
-参考[支付宝小程序 SDK 集成](https://growingio.github.io/growingio-sdk-docs/docs/miniprogram/3.3/integration/alipay) 弹窗依赖于数据采集SDK，index.js 是数据采集SDK，如果你之前集成过老版本，替换则是升级数据采集SDK，然后引入弹窗组件。
+参考[支付宝小程序 SDK 集成](https://growingio.github.io/growingio-sdk-docs/docs/miniprogram/3.3/integration/alipay) 资源位依赖于数据采集SDK，index.js 是数据采集SDK，如果你之前集成过老版本，替换则是升级数据采集SDK，然后引入资源位组件。
 
-弹窗[SDK下载地址](https://assets.giocdn.com/sdk/cdp/3.0/gio-alip.zip)(gio-marketing为弹窗SDK)
+资源位[SDK下载地址](https://assets.giocdn.com/sdk/cdp/3.0/gio-alip.zip)(gio-banner为资源位SDK)
 
 
-### 配置gtouchHost, 请求弹窗地址，一般与您环境的host一致[](#2-pei-zhi-gtouchhost-qing-qiu-dan-chuang-di-zhi-yi-ban-yu-nin-huan-jing-de-host-yi-zhi)
+### 配置gtouchHost, 请求资源位地址，一般与您环境的host一致[](#2-pei-zhi-gtouchhost-qing-qiu-banner-di-zhi-yi-ban-yu-nin-huan-jing-de-host-yi-zhi)
 
 ```js
 gdp('init', 'your GrowingIO accountId', 'your dataSourceID', 'your AppId', {
@@ -29,7 +29,7 @@ gdp('init', 'your GrowingIO accountId', 'your dataSourceID', 'your AppId', {
 ```
 
 
-### 数据中设置url_scheme与APPID 一致，不一致会导致获取不到弹窗[](#3-shu-ju-zhong-she-zhi-urlscheme-yu-appid-yi-zhi-bu-yi-zhi-hui-dao-zhi-huo-qu-bu-dao-dan-chuang)
+### 数据中设置url_scheme与APPID 一致，不一致会导致获取不到资源位[](#3-shu-ju-zhong-she-zhi-urlscheme-yu-appid-yi-zhi-bu-yi-zhi-hui-dao-zhi-huo-qu-bu-dao-banner)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJJDXUERO0Lv6A2fXF%2F-MDJJih-PzT7PSURSjQa%2Fimage.png?alt=media&token=979dbb8f-feb1-4006-b93f-eba76d5069d8)
 
@@ -46,7 +46,7 @@ gdp('init', 'your GrowingIO accountId', 'your dataSourceID', 'your AppId', {
 
 ## 平台创建支付宝小程序SDK消息[](#er-ping-tai-chuang-jian-zhi-fu-bao-xiao-cheng-xu-sdk-xiao-xi)
 
-进入  **用户运营**，点击左上角的**新建**按钮，选择**弹窗**，然后选择**小程序**，即可进入小程序的弹窗配置页面
+进入  **用户运营**，点击左上角的**新建**按钮，选择**资源位**，然后选择**小程序**，即可进入小程序的资源位配置页面
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5ESYD_de7WR234LbA%2F-MC5EvZw5tc81JPFySX7%2Fimage.png?alt=media&token=7f39d6ae-ba6f-4fbf-a258-11df502efe5d)
 
@@ -62,22 +62,22 @@ gdp('init', 'your GrowingIO accountId', 'your dataSourceID', 'your AppId', {
 
 ### 原生小程序应用[](#31-yuan-sheng-xiao-cheng-xu-ying-yong)
 
-1. 在**app.json**文件中的**usingComponents**属性中，添加**gio-marketing**组件
+1. 在**app.json**文件中的**usingComponents**属性中，添加**gio-banner**组件
 
 ```js
 "usingComponents":  {
 
- "gio-marketing":  "utils/components/gio-marketing/gio-marketing"
+ "gio-banner":  "utils/components/gio-banner/gio-banner"
 
 },
 ```
 
-2. 在**每一个page**页面的axml文件里，引入gio-marketing组件（原则上只需要在需要弹窗的页面引入组件）
+2. 在**每一个page**页面的axml文件里，引入gio-banner组件（原则上只需要在需要资源位的页面引入组件）
 
 ```xml
 // 例：pages/index/index.wxml
 
-<gio-marketing />
+<gio-banner />
 
 <View>Welcome to GrowingIO</View>
 ```

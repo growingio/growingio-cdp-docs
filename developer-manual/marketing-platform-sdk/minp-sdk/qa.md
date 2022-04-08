@@ -1,9 +1,9 @@
 ---
 id: mp-minip-sdk-faq
-sidebar_position: 5
+sidebar_position: 7
 ---
 
-# 小程序集成常见问题
+# 小程序运营SDK常见问题
 
 ## 查看 SDK 版本信息
 

@@ -20,10 +20,10 @@ sidebar_position: 1
 :::info
 推送 SDK 依赖于数据数据采集 SDK
 
-版本要求最低1.2.3，如已集成请跳过
+版本建议使用最新版本，如已集成请跳过
 :::
 
-参考 [Android SDK](https://growingio.github.io/growingio-sdk-docs/docs/android/base/Getting%20Started) ​
+参考 [Android SDK](https://growingio.github.io/growingio-sdk-docs/docs/android/base) ​
 
 
 ### 添加依赖[](#2-tian-jia-yi-lai)
@@ -91,7 +91,7 @@ dependencies {
 }
 ```
 
-> $gtouch_version 为最新SDK版本号，现最新的版本号为请参考[SDK更新日志](../../../../developer-manual/marketing-platform-sdk/marketing-platform-sdk-changelogs)。
+> $gtouch_version 为最新SDK版本号，现最新的版本号为请参考[SDK更新日志](./../changelogs.md)。
 
 
 ### 配置AppID和AppKey[](#3-pei-zhi-appid-he-appkey)

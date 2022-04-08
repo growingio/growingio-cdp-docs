@@ -11,7 +11,7 @@ sidebar_position: 3
 
 JS 弹窗 SDK 依赖于数据数据采集 SDK，如已集成请跳过
 
-参考 [Web JS SDK](https://growingio.github.io/growingio-sdk-docs/docs/webjs/base/getting_started)​
+参考 [Web JS SDK](https://growingio.github.io/growingio-sdk-docs/docs/webjs/base)​
 
 如果你的站点只在移动端使用，可以使用 [H5 弹窗 SDK](../../../developer-manual/marketing-platform-sdk/js-sdk/mp-js-sdk-popup-h5) ，如果您的站点只在 PC 端使用，可以使用 [Web 弹窗 SDK](../../../developer-manual/marketing-platform-sdk/js-sdk/mp-js-sdk-popup-web)。
 

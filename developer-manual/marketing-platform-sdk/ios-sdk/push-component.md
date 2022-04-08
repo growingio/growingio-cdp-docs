@@ -14,12 +14,14 @@ sidebar_position: 3
 
 ### 集成GrowingIO iOS **CDP** 数据采集SDK[](#1-ji-cheng-growingio-ios-cdp-shu-ju-cai-ji-sdk)
 
-推送 SDK 依赖于数据数据采集 SDK
+:::info
+推送 SDK 依赖于数据数据采集 SDK 和 Upgrade 插件
 
-版本要求最低1.2.3，如已集成请跳过
+版本建议使用最新版本
+:::
 
-参考 [iOS SDK](https://growingio.github.io/growingio-sdk-docs/docs/ios/base/Getting_Started)
-
+参考 [iOS 采集 SDK](https://growingio.github.io/growingio-sdk-docs/docs/ios/base)
+参考 [iOS Upgrade SDK](https://github.com/growingio/growingio-sdk-ios-autotracker-upgrade/wiki/Autotracker-upgrade-2to3-cdp-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
 
 ### 添加支持用户运营扫码的代码[](#tian-jia-zhi-chi-yong-hu-yun-ying-sao-ma-de-dai-ma)
 
@@ -52,7 +54,7 @@ sidebar_position: 3
 
 GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！ GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！ GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！！！且不同target
 
-下载地址[http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip)​
+下载地址[http://assets.giocdn.com/cdp/ios/CDPTouch1.5.0.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.5.0.zip)​
 
 * 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingPushKit.framework 添加到iOS工程中
     
