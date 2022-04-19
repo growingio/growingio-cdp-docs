@@ -62,7 +62,7 @@ step 3: 在3处选择筛选维度值
 
 ### 筛选条件[](#shai-xuan-tiao-jian)
 
-### 字符串[](#zi-fu-chuan)
+#### 字符串[](#zi-fu-chuan)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M9c6QU8fuVKrk5hv2zN%2F-M9c8-Pj8ix6i-oJHu-W%2Fimage.png?alt=media&token=0b4524ec-4224-4cdd-b08c-d8ea5a434b66)
 
@@ -81,7 +81,7 @@ step 3: 在3处选择筛选维度值
 
 注意：除没值外，其它筛选条件均默认在有值条件下进行筛选，即值不为NULL、空字符串或任意个空格
 
-### 整数和小数[](#zheng-shu-he-xiao-shu)
+#### 整数和小数[](#zheng-shu-he-xiao-shu)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M9c6QU8fuVKrk5hv2zN%2F-M9c93Wfaqi-wfZ6CSrI%2Fimage.png?alt=media&token=0dcec48e-1eb4-4cf6-966b-d0554bd4fdc9)
 
@@ -101,7 +101,7 @@ step 3: 在3处选择筛选维度值
 
 注意：除没值外，其它筛选条件均默认在有值条件下进行筛选，即值不为NULL
 
-### 日期[](#ri-qi)
+#### 日期[](#ri-qi)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M9c6QU8fuVKrk5hv2zN%2F-M9c9OV9lGJV5GiGRwfF%2Fimage.png?alt=media&token=f36f5ca7-6984-47af-8dc0-61d0e13ccd62)
 
@@ -123,7 +123,7 @@ step 3: 在3处选择筛选维度值
 
 注意：除没值外，其它筛选条件均默认在有值条件下进行筛选，即值不为NULL
 
-#### 相对现在
+##### 相对现在
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M9cAVOHrFsohkauXBwU%2F-M9cBD5bJ2kT5wDn_rRN%2Fimage.png?alt=media&token=1d5a88f8-158c-451d-94ec-4599fb8295e2)
 
@@ -171,7 +171,7 @@ step 3: 在3处选择筛选维度值
 
 注：N = 1, 2, 3, 4 ... ( 正整数 )
 
-#### 相对区间
+##### 相对区间
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MA9Ne-F7PdyzBRKJ7Gs%2F-MA9POTIxusDeV8XDYa0%2Fimage.png?alt=media&token=e2ac7817-417f-4137-973e-8dc1bd13c4b6)
 
@@ -204,3 +204,21 @@ step 3: 在3处选择筛选维度值
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MA9Ne-F7PdyzBRKJ7Gs%2F-MA9S6Zx6es4cxo9wlGw%2Fimage.png?alt=media&token=9210f6ad-8368-441f-85c5-93fe5f7d676d)
 
 过去3天至过去1天之内 & 未来3天至未来6天之内
+
+
+#### 列表[](#lie-biao)
+![alt 列表过滤](/img/filter_list.png)
+
+列表筛选条件
+
+| 筛选条件 | 描述说明 |
+| --- | --- |
+| 全包含 | 列表完全包含输入值 |
+| 不包含 | 列表不包含输入值中的任何一个值 |
+| 有值  | 列表元素个数>0时才会进入统计分析 |
+| 无值  | 列表元素个数=0时才会进入统计分析 |
+
+注意：除无值外，其它筛选条件均默认在有值条件下进行筛选，即值列表元素个数>0
+
+##### 全包含和不包含
+例如：['红','黄','蓝'] 全包含 ['红']、['红','黄']以及['红','黄','蓝']，但不包含 ['绿']、['红','绿']
