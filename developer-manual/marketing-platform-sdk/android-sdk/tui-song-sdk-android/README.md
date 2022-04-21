@@ -24,7 +24,7 @@ sidebar_position: 1
 版本建议使用最新版本，如已集成请跳过
 :::
 
-参考 [Android SDK](https://growingio.github.io/growingio-sdk-docs/docs/android/base) ​
+参考 [Android SDK](https://growingio.github.io/growingio-sdk-docs/docs/android)​
 
 ### 添加依赖[](#2-tian-jia-yi-lai)
 
