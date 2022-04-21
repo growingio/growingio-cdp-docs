@@ -5,33 +5,32 @@ sidebar_position: 2
 
 # 弹窗 SDK（iOS）
 
-弹窗SDK最低兼容iOS 8.0 系统。
+弹窗 SDK 最低兼容 iOS 8.0 系统。
 
 库简介
 
 > GrowingTouchCoreKit.framework 运营基础库
-> GrowingTouchCoreUI.bundle UI页面图
+> GrowingTouchCoreUI.bundle UI 页面图
 > GrowingTouchKit.framework 运营弹窗库
-> GrowingTouchBannerKit.framework 运营banner库
+> GrowingTouchBannerKit.framework 运营 banner 库
 
-## 集成SDK[](#yi-ji-cheng-sdk)
+## 集成 SDK[](#yi-ji-cheng-sdk)
 
-### 集成GrowingIO iOS CDP数据采集SDK[](#1-ji-cheng-growingio-ios-cdp-shu-ju-cai-ji-sdk)
+### 集成 GrowingIO iOS CDP 数据采集 SDK[](#1-ji-cheng-growingio-ios-cdp-shu-ju-cai-ji-sdk)
 
 :::info
 弹窗 SDK 依赖于数据数据采集 SDK
 
-版本要求最低1.2.3，如已集成请跳过
+版本要求最低 1.2.3，如已集成请跳过
 :::
 
-参考 [iOS SDK](https://growingio.github.io/growingio-sdk-docs/docs/ios/base/Getting_Started)
-
+参考 [iOS SDK](https://growingio.github.io/growingio-sdk-docs/docs/ios)
 
 ### 添加支持用户运营扫码的代码[](#tian-jia-zhi-chi-yong-hu-yun-ying-sao-ma-de-dai-ma)
 
 > 在 AppDelegate 中添加
 
-因为您代码的复杂程度以及iOS SDK的版本差异，有时候 [Growing handleUrl:url] 并没有被调用。请在各个平台上调试这段代码，确保当App被URL scheme唤醒之后，该函数能被调用到。
+因为您代码的复杂程度以及 iOS SDK 的版本差异，有时候 [Growing handleUrl:url] 并没有被调用。请在各个平台上调试这段代码，确保当 App 被 URL scheme 唤醒之后，该函数能被调用到。
 
 ```swift
 -  (BOOL)application:(UIApplication  *)application openURL:(NSURL  *)url sourceApplication:(NSString  *)sourceApplication annotation:(id)annotation
@@ -53,16 +52,15 @@ sidebar_position: 2
 }
 ```
 
-### 集成运营SDK[](#2-ji-cheng-yun-ying-sdk)
+### 集成运营 SDK[](#2-ji-cheng-yun-ying-sdk)
 
-手动集成SDK 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle以及GrowingTouchKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip)​
+手动集成 SDK 下载最新的 iOS GrowingTouch SDK 包，并将其中的 GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle 以及 GrowingTouchKit.framework 添加到 iOS 工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip)​
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4mOetDAxVVM8YCSlJs%2F-M4mOmcb0LHDIZj_s540%2Fimage.png?alt=media&token=ba7ac106-deb9-444b-b087-3e5b7033fc4b)
 
+### 初始化 SDK[](#3-chu-shi-hua-sdk)
 
-### 初始化SDK[](#3-chu-shi-hua-sdk)
-
-在 AppDelegate 中导入 `import <GrowingTouchCoreKit/GrowingTouchCoreKit.h>` 并添加初始化方法，且保证在 GrowingIO 采集SDK 启动代码后
+在 AppDelegate 中导入 `import <GrowingTouchCoreKit/GrowingTouchCoreKit.h>` 并添加初始化方法，且保证在 GrowingIO 采集 SDK 启动代码后
 
 ```swift
 -  (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -80,22 +78,21 @@ sidebar_position: 2
 }
 ```
 
-请注意调用顺序，需要在 GrowingIO 采集SDK 启动代码调用后，再调用 [GrowingTouch start] 函数。
-
+请注意调用顺序，需要在 GrowingIO 采集 SDK 启动代码调用后，再调用 [GrowingTouch start] 函数。
 
 ## 重要配置[](#er-zhong-yao-pei-zhi)
 
-### 设置弹窗SDK开关 setEventPopupEnable[](#1-she-zhi-dan-chuang-sdk-kai-guan-seteventpopupenable)
+### 设置弹窗 SDK 开关 setEventPopupEnable[](#1-she-zhi-dan-chuang-sdk-kai-guan-seteventpopupenable)
 
 设置弹窗 SDK 的开关，默认是“YES”。因为每个 App 的实现方式不同，如果默认状态下弹窗在闪屏页或 启动页就会弹出，可以通过在初始化 SDK 设置 “NO” 来解决这个问题，当 App 的内容页打开时再进行弹窗：
 
-+  (void)setEventPopupEnable:(BOOL)enable;
+- (void)setEventPopupEnable:(BOOL)enable;
 
 **参数说明**
 
-| 参数名 | 类型  | 必填  | 说明  |
-| --- | --- | --- | --- |
-| enable | bool | 是   | 开关弹窗SDK。<br></br>* 开启YES<br></br>* 关闭NO<br></br>默认值YES |
+| 参数名 | 类型 | 必填 | 说明                                                                   |
+| ------ | ---- | ---- | ---------------------------------------------------------------------- |
+| enable | bool | 是   | 开关弹窗 SDK。<br></br>_ 开启 YES<br></br>_ 关闭 NO<br></br>默认值 YES |
 
 **代码示例**
 
@@ -103,10 +100,9 @@ sidebar_position: 2
 [GrowingTouch setEventPopupEnable:YES];
 ```
 
+### 设置 Debug 模式 setDebugEnable[](#2-she-zhi-debug-mo-shi-setdebugenable)
 
-### 设置Debug模式 setDebugEnable[](#2-she-zhi-debug-mo-shi-setdebugenable)
-
-查看GTouch日志，能够查看GrowingTouch打印的日志，如果需要的话，可以在初始化SDK地方添加配置。
+查看 GTouch 日志，能够查看 GrowingTouch 打印的日志，如果需要的话，可以在初始化 SDK 地方添加配置。
 
 ```swift
 +  (void)setDebugEnable:(BOOL)enable;
@@ -114,16 +110,15 @@ sidebar_position: 2
 
 **参数说明**
 
-| 参数名 | 类型  | 必填  | 说明  |
-| --- | --- | --- | --- |
-| enable | bool | 是   | 开启弹窗日志。<br></br>* 开启YES<br></br>* 关闭NO<br></br>默认值NO |
+| 参数名 | 类型 | 必填 | 说明                                                                  |
+| ------ | ---- | ---- | --------------------------------------------------------------------- |
+| enable | bool | 是   | 开启弹窗日志。<br></br>_ 开启 YES<br></br>_ 关闭 NO<br></br>默认值 NO |
 
 **代码示例**
 
 ```swift
 [GrowingTouch setDebugEnable:YES];
 ```
-
 
 ### 设置显示超时时间 setEventPopupShowTimeout[](#3-she-zhi-xian-shi-chao-shi-shi-jian-seteventpopupshowtimeout)
 
@@ -135,16 +130,15 @@ sidebar_position: 2
 
 **参数说明**
 
-| **参数名** | 类型  | 必填  | 说明  |
-| --- | --- | --- | --- |
-| millis | long long | 是   | 埋点事件的产生到弹窗完全显示的超时时间，单位ms。0<=有效值<=100000，默认值5000 |
+| **参数名** | 类型      | 必填 | 说明                                                                            |
+| ---------- | --------- | ---- | ------------------------------------------------------------------------------- |
+| millis     | long long | 是   | 埋点事件的产生到弹窗完全显示的超时时间，单位 ms。0<=有效值<=100000，默认值 5000 |
 
 **代码示例**
 
 ```swift
 [GrowingTouch setEventPopupShowTimeout:8000];
 ```
-
 
 ### 弹窗的事件监听 setEventPopupDelegate[](#4-dan-chuang-de-shi-jian-jian-ting-seteventpopupdelegate)
 
@@ -227,7 +221,7 @@ sidebar_position: 2
 
  \* @param eventType 事件类型，system(弹窗SDK内置的事件)或custom(用户自定义的埋点事件)
 
- */ 
+ */
 
 -  (void)onCancelEventPopup:(NSString *)trackEventId eventType:(NSString *)eventType;
 
@@ -353,36 +347,36 @@ sidebar_position: 2
 
 }
 ```
+
 ​
 
-## API介绍[](#san-api-jie-shao)
+## API 介绍[](#san-api-jie-shao)
 
 **\+ (void)enableEventPopupAndGenerateAppOpenEvent;**
 
-打开弹窗 SDK 并触发 AppOpen 事件。如果担心弹窗 SDK 在 APP 启动页或者闪屏页显示弹窗，您可以选择在初始化关闭弹窗，然后在您 App的内容页打开时再打开弹窗开关。但是单纯调用 [GrowingTouch setEventPopupEnable:YES]; 只会打开弹窗 SDK 开关，并不会触发 AppOpen 事件。如果调用上述API 则会打开弹窗开关，同时触发一个 AppOpen 事件。
+打开弹窗 SDK 并触发 AppOpen 事件。如果担心弹窗 SDK 在 APP 启动页或者闪屏页显示弹窗，您可以选择在初始化关闭弹窗，然后在您 App 的内容页打开时再打开弹窗开关。但是单纯调用 [GrowingTouch setEventPopupEnable:YES]; 只会打开弹窗 SDK 开关，并不会触发 AppOpen 事件。如果调用上述 API 则会打开弹窗开关，同时触发一个 AppOpen 事件。
 
 **\+ (BOOL)isEventPopupShowing;**
 
 弹窗是否正在显示
 
-
 ## 常见问题[](#si-chang-jian-wen-ti)
 
-### 弹窗跳转App原生界面[](#1-dan-chuang-tiao-zhuan-app-yuan-sheng-jie-mian)
+### 弹窗跳转 App 原生界面[](#1-dan-chuang-tiao-zhuan-app-yuan-sheng-jie-mian)
 
 特别需要注意以下两点：
 
-（1）如果点击跳转的原生界面是通过Objective-C开发的控制器，例如控制器名称为 InAppViewController ，传递参数为key1、key2，则弹窗页面配置如下：
+（1）如果点击跳转的原生界面是通过 Objective-C 开发的控制器，例如控制器名称为 InAppViewController ，传递参数为 key1、key2，则弹窗页面配置如下：
 
-* **弹窗Web页面配置如下：**
-    
+- **弹窗 Web 页面配置如下：**
+
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4m_pKRmrAEW9BUZ6tm%2F-M4maFVCNIv4UhyoP2A9%2Fimage.png?alt=media&token=ffd8c212-c05c-487e-9bdb-b8f93e9e4460)
 
-其中「自定义参数」意思是输入任何您自己的scheme（自定义协议），比如： myapp://productdetails/itemabc ，然后在onclick事件回调中解析出来就行了，解析自定义协议地址的话，onClick()方法需返回true。
+其中「自定义参数」意思是输入任何您自己的 scheme（自定义协议），比如： myapp://productdetails/itemabc ，然后在 onclick 事件回调中解析出来就行了，解析自定义协议地址的话，onClick()方法需返回 true。
 
-此时生成的跳转链接为`InAppViewController?key1=value1&key2=value2` ，点击自动跳转到原生界面InAppViewController，并携带两个参数。
+此时生成的跳转链接为`InAppViewController?key1=value1&key2=value2` ，点击自动跳转到原生界面 InAppViewController，并携带两个参数。
 
-在InAppViewController可以通过提前定义属性，获取参数
+在 InAppViewController 可以通过提前定义属性，获取参数
 
 ```swift
 @interface InAppViewController  :  UIViewController
@@ -394,9 +388,9 @@ sidebar_position: 2
 @end
 ```
 
-（2）如果跳转的原生界面是通过swift开发的控制器，需要按照以下步骤进行接入。
+（2）如果跳转的原生界面是通过 swift 开发的控制器，需要按照以下步骤进行接入。
 
-例如跳转的原生界面是SFViewController.swift，示例项目工程为 TestDemo，在SFViewController.swift中可以通过提前定义属性，用于获取参数
+例如跳转的原生界面是 SFViewController.swift，示例项目工程为 TestDemo，在 SFViewController.swift 中可以通过提前定义属性，用于获取参数
 
 ```swift
 class  SFViewController:  UIViewController  {
@@ -407,7 +401,7 @@ class  SFViewController:  UIViewController  {
 
  override  func  viewDidLoad()  {
 
- super.viewDidLoad() 
+ super.viewDidLoad()
 
  // Do any additional setup after loading the view.
 
@@ -416,36 +410,36 @@ class  SFViewController:  UIViewController  {
 }
 ```
 
-第1步：编译运行当前示例项目工程TestDemo（实际过程中应为对应的项目工程名称）
+第 1 步：编译运行当前示例项目工程 TestDemo（实际过程中应为对应的项目工程名称）
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4maPc9ZF4vO6HXHRUt%2Fimage.png?alt=media&token=1a8b8078-996a-4bc6-8e32-2622fc0f1644)
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4maVDSvwn0BaJVbpGS%2Fimage.png?alt=media&token=66f59993-5f68-4a55-98b9-7cec0cf915d3)
 
-第3步：可以看到在Products文件夹同级补录下，有一个名为Intermediates.noindex 的文件夹，依次进入 TestDemo.build -> Debug-iphoneos(或Debug-iphonesimulator) -> TestDemo.build -> DerivedSources 文件夹下
+第 3 步：可以看到在 Products 文件夹同级补录下，有一个名为 Intermediates.noindex 的文件夹，依次进入 TestDemo.build -> Debug-iphoneos(或 Debug-iphonesimulator) -> TestDemo.build -> DerivedSources 文件夹下
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4ma_ElzRjuOkF23KFu%2Fimage.png?alt=media&token=22286439-dfd4-4422-859a-efd10b6f967e)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4mbDh79lUKLBV35Vih%2Fimage.png?alt=media&token=c9b723da-fcfc-46c8-a249-2f17cb33961a)
 
-第4步：当前文件下有一个名为 TestDemo-Swift.h 的文件，双击打开在该文件中查找 SFViewController，发现该类声明的上方有一句 SWIFT_CLASS("_TtC8TestDemo16SFViewController")
+第 4 步：当前文件下有一个名为 TestDemo-Swift.h 的文件，双击打开在该文件中查找 SFViewController，发现该类声明的上方有一句 SWIFT_CLASS("\_TtC8TestDemo16SFViewController")
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4mbAJ_UHKJTMWouRPP%2Fimage.png?alt=media&token=82916c47-7b0c-4b05-9a61-a8efe7f710b7)
 
-_TtC8TestDemo16SFViewController 即为原生界面SFViewController.swift转换后的类名， Web 页面配置如下：
+\_TtC8TestDemo16SFViewController 即为原生界面 SFViewController.swift 转换后的类名， Web 页面配置如下：
 
-**弹窗Web页面配置如下：**
+**弹窗 Web 页面配置如下：**
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4mbMYOxVU-eXA_4M_4%2Fimage.png?alt=media&token=f72765ca-5dae-4615-9be5-ad40f0c6e7ae)
 
-### “打开App时”事件触发的时机[](#2-da-kai-app-shi-shi-jian-chu-fa-de-shi-ji)
+### “打开 App 时”事件触发的时机[](#2-da-kai-app-shi-shi-jian-chu-fa-de-shi-ji)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4mb5LsPow3UOxJbFVi%2Fimage.png?alt=media&token=c7655039-da15-47e9-8faf-916672c2a881)
 
-当选择弹窗的触发时机为“打开App时”，触发场景如下：
+当选择弹窗的触发时机为“打开 App 时”，触发场景如下：
 
-1、启动弹窗并打开弹窗SDK开关时，后台切换到前台时触发
+1、启动弹窗并打开弹窗 SDK 开关时，后台切换到前台时触发
 
-2、启动弹窗但关闭弹窗SDK开关时，主动调用如下方法时触发
+2、启动弹窗但关闭弹窗 SDK 开关时，主动调用如下方法时触发
 
 ```swift
 +  (void)enableEventPopupAndGenerateAppOpenEvent;
