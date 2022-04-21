@@ -7,7 +7,7 @@ sidebar_position: 4
 
 ## 集成小程序资源位SDK[](#yi-ji-cheng-xiao-cheng-xu-banner-sdk-zui-di-ban-ben-0-5)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDnXWvc4f7SzaPFC9YJ%2F-MDnYoooSLtN7F3hqRLC%2Fimage.png?alt=media&token=b705c91e-b8f0-4521-b403-a38537243406)
+![](./../../../img/marketsdk/minp_banner_sdk.png)
 
 
 ### 首先支付宝小程序 数据采集SDK的集成。下载链接[](#1-shou-xian-zhi-fu-bao-xiao-cheng-xu-shu-ju-cai-ji-sdk-de-ji-cheng-xia-zai-lian-jie)
@@ -46,14 +46,14 @@ gdp('init', 'your GrowingIO accountId', 'your dataSourceID', 'your AppId', {
 
 ## 平台创建支付宝小程序SDK消息[](#er-ping-tai-chuang-jian-zhi-fu-bao-xiao-cheng-xu-sdk-xiao-xi)
 
-进入  **用户运营**，点击左上角的**新建**按钮，选择**资源位**，然后选择**小程序**，即可进入小程序的资源位配置页面
+进入  **用户运营**，**常规配置**，**资源位配置**，点击左上角的**新建**按钮，然后选择**小程序**，即可进入微信小程序的资源位配置页面
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5ESYD_de7WR234LbA%2F-MC5EvZw5tc81JPFySX7%2Fimage.png?alt=media&token=7f39d6ae-ba6f-4fbf-a258-11df502efe5d)
+![](./../../../img/marketsdk/minp_banner_create.png)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5ESYD_de7WR234LbA%2F-MC5EzuBl94AXegl_1g8%2Fimage.png?alt=media&token=92ce2f2d-0bae-4040-9ba6-a226f7f0905e)
 
-根据您的需要，选择对应的**产品**、**触发时机**、**触发次数**、**图片素材**、**点击事件后**、**上线时间**、**停止时间**后，**保存上线**即可。
+![](./../../../img/marketsdk/minp_banner_addtask.png)
 
+根据您的需要，选择对应的**资源位类型**、**资源位名称**、**对应的应用**、**选择分群**、**图片素材**、**跳转链接**、**上线时间**、**停止时间**后，**保存**即可。
 
 ## 使用支付宝小程序SDK组件[](#san-shi-yong-wei-xin-xiao-cheng-xu-sdk-zu-jian)
 

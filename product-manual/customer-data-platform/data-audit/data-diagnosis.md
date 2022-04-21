@@ -1,6 +1,6 @@
 ---
 id: data-diagnosis
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # 数据质量诊断
