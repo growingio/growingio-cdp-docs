@@ -5,25 +5,23 @@ sidebar_position: 3
 
 # 资源位 SDK（iOS）
 
-资源位SDK最低兼容iOS 8.0 系统。
+资源位 SDK 最低兼容 iOS 8.0 系统。
 
 库简介
 
 > GrowingTouchCoreKit.framework 运营基础库
-> GrowingTouchCoreUI.bundle UI页面图
+> GrowingTouchCoreUI.bundle UI 页面图
 > GrowingTouchKit.framework 运营弹窗库
-> GrowingTouchBannerKit.framework 运营banner库
+> GrowingTouchBannerKit.framework 运营 banner 库
 
-资源位SDK主要提供两种接入方式：
+资源位 SDK 主要提供两种接入方式：
 
-* 原生模板
-    
-* 自渲染（GIO 提供数据，由客户端自行渲染）
-    
+- 原生模板
+- 自渲染（GIO 提供数据，由客户端自行渲染）
 
-## 集成SDK[](#ji-cheng-sdk)
+## 集成 SDK[](#ji-cheng-sdk)
 
-### 集成GrowingIO iOS CDP数据采集SDK[](#1-ji-cheng-growingio-ios-cdp-shu-ju-cai-ji-sdk)
+### 集成 GrowingIO iOS CDP 数据采集 SDK[](#1-ji-cheng-growingio-ios-cdp-shu-ju-cai-ji-sdk)
 
 :::info
 资源位 SDK 依赖于数据数据采集 SDK 和 Upgrade 插件
@@ -31,22 +29,19 @@ sidebar_position: 3
 版本建议使用最新版本
 :::
 
-参考 [iOS 采集 SDK](https://growingio.github.io/growingio-sdk-docs/docs/ios/base)
+参考 [iOS 采集 SDK](https://growingio.github.io/growingio-sdk-docs/docs/ios)
 参考 [iOS Upgrade SDK](https://github.com/growingio/growingio-sdk-ios-autotracker-upgrade/wiki/Autotracker-upgrade-2to3-cdp-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
 
-### 集成运营SDK[](#2-ji-cheng-yun-ying-sdk)
+### 集成运营 SDK[](#2-ji-cheng-yun-ying-sdk)
 
-手动集成SDK
+手动集成 SDK
 
-* 下载最新的iOS GrowingTouch SDK包，并将其中的GrowingTouchCoreKit.framework、
-    
-    GrowingTouchCoreUI.bundle以及GrowingTouchBannerKit.framework 添加到iOS工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDPTouch1.5.0.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.5.0.zip)​
-    
+- 下载最新的 iOS GrowingTouch SDK 包，并将其中的 GrowingTouchCoreKit.framework、
+  GrowingTouchCoreUI.bundle 以及 GrowingTouchBannerKit.framework 添加到 iOS 工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDPTouch1.5.0.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.5.0.zip)​
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4mOetDAxVVM8YCSlJs%2F-M4mOmcb0LHDIZj_s540%2Fimage.png?alt=media&token=ba7ac106-deb9-444b-b087-3e5b7033fc4b)
 
-
-### 初始化SDK[](#3-chu-shi-hua-sdk)
+### 初始化 SDK[](#3-chu-shi-hua-sdk)
 
 在 AppDelegate 中导入 `#import <GrowingTouchCoreKit/GrowingTouchCoreKit.h>` 并添加初始化方法，且保证在 GrowingIO 采集 SDK 启动代码后
 
@@ -67,23 +62,22 @@ sidebar_position: 3
 
 }
 ```
+
 ​
 
-请注意调用顺序，需要在 GrowingIO 采集SDK 启动代码调用后，再调用 \[GrowingTouch start\] 函数。
-
+请注意调用顺序，需要在 GrowingIO 采集 SDK 启动代码调用后，再调用 \[GrowingTouch start\] 函数。
 
 ## 原生模板[](#yuan-sheng-mo-ban)
 
-生成**Banner**视图示例，并根据对应**bannerKey**填充**Banner**数据，视图的位置尺寸由用户定义。 bannerKey 来自GIO页面生成
+生成**Banner**视图示例，并根据对应**bannerKey**填充**Banner**数据，视图的位置尺寸由用户定义。 bannerKey 来自 GIO 页面生成
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4m_flROTOExvFFkcvz%2F-M4m_lgu_2PWAKMNPdfp%2Fimage.png?alt=media&token=e153302d-e6a1-4d3f-b2dc-fe5aaadc22be)
-
 
 ### 初始化[](#1-chu-shi-hua)
 
 导入对应的包#import "GrowingTouchCoreKit/GrowingTouchBannerView.h"
 
-在需要的位置调用Banner视图的初始化方法，对应的API为
+在需要的位置调用 Banner 视图的初始化方法，对应的 API 为
 
 ```swift
 /**
@@ -109,26 +103,25 @@ sidebar_position: 3
 
 **placeholderImage**：**Banner**视图中单个**Item**视图的占位图
 
-
 ### 属性设置[](#2-shu-xing-she-zhi)
 
-Banner视图支持以下属性设置
+Banner 视图支持以下属性设置
 
-| 属性含义 | 属性变量名称 |
-| --- | --- |
-| 轮播时间间隔，单位为秒（s），默认为3s | scrollTimeInterval |
-| 自动轮播，默认YES | autoScroll |
-| pageControl的样式，默认系统样式 | pageControlStyle |
-| pageControl的位置 | pageControlAlignemnt |
-| 轮播视图为空的默认错误占位图 | bannerViewErrorImage |
-| 图片的填充模式，包括轮播图以及没有轮播图时的背景图 | imageViewContentMode |
-| pageControl 选中时的图片(运营bannerSDK 1.4.4 及以上支持) | currentPageIndicatorImage |
-| pageControl 未选中时的图片(运营SDK 1.4.4 及以上支持) | pageIndicatorImage |
-| 非图片模式pageControl 选中的颜色(运营SDK 1.4.4 及以上支持) | currentPageIndicatorTintColor |
-| 非图片模式pageControl 未选中的颜色(运营SDK 1.4.4 及以上支持) | pageIndicatorTintColor |
-| pageControl 选中的尺寸大小 CGSize | currentPageIndicatorSize |
-| pageControl 未选中的尺寸大小 CGSize | pageIndicatorSize |
-| pageControl 间距大小 CGFloat | pageIndicatorSpaing |
+| 属性含义                                                       | 属性变量名称                  |
+| -------------------------------------------------------------- | ----------------------------- |
+| 轮播时间间隔，单位为秒（s），默认为 3s                         | scrollTimeInterval            |
+| 自动轮播，默认 YES                                             | autoScroll                    |
+| pageControl 的样式，默认系统样式                               | pageControlStyle              |
+| pageControl 的位置                                             | pageControlAlignemnt          |
+| 轮播视图为空的默认错误占位图                                   | bannerViewErrorImage          |
+| 图片的填充模式，包括轮播图以及没有轮播图时的背景图             | imageViewContentMode          |
+| pageControl 选中时的图片(运营 bannerSDK 1.4.4 及以上支持)      | currentPageIndicatorImage     |
+| pageControl 未选中时的图片(运营 SDK 1.4.4 及以上支持)          | pageIndicatorImage            |
+| 非图片模式 pageControl 选中的颜色(运营 SDK 1.4.4 及以上支持)   | currentPageIndicatorTintColor |
+| 非图片模式 pageControl 未选中的颜色(运营 SDK 1.4.4 及以上支持) | pageIndicatorTintColor        |
+| pageControl 选中的尺寸大小 CGSize                              | currentPageIndicatorSize      |
+| pageControl 未选中的尺寸大小 CGSize                            | pageIndicatorSize             |
+| pageControl 间距大小 CGFloat                                   | pageIndicatorSpaing           |
 
 ```swift
 // 示例代码
@@ -150,7 +143,6 @@ self.bannerView.pageIndicatorSize =  CGSizeMake(10,10);
 //    self.bannerView.pageIndicatorTintColor = \[UIColor yellowColor\];
 ```
 
-
 ### 数据请求[](#3-shu-ju-qing-qiu)
 
 生成**Banner**视图实例后，请求对应**Banner**视图数据**API**
@@ -168,7 +160,6 @@ self.bannerView.pageIndicatorSize =  CGSizeMake(10,10);
 
 -  (void)loadBannerWithDelegate:(id <GrowingTouchBannerViewDelegate>)delegate;
 ```
-
 
 ### 方法回调[](#4-fang-fa-hui-tiao)
 
@@ -246,27 +237,25 @@ self.bannerView.pageIndicatorSize =  CGSizeMake(10,10);
 -  (void)growingTouchBannerErrorImageClick:(GrowingTouchBannerView*) bannerView;
 ```
 
-
 ### 点击跳转[](#5-dian-ji-tiao-zhuan)
 
-**Banner**视图的代理方法中可决定指定位置的点击事件是否在SDK内部处理，对应的代理回调方法为
+**Banner**视图的代理方法中可决定指定位置的点击事件是否在 SDK 内部处理，对应的代理回调方法为
 
 ```swift
 -  (BOOL)growingTouchBanner:(GrowingTouchBannerView*) bannerView didSelectAtIndex:(NSInteger)index openUrl:(NSString  *)openUrl;
 ```
 
-默认**Banner**视图上的点击跳转逻辑全部在**SDK**内部处理，如果用户想要自行处理该点击事件，可在上述代理回调方法获取对应的**openUrl**自行实现点击跳转逻辑，同时返回YES禁止SDK内部自动处理该事件。
+默认**Banner**视图上的点击跳转逻辑全部在**SDK**内部处理，如果用户想要自行处理该点击事件，可在上述代理回调方法获取对应的**openUrl**自行实现点击跳转逻辑，同时返回 YES 禁止 SDK 内部自动处理该事件。
 
 ​
+
 ### 原生模板容错处理：[](#yuan-sheng-mo-ban-rong-cuo-chu-li)
 
-假如服务器出错， 会先取缓存里banner的数据，如果没有缓存，会加载用户配置的错误占位图bannerViewErrorImage，如果没有设置错误占位图，会显示空白，所以建议设置好错误占位图。 如果请求图片加载慢的话，可以设置默认占位图placeholderImage，作为中间过程显示的图片。 支持灵活资源位，没有banner数据模版渲染自动隐藏，布局修改需要开发者自行处理。
-
+假如服务器出错， 会先取缓存里 banner 的数据，如果没有缓存，会加载用户配置的错误占位图 bannerViewErrorImage，如果没有设置错误占位图，会显示空白，所以建议设置好错误占位图。 如果请求图片加载慢的话，可以设置默认占位图 placeholderImage，作为中间过程显示的图片。 支持灵活资源位，没有 banner 数据模版渲染自动隐藏，布局修改需要开发者自行处理。
 
 ## 自渲染[](#zi-xuan-ran)
 
-仅提供Banner数据（调用API注意block的循环引用问题）
-
+仅提供 Banner 数据（调用 API 注意 block 的循环引用问题）
 
 ### 数据请求[](#1-shu-ju-qing-qiu)
 
@@ -288,33 +277,31 @@ self.bannerView.pageIndicatorSize =  CGSizeMake(10,10);
 +  (void)growingTouchBannerDataTaskBannerKey:(NSString*) bannerKey success:(void(^)(GrowingTouchBannerData *)) bannerData failure:(void(^)(NSError*))failure;
 ```
 
+### Banner 数据模型[](#2-banner-shu-ju-mo-xing)
 
-### Banner数据模型[](#2-banner-shu-ju-mo-xing)
+返回的 Banner 数据模型为
 
-返回的Banner数据模型为
+- GrowingTouchBannerData：整个 Banner 数据模型
 
-* GrowingTouchBannerData：整个Banner数据模型
-    
-| 属性名称 | 含义  |
-| --- | --- |
-| name | Banner名称 |
-| bannerKey | Banner唯一标识 |
-| Items | Banner包含的条目Item数组 |
+| 属性名称  | 含义                        |
+| --------- | --------------------------- |
+| name      | Banner 名称                 |
+| bannerKey | Banner 唯一标识             |
+| Items     | Banner 包含的条目 Item 数组 |
 
-* GrowingTouchBannerItem：Banner中单个Item的模型
-    
-| 属性名称 | 含义  |
-| --- | --- |
-| index | item的索引，从0开始 |
-| title | 当前item的名称 |
-| imageUrl | 图片地址 |
+- GrowingTouchBannerItem：Banner 中单个 Item 的模型
 
+| 属性名称 | 含义                   |
+| -------- | ---------------------- |
+| index    | item 的索引，从 0 开始 |
+| title    | 当前 item 的名称       |
+| imageUrl | 图片地址               |
 
 ### 视图绑定[](#3-shi-tu-bang-ding)
 
-请在下面方法中进行自定义**Banner**单个视图与**Item**的绑定，单个视图的点击在**completedBlock**进行处理，**openUrl**为对应Item的跳转参数
+请在下面方法中进行自定义**Banner**单个视图与**Item**的绑定，单个视图的点击在**completedBlock**进行处理，**openUrl**为对应 Item 的跳转参数
 
-itemView为Banner中的单个视图
+itemView 为 Banner 中的单个视图
 
 ```swift
 /**
@@ -330,7 +317,7 @@ item 绑定视图
 -  (void)bindItemDataToClickView:(UIView *)itemView selectCompleted:(void(^)(NSString *openUrl, NSError *error)) completedBlock;
 ```
 
-旧的API（建议用上述新的API进行替换） bannerView为Banner中的单个视图
+旧的 API（建议用上述新的 API 进行替换） bannerView 为 Banner 中的单个视图
 
 ```swift
 /**
@@ -351,17 +338,18 @@ item 绑定视图
 
 +  (void)growingTouchBannerDataTaskBannerKey:(NSString*) bannerKey bannerView:(UIView *)bannerView bannerItem:(GrowingTouchBannerItem *)item selectCompleted:(void(^)(NSString *openUrl, NSError *error)) completedBlock;
 ```
+
 ​
 
 ## 异常错误码[](#yi-chang-cuo-wu-ma)
 
-| 错误码 | 错误信息 | 错误原因 |
-| --- | --- | --- |
-| -994 | Can not get banner data for key! | banner数据为空 |
-| -993 | There are no banner item! | banner数据中不存在对应的Item |
-| -992 | The bannerView is not the kind of UIView! | 自渲染视图模型绑定时传入的视图不是UIView类 |
-| -991 | The item is not the kind of GrowingTouchBannerItem! | 自渲染视图模型绑定时传入的模型不是GrowingTouchBannerItem类 |
-| -990 | The bannerItem is NULL! | 自渲染视图模型绑定时传入的模型Item传入为空 |
-| -989 | The bannerKey is NULL! | 传入的bannerKey为空 |
+| 错误码 | 错误信息                                            | 错误原因                                                     |
+| ------ | --------------------------------------------------- | ------------------------------------------------------------ |
+| -994   | Can not get banner data for key!                    | banner 数据为空                                              |
+| -993   | There are no banner item!                           | banner 数据中不存在对应的 Item                               |
+| -992   | The bannerView is not the kind of UIView!           | 自渲染视图模型绑定时传入的视图不是 UIView 类                 |
+| -991   | The item is not the kind of GrowingTouchBannerItem! | 自渲染视图模型绑定时传入的模型不是 GrowingTouchBannerItem 类 |
+| -990   | The bannerItem is NULL!                             | 自渲染视图模型绑定时传入的模型 Item 传入为空                 |
+| -989   | The bannerKey is NULL!                              | 传入的 bannerKey 为空                                        |
 
 ​
