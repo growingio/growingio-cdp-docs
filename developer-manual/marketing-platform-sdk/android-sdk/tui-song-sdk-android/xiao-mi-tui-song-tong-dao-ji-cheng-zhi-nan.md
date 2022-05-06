@@ -14,11 +14,11 @@ sidebar_position: 6
 
 认证小米开发者：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDJ4NORXdKxkIIqMWkS%2Fimage.png?alt=media&token=56995b6d-6f10-4567-b19a-ab463e3ab399)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDJ4NORXdKxkIIqMWkS%2Fimage.png?alt=media&token=56995b6d-6f10-4567-b19a-ab463e3ab399)
 
 获取小米推送秘钥：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDJ4RvtKGyDZJtnZu_x%2Fimage.png?alt=media&token=63b153ae-ab1c-4175-b501-c9ce46336316)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDJ4RvtKGyDZJtnZu_x%2Fimage.png?alt=media&token=63b153ae-ab1c-4175-b501-c9ce46336316)
 
 
 ## 在app build.gradle添加小米通道SDK依赖[](#2-zai-app-buildgradle-tian-jia-xiao-mi-tong-dao-sdk-yi-lai)
@@ -88,7 +88,7 @@ android {
 
 ## 配置服务端AppID和AppSecret[](#5-pei-zhi-fu-wu-duan-appid-he-appsecret)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDOps9ww8gHXoAA198p%2Fimage.png?alt=media&token=c89eba06-e57c-4786-969b-f3418d87cb2f)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDOps9ww8gHXoAA198p%2Fimage.png?alt=media&token=c89eba06-e57c-4786-969b-f3418d87cb2f)
 
 在应用配置界面输入您APP的AppID和AppSecret
 

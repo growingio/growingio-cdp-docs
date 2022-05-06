@@ -7,7 +7,7 @@ sidebar_position: 6
 
 ## 推送流程介绍[](#ios_1)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5mMJ9jEBiG9kGcQJG%2F-MC5n4PKo-ASnPAcQD7a%2Fimage.png?alt=media&token=ea40405d-40ae-4d07-bba8-d3b9e50b188e)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5mMJ9jEBiG9kGcQJG%2F-MC5n4PKo-ASnPAcQD7a%2Fimage.png?alt=media&token=ea40405d-40ae-4d07-bba8-d3b9e50b188e)
 
 简要说明iOS客户端实现推送流程的步骤：
 
@@ -74,6 +74,6 @@ sidebar_position: 6
 
 Knuff 一款 iOS 苹果远程推送测试程序 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mit8mmaK_qThkD6BLTv%2F-Mit8zlg39bdbO4Cp_Gs%2Fimage.png?alt=media&token=45163f40-dcba-46b5-adf9-107df42546f8)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mit8mmaK_qThkD6BLTv%2F-Mit8zlg39bdbO4Cp_Gs%2Fimage.png?alt=media&token=45163f40-dcba-46b5-adf9-107df42546f8)
 
 地址：[https://github.com/KnuffApp/Knuff/releases/tag/v1.3](https://github.com/KnuffApp/Knuff/releases/tag/v1.3) iOS端接收到推送的通知有延迟 ？ 苹果开发环境有时推送通知延迟，可以基于第三方推送工具(Pusher)，测试通知推送，查看是否有延迟；

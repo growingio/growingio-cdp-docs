@@ -38,11 +38,11 @@ sidebar_position: 2
 - 合计占比中默认展示总数前 5 的事件，其余事件合并为其他展示。
 - 默认统计全部项目内授权的事件，支持通过事件筛选，选择想关注的事件。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRNO5So30J5zt7wPouI%2F-MRNeUkQyqYB8c8SZ_an%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-01-19%20%E4%B8%8A%E5%8D%8811.20.59.png?alt=media&token=9c97a308-2034-4ccd-afca-fd3ae67910ad)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRNO5So30J5zt7wPouI%2F-MRNeUkQyqYB8c8SZ_an%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-01-19%20%E4%B8%8A%E5%8D%8811.20.59.png?alt=media&token=9c97a308-2034-4ccd-afca-fd3ae67910ad)
 
 - 切换至行为趋势 tab 后，可展示最近 14 天内的事件总数及其环比数据
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj7fyFyb9vRqsgoStLM%2F-Mj7hzJ06ymUAIxbqy0M%2F360%E7%94%BB%E5%83%8F-%E8%BD%A8%E8%BF%B9%E6%A6%82%E5%86%B5-%E8%A1%8C%E4%B8%BA%E8%B6%8B%E5%8A%BF.png?alt=media&token=7b0d2f9b-2fe0-45ce-a007-7c81e8fe2900)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj7fyFyb9vRqsgoStLM%2F-Mj7hzJ06ymUAIxbqy0M%2F360%E7%94%BB%E5%83%8F-%E8%BD%A8%E8%BF%B9%E6%A6%82%E5%86%B5-%E8%A1%8C%E4%B8%BA%E8%B6%8B%E5%8A%BF.png?alt=media&token=7b0d2f9b-2fe0-45ce-a007-7c81e8fe2900)
 
 #### 轨迹细查[](#gui-ji-xi-cha)
 
@@ -52,7 +52,7 @@ sidebar_position: 2
 
 刷新方式：支持手动刷新、5 分钟刷新、实时刷新。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRNrqfzueyW6w2lCAXD%2F-MRNtUvaQMqhhCrnrWJ3%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-01-19%20%E4%B8%8B%E5%8D%8812.26.20.png?alt=media&token=d1105339-2344-47a1-a93e-4fdadf19e8cd)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRNrqfzueyW6w2lCAXD%2F-MRNtUvaQMqhhCrnrWJ3%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-01-19%20%E4%B8%8B%E5%8D%8812.26.20.png?alt=media&token=d1105339-2344-47a1-a93e-4fdadf19e8cd)
 
 #### 用户特征[](#yong-hu-te-zheng)
 
@@ -64,7 +64,7 @@ sidebar_position: 2
 
 某在线旅游平台想了解哪些旅游产品的购买率更高，然后推出更多类似的产品，带来利润增长。该客户通过使用购买行为转化率等分析方法找到了一些购买率较高的产品，但这些产品的各种特征如价格、地域、类别等没有很明显的规律。此时我们先通过用户分群，找出“购买了产品 A”的所有用户，并在这些用户中任意选择一位来查看用户细查，观察用户是如何与该平台进行交互的：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj87WBXIbpqUh6LwYxK%2F-Mj8Bv5JfWfKuVIxQedq%2F360%E7%94%BB%E5%83%8F-%E8%BD%A8%E8%BF%B9%E7%BB%86%E6%9F%A5.png?alt=media&token=6cc12e00-2cf0-4fb2-9044-81e4032667b1)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj87WBXIbpqUh6LwYxK%2F-Mj8Bv5JfWfKuVIxQedq%2F360%E7%94%BB%E5%83%8F-%E8%BD%A8%E8%BF%B9%E7%BB%86%E6%9F%A5.png?alt=media&token=6cc12e00-2cf0-4fb2-9044-81e4032667b1)
 
 通过查看一些典型用户的访问轨迹，我们发现这些用户大部分都有“查看全部评论”这一行为，并会在这一页面上停留较长时间。在进一步查看这些评论以后，我们发现这些产品的评分都在 4.5/5 以上，并且有大量图文并茂的详细评论。而购买率较低的产品则不具备这些用户行为，即使有些产品是客户主推的、预期较高的。
 
@@ -78,7 +78,7 @@ sidebar_position: 2
 
 通过查看一些用户的访问轨迹，我们发现了一个常见的行为模式。下图为一个典型用户的行为轨迹，该用户先访问了某一个目的地的旅游产品页面，在该页面上进行了一些“点击”“选择”的行为，然后进入了订单填写的页面。但是该用户在订单填写页没有进行任何行为，而是返回到了产品的页面，继续进行“点击”“选择”。如此反复三次，并且每次在产品页面产生的事件内容都有差异。而最终该用户没有完成支付就结束访问了。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj8cIfZwEyYgzfIUK1u%2F-Mj8fc6KZNfaCE056p4i%2F360%E7%94%BB%E5%83%8F-%E8%BD%A8%E8%BF%B9%E7%BB%86%E6%9F%A5-%E6%A1%88%E4%BE%8B.png?alt=media&token=6a924dad-f2cb-42f8-a8cb-b31028578a23)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj8cIfZwEyYgzfIUK1u%2F-Mj8fc6KZNfaCE056p4i%2F360%E7%94%BB%E5%83%8F-%E8%BD%A8%E8%BF%B9%E7%BB%86%E6%9F%A5-%E6%A1%88%E4%BE%8B.png?alt=media&token=6a924dad-f2cb-42f8-a8cb-b31028578a23)
 
 结合这个在线旅游平台的产品形态，我们可以进一步分析该用户的行为。产品页面上需要用户选择出行时间、出行人数以及出行方式等，而订单页面上不能修改这些信息。该用户在产品页面和订单页面反复访问，并且在产品页面修改了填写的信息，由此我们可以猜测：用户在进入订单填写的页面后，想要修改某些信息，但订单页面并没有提供可修改的地方，导致用户不得不回退到产品页面进行修改，再把其他所有的信息重填一遍。在这个过程中用户失去了耐心，最终没有完成支付就离开了。
 
@@ -102,4 +102,4 @@ GIO 是会对上传的埋点事件进行判断，是否在系统已经定义该�
 
 对于未在系统平台进行申明定义的，则会显示上传的标识符以及未知，同时会影响后续在产品分析中查看数据 可在 客户数据平台 - 埋点事件、事件属性中定义。[点击查看](../../product-manual/customer-data-platform/event-management/custom-events#新增创建)​
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRNrqfzueyW6w2lCAXD%2F-MRNsejdhOMPfs9YjnFS%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-01-19%20%E4%B8%8B%E5%8D%8812.23.55.png?alt=media&token=d4d89e8e-2f13-4efd-b3e2-cbb03777e8de)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRNrqfzueyW6w2lCAXD%2F-MRNsejdhOMPfs9YjnFS%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-01-19%20%E4%B8%8B%E5%8D%8812.23.55.png?alt=media&token=d4d89e8e-2f13-4efd-b3e2-cbb03777e8de)

@@ -23,11 +23,11 @@ sidebar_position: 2
 
 step1 : 使用者可在登入頁面，点击忘记密码 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHE7EXlhuCgAc1bYZa%2F-MkHECfIQLJG8qMApDn4%2Fimage.png?alt=media&token=f16990e8-c93f-4353-aed8-c41144561977)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHE7EXlhuCgAc1bYZa%2F-MkHECfIQLJG8qMApDn4%2Fimage.png?alt=media&token=f16990e8-c93f-4353-aed8-c41144561977)
 
 step1 : 输入要找回密码的帐号 ，点击下一步。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHE7EXlhuCgAc1bYZa%2F-MkHEJPWLX4jPMlWlSlg%2Fimage.png?alt=media&token=9b81443b-3feb-4523-8496-ae3f47419a66)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHE7EXlhuCgAc1bYZa%2F-MkHEJPWLX4jPMlWlSlg%2Fimage.png?alt=media&token=9b81443b-3feb-4523-8496-ae3f47419a66)
 
 step 2 : 选择验证方式 ，发送验证码 ，并填写验证码 。
 
@@ -37,7 +37,7 @@ step 2 : 选择验证方式 ，发送验证码 ，并填写验证码 。
 
 3.验证码 【15分钟】 有效
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHE7EXlhuCgAc1bYZa%2F-MkHEO5FdYlVimioZ5-z%2Fimage.png?alt=media&token=2b02410f-2d77-492d-913d-93111f5ee97d)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHE7EXlhuCgAc1bYZa%2F-MkHEO5FdYlVimioZ5-z%2Fimage.png?alt=media&token=2b02410f-2d77-492d-913d-93111f5ee97d)
 
 step 3 : 填写新密码 ，提交并登入系统。
 
@@ -50,6 +50,6 @@ step 3 : 填写新密码 ，提交并登入系统。
 
 可选择 短信、手机号 方式进行发送验证码 。 ‌ 并对两种验证方式 配置通知通道 （目前支持webhook 对接）
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLletpY5ZQ9swvKQY7%2F-MkLlqrG7Vwfty1MrR1Y%2Fimage.png?alt=media&token=61e6f137-0e64-4944-b5b2-db9dde485138)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLletpY5ZQ9swvKQY7%2F-MkLlqrG7Vwfty1MrR1Y%2Fimage.png?alt=media&token=61e6f137-0e64-4944-b5b2-db9dde485138)
 
 权限控制：只有企业拥有者、企业超级管理员，可以进行設置。
