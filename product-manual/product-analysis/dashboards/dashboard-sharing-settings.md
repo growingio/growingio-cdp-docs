@@ -17,11 +17,11 @@ sidebar_position: 4
 
 **隐私模式：**隐私状态下，该看板仅对 **看板拥有者** 自己可见。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLpiYv6_FSvVsOx7uY%2Fimage.png?alt=media&token=4fa90ae6-8fed-4696-a797-9d3c8dbea6d5)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLpiYv6_FSvVsOx7uY%2Fimage.png?alt=media&token=4fa90ae6-8fed-4696-a797-9d3c8dbea6d5)
 
 **共享模式：**可设置该看板的协作成员，并赋予 “阅读者”与“编辑者”的权限。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLpoBizrGGg07DVqAC%2Fimage.png?alt=media&token=ff66aef8-b8bd-4822-8bad-681610a4e11c)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLpoBizrGGg07DVqAC%2Fimage.png?alt=media&token=ff66aef8-b8bd-4822-8bad-681610a4e11c)
 
 | 选项  | 作用  |
 | --- | --- |
@@ -32,15 +32,15 @@ sidebar_position: 4
 
 1. 点击设置共享模式
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLq-Q-Q_NcnhCKZIAF%2Fimage.png?alt=media&token=7df00a27-410a-44e3-97a2-5c970edfa369)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLq-Q-Q_NcnhCKZIAF%2Fimage.png?alt=media&token=7df00a27-410a-44e3-97a2-5c970edfa369)
 
 2. 选择共享模式为 **隐私模式** 或 **共享模式。**
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLq5rpQVtqVFd0vGDA%2Fimage.png?alt=media&token=eee77e31-05f3-4e57-b5af-f419bb4fe500)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLq5rpQVtqVFd0vGDA%2Fimage.png?alt=media&token=eee77e31-05f3-4e57-b5af-f419bb4fe500)
 
 3. 设置共享编辑者、阅读者是哪些成员。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLqFDceQ_2GOd8RZcR%2Fimage.png?alt=media&token=1e888c13-f26d-4374-a64b-cb39ef35e695)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLqFDceQ_2GOd8RZcR%2Fimage.png?alt=media&token=1e888c13-f26d-4374-a64b-cb39ef35e695)
 
 ### 批量共享设置[](#pi-liang-gong-xiang-she-zhi)
 
@@ -51,11 +51,11 @@ sidebar_position: 4
 
 2. 点击批量设置
     
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLqNB8_6R-ZBSjmGQi%2Fimage.png?alt=media&token=e635876d-ea69-419f-8a92-a0a5e43302ba)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLqNB8_6R-ZBSjmGQi%2Fimage.png?alt=media&token=e635876d-ea69-419f-8a92-a0a5e43302ba)
 
 3. 设置共享编辑者、阅读者是哪些成员
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLqcJJeC7RvvzYe-ME%2Fimage.png?alt=media&token=32c0aacd-c0f0-4391-8ca0-d57fa4bbb6f4)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLqcJJeC7RvvzYe-ME%2Fimage.png?alt=media&token=32c0aacd-c0f0-4391-8ca0-d57fa4bbb6f4)
 
 新的设置将覆盖所选看板的原有共享设置。
 

@@ -34,4 +34,4 @@ iOS推送 SDK 方便开发者快捷地为 iOS 应用增加推送功能，减少�
 
 数据采集和运营平台SDK
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MCKWFmqIobKjBZoeCR7%2F-MCKWeFaGxaKUv5Pq9AU%2Fimage.png?alt=media&token=d9a8a91c-f963-4490-ad3c-9b874b810e28)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MCKWFmqIobKjBZoeCR7%2F-MCKWeFaGxaKUv5Pq9AU%2Fimage.png?alt=media&token=d9a8a91c-f963-4490-ad3c-9b874b810e28)
