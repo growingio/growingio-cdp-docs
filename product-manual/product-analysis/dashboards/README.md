@@ -27,7 +27,7 @@ sidebar_position: 1
 
 看板模块分为两大区域，看板侧栏和看板数据展示区。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M_TRWOT1EqKuFk_ILEl%2F-M_TSE7dgSMxaYfeOcwk%2F%E7%9C%8B%E6%9D%BF1.png?alt=media&token=307a15f0-79f4-4f9f-9d79-e2a077c71f07)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M_TRWOT1EqKuFk_ILEl%2F-M_TSE7dgSMxaYfeOcwk%2F%E7%9C%8B%E6%9D%BF1.png?alt=media&token=307a15f0-79f4-4f9f-9d79-e2a077c71f07)
 
 #### 看板侧栏[](#kan-ban-ce-lan)
 
@@ -75,7 +75,7 @@ sidebar_position: 1
 
 操作流程：点击看板名称 > 进入编辑模式 > 输入看板名称 \> 点击保存
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLlS7IkFPGTlzwOAeB%2Fimage.png?alt=media&token=43241f37-b92c-48ad-987d-1d87dde8b92e)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLlS7IkFPGTlzwOAeB%2Fimage.png?alt=media&token=43241f37-b92c-48ad-987d-1d87dde8b92e)
 
 权限控制：需要该成员具有看板功能权限，且同时为该看板的**编辑者**。
 
@@ -85,7 +85,7 @@ sidebar_position: 1
 
 操作流程：点击添加单图 > 勾选要添加至此看板的分析图表 \> 点击添加。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLlFDG888MrZ46wjoO%2Fimage.png?alt=media&token=afe4dd4f-de35-49ac-851d-71d8a3520292)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLlFDG888MrZ46wjoO%2Fimage.png?alt=media&token=afe4dd4f-de35-49ac-851d-71d8a3520292)
 
 权限控制：添加单图时，需要该成员具有看板功能权限，且同时是该看板的**编辑者**。
 
@@ -97,7 +97,7 @@ sidebar_position: 1
 
 #### 移除单图[](#yi-chu-dan-tu)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLljcb964zyqFhumHb%2Fimage.png?alt=media&token=eae5854a-846c-4f3d-9287-ff7006b7766f)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLljcb964zyqFhumHb%2Fimage.png?alt=media&token=eae5854a-846c-4f3d-9287-ff7006b7766f)
 
 权限控制：移除单图时，需要该成员具有看板权限，且同时是该看板的**编辑者**。
 
@@ -105,7 +105,7 @@ sidebar_position: 1
 
 通过添加描述，可对看板添加描述说明。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLm3P0ecgxD4UOTMVy%2Fimage.png?alt=media&token=318ef883-8bf1-4ad5-bf24-dfa6be471bcc)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLm3P0ecgxD4UOTMVy%2Fimage.png?alt=media&token=318ef883-8bf1-4ad5-bf24-dfa6be471bcc)
 
 ### 
 
@@ -117,11 +117,11 @@ sidebar_position: 1
 
 操作流程： 点击过滤条件 > 选择过滤范围 \> 点击保存 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmAIkU80mpnys1y4f%2Fimage.png?alt=media&token=eaadfcdc-01e7-48d7-acf9-1f26a48e2d50)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmAIkU80mpnys1y4f%2Fimage.png?alt=media&token=eaadfcdc-01e7-48d7-acf9-1f26a48e2d50)
 
 从看板双击分析图表 ，将会进入分析图表详情，该分析图表会继承看板的过滤条件，点击 **X** 可以移除过滤条件。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmPcocdpZmQDd0-WQ%2Fimage.png?alt=media&token=c72b794d-85d6-4691-bc1d-7d1975c40d87)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmPcocdpZmQDd0-WQ%2Fimage.png?alt=media&token=c72b794d-85d6-4691-bc1d-7d1975c40d87)
 
 最多支持添加 5 个过滤条件。
 
@@ -137,17 +137,17 @@ sidebar_position: 1
 
 操作流程：点击时间范围 > 选择时间范围区间 \> 点击确定。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmZCaGvWdVVtGjPEi%2Fimage.png?alt=media&token=417c72b9-e482-4e23-91a0-8401b7da86e5)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmZCaGvWdVVtGjPEi%2Fimage.png?alt=media&token=417c72b9-e482-4e23-91a0-8401b7da86e5)
 
 GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查看不同时间段的数据。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmfbwlwofeHCRFae6%2Fimage.png?alt=media&token=b2aca246-0238-490e-8296-f844258dbbe9)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmfbwlwofeHCRFae6%2Fimage.png?alt=media&token=b2aca246-0238-490e-8296-f844258dbbe9)
 
 #### 另存看板[](#ling-cun-kan-ban)
 
 操作流程：点击看版右侧 > 选择另存看板 \> 输入新看版名称。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmmWY-V8ceh31J2yi%2Fimage.png?alt=media&token=78a3f3da-5e56-4826-9651-62861f7a51c8)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmmWY-V8ceh31J2yi%2Fimage.png?alt=media&token=78a3f3da-5e56-4826-9651-62861f7a51c8)
 
 权限控制：另存看板时，需要该成员具有看板权限。
 
@@ -155,7 +155,7 @@ GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查�
 
 操作流程：点击看版右侧 > 选择删除\> 確定删除。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmsKLjaeQd5yxl0_K%2Fimage.png?alt=media&token=a059238e-0fcd-4340-a40e-5484484d5b40)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLmsKLjaeQd5yxl0_K%2Fimage.png?alt=media&token=a059238e-0fcd-4340-a40e-5484484d5b40)
 
 权限控制：只有看板的拥有者可以删除看板。
 
@@ -163,7 +163,7 @@ GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查�
 
 可设置看板共享的成员 ，共享方式分为**阅读者、编辑者**两种，您可以通过灵活的设置，与同事进行数据的协作，使数据在企业内部进行流动，更好地发挥数据的价值。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLn-0RAD-dlG9VmKyX%2Fimage.png?alt=media&token=5fb5099b-b5d5-4c7b-87a9-60aff236cc59)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLjERWo8ypo2Y_5Lv9%2F-MkLn-0RAD-dlG9VmKyX%2Fimage.png?alt=media&token=5fb5099b-b5d5-4c7b-87a9-60aff236cc59)
 
 共享设置可见 ： [看板共享设置链接](https://growingio.gitbook.io/op/v/14.7/product-manual/product-analysis/charts/kanban-sharing-settings)​
 

@@ -16,7 +16,7 @@ GrowingIO使用 gio_id 来对每一个识别的用户进行唯一标识，gio_id
 
 在 用户ID 模块，您可以查看GrowingIO支持识别的客观用户身份，如用户ID(登录用户ID)、UUID(设备ID)。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkW0P6dvbjIFcZ7_4KL%2F-MkW0tdlvzxsEq4TOZ9H%2Fimage.png?alt=media&token=bff87184-d0d8-4581-84a4-653a55f91c2f)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkW0P6dvbjIFcZ7_4KL%2F-MkW0tdlvzxsEq4TOZ9H%2Fimage.png?alt=media&token=bff87184-d0d8-4581-84a4-653a55f91c2f)
 
 
 ## 功能说明[](#gong-neng-shuo-ming)

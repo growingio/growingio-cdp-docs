@@ -22,21 +22,21 @@ sidebar_position: 9
 
 ## 功能说明[](#gong-neng-shuo-ming)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Maup1f7wL-Wv1YktAUG%2F-Mav8BRk0ZPK7RyMudtJ%2Fimage.png?alt=media&token=907c6965-5721-4154-a131-13bb55e837cf)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Maup1f7wL-Wv1YktAUG%2F-Mav8BRk0ZPK7RyMudtJ%2Fimage.png?alt=media&token=907c6965-5721-4154-a131-13bb55e837cf)
 
 
 ### 目标事件选择[](#1-mu-biao-shi-jian-xuan-ze)
 
 支持基于代码埋点事件的单选操作。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mav9ENC428NY5Sm8ZUq%2F-MavBKwamnQZ7iIo705v%2Fimage.png?alt=media&token=6c5462f4-a700-4fa4-a59e-6c1c4b62de3b)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mav9ENC428NY5Sm8ZUq%2F-MavBKwamnQZ7iIo705v%2Fimage.png?alt=media&token=6c5462f4-a700-4fa4-a59e-6c1c4b62de3b)
 
 
 ### 目标事件过滤条件[](#2-mu-biao-shi-jian-guo-lv-tiao-jian)
 
 支持事件属性/访问属性/用户属性下的多条件 '且' 过滤。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MavCHgGVbJ-7NMUAx6g%2F-MavDA3laRlNDcTDFG5Q%2Fimage.png?alt=media&token=4c1fec3e-f6b3-4607-9e1f-c5b9a03236ae)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MavCHgGVbJ-7NMUAx6g%2F-MavDA3laRlNDcTDFG5Q%2Fimage.png?alt=media&token=4c1fec3e-f6b3-4607-9e1f-c5b9a03236ae)
 
 
 ### 目标事件计算指标[](#3-mu-biao-shi-jian-ji-suan-zhi-biao)
@@ -48,7 +48,7 @@ sidebar_position: 9
 
 支持代码埋点事件的多选操作。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MavE3hfiPKdhtNSJyPq%2F-MavFvceCW42Flioe6m0%2Fimage.png?alt=media&token=98987bd2-a7cd-43ec-980d-21b9a6652091)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MavE3hfiPKdhtNSJyPq%2F-MavFvceCW42Flioe6m0%2Fimage.png?alt=media&token=98987bd2-a7cd-43ec-980d-21b9a6652091)
 
 
 ### 触点事件筛选条件[](#5-chu-dian-shi-jian-shai-xuan-tiao-jian)
@@ -62,21 +62,21 @@ sidebar_position: 9
 
 支持分别为每个触点事件设置与目标事件的关联属性，默认不设，具体请根据运营目标和策略而定。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MavE3hfiPKdhtNSJyPq%2F-MavJ9PTKRuHaiHLYESc%2Fimage.png?alt=media&token=e726eead-da47-48be-ac3c-0317fb2faa8e)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MavE3hfiPKdhtNSJyPq%2F-MavJ9PTKRuHaiHLYESc%2Fimage.png?alt=media&token=e726eead-da47-48be-ac3c-0317fb2faa8e)
 
 
 ### 直接转化事件[](#7-zhi-jie-zhuan-hua-shi-jian)
 
 在本次设置的归因参数下，目标事件中未被归因的部分都算作直接转化。当勾选直接转化后，归因结果中展现直接转化的数据，反之则不展现。特别地，当未勾选直接转化时，各触点事件的贡献度为其在所有被归因下的占比，比如两个触点事件A和B，分别带来1次和4次的订单转化，这时不论有多少直接转化，计算A的贡献度为1/(1+4)\*100%=20%，B的贡献度为4/(1+4)\*100%=80%。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Max7cunWvA0B7ZtP8eF%2F-MaxbR8lizJE_gPs7K6v%2Fimage.png?alt=media&token=d8907011-5d79-4ad5-a2af-5e916a70be7b)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Max7cunWvA0B7ZtP8eF%2F-MaxbR8lizJE_gPs7K6v%2Fimage.png?alt=media&token=d8907011-5d79-4ad5-a2af-5e916a70be7b)
 
 
 ### 归因模型选择[](#8-gui-yin-mo-xing-xuan-ze)
 
 支持按照运营评估需求，选择首次触点归因、末次触点归因、线性归因和位置归因中的一种。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Max7cunWvA0B7ZtP8eF%2F-MaxbJC5JMiz57homjqy%2Fimage.png?alt=media&token=b24fada2-2a4c-46f7-add8-b03f0009e4f2)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Max7cunWvA0B7ZtP8eF%2F-MaxbJC5JMiz57homjqy%2Fimage.png?alt=media&token=b24fada2-2a4c-46f7-add8-b03f0009e4f2)
 
 
 ### 归因窗口期设置[](#9-gui-yin-chuang-kou-qi-she-zhi)
@@ -85,7 +85,7 @@ sidebar_position: 9
     
 * 自定义：支持1~180的分钟/小时/天的回溯期设置，比如设置为10分钟，则目标事件发生之前的10分钟内的触点事件将可能被归因（需结合其他参数，比如关联属性等）。
     
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MavLx6oncTGFoMQvMSC%2F-MavMEeHz_Nr5lWvm7HB%2Fimage.png?alt=media&token=574e3b91-9aeb-4c32-844b-2c3a23a72dcc)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MavLx6oncTGFoMQvMSC%2F-MavMEeHz_Nr5lWvm7HB%2Fimage.png?alt=media&token=574e3b91-9aeb-4c32-844b-2c3a23a72dcc)
 
 
 ### 目标用户选择[](#10-mu-biao-yong-hu-xuan-ze)
@@ -101,14 +101,14 @@ sidebar_position: 9
     
 * 对比维度在归因表格增加列显示
     
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Max7cunWvA0B7ZtP8eF%2F-MaxaKeouu8A-zmv0wuz%2Fimage.png?alt=media&token=71c8f95e-312d-467d-93d3-63cd5ba87fd2)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Max7cunWvA0B7ZtP8eF%2F-MaxaKeouu8A-zmv0wuz%2Fimage.png?alt=media&token=71c8f95e-312d-467d-93d3-63cd5ba87fd2)
 
 
 ### 归因结果的分群用户对比设置[](#12-gui-yin-jie-guo-de-fen-qun-yong-hu-dui-bi-she-zhi)
 
 支持选择N个分群，对归因结果进行群用户之间的对比。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Max7cunWvA0B7ZtP8eF%2F-Maxc-IbxUX-h_X2l-x5%2Fimage.png?alt=media&token=111680bb-9850-4c3e-8859-9ec0e630a00d)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Max7cunWvA0B7ZtP8eF%2F-Maxc-IbxUX-h_X2l-x5%2Fimage.png?alt=media&token=111680bb-9850-4c3e-8859-9ec0e630a00d)
 
 
 ### 全局过滤[](#13-quan-ju-guo-lv)
@@ -123,7 +123,7 @@ sidebar_position: 9
 
 ### 归因分析结果表格[](#15-gui-yin-fen-xi-jie-guo-biao-ge)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MauojUXFSlSVG3ixZ3d%2F-MauouzERCWKPu-HcrK4%2Fimage.png?alt=media&token=fd9ff0cb-aab8-48c9-89ce-f44d0288b99d)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MauojUXFSlSVG3ixZ3d%2F-MauouzERCWKPu-HcrK4%2Fimage.png?alt=media&token=fd9ff0cb-aab8-48c9-89ce-f44d0288b99d)
 
 * 触点事件：归因设置中的各触点事件
     

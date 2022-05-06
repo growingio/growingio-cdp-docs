@@ -51,10 +51,10 @@ sidebar_position: 1
 - 创建"用户属性数据"的数据源，操作方式：新建数据源 > 历史数据导入 > 用户属性数据
 - 创建"用户行为数据"的数据源，操作方式：新建数据源 > 历史数据导入 > 用户行为数据
 
-创建后，在数据源管理列表页面查看相应的数据源 ID：![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MQMBHo2WMWoLWAEcUix%2F-MQMD0b5FH58iKBUe3No%2Fimage.png?alt=media&token=6ffba948-5fbd-433c-b365-ac0facee1537)​
+创建后，在数据源管理列表页面查看相应的数据源 ID：![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MQMBHo2WMWoLWAEcUix%2F-MQMD0b5FH58iKBUe3No%2Fimage.png?alt=media&token=6ffba948-5fbd-433c-b365-ac0facee1537)​
 
 ### 任务查看[](#ren-wu-cha-kan)
 
 历史数据导入工具的命令执行成功后，系统为其生成一个调度任务。任务执行的进度见：[数据导入管理](../../../product-manual/customer-data-platform/data-integration/data-import)​
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkW6V7nyui6VOb3sD6-%2F-MkW7w-vSJlkhumeTU5V%2Fimage.png?alt=media&token=c928995e-73a7-4260-b669-955715fe0982)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkW6V7nyui6VOb3sD6-%2F-MkW7w-vSJlkhumeTU5V%2Fimage.png?alt=media&token=c928995e-73a7-4260-b669-955715fe0982)

@@ -34,13 +34,13 @@ KPI（Key Performance Indicator）即关键绩效指标，是企业内关键业�
 
 1. 在导航栏选择“**分析模型 > KPI分析**"，进入 KPI 分析。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj48wXYKybSP-88wmHF%2Fimage.png?alt=media&token=f57b76d5-e28f-4d22-ac86-42f8339b3db7)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj48wXYKybSP-88wmHF%2Fimage.png?alt=media&token=f57b76d5-e28f-4d22-ac86-42f8339b3db7)
 
 KPI 分析入口
 
 2. 点击 KPI 分析列表页右侧的“**++ 新建KPI分析”**按钮，进入创建页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4AbKoxKWOQY930c3E%2F%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-09-08%20%E4%B8%8B%E5%8D%887.32.25.png?alt=media&token=41604c54-4f1e-48a8-be58-f557c851b241)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4AbKoxKWOQY930c3E%2F%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-09-08%20%E4%B8%8B%E5%8D%887.32.25.png?alt=media&token=41604c54-4f1e-48a8-be58-f557c851b241)
 
 创建 KPI 指标页面
 
@@ -58,15 +58,15 @@ KPI 分析入口
 
 在 KPI 分析列表中，点击单个KPI指标右侧“操作“列的 “![](/img/-Lo08UtW7H58ehFKeZ4g-LugKRBPNPab7MdZtndt-LugeasN0wzG5aPiGtgoKPIE79C8BE69DBFE782B9E782B9E782B9.png)“ 选择编辑，在编辑页面设置目标值。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4CQhjZUnYgHzj2uXc%2Fimage.png?alt=media&token=816f3896-8315-4c17-b68e-617377dbef92)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4CQhjZUnYgHzj2uXc%2Fimage.png?alt=media&token=816f3896-8315-4c17-b68e-617377dbef92)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4Di9Ea5wlpb9GzGu8%2F%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-09-08%20%E4%B8%8B%E5%8D%887.45.46.png?alt=media&token=8e36145f-7bdd-4c1d-91fe-ea4a1badb543)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4Di9Ea5wlpb9GzGu8%2F%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-09-08%20%E4%B8%8B%E5%8D%887.45.46.png?alt=media&token=8e36145f-7bdd-4c1d-91fe-ea4a1badb543)
 
 设置目标值页面
 
 设置完成后即可在看板中的单个 KPI 图右下角查看目标值和完成率。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4IbWKLHkyi_rhwfGg%2F%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-09-08%20%E4%B8%8B%E5%8D%888.07.30.png?alt=media&token=92228a92-04c8-4475-9a14-a51eb6a4c0e4)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4IbWKLHkyi_rhwfGg%2F%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-09-08%20%E4%B8%8B%E5%8D%888.07.30.png?alt=media&token=92228a92-04c8-4475-9a14-a51eb6a4c0e4)
 
 KPI 分析展示
 
@@ -74,7 +74,7 @@ KPI 分析展示
 
 将 KPI 分析添加到看板后，可持续监控 KPI 指标的表现。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4It6xcTNyKn5X__MF%2Fimage.png?alt=media&token=2bc7b0f1-205c-49e5-8e38-d371e57a64b4)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4It6xcTNyKn5X__MF%2Fimage.png?alt=media&token=2bc7b0f1-205c-49e5-8e38-d371e57a64b4)
 
 KPI 分析在看板中的展示
 
@@ -95,7 +95,7 @@ KPI 分析在看板中的展示
 
 KPI详情页构成：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3drdF8rGIEP7RdyLCx%2F-M3dubXK0XS9yCictplU%2Fimage.png?alt=media&token=5cb43dbc-a03f-488c-9be2-1d7baf747fdd)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3drdF8rGIEP7RdyLCx%2F-M3dubXK0XS9yCictplU%2Fimage.png?alt=media&token=5cb43dbc-a03f-488c-9be2-1d7baf747fdd)
 
 KPI详情页
 
@@ -117,7 +117,7 @@ KPI详情页
 
 比如，我们可以看到下图中 **直播GMV** 这个 KPI 出现了波动，同比下降24.6%、环比下降28.2%。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4MLeRv8DTqcpcMvlB%2F%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-09-08%20%E4%B8%8B%E5%8D%888.23.37.png?alt=media&token=cd1069d9-d55d-443b-9504-7e457078d75f)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4MLeRv8DTqcpcMvlB%2F%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-09-08%20%E4%B8%8B%E5%8D%888.23.37.png?alt=media&token=cd1069d9-d55d-443b-9504-7e457078d75f)
 
 此时，我们可以点击该 KPI 分析卡片，在 KPI 分析详情页了解不同维度下直播 GMV 的变化状况，迅速判断业务指标下降原因。KPI分析包含以下功能：
 
@@ -126,4 +126,4 @@ KPI详情页
 * 自动业务分析
     
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4Ma730IapAfyX4O6Y%2F%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-09-08%20%E4%B8%8B%E5%8D%888.24.34.png?alt=media&token=878992ba-bff8-4785-90b8-1f5fba68c8d7)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj3mziM6kQhkAXytmTW%2F-Mj4Ma730IapAfyX4O6Y%2F%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-09-08%20%E4%B8%8B%E5%8D%888.24.34.png?alt=media&token=878992ba-bff8-4785-90b8-1f5fba68c8d7)

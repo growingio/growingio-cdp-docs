@@ -24,7 +24,7 @@ sidebar_position: 1
 
 从导航栏选择“**群体画像**”，进入群体画像列表页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjTJ7Zw-AgRjr4TXqvg%2F-MjTJyN6Q0wgboKvFwJt%2F%E7%BE%A4%E4%BD%93%E7%94%BB%E5%83%8F-%E7%BE%A4%E7%94%BB%E5%83%8F%E5%88%97%E8%A1%A8.png?alt=media&token=166149b6-c00a-40b3-bf1e-3e510bbbe75b)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjTJ7Zw-AgRjr4TXqvg%2F-MjTJyN6Q0wgboKvFwJt%2F%E7%BE%A4%E4%BD%93%E7%94%BB%E5%83%8F-%E7%BE%A4%E7%94%BB%E5%83%8F%E5%88%97%E8%A1%A8.png?alt=media&token=166149b6-c00a-40b3-bf1e-3e510bbbe75b)
 
 在群体画像列表页面中，可以查看项目内所有人创建的群体画像，支持按照分群名称进行搜索、下载分群的用户ID列表，以及新建分群。
 
@@ -45,7 +45,7 @@ sidebar_position: 1
 
 在 用户分群列表页面，选择“**新建分群**”按钮开始创建用户分群。用户分群支持2种创建方法，分别为规则创建分群和上传用户列表。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjTQWBZ3lLGDZEFlRoY%2F-MjTSlIRn-e9LomDkYSN%2Fimage.png?alt=media&token=3dc27ff5-67e5-4cbd-a291-21165b979ef0)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjTQWBZ3lLGDZEFlRoY%2F-MjTSlIRn-e9LomDkYSN%2Fimage.png?alt=media&token=3dc27ff5-67e5-4cbd-a291-21165b979ef0)
 
 新建分群弹窗
 
@@ -54,7 +54,7 @@ sidebar_position: 1
 
 在新建分群弹窗中选择“**规则创建**"，进入新建用户分群页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3f05PE2aifwnPNiTlY%2F-M3f1mQPrZbPferiIhCr%2Fimage.png?alt=media&token=4fee2975-105e-49e1-816a-a469aace1233)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3f05PE2aifwnPNiTlY%2F-M3f1mQPrZbPferiIhCr%2Fimage.png?alt=media&token=4fee2975-105e-49e1-816a-a469aace1233)
 
 新建用户分群页面
 
@@ -76,7 +76,7 @@ sidebar_position: 1
 
 在新建分群弹窗中选择“**文件上传创建**"，进入上传文件界面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3f05PE2aifwnPNiTlY%2F-M3f2ZLFPshxvEuUjivG%2Fimage.png?alt=media&token=3618304b-2657-420c-b0ec-b60fc976d669)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3f05PE2aifwnPNiTlY%2F-M3f2ZLFPshxvEuUjivG%2Fimage.png?alt=media&token=3618304b-2657-420c-b0ec-b60fc976d669)
 
 新建用户分群页面
 
@@ -87,7 +87,7 @@ GrowingIO支持根据手机号、邮箱、UserID、OpenID、UnionID共5种类型
 
 ### 群体画像详情页[](#qun-ti-hua-xiang-xiang-qing-ye)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOgW6qdEzWgbbS5bNy%2F-MiOhR7gBiuMc_QNL2dX%2Fimage.png?alt=media&token=418ff9c2-41ca-45a1-ac0e-1c8614723273)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOgW6qdEzWgbbS5bNy%2F-MiOhR7gBiuMc_QNL2dX%2Fimage.png?alt=media&token=418ff9c2-41ca-45a1-ac0e-1c8614723273)
 
 | 项   | 说明  |
 | --- | --- |
@@ -102,7 +102,7 @@ GrowingIO支持根据手机号、邮箱、UserID、OpenID、UnionID共5种类型
 
 在 群体画像详情页 点击用户量按钮，跳转至分群用户列表。列表默认展示用户ID、UUID等信息，可自定义列选择其他的用户属性字段。列表默认最多展示1000条数据，可通过下载用户用户列表获取全部用户ID。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjT_L-eew9kNgYR6OTS%2F-MjTapgvnxMLBpSQnQ2D%2Fimage.png?alt=media&token=9c4ca228-2160-4068-8242-ebc1b75dacbe)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjT_L-eew9kNgYR6OTS%2F-MjTapgvnxMLBpSQnQ2D%2Fimage.png?alt=media&token=9c4ca228-2160-4068-8242-ebc1b75dacbe)
 
 | 项   | 说明  |
 | --- | --- |

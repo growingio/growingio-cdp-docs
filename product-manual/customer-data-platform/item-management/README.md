@@ -32,13 +32,13 @@ sidebar_position: 1
 
 一、在客户数据平台模块中，选择“**物品管理**“，进入物品管理页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M397mvLNcyag8pMLao3%2F-M39NyrYXiaTWby2Bt6e%2Fimage.png?alt=media&token=480263c9-5b48-4194-8f0b-96b3b507850b)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M397mvLNcyag8pMLao3%2F-M39NyrYXiaTWby2Bt6e%2Fimage.png?alt=media&token=480263c9-5b48-4194-8f0b-96b3b507850b)
 
 物品管理页面
 
 二、单击右上角**添加物品**，进入**新建物品**页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M397mvLNcyag8pMLao3%2F-M39ObiKHKSQ0NP9YJH4%2Fimage.png?alt=media&token=e12f0b00-b027-45f6-964f-9ca53d2729cf)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M397mvLNcyag8pMLao3%2F-M39ObiKHKSQ0NP9YJH4%2Fimage.png?alt=media&token=e12f0b00-b027-45f6-964f-9ca53d2729cf)
 
 Step 1: 新建物品
 
@@ -47,7 +47,7 @@ Step 1: 新建物品
 | 名称  | 输入物品名称，如商品、保险产品、课程 etc.。 |
 | 描述  | 物品的描述。 |
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M397mvLNcyag8pMLao3%2F-M39PPC6Y4PuR7nqBVB0%2Fimage.png?alt=media&token=e65db743-e10b-4325-bcc7-f769850b1f68)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M397mvLNcyag8pMLao3%2F-M39PPC6Y4PuR7nqBVB0%2Fimage.png?alt=media&token=e65db743-e10b-4325-bcc7-f769850b1f68)
 
 Step 2: 设置唯一识别属性
 
@@ -67,17 +67,17 @@ Step 2: 设置唯一识别属性
 
 一、在物品管理页面点击物品名称，进入物品详情页。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39Qvh2TzPbcSVWhz1G%2F-M39U2cfpFL7EhJCrAnb%2Fimage.png?alt=media&token=5297509e-8f79-420d-91ff-a41139e58614)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39Qvh2TzPbcSVWhz1G%2F-M39U2cfpFL7EhJCrAnb%2Fimage.png?alt=media&token=5297509e-8f79-420d-91ff-a41139e58614)
 
 物品管理页面
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39Qvh2TzPbcSVWhz1G%2F-M39U_CP0Zu-kxJ_lNUG%2Fimage.png?alt=media&token=12ff1599-56b7-4299-821a-1741096fce08)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39Qvh2TzPbcSVWhz1G%2F-M39U_CP0Zu-kxJ_lNUG%2Fimage.png?alt=media&token=12ff1599-56b7-4299-821a-1741096fce08)
 
 物品详情页
 
 二、单击右上角**添加物品属性**，进入**新建物品属性**页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39Qvh2TzPbcSVWhz1G%2F-M39V6EYbAC_xeWec-zA%2Fimage.png?alt=media&token=444d80d5-46f2-4078-86eb-312cd9cc0a39)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39Qvh2TzPbcSVWhz1G%2F-M39V6EYbAC_xeWec-zA%2Fimage.png?alt=media&token=444d80d5-46f2-4078-86eb-312cd9cc0a39)
 
 新建物品属性
 
@@ -101,7 +101,7 @@ Step 2: 设置唯一识别属性
 
 在事件管理页面新建事件时，可单击**关联物品属性**选择物品。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39Xpfweu5RXrS7ARhH%2F-M39Zzng0A7kbUTmD9DP%2Fimage.png?alt=media&token=08b6426b-51aa-4aaf-9e61-0dff292e0515)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39Xpfweu5RXrS7ARhH%2F-M39Zzng0A7kbUTmD9DP%2Fimage.png?alt=media&token=08b6426b-51aa-4aaf-9e61-0dff292e0515)
 
 新建事件页面
 
@@ -109,7 +109,7 @@ Step 2: 设置唯一识别属性
 
 在事件管理页面单击事件进入QuickView页面，下拉到底部单击**关联物品属性**选择物品。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39Xpfweu5RXrS7ARhH%2F-M39cSPcrEGNLojSiJwM%2Fimage.png?alt=media&token=9920d77d-5d1d-4ce8-b1b3-b1dd7ab0455b)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39Xpfweu5RXrS7ARhH%2F-M39cSPcrEGNLojSiJwM%2Fimage.png?alt=media&token=9920d77d-5d1d-4ce8-b1b3-b1dd7ab0455b)
 
 事件 \- QuickView界面
 
@@ -120,7 +120,7 @@ Step 2: 设置唯一识别属性
 
 在完成以上配置后，可在配置了物品的事件属性选择器中使用物品属性。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39dicnzGBCtcdh-jxS%2F-M39e5ORbBTfDaZYg3yV%2Fimage.png?alt=media&token=da4361dc-b8b9-4059-9a1f-eb1f3ed6871a)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M39dicnzGBCtcdh-jxS%2F-M39e5ORbBTfDaZYg3yV%2Fimage.png?alt=media&token=da4361dc-b8b9-4059-9a1f-eb1f3ed6871a)
 
 维度选择器
 
