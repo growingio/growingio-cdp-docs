@@ -48,7 +48,7 @@ SDK默认采集信息
 
 ## 功能说明[](#gong-neng-shuo-ming)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkM34qxXur5C43PN7N7%2F-MkM3vpQ0PiYvrvX14t6%2Fimage.png?alt=media&token=2235ec58-6440-446e-aba2-43d72d0f9df8)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkM34qxXur5C43PN7N7%2F-MkM3vpQ0PiYvrvX14t6%2Fimage.png?alt=media&token=2235ec58-6440-446e-aba2-43d72d0f9df8)
 
 在预定义属性管理页面可以查看预定义属性名称、标识符、含义、示例。
 

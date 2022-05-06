@@ -36,4 +36,4 @@ sidebar_position: 1
 
 支持UTM映射参数配置和管理
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2Fd6473de59725fa1cab6446a435381bbe23b18c0b.png?alt=media)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2Fd6473de59725fa1cab6446a435381bbe23b18c0b.png?alt=media)

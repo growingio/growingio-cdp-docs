@@ -49,11 +49,11 @@ sidebaar_position: 1
 
 1. 在左侧导航栏选择“**分析模型 \> 事件分析**"，进入事件分析列表页。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2F288201f445f1d903f96ef411a735647ad071c119.png?alt=media)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2F288201f445f1d903f96ef411a735647ad071c119.png?alt=media)
 
 2. 单击右侧列表上方"**新建事件分析"，**进入**创建事件分析**页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVUvFebeCRXtj1pYDKy%2F-MVUy5GXFWBNfy98ijw1%2F%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%906.png?alt=media&token=19748970-83e7-44bf-adec-a2687fae1ab2)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVUvFebeCRXtj1pYDKy%2F-MVUy5GXFWBNfy98ijw1%2F%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%906.png?alt=media&token=19748970-83e7-44bf-adec-a2687fae1ab2)
 
 您可以按照如下步骤创建事件分析：
 
@@ -99,15 +99,15 @@ GrowingIO 提供了丰富的事件度量方式，以「购买事件」为例，�
 
 操作：当您选择事件之后，可以选择事件的度量方式，默认为事件的次数。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRIBSOg7zZUAI-vNVFG%2F-MRICTEG4ucwq1QHL6w1%2Fimage.png?alt=media&token=81250a26-bb9e-40ed-bc0c-e5a48190a246)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRIBSOg7zZUAI-vNVFG%2F-MRICTEG4ucwq1QHL6w1%2Fimage.png?alt=media&token=81250a26-bb9e-40ed-bc0c-e5a48190a246)
 
 **每人总计次数的度量方式：**您可以在每人总计次数下选择：中位数、25分位数、75分位数、90分位数、最大值、最小值等。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRIBSOg7zZUAI-vNVFG%2F-MRICiVlbMafsXKaWuK1%2Fimage.png?alt=media&token=e36485f1-5843-4391-b122-2eb71aecc8d1)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRIBSOg7zZUAI-vNVFG%2F-MRICiVlbMafsXKaWuK1%2Fimage.png?alt=media&token=e36485f1-5843-4391-b122-2eb71aecc8d1)
 
 **数值型属性**：按最大最小值和每人总计后求均值、中位数、最大值、最小值等度量方式。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRIBSOg7zZUAI-vNVFG%2F-MRICz6T5KcQR_ykBNm8%2Fimage.png?alt=media&token=ad268dbf-1b36-42e8-9ed9-a0aa3d744e0f)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRIBSOg7zZUAI-vNVFG%2F-MRICz6T5KcQR_ykBNm8%2Fimage.png?alt=media&token=ad268dbf-1b36-42e8-9ed9-a0aa3d744e0f)
 
 ### 
 
@@ -115,12 +115,12 @@ GrowingIO 提供了丰富的事件度量方式，以「购买事件」为例，�
 
 您可以对指标进行别名，别名会展示到对应的图上。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRIBSOg7zZUAI-vNVFG%2F-MRIDEj-RxWMr3NCj-dj%2Fimage.png?alt=media&token=082bab93-9ff2-4390-bf62-abe7c51b2210)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MRIBSOg7zZUAI-vNVFG%2F-MRIDEj-RxWMr3NCj-dj%2Fimage.png?alt=media&token=082bab93-9ff2-4390-bf62-abe7c51b2210)
 
 您可以对选中的指标进行过滤：例如您可以分别对比在IOS渠道上，北京和上海的充值金额。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVQS7IVyKfjz8SOnFBh%2F-MVQeinkmscjxP5KH_43%2Fimage.png?alt=media&token=513ddb20-aec1-44ee-941a-e241dc525123)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVQS7IVyKfjz8SOnFBh%2F-MVQeinkmscjxP5KH_43%2Fimage.png?alt=media&token=513ddb20-aec1-44ee-941a-e241dc525123)
 
 如果您想分析的多个指标比较相像，只有过滤条件的值不同，您可以通过复制指标的功能，生成一个新指标，进而对新指标进行修改：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVQS7IVyKfjz8SOnFBh%2F-MVQj4W4JwE3J7Bu8CWr%2F%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%903.png?alt=media&token=8cf5075b-8b7b-44fa-8806-aa19b175367e)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVQS7IVyKfjz8SOnFBh%2F-MVQj4W4JwE3J7Bu8CWr%2F%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%903.png?alt=media&token=8cf5075b-8b7b-44fa-8806-aa19b175367e)

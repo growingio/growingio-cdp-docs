@@ -46,7 +46,7 @@ GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，�
 
 ### 案例一：关联用户登录行为和匿名行为[](#an-li-yi-guan-lian-yong-hu-deng-lu-hang-wei-he-ni-ming-hang-wei)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqjiM0ADmElBR3z-KP%2Fimage.png?alt=media&token=aeecc2e9-abd8-4ea3-9342-178f0f2d6de8)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqjiM0ADmElBR3z-KP%2Fimage.png?alt=media&token=aeecc2e9-abd8-4ea3-9342-178f0f2d6de8)
 
 | 时间  | 用户行为 |
 | --- | --- |
@@ -60,7 +60,7 @@ GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，�
 
 计算指标：活跃用户量
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqkc7i9RavXABSWjZO%2Fimage.png?alt=media&token=35d99750-1fb8-486b-a0e5-eb64f86a7732)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqkc7i9RavXABSWjZO%2Fimage.png?alt=media&token=35d99750-1fb8-486b-a0e5-eb64f86a7732)
 
 第一步：虚拟表中，时间1 - 时间5根据ID-Mapping最终归因原则匹配匿名ID和登录ID的匹配关系。
 
@@ -76,7 +76,7 @@ GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，�
 
 ### 案例二：同一用户多应用使用时，关联用户跨应用行为[](#an-li-er-tong-yi-yong-hu-duo-ying-yong-shi-yong-shi-guan-lian-yong-hu-kua-ying-yong-hang-wei)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqjrjOe0XujMNBIwWq%2Fimage.png?alt=media&token=bf1637b0-d0c1-4601-8bf0-72b2210035e4)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqjrjOe0XujMNBIwWq%2Fimage.png?alt=media&token=bf1637b0-d0c1-4601-8bf0-72b2210035e4)
 
 | 时间  | 用户行为 |
 | --- | --- |
@@ -93,7 +93,7 @@ GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，�
 
 计算指标：活跃用户量
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqksrhjAwxmCg2B-BR%2Fimage.png?alt=media&token=34ba5fc3-7521-4788-90e0-5339e6892dc5)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqksrhjAwxmCg2B-BR%2Fimage.png?alt=media&token=34ba5fc3-7521-4788-90e0-5339e6892dc5)
 
 第一步：虚拟表中，时间1 - 时间7根据ID-Mapping最终归因原则匹配匿名ID和登录ID的匹配关系。
 
@@ -119,7 +119,7 @@ GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，�
 
 ### 案例三：多用户使用同一应用时，区分不同用户使用行为[](#an-li-san-duo-yong-hu-shi-yong-tong-yi-ying-yong-shi-qu-fen-bu-tong-yong-hu-shi-yong-hang-wei)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqm-da5IXRJAiqxarI%2Fimage.png?alt=media&token=94d30bd8-01ed-4c45-a26e-4a820abe381d)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqm-da5IXRJAiqxarI%2Fimage.png?alt=media&token=94d30bd8-01ed-4c45-a26e-4a820abe381d)
 
 操作步骤如下：
 
@@ -140,7 +140,7 @@ GrowingIO提供ID-Mapping逻辑，帮助您打通匿名用户和登录用户，�
 
 计算指标：活跃用户量
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqmWzV-0r_cIijEcWM%2Fimage.png?alt=media&token=ce3993be-e9eb-4a25-85f1-8f196930a33c)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPqe3oSw0qIX24L9FgQ%2F-MPqmWzV-0r_cIijEcWM%2Fimage.png?alt=media&token=ce3993be-e9eb-4a25-85f1-8f196930a33c)
 
 第一步：时间1 - 时间8虚拟表中根据ID-Mapping最终归因原则匹配匿名ID和登录ID的匹配关系。
 
