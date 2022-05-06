@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## **弹窗流程**[](#dan-chuang-liu-cheng)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDPVHAr64a35zWaj1zG%2Fimage.png?alt=media&token=18d40b31-93c3-4b1b-a156-37d8519fa6ea)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDPVHAr64a35zWaj1zG%2Fimage.png?alt=media&token=18d40b31-93c3-4b1b-a156-37d8519fa6ea)
 
 ### 1. 想修改已经在运行的弹窗怎么办？**[](#1-xiang-xiu-gai-yi-jing-zai-yun-hang-de-dan-chuang-zen-mo-ban)
 
@@ -116,7 +116,7 @@ appOpen是App从后台到前台，第一个activity onStarted 的时候触发，
 
 如下图，选择触发时机为您的打点时间，可以更精准的控制。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDP_IOyE4qLZtbtzETb%2Fimage.png?alt=media&token=7dca201c-9ae0-4434-be8f-521d7665c40d)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDP_IOyE4qLZtbtzETb%2Fimage.png?alt=media&token=7dca201c-9ae0-4434-be8f-521d7665c40d)
 
 ### **13. Android SDK 支持的最低版本是 Android 4.2，那低于这个版本的话会是什么表现？**[](#13-android-sdk-zhi-chi-de-zui-di-ban-ben-shi-android-4-2-na-di-yu-zhe-ge-ban-ben-de-hua-hui-shi-shi-mo-biao-xian)
 

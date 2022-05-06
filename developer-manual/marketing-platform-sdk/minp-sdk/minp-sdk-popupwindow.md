@@ -7,7 +7,7 @@ sidebar_position: 1
 
 ## 集成小程序弹窗SDK(最低版本0.5)[](#yi-ji-cheng-xiao-cheng-xu-dan-chuang-sdk-zui-di-ban-ben-0-5)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDnWiE5j6cXk-SjElDb%2F-MDnX85qKCFtyaGxsu0E%2Fimage.png?alt=media&token=f3c65e6c-fde2-44a3-afd0-21bf38bcc2b5)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDnWiE5j6cXk-SjElDb%2F-MDnX85qKCFtyaGxsu0E%2Fimage.png?alt=media&token=f3c65e6c-fde2-44a3-afd0-21bf38bcc2b5)
 
 
 ### 首先微信小程序 数据采集SDK的集成[](#1-shou-xian-wei-xin-xiao-cheng-xu-shu-ju-cai-ji-sdk-de-ji-cheng)
@@ -32,9 +32,9 @@ gdp('init', 'your projectId','your dataSourceId', 'your appId', {host: 'api.grow
 
 进入  **用户运营**，点击左上角的**新建**按钮，选择**弹窗**，然后选择**小程序**，即可进入微信小程序的弹窗配置页面
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5ESYD_de7WR234LbA%2F-MC5EvZw5tc81JPFySX7%2Fimage.png?alt=media&token=7f39d6ae-ba6f-4fbf-a258-11df502efe5d)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5ESYD_de7WR234LbA%2F-MC5EvZw5tc81JPFySX7%2Fimage.png?alt=media&token=7f39d6ae-ba6f-4fbf-a258-11df502efe5d)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5ESYD_de7WR234LbA%2F-MC5EzuBl94AXegl_1g8%2Fimage.png?alt=media&token=92ce2f2d-0bae-4040-9ba6-a226f7f0905e)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5ESYD_de7WR234LbA%2F-MC5EzuBl94AXegl_1g8%2Fimage.png?alt=media&token=92ce2f2d-0bae-4040-9ba6-a226f7f0905e)
 
 根据您的需要，选择对应的**产品**、**触发时机**、**触发次数**、**图片素材**、**点击事件后**、**上线时间**、**停止时间**后，**保存上线**即可。
 

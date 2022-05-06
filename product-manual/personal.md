@@ -16,18 +16,18 @@ sidebar_position: 8
 
 查看个人信息，包括账号、用户名、邮箱、部门等。支持修改出账号之外的个人信息。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPrZ_OQ6swdCnqtm4T%2F-MiPxX79VwsWd-JORA8G%2Fimage.png?alt=media&token=39879902-fcbb-4432-b9a5-f70915368497)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPrZ_OQ6swdCnqtm4T%2F-MiPxX79VwsWd-JORA8G%2Fimage.png?alt=media&token=39879902-fcbb-4432-b9a5-f70915368497)
 
 
 ### 账号权限[](#zhang-hao-quan-xian)
 
 查看当前用户所属的角色和项目权限。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPrZ_OQ6swdCnqtm4T%2F-MiPxxxMco1Xfxz44KwR%2Fimage.png?alt=media&token=35a54c78-848a-44c0-9d8d-e3f6505f6289)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPrZ_OQ6swdCnqtm4T%2F-MiPxxxMco1Xfxz44KwR%2Fimage.png?alt=media&token=35a54c78-848a-44c0-9d8d-e3f6505f6289)
 
 
 ### Token管理[](#token-guan-li)
 
 支持获取平台为个人分配的Token信息，作为登录凭证直接访问平台的子系统、插件或应用。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPrZ_OQ6swdCnqtm4T%2F-MiPy1GOXt7ygZWfOm4U%2Fimage.png?alt=media&token=f2c28ae0-0184-4be1-88f0-fdd7fcf3b68e)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPrZ_OQ6swdCnqtm4T%2F-MiPy1GOXt7ygZWfOm4U%2Fimage.png?alt=media&token=f2c28ae0-0184-4be1-88f0-fdd7fcf3b68e)

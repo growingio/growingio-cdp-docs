@@ -24,7 +24,7 @@ H5应用
 
 ### 用户选择[](#yong-hu-xuan-ze)
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyX5k7n475T9-6u7_8q%2F-LyYUx84ZpFyFfIDc-56%2Fweb1.png?alt=media&token=a3df50a8-e121-4ddd-a360-f8a3766cfdff)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyX5k7n475T9-6u7_8q%2F-LyYUx84ZpFyFfIDc-56%2Fweb1.png?alt=media&token=a3df50a8-e121-4ddd-a360-f8a3766cfdff)
 
 选择要发送弹窗的目标用户。可使用创建好的用户分群。
 
@@ -38,7 +38,7 @@ H5应用
 ### 触发设置[](#chu-fa-she-zhi)
 
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyX5k7n475T9-6u7_8q%2F-LyYV0HP6VOA6zhpPhHV%2Fweb2.png?alt=media&token=93859932-2315-4e8e-a1b0-030bb04bdb51)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyX5k7n475T9-6u7_8q%2F-LyYV0HP6VOA6zhpPhHV%2Fweb2.png?alt=media&token=93859932-2315-4e8e-a1b0-030bb04bdb51)
 
 | 参数  | 说明  |
 | --- | --- |
@@ -52,7 +52,7 @@ H5应用
 
 ### 弹窗样式[](#dan-chuang-yang-shi)
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyX5k7n475T9-6u7_8q%2F-LyYV94c6PWUSFtBTiCy%2Fweb3.png?alt=media&token=359b1424-303b-490f-af75-fbf4f6d37aef)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyX5k7n475T9-6u7_8q%2F-LyYV94c6PWUSFtBTiCy%2Fweb3.png?alt=media&token=359b1424-303b-490f-af75-fbf4f6d37aef)
 
 | 参数  | 说明  |
 | --- | --- |
@@ -63,7 +63,7 @@ H5应用
 
 ### 测试和上线[](#ce-shi-he-shang-xian)
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyX5k7n475T9-6u7_8q%2F-LyYVFhHNQJzjE70rsZv%2Fweb4.png?alt=media&token=cedc8c0f-ca4e-4c63-a873-dba9cbdb0fd5)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyX5k7n475T9-6u7_8q%2F-LyYVFhHNQJzjE70rsZv%2Fweb4.png?alt=media&token=cedc8c0f-ca4e-4c63-a873-dba9cbdb0fd5)
 
 配置完以上步骤后，单击保存即可进行测试和上线。
 
@@ -179,7 +179,7 @@ GIO 弹窗支持带有透明度的 PNG 格式图片，所以可以做任何形�
 
 ### 用户&产品选择[](#yong-hu-chan-pin-xuan-ze)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC66_se-lbGscQr-LE5%2F-MC67Ifr_Gx1XMvXnZUr%2Fimage.png?alt=media&token=2fb87a2c-a96e-4783-bf71-fa6a171ae4fb)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC66_se-lbGscQr-LE5%2F-MC67Ifr_Gx1XMvXnZUr%2Fimage.png?alt=media&token=2fb87a2c-a96e-4783-bf71-fa6a171ae4fb)
 
 * **用户分群**
 
@@ -243,7 +243,7 @@ GIO 弹窗支持带有透明度的 PNG 格式图片，所以可以做任何形�
 
 ### 用户选择[](#yong-hu-xuan-ze-2)
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyYa_vN60Mn8jh0eQrT%2F-LyYcAXqGjhiHb8ofAKK%2Fweb1.png?alt=media&token=fe8ed473-635f-491f-9d88-791741c7f742)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyYa_vN60Mn8jh0eQrT%2F-LyYcAXqGjhiHb8ofAKK%2Fweb1.png?alt=media&token=fe8ed473-635f-491f-9d88-791741c7f742)
 
 选择要发送弹窗的目标用户。可使用创建好的用户分群。
 
@@ -256,7 +256,7 @@ GIO 弹窗支持带有透明度的 PNG 格式图片，所以可以做任何形�
 
 ### 触发&素材[](#chu-fa-su-cai-1)
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyYa_vN60Mn8jh0eQrT%2F-LyYcF2yrrY32y6CrFg0%2FH51.png?alt=media&token=9224d3ca-1d68-452d-a155-e44636c07016)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyYa_vN60Mn8jh0eQrT%2F-LyYcF2yrrY32y6CrFg0%2FH51.png?alt=media&token=9224d3ca-1d68-452d-a155-e44636c07016)
 
 | 参数  | 说明  |
 | --- | --- |
@@ -270,7 +270,7 @@ GIO 弹窗支持带有透明度的 PNG 格式图片，所以可以做任何形�
 
 ### 测试和上线[](#ce-shi-he-shang-xian-3)
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyYa_vN60Mn8jh0eQrT%2F-LyYcLYiXA2RCZ2chr_U%2FH52.png?alt=media&token=7f5437c5-a60b-41e0-ace9-388e4ab529da)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyYa_vN60Mn8jh0eQrT%2F-LyYcLYiXA2RCZ2chr_U%2FH52.png?alt=media&token=7f5437c5-a60b-41e0-ace9-388e4ab529da)
 
 配置完以上步骤后，单击保存即可进行测试和上线。
 

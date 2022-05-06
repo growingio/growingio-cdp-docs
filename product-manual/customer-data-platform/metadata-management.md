@@ -18,7 +18,7 @@ sidebar_position: 9
 
 无权限请找**管理员**开通权限
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiyEGWYQmJ2OQOT-QK0%2F-Miyn0OWL58fJLU2Qaz8%2Fimage.png?alt=media&token=00c6cbb5-dd5c-4b0f-a29a-a34fe60dfbe2)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiyEGWYQmJ2OQOT-QK0%2F-Miyn0OWL58fJLU2Qaz8%2Fimage.png?alt=media&token=00c6cbb5-dd5c-4b0f-a29a-a34fe60dfbe2)
 
 元数据管理页面
 
@@ -27,7 +27,7 @@ sidebar_position: 9
 
 ### 进入“元数据批量创建”页面[](#jin-ru-yuan-shu-ju-pi-liang-chuang-jian-ye-mian)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mkf0tkMeWql1MQunqYQ%2F-Mkf2YDZYX5270nXTGKB%2Fimage.png?alt=media&token=ecca4fcf-3ad9-4c5c-9cb7-5c84a2e61aef)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mkf0tkMeWql1MQunqYQ%2F-Mkf2YDZYX5270nXTGKB%2Fimage.png?alt=media&token=ecca4fcf-3ad9-4c5c-9cb7-5c84a2e61aef)
 
 选择模板
 
@@ -36,7 +36,7 @@ sidebar_position: 9
 
 #### 埋点事件及事件属性模板，下载模板[](#mai-dian-shi-jian-ji-shi-jian-shu-xing-mo-ban-xia-zai-mo-ban)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mkf0tkMeWql1MQunqYQ%2F-Mkf2eeSAlOXtZrXVRZi%2Fimage.png?alt=media&token=0ed2ac9e-214c-4112-8edd-d54932e5c182)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mkf0tkMeWql1MQunqYQ%2F-Mkf2eeSAlOXtZrXVRZi%2Fimage.png?alt=media&token=0ed2ac9e-214c-4112-8edd-d54932e5c182)
 
 选择类型，下载模板
 
@@ -80,7 +80,7 @@ sidebar_position: 9
 
 #### 用户属性，下载模板[](#yong-hu-shu-xing-xia-zai-mo-ban)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mkf0tkMeWql1MQunqYQ%2F-Mkf3AmZTCvBafLx9j0Z%2Fimage.png?alt=media&token=46a1b3a1-c4ca-44c6-940e-458fe7d57444)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mkf0tkMeWql1MQunqYQ%2F-Mkf3AmZTCvBafLx9j0Z%2Fimage.png?alt=media&token=46a1b3a1-c4ca-44c6-940e-458fe7d57444)
 
 选择类型，下载模板
 

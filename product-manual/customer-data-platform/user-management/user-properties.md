@@ -13,7 +13,7 @@ sidebar_position: 2
 
 用户属性用来保存跟用户本身相关的信息，不建议在用户属性中保存跟交互行为相关的信息。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOaLdgbw_FKXD4e4sr%2F-MiObBIsVVGicCdPnu_F%2Fimage.png?alt=media&token=15593e09-4d01-4904-ad3e-b4ff3498f998)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOaLdgbw_FKXD4e4sr%2F-MiObBIsVVGicCdPnu_F%2Fimage.png?alt=media&token=15593e09-4d01-4904-ad3e-b4ff3498f998)
 
 | 项  | 说明               |
 | --- | ------------------ |
@@ -98,7 +98,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
 
 ### 分类管理[](#fen-lei-guan-li)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVZ9jA0SnTmhf79G6pr%2F-MVZIYB63KY2989o_fdI%2Fimage.png?alt=media&token=ae1ad4a4-64e6-45f9-a3c5-757bbb52a142)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVZ9jA0SnTmhf79G6pr%2F-MVZIYB63KY2989o_fdI%2Fimage.png?alt=media&token=ae1ad4a4-64e6-45f9-a3c5-757bbb52a142)
 
 | 操作           | 说明                                               |
 | -------------- | -------------------------------------------------- |
@@ -111,7 +111,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
 
 操作流程：点击左上角“**+**”新建用户属性分类。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLkmfZ4YMUK_cJXiZ5r%2Fimage.png?alt=media&token=3128a08f-c6fc-4406-98b2-0d0aab3a2430)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLkmfZ4YMUK_cJXiZ5r%2Fimage.png?alt=media&token=3128a08f-c6fc-4406-98b2-0d0aab3a2430)
 
 如未选择上级分类，则在第一级最下方添加新的分类。
 
@@ -125,7 +125,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
 
 如不更改上级分类，则默认在该分类下级最下方添加新的分类。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLknwaiHGnJSYKnaV-t%2Fimage.png?alt=media&token=ab54e19e-2eab-4e46-999c-f85066028968)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLknwaiHGnJSYKnaV-t%2Fimage.png?alt=media&token=ab54e19e-2eab-4e46-999c-f85066028968)
 
 最多支持创建四级分类，即第四级分类不支持添加子分类
 
@@ -135,7 +135,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
 
 修改分类名称后，点击确定保存修改。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLkoLcUzkV1si9GatS3%2Fimage.png?alt=media&token=7b03bb64-279d-450d-babd-6afac04f0e1f)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLkoLcUzkV1si9GatS3%2Fimage.png?alt=media&token=7b03bb64-279d-450d-babd-6afac04f0e1f)
 
 分类名称不能与已创建的分类名称重复；
 
@@ -147,7 +147,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
 
 点击确认后，删除该分类。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLkqIZC9d7YWItlOJqu%2Fimage.png?alt=media&token=37972544-a8e5-49b4-9a62-0414981fdaf7)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLkqIZC9d7YWItlOJqu%2Fimage.png?alt=media&token=37972544-a8e5-49b4-9a62-0414981fdaf7)
 
 您需要将分类中关联的子分类删除，并且移除分类下的所有用户属性才能删除此分类。
 
@@ -159,7 +159,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
 
 二、单击右上角**添加用户属性**，进入**新建用户属性**页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVZ9jA0SnTmhf79G6pr%2F-MVZGe0W18gzO6GGj9PC%2Fimage.png?alt=media&token=4509a22f-8416-4016-a0c4-74bc6c86ca9c)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVZ9jA0SnTmhf79G6pr%2F-MVZGe0W18gzO6GGj9PC%2Fimage.png?alt=media&token=4509a22f-8416-4016-a0c4-74bc6c86ca9c)
 
 | 参数     | 说明                                                                       |
 | -------- | -------------------------------------------------------------------------- |
@@ -177,7 +177,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
 
 在用户属性详情页可以查看单一用户属性的名称、数值类型、创建人、创建日期和统计分布。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOcCbtjXNmr4hLXvhp%2F-MiOcInDOM0H4GrJTzPi%2Fimage.png?alt=media&token=8bcda439-dcf4-4d7d-88fb-2bd42deeb45d)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOcCbtjXNmr4hLXvhp%2F-MiOcInDOM0H4GrJTzPi%2Fimage.png?alt=media&token=8bcda439-dcf4-4d7d-88fb-2bd42deeb45d)
 
 您也可以对用户属性进行以下操作：
 
@@ -190,7 +190,7 @@ Day 3：此时在 GrowingIO 系统中，小明的用户属性职位为“产品�
 
 在用户属性管理页面可以查看用户属性的名称、标识符、类型、预置、所属分类、创建日期、创建人、最后编辑时间。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVZ9jA0SnTmhf79G6pr%2F-MVZHoBPaSiTV8Xgczqz%2Fimage.png?alt=media&token=3831737d-92d9-4530-90d8-5743ddefac0b)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVZ9jA0SnTmhf79G6pr%2F-MVZHoBPaSiTV8Xgczqz%2Fimage.png?alt=media&token=3831737d-92d9-4530-90d8-5743ddefac0b)
 
 您也可以对用户属性进行以下操作：
 
