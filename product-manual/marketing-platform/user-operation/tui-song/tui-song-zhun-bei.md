@@ -20,4 +20,4 @@ sidebar_position: 2
 
 在运营平台产品配置选择应用配置，选择待配置应用，查看配置，添加证书后保存即可。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC68IMVKo-G2m9wVDEc%2F-MC69JFp-7sQEXDrKQhO%2Fimage.png?alt=media&token=392238ee-b34f-4214-a2e2-0967858977b8)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC68IMVKo-G2m9wVDEc%2F-MC69JFp-7sQEXDrKQhO%2Fimage.png?alt=media&token=392238ee-b34f-4214-a2e2-0967858977b8)
