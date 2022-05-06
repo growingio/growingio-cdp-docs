@@ -19,11 +19,11 @@ sidebar_position: 2
 
 您可以在**已经保存**的单图创建新预警。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe-FQglUrBnzLVT6Gp%2F%E9%A2%84%E8%AD%A61.png?alt=media&token=5f76ddc0-cee0-4b9e-a9a7-653620eea290)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe-FQglUrBnzLVT6Gp%2F%E9%A2%84%E8%AD%A61.png?alt=media&token=5f76ddc0-cee0-4b9e-a9a7-653620eea290)
 
 点击创建新预警后，您会看到新建预警的弹窗：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe-PRGn906FkajVyPh%2F%E9%A2%84%E8%AD%A62.png?alt=media&token=a9894592-4cc3-4399-8489-909fe5e755f2)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe-PRGn906FkajVyPh%2F%E9%A2%84%E8%AD%A62.png?alt=media&token=a9894592-4cc3-4399-8489-909fe5e755f2)
 
 您需要填写**预警名称、触发预警的条件** 和 **预警邮件的接收人**。
 
@@ -31,7 +31,7 @@ sidebar_position: 2
 
 **预警条件：** 预警条件由 预警对象 \+ 预警规则 \+ 阈值构成。如下图
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe-Y0LeSWkxegGvMWY%2F%E9%A2%84%E8%AD%A63.png?alt=media&token=f66c5cae-cea1-45ab-a9da-ad4e78996689)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe-Y0LeSWkxegGvMWY%2F%E9%A2%84%E8%AD%A63.png?alt=media&token=f66c5cae-cea1-45ab-a9da-ad4e78996689)
 
 **预警对象：**包括指标和指标对应的过滤条件，如过去7天北京购买人数，即时间范围是过去7天，城市为北京，购买事件的总人数；昨天VIP用户消费金额，即时间是昨天，用户等级为VIP， 缴费金额求和。
 
@@ -51,9 +51,9 @@ sidebar_position: 2
 
 **阈值：**您可以输入任意数值，包括负数。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe-rdgJsXQytvFBU9V%2F%E9%A2%84%E8%AD%A64.png?alt=media&token=a72dfbed-d355-4532-8da0-c8402983eb74)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe-rdgJsXQytvFBU9V%2F%E9%A2%84%E8%AD%A64.png?alt=media&token=a72dfbed-d355-4532-8da0-c8402983eb74)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe06mB3qm-GA5ArB24%2F%E9%A2%84%E8%AD%A66.png?alt=media&token=7cb97f38-5c64-4760-92d7-e5d62bbd6b89)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe06mB3qm-GA5ArB24%2F%E9%A2%84%E8%AD%A66.png?alt=media&token=7cb97f38-5c64-4760-92d7-e5d62bbd6b89)
 
 **预警的邮件接收人**：你可以选择或者填写邮箱。
 
@@ -61,17 +61,17 @@ sidebar_position: 2
 
 您可以发送邮件给任意邮件地址。检查数据的逻辑：每晚会比较预警对象的数据和阈值数据，不符合预期则发送邮件到指定邮箱**预警管理**入口：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe0HCiAI5eWbunsVGh%2F%E9%A2%84%E8%AD%A67.png?alt=media&token=9c05785c-fc20-41a1-b93f-b2d19942484c)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe0HCiAI5eWbunsVGh%2F%E9%A2%84%E8%AD%A67.png?alt=media&token=9c05785c-fc20-41a1-b93f-b2d19942484c)
 
 ​![](https://growingio.feishu.cn/space/api/box/stream/download/asynccode/?code=MWUzNzhkZTg0M2RiODQ5MTJmYjU0YTMzOTlkNmM4MmNfcWJCbElHQ0FINzI3V1JKNTVMaXBsVjY3VE1GMWVjQ2dfVG9rZW46Ym94Y24ybXNFWnZYNllxMUxyQWFDTmI5aFBkXzE2MTgxOTM1NjU6MTYxODE5NzE2NV9WNA)​
 
 **预警管理页面操作：**
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe0UDJMO3oZpylIOit%2F%E9%A2%84%E8%AD%A68.png?alt=media&token=00d6b3c4-f19e-4348-b467-b68aebc429af)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe0UDJMO3oZpylIOit%2F%E9%A2%84%E8%AD%A68.png?alt=media&token=00d6b3c4-f19e-4348-b467-b68aebc429af)
 
 点击预警名称，您可以对预警进行修改，包括预警名称、预警规则、阈值和邮件接收人信息。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe1-DyRDToJiH1xyTi%2F%E9%A2%84%E8%AD%A610.png?alt=media&token=17f3adb4-cf1e-4fd8-bf36-11d3a47d0240)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MYdzXGwMzDe2Bb-oIBb%2F-MYe1-DyRDToJiH1xyTi%2F%E9%A2%84%E8%AD%A610.png?alt=media&token=17f3adb4-cf1e-4fd8-bf36-11d3a47d0240)
 
 您可以点击分析单图名称进入对应的分析页面。
 

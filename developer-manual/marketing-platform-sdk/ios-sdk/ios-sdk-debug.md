@@ -14,4 +14,4 @@ iOS 运营SDK调试指南
 
 **推送图片和数据上报测试(iOS 10以上)** 推送图片 ，收到推送图片即可
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5p36fz4qAklNOXt32%2F-MC5p9nSv7qq1zxlI2Fz%2Fimage.png?alt=media&token=24552487-12dc-4faf-b129-21f9abf97f47)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5p36fz4qAklNOXt32%2F-MC5p9nSv7qq1zxlI2Fz%2Fimage.png?alt=media&token=24552487-12dc-4faf-b129-21f9abf97f47)

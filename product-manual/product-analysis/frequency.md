@@ -30,13 +30,13 @@ sidebar_position: 9
 
 一、在顶部导航栏选择“**分析 > 产品分析 \> 分布分析**"，进入分布分析看板。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eplYl4s7kWXaewYEO%2F-M3erBuyHh9i5HJCjHtB%2Fimage.png?alt=media&token=00dd39f3-08da-4cd5-b7e8-b6813fadf229)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eplYl4s7kWXaewYEO%2F-M3erBuyHh9i5HJCjHtB%2Fimage.png?alt=media&token=00dd39f3-08da-4cd5-b7e8-b6813fadf229)
 
 分布分析看板
 
 二、单击左侧列表上方"**新建分析 \> 分布分析"**或单击事件分析看板中“**+”**，进入**创建分布分析**页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eplYl4s7kWXaewYEO%2F-M3esOxhBnAqAuE_9oSZ%2Fimage.png?alt=media&token=d9f98d08-563f-4e92-a9c6-a2364d027177)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eplYl4s7kWXaewYEO%2F-M3esOxhBnAqAuE_9oSZ%2Fimage.png?alt=media&token=d9f98d08-563f-4e92-a9c6-a2364d027177)
 
 创建分布分析页面
 
@@ -68,7 +68,7 @@ sidebar_position: 9
 
 拿下图示的“订单支付金额”来示意：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3em46U5qQ9giyLz-2e%2F-M3en2W-rL1ZAlojxPRm%2Fimage.png?alt=media&token=4c250907-e97b-4f34-869f-d58291ddccd5)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3em46U5qQ9giyLz-2e%2F-M3en2W-rL1ZAlojxPRm%2Fimage.png?alt=media&token=4c250907-e97b-4f34-869f-d58291ddccd5)
 
 ​
 
@@ -93,7 +93,7 @@ sidebar_position: 9
 
 拿下图示的“活跃天数”来示意：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3em46U5qQ9giyLz-2e%2F-M3enhFwQZi2eelmVyao%2Fimage.png?alt=media&token=d124628f-edb6-4f2f-b7f4-a602443691a7)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3em46U5qQ9giyLz-2e%2F-M3enhFwQZi2eelmVyao%2Fimage.png?alt=media&token=d124628f-edb6-4f2f-b7f4-a602443691a7)
 
 * 第一个柱表示的含义是：时间范围内(过去7天)，目标用户群 (**全部用户)，**用户活跃天数从小到大排序，前5%的用户活跃天数范围和用户量。
     
@@ -104,7 +104,7 @@ sidebar_position: 9
 
 生成用户分群或下载用户ID[](#sheng-cheng-yong-hu-fen-qun-huo-xia-zai-yong-hu-id)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDIN0ScxdJLg7ZtVis_%2F-MDIztl20PGxNTvw2I8s%2Fimage.png?alt=media&token=29b58e90-4df8-421d-b5b7-7cffd033cf83)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDIN0ScxdJLg7ZtVis_%2F-MDIztl20PGxNTvw2I8s%2Fimage.png?alt=media&token=29b58e90-4df8-421d-b5b7-7cffd033cf83)
 
 在分布分析的分布图中，单击用户量所在列的单元格即可出现以下效果，选择创建分群快速创建当前区间的用户分群或者下载用户ID。
 
