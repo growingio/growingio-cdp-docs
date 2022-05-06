@@ -22,13 +22,13 @@ sidebar_position: 3
 
 一、在客户数据平台模块中的“事件管理 > 事件属性”，进入事件属性管理页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3ENsQm3QGQGowP3MJb%2F-M3ENvF2u7JNkBUnrmS5%2Fimage.png?alt=media&token=b18ba536-b466-4a34-93e1-a4a522d0e40a)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3ENsQm3QGQGowP3MJb%2F-M3ENvF2u7JNkBUnrmS5%2Fimage.png?alt=media&token=b18ba536-b466-4a34-93e1-a4a522d0e40a)
 
 事件属性管理页面
 
 二、单击右上角**添加事件属性**，进入**新建事件属性**页面
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3ENsQm3QGQGowP3MJb%2F-M3EOIB8LJVUmxvr5Ni1%2Fimage.png?alt=media&token=8138b8a6-de6c-4e9c-817b-da5e646bdec6)
+![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3ENsQm3QGQGowP3MJb%2F-M3EOIB8LJVUmxvr5Ni1%2Fimage.png?alt=media&token=8138b8a6-de6c-4e9c-817b-da5e646bdec6)
 
 事件属性新建页面
 
