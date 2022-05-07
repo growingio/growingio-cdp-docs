@@ -47,7 +47,7 @@ TGI指数计算公式 ：
 
 点击 **新建腾讯画像** 按钮，进入新建画像页面
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVoQKu3lR98UoPXdBAU%2F-MVoXEXhmOoD9t518P4V%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.17.33.png?alt=media&token=ee6dd5bf-a9c9-4565-8fd2-87ec55290960)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MVoQKu3lR98UoPXdBAU-MVoXEXhmOoD9t518P4V%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.17.33.png)
 
 ### 选择分群[](#xuan-ze-fen-qun)
 
@@ -55,12 +55,12 @@ TGI指数计算公式 ：
 
 根据用户隐私安全规定，画像信息查询不得低于10000人，因此分群中只可选择分群人数为10000人以上的分群。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2F55c5b743985b471d85c973427c2797ecf167363f.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsync55c5b743985b471d85c973427c2797ecf167363f.png)
 
 
 ### 填写画像信息[](#tian-xie-hua-xiang-xin-xi)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVoQKu3lR98UoPXdBAU%2F-MVoWcJdb8mQAvblPNAC%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.15.20.png?alt=media&token=54c57863-6c7d-4a29-bac1-67af4f99d116)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MVoQKu3lR98UoPXdBAU-MVoWcJdb8mQAvblPNAC%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.15.20.png)
 
 
 ### 选择匹配模式[](#xuan-ze-pi-pei-mo-shi)
@@ -69,7 +69,7 @@ TGI指数计算公式 ：
 
 > 覆盖率 = 分群中有设备号/手机号的人数 / 分群
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVoQKu3lR98UoPXdBAU%2F-MVoXPbcM2byKa7tRqJU%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.15.20.png?alt=media&token=f41ffd3b-1821-455f-bf9a-cede8162b163)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MVoQKu3lR98UoPXdBAU-MVoXPbcM2byKa7tRqJU%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.15.20.png)
 
 依据相关用户隐私信息规定，用户画像信息查询不得低于 10000 人
 
@@ -80,7 +80,7 @@ TGI指数计算公式 ：
 
 TGI画像生成后，会从已选洞察维度上与总体用户进行对比，生成每个维度的覆盖率、TGI指数等。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVoQKu3lR98UoPXdBAU%2F-MVoW5ogLJj7quU9pcD-%2F%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.12.47.png?alt=media&token=76491816-1ec5-44ae-8ef2-72bd25bc96a6)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MVoQKu3lR98UoPXdBAU-MVoW5ogLJj7quU9pcD-%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.12.47.png)
 ​
 
 ### 数据安全与隐私[](#shu-ju-an-quan-yu-yin-si)

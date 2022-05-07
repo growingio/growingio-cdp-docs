@@ -13,7 +13,7 @@ sidebar_position: 1
 
 「起始组件」主要功能是圈选「目标人群」、「选择流程类型」以及「设置流程画布的起止时间」，下面依次说明这三个设置项的含义。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLNY7v2EjD4tcURr-iK%2F-MLWrfl8STaFEhmVArrI%2Fimage.png?alt=media&token=c4158059-69fb-4ebf-be3d-c60185abf343)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLNY7v2EjD4tcURr-iK-MLWrfl8STaFEhmVArrIimage.png)
 
 
 #### 目标人群[](#1-1-1-mu-biao-ren-qun)
@@ -36,15 +36,15 @@ sidebar_position: 1
 
 「一次性」只需设置开始日期及具体时间，含义是在该时间点，符合条件的目标用户会全部进入流程
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLNY7v2EjD4tcURr-iK%2F-MLWxzasELJSWvzmX4VE%2Fimage.png?alt=media&token=dd0a2d27-c6da-489c-bc28-9ffdde2de16e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLNY7v2EjD4tcURr-iK-MLWxzasELJSWvzmX4VEimage.png)
 
 「循环」需要设置上线日期以及下线日期，同时设置触发频率以及执行的时间，含义是在该时间段内，按照指定频率在对应日的对应时间将符合条件的目标用户推入流程
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLNY7v2EjD4tcURr-iK%2F-MLWy4R-_mupwfiy2T1J%2Fimage.png?alt=media&token=d90f7b59-fce4-4c13-b779-79ba9795c428)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLNY7v2EjD4tcURr-iK-MLWy4R-_mupwfiy2T1Jimage.png)
 
 「触发型」需要设置上线时间以及下线时间，含义是在该时间段内，目标人群只要触发目标事件就会进入流程
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLNY7v2EjD4tcURr-iK%2F-MLWywkhJnDSAUe53--6%2Fimage.png?alt=media&token=d3f70453-bf06-4d57-b846-6eae3fc1fffe)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLNY7v2EjD4tcURr-iK-MLWywkhJnDSAUe53--6image.png)
 
 
 #### 是否可重复进入流程[](#1-1-4-shi-fou-ke-zhong-fu-jin-ru-liu-cheng)
@@ -56,18 +56,18 @@ sidebar_position: 1
 
 用户判断组件的用途是将用户进一步细分，统计意义是在当前时间点往前追溯一段时间内（追溯时间可配置），将符合/不符合指定条件的用户分为两个群体。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLWz-hCf5KHGM40rvhL%2F-MLX-cqx_GO9xpAlWqmV%2Fimage.png?alt=media&token=3bc94769-2c4b-4330-9e5c-a47253bc03b5)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLWz-hCf5KHGM40rvhL-MLX-cqx_GO9xpAlWqmVimage.png)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLWz-hCf5KHGM40rvhL%2F-MLX-kVR-83XTAJ9eKCL%2Fimage.png?alt=media&token=87627eee-e486-41d3-8ad5-2935c455d1cf)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLWz-hCf5KHGM40rvhL-MLX-kVR-83XTAJ9eKCLimage.png)
 
 
 ### 事件触发组件[](#13-shi-jian-chu-fa-zu-jian)
 
 事件触发组件的用途是将触发指定事件或事件组合（可配置）的用户，实时推入到下一步流程中，适用于需要在用户完成某个事件时，实时的营销活动，比如消费成功后立即返券等。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLWz-hCf5KHGM40rvhL%2F-MLX0mUpYaivMQMQTyOK%2Fimage.png?alt=media&token=a43dcdea-5f16-466e-847c-be79dbfb86ee)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLWz-hCf5KHGM40rvhL-MLX0mUpYaivMQMQTyOKimage.png)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLWz-hCf5KHGM40rvhL%2F-MLX0stTKJ-1yaR8BQcV%2Fimage.png?alt=media&token=e5b59a4e-5f17-45cb-b00f-d8e2a7601473)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLWz-hCf5KHGM40rvhL-MLX0stTKJ-1yaR8BQcVimage.png)
 
 
 ### 活动组件[](#14-huo-dong-zu-jian)
@@ -76,35 +76,35 @@ sidebar_position: 1
 
 同时微信/企业微信/短信等触点我们会逐步更新，敬请期待。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLWz-hCf5KHGM40rvhL%2F-MLX1UAFKR7UD5m8loUp%2Fimage.png?alt=media&token=77f610de-189e-4381-aa80-083952eefb9e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLWz-hCf5KHGM40rvhL-MLX1UAFKR7UD5m8loUpimage.png)
 
 
 ## 创建流程画布[](#2-chuang-jian-liu-cheng-hua-bu)
 
 ### 选择新建流程画布[](#21-xuan-ze-xin-jian-liu-cheng-hua-bu)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLX3B-jDtXdvacgOqsg%2F-MLX3D-Ox5nGi_jkAkXu%2Fimage.png?alt=media&token=e8d5e9ab-6f29-4a8d-ac83-f2fe38913ac6)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLX3B-jDtXdvacgOqsg-MLX3D-Ox5nGi_jkAkXuimage.png)
 
 
 ### 填写流程画布名称[](#22-tian-xie-liu-cheng-hua-bu-ming-cheng)
 
 进入流程画布后，可填写流程画布名称，如不填写会自动生成一个流程画布id
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLX3B-jDtXdvacgOqsg%2F-MLX3aF_B_gXZQgWLZQ9%2Fimage.png?alt=media&token=0e9d3294-0720-4073-9522-afe40302f04a)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLX3B-jDtXdvacgOqsg-MLX3aF_B_gXZQgWLZQ9image.png)
 
 
 ### 设置起始设置[](#23-she-zhi-qi-shi-she-zhi)
 
 在流程画布的编辑页面，可见唯一的起始设置器，单击「起始设置」，屏幕右侧会出现设置页面，进行相关设置项配置即可
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLX3B-jDtXdvacgOqsg%2F-MLX45tPJ5DhVgyHuxqT%2Fimage.png?alt=media&token=113da037-51c5-48ce-873d-85dff6f88c71)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLX3B-jDtXdvacgOqsg-MLX45tPJ5DhVgyHuxqTimage.png)
 
 
 ### 流程组件设置[](#24-liu-cheng-zu-jian-she-zhi)
 
 当完成「起始设置」配置，点击保存后，会重新回到流程画布编辑页面，同时「起始设置」可见配置内容。当将鼠标悬停在「起始设置」组件上时，组件右侧会出现一个「➕」，单击后可见可添加组件。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLX3B-jDtXdvacgOqsg%2F-MLX4r5mljdVBNUE87fe%2Fimage.png?alt=media&token=0f5703c7-6b4c-43e2-bd8c-00df29d48c09)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLX3B-jDtXdvacgOqsg-MLX4r5mljdVBNUE87feimage.png)
 
 流程组件设置非常灵活，「用户判断」、「事件触发」、「活动配置」均可自由链接，以灵活支持复杂的业务场景
 
@@ -115,7 +115,7 @@ sidebar_position: 1
 
 设置流程画布的目标，用目标完成率来衡量效果。注意，这里目标窗口期是从**用户进入流程**的时间点开始计的。设置完成之后点击保存即可。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLX5T-Lu9zKAQHwbN3j%2F-MLX6P6FQfDBy5-oNEd4%2Fimage.png?alt=media&token=5e6c1055-3959-4264-b64a-9218b7be7558)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLX5T-Lu9zKAQHwbN3j-MLX6P6FQfDBy5-oNEd4image.png)
 
 ​
 ### 保存[](#26-bao-cun)

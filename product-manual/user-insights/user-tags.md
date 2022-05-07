@@ -9,7 +9,7 @@ sidebar_position: 5
 
 在用户标签详情页可以查看单一用户标签的名称、标签类型、数值类型、创建人、创建日期和统计分布。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOeYqosjolUKTWtILx%2F-MiOegtCTtP0Vz2mrCvZ%2Fimage.png?alt=media&token=d7e96d7c-c587-4aa6-bb71-19179dd40719)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiOeYqosjolUKTWtILx-MiOegtCTtP0Vz2mrCvZimage.png)
 
 您也可以对用户标签进行以下操作：
 

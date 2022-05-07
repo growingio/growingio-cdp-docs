@@ -65,13 +65,13 @@ sidebar_position: 5
 
 一、在左侧导航栏选择“**分析模型 > 漏斗分析**"，进入漏斗分析列表页。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2Fc7ca813cedca48da9c7e5bf95aee8db8bb4bea23.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsyncc7ca813cedca48da9c7e5bf95aee8db8bb4bea23.png)
 
 二、单击右侧列表上方"**新建漏斗分析"**，进入**创建漏斗分析**页面。
 
 三、依据以下步骤配置漏斗。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2F729be50337589fc51c609377a8e3e248313c1883.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsync729be50337589fc51c609377a8e3e248313c1883.png)
 
 | 项   | 说明  |
 | --- | --- |
@@ -94,7 +94,7 @@ sidebar_position: 5
 
 默认展示转化漏斗步骤图。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2Fd2f8574a06a4b7b32181926837fae0813cf6bf31.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsyncd2f8574a06a4b7b32181926837fae0813cf6bf31.png)
 
 | 项   | 说明  |
 | --- | --- |
@@ -107,35 +107,35 @@ sidebar_position: 5
 
 点击右上角下拉菜单，可以查看漏斗转化趋势。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2F831d00d3ccf979228686e3f3951b9d3a78a5e769.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsync831d00d3ccf979228686e3f3951b9d3a78a5e769.png)
 
 图表中展示了漏斗整体转化率随时间的变化趋势。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2Fc4dc4819230fa0ce6464a9d2724770131798d597.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsyncc4dc4819230fa0ce6464a9d2724770131798d597.png)
 
 您还可以通过维度拆解查看不同维度值的对比转化趋势，如：对比“城市“维度下北京和上海的转化率。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2F3b7865780f7807f7793c9769f8918d7311577319.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsync3b7865780f7807f7793c9769f8918d7311577319.png)
 
 ### 转化时长分布[](#zhuan-hua-shi-chang-fen-bu)
 
 点击右上角下拉菜单，可以查看漏斗的转化时长分布。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MguCrq45Rloh-hnJ5f-%2F-MguEMKE_rPdFJgdwg1p%2Fimage.png?alt=media&token=e0a3bcc0-4ad1-4307-a63c-e6389b0769e4)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MguCrq45Rloh-hnJ5f--MguEMKE_rPdFJgdwg1pimage.png)
 
 点击转化时长分布，可以看到漏斗转化时长分布情况：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MguCrq45Rloh-hnJ5f-%2F-MguFn4XoghuvsR7ThbB%2Fimage.png?alt=media&token=0eb3b0cb-a79a-42b3-8cf0-0a7595dd685f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MguCrq45Rloh-hnJ5f--MguFn4XoghuvsR7ThbBimage.png)
 
 点击全部步骤，在下拉列表可以看到漏斗任意步骤的转化时长分布情况：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MguCrq45Rloh-hnJ5f-%2F-MguGjCeWA4cK0pZ_jtw%2Fimage.png?alt=media&token=8bc38a5d-25e3-4d1a-aacc-f5487452049c)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MguCrq45Rloh-hnJ5f--MguGjCeWA4cK0pZ_jtwimage.png)
 
 选择维度拆解可以看到不同维度下漏斗的转化时长分布情况
 
 你可以看到不同维度下转化时长的分布情况，我们特别对中位数所在位置做了标注。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mi4T87yAZ1Ec4eKB-g3%2F-Mi4ZxpXLJHVnYlC0Dyl%2Fimage.png?alt=media&token=f4b2da4c-cdb0-4565-83f2-e3ef8e4a48cd)
+![](/img/assets-M2qbZInaXgdm8kkNosp-Mi4T87yAZ1Ec4eKB-g3-Mi4ZxpXLJHVnYlC0Dylimage.png)
 
 占比的含义：某间隔下这个纬度值对应的用户数除以维度值对应的用户数。如上图 0~2小时的北京的占比是62.1% 代表 北京维度下 有62.1%的人数在 0~2 小时完成了转化。
 
@@ -145,11 +145,11 @@ sidebar_position: 5
 
 全部步骤的均值趋势 ：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MguCrq45Rloh-hnJ5f-%2F-MguHfUYQ2gDUsSY-b0n%2Fimage.png?alt=media&token=39c77d23-db38-4391-84bf-bcdfb3fdc414)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MguCrq45Rloh-hnJ5f--MguHfUYQ2gDUsSY-b0nimage.png)
 
 全部步骤的转化时长中位数：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MguCrq45Rloh-hnJ5f-%2F-MguHuZkjCj9qTJAaeEQ%2Fimage.png?alt=media&token=b2764312-a066-4b5e-9154-913fbbad5930)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MguCrq45Rloh-hnJ5f--MguHuZkjCj9qTJAaeEQimage.png)
 
 ## 常见问题[](#chang-jian-wen-ti)
 

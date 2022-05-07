@@ -135,7 +135,7 @@ sidebar_position: 1
 
 操作流程：点击左上角“**+**”新建用户标签分类。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLkmfZ4YMUK_cJXiZ5r%2Fimage.png?alt=media&token=3128a08f-c6fc-4406-98b2-0d0aab3a2430)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLkllnZYUXlma68fUP_-MLkmfZ4YMUK_cJXiZ5rimage.png)
 
 如未选择上级分类，则在第一级最下方添加新的分类。
 
@@ -149,7 +149,7 @@ sidebar_position: 1
 
 如不更改上级分类，则默认在该分类下级最下方添加新的分类。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLknwaiHGnJSYKnaV-t%2Fimage.png?alt=media&token=ab54e19e-2eab-4e46-999c-f85066028968)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLkllnZYUXlma68fUP_-MLknwaiHGnJSYKnaV-timage.png)
 
 最多支持创建四级分类，即第四级分类不支持添加子分类
 
@@ -159,7 +159,7 @@ sidebar_position: 1
 
 修改分类名称后，点击确定保存修改。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLkoLcUzkV1si9GatS3%2Fimage.png?alt=media&token=7b03bb64-279d-450d-babd-6afac04f0e1f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLkllnZYUXlma68fUP_-MLkoLcUzkV1si9GatS3image.png)
 
 分类名称不能与已创建的分类名称重复；
 
@@ -171,7 +171,7 @@ sidebar_position: 1
 
 点击确认后，删除该分类。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkllnZYUXlma68fUP_%2F-MLkqIZC9d7YWItlOJqu%2Fimage.png?alt=media&token=37972544-a8e5-49b4-9a62-0414981fdaf7)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLkllnZYUXlma68fUP_-MLkqIZC9d7YWItlOJquimage.png)
 
 您需要将分类中关联的子分类删除，并且移除分类下的所有用户标签才能删除此分类。
 
@@ -181,11 +181,11 @@ sidebar_position: 1
 
 二、单击右上角**添加标签**，进入**新建标签**弹窗。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaXKLTn1rbjJDdF9USQ%2F-MaXjQj81hnrY5iiT4UX%2Fimage.png?alt=media&token=a55135e4-b227-43e0-97e8-6ebdbd930038)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MaXKLTn1rbjJDdF9USQ-MaXjQj81hnrY5iiT4UXimage.png)
 
 选择标签类型后，第一步需要定义标签的名称、标识符、描述 等信息。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaXKLTn1rbjJDdF9USQ%2F-MaXkkU6-BQpn4xllWFZ%2Fimage.png?alt=media&token=52fb390f-5717-4f1a-a3e3-535133c41225)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MaXKLTn1rbjJDdF9USQ-MaXkkU6-BQpn4xllWFZimage.png)
 
 第二步需要定义标签计算规则，详情请参考五种规则标签说明。
 
@@ -195,7 +195,7 @@ sidebar_position: 1
 
 控件说明：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaWT8g4phN_UqWQQthL%2F-MaX7r5FZlB_gIjpWI8V%2Fimage.png?alt=media&token=e75280d8-3ff0-4ff6-aa7a-86cac573c9d9)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MaWT8g4phN_UqWQQthL-MaX7r5FZlB_gIjpWI8Vimage.png)
 
 | 项             | 说明                                                   |
 | -------------- | ------------------------------------------------------ |
@@ -218,7 +218,7 @@ sidebar_position: 1
 
 控件说明：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaX8gmlITGn2zTUPjta%2F-MaX955wpjSxFGygI76a%2Fimage.png?alt=media&token=8fbc6d27-1014-4ca2-8649-3cd9daeaa64e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MaX8gmlITGn2zTUPjta-MaX955wpjSxFGygI76aimage.png)
 
 | 项             | 说明                                     |
 | -------------- | ---------------------------------------- |
@@ -233,7 +233,7 @@ sidebar_position: 1
 
 控件说明：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaX9FEkMV4TtU-ccU95%2F-MaX9iiMNQsxpX2ETO5e%2Fimage.png?alt=media&token=291e868d-4faa-4109-b910-f6711c2a890c)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MaX9FEkMV4TtU-ccU95-MaX9iiMNQsxpX2ETO5eimage.png)
 
 | 项             | 说明                                           |
 | -------------- | ---------------------------------------------- |
@@ -247,7 +247,7 @@ sidebar_position: 1
 
 控件说明：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaXAPPPHyRVJTXO1Z3e%2F-MaXAllgogkiDLxjhel7%2Fimage.png?alt=media&token=55832063-b163-4e10-9543-6a4bce4ac464)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MaXAPPPHyRVJTXO1Z3e-MaXAllgogkiDLxjhel7image.png)
 
 | 项             | 说明                                  |
 | -------------- | ------------------------------------- |
@@ -260,7 +260,7 @@ sidebar_position: 1
 
 控件说明:
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mj2BWCC4TS6k2BV0XPv%2F-Mj2CS4254gARATZucRG%2Fimage.png?alt=media&token=769e0758-7cea-4669-9b8d-90740bd28d48)
+![](/img/assets-M2qbZInaXgdm8kkNosp-Mj2BWCC4TS6k2BV0XPv-Mj2CS4254gARATZucRGimage.png)
 
 **SQL 标签**
 
@@ -269,7 +269,7 @@ sidebar_position: 1
 - 支持选择数值类型
 - 支持写入 SQL 规则
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiQNGh3wdzlC8uur13S%2F-MiQObm0w2zbwDsZsT_e%2Fimage.png?alt=media&token=37910440-3c54-4a19-b1a8-192d882e4eb5)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiQNGh3wdzlC8uur13S-MiQObm0w2zbwDsZsT_eimage.png)
 
 ### 用户标签管理[](#yong-hu-biao-qian-guan-li)
 
@@ -277,7 +277,7 @@ sidebar_position: 1
 
 在用户标签详情页可以查看单一用户标签的名称、标签类型、数值类型、创建人、创建日期和统计分布。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOcnswk2NsfjzfU50l%2F-MiOdKz5sPHo7c68wR3E%2Fimage.png?alt=media&token=ba1db44d-a9eb-4aa5-a8b0-9d12e2dd9c3e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiOcnswk2NsfjzfU50l-MiOdKz5sPHo7c68wR3Eimage.png)
 
 您也可以对用户标签进行以下操作：
 
@@ -297,7 +297,7 @@ sidebar_position: 1
 
 在用户标签管理页面可以查看用户标签的名称、标识符、标签类型、所属分类、创建日期、创建人、最后修改人等信息。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiOZz2nstnrikOkEx0b%2F-MiO_cLiEoIuuRcTkMsC%2Fimage.png?alt=media&token=9d714698-6adf-4268-b2ef-0020cfd19f90)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiOZz2nstnrikOkEx0b-MiO_cLiEoIuuRcTkMsCimage.png)
 
 您也可以对用户标签进行以下操作：
 
@@ -315,7 +315,7 @@ sidebar_position: 1
 
 ### 基础指标值：过去 30 天活跃天数[](#ji-chu-zhi-biao-zhi-guo-qu-30-tian-huo-yue-tian-shu)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MAToWSSk0On29958fqk%2F-MATpu7WBphvmM_ZYft1%2Fimage.png?alt=media&token=83cf0379-36c6-4015-ad83-4da32be97f2c)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MAToWSSk0On29958fqk-MATpu7WBphvmM_ZYft1image.png)
 
 | 项             | 说明       |
 | -------------- | ---------- |
@@ -327,7 +327,7 @@ sidebar_position: 1
 
 ### 基础指标值：过去 90 天平均订单支付金额[](#ji-chu-zhi-biao-zhi-guo-qu-90-tian-ping-jun-ding-dan-zhi-fu-jin-e)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MAToWSSk0On29958fqk%2F-MATqV6IcxhwCuzgmVmr%2Fimage.png?alt=media&token=0ff1bb9b-c55a-4d4b-bb71-96648c8e7295)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MAToWSSk0On29958fqk-MATqV6IcxhwCuzgmVmrimage.png)
 
 | 项             | 说明         |
 | -------------- | ------------ |
@@ -339,7 +339,7 @@ sidebar_position: 1
 
 ### 基础指标值：过去 7 天男装商品浏览次数占总商品浏览次数占比[](#ji-chu-zhi-biao-zhi-guo-qu-7-tian-nan-zhuang-shang-pin-liu-lan-ci-shu-zhan-zong-shang-pin-liu-lan-ci-shu-zhan-bi)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MAToWSSk0On29958fqk%2F-MATr0kCWB-cFIxbKtPC%2Fimage.png?alt=media&token=9d60f046-b74c-455c-8e3f-b4e86a9a5c4f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MAToWSSk0On29958fqk-MATr0kCWB-cFIxbKtPCimage.png)
 
 | 项             | 说明               |
 | -------------- | ------------------ |
@@ -351,7 +351,7 @@ sidebar_position: 1
 
 ### 最大值/最小值的事件属性：过去 30 天浏览次数最多的商品一级分类[](#zui-da-zhi-zui-xiao-zhi-de-shi-jian-shu-xing-guo-qu-30-tian-liu-lan-ci-shu-zui-duo-de-shang-pin-yi-ji-fen-lei)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MAU29Bnt1JKBodOmP_S%2F-MAU2zp4DQ2FHbsBWx2e%2Fimage.png?alt=media&token=ea0bae1f-7ca3-483b-8055-b0ec0aaa40ac)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MAU29Bnt1JKBodOmP_S-MAU2zp4DQ2FHbsBWx2eimage.png)
 
 | 项             | 说明           |
 | -------------- | -------------- |
@@ -364,7 +364,7 @@ sidebar_position: 1
 
 ### 首次/末次的事件属性：过去 90 天末次(最后一次)订单购买距今日期[](#shou-ci-mo-ci-de-shi-jian-shu-xing-guo-qu-90-tian-mo-ci-zui-hou-yi-ci-ding-dan-gou-mai-ju-jin-ri-qi)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaXA41F188ZJnOOM7Tc%2F-MaXAGNawGLXbipq7t1M%2Fimage.png?alt=media&token=33e21c07-6fce-4a5e-9cbe-8663ff933b10)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MaXA41F188ZJnOOM7Tc-MaXAGNawGLXbipq7t1Mimage.png)
 
 | 项             | 说明         |
 | -------------- | ------------ |
@@ -376,7 +376,7 @@ sidebar_position: 1
 
 ### 列表类的事件属性：过去 30 天全部浏览的商品名称[](#lie-biao-lei-de-shi-jian-shu-xing-guo-qu-30-tian-quan-bu-liu-lan-de-shang-pin-ming-cheng)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MAUBp9Ib2qBIHwfvihV%2F-MAUEmdyl_o3vcBNcIbc%2Fimage.png?alt=media&token=7f500bc8-5592-45ac-8bda-1d9ae25ad69f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MAUBp9Ib2qBIHwfvihV-MAUEmdyl_o3vcBNcIbcimage.png)
 
 | 项             | 说明           |
 | -------------- | -------------- |
@@ -389,15 +389,15 @@ sidebar_position: 1
 
 高活跃用户：过去 30 天累计交易金额大于 1 千元且活跃天数大于 4 天 ‌
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaXAPPPHyRVJTXO1Z3e%2F-MaXCTAgdtqU7Mlq--YD%2Fimage.png?alt=media&token=3277031e-18ee-4312-b9a7-d5432440c1e5)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MaXAPPPHyRVJTXO1Z3e-MaXCTAgdtqU7Mlq--YDimage.png)
 
 中活跃用户：过去 30 天累计交易金额大于 300 元或活跃天数大于 2 天 ‌
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaXDLQjyWiMW4vv5TSA%2F-MaXJ_-YnLxRxmvZ0spv%2Fimage.png?alt=media&token=4215dce4-360c-4e33-ab04-f157bec142ea)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MaXDLQjyWiMW4vv5TSA-MaXJ_-YnLxRxmvZ0spvimage.png)
 
 低活跃用户：过去 30 天有活跃的用户
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MaXDLQjyWiMW4vv5TSA%2F-MaXJf4PNfheimCYJSn4%2Fimage.png?alt=media&token=44dc2509-27d0-4c5d-b279-cb114de6a802)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MaXDLQjyWiMW4vv5TSA-MaXJf4PNfheimCYJSn4image.png)
 
 ### SQL 标签：过去 7 天订单支付金额总和[](#sql-biao-qian-guo-qu-7-tian-ding-dan-zhi-fu-jinezong-he)
 
