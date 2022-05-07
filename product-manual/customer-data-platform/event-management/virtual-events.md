@@ -16,13 +16,13 @@ sidebar_position: 2
 
 一、在 客户数据平台 选择 “**事件管理 > 虚拟事件**" ，进入虚拟事件管理页面。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MdGhZcKgFVqs99_pO5G%2F-MdGy1_31o_FicAJo4EY%2Fimage.png?alt=media&token=1032be68-3741-43d6-9aad-de9c786afc2c)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MdGhZcKgFVqs99_pO5G-MdGy1_31o_FicAJo4EYimage.png)
 
 二、单击右上角 **新建虚拟事件**、进入 **新建虚拟事件** 弹窗。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MdGhZcKgFVqs99_pO5G%2F-MdGyKdlPwLXuKkP1wIP%2Fimage.png?alt=media&token=430764ca-edbb-4637-9ada-1c955fb33c90)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MdGhZcKgFVqs99_pO5G-MdGyKdlPwLXuKkP1wIPimage.png)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MdGhZcKgFVqs99_pO5G%2F-MdGyXoYmhaI00texTxl%2Fimage.png?alt=media&token=2a6ad012-22df-405b-ae36-9e24a2c918e4)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MdGhZcKgFVqs99_pO5G-MdGyXoYmhaI00texTxlimage.png)
 
 | 参数  | 说明  |
 | --- | --- |
@@ -48,7 +48,7 @@ sidebar_position: 2
 
 在虚拟事件管理页面可以查看虚拟事件的名称、标识符、创建日期、创建人、最后编辑日期、最后编辑人。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkW5rUsvP-VWF51ulfh%2F-MkW7JE9U_7jkrWFl-8a%2Fimage.png?alt=media&token=f4e48543-4922-42d1-b37b-c055849ff341)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkW5rUsvP-VWF51ulfh-MkW7JE9U_7jkrWFl-8aimage.png)
 
 您也可以对虚拟事件进行以下操作：
 

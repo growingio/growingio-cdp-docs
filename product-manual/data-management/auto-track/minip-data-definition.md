@@ -21,17 +21,17 @@ sidebar_position: 3
 
 如果您的手机与电脑处于同一WIFI网络下，使用手机打开小程序后您的头像便可以出现下用户列表区域。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MQpBeu-sZ8P81oEMV5h%2F-MQpCILNNmbKMS50FBbe%2Fimage.png?alt=media&token=ceb6d072-431d-4883-ae5e-6987c8a6fd3e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MQpBeu-sZ8P81oEMV5h-MQpCILNNmbKMS50FBbeimage.png)
 
 如小程序授权头像等信息，您可以在列表区域看到您的头像和微信昵称；如果未授权以上信息，需要根据您微信的国家、省份、城市，或者手机型号、操作系统、微信版本和小程序版本找到您所操作的设备。
 
 如果您的手机与电脑无法处于同一WIFI网络下，您可以点击 **扫码** 按钮。使用手机扫码成功后，您可以在手机端看到添加IP成功提示，之后使用手机打开小程序后您的头像便可以出现下用户列表区域。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MQpBeu-sZ8P81oEMV5h%2F-MQpDqw07iYI5ojMsDOY%2Fimage.png?alt=media&token=a936906b-0022-46fb-b2a3-0b7180545544)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MQpBeu-sZ8P81oEMV5h-MQpDqw07iYI5ojMsDOYimage.png)
 
 选择您的设备后点击 **开始圈选** ，开始定义无埋点事件。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MQpEdWljs08FPaCzgBA%2F-MQpHQvO3zJhfmakfzMO%2Fimage.png?alt=media&token=67beec6f-41da-439e-990b-a12274c0f4fd)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MQpEdWljs08FPaCzgBA-MQpHQvO3zJhfmakfzMOimage.png)
 
 | 项   | 说明  |
 | --- | --- |
@@ -48,7 +48,7 @@ sidebar_position: 3
 
 点击 “**页面浏览**” 事件后，进入页面定义流程。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MQpIK0q0whj__-hrfqP%2F-MQpLm4i1NUIC9qK01la%2Fimage.png?alt=media&token=ae22ce49-ec70-4560-aa07-c5d19a0f6c2e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MQpIK0q0whj__-hrfqP-MQpLm4i1NUIC9qK01laimage.png)
 
 当定义小程序原生页面时，您可以看到以下配置项：
 
