@@ -7,7 +7,7 @@ sidebar_position: 1
 
 ## 简介[](#jian-jie)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHAw35zOpUAKk8Gkij%2F-MkHB27R_bgbDcdnHI1T%2Fimage.png?alt=media&token=596d3c25-f30d-4d4e-b1a8-9628fc8f50fc)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHAw35zOpUAKk8Gkij-MkHB27R_bgbDcdnHI1Timage.png)
 
 ## 功能说明[](#gong-neng-shuo-ming)
 
@@ -24,7 +24,7 @@ sidebar_position: 1
 
 点击前往项目，可进入项目内部 。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHAw35zOpUAKk8Gkij%2F-MkHB74Z4qZwyZyVyaP-%2Fimage.png?alt=media&token=6195284a-bf25-4339-a1e7-8510d17dd950)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHAw35zOpUAKk8Gkij-MkHB74Z4qZwyZyVyaP-image.png)
 
 > 权限控制： 仅已被加入項目中的成员 ，才可访问項目 。
 
@@ -34,7 +34,7 @@ sidebar_position: 1
 
 操作流程 ：点击操作 > 编辑项目信息 > 点击保存 。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHAw35zOpUAKk8Gkij%2F-MkHBC16OvJjReQwgkUt%2Fimage.png?alt=media&token=f14b3fef-cb06-4010-943b-a33d474aa250)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHAw35zOpUAKk8Gkij-MkHBC16OvJjReQwgkUtimage.png)
 
 > 权限控制： 仅拥有者、超级管理员可更换項目负责人
 
@@ -42,7 +42,7 @@ sidebar_position: 1
 
 操作流程 ： 点击操作 > 点击更换负责人 > 选择新负责人 > 点击确定 。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHAw35zOpUAKk8Gkij%2F-MkHBHGojX9wefK_F5iV%2Fimage.png?alt=media&token=2a087fef-0ab2-46db-8a8f-51ef489d0219)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHAw35zOpUAKk8Gkij-MkHBHGojX9wefK_F5iVimage.png)
 
 > 权限控制： 仅拥有者、超级管理员可更换项目负责人
 
@@ -82,4 +82,4 @@ sidebar_position: 1
 
 由于删除项目为高度敏感且危险操作 ，当前平台中 不支持 自行删除项目 。 若有删除项目的诉求，请联系 GrowingIO 技术顾问提供协助。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHAw35zOpUAKk8Gkij%2F-MkHBOs_OoFmFdC-flhp%2Fimage.png?alt=media&token=87d6674a-57d4-45e0-9075-da3fd4e6ff46)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHAw35zOpUAKk8Gkij-MkHBOs_OoFmFdC-flhpimage.png)

@@ -38,6 +38,6 @@ sidebar_position: 2
     
 * 考虑到用户的使用场景，使用频率，查询性能，限制查询最大时间范围为过去30天内的事件数据
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MhXAgZa1AJ0HVQQFrj1%2F-MhXBLoxrzk4kCYlG57b%2Fimage.png?alt=media&token=3032f0a1-9cbf-42bb-b7f8-3b817c3e8cfe)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MhXAgZa1AJ0HVQQFrj1-MhXBLoxrzk4kCYlG57bimage.png)
 
 搜索单用户事件数据

@@ -14,7 +14,7 @@ sidebar_position: 2
 
 Webhook请求是一个POST请求，会发送到某个客户提供的URL上，可以添加额外的参数，例
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ8HNXx16mvUFwU5i-%2F-MDZCJn7wAwvLyIwdSmd%2Fimage.png?alt=media&token=ee8f624e-001e-4079-a0cb-3486242d21cf)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ8HNXx16mvUFwU5i--MDZCJn7wAwvLyIwdSmdimage.png)
 
 
 #### Response Code[](#Response-Code)
@@ -55,13 +55,13 @@ X-gio-signature:xxx
 
 配置若干模板参数：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ8HNXx16mvUFwU5i-%2F-MDZCaBxglTlz-2bJOs6%2Fimage.png?alt=media&token=1e884f5a-791d-41b7-8413-037b82103102)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ8HNXx16mvUFwU5i--MDZCaBxglTlz-2bJOs6image.png)
 
 Webhook 模板参数配置
 
 配置若干用户属性：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MKXnoWLAupD3nID9JsQ%2F-MKXuWTfMuJadDeSILUy%2FJietu20201026-110228.jpg?alt=media&token=73c2e7db-79a8-4398-84a0-ea77c586e489)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MKXnoWLAupD3nID9JsQ-MKXuWTfMuJadDeSILUyJietu20201026-110228.jpg)
 
 Webhook 用户属性配置
 
@@ -226,4 +226,4 @@ X-gio-signature:1e089260ba1bfde37f88eca8e665d8b1fb690ae763979d25dd10a831dedd52a8
 
 #### 模版参数支持类型[](#模版参数支持类型)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ8HNXx16mvUFwU5i-%2F-MDZDduI_g9TlsmKHdsT%2Fimage.png?alt=media&token=2eb89b99-e31c-4bc0-87b6-4f2f7c1a8d13)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ8HNXx16mvUFwU5i--MDZDduI_g9TlsmKHdsTimage.png)

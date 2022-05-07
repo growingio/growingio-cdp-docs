@@ -27,18 +27,18 @@ sidebar_position: 2
 
 在系统首页点击企业管理后台。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkH72c2s87xY-cyCKXe%2F-MkH7SK230Lg0fKEoLk_%2Fimage.png?alt=media&token=1851b518-d3e3-4e6e-90d4-c152a8f8a61f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkH72c2s87xY-cyCKXe-MkH7SK230Lg0fKEoLk_image.png)
 
 在顶部导航上，点击企业管理后台。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkH72c2s87xY-cyCKXe%2F-MkH7cW4qAUYc1NJiwXr%2Fimage.png?alt=media&token=50ee409e-1eee-4fa7-91fa-15025d87ba3c)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkH72c2s87xY-cyCKXe-MkH7cW4qAUYc1NJiwXrimage.png)
 
 企业管理后台的访问权限受到 **_企业角色_** 所控制。 企业角色为外部成员的使用者，无法访问。
 
 
 ### 界面介绍[](#jie-mian-jie-shao)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkH72c2s87xY-cyCKXe%2F-MkH7jUMb-RZkvilAOdp%2Fimage.png?alt=media&token=198d7d6b-d2d2-4c1f-a083-a08b37220ce0)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkH72c2s87xY-cyCKXe-MkH7jUMb-RZkvilAOdpimage.png)
 
 | 操作  | 作用说明 |
 | --- | --- |
@@ -51,6 +51,6 @@ sidebar_position: 2
 
 点击企业信息\- 查看详情，点击编輯，进入企业信息修改模式。你可按需修改企业名称、上传企业 logo，点击确认即可保存。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkH72c2s87xY-cyCKXe%2F-MkH7p8LMxGo5-NwYw9O%2Fimage.png?alt=media&token=e6bbdf57-ce49-4ae3-aa0a-528af741a23e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkH72c2s87xY-cyCKXe-MkH7p8LMxGo5-NwYw9Oimage.png)
 
 仅 **_企业拥有者、企业超级管理员_** 可以操作编辑企业名称
