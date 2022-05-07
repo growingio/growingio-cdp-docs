@@ -13,7 +13,7 @@ sidebar_position: 1
 
 GrowingIO系统默身份配置仅支持使用 用户ID 和 UUID(设备ID)，如需使用多用户身份请联系相关工作人员，并在工作人员指导下进行多身份ID配置。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiZzW5GAZav2VvW_jxc%2F-Mi_3rcuT9G4nBtbayam%2Fimage.png?alt=media&token=41e8c381-fae5-4771-8b6a-58193bb47ae8)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiZzW5GAZav2VvW_jxc-Mi_3rcuT9G4nBtbayamimage.png)
 
 ### 唯一身份ID[](#wei-yi-shen-fen-id)
 
@@ -54,7 +54,7 @@ GrowingIO系统默身份配置仅支持使用 用户ID 和 UUID(设备ID)，如�
 
 ### 案例一：首次访问设备匿名转登陆[](#an-li-yi-shou-ci-fang-wen-she-bei-ni-ming-zhuan-deng-lu)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mi_Q1oe-e4TjH-PqhSf%2F-Mi_a2Ap-6sjV5IcjOCy%2Fimage.png?alt=media&token=18cdbcb6-abef-43e4-a4c7-02e3717d4f00)
+![](/img/assets-M2qbZInaXgdm8kkNosp-Mi_Q1oe-e4TjH-PqhSf-Mi_a2Ap-6sjV5IcjOCyimage.png)
 
 | 时间  | 用户行为 |
 | --- | --- |
@@ -64,7 +64,7 @@ GrowingIO系统默身份配置仅支持使用 用户ID 和 UUID(设备ID)，如�
 
 ### 案例二：同一用户跨多设备使用[](#an-li-er-tong-yi-yong-hu-kua-duo-she-bei-shi-yong)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mi_Q1oe-e4TjH-PqhSf%2F-Mi__zFRopAtSCTneEbp%2Fimage.png?alt=media&token=41c94c7d-b19b-4673-8556-83b75a499d77)
+![](/img/assets-M2qbZInaXgdm8kkNosp-Mi_Q1oe-e4TjH-PqhSf-Mi__zFRopAtSCTneEbpimage.png)
 
 | 时间  | 用户行为 |
 | --- | --- |
@@ -78,7 +78,7 @@ GrowingIO系统默身份配置仅支持使用 用户ID 和 UUID(设备ID)，如�
 
 ### 案例三：多用户交叉使用同一设备[](#an-li-san-duo-yong-hu-jiao-cha-shi-yong-tong-yi-she-bei)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mi_Q1oe-e4TjH-PqhSf%2F-Mi_cnUWpwuihtQgUnS1%2Fimage.png?alt=media&token=08fb0a28-c0a7-47b4-a071-ec52768de8f8)
+![](/img/assets-M2qbZInaXgdm8kkNosp-Mi_Q1oe-e4TjH-PqhSf-Mi_cnUWpwuihtQgUnS1image.png)
 
 | 时间  | 用户行为 |
 | --- | --- |

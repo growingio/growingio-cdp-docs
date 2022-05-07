@@ -35,7 +35,7 @@ step 4: 在3处选择筛选维度值
 
 step 5: 点击保存
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M9bybE_pmoK9_6cCY1j%2F-M9c0ez5qHBsoFo3Zh03%2Fimage.png?alt=media&token=2ca008cd-f468-4a3a-a9b1-e1fe67f74c50)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M9bybE_pmoK9_6cCY1j-M9c0ez5qHBsoFo3Zh03image.png)
 
 全局过滤弹窗
 
@@ -56,7 +56,7 @@ step 2: 在2处选择计算规则
 
 step 3: 在3处选择筛选维度值
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M9c4wRhlW1UjBCqhV7w%2F-M9c5gXLP2W-hstSwLIf%2Fimage.png?alt=media&token=c340c606-3fd4-4b6b-8ee9-66c28e6c245e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M9c4wRhlW1UjBCqhV7w-M9c5gXLP2W-hstSwLIfimage.png)
 
 属性为
 
@@ -64,7 +64,7 @@ step 3: 在3处选择筛选维度值
 
 ### 字符串[](#zi-fu-chuan)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M9c6QU8fuVKrk5hv2zN%2F-M9c8-Pj8ix6i-oJHu-W%2Fimage.png?alt=media&token=0b4524ec-4224-4cdd-b08c-d8ea5a434b66)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M9c6QU8fuVKrk5hv2zN-M9c8-Pj8ix6i-oJHu-Wimage.png)
 
 字符串筛选条件
 
@@ -83,7 +83,7 @@ step 3: 在3处选择筛选维度值
 
 ### 整数和小数[](#zheng-shu-he-xiao-shu)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M9c6QU8fuVKrk5hv2zN%2F-M9c93Wfaqi-wfZ6CSrI%2Fimage.png?alt=media&token=0dcec48e-1eb4-4cf6-966b-d0554bd4fdc9)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M9c6QU8fuVKrk5hv2zN-M9c93Wfaqi-wfZ6CSrIimage.png)
 
 整数和小数筛选条件
 
@@ -103,7 +103,7 @@ step 3: 在3处选择筛选维度值
 
 ### 日期[](#ri-qi)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M9c6QU8fuVKrk5hv2zN%2F-M9c9OV9lGJV5GiGRwfF%2Fimage.png?alt=media&token=f36f5ca7-6984-47af-8dc0-61d0e13ccd62)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M9c6QU8fuVKrk5hv2zN-M9c9OV9lGJV5GiGRwfFimage.png)
 
 日期筛选条件
 
@@ -125,7 +125,7 @@ step 3: 在3处选择筛选维度值
 
 #### 相对现在
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M9cAVOHrFsohkauXBwU%2F-M9cBD5bJ2kT5wDn_rRN%2Fimage.png?alt=media&token=1d5a88f8-158c-451d-94ec-4599fb8295e2)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M9cAVOHrFsohkauXBwU-M9cBD5bJ2kT5wDn_rRNimage.png)
 
 日期筛选条件 \- 相对现在
 
@@ -161,11 +161,11 @@ step 3: 在3处选择筛选维度值
 > 
 > 计算结果：2020年5月14日之后的所有日期，不包含2020年5月14日
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MA9DjPj_pYHnKQDWb0h%2F-MA9GmmdkKCBmJgWTkaW%2Fimage.png?alt=media&token=c827fc41-9399-419c-9e22-95311bf53069)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MA9DjPj_pYHnKQDWb0h-MA9GmmdkKCBmJgWTkaWimage.png)
 
 过去5天之内 & 未来5天之内
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MA9DjPj_pYHnKQDWb0h%2F-MA9HoSC0Ekm_TDNO3zw%2Fimage.png?alt=media&token=de88c447-70f0-42fc-b4fd-75e7c0988a79)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MA9DjPj_pYHnKQDWb0h-MA9HoSC0Ekm_TDNO3zwimage.png)
 
 过去5天之前 & 未来5天之后
 
@@ -173,7 +173,7 @@ step 3: 在3处选择筛选维度值
 
 #### 相对区间
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MA9Ne-F7PdyzBRKJ7Gs%2F-MA9POTIxusDeV8XDYa0%2Fimage.png?alt=media&token=e2ac7817-417f-4137-973e-8dc1bd13c4b6)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MA9Ne-F7PdyzBRKJ7Gs-MA9POTIxusDeV8XDYa0image.png)
 
 日期筛选条件 \- 相对区间
 
@@ -201,6 +201,6 @@ step 3: 在3处选择筛选维度值
 
 注：M, N = 1, 2, 3, 4 ... ( 正整数 ) 且 M <= N
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MA9Ne-F7PdyzBRKJ7Gs%2F-MA9S6Zx6es4cxo9wlGw%2Fimage.png?alt=media&token=9210f6ad-8368-441f-85c5-93fe5f7d676d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MA9Ne-F7PdyzBRKJ7Gs-MA9S6Zx6es4cxo9wlGwimage.png)
 
 过去3天至过去1天之内 & 未来3天至未来6天之内
