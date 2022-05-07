@@ -12,22 +12,22 @@ sidebar_position: 2
 
 前往官网[https://www.yunpian.com/](https://www.yunpian.com/)，登录/注册
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyTFomO_5hIJwu128bt%2F-LyWyymDXD2aIe3FEhBH%2F%E4%BA%91%E7%89%871.png?alt=media&token=13d33aeb-a280-4928-a29a-294efe9b5f68)
+![](/img/assets-Lpwgem-x8KzhBglybzw-LyTFomO_5hIJwu128bt-LyWyymDXD2aIe3FEhBH%E4%BA%91%E7%89%871.png)
 
 点击**APIKEY**右侧的眼睛获取完整内容，稍后需要在GrowingIO平台填写**APIKEY**
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyWz3j1BYCn3hYO5y6x%2F-LyWz7-f4Vob4cC3d-ql%2F%E4%BA%91%E7%89%872.png?alt=media&token=4788ddda-ec39-4512-9d3d-4c17cf87bafd)
+![](/img/assets-Lpwgem-x8KzhBglybzw-LyWz3j1BYCn3hYO5y6x-LyWz7-f4Vob4cC3d-ql%E4%BA%91%E7%89%872.png)
 
 点击**国内短信->签名/模板报备，**进行短信签名和模板的申请
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyWz3j1BYCn3hYO5y6x%2F-LyWzCpe4vh732BIXy0b%2F%E4%BA%91%E7%89%873.png?alt=media&token=c03b9128-3393-4e6f-9466-62d594eec0cb)
+![](/img/assets-Lpwgem-x8KzhBglybzw-LyWz3j1BYCn3hYO5y6x-LyWzCpe4vh732BIXy0b%E4%BA%91%E7%89%873.png)
 
 
 ## 在GrowingIO触达平台配置[](#2-zai-gio-chu-da-ping-tai-pei-zhi)
 
 在「触达->短信配置」中，先选择保存有手机号的用户属性名称。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyX4gha-vc4hUiZahrp%2F-LyX4vB-wrzig73HNI6X%2F%E4%BA%91%E7%89%874.png?alt=media&token=cd856d53-0ef4-4175-8c24-6e60a2480928)
+![](/img/assets-Lpwgem-x8KzhBglybzw-LyX4gha-vc4hUiZahrp-LyX4vB-wrzig73HNI6X%E4%BA%91%E7%89%874.png)
 
 然后找到「云片」，填入上一步中得到的 **短信签名 ，APIKEY** 参数并完成开通。
 
@@ -57,7 +57,7 @@ _实例模板：【GrowingIO】你好{name}，恭喜你获得100元VIP优惠券�
 
 1.想查看对应分群里面手机号的显示。可以去 用户分析-用户细查 里面查看
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Lpwgem-x8KzhBglybzw%2F-LyWz3j1BYCn3hYO5y6x%2F-LyWzQyl3JHSLeXkX5NC%2F12.png?alt=media&token=4e115617-9b89-4ab7-99c4-6f930ef03632)
+![](/img/assets-Lpwgem-x8KzhBglybzw-LyWz3j1BYCn3hYO5y6x-LyWzQyl3JHSLeXkX5NC12.png)
 
 ## **发送短信后，未收到查看原因**[](#4-fa-song-duan-xin-hou-wei-shou-dao-cha-kan-yuan-yin)
 

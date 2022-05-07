@@ -56,7 +56,7 @@ sidebar_position: 2
 
 手动集成 SDK 下载最新的 iOS GrowingTouch SDK 包，并将其中的 GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle 以及 GrowingTouchKit.framework 添加到 iOS 工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.4.7.zip)​
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4mOetDAxVVM8YCSlJs%2F-M4mOmcb0LHDIZj_s540%2Fimage.png?alt=media&token=ba7ac106-deb9-444b-b087-3e5b7033fc4b)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4mOetDAxVVM8YCSlJs-M4mOmcb0LHDIZj_s540image.png)
 
 ### 初始化 SDK[](#3-chu-shi-hua-sdk)
 
@@ -370,7 +370,7 @@ sidebar_position: 2
 
 - **弹窗 Web 页面配置如下：**
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4m_pKRmrAEW9BUZ6tm%2F-M4maFVCNIv4UhyoP2A9%2Fimage.png?alt=media&token=ffd8c212-c05c-487e-9bdb-b8f93e9e4460)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4m_pKRmrAEW9BUZ6tm-M4maFVCNIv4UhyoP2A9image.png)
 
 其中「自定义参数」意思是输入任何您自己的 scheme（自定义协议），比如： myapp://productdetails/itemabc ，然后在 onclick 事件回调中解析出来就行了，解析自定义协议地址的话，onClick()方法需返回 true。
 
@@ -412,28 +412,28 @@ class  SFViewController:  UIViewController  {
 
 第 1 步：编译运行当前示例项目工程 TestDemo（实际过程中应为对应的项目工程名称）
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4maPc9ZF4vO6HXHRUt%2Fimage.png?alt=media&token=1a8b8078-996a-4bc6-8e32-2622fc0f1644)
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4maVDSvwn0BaJVbpGS%2Fimage.png?alt=media&token=66f59993-5f68-4a55-98b9-7cec0cf915d3)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4maKROKUTl-cUIwle--M4maPc9ZF4vO6HXHRUtimage.png)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4maKROKUTl-cUIwle--M4maVDSvwn0BaJVbpGSimage.png)
 
 第 3 步：可以看到在 Products 文件夹同级补录下，有一个名为 Intermediates.noindex 的文件夹，依次进入 TestDemo.build -> Debug-iphoneos(或 Debug-iphonesimulator) -> TestDemo.build -> DerivedSources 文件夹下
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4ma_ElzRjuOkF23KFu%2Fimage.png?alt=media&token=22286439-dfd4-4422-859a-efd10b6f967e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4maKROKUTl-cUIwle--M4ma_ElzRjuOkF23KFuimage.png)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4mbDh79lUKLBV35Vih%2Fimage.png?alt=media&token=c9b723da-fcfc-46c8-a249-2f17cb33961a)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4maKROKUTl-cUIwle--M4mbDh79lUKLBV35Vihimage.png)
 
 第 4 步：当前文件下有一个名为 TestDemo-Swift.h 的文件，双击打开在该文件中查找 SFViewController，发现该类声明的上方有一句 SWIFT_CLASS("\_TtC8TestDemo16SFViewController")
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4mbAJ_UHKJTMWouRPP%2Fimage.png?alt=media&token=82916c47-7b0c-4b05-9a61-a8efe7f710b7)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4maKROKUTl-cUIwle--M4mbAJ_UHKJTMWouRPPimage.png)
 
 \_TtC8TestDemo16SFViewController 即为原生界面 SFViewController.swift 转换后的类名， Web 页面配置如下：
 
 **弹窗 Web 页面配置如下：**
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4mbMYOxVU-eXA_4M_4%2Fimage.png?alt=media&token=f72765ca-5dae-4615-9be5-ad40f0c6e7ae)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4maKROKUTl-cUIwle--M4mbMYOxVU-eXA_4M_4image.png)
 
 ### “打开 App 时”事件触发的时机[](#2-da-kai-app-shi-shi-jian-chu-fa-de-shi-ji)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4maKROKUTl-cUIwle-%2F-M4mb5LsPow3UOxJbFVi%2Fimage.png?alt=media&token=c7655039-da15-47e9-8faf-916672c2a881)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4maKROKUTl-cUIwle--M4mb5LsPow3UOxJbFViimage.png)
 
 当选择弹窗的触发时机为“打开 App 时”，触发场景如下：
 

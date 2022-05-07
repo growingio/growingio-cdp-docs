@@ -27,19 +27,19 @@ sidebar_position: 6
 
 ‌ 您可以设置窗口期，窗口期是指相对于起始事件的时间区间。当发生了起始事件后，分析者可以查看在规定的时间窗口内的用户流向。注：某个事件在相对于起始事件的时间窗口之外发生，则视为流失。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2Fop%2F-MguACBZstjXsH0HZJf_%2F-MguCL1u4-udgKP67r8-%2F0.png?alt=media)
+![](/img/assetsop-MguACBZstjXsH0HZJf_-MguCL1u4-udgKP67r8-0.png)
 
 Enter a caption for this image (optional)
 
 ‌ 当选择要查看的起始事件之后，GrowingIO 会对项目里里的全部埋点数据进行计算，帮助用户了解进行起始行为的用户接下来的流向。如果您对某一步路径感兴趣，您可以选择对该路径进行展开，进一步聚焦分析。如果展开过多节点影响了你对数据的消费，也可以选择收起节点。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2Fop%2F-MguACBZstjXsH0HZJf_%2F-MguCL1vyzBPLmnB5gk0%2F1.png?alt=media)
+![](/img/assetsop-MguACBZstjXsH0HZJf_-MguCL1vyzBPLmnB5gk01.png)
 
 Enter a caption for this image (optional)
 
 ‌ 为了让您更专注于下一步的主要流向，我们默认呈现了下一步 top5 流向，其他流向用更多表示。如果您想查看更多，点击更多进行展开即可：
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2Fop%2F-MguACBZstjXsH0HZJf_%2F-MguCL1wuLSiKyo1E_u9%2F2.png?alt=media)
+![](/img/assetsop-MguACBZstjXsH0HZJf_-MguCL1wuLSiKyo1E_u92.png)
 
 Enter a caption for this image (optional)
 ‌
@@ -50,13 +50,13 @@ Enter a caption for this image (optional)
 
 ‌ 例如隐藏掉没有业务意义的埋点事件，隐藏掉全部的页面浏览事件或者元素点击事件
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2Fop%2F-MguACBZstjXsH0HZJf_%2F-MguCL1xp6VnnqRSWzDa%2F3.png?alt=media)
+![](/img/assetsop-MguACBZstjXsH0HZJf_-MguCL1xp6VnnqRSWzDa3.png)
 
 Enter a caption for this image (optional)
 
 ### ‌ 节点和纽带数据说明[](#jie-dian-he-niu-dai-shu-ju-shuo-ming)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2Fop%2F-MguACBZstjXsH0HZJf_%2F-MguCL1yloRukMvS__9U%2F4.png?alt=media)
+![](/img/assetsop-MguACBZstjXsH0HZJf_-MguCL1yloRukMvS__9U4.png)
 
 Enter a caption for this image (optional)
 
@@ -66,7 +66,7 @@ Enter a caption for this image (optional)
 
 ‌ 退出统计：规定的转化窗口期内，未有下一步动作视为流失。我们提供了对应节点的统计人数和统计次数，以及统计流失人数占当前节点的占比和统计流失次数占当前节点的占比。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2Fop%2F-MguACBZstjXsH0HZJf_%2F-MguCL1zIuW5dVKV1kJi%2F5.png?alt=media)
+![](/img/assetsop-MguACBZstjXsH0HZJf_-MguCL1zIuW5dVKV1kJi5.png)
 
 Enter a caption for this image (optional)
 

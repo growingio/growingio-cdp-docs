@@ -21,4 +21,4 @@ sidebar_position: 3
 
 **查看我相关**：在列表上方单击只看跟我相关的，查看您参与过的弹窗，再次单击查看全部。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eVklJqOahxNoiqR1l%2F-M3e_PiaOJbclBZvep9s%2Fimage.png?alt=media&token=dd9158aa-d482-4c8c-8ac4-bdd2f4306c42)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3eVklJqOahxNoiqR1l-M3e_PiaOJbclBZvep9simage.png)

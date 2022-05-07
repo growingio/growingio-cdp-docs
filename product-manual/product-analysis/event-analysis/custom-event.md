@@ -29,7 +29,7 @@ sidebar_position: 3
 
 一、在**事件分析** 中 **选择指标**，点击 **“+指标“** 后，在弹窗中选择 **“计算指标 \> 新建计算指标**“，进入创建弹窗。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2Fd08755a073d59bbc64798a93c6115b8867eed487.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsyncd08755a073d59bbc64798a93c6115b8867eed487.png)
 
 二、在弹窗中新建一个计算指标。
 
@@ -43,7 +43,7 @@ sidebar_position: 3
     
 4.  展示百分比，两位小数，或者整数。默认展示百分比
     
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MVQkwJRs6eFaHkG2bNA%2F-MVQqn0tCmtE9YaN3nIc%2F%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%904.png?alt=media&token=56ea6aa1-c91a-467b-a148-f94ada19dc34)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MVQkwJRs6eFaHkG2bNA-MVQqn0tCmtE9YaN3nIc%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%904.png)
 
 三、配置完成后，点击应用，保存后，您可以在当前事件分析中应用这个计算指标。
 
@@ -62,13 +62,13 @@ sidebar_position: 3
 
 如果计算指标仅包含加减混合运算(不包含除法)，指标中所有事件的统计口径必须一致，且与混合运算中第一个事件的统计口径保持一致。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2F80630e6089a13f19e087953ad5d4b14051b3ea90.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsync80630e6089a13f19e087953ad5d4b14051b3ea90.png)
 
 加减运算
 
 如果计算指标包含除法，分子和分母内部统计口径需保持一致，且与分子或分母中第一个事件的统计口径保持一致，分子和分母的统计口径可以不一样。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2F217dfcff6e85087910fc2fde1ced45a1da0e7877.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsync217dfcff6e85087910fc2fde1ced45a1da0e7877.png)
 
 除法运算
 
