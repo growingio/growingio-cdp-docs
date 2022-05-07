@@ -55,7 +55,7 @@ sidebar_position: 3
 
 进入【客户数据平台】-【数据集成】-【用户删除管理】页面，点击“新建删除记录”按钮创建一条需要删除的用户记录，在表格中可以看到已提交的所有记录及处理状态。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiVaBYw7GzY54HacNZc%2F-MiVdUK69zGKYFuzI_vd%2F%E6%9C%AA%E5%91%BD%E5%90%8D1630487570.png?alt=media&token=dfa90316-0957-4224-8cc2-92436dc6d57b)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiVaBYw7GzY54HacNZc-MiVdUK69zGKYFuzI_vd%E6%9C%AA%E5%91%BD%E5%90%8D1630487570.png)
 
 
 ### 变更删除状态[](#step-2-bian-geng-shan-chu-zhuang-tai)

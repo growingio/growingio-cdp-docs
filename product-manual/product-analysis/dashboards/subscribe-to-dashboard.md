@@ -9,7 +9,7 @@ sidebar_position: 2
 
 一个系统中 ，通常由于多人共同协作，会有上百个看板 。 然而，高效的数据消费方案，应该保持用户关注 **需要他关注的** 与 **他想关注的** 看板。 因此，我们可以通过看板订阅，保证自己看板的整洁与专注。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLnCWk_YVR3Uhn55V8%2Fimage.png?alt=media&token=d1be70d4-b3c7-41b8-9eda-705e8940c92d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLnCWk_YVR3Uhn55V8image.png)
 
 ## 名词解释[](#ming-ci-jie-shi)
 
@@ -33,17 +33,17 @@ sidebar_position: 2
 
 1.在看板管理中找到需要订阅的看板，点击订阅看板。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLnJ9O5FdSZb4hGqiG%2Fimage.png?alt=media&token=3c754d2c-3cc1-4894-b8cf-13ea67561d75)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLnJ9O5FdSZb4hGqiGimage.png)
 
 2.在看板详情中，点击订阅看板。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLndLb-tfmJENnSyxx%2Fimage.png?alt=media&token=b1be31f9-6ce9-4a36-a686-eb76288c2f58)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLndLb-tfmJENnSyxximage.png)
 
 ### 取消订阅[](#qu-xiao-ding-yue)
 
 在侧栏中点击**Ｘ，**确定取消看板订阅。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLnBLTy1C-i06gAJ_k%2F-MkLnm0J92gJVC9kE3m9%2Fimage.png?alt=media&token=14f2ea55-a53c-42be-be1c-57da9e3821ff)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLnm0J92gJVC9kE3m9image.png)
 
 取消看板订阅后，当前看板将不在侧栏展示，您可以在看板管理中重新订阅看板到侧栏。
 

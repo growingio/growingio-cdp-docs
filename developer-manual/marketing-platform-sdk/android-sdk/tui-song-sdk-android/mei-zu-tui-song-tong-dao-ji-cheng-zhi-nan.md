@@ -85,14 +85,14 @@ android {
 
 ## 配置服务端AppID和AppSecret[](#5-pei-zhi-fu-wu-duan-appid-he-appsecret)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDOqFEIXSjYlCT835-V%2Fimage.png?alt=media&token=3d283002-808b-4f18-891f-3bbad8e65cea)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDJ-ZKn0jRNemBrFmfQ-MDOqFEIXSjYlCT835-Vimage.png)
 
 
 ## 设置推送消息回执[](#6-she-zhi-tui-song-xiao-xi-hui-zhi)
 
 在魅族推送APP配置界面配置回执，以便于我们GrowingIO更好的统计推送数据
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDOqJZBQ-o5ktxgZtnJ%2Fimage.png?alt=media&token=b53b3970-fb48-4547-afdc-db9dbf81458e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDJ-ZKn0jRNemBrFmfQ-MDOqJZBQ-o5ktxgZtnJimage.png)
 
 其中回执地址：
 

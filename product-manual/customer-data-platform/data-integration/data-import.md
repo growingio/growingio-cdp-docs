@@ -27,13 +27,13 @@ sidebar_position: 2
 
 在导航栏选择“ **数据集成 > 数据导入管理**“，进入数据导入管理页面
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiP-vXPkE-uA5KtzgH1%2F-MiP2i-sTHYQhEcNzPKX%2Fimage.png?alt=media&token=5cca6ea6-4e4d-4171-bf33-53cf6e5d1daa)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiP-vXPkE-uA5KtzgH1-MiP2i-sTHYQhEcNzPKXimage.png)
 
 数据导入管理页面
 
 点击**创建数据导入任务**按钮
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3nM56TsoOujwX51vzR%2F-M3nMU8i8kZb0eJFEpK_%2Fimage.png?alt=media&token=a8bc5d35-8de8-4d40-8c50-bd663258dddf)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3nM56TsoOujwX51vzR-M3nMU8i8kZb0eJFEpK_image.png)
 
 数据导入类型选择
 
@@ -41,7 +41,7 @@ sidebar_position: 2
 
 #### 用户行为数据
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiP4bnSGGXSvckGtuwF%2F-MiP5HN7DVMFDRDMiD3E%2Fimage.png?alt=media&token=d5d7d98e-c363-46e0-a312-13868377c9ee)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiP4bnSGGXSvckGtuwF-MiP5HN7DVMFDRDMiD3Eimage.png)
 
 选择数据源：选择在数据源管理中创建的数据源，如果是事件数据创建用户行为类的数据源，如是用户属性则选择用户属性类数据源。
 
@@ -51,7 +51,7 @@ sidebar_position: 2
 
 #### 用户属性数据
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPHrfX2odbRP0lbysX%2F-MiPIF4LVgd6KLqgaT79%2Fimage.png?alt=media&token=eb4c1245-3b77-44a0-b114-acd6113bdea4)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiPHrfX2odbRP0lbysX-MiPIF4LVgd6KLqgaT79image.png)
 
 选择数据源：选择用户属性类型的数据源
 
@@ -63,19 +63,19 @@ sidebar_position: 2
 
 选择 CSV 进入页面
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPM0hVPL61RNWF_0Vt%2F-MiPg1z4Sc9ksA1FQ_VA%2Fimage.png?alt=media&token=b00ba491-ef94-405f-b737-63f184475d1e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiPM0hVPL61RNWF_0Vt-MiPg1z4Sc9ksA1FQ_VAimage.png)
 
 上传 CSV 页面
 
 选择 JSON
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPM0hVPL61RNWF_0Vt%2F-MiPh1YbQzRYp-t6wMDM%2Fimage.png?alt=media&token=81dd89f6-e750-487d-8fa9-38a75d09e86d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiPM0hVPL61RNWF_0Vt-MiPh1YbQzRYp-t6wMDMimage.png)
 
 上传 JSON 页面
 
 选择 FTP：提供任务目录地址，将 JSON 文件放入 FTP 目录中，格式参考[数据格式 JSON](../../../product-manual/customer-data-platform/data-integration/data-import#yong-hu-hang-wei-shu-ju-json-ge-shi)。将数据放入指定 FTP 目录，点击“操作”，查看文件上传，勾选注意事项，进行下一步
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjTvs4LLbAI_eTi1HGa%2F-MjTx3uJcFB36TNkmuek%2Fimage.png?alt=media&token=60d9c432-9e76-43c8-bae5-a0f1757dc86e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MjTvs4LLbAI_eTi1HGa-MjTx3uJcFB36TNkmuekimage.png)
 
 FTP 方式，未上传数据时状态
 
@@ -85,7 +85,7 @@ FTP 方式，未上传数据时状态
 
 主页点击某一任务，弹出任务详情信息栏，还未导入的任务可通过右上角的“上传文件”按钮，进入导入页面
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiPM0hVPL61RNWF_0Vt%2F-MiPhorFmwrBltDCvdQ5%2Fimage.png?alt=media&token=2ee14986-a450-46ef-a8cd-47bd1d72259b)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiPM0hVPL61RNWF_0Vt-MiPhorFmwrBltDCvdQ5image.png)
 
 任务详情
 
@@ -105,7 +105,7 @@ FTP 方式，未上传数据时状态
 
 数据导入管理页面
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MjTvs4LLbAI_eTi1HGa%2F-MjTyTDtn6xlzg-yQ-AE%2Fimage.png?alt=media&token=d87f2984-4543-42a5-8cff-a32a66f2beff)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MjTvs4LLbAI_eTi1HGa-MjTyTDtn6xlzg-yQ-AEimage.png)
 
 FTP 方式，导入失败状态
 
