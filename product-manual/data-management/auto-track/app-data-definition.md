@@ -17,11 +17,11 @@ sidebar_position: 2
 
 在 ”**数据 > 事件 > 无埋点事件**” 中点击 “**新建无埋点事件 > {App应用}”** 进入App唤醒页面。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPmMF-oMi3YNjkQSnay%2F-MPmPb2Rsc4nM3-9OO97%2Fimage.png?alt=media&token=8d793638-65f9-4d18-8bf4-fa2aab085c48)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MPmMF-oMi3YNjkQSnay-MPmPb2Rsc4nM3-9OO97image.png)
 
 使用手机扫码成功唤起App后，开始定义无埋点事件。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPmMF-oMi3YNjkQSnay%2F-MPmR889yZXlnpid6ch7%2Fimage.png?alt=media&token=0dcb9931-85d6-49d3-9848-2ddfce138f82)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MPmMF-oMi3YNjkQSnay-MPmR889yZXlnpid6ch7image.png)
 
 | 项   | 说明  |
 | --- | --- |
@@ -34,7 +34,7 @@ sidebar_position: 2
 
 点击“**定义页面**“后，进入页面定义流程。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPmS_5rMtgiubkRmuel%2F-MPmWcfRrxBdtJGCiGH_%2Fimage.png?alt=media&token=e8e4a110-f8d7-46ee-9cfe-7eaecb04ed81)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MPmS_5rMtgiubkRmuel-MPmWcfRrxBdtJGCiGH_image.png)
 
 选择需要定义的页面后，点击“**下一步**“。
 
@@ -42,7 +42,7 @@ sidebar_position: 2
 
 您可以在页面列表中选择页面后，通过左侧高亮区域确认该“页面“是否是目标定义“页面“。
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPmS_5rMtgiubkRmuel%2F-MPmakGllDW8BYmIz_sD%2Fimage.png?alt=media&token=0b6a38d8-aa25-4dcf-95eb-16758a6e9d7a)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MPmS_5rMtgiubkRmuel-MPmakGllDW8BYmIz_sDimage.png)
 
 | 项   | 说明  |
 | --- | --- |

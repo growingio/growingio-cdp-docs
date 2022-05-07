@@ -14,6 +14,6 @@ sidebar_position: 7
 
 ## 界面介绍[](#jie-mian-jie-shao)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHFXvN98B-Ac9oIk7i%2F-MkHFb_Wod-V-GtEI2MT%2Fimage.png?alt=media&token=96866b3f-d08a-404b-850a-a0706116a66e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHFXvN98B-Ac9oIk7i-MkHFb_Wod-V-GtEI2MTimage.png)
 
 查询模块：可根据条件进行过滤，筛选出查询结果 。 下载：可下载当前查询条件下的纪录

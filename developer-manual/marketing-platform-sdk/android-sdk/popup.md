@@ -505,7 +505,7 @@ GrowingTouch.startWithConfig(this,  new  GTouchConfig()
 
 - **弹窗配置页面：**
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4n6bm44ny-7NmMTwSQ%2F-M4nSxsFTYb0MFuizCCD%2Fimage.png?alt=media&token=2e03ebb8-1b01-4424-a687-10a44305822a)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4n6bm44ny-7NmMTwSQ-M4nSxsFTYb0MFuizCCDimage.png)
 
 其中「自定义参数」意思是输入任何您自己的 scheme（自定义协议），
 
@@ -531,7 +531,7 @@ protected  void  onCreate(Bundle savedInstanceState)  {
 
 ### "打开 APP 时"事件触发的时机[](#2-da-kai-app-shi-shi-jian-chu-fa-de-shi-ji)
 
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4n6bm44ny-7NmMTwSQ%2F-M4nT7FlkEwp3di-yMFH%2Fimage.png?alt=media&token=f62a9eea-1e82-4fe8-bb71-a5baafc726ab)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4n6bm44ny-7NmMTwSQ-M4nT7FlkEwp3di-yMFHimage.png)
 
 打开 APP 时，无论是冷启动还是热启动，第一个 Activity 的 onStart 生命周期的时候触发。
 
