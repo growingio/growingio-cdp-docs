@@ -31,7 +31,7 @@ sidebar_position: 1
 
 ## 功能说明[](#gong-neng-shuo-ming)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2Fsync%2Fd08755a073d59bbc64798a93c6115b8867eed487.png?alt=media)
+![](/img/assets-M2qbZInaXgdm8kkNospsyncd08755a073d59bbc64798a93c6115b8867eed487.png)
 
 在预定义指标管理页面可以查看预定义指标名称和指标含义。
 

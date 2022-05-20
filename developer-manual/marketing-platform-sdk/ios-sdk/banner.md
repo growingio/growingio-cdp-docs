@@ -39,7 +39,7 @@ sidebar_position: 3
 - 下载最新的 iOS GrowingTouch SDK 包，并将其中的 GrowingTouchCoreKit.framework、
   GrowingTouchCoreUI.bundle 以及 GrowingTouchBannerKit.framework 添加到 iOS 工程中。下载链接：[http://assets.giocdn.com/cdp/ios/CDPTouch1.5.0.zip](http://assets.giocdn.com/cdp/ios/CDPTouch1.5.0.zip)​
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4mOetDAxVVM8YCSlJs%2F-M4mOmcb0LHDIZj_s540%2Fimage.png?alt=media&token=ba7ac106-deb9-444b-b087-3e5b7033fc4b)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4mOetDAxVVM8YCSlJs-M4mOmcb0LHDIZj_s540image.png)
 
 ### 初始化 SDK[](#3-chu-shi-hua-sdk)
 
@@ -71,7 +71,7 @@ sidebar_position: 3
 
 生成**Banner**视图示例，并根据对应**bannerKey**填充**Banner**数据，视图的位置尺寸由用户定义。 bannerKey 来自 GIO 页面生成
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M4m_flROTOExvFFkcvz%2F-M4m_lgu_2PWAKMNPdfp%2Fimage.png?alt=media&token=e153302d-e6a1-4d3f-b2dc-fe5aaadc22be)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M4m_flROTOExvFFkcvz-M4m_lgu_2PWAKMNPdfpimage.png)
 
 ### 初始化[](#1-chu-shi-hua)
 

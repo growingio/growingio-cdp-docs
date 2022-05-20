@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ### 服务号授权[](#11-fu-wu-hao-shou-quan)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MWIU1E7Xtaq_8mwPHUh%2F-MWIXX9u_d02abid7L6K%2Fimage.png?alt=media&token=c75cb19f-8e06-47b9-851e-57c143fd506e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MWIU1E7Xtaq_8mwPHUh-MWIXX9u_d02abid7L6Kimage.png)
 
 首先，进入“产品配置-公众号配置“页面，进行公众号授权。页面上有详细的操作说明，请按步骤进行操作，需要注意两点：
 
@@ -19,7 +19,7 @@ sidebar_position: 1
     
 当授权成功后，可见服务号管理列表（如下图）
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MWIYt7JCHKvnurnLZkf%2F-MWI_K4reONdzJ8HYRkS%2Fimage.png?alt=media&token=611ac6bc-613d-44b7-ac9e-a493721ea6ec)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MWIYt7JCHKvnurnLZkf-MWI_K4reONdzJ8HYRkSimage.png)
 
 在服务号管理列表页
 
@@ -34,7 +34,7 @@ sidebar_position: 1
 
 ### 进入服务号模板消息创建页面[](#21-jin-ru-fu-wu-hao-mo-ban-xiao-xi-chuang-jian-ye-mian)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MWIYt7JCHKvnurnLZkf%2F-MWIaLuYbl7P7kIyoMTE%2Fimage.png?alt=media&token=00627bca-7b69-42dc-bfb5-8c8a13c43d1d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MWIYt7JCHKvnurnLZkf-MWIaLuYbl7P7kIyoMTEimage.png)
 
 进入”用户运营-活动类型-微信触达“页面，点击“新建消息“，即进入到模板消息创建页面
 
@@ -43,25 +43,25 @@ sidebar_position: 1
 
 #### 模板消息任务命名[](#2-2-1-mo-ban-xiao-xi-ren-wu-ming-ming)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MWIYt7JCHKvnurnLZkf%2F-MWIb4l74NKD8ja3E21G%2Fimage.png?alt=media&token=7c070ef7-b380-4f48-85fc-7f714ca3895e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MWIYt7JCHKvnurnLZkf-MWIb4l74NKD8ja3E21Gimage.png)
 
 进入模板消息配置页面，可在左上角红框处进行模板消息任务的命名和修改，单击后即可编辑
 
 
 #### 选择需要推送模板消息的客群[](#2-2-2-xuan-ze-xu-yao-tui-song-mo-ban-xiao-xi-de-ke-qun)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MWIbE16w5-X2tLRB8ff%2F-MWIfZ5Gg5c7SY7ixE_e%2Fimage.png?alt=media&token=1aed69f3-a869-49d1-b085-c8d23fa91658)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MWIbE16w5-X2tLRB8ff-MWIfZ5Gg5c7SY7ixE_eimage.png)
 
 点击目标分群，单击选择对应的目标客群
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MWIbE16w5-X2tLRB8ff%2F-MWIgCZbTV4L9k6yVe83%2F02.png?alt=media&token=c2ce7b87-61b3-4da7-a33e-20089aa8a95f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MWIbE16w5-X2tLRB8ff-MWIgCZbTV4L9k6yVe8302.png)
 
 客群选择完毕后，继续选择服务号，本次模板消息会推送至指定的服务号上，只可单选。所有在产品配置中授权的服务号，都会出现在服务号选择的待选项中。但授权权限不足导致模板消息功能不可用的服务号，会处于disable不可选中的状态
 
 
 #### 选择模板消息的触发条件[](#2-2-3-xuan-ze-mo-ban-xiao-xi-de-chu-fa-tiao-jian)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MWIbE16w5-X2tLRB8ff%2F-MWIhgQWX0HXzqRIbnv7%2Fimage.png?alt=media&token=1c3701ee-93e6-4710-be11-24e4a49d42fb)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MWIbE16w5-X2tLRB8ff-MWIhgQWX0HXzqRIbnv7image.png)
 
 模板消息支持四种触发条件
 
@@ -76,7 +76,7 @@ sidebar_position: 1
 
 #### 模板消息内容配置[](#2-2-4-mo-ban-xiao-xi-nei-rong-pei-zhi)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MWIbE16w5-X2tLRB8ff%2F-MWIiU0uQkH0-fRdDdeQ%2Fimage.png?alt=media&token=44b40198-e950-4aa2-a2e7-d7305aadddc9)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MWIbE16w5-X2tLRB8ff-MWIiU0uQkH0-fRdDdeQimage.png)
 
 先选择这次要发送的消息模板，消息模板为您在微信公众平台后台为服务号选择的模板，GIO会进行实时读取。关于微信服务号可选的模板可详见微信官方说明
 
@@ -92,7 +92,7 @@ sidebar_position: 1
     
 更多信息可点击下方链接了解详情[https://developers.weixin.qq.com/doc/offiaccount/Message\_Management/Template\_Message_Interface.html#5](https://developers.weixin.qq.com/doc/offiaccount/Message_Management/Template_Message_Interface.html#5)​
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MWIk_ZTMPBtFBQVowM5%2F-MWIlLR-xUoZIr11dv9U%2Fimage.png?alt=media&token=290e9170-5fca-4087-81e3-9e769897e57b)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MWIk_ZTMPBtFBQVowM5-MWIlLR-xUoZIr11dv9Uimage.png)
 
 选择模板后，根据模板要求进行内容配置即可。文案支持插入“事件属性/用户属性/用户标签“，可插入顾客姓名、会员等级、本次购买商品的名称等信息，灵活实现各种业务场景。
 
@@ -101,6 +101,6 @@ sidebar_position: 1
 
 #### 设置执行时间[](#2-2-5-she-zhi-zhi-hang-shi-jian)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MWIk_ZTMPBtFBQVowM5%2F-MWIm3vzuple0rukwYMy%2Fimage.png?alt=media&token=e4cb9bec-5d96-4c23-ae39-7df8dd1006da)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MWIk_ZTMPBtFBQVowM5-MWIm3vzuple0rukwYMyimage.png)
 
 最后一步，设置好执行时间，点击上线即可

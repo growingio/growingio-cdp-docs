@@ -87,7 +87,7 @@ android {
 
 ## 配置服务端AppID，AppKey和AppSecret[](#5-pei-zhi-fu-wu-duan-appidappkey-he-appsecret)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDOsdvecFRK-QDk2ld9%2Fimage.png?alt=media&token=af442766-d94d-402c-a0ac-70a33b40ca92)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDJ-ZKn0jRNemBrFmfQ-MDOsdvecFRK-QDk2ld9image.png)
 
 
 ## 厂商通道测试方法(通用)[](#6-chang-shang-tong-dao-ce-shi-fang-fa-tong-yong)

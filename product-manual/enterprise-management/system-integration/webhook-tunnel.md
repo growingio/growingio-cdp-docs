@@ -25,7 +25,7 @@ Webhook 方便企业将通知提醒发送至其它系统，如 IM工具、短信
 
 点击，进入 企业设置 - Webhook通道 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHC9wqJ-tGbBb7Luvn%2F-MkHCFND6d_ZDRDSfxpN%2Fimage.png?alt=media&token=58bcfc31-f934-4575-9d48-8174066642d6)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHC9wqJ-tGbBb7Luvn-MkHCFND6d_ZDRDSfxpNimage.png)
 
 
 ### 新建Webhook[](#xin-jian-webhook)
@@ -40,18 +40,18 @@ step2 : 填写，通道名称 、 请求地址 、密钥
 
 3.确定鉴权 密钥 (若没有可不填）
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHC9wqJ-tGbBb7Luvn%2F-MkHCJe25XUf919XnT3_%2Fimage.png?alt=media&token=38cfbcb3-86e9-4caf-b117-8a3b9c22f24c)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHC9wqJ-tGbBb7Luvn-MkHCJe25XUf919XnT3_image.png)
 
 
 ### 禁用/启用Webhook[](#jin-yong-qi-yong-webhook)
 
 点击，操作 点击，启用/禁用
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHC9wqJ-tGbBb7Luvn%2F-MkHCO7wrgp-pB-iuMOa%2Fimage.png?alt=media&token=e79f91ea-e50a-47d1-be60-3ba70ab299f7)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHC9wqJ-tGbBb7Luvn-MkHCO7wrgp-pB-iuMOaimage.png)
 
 禁用时，当此webhook 被使用在 相关连的通知任务时，会给予提示 。 若确定禁用webhook ，关联的通知任务将失效 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHC9wqJ-tGbBb7Luvn%2F-MkHCSzmXp3HtdCDVmFj%2Fimage.png?alt=media&token=36ed4172-d6ab-4ec0-84df-9e67b56319e1)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHC9wqJ-tGbBb7Luvn-MkHCSzmXp3HtdCDVmFjimage.png)
 
 ​
 ### WebHook推送数据格式说明[](#webhook-tui-song-shu-ju-ge-shi-shuo-ming)

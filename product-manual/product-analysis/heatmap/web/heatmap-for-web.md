@@ -14,7 +14,7 @@ sidebar_position: 1
 
 插件登录后，默认查看方式是浏览模式，切换到热图模式，即可在页面绘制出热图效果。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MdwZ9MoqVht77svH0-D%2F-Mdw_0e1qImhkm5Cvaoz%2Fimage.png?alt=media&token=799d9776-1df4-43d0-930f-e1d6fc0fbc12)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MdwZ9MoqVht77svH0-D-Mdw_0e1qImhkm5Cvaozimage.png)
 
 | 功能项 | 说明  |
 | --- | --- |
@@ -40,4 +40,4 @@ sidebar_position: 1
 
 **热图详情**数据中可查看所选页面中点击率前 15 的元素。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MdwZ9MoqVht77svH0-D%2F-MdwfNrkYlRZR85-gwft%2Fimage.png?alt=media&token=bc450de0-2dd5-4dca-9c65-5fd846973e80)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MdwZ9MoqVht77svH0-D-MdwfNrkYlRZR85-gwftimage.png)

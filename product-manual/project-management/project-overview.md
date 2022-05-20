@@ -9,7 +9,7 @@ sidebar_position: 2
 
 管理项目基本信息，查看该项目授权数据的范围
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGm8kzjtRvMfQasVTh%2F-MkGpnHy5lH5iGjOLcVJ%2Fimage.png?alt=media&token=5941f456-ca43-49dc-9d8a-ee0d91ff195e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGm8kzjtRvMfQasVTh-MkGpnHy5lH5iGjOLcVJimage.png)
 
 | 字段  | 說明  |
 | --- | --- |
@@ -30,7 +30,7 @@ sidebar_position: 2
 
 操作流程：点击编辑信息 > 修改内容 \> 点击确定。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGm8kzjtRvMfQasVTh%2F-MkGsVzt6Gjn4cVPqPpc%2Fimage.png?alt=media&token=340b4176-172b-450f-9e41-ebc4d361d320)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGm8kzjtRvMfQasVTh-MkGsVzt6Gjn4cVPqPpcimage.png)
 
 > 权限控制： 仅“项目负责人”和“项目管理员” 拥有項目成員管理的权限
 
@@ -39,7 +39,7 @@ sidebar_position: 2
 
 操作流程：点击更换负责人> 选择移交的目标成员 \> 点击确定。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGm8kzjtRvMfQasVTh%2F-MkGscaO6NM89fQSuwJb%2Fimage.png?alt=media&token=d0f00c3f-053c-413b-a8b5-fa41cc2ace4c)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGm8kzjtRvMfQasVTh-MkGscaO6NM89fQSuwJbimage.png)
 
 > 权限控制： 仅“项目负责人” 拥有项目成员管理的权限
 
@@ -48,4 +48,4 @@ sidebar_position: 2
 
 查看数据源、用户范围、用户属性、用户标签、埋点事件、虚拟事件 的授权范围
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MiWaA4aOi_xz7bGbqbR%2F-MiWarvU3wM5sBQfQuLZ%2Fimage.png?alt=media&token=af8ce7f3-c8c1-4354-85a3-d9ad8ba66b06)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MiWaA4aOi_xz7bGbqbR-MiWarvU3wM5sBQfQuLZimage.png)

@@ -31,7 +31,7 @@ gdp('init', 'your GrowingIO accountId', 'your dataSourceID', 'your AppId', {
 
 ### 数据中设置url_scheme与APPID 一致，不一致会导致获取不到资源位[](#3-shu-ju-zhong-she-zhi-urlscheme-yu-appid-yi-zhi-bu-yi-zhi-hui-dao-zhi-huo-qu-bu-dao-banner)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJJDXUERO0Lv6A2fXF%2F-MDJJih-PzT7PSURSjQa%2Fimage.png?alt=media&token=979dbb8f-feb1-4006-b93f-eba76d5069d8)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDJJDXUERO0Lv6A2fXF-MDJJih-PzT7PSURSjQaimage.png)
 
 
 ### 登陆支付宝小程序后台，进入配置[](#4-deng-lu-zhi-fu-bao-xiao-cheng-xu-hou-tai-jin-ru-pei-zhi)

@@ -16,16 +16,16 @@ sidebar_position: 2
 
 运营平台支持第三方 PUSH 对接。只需通过配置请求地址即可实现对接第三方Push 平台功能。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ2MITXG7wh_UKfVI9%2Fimage.png?alt=media&token=cce88dec-0b2b-4394-9482-4830440a80fb)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ2MITXG7wh_UKfVI9image.png)
 
 
 ### 对接邮件/短信
 
 若用户希望针对不同分群用户发送不同的定制化短信/邮件时，可通过 webhook 配置功能实现分客群、自动触发的短信发送管理。在“webhook 配置-请求地址”位置设置短信/邮件接口地址，填写模板参数。最后在创建webhook活动中进行邮件内容文案的设置
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ3-cgjBoJ8F7sX0M4%2Fimage.png?alt=media&token=3b88b49e-bfa8-47d3-aeb0-d8d792a09d45)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ3-cgjBoJ8F7sX0M4image.png)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ3r0yRniR48sWo3MF%2Fimage.png?alt=media&token=24f6700d-4288-4134-8940-7c220679f0e0)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ3r0yRniR48sWo3MFimage.png)
 
 短信文本可通过上述步骤中的参数进行设置。
 
@@ -34,18 +34,18 @@ sidebar_position: 2
 
 若用户拥有自建的优惠券系统，但是不支持圈选指定用户发券的功能，可通 过 webhook 配置功能实现通过自建优惠券系统发券的目标。在“webhook 配置- 请求地址”位置设置自建发券系统的接口地址，即可实现发券功能。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ4LR8K49P10YzDuHG%2Fimage.png?alt=media&token=5e127c08-9c2d-4760-ae0b-4069c04f8b64)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ4LR8K49P10YzDuHGimage.png)
 
 同时，也支持针对不同群组创建对应的 webhook 活动
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ4Zmbot9_Rnw6cCXU%2Fimage.png?alt=media&token=bc4e0e5f-38b5-4db2-aab9-f7fb2d6f8ff1)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ4Zmbot9_Rnw6cCXUimage.png)
 
 
 ## webhook配置说明&应用实例
 
 ###  配置新的webhook通道
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ5ajLQZumNP8lXBK_%2Fimage.png?alt=media&token=4ebccce9-1ca1-43dc-9316-a8ce8c219340)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ5ajLQZumNP8lXBK_image.png)
 
 (1)点击智能运营
 
@@ -55,7 +55,7 @@ sidebar_position: 2
 
 (4)点击新建webhook通道
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ5oI7YqvMy3Qv9P5t%2Fimage.png?alt=media&token=7ce21285-395f-4d00-b721-e7d6da457f1e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ5oI7YqvMy3Qv9P5timage.png)
 
 (5) 确定webhook通道名称（客户内部统一即可）
 
@@ -76,7 +76,7 @@ sidebar_position: 2
 
 当webhook通道建立完成后，就可以进行相对应的运营活动配置
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ6cAUuOKh1NKMT8Y2%2Fimage.png?alt=media&token=9d69c81b-38eb-4bb5-a143-e1d9fc871f3b)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ6cAUuOKh1NKMT8Y2image.png)
 
 （1）点击运营活动
 
@@ -84,7 +84,7 @@ sidebar_position: 2
 
 （3）点击新建webhook
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ6kp_J670vYoosXoL%2Fimage.png?alt=media&token=56cc6fd2-7a5e-4e8f-a794-1af621f0f25f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ6kp_J670vYoosXoLimage.png)
 
 （4）选择用户分群
 
@@ -92,7 +92,7 @@ sidebar_position: 2
 
 （6）选择触发类型![](blob:https://growingio.atlassian.net/ef874264-b69b-4f16-ac08-fbed535732b4#media-blob-url=true&id=a3f4c5c3-2909-4663-885d-56b82f13d0a7&collection=contentId-1470825243&contextId=1470825243&mimeType=image%2Fpng&name=image-20200715-030531.png&size=139016&width=834&height=549)​
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ7K_VESSUHa_zKwF_%2Fimage.png?alt=media&token=ca60731a-6c2a-4ecf-836e-a45a6b727ecd)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ7K_VESSUHa_zKwF_image.png)
 
 （7）模板内容填写
 
@@ -110,7 +110,7 @@ sidebar_position: 2
 
 #### A. webhook通道参数配置如下
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ7d1Affg8RFjPix9f%2Fimage.png?alt=media&token=3597d346-a019-4bcf-8ea6-c0154d640598)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ7d1Affg8RFjPix9fimage.png)
 
 * webhook通道名称：客户自己定，从客户视角，这个webhook通道是对接自建的优惠券系统，所以可以叫做“白鸽卡券中心”
     
@@ -136,7 +136,7 @@ _默认值：-_
 
 #### B. 创建对应的webhook活动
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ7kiVvSDobBqbUQZ-%2Fimage.png?alt=media&token=91c1f91e-d281-4dbc-bf8b-f9d735a2cc57)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ7kiVvSDobBqbUQZ-image.png)
 
 * 选择客群
     
@@ -147,13 +147,13 @@ _默认值：-_
 * 模板参数：在故事1中就是优惠券的金额，100元（这里也可以点击测试效果，验证功能畅通）
     
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ7rLieqQnVfMw6GIo%2Fimage.png?alt=media&token=49f7196f-4734-44d6-8e76-cf6f9869d684)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ7rLieqQnVfMw6GIoimage.png)
 
 * 设置发送时间
     
 * 上线/保存草稿
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ7vAEVxFoK3baUCmE%2Fimage.png?alt=media&token=c8351961-0da0-4f8a-86d9-aa09f57856ff)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ7vAEVxFoK3baUCmEimage.png)
 
 * 上线后可见
     
@@ -164,7 +164,7 @@ _默认值：-_
 
 那么用户属性参数可以配置如下：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ84-GFPTvg4RGAUGA%2Fimage.png?alt=media&token=e3e8aa2a-a020-4ee2-b6f7-b03a91dcf50a)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ84-GFPTvg4RGAUGAimage.png)
 
 **_参数名称：userid_**
 
@@ -181,7 +181,7 @@ _默认值：-_
 
 这里只讲模板参数的设置，在这个故事中，不再是对接自建的券系统，而是对接客户的短信通道。具体参数设置如下：![](blob:https://growingio.atlassian.net/498d503a-5cea-49cc-8433-dd63c734393e#media-blob-url=true&id=1c46efe8-2c5f-4abe-a6e2-328e5459d68e&collection=contentId-1470825243&contextId=1470825243&mimeType=image%2Fpng&name=image-20200715-031346.png&size=187643&width=1271&height=628)​
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ8A_Pz0U5iNWDg8RM%2Fimage.png?alt=media&token=2795550a-35ce-440c-b164-b341d4c8e73a)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ8A_Pz0U5iNWDg8RMimage.png)
 
 **_参数名称：message_**
 
@@ -193,4 +193,4 @@ _默认值：-_
 
 在创建webhook活动时，短信文本可设置
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDZ13zDgwD_h1s7W32k%2F-MDZ8DuHMvx_bFcmbGKJ%2Fimage.png?alt=media&token=58f33d42-f26e-421d-903e-f5ff6c90fd6f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDZ13zDgwD_h1s7W32k-MDZ8DuHMvx_bFcmbGKJimage.png)

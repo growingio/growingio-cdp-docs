@@ -24,7 +24,7 @@ Push 发送完成后，可以看到数据效果。在推送管理列表中可以
     
 运营者在发 Push 的时候非常关注的问题就是到达率的问题，下面详细解释在发 Push 的过程中每一步会发生什么，是哪些因素最终影响了实际到达用户设备的数量。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC6Aft0r5-0xq_N8vjg%2F-MC6BCX8hYIxcB9oaJFZ%2Fimage.png?alt=media&token=81279e8f-ef2a-4648-8e52-7cb0980fa196)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC6Aft0r5-0xq_N8vjg-MC6BCX8hYIxcB9oaJFZimage.png)
 
 首先运营选出一批推送的目标用户，GIO 会找到这些用户上报的信息，有上报过**推送令牌**的设备（token）就可以被成功送达到相应的厂商通道（凡是用户的 App 升级到含有Gpush SDK的版本且打开过应用都会上报token）。然后 GIO 会根据设备型号将这些信息发送到对应的厂商通道（比如华为设备会发给华为的服务器，小米会发给小米服务器）这就是「**消息发送设备数」**，然后再由厂商将消息发送到用户设备，只有**打开了推送权限且网络状况良好**的设备才可以在这一步被送达，厂商通道会将成功到达设备的数量告诉 GIO，就是对应的「**消息送达设备数**」。送达到设备后，有些用户会忽略，有些会点击，GIO 会自动统计**消息的点击**数并展示。
 
