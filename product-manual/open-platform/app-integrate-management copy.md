@@ -15,7 +15,7 @@ GrowingIO 为开放架构，支持您将利用 GrowingIO 采集的用户行为�
 
 功能管理入口：【开放平台】 - 【集成应用管理】
 
-### 创建新的应用
+### 创建应用
 
 ![创建新的应用](/img/9bbcc3e77adb7e64962ee19ecb7cf2a7f0546c1205817c59bd5d5cfddb0ab955_pic_1639971163802_2021-12-20.png)
 
@@ -25,6 +25,7 @@ GrowingIO 为开放架构，支持您将利用 GrowingIO 采集的用户行为�
 | 应用描述 | 设置应用展示的描述                                                                     |
 | 应用地址 | 设置应用被打开的首页地址。如：[https://www.growingio.com/](https://www.growingio.com/) |
 | 回调地址 | 设置登录后获取用户信息的接口地址                                                       |
+| 企业角色 | 授权该应用到企业角色的用户 |使用，支持选择多个角色
 | 展示类型 | 设置应用被打开时，页面是否带 GrowingIO 的顶部导航                                      |
 | 状态     | 应用的展示状态。未上线时，不展示在 GrowingIO 首页的“集成应用”区域。                    |
 
@@ -80,6 +81,8 @@ https://{growing产品的host}/userinfo?access_token={access_token值}
   "lastVisitAt": "2021-12-24T08:37:54.57729"
 }
 ```
+
+
 
 ### 应用预览
 
