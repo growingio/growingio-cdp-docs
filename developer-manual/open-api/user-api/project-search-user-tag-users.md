@@ -27,7 +27,7 @@ GET
 
 | 名称      | 类型   | 必填 | 描述                 | 示例值        |
 | --------- | ------ | ---- | -------------------- | ------------- |
-| project_ID  | String | 是   | 群体画像所在项目ID | WlGk4Daj |
+| project_ID  | String | 是   | 用户标签所在项目ID | WlGk4Daj |
 | tag_key | String | 是   | 用户标签标识符 | tag_rfm |
 
 ## 查询参数
