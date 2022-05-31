@@ -47,7 +47,7 @@ TGI指数计算公式 ：
 
 点击 **新建腾讯画像** 按钮，进入新建画像页面
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MVoQKu3lR98UoPXdBAU-MVoXEXhmOoD9t518P4V%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.17.33.png)
+![](/img/TGI画像.png)
 
 ### 选择分群[](#xuan-ze-fen-qun)
 
@@ -60,16 +60,12 @@ TGI指数计算公式 ：
 
 ### 填写画像信息[](#tian-xie-hua-xiang-xin-xi)
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MVoQKu3lR98UoPXdBAU-MVoWcJdb8mQAvblPNAC%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.15.20.png)
-
 
 ### 选择匹配模式[](#xuan-ze-pi-pei-mo-shi)
 
 选择一种用户标识将分群用户与腾讯生态数据进行匹配，覆盖率高低程度会影响TGI画像精准度。
 
 > 覆盖率 = 分群中有设备号/手机号的人数 / 分群
-
-![](/img/assets-M2qbZInaXgdm8kkNosp-MVoQKu3lR98UoPXdBAU-MVoXPbcM2byKa7tRqJU%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.15.20.png)
 
 依据相关用户隐私信息规定，用户画像信息查询不得低于 10000 人
 
@@ -78,10 +74,7 @@ TGI指数计算公式 ：
 
 选择需要分析的洞察维度 ，一次查询最多支持20个。
 
-TGI画像生成后，会从已选洞察维度上与总体用户进行对比，生成每个维度的覆盖率、TGI指数等。
-
-![](/img/assets-M2qbZInaXgdm8kkNosp-MVoQKu3lR98UoPXdBAU-MVoW5ogLJj7quU9pcD-%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-03-15%20%E4%B8%8B%E5%8D%882.12.47.png)
-​
+TGI画像生成后，会从已选洞察维度上与总体用户进行对比，生成每个维度的覆盖率、TGI指数等。​
 
 ### 数据安全与隐私[](#shu-ju-an-quan-yu-yin-si)
 
