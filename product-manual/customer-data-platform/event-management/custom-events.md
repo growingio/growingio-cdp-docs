@@ -44,32 +44,29 @@ sidebar_position: 1
 
 通过定义名称、标识符、描述、关联事件属性来完成一条新的埋点事件的定义。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-Mj4GOzneVzxyp0-Oy-B-Mj4ILbHD9AVxcb8SLum%E5%9B%BE%E7%89%87.png)
-
+![picture 3](/img/52cb1646ca8cfa2fd415ad3d5fb4897274175c0e583ad8c8989599370d39574f_pic_1654497109656_2022-06-06.png)  
 
 ### 查询[](#cha-xun)
 
 已创建的事件默认按照创建时间逆序排列，支持翻页查看，也支持通过名称或标识符检索来查找已定义的事件。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-Mj4GOzneVzxyp0-Oy-B-Mj4KW9tXONtw3a7bW00%E5%9B%BE%E7%89%87.png)
+![picture 4](/img/f768d58d02e1f6ebd725851f41dd8b93e727e45d54fb4069f3790f74be474569_pic_1654497211211_2022-06-06.png)  
 
 点击某事件行，除了可查看事件定义详情外，还可以了解该事件过去7天的数量趋势。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-Mj4GOzneVzxyp0-Oy-B-Mj4MIYHaxuClgsljcGG%E5%9B%BE%E7%89%87.png)
-
+![picture 5](/img/5e1fac825fd38ad3131c40cc0d384c01488993e7b5f077e4b17a455720b80575_pic_1654497297209_2022-06-06.png)  
 
 ### 修改[](#xiu-gai)
 
 点击某事件行，在事件详情中，修改事件信息后保存。注：由于标识符是事件的唯一标识，不支持对它的修改。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-Mj4GOzneVzxyp0-Oy-B-Mj4LJ2LNM9DVenIkqm9%E5%9B%BE%E7%89%87.png)
-
+![picture 6](/img/09e2e5638dcb5d15564d60d0d5c637bffae61df21c41d9c0c37e61f222810dfc_pic_1654497364596_2022-06-06.png)  
 
 ### 删除[](#shan-chu)
 
 点击某事件行的操作列的图标，可删除单个事件。也可以在列表中使用复选框选择多个事件，进行批量删除。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-Mj4GOzneVzxyp0-Oy-B-Mj4NJq8LitXy9huxC2U%E5%9B%BE%E7%89%87.png)
+![picture 7](/img/82a518f83ec36ebe1844160b531797ea89cd4865f156a4cb8dfe43e1e650f769_pic_1654497431779_2022-06-06.png)  
 
 事件被删除后不可恢复，引用它的看板图表将受到影响，请谨慎操作。
 
