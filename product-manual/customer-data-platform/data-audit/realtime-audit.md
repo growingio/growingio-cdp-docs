@@ -25,7 +25,7 @@ sidebar_position: 2
     
 * 按照服务器接收时间倒序排列
     
-![](https://3953104361-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M2qbZInaXgdm8kkNosp%2F-MhX5FSRxN2LZi8DcOJV%2F-MhXA8ehYRVYHH47S9Q4%2F1629439686(1).png?alt=media&token=e8c25721-7227-4a0e-b5a3-59c4851c84d2)
+![picture 1](/img/2f5ed854101be67809b65209201a77d0769a3ca1064c236bd2d3dfad98146907_pic_1654495289820_2022-06-06.png)  
 
 进入功能主页
 
