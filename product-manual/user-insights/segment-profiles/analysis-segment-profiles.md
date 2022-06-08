@@ -21,33 +21,29 @@ sidebar_position: 3
 
 ![](/img/用户洞察-群体画像-添加图表.png)
 
-### 统计逻辑
-
-![](/img/用户洞察-群体画像-例1.png)
-
-```sql
-select
-    usr_city                            as usr_city
-    ,count(distinct gio_id)             as num
-from project_{id}.user_view
-where seg_{segment_key} = 1
-group by usr_city
-order by count(distinct gio_id) desc
-limit 5
-```
-
 ## 编辑群体画像
 
 在群体画像详情页点击 **画像图表 > 操作** 可以对画像图表进行编辑，您可以对画像图表进行以下操作：
 
 | 项   | 说明  | 限制条件 |
 | -- | -- | -- |
+| 下载 | 您可以点击 **操作 > 下载** 下载统计数据 | 无 |
 | 编辑 | 您可以点击 **操作 > 编辑** 编辑指定画像图表 | 支持编辑名称、<br/>图表类型、<br/>维度拆解、<br/>展示条数和排序方式 |
 | 删除 | 您可以点击 **操作 > 删除**，删除不需要的画像图表 | 无 |
 | 条形图 | 您可以点击 **操作 > 条形图** 切换图表类型 | 无 |
 | 柱状图 | 您可以点击 **操作 > 柱状图** 切换图表类型 | 无 |
 
-![](/img/用户洞察-群体画像-画像图表-编辑.png)
+![](/img/用户洞察-群体画像-画像图标-编辑.png)
+
+数据格式：
+
+| 渠道分布 | 用户数 |
+| ------ | ----- |
+| 1      | 3593  |
+| 2      | 980   |
+| 20     | 1     |
+| 4      | 1     |
+| ...    | ...   |
 
 ## 群体画像排序
 
@@ -60,3 +56,16 @@ limit 5
 拖拽后：
 
 ![](/img/用户洞察-群体画像-图表排序-2.png)
+
+### 统计逻辑
+
+```sql
+select
+    usr_city                            as usr_city
+    ,count(distinct gio_id)             as num
+from project_{id}.user_view
+where seg_{segment_key} = 1
+group by usr_city
+order by count(distinct gio_id) desc
+limit 5
+```
