@@ -1,3 +1,8 @@
+---
+id: update-log
+sidebar_position: 5
+---
+
 # 更新日志
 
 ## v2.2-beta: 2021 年 11 月 18 日发布
