@@ -176,6 +176,7 @@ A：当引用的属性被删除时，虚拟属性立即变为异常状态。对�
 | concat          | 字符串拼接      | 假设var_1, var_2为字符串类型<br/>SQL表达式：concat(var_1, var_2)<br/>备注：支持两个及以上的字符串拼接                                                              |
 | replace         | 字符串替换      | 假设var_1为字符串类型，值为GrowingIO，需要把IO替换为Hello<br/>SQL表达式：replace(var_1, 'IO' , 'Hello')                                                            |
 | substring       | 字符串提取      | 假设var_1为字符串类型，值为GrowingIO，需要提取前3个字符<br/>SQL表达式：substring(var_1, 1, 3)                                                                      |
+| locate       | 字符串位置      | 假设var_1为字符串类型，值为GrowingIO，需要计算子串ing所在的位置<br/>SQL表达式：locate(var_1, 'ing')                                                                      |
 | upper           | 字符串转大写    | upper(var_1)                                                                                                                                                       |
 | lower           | 字符串转小写    | lower(var_1)                                                                                                                                                       |
 | parse_url_query | URL参数提取     | 假设var_1为URL链接的字符串，需要提取链接中参数为arg的值<br/>SQL表达式：parse_url_query(var_1, 'arg')                                                               |

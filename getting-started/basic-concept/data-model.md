@@ -125,6 +125,13 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | $utm_campaign       | String   | 广告名称，产品的具体广告系列名称、标语等                             |
 | $utm_term           | String   | 广告关键字，标识付费搜索关键字                                       |
 | $utm_content        | String   | 广告内容，用于区分相似内容或同一广告内的链接                         |
+| $utm_source_session         | String   | 会话级广告来源，标识投放的网站                                             |
+| $utm_medium_session         | String   | 会话级广告媒介或营销媒介                                                   |
+| $utm_campaign_session       | String   | 会话级广告名称，产品的具体广告系列名称、标语等                             |
+| $utm_term_session           | String   | 会话级广告关键字，标识付费搜索关键字                                       |
+| $utm_content_session        | String   | 会话级广告内容，用于区分相似内容或同一广告内的链接                         |
+| $traffic_source        | String   | 流量来源，如付费搜索、付费购物、自然搜索等                         |
+| $traffic_source_session        | String   | 会话级流量来源，如付费搜索、付费购物、自然搜索等                         |
 | $key_word           | String   | 访问来源广告关键字                                                   |
 | $device_brand       | String   | 设备品牌名称                                                         |
 | $device_model       | String   | 设备型号                                                             |
@@ -136,10 +143,10 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | $region             | String   | 地区，示例：江苏                                                     |
 | $city               | String   | 城市，示例：南京                                                     |
 | $ip                 | String   | 客户端IP地址                                                         |
-| $data\_source\_id   | String   | 数据源信息                                                           |
+| $data_source_id   | String   | 数据源信息                                                           |
 | $page_count         | UInt32   | 访问深度，即一次访问的页面浏览量                                     |
 | $duration           | UInt32   | 时长（秒）。page事件上是页面停留时长<br></br>，visit事件上是访问时长 |
-
+| $bot_id   |  Int32  | 爬虫流量标识，NULL值为正常流量                                                       |
 > $page_count和$duration是离线计算而非实时采集的信息，时效性是T+1天。
 
 #### 自定义属性[](#zi-ding-yi-shu-xing)
