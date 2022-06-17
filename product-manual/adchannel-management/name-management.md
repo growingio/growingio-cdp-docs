@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ## 简介[](#jian-jie)
 
-为活动管理的活动表单的下拉框元素设置取值范围
+为活动管理中新建活动表单的各下拉框元素设置可选值范围
 
 ![](/img/qudaoguanli4.png)
 
