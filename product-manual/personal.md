@@ -1,6 +1,6 @@
 ---
 id: personal
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 # 个人中心
