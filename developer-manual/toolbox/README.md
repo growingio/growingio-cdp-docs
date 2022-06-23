@@ -15,7 +15,7 @@ GrowingIO 提供脚本辅助工具帮助您实现一些批处理功能：‌
 
 ## 辅助工具的安装和配置
 
-[辅助工具 growingio-tools-python-2.0.zip](/img/growingio-tools-python-2.0.zip)
+[辅助工具 growingio-tools-python-last.zip](/img/growingio-tools-python-20220526.tar.gz)
 
 下载后是一个压缩包，解压后需要安装和配置后方可使用
 
