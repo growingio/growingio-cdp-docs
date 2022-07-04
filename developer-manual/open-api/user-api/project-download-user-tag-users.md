@@ -12,7 +12,7 @@ sidebar_position: 10
 ## 接口地址
 
 ```
-http://{api-host}/v1/api/projects/{project_ID}/user_tags/{tag_key}/users/export_jobs
+http://{api-host}/v1/api/projects/{project_ID}/user_tags/{tag_key}/export_jobs
 ```
 
 ## 请求方式
@@ -44,7 +44,7 @@ POST
 
 数据格式：
 
-- fileformat: csv  csvHeaderType: key
+- fileFormat: csv  csvHeaderType: key
 
 ```csv
 "gio_id","id_$basic_userId","usr_gender","tag_rfm",...
@@ -52,7 +52,7 @@ POST
 ...
 ```
 
-- fileformat: csv  csvHeaderType: name
+- fileFormat: csv  csvHeaderType: name
 
 ```csv
 "gio_id","用户ID","性别","会员等级",...
@@ -60,7 +60,7 @@ POST
 ...
 ```
 
-- fileformat: json
+- fileFormat: json
 
 ```json
 {"gio_id": "1", "identifications": { "id_$basic_userId": "C001" }, "properties": { "usr_gender":"男", "tag_rfm": "高",... } }
@@ -84,9 +84,9 @@ curl --location --request POST 'http://{api-host}/v1/api/projects/WlGk4Daj/user_
         "ids_$basic_userId",
         "usr_gender",
         "tag_rfm"
-    ],
-    "fileformat":"csv",
-    "csvHeaderType":"name"
+    ]
+    ,"fileFormat":"csv"
+    ,"csvHeaderType":"name"
 }'
 ```
 
@@ -146,8 +146,8 @@ curl --location --request POST 'http://{api-host}/v1/api/projects/WlGk4Daj/user_
 --header 'Authorization: Bearer 4aaa22c7-679f-49be-b97d-073dad5dfc15' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "properties": [],
-    "fileformat":"json"
+    "properties": []
+    ,"fileFormat":"json"
 }'
 ```
 
