@@ -92,9 +92,9 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 
 * 访问事件：通过session字段加密生成
     
-* 页面浏览事件：通过session、event_time和path字段加密生成
+* 页面浏览事件：通过session、client_time和path字段加密生成
     
-* 自定义事件：通过event_key、event_time、_anonymous_user、user、attributes等加密生成
+* 自定义事件：通过event_key、client_time、_anonymous_user、user、attributes等加密生成
     
 #### 预定义属性[](#yu-ding-yi-shu-xing)
 
