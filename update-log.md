@@ -1,3 +1,8 @@
+---
+id: update-log
+sidebar_position: 5
+---
+
 # 更新日志
 
 ## v2.6：2022 年 03 月 31 日发布
