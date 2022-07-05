@@ -1,3 +1,8 @@
+---
+id: update-log
+sidebar_position: 5
+---
+
 # 更新日志
 
 ## v2.4-beta：2022 年 01 月 24 日发布

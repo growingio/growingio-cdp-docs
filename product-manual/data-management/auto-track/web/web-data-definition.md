@@ -29,19 +29,19 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 > 
 > **即** www.xxx.com **为域名，**/12345/678/123 **为路径，**?id=1&ig=2 **为查询条件**
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MI3JC1TzkGK4ILgFhhs%2F-MI3LKmV6eb9KMO66XB6%2Fimage.png?alt=media&token=bf85fe1e-0d60-4a00-8774-f6270ee2a6ab)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MI3JC1TzkGK4ILgFhhs-MI3LKmV6eb9KMO66XB6image.png)
 
 ## 圈选操作[](#quan-xuan-cao-zuo)
 
 在 ”**数据 > 事件 \> 无埋点事件**” 中点击 “**新建无埋点事件 \> 网页应用”** 进入Web圈选说明页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MI484dYvqV6H6DigVNO%2F-MI48_XneKih-e0-1RVK%2Fimage.png?alt=media&token=07f5038e-b145-40f0-aa40-b2eea354e8b1)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MI484dYvqV6H6DigVNO-MI48_XneKih-e0-1RVKimage.png)
 
 无埋点页面定义：需要在Chrome中打开目标页面，在GIO Web Collection插件中完成页面定义。
 
 在Chrome中打开目标页面后唤起插件，开始定义无埋点事件。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPm7AuIljEQznJboTNI%2F-MPmFzMWX7nq960RMxd3%2Fimage.png?alt=media&token=91a8b617-61d1-4e60-ada1-7bb67f9484c3)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MPm7AuIljEQznJboTNI-MPmFzMWX7nq960RMxd3image.png)
 
 | 项   | 说明  |
 | --- | --- |
@@ -53,7 +53,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 点击“**定义页面**“后，进入页面定义流程。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPm7AuIljEQznJboTNI%2F-MPmHgsT5hte9vxGizRS%2Fimage.png?alt=media&token=e1f85a9b-c799-4f51-8dc9-7ba628ac31eb)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MPm7AuIljEQznJboTNI-MPmHgsT5hte9vxGizRSimage.png)
 
 | 项   | 说明  |
 | --- | --- |
@@ -76,13 +76,13 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 在Chrome中打开目标页面，选择 定义模式 后可以看到已定义的元素被高亮展示。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPm7AuIljEQznJboTNI%2F-MPmIMqH4af4pni60aic%2Fimage.png?alt=media&token=0d9e7ee9-0a17-4384-b8f5-49270b65ef4f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MPm7AuIljEQznJboTNI-MPmIMqH4af4pni60aicimage.png)
 
 可以通过 启用/禁用 开关打开或关闭已定义元素的高亮功能。
 
 在定义模式下，点击 **网页元素** 后，进入元素定义流程。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPm7AuIljEQznJboTNI%2F-MPmJ2x8H3ZSAvzjIKSZ%2Fimage.png?alt=media&token=dc09868f-44f8-4954-b84a-3b9f8ba3ba9f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MPm7AuIljEQznJboTNI-MPmJ2x8H3ZSAvzjIKSZimage.png)
 
 | 项   | 说明  |
 | --- | --- |
@@ -107,7 +107,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 用户鼠标hover元素内容后出现编辑按钮，点击编辑按钮后可修改匹配的元素内容。支持精准匹配和模糊匹配两种模式。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPm7AuIljEQznJboTNI%2F-MPmJBj_d6KXgXkAEn9a%2Fimage.png?alt=media&token=f940f770-2985-4b09-a912-2e6e0cc6732d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MPm7AuIljEQznJboTNI-MPmJBj_d6KXgXkAEn9aimage.png)
 
 * 元素位置
 
@@ -115,7 +115,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 勾选后限制元素位置为当前定义元素位置，取消勾选后不限制元素位置，定义事件包含所有同类元素。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkwyoBJwxZjzm0JPEH%2F-MLkyjvMrSd3ElQD8PWu%2Fimage.png?alt=media&token=cfdea064-6914-451d-8ebb-65911e283ccd)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLkwyoBJwxZjzm0JPEH-MLkyjvMrSd3ElQD8PWuimage.png)
 
 * 跳转链接
 
@@ -123,7 +123,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 用户鼠标hover跳转链接后出现编辑按钮，点击编辑按钮后可修改匹配的跳转链接。支持使用通配符 *。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MPm7AuIljEQznJboTNI%2F-MPmJJgTxGNWgb5RiKeJ%2Fimage.png?alt=media&token=d28cacec-6a2b-44a1-ab3e-679d81ee3bfd)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MPm7AuIljEQznJboTNI-MPmJJgTxGNWgb5RiKeJimage.png)
 
 仅当元素存在名称、位置、跳转链接时，才支持限制以上三种元素信息。
 
@@ -131,7 +131,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 点击 “**打开手动模式**“ 后，用户可以自定义元素路径(xpath)。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkwyoBJwxZjzm0JPEH%2F-MLkzE_6EwVdx8w38qA8%2Fimage.png?alt=media&token=9e843ef5-e9a1-437f-bfbd-d169dfb7cc9a)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLkwyoBJwxZjzm0JPEH-MLkzE_6EwVdx8w38qA8image.png)
 
 ## 使用案例[](#shi-yong-an-li)
 
@@ -141,7 +141,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 步骤二：点击“**定义页面**“按钮，进入页面定义流程。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MI4Vb5vtY0zqj-qsw3a%2F-MI4ZMisFEml47IhSozL%2Fimage.png?alt=media&token=47d5c20b-3e52-44cd-aa43-02ed98d18e56)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MI4Vb5vtY0zqj-qsw3a-MI4ZMisFEml47IhSozLimage.png)
 
 步骤三：输入页面名称“页面_官网首页"，输入描述"GrowingIO官网首页"，点击保存完成页面定义。
 
@@ -153,7 +153,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 步骤三：禁用路径匹配按钮
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MI4Vb5vtY0zqj-qsw3a%2F-MI4_Fr1kGVlOmt0y6o3%2Fimage.png?alt=media&token=19805dce-1cd1-4fb1-8e51-8241bab45508)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MI4Vb5vtY0zqj-qsw3a-MI4_Fr1kGVlOmt0y6o3image.png)
 
 此时定义的页面是 www.growingio.com 域名下的全部页面
 
@@ -161,13 +161,13 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 案例三：定义GrowingIO官网行业解决方案详情页[](#an-li-san-ding-yi-growingio-guan-wang-hang-ye-jie-jue-fang-an-xiang-qing-ye)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MI4Vb5vtY0zqj-qsw3a%2F-MI4aCsBSm_05ZHaEpR9%2Fimage.png?alt=media&token=392e852c-4088-4fd5-93f1-87056b217e3d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MI4Vb5vtY0zqj-qsw3a-MI4aCsBSm_05ZHaEpR9image.png)
 
 步骤一：在Chrome中打开 www.growingio.com/solutions/retail-ecommerce，进入GrowingIO官网电商行业解决方案详情页
 
 步骤二：点击“**定义页面**“按钮，进入页面定义流程。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MI4Vb5vtY0zqj-qsw3a%2F-MI4aeK_6DpZFxFQCiP7%2Fimage.png?alt=media&token=0811626a-fb83-4e18-8386-fb875ed248e9)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MI4Vb5vtY0zqj-qsw3a-MI4aeK_6DpZFxFQCiP7image.png)
 
 步骤三：修改路径规则为 /solutions/*。
 
@@ -205,7 +205,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 步骤四：输入元素名称“点击_官网首页_登录按钮"，选择所属页面为“页面_官网首页“，输入描述”GrowingIO官网首页登录按钮点击“，点击保存完成元素定义。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkz_fOsq6oJExgP3aV%2F-MLl-l5nTrrgF0YEHOGQ%2Fimage.png?alt=media&token=ab98c77e-9ec3-4461-bf5e-3f612ecc9c19)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLkz_fOsq6oJExgP3aV-MLl-l5nTrrgF0YEHOGQimage.png)
 
 ### 案例六：定义下载点击事件[](#an-li-liu-ding-yi-xia-zai-dian-ji-shi-jian)
 
@@ -217,7 +217,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 步骤四：输入元素名称“点击_官网首页_下载按钮"，选择所属页面为“页面_官网首页“，取消勾选元素内容、元素位置和跳转链接，输入描述”GrowingIO官网下载，包含白皮书、分析手册、帮助文档“，点击保存完成元素定义。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MLkz_fOsq6oJExgP3aV%2F-MLl0Q_2fjgsics-pTOv%2Fimage.png?alt=media&token=a2c8e95f-8354-4292-883b-f16ad444bd33)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MLkz_fOsq6oJExgP3aV-MLl0Q_2fjgsics-pTOvimage.png)
 
 ## 常见问题[](#chang-jian-wen-ti)
 
@@ -227,7 +227,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 举例：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MI4cwVOEHy3FxkkwvnV%2F-MI4dYM-koVxRCS-dGWD%2Fimage.png?alt=media&token=7e4fbef6-e127-42c8-a408-41a87774adaa)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MI4cwVOEHy3FxkkwvnV-MI4dYM-koVxRCS-dGWDimage.png)
 
 该规则定义的页面是，域名为 www.growingio.com，不限制路径，查询参数包含 utm_source 且参数值为 baidu 的全部页面。
 
@@ -241,7 +241,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 此时“定义页面“后，我们可以看到插件中识别的路径规则为
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MI4cwVOEHy3FxkkwvnV%2F-MI4exmv30XpW219Uevx%2Fimage.png?alt=media&token=2cef3e82-dda3-442d-be08-f53e4c564f4e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MI4cwVOEHy3FxkkwvnV-MI4exmv30XpW219Uevximage.png)
 
 此时插件中识别的查询参数与URL输入框中参数不一致。
 

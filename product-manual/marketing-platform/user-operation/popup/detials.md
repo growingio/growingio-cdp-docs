@@ -23,7 +23,7 @@ sidebar_position: 2
 
 已上线的弹窗在数据详情页面可以看到该弹窗的规则（如下图）。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eVklJqOahxNoiqR1l%2F-M3eZk-ezaGmA6SVqf6w%2Fimage.png?alt=media&token=5223d61c-1bf7-423a-8251-1a89d4838717)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3eVklJqOahxNoiqR1l-M3eZk-ezaGmA6SVqf6wimage.png)
 
 如果上线后发现需要修改规则，可以点击右上角的按钮：编辑消息规则。修改规则之前需要先暂停，修改完成后可以再次上线，上线后，之前已经收到过该弹窗的用户不会再次收到。
 
@@ -32,19 +32,19 @@ sidebar_position: 2
 
 每两小时刷新一次数据
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eVklJqOahxNoiqR1l%2F-M3eZnjtOk1r3cP-DpsA%2Fimage.png?alt=media&token=c5a56ae4-c0b0-4464-9b13-b3007ac9bcc1)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3eVklJqOahxNoiqR1l-M3eZnjtOk1r3cP-DpsAimage.png)
 
 
 ### **趋势图**[](#qu-shi-tu)
 
 点击右下角，可以在事件分析中查看该弹窗的数据。事件分析中支持更灵活的数据分析方式，比如维度拆解，时间范围修改等。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eVklJqOahxNoiqR1l%2F-M3eZqyDqF1p46xFY8M_%2Fimage.png?alt=media&token=a3604938-f162-46e8-8c1e-bd0a8d02f6e3)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3eVklJqOahxNoiqR1l-M3eZqyDqF1p46xFY8M_image.png)
 
 
 ### **漏斗图**[](#lou-dou-tu)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M7MOqKWPZ2zJHOP2Rg7%2F-M7MPDk43Ly_QWUeFVr9%2Fimage.png?alt=media&token=a9dc6ade-a2f8-4117-a87d-9b504b79bac2)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M7MOqKWPZ2zJHOP2Rg7-M7MPDk43Ly_QWUeFVr9image.png)
 
 
 ## 弹窗数据在**产品分析**中的应用[](#dan-chuang-shu-ju-zai-chan-pin-fen-xi-zhong-de-ying-yong)
@@ -55,6 +55,6 @@ GrowingIO 运营平台为弹窗预置了三个埋点事件和一个事件变量�
 
 在事件分析、漏斗、留存、分群等分析工具中都可以灵活使用。如下图：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eVklJqOahxNoiqR1l%2F-M3e_1zft4v3PjogHXhv%2Fimage.png?alt=media&token=cecb07a0-b949-4f75-8b87-adb58dc1e8bc)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3eVklJqOahxNoiqR1l-M3e_1zft4v3PjogHXhvimage.png)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eVklJqOahxNoiqR1l%2F-M3e_3yI9IxGMpxffx2j%2Fimage.png?alt=media&token=422e6a43-1115-49bf-ba06-c357f3ddf6c7)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3eVklJqOahxNoiqR1l-M3e_3yI9IxGMpxffx2jimage.png)

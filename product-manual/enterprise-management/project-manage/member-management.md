@@ -16,7 +16,7 @@ sidebar_position: 2
 
 在项目成员的列表中，可查看项目中都有哪些成员，并可进行添加/移除 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHBSLz8VcjEon7IRco%2F-MkHBY3zApXJjbB-c9Tr%2Fimage.png?alt=media&token=109559af-0dec-4410-93bb-019b99245fc3)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHBSLz8VcjEon7IRco-MkHBY3zApXJjbB-c9Trimage.png)
 
 | 操作  | 作用  |
 | --- | --- |
@@ -32,7 +32,7 @@ sidebar_position: 2
 
 项目角色为此用户在项目内的功能权限 。 可查看 项目[角色](https://app.gitbook.com/@growingio/s/op/~/drafts/-MMVAIcGiHwnMjXMi1gb/v/v20201200/product-manual/zhan-dian-guan-li/zhan-dian-jiao-se)。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHBSLz8VcjEon7IRco%2F-MkHBdooc2CUbgZTalcD%2Fimage.png?alt=media&token=19aeadf1-5312-4bde-9444-ea2e6cb268fc)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHBSLz8VcjEon7IRco-MkHBdooc2CUbgZTalcDimage.png)
 
 > 权限控制： 仅拥有者、超级管理员可更换项目负责人
 
@@ -43,6 +43,6 @@ sidebar_position: 2
 
 操作流程 ： 点击移出成员 > 选择移交资源对象 > 点击确认 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkHBSLz8VcjEon7IRco%2F-MkHBifci4DHJlK-2C8c%2Fimage.png?alt=media&token=d7816a41-3629-41be-a62a-0618a3722b48)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkHBSLz8VcjEon7IRco-MkHBifci4DHJlK-2C8cimage.png)
 
 > 权限控制： 仅拥有者、超级管理员可更换项目负责人
