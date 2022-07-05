@@ -28,7 +28,7 @@ sidebar_position: 1
 
 ## 功能说明[](#gong-neng-shuo-ming)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkM6jxgrkXpWM8R0952%2F-MkM6rUCPZ2KTVT3ec4k%2Fimage.png?alt=media&token=5e34591a-e224-4f86-8001-de8602a9d267)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkM6jxgrkXpWM8R0952-MkM6rUCPZ2KTVT3ec4kimage.png)
 
 在数据源管理页面可以查看数据源名称、数据源类型、数据源ID、描述、创建日期、创建人。
 

@@ -53,24 +53,24 @@ GrowingPushKit 和 GrowingCDPPushExtensionKit 都需要集成 ！ GrowingPushKit
 
 - 下载最新的 iOS GrowingTouch SDK 包，并将其中的 GrowingTouchCoreKit.framework、GrowingTouchCoreUI.bundle 以及 GrowingPushKit.framework 添加到 iOS 工程中
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC4y_fzXidyXlx3J-dz%2F-MC4zf6RuSFL-IvM8s2g%2Fimage.png?alt=media&token=c3a22d88-91f6-4b98-ac50-86eb09c4ec5d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC4y_fzXidyXlx3J-dz-MC4zf6RuSFL-IvM8s2gimage.png)
 
 - **添加扩展 Notification Service Extension** ，在 File -> New -> Target 中选择箭头所指，即可建立扩展 GIOEdemoServiceExtension，
   - 请将 Notification Service Extension 中的 Deployment Target 设置为 **10.0**。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC4y_fzXidyXlx3J-dz%2F-MC4zrJzMWgmWfU1cFot%2Fimage.png?alt=media&token=d3b75acf-8d23-4e89-bd73-81a062f68e36)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC4y_fzXidyXlx3J-dz-MC4zrJzMWgmWfU1cFotimage.png)
 
 - 将其中的**GrowingCDPPushExtensionKit.framework**包将之添到扩展**Notification Service Extension**
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC4y_fzXidyXlx3J-dz%2F-MC5--REJDn80V5v8L01%2Fimage.png?alt=media&token=0e4de0ab-0ded-40dc-a35e-669902684173)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC4y_fzXidyXlx3J-dz-MC5--REJDn80V5v8L01image.png)
 
 - 确保扩展 GrowingCDPPushExtensionKit 引入成功，other link flags 选项有添加`$(inherited)` 和`-ObjC` 添加编译参数，并注意大小写：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDILJrV6oEz9XPU1RZb%2F-MDILYd4BY5K51IyUK15%2Fimage.png?alt=media&token=ce352e20-85ee-450b-98a0-2398d4b6b7fc)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDILJrV6oEz9XPU1RZb-MDILYd4BY5K51IyUK15image.png)
 
 请保证扩展的 target 最低版本 iOS**10.0**
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC4y_fzXidyXlx3J-dz%2F-MC5-MFjBfLF05zeEqKW%2Fimage.png?alt=media&token=071e8fee-4dfe-43c1-973c-6bae0c44dcc1)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC4y_fzXidyXlx3J-dz-MC5-MFjBfLF05zeEqKWimage.png)
 
 ## 编写集成代码 重要配置[](#er-bian-xie-ji-cheng-dai-ma-zhong-yao-pei-zhi)
 
@@ -176,7 +176,7 @@ categories:nil];
 
 ### 推送消息自定义协议的处理 clickMessageWithCompletionHandler:[](#3-tui-song-xiao-xi-zi-ding-yi-xie-yi-de-chu-li-clickmessagewithcompletionhandler)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC4y_fzXidyXlx3J-dz%2F-MC51EH8N_RR2Q34dEOz%2Fimage.png?alt=media&token=e5171170-a525-4702-8531-929318ef10ca)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC4y_fzXidyXlx3J-dz-MC51EH8N_RR2Q34dEOzimage.png)
 
 推送功能默认提供打开 APP、打开网页、打开 APP 内部页面三种功能，如果该三种功能还是满足不了您的需求，您可以在 SDK 提供的以下方法回调中自定义自己的跳转逻辑。
 
@@ -222,7 +222,7 @@ categories:nil];
 
 在 File -> New -> Target 中选择箭头所指，即可建立
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC52JJRHtwQxFLSbzc2%2Fimage.png?alt=media&token=82eaf562-d8fd-40c6-8c1c-3fd2f54157c2)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC52JJRHtwQxFLSbzc2image.png)
 
 ## 常见问题[](#si-chang-jian-wen-ti)
 
@@ -234,7 +234,7 @@ categories:nil];
 
 - **推送 Web 页面配置如下：**
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC52agxViaw23nTztFh%2Fimage.png?alt=media&token=a47464b1-f75f-4158-8d3f-587d70a5b0d4)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC52agxViaw23nTztFhimage.png)
 
 此时生成的跳转链接为`InAppViewController?key1=value1&key2=value2` ，点击自动跳转到原生界面 InAppViewController，并携带两个参数。
 
@@ -274,27 +274,27 @@ class  SFViewController:  UIViewController  {
 
 第 1 步：编译运行当前示例项目工程 TestDemo（实际过程中应为对应的项目工程名称）
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC52uPeAYdm6U5m9jTZ%2Fimage.png?alt=media&token=2fa9458a-a157-42e6-925d-c9167342427e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC52uPeAYdm6U5m9jTZimage.png)
 
 第 2 步：运行成功之后，在 Products 文件夹下，选中 TestDemo.app 后 Show in Finder
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC532PsGX1fa8FBxiKA%2Fimage.png?alt=media&token=dc01a8aa-3a9e-4fd1-924d-a5a92d26c4ce)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC532PsGX1fa8FBxiKAimage.png)
 
 第 3 步：可以看到在 Products 文件夹同级补录下，有一个名为 Intermediates.noindex 的文件夹，依次进入 TestDemo.build -> Debug-iphoneos(或 Debug-iphonesimulator) -> TestDemo.build -> DerivedSources 文件夹下
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC538aaZ9YJaXjtGZFs%2Fimage.png?alt=media&token=02088e8d-a387-4b6c-a944-3eb75a478a7a)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC538aaZ9YJaXjtGZFsimage.png)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC53CE5mEuJukEBOwF9%2Fimage.png?alt=media&token=960232bc-44c9-4a82-84f7-1520e415fe52)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC53CE5mEuJukEBOwF9image.png)
 
 第 4 步：当前文件下有一个名为 TestDemo-Swift.h 的文件，双击打开在该文件中查找 SFViewController，发现该类声明的上方有一句 SWIFT_CLASS("\_TtC8TestDemo16SFViewController")
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC53LUt9IOREvUCGDLp%2Fimage.png?alt=media&token=0c4e5faa-4a6a-4294-9008-8ae3469ef436)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC53LUt9IOREvUCGDLpimage.png)
 
 \_TtC8TestDemo16SFViewController 即为原生界面 SFViewController.swift 转换后的类名， Web 页面配置如下：
 
 **推送 Web 页面配置如下：**
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC53T7LIH-Fn9VJYzjm%2Fimage.png?alt=media&token=3bbf89fe-c119-4d4f-80b7-1e3a9f6c73b2)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC53T7LIH-Fn9VJYzjmimage.png)
 
 ## 如何判断 iOS push 集成成功[](#wu-ru-he-pan-duan-ios-push-ji-cheng-cheng-gong)
 
@@ -306,11 +306,11 @@ class  SFViewController:  UIViewController  {
 
 在项目工程中打开后台推送权限设置，如下图所示
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC55PLQhk-GqF5quhkP%2Fimage.png?alt=media&token=bf7ce79e-1ae0-4dd5-a6fb-348e88fbf454)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC55PLQhk-GqF5quhkPimage.png)
 
 打开推送开关 Push Notifications，如下图所示
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC55XrDhYWHyLGqU-oX%2Fimage.png?alt=media&token=83d7293e-fadd-4dde-b13e-401b281ac9c9)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC55XrDhYWHyLGqU-oXimage.png)
 
 ### 创建 App ID[](#2-chuang-jian-app-id)
 
@@ -318,51 +318,51 @@ class  SFViewController:  UIViewController  {
 
 登录苹果开发者账号，点击如下图红色箭头区域，进入证书配置页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC55fgSDLV3-TRIDtp-%2Fimage.png?alt=media&token=1e7cd9ba-b1f8-4536-a1f0-07852a3bb92d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC55fgSDLV3-TRIDtp-image.png)
 
 选中“Identifiers”，并且对应的是“App IDs”
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC55mqPekPrJahgwu3v%2Fimage.png?alt=media&token=8ae2d978-b59c-462d-9cbc-f17981b427fb)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC55mqPekPrJahgwu3vimage.png)
 
 选中对应的平台（Platform），输入对应的描述（Description）、Bundle ID
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC55vRLSt0OI161skpv%2Fimage.png?alt=media&token=a8e1e7bd-e6e8-4a8e-86a1-5ce1d1ef5a58)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC55vRLSt0OI161skpvimage.png)
 
 打开推送功能，选中如下图所示，点击右上角“continue”按钮，执行下一步
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC561GZyXS8lHybbZ-D%2Fimage.png?alt=media&token=bde24005-2cfe-4ecc-8a19-49e6ccb76eff)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC561GZyXS8lHybbZ-Dimage.png)
 
 确定信息无误后，点击右上角“Register”进行注册
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC5692xccb4hHgWCsRd%2Fimage.png?alt=media&token=320432ea-7320-4776-a550-a8a62df65677)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC5692xccb4hHgWCsRdimage.png)
 
 ### 创建本地 CRS 证书[](#3-chuang-jian-ben-di-crs-zheng-shu)
 
 打开 MAC 电脑上的钥匙串访问，点击窗口左上角的“钥匙串访问”中的“证书助理”，选择“从证书颁发机构请求证书…”
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC56GoUtm5iAW4CfWU1%2Fimage.png?alt=media&token=0281e08a-0f12-447f-8793-cea87893456d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC56GoUtm5iAW4CfWU1image.png)
 
 将证书选择为“存储到磁盘”，输入任意合法的邮箱地址后即可将证书保存到本地目录路径下
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC56NsvUY64zCbxEQPs%2Fimage.png?alt=media&token=18b1d69c-278c-4d86-9aff-702a7c3d87ed)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC56NsvUY64zCbxEQPsimage.png)
 
 ### 创建推送证书[](#4-chuang-jian-tui-song-zheng-shu)
 
 登录苹果开发者账号，点击下图红色箭头指示区域
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5280m7UGgVPsbeiOx%2F-MC56VRS4BaLnGmkjqK7%2Fimage.png?alt=media&token=a4c499e0-f6f4-4508-980e-a2e5e90953f8)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5280m7UGgVPsbeiOx-MC56VRS4BaLnGmkjqK7image.png)
 
 点击加号“+”，创建证书
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC56XkcdA4-cv6tX-44%2F-MC56oZqScnJewCcb6i6%2Fimage.png?alt=media&token=9fed35f5-5ec4-4f5c-b13d-ff487013afa0)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC56XkcdA4-cv6tX-44-MC56oZqScnJewCcb6i6image.png)
 
 选择“Services”下创建推送证书，其中红色箭头指示的为创建开发调试环境下的推送证书，蓝色箭头指示的为创建生产环境以及开发调试下的推送证书，这里
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC56vjCNQAU-iph3Ek1%2F-MC5991p9mEjaHPvwg0W%2Fimage.png?alt=media&token=04b49852-7195-4f14-9357-5ffc6536091f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC56vjCNQAU-iph3Ek1-MC5991p9mEjaHPvwg0Wimage.png)
 
 这里假如创建的是开发环境的推送证书，选中红色箭头对应的圆圈，点击右上角的“continue”按钮，进入下一步，选择项目对应的“App ID”，点击右上角的“continue”按钮，进入下一步
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC56vjCNQAU-iph3Ek1%2F-MC59F4UkeYRoV4RknKx%2Fimage.png?alt=media&token=d0864ce5-4467-4ca2-b088-6184f0087614)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC56vjCNQAU-iph3Ek1-MC59F4UkeYRoV4RknKximage.png)
 
 选择本地的“CRS”文件，点击右上角的“continue”按钮，进入下一步，即可生成对应项目开发环境下的推送证书，点击右上角的“Download”按钮，将证书下载到本地，选中刚才下载的证书，双击安装。
 
@@ -370,11 +370,11 @@ class  SFViewController:  UIViewController  {
 
 打开 MAC 电脑上的钥匙串访问，找到刚才安装的推送证书，选中右击导出该证书
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC56vjCNQAU-iph3Ek1%2F-MC59NVDYr3KRxeC71cx%2Fimage.png?alt=media&token=c3eec922-b967-48c1-a1c4-372cabecc33e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC56vjCNQAU-iph3Ek1-MC59NVDYr3KRxeC71cximage.png)
 
 设置证书的本地存储路径，选择导出证书的格式为个人信息交换( .p12 )，设置证书密码
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC56vjCNQAU-iph3Ek1%2F-MC59Uce7xIqvklqfid_%2Fimage.png?alt=media&token=810f8b3c-e28e-428a-b70b-424e678b8d86)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC56vjCNQAU-iph3Ek1-MC59Uce7xIqvklqfid_image.png)
 
 ### 上传证书[](#6-shang-chuan-zheng-shu)
 
@@ -478,11 +478,11 @@ class  SFViewController:  UIViewController  {
 
 3、本地测试推送 下载推送工具（[Knuff](https://github.com/KnuffApp/Knuff/releases/tag/v1.3) 等），导入相应的推送证书，填入上一步获取到的 token 进行本地推送，截图如下（这里以 Knuff 为例）
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-Mit97KKXXvr2LCIU2w0%2F-Mit9F2wVxPYr8wOATUn%2Fimage.png?alt=media&token=38b1a0f9-f44d-4370-8571-b6d437e24bf3)
+![](/img/assets-M2qbZInaXgdm8kkNosp-Mit97KKXXvr2LCIU2w0-Mit9F2wVxPYr8wOATUnimage.png)
 
 4、iOS 10 以后的图片推送送达检测 确保项目中添加了 ServiceExtension，类似如下图
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC56vjCNQAU-iph3Ek1%2F-MC5A_ppsxyXnu1-wHwA%2Fimage.png?alt=media&token=7e0bece6-a997-4355-acad-1b59cb0e89aa)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC56vjCNQAU-iph3Ek1-MC5A_ppsxyXnu1-wHwAimage.png)
 
 ServiceExtension 的 NotificationService 类，在接收到推送的方法中调用 GIO 的 API
 

@@ -27,13 +27,13 @@ sidebar_position: 4
 
 单击**添加分群/控制组对比**，选择**添加分群对比**。
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly3BZ5aYrTd2zCV4C-l%2F-Ly3Exk-RXdlbpmuJPKK%2F%E5%88%86%E7%BE%A4%E5%AF%B9%E6%AF%94%E6%8C%89%E9%92%AE.png?alt=media&token=2e75b92b-b1a8-4b2c-a37a-b1090b65a265)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly3BZ5aYrTd2zCV4C-l-Ly3Exk-RXdlbpmuJPKK%E5%88%86%E7%BE%A4%E5%AF%B9%E6%AF%94%E6%8C%89%E9%92%AE.png)
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly3BZ5aYrTd2zCV4C-l%2F-Ly3F24s7QHZxgI4Z-f1%2F%E5%88%86%E7%BE%A4%E5%AF%B9%E6%AF%94list.png?alt=media&token=ff4767f8-2490-47d5-b548-a8085f298d94)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly3BZ5aYrTd2zCV4C-l-Ly3F24s7QHZxgI4Z-f1%E5%88%86%E7%BE%A4%E5%AF%B9%E6%AF%94list.png)
 
 添加效果如下图：
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly3BZ5aYrTd2zCV4C-l%2F-Ly3FYjRGhBnm6sDQi3C%2F%E5%88%86%E7%BE%A4ab.png?alt=media&token=3c250ebb-2cf6-4017-91b3-a984daf3c61d)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly3BZ5aYrTd2zCV4C-l-Ly3FYjRGhBnm6sDQi3C%E5%88%86%E7%BE%A4ab.png)
 
 
 ### 添加控制组对比[](#tian-jia-kong-zhi-zu-dui-bi)
@@ -42,7 +42,7 @@ sidebar_position: 4
 
 添加效果如下图：
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly2hXtTGw6zsdRYPJiv%2F-Ly2wzzSOLhODXQSMRRf%2F%E6%8E%A7%E5%88%B6%E7%BB%84ab.png?alt=media&token=fd601fb3-381c-4e85-a12b-e42f15761f8e)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly2hXtTGw6zsdRYPJiv-Ly2wzzSOLhODXQSMRRf%E6%8E%A7%E5%88%B6%E7%BB%84ab.png)
 
 您可以自定义实验组占当前分群的百分比数，只有分配到实验组的用户会收到弹窗，控制组的用户不会收到（只作为对比人群）。要对比的数据取决于您设置的转化目标，比如可以对比两组人的 留存，活跃，成交情况等等。
 
@@ -53,11 +53,11 @@ sidebar_position: 4
 
 在配置触发和素材时，单击**添加素材对比**。
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly2hXtTGw6zsdRYPJiv%2F-Ly2x82vtsdgDUN8HhyO%2F%E6%B7%BB%E5%8A%A0%E7%B4%A0%E6%9D%90%E5%AF%B9%E6%AF%94.png?alt=media&token=0a3a2b09-46c2-464a-b7ef-0727ff1405e4)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly2hXtTGw6zsdRYPJiv-Ly2x82vtsdgDUN8HhyO%E6%B7%BB%E5%8A%A0%E7%B4%A0%E6%9D%90%E5%AF%B9%E6%AF%94.png)
 
 支持上传两种素材，自动成为实验A组和实验B组，所选择的目标分群用户触发了相应的条件后，会随机展示（各50%概率）其中一个素材。
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly2hXtTGw6zsdRYPJiv%2F-Ly2xENfP8OoLj6rRY2o%2F%E7%B4%A0%E6%9D%90ab.png?alt=media&token=6f5cc106-f146-45be-b848-ebe98ca1230b)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly2hXtTGw6zsdRYPJiv-Ly2xENfP8OoLj6rRY2o%E7%B4%A0%E6%9D%90ab.png)
 
 
 ## 场景3：配置活动对比[](#chang-jing-3-pei-zhi-huo-dong-dui-bi)
@@ -66,28 +66,28 @@ sidebar_position: 4
 
 单击**添加活动对比**
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly2hXtTGw6zsdRYPJiv%2F-Ly3--p8vzQBS0e_BDzl%2F%E6%B7%BB%E5%8A%A0%E6%B4%BB%E5%8A%A8%E5%AF%B9%E6%AF%94.png?alt=media&token=3a675a67-c161-4054-97a8-29e1dd609f8f)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly2hXtTGw6zsdRYPJiv-Ly3--p8vzQBS0e_BDzl%E6%B7%BB%E5%8A%A0%E6%B4%BB%E5%8A%A8%E5%AF%B9%E6%AF%94.png)
 
 
 ## 实验数据查看[](#shi-yan-shu-ju-cha-kan)
 
 A/B弹窗编辑上线后，该组弹窗将会出现在弹窗列表的 「**实验弹窗**」Tab下，可以点击列表中的弹窗名称，进入到数据报告页，查看到详细数据。对于已上线的A/B弹窗可以在列表页看到两组的数据对比情况（展示、点击和点击率）。
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly2hXtTGw6zsdRYPJiv%2F-Ly30CXTrqNLY5ec-j-G%2F%E5%AE%9E%E9%AA%8C%E5%88%97%E8%A1%A8.png?alt=media&token=4ada9c37-acf4-43b9-86e2-33b5e95e0be5)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly2hXtTGw6zsdRYPJiv-Ly30CXTrqNLY5ec-j-G%E5%AE%9E%E9%AA%8C%E5%88%97%E8%A1%A8.png)
 
 以下是不同对比场景详细的数据报表页：
 
 
 ### 控制组对比[](#kong-zhi-zu-dui-bi)
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly2hXtTGw6zsdRYPJiv%2F-Ly3Ar9QmLu0WgkxkqBJ%2F%E6%8E%A7%E5%88%B6%E7%BB%84%E6%95%B0%E6%8D%AE.png?alt=media&token=7d5d86bd-07fd-472e-a649-9a2c2ac54032)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly2hXtTGw6zsdRYPJiv-Ly3Ar9QmLu0WgkxkqBJ%E6%8E%A7%E5%88%B6%E7%BB%84%E6%95%B0%E6%8D%AE.png)
 
 在测试过程中，可以密切关注弹窗的点击以及活动的效果数据，及时调整活动页。如果达到的预期的效果，可以点击推广该实验，会对该分群全量的发送弹窗（之前收到过的用户不会再收到）。
 
 
 ### 素材对比[](#su-cai-dui-bi)
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly2hXtTGw6zsdRYPJiv%2F-Ly3Ax42J_8NN7iZAIqh%2F%E7%B4%A0%E6%9D%90%E5%AF%B9%E6%AF%94%E6%95%B0%E6%8D%AE.png?alt=media&token=8211db5e-acab-44cd-b51c-2a1180dfc1d3)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly2hXtTGw6zsdRYPJiv-Ly3Ax42J_8NN7iZAIqh%E7%B4%A0%E6%9D%90%E5%AF%B9%E6%AF%94%E6%95%B0%E6%8D%AE.png)
 
 如果不设置转化目标，默认给出两组实验的点击数据，展示数据，方便的进行对比。
 
@@ -98,11 +98,11 @@ A/B弹窗编辑上线后，该组弹窗将会出现在弹窗列表的 「**实�
 
 支持对实验进行迭代，比如经过初步对比，发现实验A组的数据较好，但还没有达到理想的转化效果，此时可以修改实验，通过更改实验 B 的素材，继续进行对比，修改后上线，将会自动成为 实验版本2（实验版本1的数据也将保留），实验B的标示变为B2。
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly2hXtTGw6zsdRYPJiv%2F-Ly3BS-DarKmrOfGXSAz%2F%E8%BF%AD%E4%BB%A3%E6%95%B0%E6%8D%AE.png?alt=media&token=5c7b593f-ba41-4ec3-b4d7-4ae65276ffe5)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly2hXtTGw6zsdRYPJiv-Ly3BS-DarKmrOfGXSAz%E8%BF%AD%E4%BB%A3%E6%95%B0%E6%8D%AE.png)
 
 
 ### 在其他分析工具中的使用[](#zai-qi-ta-fen-xi-gong-ju-zhong-de-shi-yong)
 
 我们会在实验弹窗的名称后加上实验版本，如「新人大礼包**-实验组A1**」、「新人大礼包**-实验组B1**」，如果您需要在其他分析工具中使用，请在输入弹窗名称时，加上实验的版本号。如下图所示：
 
-![](https://gblobscdn.gitbook.com/assets%2F-Lpwgem-x8KzhBglybzw%2F-Ly3GjgSisrHvDPoQcX2%2F-Ly3LOKuOB3ZVZkcdRxQ%2Fab%E6%BC%8F%E6%96%97%E5%BA%94%E7%94%A8.png?alt=media&token=2433dcfd-a9f6-46f4-ab53-232d4aaf0ffd)
+![](/img/assets-Lpwgem-x8KzhBglybzw-Ly3GjgSisrHvDPoQcX2-Ly3LOKuOB3ZVZkcdRxQab%E6%BC%8F%E6%96%97%E5%BA%94%E7%94%A8.png)

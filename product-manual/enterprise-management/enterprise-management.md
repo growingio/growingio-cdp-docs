@@ -31,10 +31,10 @@ sidebar_position: 1
 
 进入方式1：首页 -> 企业管理后台。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLWesdv1UaNvVn-GuQ%2F-MkLYtIj3Oqc7f_97Od1%2Fimage.png?alt=media&token=dff4f32e-404e-4257-8774-537ba7d6bc9f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkLWesdv1UaNvVn-GuQ-MkLYtIj3Oqc7f_97Od1image.png)
 
 权限说明：企业管理后台的权限受到**_企业角色_**控制。 外部成员无法访问企业管理后台 。
 
 进入方式2：顶部导航右侧的九点图标，点击后可看到企业管理后台的入口。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLr5t0EBMw_9hk2NvL%2F-MkLrodZbhc8StClzKB2%2Fimage.png?alt=media&token=0a5d624f-f756-489d-b117-f1cfdbb628ce)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkLr5t0EBMw_9hk2NvL-MkLrodZbhc8StClzKB2image.png)

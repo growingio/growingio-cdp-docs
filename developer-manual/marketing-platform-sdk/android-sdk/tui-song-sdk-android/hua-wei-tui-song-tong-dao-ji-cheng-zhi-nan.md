@@ -115,14 +115,14 @@ android {
 
 ## 配置服务端AppID和AppSecret[](#6-pei-zhi-fu-wu-duan-appid-he-appsecret)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDJ3NXCRBiU5iOQXSFh%2Fimage.png?alt=media&token=4af9164c-9e97-4263-93ea-640f6acb9b40)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDJ-ZKn0jRNemBrFmfQ-MDJ3NXCRBiU5iOQXSFhimage.png)
 
 
 ## 设置推送消息回执[](#7-she-zhi-tui-song-xiao-xi-hui-zhi)
 
 在华为推送APP编辑界面配置回执，以便于我们GrowingIO更好的统计推送数据
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDJ3pq_ZBi2i1sLInQA%2Fimage.png?alt=media&token=0657ab2d-ec99-4e4b-a1ef-55a88c37afd3)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDJ-ZKn0jRNemBrFmfQ-MDJ3pq_ZBi2i1sLInQAimage.png)
 
 目前单击【测试回执】，会提示“https，error"，请忽略并直接单击【提交】。
 
