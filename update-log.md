@@ -1,3 +1,8 @@
+---
+id: update-log
+sidebar_position: 5
+---
+
 # 更新日志
 
 ## v2.3：2021 年 12 月 23 日发布

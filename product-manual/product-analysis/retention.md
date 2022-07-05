@@ -27,13 +27,13 @@ sidebar_position: 8
 
 一、在顶部导航栏选择“**分析 > 产品分析 > 留存分析**"，进入留存分析看板。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eHOvwJqiGSbT-4TFf%2F-M3eHfOJ3kYLOsLyLzgS%2Fimage.png?alt=media&token=2b004d7a-8778-4898-820e-09857980c137)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3eHOvwJqiGSbT-4TFf-M3eHfOJ3kYLOsLyLzgSimage.png)
 
 留存分析看板
 
 二、单击左侧列表上方"**新建分析 > 留存分析"**或单击事件分析看板中“**+”**，进入**创建留存分析**页面。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3eHodoqUhqtLkonYT_%2F-M3eKOzaPi3YntpSs9kQ%2Fimage.png?alt=media&token=e86946f1-9c64-4e1a-946d-d6b9b0b34b49)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3eHodoqUhqtLkonYT_-M3eKOzaPi3YntpSs9kQimage.png)
 
 创建留存分析页面
 
@@ -61,11 +61,11 @@ sidebar_position: 8
 
 下面，我们把留存表分成 "汇总行"和"日期行"：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3egu9H4doH8J97LS5t%2F-M3ejqmlYkA0dvyUi4pP%2Fimage.png?alt=media&token=43556ab5-f730-4bbc-9742-7505d6134aed)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3egu9H4doH8J97LS5t-M3ejqmlYkA0dvyUi4pPimage.png)
 
 "汇总行"的数据是依据 "日期行"的数据来计算的。下面具体解读一下：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3egu9H4doH8J97LS5t%2F-M3ejopcuXbhd_g3os_i%2Fimage.png?alt=media&token=9e0dd276-bbc9-43e6-b23d-dbb5c695ad63)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3egu9H4doH8J97LS5t-M3ejopcuXbhd_g3os_iimage.png)
 
 **5722：**这个是日期行的 "用户量"一列，代表的是 9 月 18 日，"目标用户"中完成"起始行为"的用户量，这是后续用户留存的基数。图中给出的 "日颗粒度"，如果是周颗粒度，那么这个单元格中的用户量是当前自然周的获取的用户去重得到的独立用户量。
 
@@ -75,7 +75,7 @@ Tips 给出了统计口径；5722 个满足起始行为的用户，有 1537 个�
 
 26.9% = 1537（人）/5722（人）
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3egu9H4doH8J97LS5t%2F-M3ejjkK65pWeXznenvl%2Fimage.png?alt=media&token=2ff6ae99-0b65-4c79-82a5-373d8408d900)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3egu9H4doH8J97LS5t-M3ejjkK65pWeXznenvlimage.png)
 
 **117012：**这个是汇总行 "用户量"列。是日期行每一行的 "用户量"数据直接算数相加得到的，没有做去重。**需要特别注意，这个数据不是在选定的时间范围内的实际用户量，因为这个数据没有去重。**
 
@@ -87,9 +87,9 @@ Tips 给出了统计口径；5722 个满足起始行为的用户，有 1537 个�
 
 为了更好地理解计算口径，下面是一个示例：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3egu9H4doH8J97LS5t%2F-M3ejduDmlZ68GyaPc67%2Fimage.png?alt=media&token=7c616eaf-b59c-4dbc-8a44-d1d8e990412b)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3egu9H4doH8J97LS5t-M3ejduDmlZ68GyaPc67image.png)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDIN0ScxdJLg7ZtVis_%2F-MDIxqY-zVvQXhL8GhvR%2Fimage.png?alt=media&token=bfead6ca-d0d7-4d0e-acf0-d359acc048a8)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDIN0ScxdJLg7ZtVis_-MDIxqY-zVvQXhL8GhvRimage.png)
 
 点击留存详情可以下载除了汇总行之外的用户ID，例如您可以下载未留存的用户进行召回。
 
@@ -106,7 +106,7 @@ Tips 给出了统计口径；5722 个满足起始行为的用户，有 1537 个�
 
 用户留存视图给出的是一段时间内获取的用户后续留存情况；
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3egu9H4doH8J97LS5t%2F-M3ekc0sUDHOSJSYndQ0%2Fimage.png?alt=media&token=0e8261f1-d594-4964-ba0b-785a8ec7cf38)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3egu9H4doH8J97LS5t-M3ekc0sUDHOSJSYndQ0image.png)
 
 日留存
 
@@ -130,7 +130,7 @@ Tips 给出了统计口径；5722 个满足起始行为的用户，有 1537 个�
 
 **例：**下图为在选择了周期为过去 14 天，显示粒度为日留存下的留存率具形式展现。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3egu9H4doH8J97LS5t%2F-M3el29lXgXgZp-qcpc-%2Fimage.png?alt=media&token=b48f85bc-949b-4d0e-9abd-7c40633a9385)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3egu9H4doH8J97LS5t-M3el29lXgXgZp-qcpc-image.png)
 
 日/周/月颗粒度下，我们提供如下的留存率趋势：
 
@@ -142,15 +142,15 @@ Tips 给出了统计口径；5722 个满足起始行为的用户，有 1537 个�
 
 * 以 "日留存"颗粒度为例，留存图中的横坐标和留存率趋势曲线和留存表的对应关系如下图。
     
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3egu9H4doH8J97LS5t%2F-M3elJeKTbdeTwPu1kqP%2Fimage.png?alt=media&token=9d3286ba-f729-4f41-9b9c-8c8b50a544c6)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3egu9H4doH8J97LS5t-M3elJeKTbdeTwPu1kqPimage.png)
 
 * 以“周留存”颗粒度为例，过去90天的留存率变化趋势图，不同颜色代表不同的不同的阶段留存率。
     
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3egu9H4doH8J97LS5t%2F-M3elNKMzoDnlH_ykmHD%2Fimage.png?alt=media&token=17875991-1fd5-4c23-b108-6358ed5f3b18)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3egu9H4doH8J97LS5t-M3elNKMzoDnlH_ykmHDimage.png)
 
 新增的「留存率」视图下留存表与在「用户留存」下的留存表(除去表中的第一行“全部访问用户”的数据)对应关系如下：
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-M3egu9H4doH8J97LS5t%2F-M3elSTA3EWzlVaA3YjC%2Fimage.png?alt=media&token=0daaf461-4a1d-4368-b6d0-6c8bad85da8f)
+![](/img/assets-M2qbZInaXgdm8kkNosp-M3egu9H4doH8J97LS5t-M3elSTA3EWzlVaA3YjCimage.png)
 
 同样地，您可以根据具体业务需求灵活的切换时间与显示粒度。
 

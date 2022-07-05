@@ -24,7 +24,7 @@ OPPO推送通道是由OPPO官方提供的系统级推送通道。在OPPO手机�
 
 请按照下图配置channel。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDOstQ5KW-vC7NDb_PF%2Fimage.png?alt=media&token=34c20efd-6808-4543-ab22-09a1cc459cdd)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDJ-ZKn0jRNemBrFmfQ-MDOstQ5KW-vC7NDb_PFimage.png)
 
 channel的内容如下：请不要随意改动
 
@@ -40,7 +40,7 @@ channel的内容如下：请不要随意改动
 
 消息用途:标准推送消息
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDOszz7UvPYwN3YVLih%2Fimage.png?alt=media&token=016b6c04-fee7-4457-8b85-2e8d929e014c)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDJ-ZKn0jRNemBrFmfQ-MDOszz7UvPYwN3YVLihimage.png)
 
 
 ## 在app build.gradle添加OPPO通道SDK依赖[](#3-zai-app-buildgradle-tian-jia-oppo-tong-dao-sdk-yi-lai)
@@ -108,11 +108,11 @@ android {
 
 ## 配置服务端AppID和**MasterSecrect**[](#6-pei-zhi-fu-wu-duan-appid-he-mastersecrect)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDOt5fezNSkiVA9PFdK%2Fimage.png?alt=media&token=fb53c5f2-9218-4d46-8c79-62983588e6a9)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDJ-ZKn0jRNemBrFmfQ-MDOt5fezNSkiVA9PFdKimage.png)
 
 MasterSecret在这里找
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MDJ-ZKn0jRNemBrFmfQ%2F-MDOtAizXzFcXmrbAO0G%2Fimage.png?alt=media&token=7ac249f1-4f33-4197-8357-af669aa3b07c)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MDJ-ZKn0jRNemBrFmfQ-MDOtAizXzFcXmrbAO0Gimage.png)
 
 
 ## 厂商通道测试方法(通用)[](#7-chang-shang-tong-dao-ce-shi-fang-fa-tong-yong)

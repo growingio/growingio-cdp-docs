@@ -9,12 +9,12 @@ sidebar_position: 4
 
 项目中的角色将决定成员在该项目中的功能权限，即该成员可否使用某项功能。GrowingIO 在项目中有预置的 **系统角色**，也支持 **项目自定义角色。**
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGup2HRvCkUoNg6mvi%2F-MkGwfS8dCLckvYt5g0V%2Fimage.png?alt=media&token=323a9ba6-1db3-458c-b686-4f401188548d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGup2HRvCkUoNg6mvi-MkGwfS8dCLckvYt5g0Vimage.png)
 
 
 ## 功能边界或约束[](#gong-neng-bian-jie-huo-yue-shu)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGup2HRvCkUoNg6mvi%2F-MkGwEIq_lpIVkDDvzTB%2Fimage.png?alt=media&token=35f62d13-3364-4b4c-9419-f781bda1c497)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGup2HRvCkUoNg6mvi-MkGwEIq_lpIVkDDvzTBimage.png)
 
 GrowingIO 在项目中，帮助用户预置了 5 个系统角色：項目 _**负责人、管理员、分析师、运营人员**_**、**_**普通成员**_。系統预置角色不支持编辑角色信息、修改角色权限、删除角色等操作。
 
@@ -69,7 +69,7 @@ GrowingIO 在项目中，帮助用户预置了 5 个系统角色：項目 _**负
 
 可查看角色有哪些功能权限，以及有哪些成员属于这个角色
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGup2HRvCkUoNg6mvi%2F-MkGx5oyVXfKly5BJxv6%2Fimage.png?alt=media&token=2b262338-57ba-4407-a912-5d4d281e31bd)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGup2HRvCkUoNg6mvi-MkGx5oyVXfKly5BJxv6image.png)
 
 
 ### 新建角色[](#xin-jian-jiao-se)
@@ -78,7 +78,7 @@ GrowingIO 在项目中，帮助用户预置了 5 个系统角色：項目 _**负
 
 操作流程：点击右上角新建角色 > 填写角色信息 > 点击确定 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGup2HRvCkUoNg6mvi%2F-MkGxPx5H6sZye4SMyXa%2Fimage.png?alt=media&token=450dd1be-b1c2-46a9-8746-8b3482cc0b1d)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGup2HRvCkUoNg6mvi-MkGxPx5H6sZye4SMyXaimage.png)
 
 新建完成后，会附于新角色初始化的权限配置 ， 可点击 编辑角色权限进行调整。
 
@@ -91,7 +91,7 @@ GrowingIO 在项目中，帮助用户预置了 5 个系统角色：項目 _**负
 
 操作流程： 点击 添加成员 > 选择项目中的成员 > 确定 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGup2HRvCkUoNg6mvi%2F-MkGxXy9ExNtInoXI03L%2Fimage.png?alt=media&token=95a869f2-a206-46d4-aee2-2c3ec1ae8045)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGup2HRvCkUoNg6mvi-MkGxXy9ExNtInoXI03Limage.png)
 
 > 权限控制： 仅“项目负责人”和“项目管理员” 拥有添加成员权限。
 
@@ -102,7 +102,7 @@ GrowingIO 在项目中，帮助用户预置了 5 个系统角色：項目 _**负
 
 操作流程： 点击 编辑角色权限 >  进入权限编辑状态 > 点击保存。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGup2HRvCkUoNg6mvi%2F-MkGxfPXSskKo-S06D-K%2Fimage.png?alt=media&token=bf69bd0e-3d5f-4d58-a9d9-3b4ddbe53584)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGup2HRvCkUoNg6mvi-MkGxfPXSskKo-S06D-Kimage.png)
 
 功能权限的设置 ： 可对一个功能项，选择 所有权限 / 只读 / 无权限 。
 
@@ -119,7 +119,7 @@ GrowingIO 在项目中，帮助用户预置了 5 个系统角色：項目 _**负
 
 操作流程： 点击 删除角色按钮 > 点击确定。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGup2HRvCkUoNg6mvi%2F-MkGxs2lAOxDzSY6qnXY%2Fimage.png?alt=media&token=925e7d53-5da4-491e-8783-4f16c1dc464e)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGup2HRvCkUoNg6mvi-MkGxs2lAOxDzSY6qnXYimage.png)
 
 > 权限控制： 仅“项目负责人”和“项目管理员” 拥有删除角色权限。
 

@@ -11,14 +11,14 @@ sidebar_position: 1
 
 为企业提供一个 **_统一的、持久的、可共享_** 的客户数据库，解决全渠道、多触点、多业务系统、线上线下的复杂业务中所面临的数据孤岛问题 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MO9oITduOQ74fjZhcDV%2F-MO9qP1XskePqjHhXn_B%2Fc5ae59cc-ec1b-4e0e-9288-44454ebc1373.png?alt=media&token=142f716e-eee7-4a26-8a37-a6174aebab54)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MO9oITduOQ74fjZhcDV-MO9qP1XskePqjHhXn_Bc5ae59cc-ec1b-4e0e-9288-44454ebc1373.png)
 
 
 ## 功能说明
 
 进入方式：首页 -> 客户数据平台
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkLtXCbxpbW7m7pjxlk%2F-MkLtcIojUz9ZPUptWgE%2Fimage.png?alt=media&token=113b3cf5-13f8-4e6c-bdc1-71a853026122)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkLtXCbxpbW7m7pjxlk-MkLtcIojUz9ZPUptWgEimage.png)
 
 权限说明：客户数据平台的权限受到企业角色控制。
 

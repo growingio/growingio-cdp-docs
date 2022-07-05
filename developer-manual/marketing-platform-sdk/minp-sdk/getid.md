@@ -7,6 +7,6 @@ sidebar_position: 3
 
 开发者在控制台中输入 `gioGlobal.__growing__.growingio.info.uid` 例:
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MC5GXUyiCxDz5wBvgkc%2F-MC5GfcGpyQhmOg71WoJ%2Fimage.png?alt=media&token=707640e3-ea20-4760-be52-c74d30ea772b)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MC5GXUyiCxDz5wBvgkc-MC5GfcGpyQhmOg71WoJimage.png)
 
 复制其中的**d50cfa32-6a69-46c7-9a82-618bd5b0cd91**(不要带引号和空格)保存到设备访问用户ID

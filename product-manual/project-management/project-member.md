@@ -16,7 +16,7 @@ sidebar_position: 3
 
 ## 功能说明[](#gong-neng-shuo-ming)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGt2ZMYX5u3wKvOeja%2F-MkGtPls5AviqjgP6tLl%2Fimage.png?alt=media&token=92652f3e-aecc-4f01-ab8c-e59518b1b6b6)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGt2ZMYX5u3wKvOeja-MkGtPls5AviqjgP6tLlimage.png)
 
 | 操作  | 作用  |
 | --- | --- |
@@ -27,7 +27,7 @@ sidebar_position: 3
 
 ### 成员详情[](#cheng-yuan-xiang-qing)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGt2ZMYX5u3wKvOeja%2F-MkGtrIC6bjVCqScV6zn%2Fimage.png?alt=media&token=a978a3ff-eddb-47ad-ad66-98e82de9e3fd)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGt2ZMYX5u3wKvOeja-MkGtrIC6bjVCqScV6znimage.png)
 
 > 权限控制： 仅“项目负责人”和“项目管理员” 拥有项目成员管理的权限
 
@@ -38,7 +38,7 @@ sidebar_position: 3
 
 操作流程 ：点击修改项目角色 > 选择角色 > 点击确定 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGt2ZMYX5u3wKvOeja%2F-MkGuIqjzLRCrVBS42IQ%2Fimage.png?alt=media&token=dde3d4e9-fc4c-4c89-b561-a4b4a17db833)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGt2ZMYX5u3wKvOeja-MkGuIqjzLRCrVBS42IQimage.png)
 
 > 权限控制： 仅“项目负责人”和“项目管理员” 拥有项目成员管理的权限
 
@@ -49,6 +49,6 @@ sidebar_position: 3
 
 操作流程 ：点击移除成员 > 点击确定 。
 
-![](https://gblobscdn.gitbook.com/assets%2F-M2qbZInaXgdm8kkNosp%2F-MkGt2ZMYX5u3wKvOeja%2F-MkGufp7yyefHOZnz52G%2Fimage.png?alt=media&token=aca5a451-9302-4375-b3ca-e7b191110fab)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MkGt2ZMYX5u3wKvOeja-MkGufp7yyefHOZnz52Gimage.png)
 
 > 权限控制： 仅“项目负责人”和“项目管理员” 拥有项目成员管理的权限
