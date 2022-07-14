@@ -572,7 +572,7 @@ GrowingIO 增长平台团队
 ## v2020.11.2：2020 年 11 月 6 日发布[](#v-2020-11-2-2020-nian-11-yue-6-ri-fa-bu)
 
 - 新功能:
-  - 运营平台：[流程画布发布](product-manual/marketing-platform/process/create-process)​
+  - 运营平台：流程画布发布
   - 运营平台：Webhook 支持实时触发
   - 水晶球：用户列表支持自定义展示信息和下载功能
   - 数据平台：[用户属性支持分类管理](product-manual/customer-data-platform/user-management/user-properties/category-management)​
