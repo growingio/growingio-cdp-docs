@@ -230,6 +230,13 @@ FTP 方式，导入失败状态
 | $utm_campaign       | String  | 广告名称           |
 | $utm_term           | String  | 广告关键字         |
 | $utm_content        | String  | 广告内容           |
+| $utm_source_session         | String  | 会话级广告来源           |
+| $utm_medium_session         | String  | 会话级广告媒介           |
+| $utm_campaign_session       | String  | 会话级广告名称           |
+| $utm_term_session           | String  | 会话级广告关键字         |
+| $utm_content_session        | String  | 会话级广告内容           |
+| $traffic_source        | String  | 流量来源           |
+| $traffic_source_session        | String  | 会话级流量来源           |
 | $ads_id             | String  | 广告 id            |
 | $key_word           | String  | 搜索词             |
 | $country_code       | String  | 国家代码           |
@@ -262,12 +269,14 @@ FTP 方式，导入失败状态
 | $index              | String  | 元素位置           |
 | $xpath              | String  | 元素路径           |
 | $hyperlink          | String  | 元素链接           |
+| $duration          | UInt32  | 时长（秒）。page事件上是页面停留时长，visit事件上是访问时长           |
+| $page_count          | UInt32  | 访问深度，即一次访问的页面浏览量           |
 
 ### 预置用户属性
 
 ​[详见预置用户属性](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
 
-特殊用户属性说明
+预置用户属性中，部分属性的字段格式有要求，见如下说明：
 
 | 用户属性       | 标识符                     | 说明                                              |
 | -------------- | -------------------------- | ------------------------------------------------- |
