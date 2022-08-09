@@ -46,7 +46,7 @@ sidebar_position: 1
 
 2. 单击右侧列表上方"**新建事件分析"，**进入**创建事件分析**页面。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MVUvFebeCRXtj1pYDKy-MVUy5GXFWBNfy98ijw1%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%906.png)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MVUvFebeCRXtj1pYDKy-MVUy5GXFWBNfy98ijw1.png)
 
 您可以按照如下步骤创建事件分析：
 
@@ -126,14 +126,14 @@ GrowingIO 提供了丰富的事件度量方式，以「购买事件」为例，�
 - 默认区间：根据系统内置的统计模型对数值型数据做分组。
 - 自定义区间：自定义设置数据的分组规则。
 
-![picture 3](/img/05351768dbb7c383a7ecc402b22ac9612ce122cce72c6f85ed1ec463269d72ad_pic_1660031243737_2022-08-09.png)  
+![picture 3](/img/05351768dbb7c383a7ecc402b22ac9612ce122cce72c6f85ed1ec463269d72ad_pic_1660031243737_2022-08-09.png)
 
 2、将属性=时长(分钟)的属性拆解方式设置为“默认区间”，可以看到离散的数据分为了三个区间展示，可以切换图表的展示类型来洞察数据。
 
-![picture 4](/img/4c8bd50b0dcc8b0f25e7a163730bc11904a075bbbcc53a00461e36862bdaa417_pic_1660031270932_2022-08-09.png)  
+![picture 4](/img/4c8bd50b0dcc8b0f25e7a163730bc11904a075bbbcc53a00461e36862bdaa417_pic_1660031270932_2022-08-09.png)
 
-![picture 5](/img/75f889944400e13db8ff5dbc045a274fdca26a7fc15394b49d484798cd038a5a_pic_1660031295163_2022-08-09.png)  
+![picture 5](/img/75f889944400e13db8ff5dbc045a274fdca26a7fc15394b49d484798cd038a5a_pic_1660031295163_2022-08-09.png)
 
 3、如果默认区间不符合业务需要的区间规则，我们可以将属性拆解方式设置为“自定义区间”，输入自定义的区间：
 
-![picture 6](/img/c5b628648a19947eba99f3a608645bdd7b7143a51dd5144934a317dc003b1671_pic_1660031325278_2022-08-09.png)  
+![picture 6](/img/c5b628648a19947eba99f3a608645bdd7b7143a51dd5144934a317dc003b1671_pic_1660031325278_2022-08-09.png)
