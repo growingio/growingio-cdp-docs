@@ -102,8 +102,6 @@ GrowingIO 提供了丰富的事件度量方式，以「购买事件」为例，�
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MRIBSOg7zZUAI-vNVFG-MRICz6T5KcQR_ykBNm8image.png)
 
-###
-
 #### 指标重命名[](#zhi-biao-zhong-ming-ming)
 
 您可以对指标进行别名，别名会展示到对应的图上。
@@ -116,4 +114,26 @@ GrowingIO 提供了丰富的事件度量方式，以「购买事件」为例，�
 
 如果您想分析的多个指标比较相像，只有过滤条件的值不同，您可以通过复制指标的功能，生成一个新指标，进而对新指标进行修改：
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MVQS7IVyKfjz8SOnFBh-MVQj4W4JwE3J7Bu8CWr%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%903.png)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MVQS7IVyKfjz8SOnFBh-MVQj4W4JwE3J7Bu8CWr.png)
+
+### 数值型属性区间分组
+
+在事件分析中，针对数值型数据做属性拆解时，可以按照自动规则的区间，或者自定义区间查看数值型属性的下钻数据。
+
+1、针对数值型事件属性、虚拟属性、用户属性，用户标签，做属性拆解时，可以选择属性拆解的方式：
+
+- 离散数字（没有区间）：不对数据做分组，默认按照这个规则做数据统计和图表展示。
+- 默认区间：根据系统内置的统计模型对数值型数据做分组。
+- 自定义区间：自定义设置数据的分组规则。
+
+![picture 3](/img/05351768dbb7c383a7ecc402b22ac9612ce122cce72c6f85ed1ec463269d72ad_pic_1660031243737_2022-08-09.png)  
+
+2、将属性=时长(分钟)的属性拆解方式设置为“默认区间”，可以看到离散的数据分为了三个区间展示，可以切换图表的展示类型来洞察数据。
+
+![picture 4](/img/4c8bd50b0dcc8b0f25e7a163730bc11904a075bbbcc53a00461e36862bdaa417_pic_1660031270932_2022-08-09.png)  
+
+![picture 5](/img/75f889944400e13db8ff5dbc045a274fdca26a7fc15394b49d484798cd038a5a_pic_1660031295163_2022-08-09.png)  
+
+3、如果默认区间不符合业务需要的区间规则，我们可以将属性拆解方式设置为“自定义区间”，输入自定义的区间：
+
+![picture 6](/img/c5b628648a19947eba99f3a608645bdd7b7143a51dd5144934a317dc003b1671_pic_1660031325278_2022-08-09.png)  

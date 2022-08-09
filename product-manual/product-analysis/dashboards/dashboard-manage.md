@@ -17,13 +17,27 @@ sidebar_position: 3
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLnv8IWO-QWBy6urUOimage.png)
 
-### 搜索看板[](#sou-suo-kan-ban)
+### 搜索看板
 
-根据看板名称的关键词，帮助你快速找到看板。
+根据看板和单图名称的关键词，帮助你快速找到看板。
 
-操作流程：点击搜索框 > 输入看板名称。
+#### 操作流程
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLo9h59woXvN5GUiqfimage.png)
+1、点击看板订阅页面的搜索框，输入看板名称或者看板包含的单图名称。
+
+:::info 备注
+
+- 看板名称搜索支持模糊搜索：中文关键字、拼音搜索。
+- 看板单图搜索支持模糊搜索：中文关键字。
+- 暂不支持对第三方看板（如 Metabase）里的单图进行搜索。
+
+:::
+
+![picture 1](/img/5f119c42775f5c211caa9e4737f09a44773aa610fde01ab8acffd1c5bceff3c1_pic_1660030861892_2022-08-09.png)
+
+2、点击看板管理页面的搜索框，输入看板名称。支持对看板名称模糊搜索：中文关键字、拼音搜索。
+
+![picture 2](/img/8082ea696f058b7e1f854d1c810492607bd30dc45fc7621c56a65193edaaa508_pic_1660030896738_2022-08-09.png)
 
 ### 进入看板详情[](#jin-ru-kan-ban-xiang-qing)
 
@@ -38,7 +52,7 @@ sidebar_position: 3
 操作流程：点击下拉框 > 选中分类。
 
 1. 看板分类筛选：所有看板、协作看板、我的看板 三类。
-    
+
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLoMuxReNHbVv7exZoimage.png)
 
 2. 筛选协作者：通过协作者筛选，可以帮助管理者确定一位成员可见的看板范围。
