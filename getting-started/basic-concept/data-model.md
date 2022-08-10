@@ -453,14 +453,14 @@ where gio_id = 35103
 |--------|---------------|-------------------------|
 | item_id  | String  | 商品ID |
 | account_id  | String  | 租户ID，由系统提供 |
-| itm_prod_size  | String  | 商品尺寸 |
-| itm_prod_level_2  | String  | 商品一级分类 |
-| itm_prod_level_1  | String  | 商品二级分类 |
 | itm_prod_name  | String  | 商品名称 |
+| itm_prod_level_1  | String  | 商品一级分类 |
+| itm_prod_level_2  | String  | 商品二级分类 |
+| itm_prod_size  | String  | 商品尺寸 |
 
 ## 元数据表：
 
-定义事件、用户属性、用户标签、维度表等的元数据表，可在clickhouse的meta库中实时查询。
+定义事件、用户属性、用户标签、维度表等的元数据表，可在clickhouse的meta库中查询。
 
 ### 埋点事件表（custom_events）：
 
@@ -525,7 +525,7 @@ where gio_id = 35103
 | key  | String  | 标识符 |
 | name  | String  | 名称 |
 | description  | String  | 描述 |
-| value_type  | Int32  | 属性类型。如string、double |
+| value_type  | String  | 属性类型。如string、double |
 | is_system  | UInt8  | 是否预置。0否 1是 |
 
 ### 用户标签表（user_tags）：
@@ -535,7 +535,7 @@ where gio_id = 35103
 | key  | String  | 标识符 |
 | name  | String  | 名称 |
 | description  | String  | 描述 |
-| value_type  | Int32  | 标签类型。如string、double |
+| value_type  | String  | 标签类型。如string、double |
 
 ### 用户分群表（user_segments）：
 
