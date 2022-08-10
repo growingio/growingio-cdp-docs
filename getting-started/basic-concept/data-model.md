@@ -457,3 +457,117 @@ where gio_id = 35103
 | itm_prod_level_2  | String  | 商品一级分类 |
 | itm_prod_level_1  | String  | 商品二级分类 |
 | itm_prod_name  | String  | 商品名称 |
+
+## 元数据表：
+
+定义事件、用户属性、用户标签、维度表等的元数据表，可在clickhouse的meta库中实时查询。
+
+### 埋点事件表（custom_events）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| id  | Int32  | 编号 |
+| key  | String  | 标识符 |
+| name  | String  | 名称 |
+| description  | String  | 描述 |
+| is_system  | Int8  | 是否预置。0否 1是 |
+
+### 事件属性表（event_variables）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| id  | Int32  | 编号 |
+| key  | String  | 标识符 |
+| name  | String  | 名称 |
+| description  | String  | 描述 |
+| value_type | String | 属性类型。如string | 
+| is_system  | Int8  | 是否预置。0否 1是 |
+
+### 事件与属性关系表（event_variable_mapping）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| event_id  | Int32  | 事件ID |
+| variable_id  | Int32  | 事件属性ID |
+
+### 维度表（item_models）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| id  | Int32  | 编号 |
+| name  | String  | 名称 |
+| description  | String  | 描述 |
+| is_system  | UInt8  | 是否预置。0否 1是 |
+
+### 维度表字段表（item_variables）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| id  | Int32  | 编号 |
+| key  | String  | 标识符 |
+| name  | String  | 名称 |
+| description  | String  | 描述 |
+| value_type  | Int32  | 字段类型。如string |
+| is_primary_key  | UInt8  | 是否维度表标识符。0否 1是 |
+| is_system  | UInt8  | 是否预置。0否 1是 |
+
+### 事件属性与维度表关系表（event_variable_item_mapping）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| variable_id  | Int32  | 事件属性ID |
+| item_id  | Int32  | 维度表记录ID |
+
+### 用户属性表（user_variables）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| key  | String  | 标识符 |
+| name  | String  | 名称 |
+| description  | String  | 描述 |
+| value_type  | Int32  | 属性类型。如string、double |
+| is_system  | UInt8  | 是否预置。0否 1是 |
+
+### 用户标签表（user_tags）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| key  | String  | 标识符 |
+| name  | String  | 名称 |
+| description  | String  | 描述 |
+| value_type  | Int32  | 标签类型。如string、double |
+
+### 用户分群表（user_segments）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| key  | String  | 标识符 |
+| name  | String  | 名称 |
+| description  | String  | 描述 |
+| project_id  | Int32  | 项目ID |
+
+### 用户身份表（user_identities）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| key  | String  | 标识符，如$basic_userId |
+| name  | String  | 名称，如登录用户ID |
+| description  | String  | 描述 |
+
+### 数据源表（data_sources）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| key  | String  | 标识符 |
+| name  | String  | 名称 |
+| description  | String  | 描述 |
+
+### 爬虫表（crawler_rules）：
+
+| 字段名 | 数据类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| id  | Int32  | 编号 |
+| key  | String  | 标识符，如Baiduspider |
+| name  | String  | 名称，如百度爬虫 |
+| description  | String  | 描述 |
+| is_system  | UInt8  | 是否预置。0否 1是 |
