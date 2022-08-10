@@ -18,9 +18,6 @@ sidebar_position: 9
 
 无权限请找**管理员**开通权限
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MiyEGWYQmJ2OQOT-QK0-Miyn0OWL58fJLU2Qaz8image.png)
-
-元数据管理页面
 
 
 ## 功能说明[](#gong-neng-shuo-ming)
@@ -32,7 +29,7 @@ sidebar_position: 9
 
 ### 元数据批量创建
 
-#### 进入“元数据批量创建”页面[](#jin-ru-yuan-shu-ju-pi-liang-chuang-jian-ye-mian)
+点击“元数据批量创建”按钮，进入创建页面。
 
 ![picture 22](/img/25a83adac359f12a087b3556064195376ae66ff35148ca33fb9d56bc94f8b80a_pic_1660138633979_2022-08-10.png)  
 
