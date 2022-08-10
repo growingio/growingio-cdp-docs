@@ -17,7 +17,9 @@ sidebar_position: 2
 
 ![](/img/用户洞察-用户搜索.png)
 
-**用户搜索** ：支持 用户 ID、设备 ID 等用户身份查询用户( 见客户数据平台 用户身份 配置)；支持 姓名、手机号、邮箱、微信 UnionID、微信 OpenID 等用户属性查询用户。
+**用户搜索** ：支持 用户 ID、设备 ID 等用户身份查询用户( 见客户数据平台 用户身份 配置)；支持 姓名、手机号、邮箱、微信 UnionID、微信 OpenID 等用户属性查询用户，同时也支持字符串类型的用户属性查询用户。
+
+![picture 1](/img/b4b3138b5dbb662d8caa5e60b2b62f9bb896bd334ec01f20cda102e5e4d79895_pic_1660111499521_2022-08-10.png)  
 
 ### 单用户画像详情页[](#dan-yong-hu-hua-xiang-xiang-qing-ye)
 
