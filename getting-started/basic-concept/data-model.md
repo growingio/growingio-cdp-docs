@@ -434,3 +434,26 @@ where gio_id = 35103
 | gio_id | merged_gio_id | merged_time             |
 |--------|---------------|-------------------------|
 | 35103  | 938           | 2021-09-26 05:57:40.595 |
+
+## 维度表( item_view_XXX )：
+
+维度表是拓展分析维度的重要能力，适用于从商品、门店、采购员等角度分析用户行为的场景。每一张维度表，对应一张视图表。
+
+比如，商品维度表，标识符为product，定义的字段如下：
+
+![picture 20](/img/c05c0c42193e218e85485e8ac381b4fa33489fdcf508982ea31a79cc42e3272c_pic_1660121598861_2022-08-10.png)  
+
+该商品维度表的视图表为item_view_product，表结构如下：
+
+![picture 21](/img/4f8d14fdd250431a433348786ab6f2422a8abb338a5324d42b7790b2adcac995_pic_1660121771934_2022-08-10.png)  
+
+该商品维度表的数据字典如下：
+
+| 字段名 | 字段类型 | 含义及实例             |
+|--------|---------------|-------------------------|
+| item_id  | String  | 商品ID |
+| account_id  | String  | 租户ID，由系统提供 |
+| itm_prod_size  | String  | 商品尺寸 |
+| itm_prod_level_2  | String  | 商品一级分类 |
+| itm_prod_level_1  | String  | 商品二级分类 |
+| itm_prod_name  | String  | 商品名称 |
