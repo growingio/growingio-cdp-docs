@@ -46,7 +46,7 @@ sidebar_position: 1
 
 2. 单击右侧列表上方"**新建事件分析"，**进入**创建事件分析**页面。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MVUvFebeCRXtj1pYDKy-MVUy5GXFWBNfy98ijw1%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%906.png)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MVUvFebeCRXtj1pYDKy-MVUy5GXFWBNfy98ijw1.png)
 
 您可以按照如下步骤创建事件分析：
 
@@ -116,4 +116,4 @@ GrowingIO 提供了丰富的事件度量方式，以「购买事件」为例，�
 
 如果您想分析的多个指标比较相像，只有过滤条件的值不同，您可以通过复制指标的功能，生成一个新指标，进而对新指标进行修改：
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MVQS7IVyKfjz8SOnFBh-MVQj4W4JwE3J7Bu8CWr%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%903.png)
+![](/img/assets-M2qbZInaXgdm8kkNosp-MVQS7IVyKfjz8SOnFBh-MVQj4W4JwE3J7Bu8CWr.png)
