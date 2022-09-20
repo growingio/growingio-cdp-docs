@@ -31,7 +31,7 @@ sidebar_position: 1
 
 ## 功能说明[](#gong-neng-shuo-ming)
 
-![](/img/assets-M2qbZInaXgdm8kkNospsyncd08755a073d59bbc64798a93c6115b8867eed487.png)
+![picture 7](/img/32c5dfa5185f5c5f1de65b7b5888170a92363bb456e9f71024c3de8a6ed812f5_pic_1663662312840_2022-09-20.png)  
 
 在预定义指标管理页面可以查看预定义指标名称和指标含义。
 

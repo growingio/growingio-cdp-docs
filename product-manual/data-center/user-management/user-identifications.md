@@ -13,7 +13,7 @@ GrowingIO 使用 gio_id 来对每一个识别的用户进行唯一标识，gio_i
 
 推荐您阅读[用户模型](../../../getting-started/basic-concept/user-model)文档，了解 GrowingIO 如何标记用户。
 
-在 **客户数据平台 > 用户管理 > 用户身份** 中，您可以查看用户身份配置。
+在 **数据中心 > 用户管理 > 用户身份** 中，您可以查看用户身份配置。
 
 ![](/img/用户身份.png)
 

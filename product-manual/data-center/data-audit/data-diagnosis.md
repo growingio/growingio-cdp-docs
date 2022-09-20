@@ -5,8 +5,6 @@ sidebar_position: 2
 
 # 数据质量诊断
 
-<span class="theme-doc-version-badge badge badge--secondary">2.6.0 ~</span>
-
 ## 简介[](#jian-jie)
 
 创建数据诊断单，系统自动运行诊断项目生成数据质量报告，适用于项目初期完成 SDK 集成+埋点事件上报后的数据准确性校验。
