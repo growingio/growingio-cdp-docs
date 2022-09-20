@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## 插件下载[](#cha-jian-xia-zai)
 
-在 “**数据 > 事件 > 无埋点事件**" 中点击 “**新建无埋点事件 > 网页应用**“ 进入Web圈选说明页面。在页面中点击 “[**下载插件**](https://assets.giocdn.com/cdp/extensions/gio-web-collection.zip)“ 下载 - GrowingIO Web Collection。
+在 “**数据管理 > 无埋点事件**" 中点击 “**新建无埋点事件 > 网页应用**“ 进入Web圈选说明页面。在页面中点击 “[**下载插件**](https://assets.giocdn.com/cdp/extensions/gio-web-collection.zip)“ 下载 - GrowingIO Web Collection。
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MPldpkf8xU89_08vp7Q-MPlffZRmYDGBAL9BsQVimage.png)
 

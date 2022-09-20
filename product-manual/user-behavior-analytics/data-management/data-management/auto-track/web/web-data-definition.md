@@ -33,7 +33,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 ## 圈选操作[](#quan-xuan-cao-zuo)
 
-在 ”**数据 > 事件 \> 无埋点事件**” 中点击 “**新建无埋点事件 \> 网页应用”** 进入Web圈选说明页面。
+在 ”**数据管理 \> 无埋点事件**” 中点击 “**新建无埋点事件 \> 网页应用”** 进入Web圈选说明页面。
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MI484dYvqV6H6DigVNO-MI48_XneKih-e0-1RVKimage.png)
 

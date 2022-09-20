@@ -15,7 +15,7 @@ sidebar_position: 2
 
 ## 圈选操作[](#quan-xuan-cao-zuo)
 
-在 ”**数据 > 事件 > 无埋点事件**” 中点击 “**新建无埋点事件 > {App应用}”** 进入App唤醒页面。
+在 ”**数据管理 > 无埋点事件**” 中点击 “**新建无埋点事件 > {App应用}”** 进入App唤醒页面。
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MPmMF-oMi3YNjkQSnay-MPmPb2Rsc4nM3-9OO97image.png)
 

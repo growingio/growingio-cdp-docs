@@ -5,12 +5,12 @@ sidebar_position: 1
 
 # 埋点事件
 
-项目中展示的埋点事件 ，在企业管理后台中项目管理页面授权。
+空间中展示的埋点事件 ，在空间管理页面授权。
 
 
 ## 简介[](#jian-jie)
 
-项目中的数据管理 > 埋点事件页面 ，查看授权给该项目的所有埋点事件。
+空间中的数据管理 > 埋点事件页面 ，查看授权给该空间的所有埋点事件。
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MkH-tgFCUsPmXppToTm-MkH0HthfE61Wgfat-mwimage.png)
 
