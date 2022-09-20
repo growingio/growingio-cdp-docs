@@ -14,7 +14,7 @@ sidebar_position: 2
 
 ### 创建虚拟事件[](#chuang-jian-xu-ni-shi-jian)
 
-一、在 客户数据平台 选择 “**事件管理 > 虚拟事件**" ，进入虚拟事件管理页面。
+一、在 数据中心 选择 “**事件管理 > 虚拟事件**" ，进入虚拟事件管理页面。
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MdGhZcKgFVqs99_pO5G-MdGy1_31o_FicAJo4EYimage.png)
 
