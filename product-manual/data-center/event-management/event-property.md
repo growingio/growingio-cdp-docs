@@ -20,7 +20,7 @@ sidebar_position: 3
 
 ### 创建事件属性[](#chuang-jian-shi-jian-shu-xing)
 
-一、在客户数据平台模块中的“事件管理 > 事件属性”，进入事件属性管理页面。
+一、在数据中心模块中的“事件管理 > 事件属性”，进入事件属性管理页面。
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-M3ENsQm3QGQGowP3MJb-M3ENvF2u7JNkBUnrmS5image.png)
 
