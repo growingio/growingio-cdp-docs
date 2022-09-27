@@ -11,7 +11,7 @@ sidebar_position: 2
 
 ## 功能边界或约束
 
-- 创建相应类型的数据源，使用说明请参考[数据源管理](../../../product-manual/customer-data-platform/data-integration/datasource-manage)​
+- 创建相应类型的数据源，使用说明请参考[数据源管理](../../../product-manual/data-center/data-integration/datasource-manage)​
 
 - 需要有该模块的权限，如无权限请找**管理员**开通
 
@@ -19,7 +19,7 @@ sidebar_position: 2
 
 - 匿名用户行为数据导入，需要严格按照时序导入，这样能确保新户计算逻辑准确
 
-- 用户属性：[详见预置用户属性](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
+- 用户属性：[详见预置用户属性](../../../product-manual/data-center/user-management/user-properties#预置用户属性)​
 
 ## 功能说明
 
@@ -37,7 +37,7 @@ sidebar_position: 2
 
 数据导入类型选择
 
-### 选择数据导入类型，[用户行为数据](../../../product-manual/customer-data-platform/data-integration/data-import#用户行为数据)或[用户属性数据](../../../product-manual/customer-data-platform/data-integration/data-import#用户属性数据)​
+### 选择数据导入类型，[用户行为数据](../../../product-manual/data-center/data-integration/data-import#用户行为数据)或[用户属性数据](../../../product-manual/data-center/data-integration/data-import#用户属性数据)​
 
 #### 用户行为数据
 
@@ -47,7 +47,7 @@ sidebar_position: 2
 
 选择时间范围：数据所覆盖的所有时间，例如需要导入的数据涵盖 2020 年 1 月 1 日~2020 年 4 月 1 日，则选择时间 2020 年 1 月 1 日至 2020 年 4 月 1 日即可。
 
-选择上传方式：[CSV](../../../product-manual/customer-data-platform/data-integration/data-import#用户行为数据csv格式)、[JSON](../../../product-manual/customer-data-platform/data-integration/data-import#用户行为数据json格式)、FTP
+选择上传方式：[CSV](../../../product-manual/data-center/data-integration/data-import#用户行为数据csv格式)、[JSON](../../../product-manual/data-center/data-integration/data-import#用户行为数据json格式)、FTP
 
 #### 用户属性数据
 
@@ -55,11 +55,11 @@ sidebar_position: 2
 
 选择数据源：选择用户属性类型的数据源
 
-选择上传方式：[CSV](../../../product-manual/customer-data-platform/data-integration/data-import#用户属性csv格式)、[JSON](../../../product-manual/customer-data-platform/data-integration/data-import#用户属性json格式)、FTP
+选择上传方式：[CSV](../../../product-manual/data-center/data-integration/data-import#用户属性csv格式)、[JSON](../../../product-manual/data-center/data-integration/data-import#用户属性json格式)、FTP
 
 ### 确定创建任务
 
-### 上传数据，将按照固定[数据格式](../../../product-manual/customer-data-platform/data-integration/data-import#数据导入格式)导入 CDP[](#shang-chuan-shu-ju-jiang-an-zhao-gu-ding-shu-ju-ge-shi-dao-ru-cdp)
+### 上传数据，将按照固定[数据格式](../../../product-manual/data-center/data-integration/data-import#数据导入格式)导入 CDP[](#shang-chuan-shu-ju-jiang-an-zhao-gu-ding-shu-ju-ge-shi-dao-ru-cdp)
 
 选择 CSV 进入页面
 
@@ -73,7 +73,7 @@ sidebar_position: 2
 
 上传 JSON 页面
 
-选择 FTP：提供任务目录地址，将 JSON 文件放入 FTP 目录中，格式参考[数据格式 JSON](../../../product-manual/customer-data-platform/data-integration/data-import#yong-hu-hang-wei-shu-ju-json-ge-shi)。将数据放入指定 FTP 目录，点击“操作”，查看文件上传，勾选注意事项，进行下一步
+选择 FTP：提供任务目录地址，将 JSON 文件放入 FTP 目录中，格式参考[数据格式 JSON](../../../product-manual/data-center/data-integration/data-import#yong-hu-hang-wei-shu-ju-json-ge-shi)。将数据放入指定 FTP 目录，点击“操作”，查看文件上传，勾选注意事项，进行下一步
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MjTvs4LLbAI_eTi1HGa-MjTx3uJcFB36TNkmuekimage.png)
 
@@ -274,7 +274,7 @@ FTP 方式，导入失败状态
 
 ### 预置用户属性
 
-​[详见预置用户属性](../../../product-manual/customer-data-platform/user-management/user-properties#预置用户属性)​
+​[详见预置用户属性](../../../product-manual/data-center/user-management/user-properties#预置用户属性)​
 
 预置用户属性中，部分属性的字段格式有要求，见如下说明：
 

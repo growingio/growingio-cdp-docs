@@ -86,7 +86,7 @@ sidebar_position: 1
     
 * 轮播图的图片类型，这样可以统计不同类型的点击率，常用于流量实验场景
 
-其次，在[事件属性](../../../product-manual/customer-data-platform/event-management/event-property)中，先定义出如上两个属性
+其次，在[事件属性](../../../product-manual/data-center/event-management/event-property)中，先定义出如上两个属性
 
 | 名称  | 标识符 | 类型  |
 | --- | --- | --- |
