@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # 数据看板
 
-登录GrowingIO增长平台后默认进入看板模块，您可以在这里完成日常数据监控工作。
+登录GrowingIO增长分析空间后默认进入看板模块，您可以在这里完成日常数据监控工作。
 
 ## 简介[](#jian-jie)
 
@@ -27,7 +27,7 @@ sidebar_position: 1
 
 看板模块分为两大区域，看板侧栏和看板数据展示区。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-M_TRWOT1EqKuFk_ILEl-M_TSE7dgSMxaYfeOcwk%E7%9C%8B%E6%9D%BF1.png)
+ ![图 22](/img/9de061621c89224c45238a2c36ad240e88e122e6fe3f2b34bc29ac47e2dd0282.png)  
 
 #### 看板侧栏[](#kan-ban-ce-lan)
 
@@ -75,8 +75,8 @@ sidebar_position: 1
 
 操作流程：点击看板名称 > 进入编辑模式 > 输入看板名称 > 点击保存
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLlS7IkFPGTlzwOAeBimage.png)
-
+![图 23](/img/92b6c23543196849865077ce9a2048a1c290ff2de1e8786114c597c06a5df828.png)  
+ 
 权限控制：需要该成员具有看板功能权限，且同时为该看板的**编辑者**。
 
 #### 添加单图[](#tian-jia-dan-tu)
@@ -85,7 +85,8 @@ sidebar_position: 1
 
 操作流程：点击添加单图 > 勾选要添加至此看板的分析图表 > 点击添加。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLlFDG888MrZ46wjoOimage.png)
+![图 19](/img/eacf9ae68432806c6bcd8f89f6390af7eaebc6f9926360f090a443884b5edb4d.png)  
+
 
 权限控制：添加单图时，需要该成员具有看板功能权限，且同时是该看板的**编辑者**。
 
@@ -97,7 +98,8 @@ sidebar_position: 1
 
 #### 移除单图[](#yi-chu-dan-tu)
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLljcb964zyqFhumHbimage.png)
+![图 20](/img/ef79f15c603043c7aea5c368fcf87120ed51872726b56b3c7dc04570c30508de.png)  
+
 
 权限控制：移除单图时，需要该成员具有看板权限，且同时是该看板的**编辑者**。
 
@@ -105,7 +107,8 @@ sidebar_position: 1
 
 通过添加描述，可对看板添加描述说明。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLm3P0ecgxD4UOTMVyimage.png)
+![图 21](/img/6c15d25b60a44619b850b08efbff6c6e392bebce7e1c7623ebee2c3834bc431c.png)  
+
 
 ### 
 
@@ -117,11 +120,12 @@ sidebar_position: 1
 
 操作流程： 点击过滤条件 > 选择过滤范围 > 点击保存 。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLmAIkU80mpnys1y4fimage.png)
+![图 24](/img/3324018337355d9c7306644d73fd355c8f73ff2ad42eae1ab6627ecad112c92d.png)  
+
 
 从看板双击分析图表 ，将会进入分析图表详情，该分析图表会继承看板的过滤条件，点击 **X** 可以移除过滤条件。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLmPcocdpZmQDd0-WQimage.png)
+![图 25](/img/b7f19332c0321ca06c832e66ce38f775187da8bf442c07f576b342e3070bc94f.png)  
 
 最多支持添加 5 个过滤条件。
 
@@ -137,17 +141,20 @@ sidebar_position: 1
 
 操作流程：点击时间范围 > 选择时间范围区间 > 点击确定。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLmZCaGvWdVVtGjPEiimage.png)
+![图 26](/img/3ded5b8bb16ea5a4ed5a6bdd1f281ad1cd8f7c4457fecf2b97d7d8873bca1cc4.png)  
+
 
 GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查看不同时间段的数据。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLmfbwlwofeHCRFae6image.png)
+![图 27](/img/5f82700e493d291e1172604ffb95d3d54eb61f574267ec5e12cd491bf5a648c8.png)  
+
 
 #### 另存看板[](#ling-cun-kan-ban)
 
 操作流程：点击看版右侧 > 选择另存看板 > 输入新看版名称。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLmmWY-V8ceh31J2yiimage.png)
+![图 28](/img/cdd00c3443ee6ed8656c723cd5fe07eff572ca13ef5cd542b190debabb2cfecd.png)  
+
 
 权限控制：另存看板时，需要该成员具有看板权限。
 
@@ -155,7 +162,8 @@ GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查�
 
 操作流程：点击看版右侧 > 选择删除 > 確定删除。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLmsKLjaeQd5yxl0_Kimage.png)
+![图 29](/img/d2b4ad528c8d520830122f7ef90c8151fbe457bb41b6eb98e2a4dab838b2c574.png)  
+
 
 权限控制：只有看板的拥有者可以删除看板。
 
@@ -163,7 +171,8 @@ GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查�
 
 可设置看板共享的成员 ，共享方式分为**阅读者、编辑者**两种，您可以通过灵活的设置，与同事进行数据的协作，使数据在企业内部进行流动，更好地发挥数据的价值。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLn-0RAD-dlG9VmKyXimage.png)
+![图 30](/img/4e0b078fbc4194638d2bae14ce9cc52d3293a3ac262c53a5c93205594824b6da.png)  
+
 
 共享设置可见 ： [看板共享设置](../../../product-manual/user-behavior-analytics/charts/kanban-sharing-settings)​
 
@@ -171,7 +180,8 @@ GrowingIO提供强大且方便的时间选择控件，可以帮助你快速查�
 
 点击看板右上角“...“，选择“进入全屏”，可以进入全屏模式。
 
-![进入全屏](/img/0a056a74f4a17713c27c85f20e9a307cc61f19500c3379f62b6aa34cf02d61ef_pic_1639991936259_2021-12-20.png)  
+![图 31](/img/043f20a009d61a396a59eba817a0478e047123555334bfd50481f85075d84bc2.png)  
+
 
 在全屏模式下，你可以做如下操作：
 

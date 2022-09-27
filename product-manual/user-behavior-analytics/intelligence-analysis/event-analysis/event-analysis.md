@@ -42,7 +42,8 @@ sidebar_position: 1
 
 1. 在左侧导航栏选择“**分析模型 \> 事件分析**"，进入事件分析列表页。
 
-![](/img/assets-M2qbZInaXgdm8kkNospsync288201f445f1d903f96ef411a735647ad071c119.png)
+![图 41](/img/db0792c26aed63838336056d0735079f448138dfaa57a7cf90a1e12ddaf90376.png)  
+
 
 2. 单击右侧列表上方"**新建事件分析"，**进入**创建事件分析**页面。
 
