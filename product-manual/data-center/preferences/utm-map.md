@@ -3,7 +3,7 @@ id: utm-map
 sidebar_position: 1
 ---
 
-# UTM映射
+# UTM 映射
 
 ## 简介[](#jian-jie)
 
@@ -19,13 +19,14 @@ sidebar_position: 1
 
 例如，针对上面的描述的场景，ChannelID, ResourceID, utm_source, utm_channel 几个参数值，都代表一个分析角度，即获客来源，则都可以映射为utm_source, 在分析中统一使用 **广告来源** 维度进行数据维度对比。
 
-:::danger 注意事项
+:::caution 注意事项
 
 - 映射创建后，才开始统计做映射的渠道参数
 - 删除映射后，没有使用UTM 5个参数的投放数据将不再进行统计
 - 严格匹配映射参数，大小写敏感，需要确保填写的映射参数和投放一致
 - 不能使用相同的标识表示不同的UTM参数，即A部门使用ChannelID = A，B部门使用ResourceID = A
 - 当投放链接中多个标识映射同一个UTM参数时，按顺序取最后一个参数进行映射
+
 :::
 
 ## 功能说明[](#gong-neng-shuo-ming)
@@ -104,9 +105,9 @@ GrowingIO 提供的 UTM 参数和自定义参数的方式采用的是目前市�
 
 小程序可监测的UTM参数维度，和网站监测产品是一致的，采用的是目前市面上最常用的定义方式。
 
-### UTM参数映射
+### UTM 参数映射
 
-如果你有自定义的参数没办法进行调整，你可以使用UTM映射功能进行参数映射和配置。请参考[UTM映射管理](../../../product-manual/customer-data-platform/preferences/utm-map)
+如果你有自定义的参数没办法进行调整，你可以使用UTM映射功能进行参数映射和配置。请参考[ UTM 映射管理](../../../product-manual/data-center/preferences/utm-map)
 
 ## 常见问题
 

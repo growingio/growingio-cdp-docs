@@ -6,11 +6,11 @@ sidebar_position: 1
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# 智能分析
+# 增长分析
 
 ## 简介[](#jian-jie)
 
-GrowingIO 智能分析帮助您研究用户的行为，以便您做出更好的产品改进、运营优化等决策。本文针对智能分析的核心概念和通用能力做介绍。
+GrowingIO 增长分析帮助您研究用户的行为，以便您做出更好的产品改进、运营优化等决策。本文针对增长分析的核心概念和通用能力做介绍。
 
 ## 名词解释[](#ming-ci-jie-shi)
 
@@ -20,7 +20,7 @@ GrowingIO 智能分析帮助您研究用户的行为，以便您做出更好的�
 
 ### 属性[](#shu-xing)
 
-属性用于描述用户、事件或维度表的相关信息（详细介绍参见[属性模型](https://growingio.gitbook.io/op/v/14.7/getting-started/basic-concept/property-model)），在智能分析里可应用于定义指标、条件过滤、属性拆解等场景。
+属性用于描述用户、事件或维度表的相关信息（详细介绍参见[属性模型](https://growingio.gitbook.io/op/v/14.7/getting-started/basic-concept/property-model)），在增长分析里可应用于定义指标、条件过滤、属性拆解等场景。
 
 ### 指标[](#zhi-biao)
 

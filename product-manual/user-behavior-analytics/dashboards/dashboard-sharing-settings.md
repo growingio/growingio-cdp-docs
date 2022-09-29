@@ -18,53 +18,53 @@ sidebar_position: 4
 
 ### 看板功能权限设置
 
-设置入口：项目管理--》项目角色--》看板权限
+设置入口：空间管理--》空间角色--》看板权限
 
 - 拥有全部功能权限的角色：
-- 企业角色：拥有者、超级管理员、GIO 技术顾问
-- 项目角色：负责人、管理员
+- 项目角色：拥有者、超级管理员、GIO 技术顾问
+- 空间角色：负责人、管理员
 
-其他企业角色和项目角色拥有的看板功能权限根据设置的范围指定。
+其他项目角色和空间角色拥有的看板功能权限根据设置的范围指定。
 
 ### 看板邮件推送权限设置
 
-设置入口：项目管理--》项目角色--》看板邮件推送
+设置入口：空间管理--》空间角色--》看板邮件推送
 
 - 拥有全部看板邮件推送权限的角色：
-- 企业角色：拥有者、超级管理员、GIO 技术顾问
-- 项目角色：负责人、管理员
+- 项目角色：拥有者、超级管理员、GIO 技术顾问
+- 空间角色：负责人、管理员
 
-其他企业角色和项目角色拥有的看板邮件推送权限根设置的范围指定。
+其他项目角色和空间角色拥有的看板邮件推送权限根设置的范围指定。
 
 ### 看板下载权限设置
 
-设置入口：项目管理--》项目角色--》看板下载
+设置入口：空间管理--》空间角色--》看板下载
 
 - 拥有全部看板下载权限的角色：
-- 企业角色：拥有者、超级管理员、GIO 技术顾问
-- 项目角色：负责人、管理员
+- 项目角色：拥有者、超级管理员、GIO 技术顾问
+- 空间角色：负责人、管理员
 
-其他企业角色和项目角色拥有的看板下载权限根据设置的范围指定。
+其他项目角色和空间角色拥有的看板下载权限根据设置的范围指定。
 
 ### 看板共享权限设置
 
 设置入口：每个看板操作菜单里的共享模式设置。
 
 - 不受共享权限控制的角色，拥有每个看板的查看、编辑和删除权限：
-- 企业角色：拥有者、超级管理员、GIO 技术顾问
-- 项目角色：负责人、管理员
+- 项目角色：拥有者、超级管理员、GIO 技术顾问
+- 空间角色：负责人、管理员
 
-其他企业角色和项目角色拥有的共享权限根据每个看板设定的范围指定。
+其他项目角色和空间角色拥有的共享权限根据每个看板设定的范围指定。
 
 共享模式分为两种：隐私模式、共享模式。
 
 **隐私模式：**隐私状态下，该看板仅对 **看板拥有者** 自己可见。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLpiYv6_FSvVsOx7uYimage.png)
+![图 42](/img/fd099e2222d390dc4cbabdf0316704f538969dd786524ecbbc95587541716ba9.png)  
 
 **共享模式：**可设置该看板的协作成员，并赋予 “阅读者”与“编辑者”的权限。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLpoBizrGGg07DVqACimage.png)
+![图 43](/img/10c58b414018d59a96e192c5fe2694f3a9ddcad09b923f95c46ac5d67b1daa1e.png)  
 
 | 选项   | 作用                                       |
 | ------ | ------------------------------------------ |
@@ -75,15 +75,15 @@ sidebar_position: 4
 
 1. 点击设置共享模式
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLq-Q-Q_NcnhCKZIAFimage.png)
+![图 44](/img/ce42a5334180dd225fca4cc3eabfdbccec19cf5d85e5ebb4e23007ccd835698d.png)  
 
 2. 选择共享模式为 **隐私模式** 或 **共享模式。**
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLq5rpQVtqVFd0vGDAimage.png)
+![图 45](/img/ba9eff1dc38807e3dbc7e4337f9add03c2c074269261360685914fd60e9d390b.png)  
 
 3. 设置共享编辑者、阅读者是哪些成员。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLqFDceQ_2GOd8RZcRimage.png)
+![图 46](/img/5c303e48eaa011081cce1a8bc4cbc01aa7300830359bab7d6bef8dd5a15e396f.png)  
 
 #### 批量共享设置
 
@@ -91,11 +91,12 @@ sidebar_position: 4
 
 2. 点击批量设置
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLqNB8_6R-ZBSjmGQiimage.png)
+![图 47](/img/e08d8d3b4e632900f05659c1556020ecce6d160e29d078927c71768153a93738.png)  
+
 
 3. 设置共享编辑者、阅读者是哪些成员
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLqcJJeC7RvvzYe-MEimage.png)
+![图 48](/img/825bbf286ed0f04db78af34caab955a0d3dba7b4eb23de83b635620dc615e5d2.png)  
 
 新的设置将覆盖所选看板的原有共享设置。
 

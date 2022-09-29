@@ -15,7 +15,7 @@ sidebar_position: 3
 
 操作流程：看板模块 - 位于看板侧栏下方，点击全部看板。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLnv8IWO-QWBy6urUOimage.png)
+![图 33](/img/3bb7e7aab7b1a2b0e434b83a89b010e59bd201bd3127c46459b113b6594c1ca9.png)  
 
 ### 搜索看板
 
@@ -53,21 +53,21 @@ sidebar_position: 3
 
 1. 看板分类筛选：所有看板、协作看板、我的看板 三类。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLoMuxReNHbVv7exZoimage.png)
+![图 34](/img/28be53753ae1047699f3d4fc936be65b166882232d8566ba4afeab8f47c75073.png)  
 
 2. 筛选协作者：通过协作者筛选，可以帮助管理者确定一位成员可见的看板范围。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLoWQHFihWi1JqUqsVimage.png)
+![图 35](/img/79e61f2264a175bb9def83333c322380dbbad0e1805058f07923a8940709e09d.png)  
 
 ### 新建看板[](#xin-jian-kan-ban)
 
 创建一个新的看板，添加分析图表，构建一个新的看数场景。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLob4mCGYSJWYqQzNmimage.png)
+![图 36](/img/1081c31ff157dff8f554632b436025d4189e2eb74a8daf2eac88e4ce26a41176.png)  
 
 操作流程：点击新建看板 > 输入看板名称 > 添加图表
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLohX9ij5KDDAxoQMGimage.png)
+![图 37](/img/5da4d4c3e67448e1ede37478c0f5ad8177385a606936127963cccf2bcd03a766.png)  
 
 权限控制：需要该成员具有看板权限。
 
@@ -75,9 +75,9 @@ sidebar_position: 3
 
 操作流程：勾选看板 > 点击共享设置 > 设置共享模式与成员> 点击保存 。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLpF4llK-C3rkai99simage.png)
+![图 38](/img/06797342bc9018c59d3f931427b900dfa97efe42a96e07204b2174b0fe70d6bc.png)  
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLpQHbHpOlZLAtmGltimage.png)
+![图 39](/img/a98a2e89b10d6ccf040ace73cd1216bd2440e6f8db00402fc07350826c8e33e2.png)  
 
 ### 查看协作者[](#cha-kan-xie-zuo-zhe)
 
@@ -85,4 +85,5 @@ sidebar_position: 3
 
 操作流程：点击头像 > 展开协作者列表。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLpYkTQUY3o8RyvV5_image.png)
+![图 40](/img/b71c30090a83862c9ec7ffe52068f87f09cfd29baf9378d99ee5f107d8c5f08e.png)  
+

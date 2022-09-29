@@ -3,7 +3,7 @@ id: query-frequency-analysis
 sidebar_position: 4
 ---
 
-# 项目-分布分析查询
+# 空间-分布分析查询
 
 ## 接口说明
 
@@ -27,18 +27,18 @@ GET
 
 | 名称      | 类型   | 必填 | 描述        | 示例值   |
 | --------- | ------ | ---- | ----------- | -------- |
-| projectId | String | 是   | 所在项目 ID | WlGk4Daj |
+| projectId | String | 是   | 所在空间 ID | WlGk4Daj |
 | id        | String | 是   | 分析标识符  | zqQR5MDo |
 
 :::tip 小贴士
 
-注：您可以通过浏览器打开已保存的分析详情页，从 URL 中获取到项目 ID 和分析标识符，例如：分析详情页的 URL 为
+注：您可以通过浏览器打开已保存的分析详情页，从 URL 中获取到空间 ID 和分析标识符，例如：分析详情页的 URL 为
 
 ```
 https://xx.xxx.com/projects/nxGK0Da6/analysis/frequency/wWDrYwGM
 ```
 
-其中项目 ID 为“nxGK0Da6“，分析标识符为”wWDrYwGM“
+其中空间 ID 为“nxGK0Da6“，分析标识符为”wWDrYwGM“
 
 :::
 
