@@ -27,20 +27,23 @@ sidebar_position: 1
 
 看板模块分为两大区域，看板侧栏和看板数据展示区。
 
-![](/img/assets-M2qbZInaXgdm8kkNosp-M_TRWOT1EqKuFk_ILEl-M_TSE7dgSMxaYfeOcwk%E7%9C%8B%E6%9D%BF1.png)
+![图 2](/img/9896e4864d792e702750f94908c2e0de5309476053f9e63e84a84e10802f1737.png)  
 
 #### 看板侧栏[](#kan-ban-ce-lan)
 
 看板侧栏包含以下几个部分：
 
-* 订阅看板：展示你所订阅的看板，看板支持订阅， 具体订阅方式请查看 [看板订阅](https://growingio.gitbook.io/op/v/14.7/product-manual/product-analysis/charts/subscribe-to-kanban)。
+* 公共看板：展示公开给所有账号的看板列表。不同账号的可见范围取决于账号自身的图表权限。如果项目没有启用公共看板，则该分类不可见。
+  
+* 个人订阅：展示你所订阅的看板，看板支持订阅， 具体订阅方式请查看 [看板订阅](https://growingio.gitbook.io/op/v/14.7/product-manual/product-analysis/charts/subscribe-to-kanban)。
     
 * 全部看板：点击全部看板，可进入看板管理模块 ，对看板进行更有效率的管理工作。
     
 * 搜索：搜索全部看板
     
 * 创建看板：快速创建看板
-    
+
+  
 #### 看板数据展示区[](#kan-ban-shu-ju-zhan-shi-qu)
 
 看板数据展示区包含以下几个部分：
@@ -107,9 +110,7 @@ sidebar_position: 1
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MkLjERWo8ypo2Y_5Lv9-MkLm3P0ecgxD4UOTMVyimage.png)
 
-### 
-
-过滤条件[](#guo-lv-tiao-jian)
+### 过滤条件[](#guo-lv-tiao-jian)
 
 我们可以通过设置过滤条件，决定数据看板中所有分析图表的数据展示范围 。 如：当我们只想看【**应用平台＝IOS 的访问量**】时，可通过设置 **维度＝IOS** ，进行筛选过滤。
 

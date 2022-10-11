@@ -86,3 +86,10 @@ sidebar_position: 3
 操作流程：点击头像 > 展开协作者列表。
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MkLnBLTy1C-i06gAJ_k-MkLpYkTQUY3o8RyvV5_image.png)
+
+### 设置公共分组
+在看板管理页面，如果是企业拥有者、企业超级管理员、GIO技术顾问、项目负责人、项目管理员，可以看到”设置公共分组“的操作入口。
+![图 3](/img/290ac6842c552658af9ecafb0e7a7ed9cfae694068a8653c2f789f6f01c0be2c.png)  
+在公共分组的操作界面，可以新建、编辑、删除公共分组，添加看板到相应的分组中，并发布给项目全员。发布后，项目全员就可以在自己的看板列表中查看公共分组的看板。
+![图 4](/img/e717d494a375f04ba220dd2b6c18d8e0a7411df931b3d9be673bb2af57cf8082.png)  
+

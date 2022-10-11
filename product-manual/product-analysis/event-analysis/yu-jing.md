@@ -3,7 +3,7 @@ id: yu-jing
 sidebar_position: 2
 ---
 
-# 指标预警 (beta)
+# 指标预警
 
 ## 简介[](#jian-jie)
 
@@ -11,7 +11,7 @@ sidebar_position: 2
 
 ## 功能边界或约束[](#gong-neng-bian-jie-huo-yue-shu)
 
-指标预警仅可在事件分析中使用。
+指标预警仅可在事件分析、KPI分析、漏斗分析中使用。以下以事件分析为例，介绍指标预警的使用方法。
 
 ## 功能说明[](#gong-neng-shuo-ming)
 
