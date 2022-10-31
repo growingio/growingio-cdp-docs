@@ -1,9 +1,9 @@
 ---
 id: analysis-segment-profiles
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# 创建和编辑群体画像
+# 群体画像洞察
 
 ## 创建群体画像
 
