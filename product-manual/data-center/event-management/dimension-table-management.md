@@ -1,6 +1,6 @@
 ---
 id: dimension-table-management
-sidebar_position: 1
+sidebar_position: 6
 ---
 
 # 维度表管理

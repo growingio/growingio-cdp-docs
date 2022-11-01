@@ -1,9 +1,9 @@
 ---
 id: metadata-management
-sidebar_position: 8
+sidebar_position: 10
 ---
 
-# 元数据管理
+# 批量管理
 
 ## 简介[](#jian-jie)
 
