@@ -6,8 +6,13 @@ sidebar_position: 1
 # 项目管理
 
 ## 简介[](#jian-jie)
+项目管理是企业下多业态/业务线，自主管理项目信息、成员、成员角色、空间的管理模块。
 
-![图 12](/img/7e7fcb157933d45d111869e905d1c6c9e04e86ff5ced3d7313043d4449550a62.png)  
+![图 1](/img/0cacde02dfb1ecd4e6b013f3bcbf07e46ce3a832ee2fcd243f09a5d0eb997c78.png)  
+首页进入具体项目管理快捷入口
+![图 2](/img/99047003015af10b0bd6e0bbb31b12d0bf6193ff3a74150309c8f363a17b2325.png)  
+项目管理聚合页面
+
 
 
 ## 功能说明[](#gong-neng-shuo-ming)
@@ -15,31 +20,29 @@ sidebar_position: 1
 | 操作         | 作用                             |
 | ------------ | -------------------------------- |
 | 进入项目     | 点击可进入项目内部               |
-| 编辑信息 | 修改项目名称、项目描述           |
 | 管理成员   | 管理项目成员增删改查 |
 | 管理角色   | 对项目角色进行管理    |
 | 管理空间   | 管理项目下空间信息、数据权限及空间成员   |
 | 分配空间   | 系统管理员分配项目下辖可建空间数量    |
-
+| 更多管理   | 点击更多管理可以进入项目管理概览页面    |
 ### 进入项目[](#qian-wang-xiang-mu)
 
 点击进入项目，可进入项目内部，查看项目下分配的产品信息 。
 
-![图 13](/img/b4bc64d2b0a2a0aba25eb7b2112d2843bab03e79386a09a7612de8d245b79cd5.png)  
+ ![图 3](/img/d881af3f304c15e64a85a3e97e16de3b0f0a0e0b984daff3d79aaaa3beba86a6.png)  
+
 
 
 > 权限控制： 仅已被加入項目中的成员 ，才可访问項目 。
 
-​
+### 项目概览[](#geng-huan-fu-ze-ren)
 
-### 编辑信息[](#bian-ji-xiang-mu-xin-xi)
+操作流程 ： 点击更多管理 > 进入项目管理/项目概览 
+![图 13](/img/88ce7ef92351cd646ff786e3a4489f5a935e5157500874cf9ac3c537267078f4.png)  
 
-操作流程 ：点击操作 > 编辑信息 > 点击保存 。
+![图 14](/img/e74f64313f6b6184644cbbaffbc023727292480dd97e901e04c0c51d624438ec.png)  
 
-![图 14](/img/50df34de75f3b5f47b1964c72d10cc1e4a24a134ab13314c9f44aaf3949fa741.png)  
-
-
-> 权限控制： 仅具备权限的项目成员可以编辑
+可以在项目概览对项目信息进行配置，且可以查看当前项目下成员活跃信息（最近30天内）；
 
 ### 管理成员[](#geng-huan-fu-ze-ren)
 
@@ -56,10 +59,17 @@ sidebar_position: 1
 ### 管理角色
 
 
-操作流程：点击操作 > 点击管理角色 > 点击确定。
-![图 17](/img/a1a3f6e89e235e3cfbccbf52f986d414a97820dfdd742848a26eef71b9c4398b.png)  
-![图 18](/img/a3b497ce4f06f90d3f5b675be145c04e606ee81676837abbb7e862af4ae63e9e.png)  
+操作流程：点击操作 > 点击管理角色 > 进入角色管理  。
+![图 4](/img/243b878332ae53a637b0d230843ac0b61d1192bb4c16649afd60da9550be79e2.png)  
+角色管理可以查看当前项目下所有角色及对角色进行统一的管理。
 
+
+操作流程：点击新建项目角色 > 配置角色 > 点击保存  。
+
+第一步配置角色基础信息及角色可用产品。
+![图 5](/img/5a358873f66c01608b612703d6af5cda6df5599bd4080246a9579d1fd1808347.png)  
+第二步配置分配产品的权限项。
+![图 6](/img/62c38dda21a0e5a2f076b156b515db958d6cf3ff34a9ff1b3cface3a10706979.png)  
 
 
 ### 管理空间
@@ -68,12 +78,14 @@ sidebar_position: 1
 
 操作流程：点击操作 > 点击管理空间 。
 
-![图 19](/img/10bf13767704801c2ad270bcc84457338f8ef2f0f1881963898d68da3a17c1c4.png)  
-在空间管理中查询项目下所有空间信息，并支持编辑空间信息、修改空间数据权限、配置空间成员。
+ ![图 7](/img/871a73a040f63e17f613f2a023b175325b7b27d1e89e81440f97db287e9aecb4.png)  
 
-![图 20](/img/70ea7c95bfe6e8a34b3ff7cebbfb593bae00b20e5fb75f5edb436d9f7808c739.png)  
+在空间管理中查询项目下所有空间信息，并支持编辑空间信息、修改空间数据权限、配置空间成员。
+![图 9](/img/de83dee80e561c66798df8792344e7cf034e44dae0e16ff33ef5f331696ba884.png)  
+
 空间成员管理支持添加、移出成员。
-![图 21](/img/037dde5fc992ad24aaa95f093db2c485bd61140a4bcda588bb61b132874f4384.png)  
+![图 10](/img/1576e7b11922e9b8f6b997633a3d9dafaca3f83c925a0a936a8082fd87e19516.png)  
+
 空间-数据授权
 
 用户属性：
@@ -111,14 +123,6 @@ sidebar_position: 1
 | 编辑用户属性、用戶标签、埋点事件、虚拟事件 授权范围 | 配置项目可用的数据 |
 
 
-#### 查看项目数据范围[](#cha-kan-xiang-mu-shu-ju-fan-wei)
-
-在弹窗列表中可查看项目中可用的数据 (用户属性、用户标签、埋点事件) ，只有列表中被授权的数据可在项目中被使用与查看。
-
-操作流程 ： 点击查看 > 打开弹窗 > 查看可用的 用户属性、用户标签、埋点事件。
-
-![](/img/assets-M2qbZInaXgdm8kkNosp-MkHBnQw9E0sdmYDJiDL-MkHBtAiMI7dZ8YT-CMnimage.png)
-
 
 #### 编辑 数据源、用户范围、用户属性、用户标签、埋点事件、虚拟事件 授权范围[](#bian-ji-shu-ju-yuan-yong-hu-fan-wei-yong-hu-shu-xing-yong-hu-biao-qian-mai-dian-shi-jian-xu-ni-shi-jian-shou-quan-fan-wei)
 
@@ -126,9 +130,11 @@ sidebar_position: 1
 
 操作流程 ： 点击编辑 > 进入 埋点数据授权 > 选择授权方式 > 保存。
 
-![图 22](/img/1a6762b3434027e6663b18944f7886f0c2a1ced6af649bf1dba71e20e0038e26.png)  
+ ![图 11](/img/2ed0f08e44bd135ed2cd095411220e9947057d31c472bc2398be9264a0620238.png)  
 
-![图 23](/img/3821cfd1995c2ead9dbacd03973a4736a32ed4de544e9cbd1d08255b7604cf8d.png)  
+![图 12](/img/fecae3e8961b95ca500d54451230c99c2d20feefaafbf70865c01fece8229222.png)  
+
+
 
 
 > 授权模式：
@@ -138,7 +144,17 @@ sidebar_position: 1
 > * 全部禁用：不可以使用任何 用户属性、标签、埋点事件。 
 > 
 > * 自定义：可以自由定义使用 用户属性、标签、埋点事件。
+### 项目配置[](#shan-chu-xiang-mu)
 
+项目应用的基础配置，webhook通道、项目日志。
+![图 15](/img/1f2f619be8709c0f073c549b2f02550b1f9eca26b85c57254f0584ae1c7c92a0.png)  
+#### webhook通道[](#shan-chu-xiang-mu)
+Webhook 方便企业将通知提醒发送至其它系统，如 IM工具、短信服务，邮件服务。
+![图 16](/img/d3529f8193cae5d0f0ceb42abc984847d003fbd4501224118b59466e6f6b5db1.png)  
+
+#### 项目日志[](#shan-chu-xiang-mu)
+支持查看项目所有系统操作日志，只保留最近180天。
+ ![图 17](/img/36150b9f9adb505937f2d2701ff9be419eb0a660ceb124ee90f5a7c94af88b42.png)  
 
 ### 分配空间[](#shan-chu-xiang-mu)
 
