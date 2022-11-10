@@ -33,7 +33,7 @@ sidebar_position: 1
 
 看板侧栏包含以下几个部分：
 
-* 订阅看板：展示你所订阅的看板，看板支持订阅， 具体订阅方式请查看 [看板订阅](https://growingio.gitbook.io/op/v/14.7/product-manual/user-behavior-analytics/charts/subscribe-to-kanban)。
+* 订阅看板：展示你所订阅的看板，支持订阅自己创建的看板或者他人共享的看板，具体订阅方式详见：[看板订阅](https://docs.growingio.com/op-help/docs/2.11/product-manual/product-analysis/dashboards/subscribe-to-dashboard)。
     
 * 全部看板：点击全部看板，可进入看板管理模块 ，对看板进行更有效率的管理工作。
     
@@ -52,7 +52,7 @@ sidebar_position: 1
 
 为了保障企业数据安全性，每位成员能查看的看板，是受到**共享权限**控制的。 举例：系统中一共有 20 个看板，与小花协作的看板有2个，小花创建的看板有5个，因此小花能查看的看板一共为 7 个。
 
-共享设置可见：[看板共享设置](../../../product-manual/user-behavior-analytics/dashboards/dashboard-sharing-setting)​
+共享设置可见：[看板权限设置](../../../product-manual/user-behavior-analytics/dashboards/dashboard-sharing-setting)​
 
 ### 看板的操作说明[](#kan-ban-de-cao-zuo-shuo-ming)
 
