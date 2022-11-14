@@ -40,4 +40,4 @@ LTV:在本分析工具中，指的是某日的人均LTV。LTVn = 该日指定条
 
 ### 查看LTV折线图和表格
 通过以上条件的选择，可以在折线图和表格里查看LTV0~LTV7，LTV15，LTV30，LTV60，LTV90的数据。
-![图 10](/img/64b786a82aa5abacf0d2261e008b1fa564d9df63c505a729c4a7e0bbdc843796.png)  
+![图 1](/img/51c6143c656c7008ae29ab286541ef5a385e476cb8346d33a0b58bf2567d43d7.png)  
