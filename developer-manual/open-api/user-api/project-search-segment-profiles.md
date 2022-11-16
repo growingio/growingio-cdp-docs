@@ -3,11 +3,11 @@ id: project-search-segment-profiles
 sidebar_position: 7
 ---
 
-# 项目-群体画像列表查询
+# 空间-群体画像列表查询
 
 ## 接口说明
 
-查询项目中已定义的全部群体画像信息
+查询空间中已定义的全部群体画像信息
 
 ## 接口地址
 
@@ -27,7 +27,7 @@ GET
 
 | 名称      | 类型   | 必填 | 描述                 | 示例值        |
 | --------- | ------ | ---- | -------------------- | ------------- |
-| project_ID  | String | 是   | 群体画像所在项目ID | WlGk4Daj |
+| project_ID  | String | 是   | 群体画像所在空间ID | WlGk4Daj |
 
 ## 查询参数
 
@@ -72,9 +72,9 @@ GET
 | stage | String | 计算状态<br></br>NONE：计算未开始<br></br>RUNNING：计算中<br></br>FINISH：计算成功<br></br>ERROR：计算失败 |
 | detectedAt | Datetime | 更新时间 |
 
-## 示例：根据项目ID查询群体画像列表
+## 示例：根据空间ID查询群体画像列表
 
-场景：在项目 WlGk4Daj 中查询已定义的全部群体画像信息
+场景：在空间 WlGk4Daj 中查询已定义的全部群体画像信息
 
 
 ### 请求示例

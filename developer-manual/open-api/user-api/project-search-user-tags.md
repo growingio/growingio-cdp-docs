@@ -3,11 +3,11 @@ id: project-search-user-tags
 sidebar_position: 5
 ---
 
-# 项目-用户标签列表查询
+# 空间-用户标签列表查询
 
 ## 接口说明
 
-查询项目中已授权的全部用户标签信息
+查询空间中已授权的全部用户标签信息
 
 ## 接口地址
 
@@ -27,7 +27,7 @@ GET
 
 | 名称      | 类型   | 必填 | 描述                 | 示例值        |
 | --------- | ------ | ---- | -------------------- | ------------- |
-| project_ID  | String | 是   | 用户标签所在项目ID | WlGk4Daj |
+| project_ID  | String | 是   | 用户标签所在空间ID | WlGk4Daj |
 
 ## 查询参数
 
@@ -79,9 +79,9 @@ GET
 | stage | String | 计算状态<br></br>NONE：计算未开始<br></br>RUNNING：计算中<br></br>FINISH：计算成功<br></br>ERROR：计算失败 |
 | detectedAt | Datetime | 更新时间 |
 
-## 示例：根据项目ID查询用户标签列表
+## 示例：根据空间ID查询用户标签列表
 
-场景：在项目 WlGk4Daj 中查询已授权的全部用户标签信息
+场景：在空间 WlGk4Daj 中查询已授权的全部用户标签信息
 
 
 ### 请求示例

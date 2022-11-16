@@ -3,11 +3,11 @@ id: project-search-user
 sidebar_position: 4
 ---
 
-# 项目-单用户查询
+# 空间-单用户查询
 
 ## 接口说明
 
-查询项目指定用户特征
+查询空间指定用户特征
 
 ## 接口地址
 
@@ -27,7 +27,7 @@ GET
 
 | 名称      | 类型   | 必填 | 描述                 | 示例值        |
 | --------- | ------ | ---- | -------------------- | ------------- |
-| project_ID  | String | 是   | 搜索用户所在项目ID | WlGk4Daj |
+| project_ID  | String | 是   | 搜索用户所在空间ID | WlGk4Daj |
 | user_key  | String | 是   | 搜索的用户身份标识符 | $basic_userId |
 | search_ID | String | 是   | 搜索的用户身份值     | U3803180317   |
 
@@ -39,9 +39,9 @@ GET
 | identifications | < String , List > | 系统用户的全部用户身份值         |
 | properties      | Objective | 系统用户的全部用户属性和用户标签 |
 
-## 示例 1：根据项目ID和用户ID搜索用户
+## 示例 1：根据空间ID和用户ID搜索用户
 
-场景：在项目 WlGk4Daj 中搜索 **用户 ID** 为 **U3803180317** 用户的全部用户身份、用户属性和用户标签
+场景：在空间 WlGk4Daj 中搜索 **用户 ID** 为 **U3803180317** 用户的全部用户身份、用户属性和用户标签
 
 ### 请求示例
 
@@ -72,9 +72,9 @@ curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/users/
 }
 ```
 
-## 示例 2：根据项目ID和设备ID搜索用户
+## 示例 2：根据空间ID和设备ID搜索用户
 
-场景：在项目 WlGk4Daj 中搜索 **设备 ID** 为 **X** 用户的全部用户身份、用户属性和用户标签
+场景：在空间 WlGk4Daj 中搜索 **设备 ID** 为 **X** 用户的全部用户身份、用户属性和用户标签
 
 ### 请求示例
 
@@ -105,9 +105,9 @@ curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/users/
 }
 ```
 
-## 示例 3：搜索用户不存在或未授权给项目
+## 示例 3：搜索用户不存在或未授权给空间
 
-场景：搜索用户不存在或未授权给项目
+场景：搜索用户不存在或未授权给空间
 
 ### 请求示例
 

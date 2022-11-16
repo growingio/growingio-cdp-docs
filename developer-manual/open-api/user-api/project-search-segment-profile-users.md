@@ -3,11 +3,11 @@ id: project-search-segment-profile-users
 sidebar_position: 8
 ---
 
-# 项目-群体画像用户列表查询
+# 空间-群体画像用户列表查询
 
 ## 接口说明
 
-查询项目指定群体画像的用户特征
+查询空间指定群体画像的用户特征
 
 ## 接口地址
 
@@ -27,7 +27,7 @@ GET
 
 | 名称      | 类型   | 必填 | 描述                 | 示例值        |
 | --------- | ------ | ---- | -------------------- | ------------- |
-| project_ID  | String | 是   | 群体画像所在项目ID | WlGk4Daj |
+| project_ID  | String | 是   | 群体画像所在空间ID | WlGk4Daj |
 | segment_key | String | 是   | 群体画像标识符 | seg_51activity |
 
 ## 查询参数

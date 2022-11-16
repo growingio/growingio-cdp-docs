@@ -3,11 +3,11 @@ id: project-compute-segment-profile
 sidebar_position: 13
 ---
 
-# 项目-群体画像更新
+# 空间-群体画像更新
 
 ## 接口说明
 
-更新计算指定项目指定群体画像
+更新计算指定空间指定群体画像
 
 ## 接口地址
 

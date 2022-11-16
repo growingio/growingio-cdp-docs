@@ -3,11 +3,11 @@ id: project-download-user-tag-users
 sidebar_position: 10
 ---
 
-# 项目-用户标签用户列表下载
+# 空间-用户标签用户列表下载
 
 ## 接口说明
 
-下载指定项目指定用户标签覆盖用户的用户特征
+下载指定空间指定用户标签覆盖用户的用户特征
 
 ## 接口地址
 
@@ -27,7 +27,7 @@ POST
 
 | 名称      | 类型   | 必填 | 描述                 | 示例值        |
 | --------- | ------ | ---- | -------------------- | ------------- |
-| project_ID  | String | 是   | 用户标签所在项目ID | WlGk4Daj |
+| project_ID  | String | 是   | 用户标签所在空间ID | WlGk4Daj |
 | tag_key | String | 是   | 用户标签标识符 | tag_rfm |
 
 ## Body
