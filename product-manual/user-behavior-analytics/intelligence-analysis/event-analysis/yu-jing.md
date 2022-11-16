@@ -3,7 +3,7 @@ id: yu-jing
 sidebar_position: 2
 ---
 
-# 指标预警 (beta)
+# 指标预警
 
 ## 简介[](#jian-jie)
 

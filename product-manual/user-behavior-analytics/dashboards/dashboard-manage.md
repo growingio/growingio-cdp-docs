@@ -87,3 +87,8 @@ sidebar_position: 3
 
 ![图 40](/img/b71c30090a83862c9ec7ffe52068f87f09cfd29baf9378d99ee5f107d8c5f08e.png)  
 
+### 设置公共分组[](#she-zhi-gong-gong-fen-zu)
+在看板管理页面，如果是管理员权限，可以看到”设置公共分组“的操作入口。
+![图 1](/img/519d8e2abe98a4f13d4a97d7640f7c2c0d8a55dff8112c1cc52350cab4163cbf.png)  
+在公共分组的操作界面，可以新建、编辑、删除公共分组，添加看板到相应的分组中，并发布给项目全员。发布后，项目全员就可以在自己的看板列表中查看公共分组的看板。
+![图 2](/img/0edf84070ba722bb726237e7c253bfe031e0d07ab403e329e8b4f7c3e9d4da8a.png)  
