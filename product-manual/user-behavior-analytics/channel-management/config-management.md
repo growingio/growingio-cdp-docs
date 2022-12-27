@@ -147,7 +147,7 @@ sidebar_position: 3
 |  ----  | ----  |
 | label  | 元素名称 |
 | is_select  | 元素交互控件。0为输入框，1为下拉框 |
-| from  | 元素交互控件为下拉框时，定义可选值的来源。name_types为“名称管理”中定义可选值范围，options为自定义 |
+| from  | 元素交互控件为下拉框时，定义可选值的来源。name_types为“名称管理”中定义可选值范围，options为自定义，webhooks为平台中定义的webhook通道 |
 | options | 元素交互控件为下拉框，且可选值来源为options时，options的格式为数组。数组元素的内容包含value值和名称显示text|
 
 #### 3、给“活动管理”的表格增加新的列
@@ -251,3 +251,27 @@ sidebar_position: 3
 | item_key  | 维度表的标识符，为空则不会同步 |
 | item_id  | 维度表记录的ID，不填写则默认为活动的link_id，填写某字段则用该字段为维度表记录的ID。 |
 | item_cols  | 维度表字段与活动字段的映射。name为活动字段，key为维度表字段的标识符 |
+
+#### 7、webhook通道构建API的入参和返回值
+
+**短链通道API的构建**
+- 业务参数：url，为带上UTM参数的完整URL
+- 返回值
+```
+[
+        "code"=>0,
+        "msg"=>"ok",
+        "url"=>"{短链地址}"
+];
+```
+
+**二维码通道API的构建**
+- 业务参数：url，为带上UTM参数的完整URL
+- 返回值
+```
+[
+        "code"=>0,
+        "msg"=>"ok",
+        "url"=>"{二维码图片地址}"
+];
+```
