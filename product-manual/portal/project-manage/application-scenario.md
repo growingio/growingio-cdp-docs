@@ -3,7 +3,7 @@ id: applicantion-scenario
 sidebar_position: 1
 ---
 
-# 应用场景介绍.
+# 应用场景介绍
 
 ### 从数据管理的角度看
 
