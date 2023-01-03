@@ -1,11 +1,11 @@
 ---
 id: user-tags
-sidebar_position: 5
+sidebar_position: 2
 ---
 
-# 用户标签
+# 标签分析
 
-## 用户标签详情页[](#yong-hu-biao-qian-xiang-qing-ye)
+## 用户标签分析详情页[](#yong-hu-biao-qian-xiang-qing-ye)
 
 面向业务运营人员，在用户标签详情页可以查看单一 **用户标签** 的名称、数值类型、创建人、创建日期和统计分布。
 

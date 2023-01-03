@@ -1,11 +1,11 @@
 ---
 id: user-properties
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# 用户属性
+# 属性分析
 
-## 用户属性详情页[](#yong-hu-shu-xing-xiang-qing-ye)
+## 用户属性分析详情页[](#yong-hu-shu-xing-xiang-qing-ye)
 
 面向业务运营人员，在用户属性详情页可以查看单一  **用户属性** 的名称、数值类型、创建人、创建日期和统计分布。
 
