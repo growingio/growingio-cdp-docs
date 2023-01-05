@@ -3,7 +3,7 @@ id: project-members
 sidebar_position: 4
 ---
 
-# 管理成员
+# 成员管理
 
 ## 简介
 
