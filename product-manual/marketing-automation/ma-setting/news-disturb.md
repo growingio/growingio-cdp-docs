@@ -1,9 +1,9 @@
 ---
 id: news-disturb
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# 消息防扰
+# 防扰机制
 
 ## 功能概述
 
