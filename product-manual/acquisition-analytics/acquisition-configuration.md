@@ -9,11 +9,18 @@ sidebar_position: 3
 
 ## 推广渠道
 
-可统一管理系统预置的公有渠道和客户自主创建的私有渠道。
+可统一管理系统预置的公有渠道和客户自主创建的私有渠道，同时可对支持回传的渠道进行回传事件配置，对需要进行授权的渠道进行账号授权。
 
-![picture 13](/img/d4833cb50fe70c0ea277cc92087907130aa8ad0cc7c8cb5983bcd44f7dadcbdf_pic_1668086730111_2022-11-10.png)  
+![图 1](/img/pic_tracking_channel_acquisition-configuration.png)  
 
-点击右侧操作的更多可对私有渠道进行修改、删除等操作。公有渠道不支持修改与删除。
+
+点击右侧操作按钮可对私有渠道进行修改、删除等操作。公有渠道不支持修改与删除。
+对支持回传事件及授权的渠道，点击右侧操作按钮可新建回传事件及账号授权操作：
+
+![图 2](/img/pic_callback_acquisition-configuration.png)  
+
+![图 3](/img/pic_callback_create_acquisition-configuration.png)  
+
 
 ### 渠道信息
 
@@ -31,7 +38,8 @@ sidebar_position: 3
 
 在广告监测下创建的监测链接时创建的活动都会在此统一管理，也可以在此处直接创建好活动，在创建链接的时候直接选取；利用搜索功能快速查找相应的活动。
 
-![picture 16](/img/21bbd36ae3fb59af5516c4553677776ca43a467da3ec3a376426ba01d8d064b7_pic_1668086908843_2022-11-10.png)  
+![图 6](/img/pic_campaign_acquisition-configuration.png)  
+
 
 ### 新建活动
 
@@ -45,4 +53,6 @@ sidebar_position: 3
 
 GrowingIO 现在已经全面开放底层归因配置，现在您可以结合自己的实际业务情况，对归因模型、归因窗口进行设定，从而正确衡量各渠道带来的转化数据。
 
-![picture 18](/img/f931b0a622a1f47b02ed557703307053a19e6778424f78e5a97232c2937272b3_pic_1668086985691_2022-11-10.png)  
+![图 8](/img/pic_config_acquisition-configuration.png)  
+
+
