@@ -15,17 +15,20 @@ GrowingIO 监测链接支持 APP 推广（包括：iOS、Android 端）、网页
 
 一. 在顶部导航栏选择“获客分析 > 获客追踪 > 监测链接”，进入监测链接列表。
 
-![picture 5](/img/6a4d41285e437f53aed78a04c9102a6c3688c60ed1602767317f45ca74a3e500_3b8d22b8-c8ef-4649-8980-62cb4aa6a7fd_2022-11-10.png)  
+![图 1](/img/pic_tracking_link_tracking-link.png)  
+
+
 
 二、点击【新建监测链接】进入新建监测链接页面，选择推广 App
 
-![picture 6](/img/986dc5e9bde66242577ba92e93aa8972322f68725537456c71e3b3670a82c8e2_pic_1668085944061_2022-11-10.png)  
+![图 2](/img/pic_create_tracking_link_tracking-link.png)  
 
-![picture 7](/img/16dc894a50eef41c4d26b8d246bb557fce995f6b24cc88d38ad7a51fab7c7b2d_pic_1668085983148_2022-11-10.png)  
 
 三. 配置参数后单击确定，展示创建好的监测链接。
 
-![picture 8](/img/6a9c9e3fdea672737bb85e4785445939451748d3d008ab301813e587fba616b0_pic_1668086018734_2022-11-10.png)  
+ ![图 10](/img/pic_link_result_tracking-link.png)  
+
+
 
 四. 将创建好的监测链接填至广告投放平台的对应地址并完成投放即可进行数据监测。
 
@@ -37,17 +40,21 @@ GrowingIO 监测链接支持 APP 推广（包括：iOS、Android 端）、网页
 
 一. 在顶部导航栏选择“获客分析 > 获客追踪 > 监测链接”，进入监测链接列表。
 
-![picture 5](/img/6a4d41285e437f53aed78a04c9102a6c3688c60ed1602767317f45ca74a3e500_3b8d22b8-c8ef-4649-8980-62cb4aa6a7fd_2022-11-10.png)  
+![图 11](/img/pic_web_tracking_link_tracking-link.png)  
+
 
 二. 点击【新建监测链接】进入新建监测链接页面，选择推广网页。
 
-![picture 9](/img/55dde18a3c854034ed7ad842c095f417e974810a77c074f9646ec407bca4caa3_pic_1668086160480_2022-11-10.png)  
+![图 13](/img/pic_web_create_tracking-link.png)  
+
 
 三. 配置参数后单击确定，展示创建好的监测链接。
 
-![picture 10](/img/8b103bc5ca30c8b93a1c597e1e97da20652597a3177d7ef7a52e5615355694f9_pic_1668086196561_2022-11-10.png)  
+![图 14](/img/pic_web_detail_tracking-link.png)  
+
 
 四. 将创建好的监测链接填至广告投放平台的对应地址并完成投放即可进行数据监测。
+
 
 ## 推广小程序
 
@@ -57,14 +64,18 @@ GrowingIO 监测链接支持 APP 推广（包括：iOS、Android 端）、网页
 
 一. 在顶部导航栏选择“获客分析 > 获客追踪 > 监测链接”，进入监测链接列表。
 
-![picture 5](/img/6a4d41285e437f53aed78a04c9102a6c3688c60ed1602767317f45ca74a3e500_3b8d22b8-c8ef-4649-8980-62cb4aa6a7fd_2022-11-10.png)  
+![图 15](/img/pic_miniP-tracking_link_tracking-link.png)  
+
 
 二. 点击【新建监测链接】进入新建监测链接页面，选择推广小程序。
 
-![picture 11](/img/695cbac6e882336c32e2deaccf33a3e4afa1701e06df16143bfecf8e0abd0b87_pic_1668086307306_2022-11-10.png)  
+![图 18](/img/pic_miniP_link_create_tracking-link.png)  
+
+
 
 三. 配置参数后单击确定，展示创建好的监测链接。
 
-![picture 12](/img/86f7eff6748a43a9c20e118f55715e0a9279fdb7f8701916e8ddf6a4895a70b2_pic_1668086355521_2022-11-10.png)  
+![图 19](/img/pic_miniP_result_tracking-link.png)  
+
 
 四. 将创建好的监测链接填至广告投放平台的对应地址并完成投放即可进行数据监测。
