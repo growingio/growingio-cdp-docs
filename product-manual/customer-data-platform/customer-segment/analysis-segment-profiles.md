@@ -69,3 +69,10 @@ group by usr_city
 order by count(distinct gio_id) desc
 limit 5
 ```
+
+
+## 查看TGI
+
+在图表看板中，勾选“查看TGI”，可展示该群组的各特征与全部用户的对应特征的显著程度。
+
+![picture 1](/img/2ee261d8828e1d3295c77015672821df317074d1915ffe25e9c0a6df8bb3a285_pic_1676283637315_2023-02-13.png)  
