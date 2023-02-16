@@ -219,58 +219,58 @@ FTP 方式，导入失败状态
 
 ### 预置事件属性
 
-| 预置事件属性        | 类型    | 描述               |
-| ------------------- | ------- | ------------------ |
-| $session            | String  | 会话 ID            |
-| $package            | String  | 包名(App 专用)     |
-| $platform           | String  | 应用平台端         |
-| $referrer_domain    | String  | 访问来源           |
-| $utm_source         | String  | 广告来源           |
-| $utm_medium         | String  | 广告媒介           |
-| $utm_campaign       | String  | 广告名称           |
-| $utm_term           | String  | 广告关键字         |
-| $utm_content        | String  | 广告内容           |
-| $utm_source_session         | String  | 会话级广告来源           |
-| $utm_medium_session         | String  | 会话级广告媒介           |
-| $utm_campaign_session       | String  | 会话级广告名称           |
-| $utm_term_session           | String  | 会话级广告关键字         |
-| $utm_content_session        | String  | 会话级广告内容           |
-| $traffic_source        | String  | 流量来源           |
-| $traffic_source_session        | String  | 会话级流量来源           |
-| $ads_id             | String  | 广告 id            |
-| $key_word           | String  | 搜索词             |
-| $country_code       | String  | 国家代码           |
-| $country_name       | String  | 国家名称           |
-| $region             | String  | 地区               |
-| $city               | String  | 城市               |
-| $browser            | String  | 浏览器             |
-| $browser_version    | String  | 浏览器版本         |
-| $os                 | String  | 操作系统           |
-| $os_version         | String  | 操作系统版本       |
-| $client_version     | String  | App 版本           |
-| $channel            | String  | 自定义 App 渠道    |
-| $device_brand       | String  | 设备品牌           |
-| $device_model       | String  | 设备型号           |
-| $device_type        | String  | 设备类型           |
-| $device_orientation | String  | 设备方向           |
-| $resolution         | String  | 屏幕大小（高\*宽） |
-| $language           | String  | 操作系统语言       |
-| $referrer_type      | String  | 一级访问来源       |
-| $account_id         | String  | ai/项目 id         |
-| $domain             | String  | 域名               |
-| $ip                 | String  | Ip                 |
-| $user_agent         | String  | 用户代理           |
-| $sdk_version        | String  | sdk 版本           |
-| $location_latitude  | Float64 | 纬度               |
-| $location_longitude | Float64 | 经度               |
-| $path               | String  | 页面               |
-| $referrer_path      | String  | 页面来源           |
-| $textValue          | String  | 元素内容           |
-| $index              | String  | 元素位置           |
-| $xpath              | String  | 元素路径           |
-| $hyperlink          | String  | 元素链接           |
-| $duration          | UInt32  | 时长（秒）。page事件上是页面停留时长，visit事件上是访问时长           |
-| $page_count          | UInt32  | 访问深度，即一次访问的页面浏览量           |
+| 预置事件属性            | 类型    | 描述                                                          |
+| ----------------------- | ------- | ------------------------------------------------------------- |
+| $session                | String  | 会话 ID                                                       |
+| $package                | String  | 包名(App 专用)                                                |
+| $platform               | String  | 应用平台端                                                    |
+| $referrer_domain        | String  | 访问来源                                                      |
+| $utm_source             | String  | 广告来源                                                      |
+| $utm_medium             | String  | 广告媒介                                                      |
+| $utm_campaign           | String  | 广告名称                                                      |
+| $utm_term               | String  | 广告关键字                                                    |
+| $utm_content            | String  | 广告内容                                                      |
+| $utm_source_session     | String  | 会话级广告来源                                                |
+| $utm_medium_session     | String  | 会话级广告媒介                                                |
+| $utm_campaign_session   | String  | 会话级广告名称                                                |
+| $utm_term_session       | String  | 会话级广告关键字                                              |
+| $utm_content_session    | String  | 会话级广告内容                                                |
+| $traffic_source         | String  | 流量来源                                                      |
+| $traffic_source_session | String  | 会话级流量来源                                                |
+| $ads_id                 | String  | 广告 id                                                       |
+| $key_word               | String  | 搜索词                                                        |
+| $country_code           | String  | 国家代码                                                      |
+| $country_name           | String  | 国家名称                                                      |
+| $region                 | String  | 地区                                                          |
+| $city                   | String  | 城市                                                          |
+| $browser                | String  | 浏览器                                                        |
+| $browser_version        | String  | 浏览器版本                                                    |
+| $os                     | String  | 操作系统                                                      |
+| $os_version             | String  | 操作系统版本                                                  |
+| $client_version         | String  | App 版本                                                      |
+| $channel                | String  | 自定义 App 渠道                                               |
+| $device_brand           | String  | 设备品牌                                                      |
+| $device_model           | String  | 设备型号                                                      |
+| $device_type            | String  | 设备类型                                                      |
+| $device_orientation     | String  | 设备方向                                                      |
+| $resolution             | String  | 屏幕大小（高\*宽）                                            |
+| $language               | String  | 操作系统语言                                                  |
+| $referrer_type          | String  | 一级访问来源                                                  |
+| $account_id             | String  | ai/项目 id                                                    |
+| $domain                 | String  | 域名                                                          |
+| $ip                     | String  | Ip                                                            |
+| $user_agent             | String  | 用户代理                                                      |
+| $sdk_version            | String  | sdk 版本                                                      |
+| $location_latitude      | Float64 | 纬度                                                          |
+| $location_longitude     | Float64 | 经度                                                          |
+| $path                   | String  | 页面                                                          |
+| $referrer_path          | String  | 页面来源                                                      |
+| $textValue              | String  | 元素内容                                                      |
+| $index                  | String  | 元素位置                                                      |
+| $xpath                  | String  | 元素路径                                                      |
+| $hyperlink              | String  | 元素链接                                                      |
+| $duration               | UInt32  | 时长（秒）。page 事件上是页面停留时长，visit 事件上是访问时长 |
+| $page_count             | UInt32  | 访问深度，即一次访问的页面浏览量                              |
 
 ### 预置用户属性
 
@@ -282,7 +282,7 @@ FTP 方式，导入失败状态
 | -------------- | -------------------------- | ------------------------------------------------- |
 | 出生年月日     | $basic_birthday            | 日期，格式：yyyy-MM-dd                            |
 | 性别           | $basic_gender              | 字符串，枚举值：UNKNOWN,MALE,FEMALE               |
-| 地址           | $basic_addresses           | list 格式，用英文逗号分隔，例如：中国,北京,朝阳区 |
+| 地址           | $basic_address             | list 格式，用英文逗号分隔，例如：中国,北京,朝阳区 |
 | 注册时间       | $basic_createdAt           | 时间戳格式（毫秒级），默认值 false                |
 | 关注公众号     | $wechat_subscribeList      | list 格式，用英文逗号分隔 ，例如：GrowingIO,易数  |
 | 支付宝学生认证 | $alipay_isStudentCertified | boolean 类型（true 或 false），默认值 false       |
