@@ -29,9 +29,9 @@ Android端
 
 为获得更好的用户使用体验，GrowingIO 同时建议您在iOS下开启 Universal Links 、在Android下开启App Links ，该两项技术为Apple与Google提供的原生方案，使用该技术将在其系统生态中将获得更流畅的跳转体验。
 
-Universal Links 配置：​
+Universal Links 配置：​[深度链接配置](./acquisition-configuration#%E6%B7%B1%E5%BA%A6%E9%93%BE%E6%8E%A5%E9%85%8D%E7%BD%AE)
 
-App Links 配置：
+App Links 配置：​[深度链接配置](./acquisition-configuration#%E6%B7%B1%E5%BA%A6%E9%93%BE%E6%8E%A5%E9%85%8D%E7%BD%AE)
 
 新建深度链接
 
