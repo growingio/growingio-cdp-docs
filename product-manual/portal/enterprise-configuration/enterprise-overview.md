@@ -24,8 +24,3 @@ sidebar_position: 0
 ![图 3](/img/portal-login_enterprise-overview.png)  
 
 ![图 4](/img/portal-homepage_enterprise-overview.png)  
-
-
-
-
-

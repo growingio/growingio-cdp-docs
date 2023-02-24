@@ -37,5 +37,6 @@ step3：输入新密码并确认
 ![图 4](/img/portal-passwordcomfirm_reset-password.png)  
 
 注意事项：
+
 - 若用户账号未绑定安全设置，无法使用密码找回。
 - 若企业设置密码重复限制，新密码必须与历史密码不重复，否则无法重置成功
