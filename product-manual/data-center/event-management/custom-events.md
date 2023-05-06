@@ -28,9 +28,9 @@ sidebar_position: 1
 
 事件的名称和标识符均不可重复
 
-### 预置事件不可编辑[](#yu-zhi-shi-jian-bu-ke-bian-ji)
+### 预置事件的编辑范围[](#yu-zhi-shi-jian-bu-ke-bian-ji)
 
-预置事件是由系统时安装部署时预置好，而无需您去定义的事件。这些事件有的是由客户端 SDK 自动采集上报的事件，有的是系统离线计算的事件，它们均不可编辑、删除。
+预置事件是由系统时安装部署时预置好，而无需您去定义的事件。这些事件有的是由客户端 SDK 自动采集上报的事件，有的是系统离线计算的事件，它们的名称、标识符、类型和描述不可编辑，仅可以添加或调整关联的自定义事件属性或虚拟属性。另外，预置事件不能被删除。
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MkLvFBmmrT0SdiKh72R-MkLyHHt7rUd3S7y1vhiimage.png)
 
