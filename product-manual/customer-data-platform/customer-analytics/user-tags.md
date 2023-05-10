@@ -1,6 +1,6 @@
 ---
 id: user-tags
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # 标签分析

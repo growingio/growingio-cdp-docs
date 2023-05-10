@@ -1,6 +1,6 @@
 ---
 id: user-properties
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 属性分析
