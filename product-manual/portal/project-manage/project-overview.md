@@ -9,8 +9,7 @@ sidebar_position: 1
 
 项目概览包含项目的基本信息与成员的活跃信息。
 
-![图 13](/img/88ce7ef92351cd646ff786e3a4489f5a935e5157500874cf9ac3c537267078f4.png)
-
+![图 10](/img/xiangmugailan_project-overview.png)  
 
 ## 功能说明
 
@@ -25,12 +24,18 @@ sidebar_position: 1
 
 ![图 7](/img/portal-homepage-pageinfo_project-overview.png)  
 
+### 移交负责人
+
+* 仅项目负责人可操作
+* 移交时需要对当前操作人进行二次身份验证
+  
+![图 11](/img/yijiaofuzeren_project-overview.png)  
+
 ### 查看成员活跃信息
 
 查看过去7/14/30天活跃人数及各个空间的活跃趋势。
 
 ![图 8](/img/portal-project-activeusersoverview_project-overview.png)  
-
 
 ### 下载成员活跃明细
 

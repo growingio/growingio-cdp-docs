@@ -7,7 +7,7 @@ sidebar_position: 1
 
 ## 简介
 
-Webhook 方便企业将通知提醒发送至其它系统，如 IM工具、短信服务，邮件服务。
+Webhook方便企业将通知提醒发送至其它系统，如 IM工具、短信服务，邮件服务。
 
 ![image.png 1](/img/portal-webhook_webhook-channel.png)  
 

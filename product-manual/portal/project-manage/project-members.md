@@ -3,60 +3,92 @@ id: project-members
 sidebar_position: 4
 ---
 
-# 成员管理
+# 项目成员
 
 ## 简介
 
-对项目下成员的管理。成员可来自新增企业用户、关联已有企业用户。设置成员项目角色、空间的分配。编辑成员姓名、手机、邮箱信息。
+使用者一般为IT部门或者业务线负责人或者协助业务线负责人管理的同事。包含：
 
-![图 1](/img/portal-projectmembers_project-members.png)  
+* 新建账号/关联企业账号
+* 编辑账号信息
+* 修改角色
+* 重置密码
+* 加入空间
+* 移除成员
 
 ## 功能说明
 
 ### 新增成员
 
-没有平台账号时，需要新增账号并关联当前空间。
+必要信息：
 
-1、点击【新增成员】
-![图 9](/img/portal-new_project-members.png)  
+* 用户名
+* 密码
+* 项目角色
+* 姓名
 
+可选信息：
 
-2、录入用户名、密码、项目角色、关联空间、姓名等信息。
-![图 15](/img/fe03da044c9f93ab6316e548097c1c8c1f53c6e1ba87644ac12577c0bacb5352.png)  
+* 关联空间
+  * 可选择的空间范围：当前操作人可管理的空间范围。
+* 手机号
+* 邮箱
 
-3、点击确认，即可生成企业成员账号，同时关联至当前项目。
+![图 19](/img/xinjianzhanghao_project-members.png)  
 
-![图 2](/img/portal-projectmember-created_project-members.png)  
+### 关联企业账号
 
+必要信息：
 
-### 关联平台账号
-已有平台账号时，关联平台账号。点击【关联平台账号】，配置项目角色、关联空间即可。
+* 企业账号
+* 项目角色
+  
+可选信息：
 
-![图 16](/img/34a8dd945f1452ebdf4b8858e31a9a2194f95cdb8adb681130465d0649366192.png)  
+* 关联空间
+  * 可选择的空间范围：当前操作人可管理的空间范围。
+
+![图 20](/img/guanlianqiyezhanghao_project-members.png)  
 
 ### 编辑成员信息
-1、点击更多操作-编辑，或者 点击成员详情-编辑
-![图 7](/img/memberinfo-edit1_project-members.png)  
-![图 8](/img/memberinfo-edit2_project-members.png)  
 
-2、编辑项目角色、关联空间、姓名、手机、邮箱。
-![图 10](/img/edit_project-members.png) 
+不可编辑：
 
-3、点击【确认】，保存修改的成员信息。
+* 用户名
+
+可编辑：
+
+* 项目角色
+* 姓名
+* 手机号
+* 邮箱
+
+![图 22](/img/xiugaixinxi_project-members.png)  
+
+### 修改角色
+
+* 无法修改项目负责人角色，只能通过移交负责人功能修改。
+
+![图 25](/img/xiugaijuese_project-members.png)  
+
+#### 批量修改角色
+
+选中多个用户，将出现【修改角色】按钮。
+
+![图 26](/img/piliangxiugai_project-members.png)  
 
 ### 重置密码
-1、点击更多操作-重置密码
-![图 3](/img/portal-projectmember-resetpassowrd_project-members.png)  
 
-2、确认重置密码
-![图 4](/img/portal-resetpassword-comfrim_project-members.png)  
+系统将为选中账号自动生成复杂密码，不支持自定义密码。
 
-3、获取新密码
-![图 5](/img/resetpoassword-getpassword_project-members.png)  
-
+![图 23](/img/chongzhimima_project-members.png)  
 
 ### 移除成员
-1、点击更多操作-移除成员
-![图 6](/img/movemember_project-members.png)  
+
+成员移除后，将无法访问项目。
+
+* 无法将项目负责人移除
+
+![图 24](/img/yichuchengyuan_project-members.png)  
 
 
