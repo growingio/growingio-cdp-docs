@@ -19,14 +19,16 @@ sidebar_position: 2
 ## 新增链接参数
 
 一. 在顶部导航栏选择“数据中心 > 数据集成 > UTM管理 > 自定义维度”，进入维度配置功能页面。
-![图 1](/img/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%B4%E5%BA%A6%E9%A6%96%E9%A1%B5_utm-dimension.png)  
-二. 单击页面右侧的新增自定义维度按钮，弹出新建自定义维度弹窗。
-![图 2](/img/%E6%96%B0%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%B4%E5%BA%A6_utm-dimension.png)  
+![图 4](/img/UTM%20dimension%20list_utm-dimension.png)  
+点击新建自定义维度进入创建页面。
+![图 5](/img/create%20utm%20dimension_utm-dimension.png)  
+
 按页面提示填写对应的名称、标识符及描述后，点击确定即可完成创建。可在自定义维度列表页查看已创建的自定义维度，并进行编辑和删除操作。
-![图 3](/img/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%B4%E5%BA%A6%E5%88%97%E8%A1%A8%E9%A1%B5_utm-dimension.png)  
+![图 6](/img/edit%20delete%20utm%20dimension_utm-dimension.png)  
 
 
-## 自定义维度应用
+
+## 自定义维度应用场景
 
 在获客分析>获客追踪>监测链接中的链接创建环节中创建一条短链
 

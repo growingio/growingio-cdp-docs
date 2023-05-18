@@ -15,7 +15,8 @@ GrowingIO 现在已经全面开放底层归因配置，现在您可以结合自�
 
 
 一.在顶部导航栏选择“数据中心 > 数据集成 > 数据源 > 数据源归因配置 ”，进入配置页面。
-![图 2](/img/%E6%95%B0%E6%8D%AE%E6%BA%90%E5%BD%92%E5%9B%A0%E9%85%8D%E7%BD%AE%E9%A6%96%E9%A1%B5_datasource-attribute.png)  
+![图 6](/img/datasource%20attribute%20list_datasource-attribute.png)  
+
 
 
 二.如上图所示，配置页会呈现已经集成的所有数据源（仅支持网页、App、小程序类型数据源）目前的归因配置，如果您未进行过设定，此处会展示默认的规则。
@@ -39,15 +40,16 @@ GrowingIO 默认归因模型
 
 
 三.如果需要对某个数据源的归因方式进行修改，点击编辑操作，可对当前数据源的归因方式进行编辑。
-
-![图 3](/img/%E7%BC%96%E8%BE%91%E6%95%B0%E6%8D%AE%E6%BA%90%E5%BD%92%E5%9B%A0%E9%85%8D%E7%BD%AE_datasource-attribute.png)  
+  
 您可根据业务需求对归因模型与归因窗口进行编辑，归因窗口支持范围为1-30天。一旦进行更改，会立即生效，无法对历史数据进行回溯。
-![图 4](/img/%E6%95%B0%E6%8D%AE%E6%BA%90%E5%BD%92%E5%9B%A0%E9%85%8D%E7%BD%AE%E7%BC%96%E8%BE%91%E5%BC%B9%E7%AA%97_datasource-attribute.png)  
+![图 7](/img/attribute%20config_datasource-attribute.png)  
+
 
 四.关于归因窗口优先级： 
 
 如果您对精准对接渠道的归因窗口进行过配置，该渠道中发生的点击数据将优先使用渠道级的归因窗口进行计算。即：当对单个渠道调整过归因窗口后，单个渠道的归因配置优先级会高于数据源级归因配置。
-![图 5](/img/%E7%B2%BE%E5%87%86%E6%B8%A0%E9%81%93%E5%BD%92%E5%9B%A0%E9%85%8D%E7%BD%AE_datasource-attribute.png)  
+![图 8](/img/channel%20attribute%20config_datasource-attribute.png)  
+
 
 ## 注意
 
