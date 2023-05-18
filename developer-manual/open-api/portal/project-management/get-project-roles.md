@@ -1,5 +1,5 @@
 ---
-id: get-project-user-detail
+id: get-project-roles
 sidebar_position: 3
 ---
 
@@ -21,10 +21,10 @@ GET
 
 ## 请求参数
 
-| 名称 | 类型 | 必填 | 描述 | 示例值 |
-| ---- | ---- | ---- | ---- | ------ |
-| enterpriseId | string | 是 | 企业ID | WlGk4Daj |
-| projectId | string | 是 | 项目ID | WlGk4Daj |
+| 名称         | 类型   | 必填 | 描述    | 示例值   |
+| ------------ | ------ | ---- | ------- | -------- |
+| enterpriseId | string | 是   | 企业 ID | WlGk4Daj |
+| projectId    | string | 是   | 项目 ID | WlGk4Daj |
 
 提示：企业 ID 从企业概览中获取; 项目 ID 从项目概览中获取
 
