@@ -1,7 +1,7 @@
-
+---
 id: datasource-attribute
 sidebar_position: 2
-
+---
 # 数据源归因配置
 
 ## 简介

@@ -1,6 +1,7 @@
+---
 id: custom-dimension
 sidebar_position: 2
-
+---
 # 自定义维度
 
 ## 使用场景
