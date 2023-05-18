@@ -29,7 +29,7 @@ sidebar_position: 2
 
 在获客分析>获客追踪>监测链接中的链接创建环节中创建一条短链
 
-形如：https://s.domain.com/r3jEmQe 这样的链接，
+形如：https://s.domain.com/r3jEmQe 这样的链接。
 
 可以直接使用Query String的方式将创建好的自定义维度拼接到短链后形成：https://s.domain.com/r3jEmQe?area=beijing 的链接、
 
