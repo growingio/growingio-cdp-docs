@@ -7,6 +7,6 @@ sidebar_position: 6
 
 ## 简介
 
-支持查看和下载空间下的操作日志
+支持查看和下载空间下的操作日志。
 
 ![1](/img/kongjianrizhi_project-settings.png)  

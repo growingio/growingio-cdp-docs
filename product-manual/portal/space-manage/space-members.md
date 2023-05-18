@@ -13,8 +13,6 @@ sidebar_position: 4
 * 添加、移除成员
 * 修改成员角色
 
-![图 1](/img/portal-projectmembers_project-members.png)  
-
 ## 功能说明
 
 ### 关联项目成员
