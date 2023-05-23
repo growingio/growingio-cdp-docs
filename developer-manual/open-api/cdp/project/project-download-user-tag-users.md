@@ -103,7 +103,7 @@ Response:
 Request:
 
 ```bash
-curl --location --request GET 'http://{api-host}/v1/api/job/result/kqQeWeGr' \
+curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/job/result/kqQeWeGr' \
 --header 'Authorization: Bearer 4aaa22c7-679f-49be-b97d-073dad5dfc15'
 ```
 
