@@ -1,6 +1,6 @@
 ---
 id: blacklist
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # 黑白名单
@@ -12,14 +12,12 @@ sidebar_position: 3
 ## 添加黑名单成员
 
 进入黑名单列表点击左上角的【添加成员】按钮弹出添加成员的弹窗。
-
-![图 69](/img/66f00106f3be2226714ee78a45815b3da60aa2a4ae48d841019b720c0fb52e19.png)
+![图 1](/img/4f3f948cefc8cbf28035e901aa1aab758539eaf93e67bb84f1aa2b6ba3794e2b.png)  
 
 - 添加成员：为输入手机号后点击查询按钮查询用户，查询成功之后点击添加按钮；
-- 限制渠道：可选择对以上成员限制触达的渠道。
+- 限制渠道：可选择对以上成员限制触达的触点，比如短信、邮件等。
 
 ## 黑名单列表
 
 成员添加完成之后回到黑名单列表，可查看所有黑名单成员；同时可进行编辑以及移除成员。
-
-![图 70](/img/1f1cff3afd4ddbea22049a8b6b43de407981f293fde43870e5026fbeee6b76cd.png)
+![图 2](/img/755c835417dbb09c4d8e60dd84bd662ceebf79acb6a8a10baacb5e2491469d21.png)  
