@@ -231,14 +231,14 @@ sidebar_position: 5
 ## v2.5-beta：2022 年 02 月 15 日发布
 
 - 新增
-  - [Open API](./developer-manual/open-api/README.md)
+  - Open API
     - 用户洞察
-      - 支持 [客户数据平台-用户标签列表查询](./developer-manual/open-api/user-api/dc-search-user-tags)
-      - 支持 [客户数据平台-用户标签用户列表查询](./developer-manual/open-api/user-api/dc-search-user-tag-users)
-      - 支持 [项目-单用户查询](./developer-manual/open-api/user-api/project-search-user)
-      - 支持 [项目-用户标签列表查询](./developer-manual/open-api/user-api/project-search-user-tags)
-      - 支持 [项目-用户标签用户列表查询](./developer-manual/open-api/user-api/project-search-user-tag-users)
-      - 支持 [项目-群体画像列表查询](./developer-manual/open-api/user-api/project-search-segment-profiles)
+      - 支持客户数据平台-用户标签列表查询
+      - 支持客户数据平台-用户标签用户列表查询
+      - 支持项目-单用户查询
+      - 支持项目-用户标签列表查询
+      - 支持项目-用户标签用户列表查询
+      - 支持项目-群体画像列表查询
 
 ## v2.4-beta：2022 年 01 月 24 日发布
 
@@ -258,8 +258,8 @@ sidebar_position: 5
     - 支持基于预定义和自定义的事件属性，编写 SQL 片段加工成新的属性值，以便在属性拆解、条件过滤中使用
   - Open API：提供一套 RESTful 风格的开放接口，方便客户调用进行二次开发。
     - 用户洞察：
-      - 支持 [客户数据平台-单用户查询](./developer-manual/open-api/user-api/dc-search-user)
-      - 支持 [项目-群体画像用户列表查询](./developer-manual/open-api/user-api/project-search-segment-profile-users)
+      - 支持客户数据平台-单用户查询
+      - 支持项目-群体画像用户列表查询
   - 帮助文档
     - 新增帮助文档跳转链接，点击可跳转到对应版本帮助文档首页。
 
@@ -297,7 +297,7 @@ sidebar_position: 5
   - 单点登录 - 钉钉
     支持钉钉 H5 微应用的单点登录。
   - 开放平台 - 实时数据订阅
-    支持 [Kafka 实时数据订阅](./developer-manual/open-plantform/subscribe-from-kafka).
+    支持 Kafka 实时数据订阅
   - 开放平台 - 离线数据消费
     支持离线数据导出（事件、用户），解决希望将数据集成到数据中台的需求。
   - 群体画像
@@ -382,14 +382,14 @@ GrowingIO 增长平台团队
 ## v2021.14.7 - beta：2021 年 8 月 31 日发布[](#v-2021-147-beta-2021-nian-8-yue-31-ri-fa-bu)
 
 - 新增
-  - 用户模型：为满足多渠道营销用户识别的使用需求，对[用户模型](./getting-started/basic-concept/user-model)进行升级
+  - 用户模型：为满足多渠道营销用户识别的使用需求，对用户模型进行升级
     - 支持唯一身份 ID 和弱身份 ID
     - 支持自定义用户身份和置信度
     - 支持根据多用户身份唯一识别系统用户
-  - ​[用户分群列表](product-manual/user-insights/segment-profiles#群体画像列表页)：支持固定列设置，支持选择固定首、固定前 2 列、固定前 3 列
-  - 用户标签：支持 [SQL 标签](product-manual/data-center/user-management/user-tags#sql标签)​
+  - ​ 用户分群列表：支持固定列设置，支持选择固定首、固定前 2 列、固定前 3 列
+  - 用户标签：支持 SQL 标签
   - 项目数据授权：支持按照集成数据源授权和用户属性范围授权
-  - ​[用户删除管理](product-manual/data-center/data-integration/user-del-management)：遵循 GDPR 欧盟规范，支持指定用户删除底层数据
+  - ​ 用户删除管理：遵循 GDPR 欧盟规范，支持指定用户删除底层数据
   - 用户身份类型：事件表增加 user_key 字段，支持采集上报时指定登录用户的身份类型
 - 优化
   - 360 画像首页 UX 优化
@@ -397,7 +397,7 @@ GrowingIO 增长平台团队
 ## v2021.14.6 - beta：2021 年 8 月 17 日发布[](#v-2021-146-beta-2021-nian-8-yue-17-ri-fa-bu)
 
 - 新增
-  - Token 管理：个人中心获取[Token](product-manual/personal#token管理)，用于 Chrome 插件登录
+  - Token 管理：个人中心获取 Token，用于 Chrome 插件登录
   - 数据导入管理：支持页面上传指定格式文件导入系统
 - 优化
   - Chrome 插件支持使用个人 Token 登录
@@ -466,14 +466,14 @@ GrowingIO 增长平台团队
 ## v2021.14.0 - beta：2021 年 6 月 1 日发布[](#v-2021-140-beta-2021-nian-6-yue-1-ri-fa-bu)
 
 - 新增
-  - 归因分析：[点击查看](product-manual/user-behavior-analytics/attribution)​
+  - 归因分析
     - 满足站内运营位等点击事件对促进订单转化的贡献分析需求
     - 支持即筛即查操作，即时查看归因结果
     - 支持首次、末次、线性、位置共 4 种归因模型
     - 支持目标事件与触点事件用关联属性连接，提升归因准确性
     - 支持归因结果在不同属性维度或分群用户下的对比
 - 优化
-  - 客户数据平台[用户标签](product-manual/data-center/user-management/user-tags)模块界面升级：
+  - 客户数据平台用户标签模块界面升级
     - 详情查看页面和列表管理操作页面统一
     - UI 适配卡片组件
 - 修复
@@ -531,7 +531,7 @@ GrowingIO 增长平台团队
     - 优化 GraphQL 接口 **UserProfile**，支持在项目中通过自定义标识符查询用户属性和用户标签
   - 预警：可以在新事件分析里创建预警
   - 数据
-    - ​[Mobile Debugger 工具](https://growingio.github.io/growingio-sdk-docs/docs/debug#mobile-debugger)，方便埋点工程师查看移动端 SDK 上传的数据信息
+    - ​Mobile Debugger 工具，方便埋点工程师查看移动端 SDK 上传的数据信息
 
 ## v2021.13.3：2021 年 3 月 23 日发布[](#v-2021-13-3-2021-nian-3-yue-23-ri-fa-bu)
 
@@ -549,11 +549,11 @@ GrowingIO 增长平台团队
 
 - 新增
   - 标签
-    - ​[标签支持分类管理](product-manual/data-center/user-management/user-tags#分类管理)​
+    - ​ 标签支持分类管理
   - 用戶
-    - 腾讯画像，支持第三方腾讯 TGI 人群画像。[点击查看](product-manual/user-insights/tgi-profiles)​
-    - 用户信息融合到预置[用户属性](product-manual/data-center/user-management/user-properties)，支持在分析等场景中使用
-    - 新增[用户身份](product-manual/data-center/user-management/user-identifications)模块，支持查看 GrowingIO 用户识别配置方案
+    - 腾讯画像，支持第三方腾讯 TGI 人群画像。
+    - 用户信息融合到预置用户属性，支持在分析等场景中使用
+    - 新增用户身份模块，支持查看 GrowingIO 用户识别配置方案
   - 新版事件分析
     - 埋点事件支持添加单事件过滤
     - 事件分析中支持直接创建计算指标
@@ -593,14 +593,14 @@ GrowingIO 增长平台团队
 ## v2021.13.0：2021 年 01 月 22 日发布[](#v-2021-13-0-2021-nian-01-yue-22-ri-fa-bu)
 
 - 新增
-  - 用户-360 单用户画像 ： [点击查看](product-manual/user-insights/user-profiles)​
+  - 用户-360 单用户画像
     - 调整单用户画像展示逻辑。
     - 支持行为细查实时更新 。
     - 支持统计一段时间内 用户的行为占比与行为趋势。
   - 企业管理 - 企业设置
-    - 帐号申请与审批：当成员忘记密码时，可通过邮件或短信等方式自助重置密码。 [点击查看](product-manual/enterprise-management/enterprise-configuration/account-application)​
-    - 自助找回密码 ：成员可在登录页面进行帐号申请，管理员可根据通知进行帐号审批。 [点击查看](product-manual/enterprise-management/enterprise-configuration/reset-password)​
-    - webhook 配置：Webhook 方便企业将通知提醒发送至其它系统，如 IM 工具、短信服务，邮件服务。[点击查看](product-manual/enterprise-management/enterprise-configuration/webhook)​
+    - 帐号申请与审批：当成员忘记密码时，可通过邮件或短信等方式自助重置密码。
+    - 自助找回密码 ：成员可在登录页面进行帐号申请，管理员可根据通知进行帐号审批。
+    - webhook 配置：Webhook 方便企业将通知提醒发送至其它系统，如 IM 工具、短信服务，邮件服务。
 - 优化
   - webhook 添加根据状态筛选
   - 帐号申请删除全部选项
@@ -627,7 +627,7 @@ GrowingIO 增长平台团队
   - 用戶：用户列表页面支持自定义列及下载
     - 使用者可以在分群中自定义下载 ，分群中用户 相关的 标签、属性、用户信息 。
   - 多项目管理 ：
-    - 支撑大型集团、大型多部门客户建立多个项目，分别进行独立的数据分析与协作。[点击查看](product-manual/project-management)​
+    - 支撑大型集团、大型多部门客户建立多个项目，分别进行独立的数据分析与协作。
   - 用户: 用户细查新增显示埋点事件 IP 信息
   - 全局过滤: 支持使用页面维度值搜索
 - 优化:
@@ -666,7 +666,7 @@ GrowingIO 增长平台团队
   - 运营平台：流程画布发布
   - 运营平台：Webhook 支持实时触发
   - 水晶球：用户列表支持自定义展示信息和下载功能
-  - 数据平台：[用户属性支持分类管理](product-manual/data-center/user-management/user-properties/category-management)​
+  - 数据平台：用户属性支持分类管理
   - 数据平台：offline 增加用户事件最后一次触发时间
 - 优化:
   - gio-flow 优化，支持新旧模型
@@ -702,7 +702,7 @@ GrowingIO 增长平台团队
 - 新功能:
   - 标签：字符串类型标签支持在应用中进行维度拆解和全局过滤。
     - 常用场景：通过规则标签自定义用户分层，并在事件分析中监控不同分层用户核心指标变化。
-  - 全局指标：新增支持[总页面停留时长、平均页面停留时长、跳出次数](product-manual/data-center/complex/term#yu-ding-yi-zhi-biao)​
+  - 全局指标：新增支持总页面停留时长、平均页面停留时长、跳出次数
     - 总页面停留时长：用户在所有页面停留的时长总和，以分钟作为单位展示
     - 平均页面停留时长：平均每个页面的停留时⻓，以分钟作为单位展示
     - 跳出次数：访问⼀个⻚⾯就离开的次数。即⼀次访问中只访问了⼀个⻚⾯
@@ -729,17 +729,17 @@ GrowingIO 增长平台团队
 
 - 新功能:
   - 分析工具：新增支持下钻分群和下载用户 ID
-    - 支持应用：[漏斗分析](product-manual/user-behavior-analytics/funnel)、[留存分析](product-manual/product-analysis/retention-analysis)、[分布分析](product-manual/product-analysis/frequency)​
+    - 支持应用：漏斗分析、留存分析、分布分析 ​
   - 标签:
     - 累计值/平均值/占比 标签更名为 基础指标值 标签
     - 基础指标值标签新增支持对字符串类型属性统计去重数 ​
-  - 全局指标: [新增支持退出次数](product-manual/data-center/complex/term)​
+  - 全局指标
     - 含义: 用来衡量用户退出网站/App/小程序的数量
     - 支持应用：KPI 分析、事件分析、分布分析、分群画像
   - 时间控件: 选择器优化
     - 分群新增支持选择本周、上周、本月、上月、过去 N 天
     - 标签新增支持选择过去 N 天
-  - JAVA SDK: 优化[日志输出](https://growingio.github.io/growingio-sdk-docs/docs/server/Java%20SDK#debugger%E9%80%89%E9%A1%B9)​
+  - JAVA SDK: 优化日志输出
     - 1.0.7-CDP 版本新增支持 SDK log 输出
     - 支持自定义日志输出实现类示例
     - 支持自定义配置文件路径
@@ -761,11 +761,9 @@ GrowingIO 增长平台团队
   - 角色管理
     - 新增支持创建和管理角色，一个角色就相当于一个功能权限包
     - 支持通过角色分配成员在项目中的功能权限
-    - [点此查看](product-manual/enterprise-management/organization/enterprise-roles) 新功能详细内容
   - 部门管理
     - 新增支持创建和管理部门
     - 支持设置成员所属部门，方便按照组织架构管理企业成员
-    - ​[点此查看](product-manual/enterprise-management/organization/enterprise-members) 新功能详细内容
 - 优化:
   - 企业功能
     - 新建帐号 ：新建帐号不在需要通过链接激活，管理员创建帐号后，成员可使用帐号密码直接登入
@@ -790,10 +788,10 @@ GrowingIO 增长平台团队
 ## v2020.6.1：2020 年 6 月发布[](#v-2020-6-1-2020-nian-6-yue-fa-bu)
 
 - 新功能:
-  - 产品分析：看板增加”[添加描述](product-manual/user-behavior-analytics/dashboards#添加描述)“功能
+  - 产品分析：看板增加“添加描述”功能
     - 支持添加描述功能，可在看板上增加对看板或图表的描述说明
     - 支持描述图表拖拽和移动功能，可根据描述区域拖拽描述图表到对应位置
-  - 全局指标：支持 iOS 和 Android 无埋点[全局指标](product-manual/data-center/complex/term#quan-ju-zhi-biao)采集
+  - 全局指标：支持 iOS 和 Android 无埋点采集
 - 优化:
   - 用户画像: 分群规则选择属性时条件语句时去掉时间范围限制，您可以筛选出所有符合属性的用户
   - 标签: 分层标签选择属性时条件语句时去掉时间范围限制，您可以筛选出所有符合属性的用户
@@ -809,11 +807,11 @@ GrowingIO 增长平台团队
 ## v2020.5.4：2020 年 5 月发布[](#v-2020-5-4-2020-nian-5-yue-fa-bu)
 
 - 新功能:
-  - 产品分析: [新增看板模块](product-manual/user-behavior-analytics/dashboards)​
+  - 产品分析: 新增看板模块
     - 新增独立数据监控模块，为企业成员提供便捷的数据监控场景。
     - 看板支持订阅和取消订阅，可将当前关注的看板订阅至看板侧边栏，满足日常工作中固定数据报表监控场景使用需求。
     - 看板侧边栏支持通过拖拉进行看板排序，可根据日常数据监控需求自定义看板排序。
-  - 产品分析: [看板共享设置](product-manual/user-behavior-analytics/dashboards/dashboard-sharing-setting)​
+  - 产品分析: 看板共享设置
     - 支持看板共享设置，通过共享设置可与指定成员共享看板
     - 共享模式支持阅读者和编辑者两种模式
       - 阅读者: 仅可查看看板
@@ -835,12 +833,12 @@ GrowingIO 增长平台团队
     - 新增支持整数和日期类型用户属性
     - 字符串、整数和日期类型属性计算规则新增有值和没值
     - 日期类型属性计算规则新增相对时间和相对区间
-  - 数据平台: 新增[**utm 映射功能**](product-manual/data-center/preferences/utm-map)
+  - 数据平台: 新增 **utm 映射功能**
     - 支持创建 utm 映射规则
     - 支持批量创建
   - 数据平台: 新增前端界面**下载功能**
     - 包括事件分析、漏斗分析、留存分析、分布分析、分群列表和标签 csv 文件下载
-  - SDK: 新增[**网站和微信小程序全局指标**](product-manual/data-center/complex/term)无埋点数据采集
+  - SDK: 新增 **网站和微信小程序全局指标**
     - 包含访问量、页面浏览量、每次访问页面浏览量、人均访问次数、总访问时长(分钟)、平均访问时长(分钟)、跳出率和退出率
   - 体验优化: 平台启动定位模块优化，按顶导航模块顺序(除运营外)打开后默认定位第一个模块
 - 优化:

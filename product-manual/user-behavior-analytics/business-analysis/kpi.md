@@ -1,6 +1,6 @@
 ---
 id: kpi
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # KPI 分析

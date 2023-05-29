@@ -12,7 +12,8 @@ sidebar_position: 3
 * 新建、编辑、删除角色
 * 批量修改角色
 
-![图 3](/img/portal-_project-roles.png)  
+![图 1](/img/kongjianjuese_space-roles.png)  
+
 
 ## 系统角色
 
