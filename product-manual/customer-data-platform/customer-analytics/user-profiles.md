@@ -23,7 +23,8 @@ sidebar_position: 4
 
 ### 单用户画像详情页[](#dan-yong-hu-hua-xiang-xiang-qing-ye)
 
-![图 42](/img/c38528397a198b0b685d95e2037a4f87c22dcf867031f168c5407a406379e826.png)  
+![picture 2](/img/94a1249f309f3c8107484e61624cda0dc4f073673aba0f05c72dda55919acd0d_pic_1685370085230_2023-05-29.png)  
+
 
 #### 用户基础信息[](#yong-hu-ji-chu-xin-xi)
 
@@ -61,6 +62,19 @@ sidebar_position: 4
 #### 用户特征[](#yong-hu-te-zheng)
 
 在用户特征页面，可以查看被授权的用户标签、用户属性。
+
+
+#### 融合历史
+
+在用户融合历史页面，可以查看用户多身份数据上报后融合的轨迹，包括用户身份融合和身份融合下的用户属性合并。
+
+![picture 1](/img/32e741c85b30db9c11bd93011090429ba5390e9ad394e96e760bb1ce6728f03e_pic_1685369907694_2023-05-29.png)  
+
+
+#### 用户资产
+
+在用户资产页面，可以看到数据中心构建的用户资产模型的数据详情。
+
 
 ## 应用场景[](#ying-yong-chang-jing)
 
