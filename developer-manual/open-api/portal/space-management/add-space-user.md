@@ -1,6 +1,6 @@
 ---
 id: add-space-user
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # 添加空间成员
@@ -33,7 +33,7 @@ POST
 
 ## 公共请求参数
 
-<!-- [公共请求参数](../../open-api#公共请求参数) -->
+[公共请求参数](../../../open-api#公共请求参数)
 
 ## 请求示例
 
@@ -60,7 +60,3 @@ POST
   "data": true
 }
 ```
-
-## 错误码
-
-## 变更历史

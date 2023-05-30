@@ -1,6 +1,6 @@
 ---
 id: delete-space-user
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # 移除空间成员
@@ -32,7 +32,7 @@ POST
 
 ## 公共请求参数
 
-<!-- [公共请求参数](../../open-api#公共请求参数) -->
+[公共请求参数](../../../open-api#公共请求参数)
 
 ## 请求示例
 
@@ -64,6 +64,3 @@ HTTP Status `204`
 }
 ```
 
-## 错误码
-
-## 变更历史

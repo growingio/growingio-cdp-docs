@@ -1,6 +1,6 @@
 ---
 id: get-enterprise-users
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 # 企业成员列表
@@ -29,7 +29,7 @@ GET
 
 ## 公共请求参数
 
-<!-- [公共请求参数](../../open-api#公共请求参数) -->
+[公共请求参数](../../../open-api#公共请求参数)
 
 ## 返回数据
 
@@ -52,7 +52,3 @@ GET
   }
 ]
 ```
-
-## 错误码
-
-## 变更历史

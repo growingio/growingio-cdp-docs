@@ -1,6 +1,6 @@
 ---
 id: get-enterprise-project-detail
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # 企业项目详情
@@ -30,7 +30,7 @@ GET
 
 ## 公共请求参数
 
-<!-- [公共请求参数](../../open-api#公共请求参数) -->
+[公共请求参数](../../../open-api#公共请求参数)
 
 ## 返回数据
 

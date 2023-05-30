@@ -1,6 +1,6 @@
 ---
 id: add-project-user
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # 添加项目成员
@@ -32,7 +32,7 @@ POST
 
 ## 公共请求参数
 
-<!-- [公共请求参数](../../open-api#公共请求参数) -->
+[公共请求参数](../../../open-api#公共请求参数)
 
 ## 请求示例
 
@@ -60,6 +60,3 @@ POST
 }
 ```
 
-## 错误码
-
-## 变更历史

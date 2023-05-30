@@ -1,6 +1,6 @@
 ---
 id: update-space-user
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # 修改空间成员
@@ -33,7 +33,7 @@ PUT
 
 ## 公共请求参数
 
-<!-- [公共请求参数](../../open-api#公共请求参数) -->
+[公共请求参数](../../../open-api#公共请求参数)
 
 ## 请求示例
 
@@ -65,7 +65,3 @@ HTTP Status `204`
   "message": "调用后端服务异常"
 }
 ```
-
-## 错误码
-
-## 变更历史
