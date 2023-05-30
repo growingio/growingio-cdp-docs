@@ -9,4 +9,4 @@ sidebar_position: 6
 
 支持查看和下载空间下的操作日志。
 
-![1](/img/kongjianrizhi_project-settings.png)  
+![图 1](/img/kongjianrizhi_space-logs.png)  

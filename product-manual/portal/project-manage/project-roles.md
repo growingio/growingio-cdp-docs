@@ -43,7 +43,7 @@ sidebar_position: 3
 
 若在【第一步】未选择产品系统，该角色仅拥有管理相关权限配置。
 
-![图 6](/img/dierbuxinjianjuese_project-roles.png)  
+![图 14](/img/peizhichanpinquanxian_project-roles.png)  
 
 ### 编辑项目角色
 
@@ -51,18 +51,18 @@ sidebar_position: 3
 
 * 系统角色中，项目负责人、项目管理员、GIO技术顾问无法修改权限配置。其他均可修改
 
-![图 7](/img/bianjixiangmujuese_project-roles.png) 
+![图 15](/img/bianjijuese_project-roles.png)  
 
 ### 删除角色
 
 * 若角色下存在成员时，不可删除。
 * 系统角色不可删除。
 
-![图 9](/img/shanchujuese_project-roles.png)  
+![图 16](/img/shanchujuese_project-roles.png)  
+
 
 ### 批量修改角色
 
 在角色详情下，选中多个用户，将出现【修改角色】按钮。
 
-![图 10](/img/piliangxiugai_project-roles.png)  
-
+![图 17](/img/piliangxiugai_project-roles.png)  

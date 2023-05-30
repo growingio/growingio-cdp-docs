@@ -69,19 +69,20 @@ sidebar_position: 4
 
 * 无法修改项目负责人角色，只能通过移交负责人功能修改。
 
-![图 25](/img/xiugaijuese_project-members.png)  
 
 #### 批量修改角色
 
 选中多个用户，将出现【修改角色】按钮。
 
-![图 26](/img/piliangxiugai_project-members.png)  
+![图 30](/img/xiugaijuese_project-members.png)  
+
 
 ### 重置密码
 
 系统将为选中账号自动生成复杂密码，不支持自定义密码。
 
-![图 23](/img/chongzhimima_project-members.png)  
+![图 31](/img/chongzhimima_project-members.png)  
+
 
 ### 移除成员
 
@@ -89,6 +90,4 @@ sidebar_position: 4
 
 * 无法将项目负责人移除
 
-![图 24](/img/yichuchengyuan_project-members.png)  
-
-
+![图 32](/img/yichuchengyuan_project-members.png)  

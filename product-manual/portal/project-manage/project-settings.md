@@ -13,4 +13,5 @@ sidebar_position: 6
 
 项目空间下空间的操作日志，需在空间内查看下载。
 
-![图 3](/img/portal-_project-settings.png)  
+![图 4](/img/xiangmurizhi_project-settings.png)  
+

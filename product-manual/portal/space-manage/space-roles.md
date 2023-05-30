@@ -40,13 +40,13 @@ sidebar_position: 3
 
 * **产品系统**指客户购买商业化版本中包含的产品系统，最大可选范围：增长分析、客户数据平台、智能运营
 
-![图 2](/img/xinjiankongjianjuese_space-roles.png)  
+![图 11](/img/xinjiankongjianjuese_space-roles.png)  
 
 #### 第二步：配置产品权限
 
 若在【第一步】未选择产品系统，该角色仅拥有管理相关权限配置。
 
-![图 3 ](/img/peixunchanpinxinxi_space-roles.png)
+![图 12](/img/peizhichanpinquanxian_space-roles.png)  
 
 ### 编辑空间角色
 
@@ -54,17 +54,18 @@ sidebar_position: 3
 
 * 系统角色中，空间负责人、空间管理员、GIO技术顾问无法修改权限配置。其他均可修改
 
-![图 7](/img/bianjixiangmujuese_project-roles.png)
+![图 14](/img/bianjijuese_space-roles.png)  
+
 
 ### 删除角色
 
 * 若角色下存在成员时，不可删除。
 * 系统角色不可删除。
 
-![图 5](/img/shanchujuese_space-roles.png)
+![图 15](/img/shanchujuese_space-roles.png)  
 
 ### 批量修改角色
 
 在角色详情下，选中多个用户，将出现【修改角色】按钮。
 
-![图 6](/img/piliangxiugai_space-roles.png)  
+![图 13](/img/piliangxiugai_space-roles.png)  

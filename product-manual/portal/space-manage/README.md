@@ -18,4 +18,5 @@ sidebar_position: 1
 
 入口：工作台-用户登录信息卡片
 
-![图 1](/img/gongzuotaikongjianguanlirukou_README.png)  
+![图 2](/img/kongjianguanlirukou_README.png)  
+

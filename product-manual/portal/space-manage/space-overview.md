@@ -11,26 +11,25 @@ sidebar_position: 1
 
 空间负责人可移交负责人、导出/导入空间资源。
 
-![图 1](/img/kongjiangailan_space-overview.png)  
-
 ## 功能说明
 
 ### 编辑空间信息
 
-![图 2](/img/bianjikongjianxinxi_space-overview.png)  
+![图 10](/img/bianjikongjianxinxi_space-overview.png)   
 
 ### 查看数据授权
 
 数据授权展示了空间可使用项目数据的范围。
 
-![图 6](/img/shujushouquan_space-overview.png)  
+![图 11](/img/chakanshujushouquan_space-overview.png)  
 
 ### 移交负责人
 
 * 权限：仅空间负责人可操作
 * 移交时需要对当前操作人进行二次身份验证
 
-![图 5](/img/yijiaofuzeren_space-overview.png)  
+![图 12](/img/yijiaofuzeren_space-overview.png)  
+
 
 ### 导出/导入资源
 
@@ -55,16 +54,17 @@ sidebar_position: 1
 
 :::
 
-![图 7](/img/daorudaochuziyuan_space-overview.png)  
+![图 13](/img/daorudaochuziyuan_space-overview.png)  
 
 ### 查看成员活跃信息
 
 查看过去7/14/30天活跃人数及活跃趋势。
 
-![图 3](/img/kongjianhuoyuexinxi_space-overview.png)  
+![图 14](/img/chengyuanhuoyuexinxi_space-overview.png)  
+ 
 
 ### 下载成员活跃明细
 
 选择时间范围、空间，点击下载。活跃成员明细，包含成员姓名、账号、天数。
 
-![图 9](/img/portal-project-activeusersdownload_project-overview.png)  
+![图 16](/img/xiazaichenguanhuoyuexinxi_space-overview.png)  
