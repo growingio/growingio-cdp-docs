@@ -147,6 +147,12 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | $page_count         | UInt32   | 访问深度，即一次访问的页面浏览量                                     |
 | $duration           | UInt32   | 时长（秒）。page事件上是页面停留时长<br></br>，visit事件上是访问时长 |
 | $bot_id   |  Int32  | 爬虫流量标识，NULL值为正常流量                                                       |
+| $share_title   |  String  | 小程序端特有，分享收藏标题                                                       |
+| $target   |  String  | 小程序端特有，触发控件。如果 from 值是 button，则 target 是触发这次转发事件的 button id，否则为 undefined题                                                       |
+| $from   |  String  | 小程序端特有，记录转发事件来源。取值'button' 代表页面内转发按钮；取值'menu'，代表右上角转发菜单题                                                       |
+| $query   |  String  | 小程序端特有，页面参数，取值逻辑：小程序页面路径的自定义参数部分。                                                       |
+| $share_path   |  String  | 小程序端特有，分享（收藏）页面路径                                                   |
+| $share_query   |  String  | 小程序端特有，分享（收藏）页面自定义参数部分 |
 > $page_count和$duration是离线计算而非实时采集的信息，时效性是T+1天。
 
 #### 自定义属性[](#zi-ding-yi-shu-xing)
@@ -171,7 +177,14 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | 元素点击 | $view_click  | 页面上用户点击元素的事件，比如点击了“查看详情”的按钮                 |
 | 元素修改 | $view_change | 页面上用户改变元素值的事件，比如修改了下拉框值                       |
 | 表单提交 | $form_submit | 页面上用户提交表单的事件                                             |
-| 任意事件 | $anyevent    | 事件表中的所有事件抽象得到，实时计算生成                             |
+| 深度链接唤醒事件     | $ads_reengage       | 用户点击深度链接唤醒APP时触发                                   |
+| 小程序分享到朋友圈 | $mp_share_timeline  | 用户点击分享到朋友圈按钮时触发 |
+|小程序添加收藏| $mp_add_favorites|  用户点击小程序添加收藏按钮时触发   |
+|小程序分享事件 |$mp_on_share|   用户点击小程序转发分享按钮时触发  |
+|广告激活|$ads_activation| 用户下载安装 App 后，首次启动时会上报|
+|广告曝光|$ads_imp|当在投放广告平台的链接曝光（被用户看到）时，会触发$ads_imp事件|
+|广告点击 | $ads_click |用户点击投放在广告平台的链接时，会触发$ads_click事件 |
+| 任意事件 | $anyevent   | 事件表中的所有事件抽象得到，实时计算生成                             |
 
 > 关于任意事件
 > 
