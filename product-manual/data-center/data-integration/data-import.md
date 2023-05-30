@@ -11,7 +11,7 @@ sidebar_position: 2
 
 ## 功能边界或约束
 
-- 创建相应类型的数据源，使用说明请参考[数据源管理](../../../product-manual/data-center/data-integration/datasource-manage)​
+- 创建相应类型的数据源，使用说明请参考[数据源管理](../../../product-manual/data-center/data-integration/datasource/datasource-manage)​
 
 - 需要有该模块的权限，如无权限请找**管理员**开通
 
@@ -19,7 +19,7 @@ sidebar_position: 2
 
 - 匿名用户行为数据导入，需要严格按照时序导入，这样能确保新户计算逻辑准确
 
-- 用户属性：[详见预置用户属性](../../../product-manual/data-center/user-management/user-properties#预置用户属性)​
+- 用户属性：[详见预置用户属性](../../../product-manual/data-center/event-management/user-properties#预置用户属性)​
 
 ## 功能说明
 
