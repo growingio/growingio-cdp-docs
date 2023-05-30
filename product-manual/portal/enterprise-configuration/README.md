@@ -18,8 +18,8 @@ sidebar_position: 2
 
 入口1：在首页中，右上角【企业管理】按钮。‌
 
-![图 3](/img/homepage-enterprisemgt-enterance1_README.png)  
+ ![图 5](/img/shouye_README.png)  
 
 入口2：在项目内，右上角【企业管理】快捷入口。
 
-![图 1](/img/workbench-enterprisemgt-entrance2_README.png)
+![图 6](/img/gongzuotai_README.png)  

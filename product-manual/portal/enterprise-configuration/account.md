@@ -69,17 +69,19 @@ sidebar_position: 3
 
 系统将为选中账号自动生成复杂密码，不支持自定义密码。
 
-![图 7](/img/chongzhimima_account.png)  
+![图 11](/img/chongzhimima_account.png)  
+
 
 ### 加入项目
 
 * 可选择的项目范围：当前操作人可管理的项目范围。
 * 项目下可选择的空间范围：当前操作人可管理的空间范围。
 
-![图 6](/img/jiaruxiangmu_account.png)  
+![图 13](/img/jiaruxiangmu_account.png)  
+
 
 ### 删除账号
 
 账号删除后，选中帐户将无法登录。
 
-![图 5](/img/shanchuzhanghao_account.png)  
+![图 12](/img/shanchuzhanghao_account.png)  

@@ -18,10 +18,13 @@ sidebar_position: 1
 ## 功能入口[](#gong-neng-shuo-ming)
 
 入口1：首页-项目信息卡片
-![图 1](/img/portal-enterance1_README.png)  
+
+![图 6](/img/shouyexiangmuguanli_README.png)  
 
 入口2：工作台-用户登录信息卡片
-![图 2](/img/portal-enterance2_README.png)  
 
-入口3：
-![图 4](/img/portal-enterance4_README.png)
+![图 7](/img/gongzuotaixiangmuguanli_README.png)  
+
+入口3：导航栏Launcher
+
+![图 8](/img/launcherxiangmuguanli2_README.png)  

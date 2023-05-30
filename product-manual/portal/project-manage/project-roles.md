@@ -37,7 +37,7 @@ sidebar_position: 3
 * **产品系统**指客户购买商业化版本中包含的产品系统，最大可选范围：客户数据平台、智能运营、获客分析、数据中心
 * **已购应用**指客户额外增购的插件应用，如：CJA、渠道质量分析
 
-![图 5](/img/xinjianxiangmujuese_project-roles.png)  
+![图 13](/img/tianxiejichuxinxi_project-roles.png)  
 
 #### 第二步：配置产品权限
 

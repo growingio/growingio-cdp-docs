@@ -9,8 +9,6 @@ sidebar_position: 1
 
 Webhook方便企业将通知提醒发送至其它系统，如 IM工具、短信服务，邮件服务。
 
-![image.png 1](/img/portal-webhook_webhook-channel.png)  
-
 ## 功能说明
 
 ### 新建Webhook
@@ -25,13 +23,17 @@ Webhook方便企业将通知提醒发送至其它系统，如 IM工具、短信�
 
 仅未在使用中的通道才可禁用。
 
+![图 4](/img/jinyongwebhook_webhook-channel.png)  
+
+
 ### 启用Webhook
 
 可重新启用被禁用的通道。
-![图 3](/img/portal-qy_webhook-channel.png)  
+
+![图 5](/img/qiyongwebhook_webhook-channel.png)  
 
 ### 删除Webhook
 
 仅未在使用中的通道才可删除。删除后，将不在列表中展示。
 
-![图 2](/img/portal-projectlogs_project-settings.png)  
+![图 6](/img/shanchuwebhook_webhook-channel.png)  

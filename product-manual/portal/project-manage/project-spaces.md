@@ -14,8 +14,6 @@ sidebar_position: 2
 * 分配空间可用资源：产品系统、可使用的数据范围
 * 新建/删除空间
 
-![图 6](/img/xiangmukongjian_project-spaces.png)  
-
 ## 功能边界
 
 * 项目空间下，仅拥有项目管理权限的用户，无法进行空间内的管理。比如，空间成员管理。
@@ -27,14 +25,14 @@ sidebar_position: 2
 * 项目的总空间数=企业分配给项目的空间数。
 * **产品系统**指项目可用且在空间级使用的产品系统，如：增长分析、客户数据平台、智能运营
 
-![图 7](/img/xinjiankongjian_project-spaces.png)  
-
+![图 9](/img/chuangjiankongjian_project-spaces.png)  
 
 ### 查看空间详情
 
 点击空间名称，进入空间详情页。
 
-![图 4](/img/kongjianxiangqing_project-spaces.png)  
+![图 10](/img/kongjianxiangqing_project-spaces.png)  
+
 
 ### 数据权限
 
@@ -48,15 +46,14 @@ sidebar_position: 2
 >
 > * 自定义：可以自由定义使用用户属性、标签、埋点事件。
 
-以下为【用户标签】授权的示例：
+以下为【用户属性】授权的示例：
 
-![图 8](/img/shujushouquan_project-spaces.png) 
+![图 11](/img/shujuquanxian_project-spaces.png)  
+
 
 ### 移交空间负责人
 
 * 被任命的负责人，必须已经在空间中。
 * 在移交之前，需要进行当前操作人员二次身份验证。
 
-![图 5](/img/yijiaokongjianfuzeren_project-spaces.png)  
-
-
+![图 12](/img/yijiaokongjianfuzeren_project-spaces.png)  

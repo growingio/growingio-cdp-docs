@@ -13,4 +13,5 @@ sidebar_position: 5
 
 当前版本操作记录仅记录企业管理相关的操作 。
 
-![图 1](/img/portal-enterprice_operation-logs.png)  
+![图 2](/img/qiyerizhi_operation-logs.png)  
+
