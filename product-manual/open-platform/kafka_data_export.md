@@ -1,6 +1,6 @@
 ---
 id: kafka_data_export
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # kafka 订阅
