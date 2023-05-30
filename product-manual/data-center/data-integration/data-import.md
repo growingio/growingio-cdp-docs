@@ -19,7 +19,7 @@ sidebar_position: 2
 
 - 匿名用户行为数据导入，需要严格按照时序导入，这样能确保新户计算逻辑准确
 
-- 用户属性：[详见预置用户属性](../../../product-manual/data-center/event-management/user-properties/README#预置用户属性)​
+- 用户属性：[详见预置用户属性](../../../product-manual/data-center/event-management/user-properties#预置用户属性)​
 
 ## 功能说明
 
