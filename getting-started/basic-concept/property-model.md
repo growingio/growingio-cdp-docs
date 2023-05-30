@@ -71,7 +71,7 @@ GrowingIO 系统支持对[事件属性](../../product-manual/data-center/event-m
 
 用户属性创建成功后无需额外配置即可在系统中使用。
 
-配置方法：[事件属性](../../product-manual/data-center/event-management/event-property#创建事件属性)、[维度表](../../product-manual/data-center/dimension-table-management#创建维度表)​
+配置方法：[事件属性](../../product-manual/data-center/event-management/event-property#创建事件属性)、[维度表](../../product-manual/data-center/event-management/dimension-table-management#创建维度表)​
 
 ## 数据格式[](#shu-ju-ge-shi)
 
