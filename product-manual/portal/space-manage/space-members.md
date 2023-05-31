@@ -38,4 +38,4 @@ sidebar_position: 4
 
 * 成员移除后，将不可访问空间。
 
-![图 3](/img/yichuchengyuan_space-members.png)  
+![图 9](/img/yichuchengyuan_space-members.png) 

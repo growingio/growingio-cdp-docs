@@ -21,7 +21,7 @@ sidebar_position: 4
 
 :::tip
 
-若邮箱与手机号作为安全设备，无法在个人信息中直接修改
+若邮箱与手机号作为安全设备，无法在【个人信息】中直接修改
 
 :::
 
@@ -45,7 +45,10 @@ sidebar_position: 4
 
 ### Token 管理[](#zhang-hao-quan-xian)
 
-获取当前用户 token
+获取当前用户token，通过token可以
+
+- 登录圈选插件
+- 调用OpenAPI
 
 ![图 2](/img/tokenguanli_personal.png)  
 
