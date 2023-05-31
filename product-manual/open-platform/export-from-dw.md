@@ -46,10 +46,10 @@ namespace的取值默认为1，如果找不到离线数据文件请联系 Growin
 | 文件组   | 文件夹        | 文件列表                                                                                                                                  | 文件数据字典        |
 | -------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | 事件明细 | event         | part-XXXX.csv.gz                                                                                                                          | 见附录              |
-| 用户 ID  | user_id       | user_id/id\_$anonymous_user/part-XXXX.csv.gz<br/>user\_id/id\_$basic_userId/part-XXXX.csv.gz<br/>user_id/{其他自定义 ID}/part-XXXX.csv.gz | gio_id {用户 ID 值} |
-| 用户属性 | user_props    | user_props/usr\_{用户属性标识符}/part-XXXX.csv.gz                                                                                         | gio_id {用户属性值} |
-| 用户标签 | user_tags     | user_tags/tag\_{用户标签标识符}/part-XXXX.csv.gz                                                                                         | gio_id {用户标签值} |
-| 用户分群 | user_segments | user_segments/seg\_{用户分群标识符}/part-XXXX.csv.gz                                                                                         | gio_id              |
+| 用户 ID  | user_id       | user_id/id_\$anonymous_user/part-XXXX.csv.gz<br/>user_id/id_\$basic_userId/part-XXXX.csv.gz<br/>user_id/{其他自定义 ID}/part-XXXX.csv.gz | gio_id {用户 ID 值} |
+| 用户属性 | user_props    | user_props/usr_{用户属性标识符}/part-XXXX.csv.gz                                                                                         | gio_id {用户属性值} |
+| 用户标签 | user_tags     | user_tags/tag_{用户标签标识符}/part-XXXX.csv.gz                                                                                         | gio_id {用户标签值} |
+| 用户分群 | user_segments | user_segments/seg_{用户分群标识符}/part-XXXX.csv.gz                                                                                         | gio_id              |
 
 在服务器上，可以使用一些简单的 linux 命令查看导出文件的详情，以便更好地理解数据格式。
 
