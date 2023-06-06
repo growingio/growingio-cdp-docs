@@ -21,26 +21,26 @@ GET
 
 ## 公共请求参数
 
-[公共请求参数](../../open-api#公共请求参数)
+[公共请求参数](../../../open-api#公共请求参数)
 
 ## 请求参数
 
-| 名称      | 类型   | 必填 | 描述                 | 示例值        |
-| --------- | ------ | ---- | -------------------- | ------------- |
-| projectId  | String | 是   | 搜索用户所在项目ID | WlGk4Daj |
-| spaceId  | String | 是   | 搜索用户所在空间ID | VKwkPmqX |
-| identityKey  | String | 是   | 搜索的用户身份标识符 | $basic_userId |
+| 名称          | 类型   | 必填 | 描述                 | 示例值        |
+| ------------- | ------ | ---- | -------------------- | ------------- |
+| projectId     | String | 是   | 搜索用户所在项目 ID  | WlGk4Daj      |
+| spaceId       | String | 是   | 搜索用户所在空间 ID  | VKwkPmqX      |
+| identityKey   | String | 是   | 搜索的用户身份标识符 | $basic_userId |
 | identityValue | String | 是   | 搜索的用户身份值     | U3803180317   |
 
 ## 返回数据
 
-| 名称            | 类型      | 描述                             |
-| --------------- | --------- | -------------------------------- |
-| gioId           | Int       | GrowingIO 系统生成的用户标示     |
+| 名称            | 类型              | 描述                             |
+| --------------- | ----------------- | -------------------------------- |
+| gioId           | Int               | GrowingIO 系统生成的用户标示     |
 | identifications | < String , List > | 系统用户的全部用户身份值         |
-| properties      | Objective | 系统用户的全部用户属性和用户标签 |
+| properties      | Objective         | 系统用户的全部用户属性和用户标签 |
 
-## 示例 1：根据项目ID、空间ID和用户ID搜索用户
+## 示例 1：根据项目 ID、空间 ID 和用户 ID 搜索用户
 
 场景：在项目 WlGk4Daj 空间 VKwkPmqX 中搜索 **用户 ID** 为 **U3803180317** 用户的全部用户身份、用户属性和用户标签
 
@@ -73,9 +73,9 @@ curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/spaces
 }
 ```
 
-## 示例 2：根据项目ID、空间ID和设备ID搜索用户
+## 示例 2：根据项目 ID、空间 ID 和设备 ID 搜索用户
 
-场景：在项目 WlGk4Daj  空间 VKwkPmqX 中搜索 **设备 ID** 为 **X** 用户的全部用户身份、用户属性和用户标签
+场景：在项目 WlGk4Daj 空间 VKwkPmqX 中搜索 **设备 ID** 为 **X** 用户的全部用户身份、用户属性和用户标签
 
 ### 请求示例
 
