@@ -21,31 +21,31 @@ POST
 
 ## 公共请求参数
 
-[公共请求参数](../../open-api#公共请求参数)
+[公共请求参数](../../../open-api#公共请求参数)
 
 ## 请求参数
 
-| 名称      | 类型   | 必填 | 描述                 | 示例值        |
-| --------- | ------ | ---- | -------------------- | ------------- |
-| projectId  | String | 是   | 用户标签所在项目ID | WlGk4Daj |
-| spaceId  | String | 是   | 用户标签所在空间ID | VKwkPmqX 
-| tagKey | String | 是   | 用户标签标识符 | tag_rfm |
+| 名称      | 类型   | 必填 | 描述                | 示例值   |
+| --------- | ------ | ---- | ------------------- | -------- |
+| projectId | String | 是   | 用户标签所在项目 ID | WlGk4Daj |
+| spaceId   | String | 是   | 用户标签所在空间 ID | VKwkPmqX |
+| tagKey    | String | 是   | 用户标签标识符      | tag_rfm  |
 
 ## Body
 
-| 名称      | 类型   | 必填 | 描述                 | 示例值        |
-| --------- | ------ | ---- | -------------------- | ------------- |
-| properties | List | 否 | 查询的用户身份、用户属性、用户标签<br></br>最大查询60个，超过上限后查询失败 | id_$basic_userId |
-| fileFormat | String | 否 | 数据导出格式，支持导出csv或json文件<br></br>默认值为csv | csv、json |
-| csvHeaderType | String | 否 | csv文件header类型<br></br>支持设置为名称或标识符<br></br>仅当数据导出格式为csv时生效<br></br>默认类型为标识符 | name、key |
+| 名称          | 类型   | 必填 | 描述                                                                                                               | 示例值            |
+| ------------- | ------ | ---- | ------------------------------------------------------------------------------------------------------------------ | ----------------- |
+| properties    | List   | 否   | 查询的用户身份、用户属性、用户标签<br></br>最大查询 60 个，超过上限后查询失败                                      | id\_$basic_userId |
+| fileFormat    | String | 否   | 数据导出格式，支持导出 csv 或 json 文件<br></br>默认值为 csv                                                       | csv、json         |
+| csvHeaderType | String | 否   | csv 文件 header 类型<br></br>支持设置为名称或标识符<br></br>仅当数据导出格式为 csv 时生效<br></br>默认类型为标识符 | name、key         |
 
 ## 返回数据
 
-文件名称：{群体画像名称}_{下载日期}_UserList
+文件名称：{群体画像名称}\_{下载日期}\_UserList
 
 数据格式：
 
-- fileFormat: csv  csvHeaderType: key
+- fileFormat: csv csvHeaderType: key
 
 ```csv
 "gio_id","id_$basic_userId","usr_gender","tag_rfm",...
@@ -53,7 +53,7 @@ POST
 ...
 ```
 
-- fileFormat: csv  csvHeaderType: name
+- fileFormat: csv csvHeaderType: name
 
 ```csv
 "gio_id","用户ID","性别","会员等级",...
@@ -70,7 +70,7 @@ POST
 
 ## 示例 1：下载用户标签覆盖用户列表，并输入用户身份、用户属性、用户标签
 
-场景：下载 用户标签 **tag_rfm** 的用户ID、性别、RFM标签
+场景：下载 用户标签 **tag_rfm** 的用户 ID、性别、RFM 标签
 
 ### 提交下载请求
 
@@ -93,11 +93,10 @@ curl --location --request POST 'http://{api-host}/v1/api/projects/WlGk4Daj/space
 
 Response:
 
-
 ```json
 {
-    "id": "kqQeWeGr",           // 下载任务ID
-    "name": "DES-202205240136-5818534160000"
+  "id": "kqQeWeGr", // 下载任务ID
+  "name": "DES-202205240136-5818534160000"
 }
 ```
 
@@ -114,10 +113,10 @@ Response:
 
 ```json
 {
-    "stage": "FINISH",
-    "uris": [
-        "%2Fjobs%2Fresults%2FDES-202205240136-5818534160000%2Fzxm_%E7%94%A8%E6%88%B7_%E5%AD%97%E7%AC%A6%E4%B8%B2_%E5%8A%A0%E5%AF%86_2022-04-26_UserList.csv"   // 下载地址
-    ]
+  "stage": "FINISH",
+  "uris": [
+    "%2Fjobs%2Fresults%2FDES-202205240136-5818534160000%2Fzxm_%E7%94%A8%E6%88%B7_%E5%AD%97%E7%AC%A6%E4%B8%B2_%E5%8A%A0%E5%AF%86_2022-04-26_UserList.csv" // 下载地址
+  ]
 }
 ```
 
@@ -154,11 +153,10 @@ curl --location --request POST 'http://{api-host}/v1/api/projects/WlGk4Daj/space
 
 Response:
 
-
 ```json
 {
-    "id": "kqQeWeGr",           // 下载任务ID
-    "name": "DES-202205240136-5818534160000"
+  "id": "kqQeWeGr", // 下载任务ID
+  "name": "DES-202205240136-5818534160000"
 }
 ```
 
@@ -175,10 +173,10 @@ Response:
 
 ```json
 {
-    "stage": "FINISH",
-    "uris": [
-        "%2Fjobs%2Fresults%2FDES-202205240136-5818534160000%2Fzxm_%E7%94%A8%E6%88%B7_%E5%AD%97%E7%AC%A6%E4%B8%B2_%E5%8A%A0%E5%AF%86_2022-04-26_UserList.json"   // 下载地址
-    ]
+  "stage": "FINISH",
+  "uris": [
+    "%2Fjobs%2Fresults%2FDES-202205240136-5818534160000%2Fzxm_%E7%94%A8%E6%88%B7_%E5%AD%97%E7%AC%A6%E4%B8%B2_%E5%8A%A0%E5%AF%86_2022-04-26_UserList.json" // 下载地址
+  ]
 }
 ```
 
