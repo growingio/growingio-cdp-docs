@@ -1,6 +1,6 @@
 ---
 id: project-compute-user-tag
-sidebar_position: 5
+sidebar_position: 7
 ---
 
 # 用户标签更新

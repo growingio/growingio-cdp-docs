@@ -1,6 +1,6 @@
 ---
 id: space-search-user-tags
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # 用户标签列表查询

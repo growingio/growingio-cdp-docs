@@ -1,6 +1,6 @@
 ---
 id: space-search-segment-profiles
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # 群体画像列表查询

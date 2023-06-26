@@ -1,6 +1,6 @@
 ---
 id: space-segment-api-downloads-detail
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 # 群组授权任务明细数据查询

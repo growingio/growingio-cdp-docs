@@ -1,6 +1,6 @@
 ---
 id: space-compute-segment-profile
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # 群体画像更新

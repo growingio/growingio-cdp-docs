@@ -1,6 +1,6 @@
 ---
 id: space-download-segment-profile-users
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # 群体画像用户列表下载
