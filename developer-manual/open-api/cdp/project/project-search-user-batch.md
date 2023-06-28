@@ -1,5 +1,5 @@
 ---
-id: project-search-user
+id: project-search-user-batch
 sidebar_position: 6
 ---
 
@@ -25,26 +25,26 @@ POST
 
 ## 请求参数
 
-| 名称          | 类型   | 必填 | 描述                 | 示例值        |
-| ------------- | ------ | ---- | -------------------- | ------------- |
-| projectId     | String | 是   | 搜索用户所在项目 ID  | WlGk4Daj      |
-| tagKey   | String | 是   | 搜索的用户标签的标识符| tag_123 |
-| identityKey   | String | 是   | 搜索的用户身份| $basic_userId |
-| identityValues | List | 是   | 搜索的多个用户ID，支持最多1000个用户     |  ["u001","u002"] |
+| 名称           | 类型   | 必填 | 描述                                    | 示例值          |
+| -------------- | ------ | ---- | --------------------------------------- | --------------- |
+| projectId      | String | 是   | 搜索用户所在项目 ID                     | WlGk4Daj        |
+| tagKey         | String | 是   | 搜索的用户标签的标识符                  | tag_123         |
+| identityKey    | String | 是   | 搜索的用户身份                          | $basic_userId   |
+| identityValues | List   | 是   | 搜索的多个用户 ID，支持最多 1000 个用户 | ["u001","u002"] |
 
 ## 返回数据
 
-| 名称            | 类型              | 描述                             |
-| --------------- | ----------------- | -------------------------------- |
-| totalCount           | Int               | 返回条数     |
-| values | List | 返回批量用户数据        |
+| 名称       | 类型 | 描述             |
+| ---------- | ---- | ---------------- |
+| totalCount | Int  | 返回条数         |
+| values     | List | 返回批量用户数据 |
 
-### 返回数据values中用户数据的结构
-| 名称            | 类型              | 描述                             |
-| --------------- | ----------------- | -------------------------------- |
-| identityValue           | String               | 用户ID     |
-| tagValue | Object | 用户标签值        |
+### 返回数据 values 中用户数据的结构
 
+| 名称          | 类型   | 描述       |
+| ------------- | ------ | ---------- |
+| identityValue | String | 用户 ID    |
+| tagValue      | Object | 用户标签值 |
 
 ## 示例 1：根据项目 ID 和用户 ID 搜索用户
 
@@ -61,15 +61,12 @@ curl --location --request GET 'http://{api-host}/cdp/api/v2/projects/WlGk4Daj/ta
 
 ```json
 {
-    "totalCount":1,
-    "values":[
-        {
-            "identityValue":"u001",
-            "tagValue":[
-                "26"
-            ]
-        }
-    ]
+  "totalCount": 1,
+  "values": [
+    {
+      "identityValue": "u001",
+      "tagValue": ["26"]
+    }
+  ]
 }
 ```
-
