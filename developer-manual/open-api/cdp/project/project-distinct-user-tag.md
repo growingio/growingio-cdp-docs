@@ -1,5 +1,5 @@
 ---
-id: project-search-user
+id: project-distinct-user-tag
 sidebar_position: 5
 ---
 
@@ -25,18 +25,18 @@ GET
 
 ## 请求参数
 
-| 名称          | 类型   | 必填 | 描述                 | 示例值        |
-| ------------- | ------ | ---- | -------------------- | ------------- |
-| projectId     | String | 是   | 搜索用户所在项目 ID  | WlGk4Daj      |
-| tagKey   | String | 是   | 搜索的用户标签的标识符| tag_123 |
-| limit | Int | 否   | 最大返回条数。默认100，最大值1000     | 100  |
+| 名称      | 类型   | 必填 | 描述                                | 示例值   |
+| --------- | ------ | ---- | ----------------------------------- | -------- |
+| projectId | String | 是   | 搜索用户所在项目 ID                 | WlGk4Daj |
+| tagKey    | String | 是   | 搜索的用户标签的标识符              | tag_123  |
+| limit     | Int    | 否   | 最大返回条数。默认 100，最大值 1000 | 100      |
 
 ## 返回数据
 
-| 名称            | 类型              | 描述                             |
-| --------------- | ----------------- | -------------------------------- |
-| totalCount           | Int               | 返回条数     |
-| values | List  | 返回值         |
+| 名称       | 类型 | 描述     |
+| ---------- | ---- | -------- |
+| totalCount | Int  | 返回条数 |
+| values     | List | 返回值   |
 
 ## 示例：根据项目 ID 和 用户标签=性别 搜索该标签的所有枚举值
 
@@ -57,4 +57,3 @@ curl --location --request GET 'http://{api-host}/cdp/api/v2/projects/WlGk4Daj/ta
     ]
 }
 ```
-
