@@ -13,8 +13,8 @@ Webhook方便企业将通知提醒发送至其它系统，如 IM工具、短信�
 
 ### 新建Webhook
 
-请求地址：接收推送数据的接口地址。
-秘钥：Webhook推送数据时，放在请求头的关键数据。
+- 请求地址：接收推送数据的接口地址。
+- 密钥：Webhook推送数据时，放在请求头的关键数据。
 
 ![图 16](/img/d3529f8193cae5d0f0ceb42abc984847d003fbd4501224118b59466e6f6b5db1.png)
 
@@ -42,11 +42,13 @@ Webhook方便企业将通知提醒发送至其它系统，如 IM工具、短信�
 
 ## WebHook推送数据格式说明
 
-1. WebHook request headers 包含以下关键数据
+WebHook request headers 包含：
 
-X-GIO-Token: "***" # 在 Webhook 通道内设置的密钥
+```
+ X-GIO-Token: "***" // 在 Webhook 通道内设置的密钥
+```
 
-2. Request Payload以下是推送的示范数据（仅供参考，请以实际收到的数据为准）。
+2、 Request Payload以下是推送的示范数据（仅供参考，请以实际收到的数据为准）。
 
 ```json
 
