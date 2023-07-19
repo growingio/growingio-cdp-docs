@@ -25,6 +25,11 @@ Growing增长平台产品为了能在不同资源配置的硬件上，针对不�
 | realtime_event_timelimit | 2 | 数据校验->事件实时查询 查询近期事件的周期，默认近2小时。单位：小时 |
 | session_history_days | 180 | 元数据管理->Session管理，创建自定义Session时支持回溯历史数据的周期。单位：天 |
 | session_event_limit | 5 | 元数据管理->Session管理，创建自定义Session时支持选用的事件数量。单位：个 |
+| number_unit | 无 | 数值型属性的单位枚举值 |
+| realtime_tag_maxdays | 7 | 客户数据平台->实时标签的时间段长度限制。单位：天 |
+| realtime_tag_maxnum | 10 | 客户数据平台->实时标签的创建数量限制。单位：个 |
+| ltv_tag_compute_time_maxnum | 7200 | 客户数据平台->LTV预测标签计算任务超时的限制。单位：秒 |
+| basic_userid_segment_enabled | false | 增长分析中开启注册用户的预置分群 |
 
 注：更多参数请联系技术支持咨询。
 
